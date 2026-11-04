@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf8">
+  <meta name="description" content="study. — tvůj kalendář, studijní materiály a procvičování na jednom místě.">
+  <title>study. — Studuj v klidu.</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Přejít na obsah</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#/" aria-label="study. — Kalendář">study<span>.</span></a>
+      <nav class="main-nav" aria-label="Hlavní navigace">
+        <a href="#/" data-nav="calendar"><span data-icon="calendar"></span>Kalendář</a>
+        <a href="#/subjects" data-nav="subjects"><span data-icon="grid"></span>Předměty</a>
+        <a href="#/practice" data-nav="practice"><span data-icon="layers"></span>Procvičování</a>
+      </nav>
+      <div class="header-note"><span class="status-dot"></span>Prostor pro soustředění</div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer"><a href="#/" class="footer-brand">study.</a><span>Malé kroky. Velké pokroky.</span><span>Tvůj postup se ukládá v tomto prohlížeči.</span></footer>
+  <noscript>Pro zobrazení kalendáře a procvičování zapni JavaScript.</noscript>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Orientační schéma lopatky zezadu">
+<title>Lopatka zezadu</title><desc>Samostatná lopatka v zadním pohledu bez překrytí žebry. Schéma zjednodušuje drobné povrchové útvary.</desc>
+<defs>
+<linearGradient id="scapula-ivory" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf3"/><stop offset=".6" stop-color="#f3ecdc"/><stop offset="1" stop-color="#d9ceb6"/></linearGradient>
+<style>.bone{fill:url(#scapula-ivory);stroke:#998b71;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}.detail{fill:none;stroke:#b6a78d;stroke-width:1.6;stroke-linecap:round}.cavity{fill:#e0d6c0;stroke:#a7987d;stroke-width:2}</style>
+</defs>
+<g data-bone="lopatka"><path class="bone" d="M141 141 Q148 120 163 119 Q218 133 296 143 Q315 151 321 176 L329 210 Q302 231 278 284 L221 413 Q210 439 196 430 Q181 412 172 360 Q149 266 143 211 Z"/><path class="detail" d="M157 154 Q203 158 265 161 M168 247 Q207 227 269 211 M177 263 Q216 241 262 229 M183 284 Q210 264 245 252 M192 309 Q210 291 230 279 M201 342 L218 311"/><path class="cavity" d="M319 178 Q335 173 344 188 Q352 205 340 221 Q331 230 322 218 L313 194 Z"/><path class="detail" d="M156 170 L159 196 M186 366 L205 409"/></g>
+<g data-bone="hreben-lopatky"><path class="bone" d="M143 208 Q196 192 252 173 Q285 162 312 158 L337 171 Q298 181 262 193 Q204 213 148 226 Z"/><path class="detail" d="M151 215 Q215 197 274 177 Q298 170 318 168"/></g>
+<g data-bone="nadpazek"><path class="bone" d="M308 158 Q324 133 347 121 Q366 111 387 124 Q397 134 391 145 Q371 157 337 171 L319 169 Z"/><path class="detail" d="M334 145 Q360 126 380 131"/></g>
+</svg>
