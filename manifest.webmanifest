@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "study.",
+  "short_name": "study.",
+  "description": "Tvůj kalendář, studijní podklady a procvičování. I bez připojení.",
+  "lang": "cs",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fafaf8",
+  "theme_color": "#fafaf8",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

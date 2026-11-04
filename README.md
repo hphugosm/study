@@ -9,6 +9,16 @@ Minimalistická studijní aplikace: školní kalendář, Law a Biologie ve spole
 
 Rozhraní je přizpůsobené především iPhonu: stálá horní lišta se šipkami zpět/vpřed, hlavní navigace dole, dotykové cíle 44–48 px, čitelné vstupy bez automatického přibližování a rezervy pro výřez i spodní indikátor. Předmět má vlastní přehled témat: návrat z Kosterní soustavy vede na Biologii a potom do kalendáře. Platí to i pro přímé odkazy; historie funguje i po obnovení stránky.
 
+V patičce najdeš **Nastavení**: instalaci na plochu iPhonu, skutečný offline režim, světlý/tmavý/papírový motiv nebo vzhled podle telefonu, čtyři barevné akcenty, větší studijní text a zálohu postupu s bezpečným importem. Tyto volby se promítají i do obou studijních modulů. Hlavní navigace zůstává jednoduchá.
+
+## Na ploše iPhonu a bez internetu
+
+Otevři [Nastavení](https://hphugosm.github.io/study/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study. potom otevírá vlastní okno aplikace.
+
+Po prvním otevření s připojením se automaticky uloží všechny části webu, oba předměty, obrázky i tři PDF (přibližně 5,4 MiB). V nastavení počkej na **Připraveno offline**. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. K procvičování pak není potřeba internet ani předchozí návštěva konkrétního předmětu. Nová verze se nabídne v nastavení a sama nepřeruší rozehraný test.
+
+Podrobnosti, aktualizace a provozní omezení jsou v [návodu k PWA](docs/pwa.md). Zálohy a nastavení jsou místní, bez účtu a cloudového přenosu.
+
 ## Spuštění
 
 Node.js 22 nebo novější:
@@ -27,6 +37,8 @@ node scripts/serve.mjs --dist
 ```
 
 Výstup `dist/` lze nasadit na libovolný statický hosting i do podadresáře. Hash routing umožňuje přímé odkazy bez serverových přepisů. GitHub Actions automaticky sestavuje a publikuje `main` na GitHub Pages.
+
+Plný offline režim lokálně testuj ze sestaveného `dist/` pomocí `node scripts/serve.mjs --dist`. Zdrojový server bez sestavení nemá vygenerovaný offline balíček; běžné studijní funkce fungují i tam.
 
 Pro browser testy:
 
@@ -54,7 +66,13 @@ Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. J
 src/data.js             Subject, Study Unit, Event a registr modulů
 src/app.js              společná navigace, kalendář, jednotky, materiály, postup
 src/calendar.js         datumové funkce a tvorba měsíce
+src/settings.js         nenápadné nastavení, návod instalace, offline stav a zálohy
+src/preferences.js      bezpečně uložený vzhled a reakce na režim telefonu
+src/backup.js           validace a sloučení místních záloh postupu
+src/pwa.js              stav offline režimu, instalace a explicitní aktualizace
 styles.css              společný minimalistický vzhled
+themes.css/settings.css barevné motivy a nastavení
+sw.js/manifest.webmanifest samostatná aplikace a ověřené offline podklady
 modules/law/            izolovaný úplný Law modul, data, PDF
 modules/biology/        izolovaný úplný biology modul, obrázky, PDF, upstream testy
 templates/              příklad přidání předmětu / jednotky / testu
@@ -69,5 +87,7 @@ Přidání předmětu a testu je popsáno v [návodu k rozšíření](docs/exten
 ## Ukládání postupu
 
 Law používá `study:law:progress:v1`; Biologie prefix `study:biology:`. Při prvním použití se čtou a kopírují rozpoznané původní klíče ze stejného originu. Původní klíče se nikdy nepřepisují ani nemažou. localStorage se mezi doménami ani zařízeními automaticky nepřenáší; více GitHub Pages projektů pod `hphugosm.github.io` origin sdílí. Při blokovaném úložišti je možné studovat, výsledky však nemusí přežít zavření stránky.
+
+V nastavení lze stáhnout JSON zálohu postupu. Import nejprve ověří formát a ukáže počty záznamů; teprve po potvrzení sloučí kartičky a výsledky. Neznámé klíče se odmítnou, starší data se nemažou a rozpracovaná mapa se nepřepisuje. Vzhled používá samostatný klíč `study:preferences:v1`.
 
 Zdrojové aplikace: [us-law-casebook](https://github.com/hphugosm/us-law-casebook), [kostra-procvicovani](https://github.com/hphugosm/kostra-procvicovani). Úplné dostupné materiály a jejich označení původu jsou zachované.

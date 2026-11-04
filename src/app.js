@@ -2,6 +2,9 @@ import {subjects,units,events,getSubject,getUnit,eventContext,eventTypes,moduleL
 import {calendarDays,pragueToday,parseDate} from './calendar.js';
 import {icon} from './icons.js';
 import {createNavigation,routeInfo} from './navigation.js';
+import {initPreferences} from './preferences.js';
+import {mountSettings} from './settings.js';
+import {initPwa} from './pwa.js';
 
 const main = document.querySelector('main');
 const today = pragueToday();
@@ -140,10 +143,11 @@ async function route({scroll=0,restore=false}={}) {
   const params=new URLSearchParams(search);
   document.title='study. — Studuj v klidu.';
   const section=segments[0];
-  document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===(section==='practice'?'practice':section?'subjects':'calendar');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+  document.querySelectorAll('[data-nav]').forEach(a=>{const active=section!=='settings'&&a.dataset.nav===(section==='practice'?'practice':section?'subjects':'calendar');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
   if(!section)renderCalendar();
   else if(section==='subjects'&&!segments[1])renderSubjects();
   else if(section==='practice')renderPractice();
+  else if(section==='settings') {document.title='Nastavení — study.';cleanupModule=mountSettings(main);}
   else if(section==='events'||section==='units'||section==='subjects') {
     const event=section==='events'?events.find(e=>e.id===segments[1]):null;
     const subjectUnits=section==='subjects'?units.filter(u=>u.subjectId===segments[1]):[];
@@ -169,4 +173,6 @@ const navigation=createNavigation(state=>{
 });
 backButton.onclick=()=>navigation.back();
 forwardButton.onclick=()=>navigation.forward();
+initPreferences();
 navigation.start();
+initPwa().catch(error=>console.info('Offline příprava zatím není dostupná.',error));

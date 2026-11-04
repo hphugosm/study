@@ -4,10 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#fafaf8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="study.">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="description" content="study. — tvůj kalendář, studijní materiály a procvičování na jednom místě.">
   <title>study. — Studuj v klidu.</title>
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+  <script>
+    try {
+      const p = JSON.parse(localStorage.getItem('study:preferences:v1') || '{}');
+      const t = ['light','dark','paper'].includes(p?.theme) ? p.theme : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.dataset.accent = ['sage','blue','plum','amber'].includes(p?.accent) ? p.accent : 'sage';
+      document.documentElement.dataset.largeText = String(p?.largerText === true);
+      document.documentElement.style.colorScheme = t === 'dark' ? 'dark' : 'light';
+    } catch {}
+  </script>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./themes.css">
+  <link rel="stylesheet" href="./settings.css">
   <script type="module" src="./src/app.js"></script>
 </head>
 <body>
@@ -28,7 +46,7 @@
     </div>
   </header>
   <main id="main" tabindex="-1"></main>
-  <footer class="site-footer"><a href="#/" class="footer-brand">study.</a><span>Malé kroky. Velké pokroky.</span><span>Tvůj postup se ukládá v tomto prohlížeči.</span></footer>
+  <footer class="site-footer"><a href="#/" class="footer-brand">study.</a><span>Malé kroky. Velké pokroky.</span><a class="settings-link" href="#/settings"><span data-icon="settings"></span>Nastavení</a><span>Tvůj postup se ukládá v tomto zařízení.</span></footer>
   <noscript>Pro zobrazení kalendáře a procvičování zapni JavaScript.</noscript>
 </body>
 </html>

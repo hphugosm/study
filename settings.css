@@ -1,0 +1,126 @@
+.settings-link { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding-inline: 6px; margin-left: auto; font-size: 12px; color: var(--study-muted); }
+.settings-link .icon { width: 16px; height: 16px; }
+.site-footer > span:last-child { margin-left: 0; }
+.settings-layout { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 22px; align-items: start; }
+.settings-card { padding: 28px; border: 1px solid var(--study-line); border-radius: 15px; background: var(--study-surface); min-width: 0; }
+.settings-side { display: grid; gap: 20px; }
+.settings-section-heading { display: flex; align-items: center; gap: 13px; margin-bottom: 23px; }
+.settings-section-heading > .icon { width: 24px; height: 24px; color: var(--study-accent); }
+.settings-section-heading h2 { font-size: 21px; line-height: 1.3; color: var(--study-text); }
+.settings-section-heading p { font-size: 12px; color: var(--study-muted); margin-top: 5px; line-height: 1.5; }
+.settings-fieldset { padding: 0; border: 0; margin: 0 0 29px; min-width: 0; }
+.settings-fieldset legend { font-size: 13px; font-weight: 550; color: var(--study-text); margin-bottom: 13px; padding: 0; }
+.theme-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.theme-option { border: 1px solid var(--study-line); border-radius: 11px; padding: 14px; display: flex; position: relative; flex-direction: column; gap: 5px; min-width: 0; cursor: pointer; min-height: 131px; }
+.theme-option:has(input:checked), .accent-option:has(input:checked) { border-color: var(--study-accent); box-shadow: inset 0 0 0 1px var(--study-accent); background: var(--study-accent-soft); }
+.theme-option:has(input:focus-visible), .accent-option:has(input:focus-visible), .settings-toggle:has(input:focus-visible) { outline: 2px solid var(--study-accent); outline-offset: 4px; }
+.theme-option input { position: absolute; top: 14px; right: 13px; width: 17px; height: 17px; min-height: 0; margin: 0; accent-color: var(--study-accent); }
+.theme-option strong { font-size: 13px; font-weight: 550; color: var(--study-text); margin-top: 6px; line-height: 1.5; }
+.setting-help { font-size: 12px; line-height: 1.7; color: var(--study-muted); display: block; }
+.theme-preview { width: 60px; height: 38px; border: 1px solid #d9dfd1; border-radius: 7px; display: flex; flex-direction: column; justify-content: center; padding: 7px 8px; gap: 4px; background: #fcfdf8; }
+.theme-preview i { height: 3px; width: 32px; border-radius: 2px; background: #c7d1bd; }
+.theme-preview i:last-child { width: 20px; }
+.theme-preview.dark { background: #222921; border-color: #52604b; }
+.theme-preview.dark i { background: #728466; }
+.theme-preview.paper { background: #f9f0df; border-color: #d8c8ad; }
+.theme-preview.paper i { background: #c3ad8e; }
+.theme-preview.system { background: #f9faf5; border-right: 24px solid #293026; }
+.theme-preview.system i { width: 18px; }
+.theme-preview.system i:last-child { width: 10px; }
+.accent-options { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 9px; }
+.accent-option { display: flex; align-items: center; justify-content: center; flex-direction: column; min-height: 78px; gap: 8px; position: relative; border: 1px solid var(--study-line); border-radius: 10px; padding: 12px 5px; font-size: 11px; color: var(--study-text); cursor: pointer; }
+.accent-option input { position: absolute; width: 16px; height: 16px; min-height: 0; margin: 0; inset: 17px auto auto calc(50% - 8px); opacity: 0; }
+.accent-swatch { width: 23px; height: 23px; border-radius: 50%; background: var(--swatch); pointer-events: none; }
+.accent-option:has(input:checked) .accent-swatch { outline: 2px solid var(--study-surface); box-shadow: 0 0 0 3px var(--swatch); }
+.settings-toggle { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 20px 0; min-height: 78px; border-top: 1px solid var(--study-line); border-bottom: 1px solid var(--study-line); cursor: pointer; }
+.settings-toggle > span { display: flex; gap: 12px; align-items: center; }
+.settings-toggle .icon { width: 22px; height: 22px; color: var(--study-accent); }
+.settings-toggle strong { font-weight: 550; font-size: 14px; display: block; margin-bottom: 4px; color: var(--study-text); }
+.settings-toggle input { appearance: none; -webkit-appearance: none; border: 1px solid var(--study-line); border-radius: 20px; background: var(--study-soft); width: 46px; min-width: 46px; height: 28px; min-height: 28px; position: relative; cursor: pointer; }
+.settings-toggle input::after { content: ''; position: absolute; left: 3px; top: 3px; height: 20px; width: 20px; border-radius: 50%; background: var(--study-muted); }
+.settings-toggle input:checked { background: var(--study-accent); border-color: var(--study-accent); }
+.settings-toggle input:checked::after { left: 21px; background: var(--study-accent-ink); }
+.settings-card-footer { display: flex; align-items: center; gap: 12px; justify-content: space-between; margin-top: 17px; }
+.settings-card-footer > span { font-size: 10px; color: var(--study-muted); line-height: 1.6; }
+.settings-card-footer .text-link { min-height: 44px; white-space: nowrap; color: var(--study-accent); }
+.settings-description { font-size: calc(14px * var(--study-text-scale)); line-height: 1.75; color: var(--study-muted); margin-bottom: 22px; }
+.settings-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.settings-card .button { min-height: 46px; font-size: 12px; color: var(--study-text); border-color: var(--study-line); background: var(--study-surface); }
+.settings-card .button.primary, .install-dialog .button.primary { background: var(--study-accent); border-color: var(--study-accent); color: var(--study-accent-ink); }
+.settings-card .text-link { color: var(--study-accent); min-height: 44px; font-size: 12px; }
+.settings-card button:disabled { opacity: .55; cursor: default; }
+.app-icon-preview { display: grid; place-items: center; position: relative; width: 47px; height: 47px; border-radius: 12px; background: #232722; color: #fff; font-size: 37px; font-weight: 700; letter-spacing: -3px; line-height: 1; padding-bottom: 4px; padding-right: 5px; flex-shrink: 0; }
+.app-icon-preview > span { position: absolute; color: #bdd6a7; font-size: 29px; right: 6px; bottom: 5px; }
+.offline-status { color: var(--study-text); font-size: 15px; font-weight: 550; margin-bottom: 7px; display: flex; gap: 8px; align-items: center; }
+.offline-status::before { content: ''; width: 6px; height: 6px; flex-shrink: 0; border-radius: 50%; background: var(--study-muted); }
+.offline-status[data-ready="true"]::before { background: var(--study-accent); }
+.offline-settings .settings-actions { margin-top: 22px; gap: 10px 16px; }
+#pwa-action-status, #backup-status { margin-top: 14px; }
+.backup-settings { grid-column: 1 / -1; }
+.backup-settings .settings-description { max-width: 730px; }
+.backup-review { background: var(--study-soft); padding: 19px; margin-top: 20px; border-radius: 10px; border: 1px solid var(--study-line); }
+.backup-review p { font-size: 14px; color: var(--study-text); margin-bottom: 15px; line-height: 1.7; }
+.backup-review .text-link { margin-left: 14px; }
+[hidden] { display: none !important; }
+.install-dialog { width: min(100% - 32px, 470px); max-height: calc(100dvh - 40px); padding: 27px; border: 1px solid var(--study-line); border-radius: 20px; color: var(--study-text); background: var(--study-surface); overflow: auto; overscroll-behavior: contain; }
+.install-dialog::backdrop { background: #101b13aa; }
+.install-dialog-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 25px; }
+.dialog-close { display: grid; place-items: center; width: 44px; height: 44px; font-size: 29px; color: var(--study-muted); background: var(--study-soft); border-radius: 50%; }
+.install-dialog .eyebrow { color: var(--study-accent); font-size: 10px; }
+.install-dialog h2 { font-size: 30px; line-height: 1.2; }
+.install-steps { list-style: none; padding: 0; margin: 27px 0 23px; display: grid; gap: 23px; }
+.install-steps li { display: flex; gap: 14px; align-items: flex-start; }
+.install-steps li > span { display: grid; place-items: center; width: 33px; height: 33px; border-radius: 9px; background: var(--study-accent-soft); color: var(--study-accent); font-size: 13px; flex-shrink: 0; }
+.install-steps strong { font-size: 14px; font-weight: 550; }
+.install-steps p { font-size: 13px; color: var(--study-muted); line-height: 1.7; margin-top: 5px; }
+.install-steps b { color: var(--study-text); font-weight: 550; }
+.install-offline-note { display: flex; gap: 12px; align-items: flex-start; background: var(--study-soft); border-radius: 12px; padding: 16px; }
+.install-offline-note .icon { color: var(--study-accent); margin-top: 3px; }
+.install-offline-note p { font-size: 12px; line-height: 1.7; color: var(--study-muted); }
+.install-offline-note strong { color: var(--study-text); }
+.install-dialog > .text-link { margin: 10px 0; min-height: 44px; color: var(--study-accent); font-size: 12px; }
+.install-dialog > .button { width: 100%; min-height: 48px; font-size: 14px; }
+
+@media (max-width: 900px) {
+  .settings-link { font-size: 12px; margin-left: auto; }
+  .settings-layout { grid-template-columns: minmax(0, 1fr); gap: 17px; }
+  .settings-side { gap: 17px; }
+  .settings-card { padding: 22px 19px; }
+  .settings-section-heading { margin-bottom: 24px; gap: 12px; }
+  .settings-section-heading h2 { font-size: 21px; }
+  .settings-section-heading p { font-size: 13px; }
+  .settings-fieldset legend { font-size: 15px; margin-bottom: 14px; }
+  .theme-option { padding: 15px; min-height: 140px; }
+  .theme-option input { width: 18px; height: 18px; }
+  .theme-option strong { font-size: 14px; }
+  .theme-option .setting-help { font-size: 12px; }
+  .setting-help { font-size: 13px; line-height: 1.7; }
+  .accent-option { font-size: 12px; min-height: 82px; }
+  .settings-toggle strong { font-size: 16px; }
+  .settings-card .button { min-height: 48px; font-size: 14px; }
+  .settings-card .text-link { font-size: 13px; }
+  .settings-card-footer { align-items: flex-start; }
+  .settings-card-footer > span { font-size: 11px; margin-top: 9px; }
+  .settings-card-footer .text-link { font-size: 11px; }
+  .settings-description { font-size: calc(15px * var(--study-text-scale)); }
+  .offline-status { font-size: 16px; }
+  .backup-settings { grid-column: auto; }
+  .backup-review { padding: 16px; }
+  .install-dialog { width: calc(100% - 24px); max-height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 24px); padding: 23px 20px; }
+  .install-dialog h2 { font-size: 28px; }
+  .install-steps p { font-size: 14px; }
+  .install-steps strong { font-size: 15px; }
+  .install-offline-note p { font-size: 13px; }
+  .install-dialog > .text-link { font-size: 13px; }
+}
+@media (max-width: 359px) {
+  .settings-card { padding: 21px 15px; }
+  .theme-option { padding: 12px; }
+  .theme-option strong { font-size: 13px; }
+  .theme-option .setting-help { font-size: 11px; }
+  .theme-preview { width: 51px; }
+  .accent-options { gap: 6px; }
+  .accent-option { font-size: 11px; }
+  .settings-toggle > span { gap: 8px; }
+  .settings-toggle .setting-help { font-size: 12px; }
+}

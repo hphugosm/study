@@ -2,6 +2,14 @@
 
 study. je jeden statický web postavený na ES modulech. Pro společný shell není potřeba framework ani bundler: starší aplikace mohou zachovat své osvědčené chování a web nemá síťové závislosti na CDN. `npm run build` vytvoří přenositelný `dist/`.
 
+## Instalace, offline a vzhled
+
+Manifest a Apple touch ikona umožňují samostatné okno po přidání na plochu. `src/pwa.js` registruje service worker z rozsahu stejného projektu. Build vytvoří verzi ze SHA-256 obsahu nasazovaných souborů a seznam všech potřebných URL. Service worker stáhne a ověří celý balíček, včetně dosud nenavštívených modulů a PDF, do vlastní cache. Nepoužívá cizí scope ani nemaže localStorage. Aktualizace čekají na výslovnou akci uživatele; dokumenty jiné verze se nemíchají se starými skripty. Podrobný kontrakt a skutečný test přechodu verzí jsou v [PWA](pwa.md).
+
+`src/preferences.js` ukládá pouze tři validované volby do `study:preferences:v1`: motiv, akcent a větší text. Automatický motiv reaguje na změny nastavení systému. Malý synchronní bootstrap v hlavě dokumentu aplikuje uložený motiv před vykreslením; `themes.css` potom poskytuje zděděné barevné proměnné. Oba Shadow DOM moduly je používají přímo, bez `:host-context` nebo přepisování globálního DOM. Originální obrázky a anatomické podklady mají nadále čitelný světlý podklad.
+
+`src/backup.js` exportuje a validuje známé typy studijního postupu. Import po samostatném potvrzení v UI slučuje záznamy; před zápisem se validuje celý obsah a při chybě úložiště se dokončené zápisy vracejí. Neznámé klíče ani vzhled se ze zálohy do aplikace nepřebírají. Nastavení je samostatná route `#/settings` s odkazem pouze v patičce.
+
 ## Datový model
 
 `Subject` nese identitu, barvu, ikonu a popis. `Study Unit` odkazuje na Subject a obsahuje vlastní téma, poznámky, materiály a volitelný interaktivní modul. `Event` nese datum, typ a odkaz na Study Unit. Vazby jsou N jednotek na 1 předmět a N událostí na 1 jednotku. Vztahy se kontrolují před sestavením.

@@ -1,5 +1,24 @@
 # Ověření dema study.
 
+## PWA, offline režim a nastavení: lokální sestavení
+
+Finální sestavení na `http://127.0.0.1:4181` prošlo **89/89 browserovými a HTTP testy** (45,5 s). Sada obsahuje předchozích 67 kontrol a 22 nových kontrol PWA a nastavení v desktopovém Chromiu, mobilním Chromiu a Safari WebKitu s emulací iPhonu. Kontroly Safari návodu běží pouze v Safari. **23/23 Node testů prošlo** při souhrnné kontrole projektu.
+
+Nově ověřeno:
+
+- Manifest se samostatným zobrazením, správným `scope` a `start_url`, ikonami 192/512 px a iPhone metadaty i ikonou pro plochu.
+- Nastavení dostupné z patičky, bez další položky v hlavní navigaci. Uložení zvoleného vzhledu, akcentu a většího textu přežije reload.
+- Skutečně vykreslené světlé, tmavé a papírové pozadí a text společného prostředí i obou izolovaných studijních modulů. Systémový motiv reaguje na změnu barevného režimu prohlížeče; větší text zvětší skutečný výukový odstavec Law.
+- Přístupný dialog s ručním postupem instalace v Safari: Sdílet, Přidat na plochu, Otevřít jako webovou aplikaci, Přidat.
+- **Studený offline scénář v každém ze tří prohlížečů**: nový kontext navštíví pouze kalendář, počká na skutečné dokončení instalace a stav `offlineReady`, vypne síť a následně otevře i obnoví předtím nenavštívenou Biologii a Law. Fungují obrázky, hodnocení kartiček a ukládání postupu i po dalším reloadu.
+- Všechny **3 PDF fungují bez sítě**: úplný obsah se signaturou `%PDF-` i rozsah `bytes=0-9` s odpovědí 206, správným `Content-Range` a délkou 10 bajtů. Aktivace workeru zachová předem vytvořenou cizí cache `unrelated-app-sentinel`.
+- Záloha postupu se skutečně stáhne přes uživatelské rozhraní. Načtení souboru nejprve zobrazí kontrolní krok bez změny dat; potvrzení sloučí staré a nové známé položky obou předmětů.
+- Kontrola aktualizace workeru zachová rozehranou otázku, již zvolenou odpověď a vysvětlení. Silnější samostatné ověření skutečného přechodu verze v1 → v2, čekající aktualizace a dvou otevřených oken je zaznamenáno v [pwa.md](pwa.md).
+
+Součástí každého kompletního běhu zůstává HTTP kontrola všech **112 převzatých obrázkových, fontových a PDF souborů**. Offline scénář ověřuje také dostupnost souborů, které před vypnutím sítě uživatel vůbec neotevřel.
+
+Tyto PWA výsledky se zatím vztahují k lokálnímu sestavení. Nejde o fyzickou instalaci na iPhonu: test ověřuje manifest, metadata, service worker, offline načítání a návod v emulovaném Safari. Samotné přidání ikony na plochu přes systémovou nabídku iOS musí uživatel provést na zařízení.
+
 ## Aktualizace pro iPhone: lokální a veřejné ověření
 
 Po úpravách pro telefon a nové navigaci zpět/vpřed prošlo **67/67 browserových a HTTP testů** proti `http://127.0.0.1:4180` (34,0 s). Stejná kompletní sada následně prošla **67/67 přímo na veřejném demu [hphugosm.github.io/study](https://hphugosm.github.io/study/)**, nasazeném z commitu `0999e4b` (přibližně 1 minuta). Veřejný běh zahrnoval poslední zkrácení záhlaví témat, všechny podcesty i všech 112 obrázkových, fontových a PDF podkladů. Původních 32 kontrol Chromia zůstává zachováno. Nových 35 kontrol běží v **Safari WebKitu** s dotykovou emulací na pěti velikostech:

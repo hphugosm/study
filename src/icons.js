@@ -1,4 +1,9 @@
 const paths = {
+  settings:'<path d="m9 3-.7 2.5-2 .9L4 5.7 2 9l1.8 1.8v2.4L2 15l2 3.3 2.3-.7 2 .9L9 21h6l.7-2.5 2-.9 2.3.7 2-3.3-1.8-1.8v-2.4L22 9l-2-3.3-2.3.7-2-.9L15 3H9Z"/><circle cx="12" cy="12" r="3"/>',
+  download:'<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',
+  share:'<path d="M12 15V2m-4 4 4-4 4 4M8 9H4v13h16V9h-4"/>',
+  cloud:'<path d="M7 18a5 5 0 0 1-.9-9.9A6 6 0 0 1 18 7a5.5 5.5 0 0 1 0 11M8 16l3 3 5-6"/>',
+  text:'<path d="M4 20 10 4l6 16M6 15h8m3-5h6m-3 0v10"/>',
   calendar:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18m-13 5h2m4 0h2"/>',
   grid:'<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
   layers:'<path d="m12 3 10 6-10 6L2 9l10-6Zm-9 11 9 5 9-5M3 18l9 5 9-5"/>',

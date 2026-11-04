@@ -277,6 +277,78 @@ export async function mount(container, {mode='atlas', onProgress}={}) {
       .site-header a[data-page=cards] .bio-nav-short{display:none}
       .site-header a[data-page=cards] .bio-nav-tiny{display:block}
     }
+    /* Inherited shell tokens cross Shadow DOM in Safari without :host-context. */
+    :host{
+      --bio-surface:var(--study-surface,#fff);--bio-soft:var(--study-soft,#f2f5ef);
+      --bio-text:var(--study-text,#232628);--bio-muted:var(--study-muted,#62705e);
+      --bio-line:var(--study-line,#dfe5dc);--bio-accent:var(--study-accent,#315d49);
+      --bio-accent-soft:var(--study-accent-soft,#e7eee5);
+      --bio-scale:var(--study-text-scale,1);--bio-reading-size:calc(15px * var(--bio-scale));
+      color:var(--bio-text);color-scheme:inherit
+    }
+    .biology-app,.site-header,.bone-detail,.map-prompt,.flashcard,.notes-topic,.glossary-item,.search,.outline-button{background:var(--bio-surface);color:var(--bio-text);border-color:var(--bio-line)}
+    .hero h1,.hero.compact h1,.section-head h2,.directory-head h2,.study-guide h2,.bone-detail h3,.answer-content h2,.notes-topic h2,.glossary-item dt,.map-prompt h2,.map-results h2{color:var(--bio-text)}
+    .hero h1 em,.hero.compact h1 em{color:var(--bio-accent)}
+    .site-header nav>a{color:var(--bio-muted)}
+    .site-header nav>a.active,.site-header nav>a:hover{color:var(--bio-accent);border-color:var(--bio-accent)}
+    .hero .intro,.eyebrow,.section-index,.detail-meta,.detail-source,.detail-intro,.bone-detail li,.directory-head p,.bone-item small,.bone-item>span:first-child,.bone-item .item-arrow,.latin,.label-toggle,.toolbar-actions,.card-position,.flip-hint,.deck-progress-caption,.privacy-note,.answer-content .answer-label,.answer-content .answer-detail,.answer-content .answer-source,.notes-topic p,.notes-topic li,.notes-topic .topic-number,.notes-topic .slides-ref,.glossary-item dd,.source-details,.map-prompt-meta,.map-prompt .latin,.map-question-hint,.map-tip,.map-select,.map-mode legend,.map-scope-note,.map-results>p:last-of-type{color:var(--bio-muted)}
+    .bone-item strong,.flashcard .question,.map-feedback b{color:inherit}
+    .primary-button,.download{background:var(--bio-accent);color:var(--study-accent-ink,#fff)}
+    .primary-button:hover,.download:hover{background:var(--bio-accent);filter:brightness(.92)}
+    .outline-button:hover,.bone-item:hover,.bone-item.selected,.flashcard.answer,.practice-banner,.progress-summary,.map-score,.pdf-tile,.pdf-tile:hover,.map-results{background:var(--bio-accent-soft);border-color:var(--bio-line);color:var(--bio-text)}
+    .practice-banner small,.banner-cta,.banner-symbol,.pdf-tile>span,.pdf-tile small,.progress-summary>div,.progress-summary strong,.map-score>span,.map-score>small{color:var(--bio-muted)}
+    .progress-summary>span,.map-score strong,.map-result-score{color:var(--bio-accent)}
+    .bone-item,.bone-detail li,.study-toolbar,.notes-toolbar,.map-settings,.map-board,.map-board-heading,.map-board-footer,.source-details,.correction,.keyboard-tip,.map-tip,.search,.image-preview{border-color:var(--bio-line)}
+    .region-tabs button,.view-switch button,.text-button{color:var(--bio-muted)}
+    .region-tabs button.active,.study-toolbar .region-tabs button.active,.view-switch button.active{background:var(--bio-accent-soft);border-color:var(--bio-line);color:var(--bio-accent);box-shadow:none}
+    .region-tabs button:hover,.view-switch button:hover{background:var(--bio-soft);color:var(--bio-text)}
+    .outline-button,.arrow-button,.card-image-zoom{background:var(--bio-soft);border-color:var(--bio-line);color:var(--bio-text)}
+    .card-image-zoom:hover{background:var(--bio-accent-soft)}
+    .search input,.map-select select,.map-board-heading select{background:var(--bio-surface);color:var(--bio-text);border-color:var(--bio-line)}
+    .search input::placeholder{color:var(--bio-muted);opacity:1}
+    input[type=checkbox]{accent-color:var(--bio-accent)}
+    .label-toggle input:checked+span{background:var(--bio-accent)}
+    .directory-head h2>span,.deck-progress{background:var(--bio-soft);color:var(--bio-muted)}
+    .deck-progress>div{background:var(--bio-accent)}
+    .source-details>summary,.source-details a{color:var(--bio-accent)}
+    .source-details h3,.correction strong,.correction p{color:var(--bio-text)}
+    .keyboard-tip,.keyboard-tip strong,.study-guide li,.study-guide li>span,.empty-state,.loading{color:var(--bio-muted);border-color:var(--bio-line)}
+    .empty-state h2{color:var(--bio-text)}
+    .empty-state button{background:var(--bio-accent);color:var(--study-accent-ink,#fff)}
+    .empty-state p{font-size:var(--bio-reading-size)}
+    .notes-topic li::marker,.bone-detail li:before{color:var(--bio-accent)}
+    .assessment button{background:#fff1dc;color:#684712;border:1px solid #d6b77b}
+    .assessment button:last-child{background:#e6f3e8;color:#215334;border-color:#99bba0}
+    .map-feedback.correct{background:#e6f3e8;color:#215334;border:1px solid #99bba0}
+    .map-feedback.incorrect{background:#fff1dc;color:#684712;border:1px solid #d6b77b}
+    .map-feedback.skipped{background:var(--bio-soft);color:var(--bio-text);border:1px solid var(--bio-line)}
+    .map-feedback .map-your-answer{color:inherit}
+    /* Original anatomy artwork and photographs keep a neutral, readable light canvas. */
+    .anatomy-card,.map-skeleton,.detail-visual,.map-question-image,.flashcard .card-image{background-color:#f7f9f5;color:#294b36}
+    .canvas-heading{color:#5c7054;border-color:#dce3d4}.canvas-heading>span:first-child{color:#37533e}
+    .anatomy-card>.region-tabs button{color:#415a40}
+    .anatomy-card>.region-tabs button.active{background:#fff;border-color:#b6c6b0;color:#264b34}
+    .anatomy-card>.region-tabs button:hover{background:#fff;color:#264b34}
+    .canvas-help{color:#5d7055}.hotspot{color:#41583c}
+    .flashcard .card-image{border-radius:8px}
+    .map-board{background:var(--bio-surface)}
+    .map-board-heading>span,.map-board-heading>label,.map-board-footer{color:var(--bio-muted)}
+    .map-board-footer>span:last-child{color:var(--bio-accent)}
+    .image-preview,.image-preview-content>header{background:var(--bio-surface);color:var(--bio-text)}
+    .image-preview h2{color:var(--bio-text)}
+    .image-preview-content>p{color:var(--bio-muted)}
+    .image-preview header button{background:var(--bio-soft);border-color:var(--bio-line);color:var(--bio-text)}
+    .image-preview-content>img{background:#fff}
+    .image-preview::backdrop{background:#101810b8}
+    .detail-intro,.bone-detail li,.directory-head p,.flashcard .question,.answer-content .answer-detail,.notes-topic p,.notes-topic li,.glossary-item dd,.source-details,.correction strong,.correction p,.map-question-hint,.map-feedback,.map-feedback>strong,.map-feedback>p:last-child,.map-scope-note,.map-results>p:last-of-type,.image-preview-content>p{font-size:var(--bio-reading-size)}
+    .notes-topic h2,.glossary-item dt{font-size:calc(23px * var(--bio-scale))}
+    .bone-detail h3,.answer-content h2{font-size:calc(27px * var(--bio-scale))}
+    .bone-detail .latin,.answer-content .latin{font-size:calc(18px * var(--bio-scale))}
+    .map-prompt h2{font-size:calc(22px * var(--bio-scale));overflow-wrap:anywhere}
+    .bone-item strong{font-size:calc(16px * var(--bio-scale))}
+    .bone-item small,.reference-link{font-size:calc(15px * var(--bio-scale))}
+    .detail-source,.answer-content .answer-source,.notes-topic .slides-ref{font-size:calc(12px * var(--bio-scale))}
+    @media(max-width:760px), (pointer:coarse){:host{--bio-reading-size:calc(16px * var(--bio-scale))}}
   `;
   root.append(style);
   root.querySelectorAll('[src],[href]').forEach(el=>{
