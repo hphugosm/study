@@ -1,10 +1,10 @@
 # Ověření dema study.
 
-Ověřeno 4. listopadu 2026 na lokálním serveru `http://127.0.0.1:4173`.
+Ověřeno 4. listopadu 2026 na lokálním serveru `http://127.0.0.1:4173` a následně přímo na veřejném GitHub Pages demu [hphugosm.github.io/study](https://hphugosm.github.io/study/), nasazeném z commitu `a5cee6b`.
 
 ## Výsledky
 
-- **32/32 HTTP a browser testů prošlo**: 15 funkčních scénářů na desktopu a mobilu, doplněných úplnou HTTP kontrolou podkladů pro obě konfigurace. Desktop: Chromium, 1440 × 1000. Mobil: Chromium, emulace iPhone 13, 390 × 664 CSS px a dotykové ovládání.
+- **32/32 HTTP a browser testů prošlo lokálně a dalších 32/32 proti veřejnému demu**: 15 funkčních scénářů na desktopu a mobilu, doplněných úplnou HTTP kontrolou podkladů pro obě konfigurace. Veřejný běh dokončil všech 32 testů za 28,9 s. Desktop: Chromium, 1440 × 1000. Mobil: Chromium, emulace iPhone 13, 390 × 664 CSS px a dotykové ovládání.
 - **20/20 Node testů prošlo**: 3 testy kalendáře a datových vazeb, 17 původních biologických testů.
 - **112/112 převzatých souborů podkladů načteno přes HTTP**: 109 souborů Biologie a 3 soubory Law. Počet zahrnuje obrázky, SVG schémata, fonty a PDF; nejde o 112 obrázků. Všechny URL v registru PDF materiálů byly zahrnuty. Každá odpověď měla stav 200 a neprázdné tělo; PDF mají hlavičku `%PDF-` a správný typ obsahu, WebP správnou signaturu RIFF/WEBP a SVG skutečný SVG obsah.
 - Při převzetí podkladů byly všechny uvedené soubory porovnány s čerstvými kopiemi původních repozitářů pomocí SHA-256: **112/112 shodných**.
@@ -36,12 +36,12 @@ Ve druhém terminálu při běžícím serveru:
 npm run test:e2e
 ```
 
-Pro kontrolu nasazené verze včetně cest pod GitHub Pages nastavte URL s koncovým lomítkem:
+Přesný příkaz použitý ke kontrole nasazené verze včetně cest pod GitHub Pages:
 
 ```sh
-STUDY_TEST_URL=https://UZIVATEL.github.io/REPOZITAR/ npm run test:e2e
+STUDY_TEST_URL=https://hphugosm.github.io/study/ npm run test:e2e
 ```
 
 Testy spouštějí vlastní prohlížečové kontexty s odděleným úložištěm. HTTP kontrola ověřuje všechny převzaté podklady, včetně těch, které se v náhodně zvolené první otázce nezobrazily. Prohlížeč musí být dostupný pro Playwright; na novém počítači jej připraví `npx playwright install chromium`.
 
-Veřejná nasazená verze zatím v tomto záznamu ověřena není; výše uvedené výsledky se vztahují k lokálnímu sestavení.
+Veřejný běh ověřil přímé URL událostí, oba předměty, ukládání i obnovení postupu, mobilní šířku a všech 112 podkladů přímo pod cestou `/study/`. Nebyly nalezeny nefunkční cesty obrázků ani PDF.
