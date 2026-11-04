@@ -16,7 +16,18 @@ export default defineConfig({
     screenshot: 'only-on-failure',
   },
   projects: [
-    { name: 'desktop', use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 1000 } } },
-    { name: 'mobile', use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium' } },
+    { name: 'desktop', testIgnore: '**/phone.spec.mjs', use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 1000 } } },
+    { name: 'mobile', testIgnore: '**/phone.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium' } },
+    ...[
+      ['iphone-small-320', 'iPhone SE', { width: 320, height: 568 }],
+      ['iphone-se-375', 'iPhone SE (3rd gen)', { width: 375, height: 667 }],
+      ['iphone-390', 'iPhone 13', { width: 390, height: 664 }],
+      ['iphone-max-430', 'iPhone 14 Pro Max', { width: 430, height: 740 }],
+      ['iphone-landscape', 'iPhone 13 landscape', { width: 844, height: 390 }],
+    ].map(([name, device, viewport]) => ({
+      name,
+      testMatch: '**/phone.spec.mjs',
+      use: { ...devices[device], defaultBrowserType: 'webkit', viewport },
+    })),
   ],
 });

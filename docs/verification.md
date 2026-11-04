@@ -1,5 +1,23 @@
 # Ověření dema study.
 
+## Aktualizace pro iPhone: lokální ověření
+
+Po úpravách pro telefon a nové navigaci zpět/vpřed prošlo **67/67 browserových a HTTP testů** proti `http://127.0.0.1:4180` (34,0 s). Původních 32 kontrol Chromia zůstává zachováno. Nových 35 kontrol běží v **Safari WebKitu** s dotykovou emulací na pěti velikostech:
+
+| Konfigurace | Velikost viewportu |
+| --- | --- |
+| Malý iPhone SE | 320 × 568 |
+| iPhone SE třetí generace | 375 × 667 |
+| iPhone 13 | 390 × 664 |
+| iPhone 14 Pro Max | 430 × 740 |
+| iPhone na šířku | 844 × 390 |
+
+Ověřeno otevření události přímým odkazem, návrat na její předmět a kalendář, obnovení obou obrazovek tlačítkem vpřed, zachování historie po reloadu, nativní zpět/vpřed a zahození staré větve historie při přechodu na jinou stránku. Ovládání zůstává uvnitř aplikace. Záhlaví se zpět/vpřed je dostupné po odrolování atlasu. Hlavní ovládací prvky mají nejméně 44 × 44 CSS px a kontrolované vyhledávací i odpovědní vstupy mají nejméně 16px písmo také na šířku. Prošly kontroly přetékání všech hlavních stránek i rozbalených studijních režimů, dotykové otočení a hodnocení kartičky, obrázkový dialog, oba režimy slepé mapy a ovládání řazení i párování Law.
+
+Ověřeny jsou `viewport-fit=cover` a CSS rezervy pro všechny čtyři `safe-area-inset-*`. **Nejde o test na fyzickém iPhonu.** Emulace WebKitu kontroluje vykreslovací jádro, viewport a dotykové vstupy; nevytváří skutečný výřez displeje, systémovou klávesnici ani všechny změny dynamických lišt Safari. Safe-area rezervy jsou proto prověřené jako implementované CSS a rozložení, nikoliv měřením na konkrétním hardwaru.
+
+Tato aktualizovaná sada zatím v tomto záznamu ověřuje lokální verzi; veřejné ověření nové iPhone verze bude uvedeno po jejím nasazení. Níže zůstává záznam ověření původního veřejného dema.
+
 Ověřeno 4. listopadu 2026 na lokálním serveru `http://127.0.0.1:4173` a následně přímo na veřejném GitHub Pages demu [hphugosm.github.io/study](https://hphugosm.github.io/study/), nasazeném z commitu `a5cee6b`.
 
 ## Výsledky

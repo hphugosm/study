@@ -1,6 +1,7 @@
 import {subjects,units,events,getSubject,getUnit,eventContext,eventTypes,moduleLoaders} from './data.js';
 import {calendarDays,pragueToday,parseDate} from './calendar.js';
 import {icon} from './icons.js';
+import {createNavigation,routeInfo} from './navigation.js';
 
 const main = document.querySelector('main');
 const today = pragueToday();
@@ -48,6 +49,7 @@ function renderCalendar() {
     selectedDay=button.dataset.date;
     renderCalendar();
     main.querySelector(`[data-date="${selectedDay}"]`)?.focus({preventScroll:true});
+    if(matchMedia('(max-width: 900px)').matches)main.querySelector('.day-panel')?.scrollIntoView({block:'nearest',behavior:'instant'});
   }));
   main.querySelector('[data-action="today"]').onclick=()=>{cursor=parseDate(pragueToday());selectedDay=pragueToday();renderCalendar();};
   for(const [action,amount] of [['previous',-1],['next',1]]) main.querySelector(`[data-action="${action}"]`).onclick=()=>{
@@ -62,6 +64,15 @@ function subjectCard(subject) {
 }
 function renderSubjects() {
   main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">TVŮJ STUDIJNÍ PROSTOR</p><h1>Každý předmět má své místo.</h1><p>Od prvních poznámek až po poslední opakování.</p></div></section><div class="subjects-grid">${subjects.map(subjectCard).join('')}</div><div class="subtle-note">${icon('layers')}<div><h3>Prostor pro další témata</h3><p>Každý předmět může obsahovat více jednotek, materiálů i termínů.</p></div></div>`;
+}
+
+function renderSubject(subject) {
+  const subjectUnits=units.filter(unit=>unit.subjectId===subject.id);
+  const subjectEvents=events.filter(event=>subjectUnits.some(unit=>unit.id===event.unitId));
+  main.innerHTML=`<section class="subject-overview" style="${subjectStyle(subject)}"><div class="subject-overview-heading"><span class="subject-icon">${icon(subject.icon)}</span><p class="eyebrow">TVŮJ PŘEDMĚT</p></div><h1>${subject.name}</h1><p>${subject.description}</p></section>
+    <section aria-label="Studijní témata"><div class="section-heading"><h2>Témata a příprava</h2><span>${subjectUnits.length} ${subjectUnits.length===1?'téma':'témata'}</span></div><div class="unit-list">${subjectUnits.map(unit=>`<a class="unit-card" href="#/units/${unit.id}" style="${subjectStyle(subject)}"><div><p class="eyebrow">${unit.label||'STUDIJNÍ TÉMA'}</p><h2>${esc(unit.title)}</h2><p>${esc(unit.description)}</p><span class="text-link">Otevřít téma ${icon('arrow')}</span></div><span class="unit-card-icon">${icon('book')}</span></a>`).join('')}</div></section>
+    ${subjectEvents.length?`<section class="upcoming-section"><div class="section-heading"><h2>Termíny předmětu</h2></div><div class="upcoming-grid">${subjectEvents.map(event=>eventCard(event)).join('')}</div></section>`:''}`;
+  document.title=`${subject.name} — study.`;
 }
 function renderPractice() {
   const options=[
@@ -80,11 +91,11 @@ async function renderUnit(unit,event,params,version) {
   activeTab=params.get('tab')||'tools';
   const unitEvents=events.filter(e=>e.unitId===unit.id);
   document.title=`${event?event.title:unit.title} — study.`;
-  main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><span>${s.name}</span></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}<p class="unit-description">${esc(unit.description)}</p>${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${fullDate(e.date)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
-    <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}Podklady a procvičování</button><button role="tab" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}PDF materiály</button><button role="tab" data-tab="progress" id="unit-tab-progress" aria-controls="unit-panel">${icon('check')}Můj postup</button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
+  main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><span>${s.name}</span></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${fullDate(e.date)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
+    <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="PDF materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">PDF materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Můj postup" data-tab="progress" id="unit-tab-progress" aria-controls="unit-panel">${icon('check')}<span class="tab-label-long">Můj postup</span><span class="tab-label-short" aria-hidden="true">Postup</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
   for(const b of main.querySelectorAll('[data-tab]')) b.onclick=()=>{
     const path=location.hash.split('?')[0];
-    const next=new URLSearchParams(params);next.set('tab',b.dataset.tab);location.hash=`${path}?${next}`;
+    const next=new URLSearchParams(params);next.set('tab',b.dataset.tab);navigation.navigate(`${path}?${next}`);
   };
   main.querySelectorAll('[data-tab]').forEach(b=>{b.setAttribute('aria-selected',b.dataset.tab===activeTab);b.tabIndex=b.dataset.tab===activeTab?0:-1;b.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const all=[...main.querySelectorAll('[data-tab]')],index=all.indexOf(b);const target=e.key==='Home'?all[0]:e.key==='End'?all.at(-1):all[(index+(e.key==='ArrowRight'?1:all.length-1))%all.length];target.click();setTimeout(()=>main.querySelector(`[data-tab="${target.dataset.tab}"]`)?.focus(),0);});});
   const panel=main.querySelector('#unit-panel');
@@ -121,7 +132,7 @@ async function renderUnit(unit,event,params,version) {
 const isBiology = unit => unit.module==='biology';
 function emptyMaterials(){return `<div class="empty-state">${icon('book')}<h2>Materiály zatím nebyly přidány.</h2><p>Termín je připravený. Až budou k dispozici skutečné podklady, objeví se na tomto místě.</p><a class="text-link" href="#/">Zpět do kalendáře ${icon('arrow')}</a></div>`;}
 
-async function route() {
+async function route({scroll=0,restore=false}={}) {
   const version=++routeVersion;
   cleanupModule?.();cleanupModule=null;
   const [path,search='']=(location.hash.slice(1)||'/').split('?');
@@ -137,13 +148,25 @@ async function route() {
     const event=section==='events'?events.find(e=>e.id===segments[1]):null;
     const subjectUnits=section==='subjects'?units.filter(u=>u.subjectId===segments[1]):[];
     const unit=event?getUnit(event.unitId):section==='units'?getUnit(segments[1]):subjectUnits[0];
-    if(section==='subjects'&&subjectUnits.length>1){
-      const s=getSubject(segments[1]);main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">PŘEDMĚT</p><h1>${s.name}</h1><p>${s.description}</p></div></section><div class="practice-grid">${subjectUnits.map(u=>`<a class="practice-card" href="#/units/${u.id}"><p class="eyebrow">${u.label||'TÉMA'}</p><h2>${esc(u.title)}</h2><p>${esc(u.description)}</p><span class="text-link">Otevřít téma ${icon('arrow')}</span></a>`).join('')}</div>`;
-    } else if(unit)await renderUnit(unit,event,params,version);else renderNotFound();
+    if(section==='subjects'&&getSubject(segments[1]))renderSubject(getSubject(segments[1]));
+    else if(unit)await renderUnit(unit,event,params,version);else renderNotFound();
   } else renderNotFound();
-  if(version===routeVersion)window.scrollTo({top:0,behavior:'instant'});
+  if(version===routeVersion){
+    window.scrollTo({top:scroll,behavior:'instant'});
+    if(!restore)main.focus({preventScroll:true});
+  }
 }
 function renderNotFound(){main.innerHTML='<div class="empty-state"><h1>Tahle stránka tu zatím není.</h1><a class="button primary" href="#/">Zpět do kalendáře</a></div>';}
 document.querySelector('.skip-link').onclick=e=>{e.preventDefault();main.focus();};
-window.addEventListener('hashchange',route);
-route();
+const backButton=document.querySelector('#page-back');
+const forwardButton=document.querySelector('#page-forward');
+const navigation=createNavigation(state=>{
+  backButton.disabled=!state.back;forwardButton.disabled=!state.forward;
+  backButton.title=state.backLabel?`Zpět: ${state.backLabel}`:'Zpět';
+  forwardButton.title=state.forwardLabel?`Vpřed: ${state.forwardLabel}`:'Vpřed';
+  document.querySelector('#page-context').textContent=routeInfo(state.hash).label;
+  route(state);
+});
+backButton.onclick=()=>navigation.back();
+forwardButton.onclick=()=>navigation.forward();
+navigation.start();

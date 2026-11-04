@@ -7,6 +7,8 @@ Minimalistická studijní aplikace: školní kalendář, Law a Biologie ve spole
 - **Biologie:** https://hphugosm.github.io/study/#/events/biology-test
 - **Law Unit 2:** https://hphugosm.github.io/study/#/events/law-test
 
+Rozhraní je přizpůsobené především iPhonu: stálá horní lišta se šipkami zpět/vpřed, hlavní navigace dole, dotykové cíle 44–48 px, čitelné vstupy bez automatického přibližování a rezervy pro výřez i spodní indikátor. Předmět má vlastní přehled témat: návrat z Kosterní soustavy vede na Biologii a potom do kalendáře. Platí to i pro přímé odkazy; historie funguje i po obnovení stránky.
+
 ## Spuštění
 
 Node.js 22 nebo novější:

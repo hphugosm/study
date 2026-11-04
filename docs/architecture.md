@@ -8,7 +8,11 @@ study. je jeden statický web postavený na ES modulech. Pro společný shell ne
 
 ## Navigace a izolace
 
-Jediný společný router používá `#/`, `#/subjects`, `#/practice`, `#/subjects/:id`, `#/units/:id` a `#/events/:id`. Přímé URL tedy fungují i na GitHub Pages. Při více jednotkách zobrazí předmět automaticky jejich výběr.
+Jediný společný router používá `#/`, `#/subjects`, `#/practice`, `#/subjects/:id`, `#/units/:id` a `#/events/:id`. Přímé URL tedy fungují i na GitHub Pages. Každý předmět má vlastní přehled témat a termínů, i když zatím obsahuje jedinou jednotku.
+
+`src/navigation.js` spravuje skutečnou historii prohlížeče pomocí History API. Přímý odkaz na téma nebo událost připraví předky Kalendář → Předmět → Téma. Při otevření tématu z kalendáře se vloží stránka předmětu bez mezikroku ve vykreslení. Šipky v horní liště i nativní zpět/vpřed používají stejný index; horní šipka nikdy neposílá mimo aplikaci. Nová navigace za posledním návratem odstraní opuštěnou větev. Stav a pozice posunu se uchovávají v odděleném `sessionStorage` klíči `study:navigation:v1`, bez zásahu do studijního postupu. Při blokovaném úložišti historie nadále funguje pro aktuální návštěvu.
+
+Na mobilu je horní lišta sticky a hlavní navigace ve spodní fixed liště. CSS proměnné `--study-sticky-offset` a `--study-bottom-offset` předávají modulům potřebné odstupy; `viewport-fit=cover` a všechny čtyři `safe-area-inset-*` rezervují prostor pro iPhone. Vstupy mají na dotykových zařízeních alespoň 16 px. Přiblížení uživatelem není omezené. Klademe důraz i na malé šířky a otočení na šířku; výsledky emulace WebKitu jsou v záznamu ověření.
 
 Law a Biologie se připojují do společné stránky přes `mount(container,options)`. Každá aplikace má vlastní Shadow DOM, uzavřený runtime, lokální interní navigaci a vlastní úložiště. Společný header zůstává dostupný. Nejsou použity iframe, `eval` ani globální přepisování `document` či `window`. Cleanup při změně stránky odstraní původní pohled i externí listenery.
 
