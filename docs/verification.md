@@ -1,8 +1,10 @@
 # Ověření dema study.
 
-## PWA, offline režim a nastavení: lokální sestavení
+## PWA, offline režim a nastavení: lokální a veřejné ověření
 
 Finální sestavení na `http://127.0.0.1:4181` prošlo **89/89 browserovými a HTTP testy** (45,5 s). Sada obsahuje předchozích 67 kontrol a 22 nových kontrol PWA a nastavení v desktopovém Chromiu, mobilním Chromiu a Safari WebKitu s emulací iPhonu. Kontroly Safari návodu běží pouze v Safari. **23/23 Node testů prošlo** při souhrnné kontrole projektu.
+
+Po nasazení z commitu **`5ae41fe`** prošla stejná kompletní sada **89/89 přímo na [veřejném demu study.](https://hphugosm.github.io/study/)** (1,6 minuty). Běh použil nové oddělené prohlížečové kontexty, takže offline scénáře skutečně stahovaly a ověřovaly první cache z GitHub Pages; nevyužívaly předem připravené úložiště uživatele. Ověřen byl správný scope `/study/`, všech 112 původních podkladů i kompletní studijní provoz bez sítě v Chromiu a Safari WebKitu.
 
 Nově ověřeno:
 
@@ -17,7 +19,7 @@ Nově ověřeno:
 
 Součástí každého kompletního běhu zůstává HTTP kontrola všech **112 převzatých obrázkových, fontových a PDF souborů**. Offline scénář ověřuje také dostupnost souborů, které před vypnutím sítě uživatel vůbec neotevřel.
 
-Tyto PWA výsledky se zatím vztahují k lokálnímu sestavení. Nejde o fyzickou instalaci na iPhonu: test ověřuje manifest, metadata, service worker, offline načítání a návod v emulovaném Safari. Samotné přidání ikony na plochu přes systémovou nabídku iOS musí uživatel provést na zařízení.
+Výsledky potvrzují lokální i veřejné PWA sestavení. Nejde o fyzickou instalaci na iPhonu: test ověřuje manifest, metadata, service worker, offline načítání a návod v emulovaném Safari. Samotné přidání ikony na plochu přes systémovou nabídku iOS musí uživatel provést na zařízení.
 
 ## Aktualizace pro iPhone: lokální a veřejné ověření
 
