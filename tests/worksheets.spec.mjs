@@ -16,6 +16,9 @@ async function openWorksheet(page, source) {
   await page.goto(`./#/units/${source.unit}?mode=worksheets`);
   const host = moduleFor(page, source);
   await expect(host.locator('#worksheet-viewport')).toBeVisible();
+  // Shadow-root styles and page images can arrive after the host becomes visible.
+  await expect(host.locator('button[data-exercise-id]').first()).toHaveCSS('position','absolute');
+  await expect.poll(() => host.locator('.worksheet-page-image').evaluateAll(images => images.length>0&&images.every(image => image.complete&&image.naturalWidth>0))).toBe(true);
   return host;
 }
 async function openExercise(host, item) {
