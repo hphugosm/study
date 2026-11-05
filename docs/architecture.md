@@ -31,7 +31,7 @@ PDF a všechny obrázky jsou lokální součástí stejného webu. `import.meta.
 - Law: `study:law:progress:v1`; legacy čtení `casebook-us-law-progress-v1`.
 - Biologie: `study:biology:kostra-progress-v2` a `v1`; legacy klíče bez prefixu se pouze kopírují. K tomu `study:biology:map-progress` a `map-results`.
 - Legacy originály se nemění a nemažou. Nové výsledky se zapisují jen do odděleného prostoru příslušného předmětu.
-- Web nemá účet ani synchronizaci; uložení platí pro daný prohlížeč a origin. Původní GitHub Pages projekty stejného účtu sdílejí origin, takže dostupné starší klíče lze zachovat. Jiný hostitel vyžaduje ruční přenos, který demo neimplementuje.
+- Web nemá účet ani synchronizaci; uložení platí pro daný prohlížeč a origin. Původní GitHub Pages projekty stejného účtu sdílejí origin, takže dostupné starší klíče lze zachovat. Přechod na jinou doménu, například `studilo.xyz`, vyžaduje export zálohy v Nastavení původní aplikace a import v Nastavení nové. Import zahrnuje Law, Biologii i obě matematické jednotky a slučuje postup bez mazání původních dat. Podrobnosti jsou v [návodu k nasazení](deployment.md).
 - Neplatná nebo nedostupná localStorage neblokuje studijní obsah. Dlouhodobé uložení v soukromém režimu nebo při blokovaném úložišti není zaručeno.
 
 Law původní materiály zůstávají anglicky, Biologie česky; společný shell je česky. Matematika a Literatura obsahují pouze skutečně zadané termíny a výslovně označená prázdná místa pro budoucí podklady.
