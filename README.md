@@ -73,6 +73,11 @@ Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. J
 
 Podrobnosti: [audit Law](docs/law-audit.md), [audit Biologie](docs/biology-audit.md), [ověření](docs/verification.md).
 
+Biologické výpisky, slovníček (28 pojmů) a jejich PDF byly zkontrolovány
+výhradně podle původní 63snímkové prezentace. U obsahu jsou čísla snímků;
+prezentace je také dostupná v Materiálech. Atlas a poznávačka zůstaly beze
+změn. Podrobnosti: [kontrola výpisků](docs/biology-notes-audit.md).
+
 ## Struktura
 
 ```text

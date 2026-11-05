@@ -1,5 +1,11 @@
 # Biologie: audit a integrace
 
+**Aktualizace 5. 11. 2026:** výpisky, slovníček a jejich PDF nyní vycházejí
+výhradně z původní prezentace. Odstraněny byly externí opravy a doplnění.
+Atlas, poznávačka a slepá mapa zůstaly podle upřesněného zadání nezměněné.
+Podrobná kontrola: [audit výpisků](biology-notes-audit.md). Následující
+záznam popisuje původní integraci a tehdejší podobu obsahu.
+
 Zdroj: https://github.com/hphugosm/kostra-procvicovani
 
 Převzatý commit: `958f139a32d0c4b7b864d16c8ee69a80e3c2333d`. Původní repozitář zůstal beze změny.

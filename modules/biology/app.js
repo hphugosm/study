@@ -128,7 +128,7 @@ function renderNotes(){
   const target=$('#notes-content');
   if(notesView==='glossary'){
     const list=data.notes.glossary.filter(t=>normalize(t.term+' '+t.definition).includes(query)).sort((a,b)=>a.term.localeCompare(b.term,'cs'));
-    target.innerHTML=list.length?`<dl class="glossary">${list.map(t=>`<div class="glossary-item"><dt>${esc(t.term)}</dt><dd>${esc(t.definition)}</dd></div>`).join('')}</dl>`:'<p class="empty-state">Tento pojem se ve slovníčku nenašel.</p>';
+    target.innerHTML=list.length?`<dl class="glossary">${list.map(t=>`<div class="glossary-item"><dt>${esc(t.term)}</dt><dd>${esc(t.definition)}</dd><small class="slides-ref">SNÍMKY ${esc(t.slides.join(", "))}</small></div>`).join('')}</dl>`:'<p class="empty-state">Tento pojem se ve slovníčku nenašel.</p>';
   }else{
     const list=data.notes.sections.filter(s=>normalize(s.title+' '+s.summary+' '+s.items.join(' ')).includes(query));
     target.innerHTML=list.length?`<div class="notes-grid">${list.map(s=>`<article class="notes-topic"><div class="topic-head"><h2>${esc(s.title)}</h2><span class="topic-number">${String(data.notes.sections.indexOf(s)+1).padStart(2,'0')}</span></div><p>${esc(s.summary)}</p><ul>${s.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul><span class="slides-ref">SNÍMKY ${esc(s.slideRange)}</span></article>`).join('')}</div>`:'<p class="empty-state">Zkus hledat jiné slovo. Pro rychlé definice přepni na slovníček.</p>';
@@ -153,7 +153,6 @@ async function init(){
     $('#skeleton-art').innerHTML=art;
     $('#skeleton-art').addEventListener('click',e=>{const group=e.target.closest('[data-bone]');if(group&&data.bones.some(b=>b.id===group.dataset.bone))chooseBone(group.dataset.bone,true);});
     $('#loading').hidden=true;route();renderAtlas();rebuildDeck();renderNotes();
-    $('#corrections').innerHTML=data.notes.corrections.map(c=>`<div class="correction"><strong>V prezentaci: ${esc(c.original)}</strong><p>Upřesnění: ${esc(c.correct)} <a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">Zdroj ↗</a></p></div>`).join('');
     $('#references').innerHTML=data.notes.sources.map(s=>`<a class="reference-link" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`).join('');
     $('#bone-search').addEventListener('input',renderDirectory);
     $('#show-labels').addEventListener('change',e=>$('.anatomy-card').classList.toggle('labels-hidden',!e.target.checked));

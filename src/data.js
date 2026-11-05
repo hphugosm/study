@@ -13,7 +13,8 @@ export const subjects = [
 /** @type {StudyUnit[]} */
 export const units = [
   {id:'skeleton',subjectId:'biology',title:'Kosterní soustava člověka – lidské kosti',label:'LIDSKÉ TĚLO',description:'64 studijních položek. Jeden přehledný atlas. Poznej lidskou kostru od hlavy až k patě.',module:'biology',materials:[
-    {title:'Kosterní soustava — přehled',description:'Původní studijní podklad · PDF',url:'modules/biology/assets/kosterni-soustava-prehled.pdf'},
+    {title:'Kosterní soustava — výpisky',description:'Pouze podle původní prezentace · PDF',url:'modules/biology/assets/kosterni-soustava-prehled.pdf'},
+    {title:'Kosterní soustava — původní prezentace',description:'63 snímků · PDF',url:'modules/biology/assets/kosterni-soustava-prezentace.pdf'},
   ]},
   {id:'law-unit-2',subjectId:'law',title:'U.S. Courts & Civil Liberties',label:'UNIT 2',description:'Four landmark Supreme Court cases, the U.S. court system and the language of law.',module:'law',materials:[
     {title:'U.S. Law — Expanded Study Notes',description:'English study notes · PDF',url:'modules/law/assets/US_Law_Expanded_English_Study_Notes.pdf'},
