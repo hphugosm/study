@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { units } from '../src/data.js';
 
 const project = fileURLToPath(new URL('../', import.meta.url));
-const extensions = /\.(?:webp|png|jpe?g|svg|pdf|woff2)$/i;
+const extensions = /\.(?:webp|png|jpe?g|svg|pdf|woff2|pptx)$/i;
 async function findFiles(directory) {
   const files = [];
   for (const entry of await readdir(`${project}${directory}`, { withFileTypes: true })) {
@@ -15,10 +15,10 @@ async function findFiles(directory) {
   return files;
 }
 
-test('all retained asset URLs and registered PDF materials load over HTTP', async ({ request, baseURL }) => {
+test('all retained asset URLs and registered study materials load over HTTP', async ({ request, baseURL }) => {
   test.setTimeout(120_000);
-  const files = [...await findFiles('modules/biology/assets'), ...await findFiles('modules/law/assets')];
-  expect(files).toHaveLength(112);
+  const files = [...await findFiles('modules/biology/assets'), ...await findFiles('modules/law/assets'), ...await findFiles('modules/math-trig/assets'), ...await findFiles('modules/math-equations/assets')];
+  expect(files).toHaveLength(115);
   const materialURLs = units.flatMap(unit => unit.materials.map(material => material.url));
   for (const url of materialURLs) expect(files).toContain(url);
   // A bounded parallel batch checks every retained image, diagram, font and PDF,

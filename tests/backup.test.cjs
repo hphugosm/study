@@ -4,6 +4,8 @@ const LAW = 'study:law:progress:v1';
 const BIO = 'study:biology:kostra-progress-v2';
 const MAP = 'study:biology:map-results';
 const CURRENT = 'study:biology:map-progress';
+const FUNCTIONS = 'study:mathematics:trig-functions:progress:v1';
+const EQUATIONS = 'study:mathematics:trig-equations:progress:v1';
 const now = '2026-11-04T12:00:00.000Z';
 const law = knownCards => ({ knownCards, mistakes: ['q002'], attempts: [{ date: now, score: 1, total: 2, mode: 'mcq' }], readLessons: ['plessy'] });
 const map = { mode: 'named', region: 'all', total: 64, correct: 2, mistakes: ['lebka'], finishedAt: now };
@@ -54,4 +56,46 @@ test('storage failure rolls back completed writes and preserves the legacy origi
   const parsed = parseBackup(backup({ [LAW]: law(['new']), [BIO]: ['pazni'] }));
   assert.throws(() => restoreBackup(parsed, target), /Původní postup zůstal beze změny/);
   assert.deepEqual([...target.data], before);
+});
+
+test('both math units roundtrip independently and merge repeated imports without duplicates', async () => {
+  const { buildBackup, parseBackup, restoreBackup } = await import('../src/backup.js');
+  const functions = { knownCards: ['circle-sin'], mistakes: ['tan-domain'], attempts: [{ date: now, score: 2, total: 3, mode: 'mcq' }], readLessons: ['unit-circle'] };
+  const equations = { knownCards: ['double-angle'], mistakes: ['sin-equation'], attempts: [{ date: now, score: 1, total: 2, mode: 'mixed' }], readLessons: ['identities'] };
+  const source = storage({ [FUNCTIONS]: functions, [EQUATIONS]: equations, unrelated: { private: true } });
+  const sourceBefore = [...source.data];
+  const parsed = parseBackup(JSON.stringify(buildBackup(source)));
+  assert.deepEqual([...source.data], sourceBefore);
+  assert.deepEqual(Object.keys(parsed.backup.data).sort(), [FUNCTIONS, EQUATIONS].sort());
+  assert.equal(parsed.summary.mathCards, 2);
+  assert.equal(parsed.summary.mathAttempts, 2);
+  const existingFunctions = { ...functions, knownCards: ['cos-range'], readLessons: ['graphs'] };
+  const target = storage({ [FUNCTIONS]: existingFunctions, [LAW]: law(['q001']) });
+  const existingLaw = target.getItem(LAW);
+  restoreBackup(parsed, target);
+  restoreBackup(parsed, target);
+  assert.deepEqual(JSON.parse(target.getItem(FUNCTIONS)), { ...functions, knownCards: ['cos-range', 'circle-sin'], readLessons: ['graphs', 'unit-circle'] });
+  assert.deepEqual(JSON.parse(target.getItem(EQUATIONS)), equations);
+  assert.equal(target.getItem(LAW), existingLaw);
+  assert.deepEqual(buildBackup(target).data[EQUATIONS], equations);
+});
+
+test('legacy backup leaves math progress untouched and malformed math imports are atomic', async () => {
+  const { parseBackup, restoreBackup } = await import('../src/backup.js');
+  const math = { knownCards: ['sin'], mistakes: [], attempts: [], readLessons: [] };
+  const target = storage({ [FUNCTIONS]: math, [EQUATIONS]: math });
+  const functionsBefore = target.getItem(FUNCTIONS);
+  const equationsBefore = target.getItem(EQUATIONS);
+  const legacy = parseBackup(backup({ [LAW]: law(['q001']) }));
+  assert.equal(legacy.summary.mathCards, 0);
+  assert.equal(legacy.summary.mathAttempts, 0);
+  restoreBackup(legacy, target);
+  assert.equal(target.getItem(FUNCTIONS), functionsBefore);
+  assert.equal(target.getItem(EQUATIONS), equationsBefore);
+  const before = [...target.data];
+  const invalid = { ...math, attempts: [{ date: now, score: 4, total: 3, mode: 'mcq' }] };
+  assert.throws(() => parseBackup(backup({ [EQUATIONS]: invalid })));
+  assert.throws(() => restoreBackup(JSON.parse(backup({ [FUNCTIONS]: { ...math, knownCards: ['new'] }, [EQUATIONS]: invalid })), target));
+  assert.deepEqual([...target.data], before);
+  assert.throws(() => parseBackup(backup({ [FUNCTIONS]: { ...math, unexpected: true } })));
 });

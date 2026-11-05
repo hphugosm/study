@@ -236,8 +236,8 @@ test('switching subjects preserves shell navigation without leaking original glo
   expect(await page.evaluate(() => ['KOSTRA_DATA', 'KOSTRA_SVG', 'KostraMapUI'].filter(key => key in window))).toEqual([]);
 });
 
-test('placeholder subjects state that materials have not been supplied', async ({ page }) => {
-  for (const route of ['math-test', 'literature-assignment']) {
+test('literature placeholder states that materials have not been supplied', async ({ page }) => {
+  for (const route of ['literature-assignment']) {
     await page.goto(`./#/events/${route}`);
     await expect(page.getByText(/dosud nepřid|zatím nepřid|nebyly.*přid|materiály.*přid/i).first()).toBeVisible();
     await expect(page.locator('[data-study-module]')).toHaveCount(0);

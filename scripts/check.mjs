@@ -12,7 +12,7 @@ for(const file of files.filter(file=>/\.(js|mjs|cjs)$/.test(file))){
 }
 for(const group of [subjects,units,events])assert.equal(new Set(group.map(x=>x.id)).size,group.length,'Duplicate registry id');
 for(const subject of subjects){assert.match(subject.id,/^[a-z0-9-]+$/);assert.match(subject.color,/^#[0-9a-f]{6}$/i);}
-for(const unit of units){assert.ok(subjects.some(s=>s.id===unit.subjectId),`Unknown subject: ${unit.subjectId}`);for(const material of unit.materials)await access(material.url);if(unit.module)await access(`modules/${unit.module}/index.js`);}
+for(const unit of units){assert.ok(subjects.some(s=>s.id===unit.subjectId),`Unknown subject: ${unit.subjectId}`);for(const material of unit.materials)await access(material.url);if(unit.module)await access(`modules/${unit.module}/index.js`);for(const id of unit.relatedUnitIds||[]){assert.ok(units.some(item=>item.id===id&&item.subjectId===unit.subjectId&&item.id!==unit.id),`Invalid related unit: ${id}`);}}
 for(const event of events){assert.ok(units.some(u=>u.id===event.unitId),`Unknown unit: ${event.unitId}`);assert.ok(eventTypes[event.type],`Unknown type: ${event.type}`);assert.match(event.date,/^\d{4}-\d{2}-\d{2}$/);assert.equal(new Date(`${event.date}T12:00:00Z`).toISOString().slice(0,10),event.date);}
 for(const file of files.filter(file=>/\.(css|html)$/.test(file))){
   const text=await readFile(file,'utf8');

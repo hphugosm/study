@@ -1,21 +1,22 @@
 # study.
 
-Minimalistická studijní aplikace: školní kalendář, Law a Biologie ve společném prostředí. Statický web bez backendu, přihlášení a runtime závislostí. Původní repozitáře zůstaly beze změn.
+Minimalistická studijní aplikace: školní kalendář, Law, Biologie a Matematika ve společném prostředí. Statický web bez backendu, přihlášení a runtime závislostí. Původní repozitáře zůstaly beze změn.
 
 - **Demo:** https://hphugosm.github.io/study/
 - **Repozitář:** https://github.com/hphugosm/study
 - **Biologie:** https://hphugosm.github.io/study/#/events/biology-test
+- **Matematika:** https://hphugosm.github.io/study/#/subjects/mathematics
 - **Law Unit 2:** https://hphugosm.github.io/study/#/events/law-test
 
 Rozhraní je přizpůsobené především iPhonu: stálá horní lišta se šipkami zpět/vpřed, hlavní navigace dole, dotykové cíle 44–48 px, čitelné vstupy bez automatického přibližování a rezervy pro výřez i spodní indikátor. Předmět má vlastní přehled témat: návrat z Kosterní soustavy vede na Biologii a potom do kalendáře. Platí to i pro přímé odkazy; historie funguje i po obnovení stránky.
 
-V patičce najdeš **Nastavení**: instalaci na plochu iPhonu, skutečný offline režim, světlý/tmavý/papírový motiv nebo vzhled podle telefonu, čtyři barevné akcenty, větší studijní text a zálohu postupu s bezpečným importem. Tyto volby se promítají i do obou studijních modulů. Hlavní navigace zůstává jednoduchá.
+V patičce najdeš **Nastavení**: instalaci na plochu iPhonu, skutečný offline režim, světlý/tmavý/papírový motiv nebo vzhled podle telefonu, čtyři barevné akcenty, větší studijní text a zálohu postupu s bezpečným importem. Tyto volby se promítají i do všech studijních modulů. Hlavní navigace zůstává jednoduchá.
 
 ## Na ploše iPhonu a bez internetu
 
 Otevři [Nastavení](https://hphugosm.github.io/study/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study. potom otevírá vlastní okno aplikace.
 
-Po prvním otevření s připojením se automaticky uloží všechny části webu, oba předměty, obrázky i tři PDF (přibližně 5,4 MiB). V nastavení počkej na **Připraveno offline**. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. K procvičování pak není potřeba internet ani předchozí návštěva konkrétního předmětu. Nová verze se nabídne v nastavení a sama nepřeruší rozehraný test.
+Po prvním otevření s připojením se automaticky uloží všechny části webu, všechny studijní předměty, obrázky, PDF i tři původní matematické prezentace. V nastavení počkej na **Připraveno offline**. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. K procvičování pak není potřeba internet ani předchozí návštěva konkrétního předmětu. Nová verze se nabídne v nastavení a sama nepřeruší rozehraný test.
 
 Podrobnosti, aktualizace a provozní omezení jsou v [návodu k PWA](docs/pwa.md). Zálohy a nastavení jsou místní, bez účtu a cloudového přenosu.
 
@@ -56,9 +57,12 @@ STUDY_TEST_URL=https://hphugosm.github.io/study/ npm run test:e2e
 - Datový kalendář s přepínáním měsíců, dneškem, více událostmi denně, detailem dne, typy událostí a nejbližšími termíny. Aktuální datum používá časové pásmo Europe/Prague.
 - **Biologie:** všech 64 položek, atlas a filtry, poznávačka, obrázkové/textové kartičky, slepá mapa (pojmenované i nepojmenované režimy), detail/zoom, řešení, opakování chyb, výpisky, původní PDF a uložený postup. Nově se ukládají i výsledky mapy.
 - **Law / UNIT 2 / U.S. Courts & Civil Liberties:** čtyři případy, hierarchie soudů a odvolání, 55 slovíček, 145 flashcards, 95 otázek, mixed a tematické testy, výběr odpovědi, true/false, psané odpovědi, řazení, spojování, vysvětlení, výsledky, oprava chyb, postup a oba PDF. Obsah zůstává anglicky.
-- Matematika a Literatura mají skutečné termíny a připravené jednotky; chybějící výukové materiály jsou výslovně označené.
+- **Matematika:** právě dvě kategorie: Trigonometrie a goniometrické funkce; Goniometrické vzorce, rovnice a nerovnice. Český obsah z 81 snímků, ovladatelná kružnice, proměny grafů, trojúhelníkové věty, postupná řešení, nerovnice, kartičky a kvízy. Původní termín čtvrtletní práce otevírá rozcestník obou kategorií. Přesný rozsah práce není zadán.
+- Literatura má skutečný termín a připravenou jednotku; chybějící podklady jsou označené.
 
-Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. Jeho osm původních vstupních učebních souborů je pouze citováno ve zdrojové aplikaci; převzaty jsou všechny skutečně dostupné soubory, včetně dvou PDF. Podrobnosti: [audit Law](docs/law-audit.md), [audit Biologie](docs/biology-audit.md), [ověření](docs/verification.md).
+Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. Jeho osm původních vstupních učebních souborů je pouze citováno ve zdrojové aplikaci; převzaty jsou všechny skutečně dostupné soubory, včetně dvou PDF. Matematické podklady a opravy: [audit Matematiky](docs/mathematics.md).
+
+Podrobnosti: [audit Law](docs/law-audit.md), [audit Biologie](docs/biology-audit.md), [ověření](docs/verification.md).
 
 ## Struktura
 
@@ -75,6 +79,8 @@ themes.css/settings.css barevné motivy a nastavení
 sw.js/manifest.webmanifest samostatná aplikace a ověřené offline podklady
 modules/law/            izolovaný úplný Law modul, data, PDF
 modules/biology/        izolovaný úplný biology modul, obrázky, PDF, upstream testy
+modules/math-trig/      kružnice, grafy, trojúhelníky, zdrojové prezentace
+modules/math-equations/ vzorce, rovnice, nerovnice, zdrojová prezentace
 templates/              příklad přidání předmětu / jednotky / testu
 scripts/                lokální server, validace, statický build
 tests/                  kalendářové a browser testy

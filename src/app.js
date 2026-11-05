@@ -61,8 +61,8 @@ function renderCalendar() {
 }
 
 function subjectCard(subject) {
-  const subjectUnits=units.filter(u=>u.subjectId===subject.id);
-  const count=events.filter(e=>subjectUnits.some(u=>u.id===e.unitId)).length;
+  const subjectUnits=units.filter(u=>u.subjectId===subject.id&&u.kind!=='collection');
+  const count=events.filter(e=>getUnit(e.unitId)?.subjectId===subject.id).length;
   return `<a class="subject-card" href="#/subjects/${subject.id}" style="${subjectStyle(subject)}"><span class="subject-icon">${icon(subject.icon)}</span><div class="subject-card-top"><span>${subjectUnits.length} ${subjectUnits.length===1?'téma':'témata'}</span>${icon('arrow')}</div><h2>${subject.name}</h2><p>${subject.description}</p><div class="subject-card-foot"><span class="subject-dot"></span>${subjectUnits.some(u=>u.module)?'Materiály a procvičování':'Materiály zatím nepřidány'}<span>${count} ${count===1?'termín':'termíny'}</span></div></a>`;
 }
 function renderSubjects() {
@@ -70,8 +70,8 @@ function renderSubjects() {
 }
 
 function renderSubject(subject) {
-  const subjectUnits=units.filter(unit=>unit.subjectId===subject.id);
-  const subjectEvents=events.filter(event=>subjectUnits.some(unit=>unit.id===event.unitId));
+  const subjectUnits=units.filter(unit=>unit.subjectId===subject.id&&unit.kind!=='collection');
+  const subjectEvents=events.filter(event=>getUnit(event.unitId)?.subjectId===subject.id);
   main.innerHTML=`<section class="subject-overview" style="${subjectStyle(subject)}"><div class="subject-overview-heading"><span class="subject-icon">${icon(subject.icon)}</span><p class="eyebrow">TVŮJ PŘEDMĚT</p></div><h1>${subject.name}</h1><p>${subject.description}</p></section>
     <section aria-label="Studijní témata"><div class="section-heading"><h2>Témata a příprava</h2><span>${subjectUnits.length} ${subjectUnits.length===1?'téma':'témata'}</span></div><div class="unit-list">${subjectUnits.map(unit=>`<a class="unit-card" href="#/units/${unit.id}" style="${subjectStyle(subject)}"><div><p class="eyebrow">${unit.label||'STUDIJNÍ TÉMA'}</p><h2>${esc(unit.title)}</h2><p>${esc(unit.description)}</p><span class="text-link">Otevřít téma ${icon('arrow')}</span></div><span class="unit-card-icon">${icon('book')}</span></a>`).join('')}</div></section>
     ${subjectEvents.length?`<section class="upcoming-section"><div class="section-heading"><h2>Termíny předmětu</h2></div><div class="upcoming-grid">${subjectEvents.map(event=>eventCard(event)).join('')}</div></section>`:''}`;
@@ -85,6 +85,10 @@ function renderPractice() {
     {unit:'law-unit-2',mode:'flashcards',icon:'layers',title:'Law flashcards',copy:'Cases, concepts and legal vocabulary.'},
     {unit:'law-unit-2',mode:'practice',icon:'scale',title:'Law practice',copy:'Mixed questions, feedback and explanations.'},
     {unit:'law-unit-2',mode:'vocabulary',icon:'book',title:'Legal vocabulary',copy:'55 terms with Czech translations.'},
+    {unit:'trig-functions',mode:'circle',icon:'function',title:'Kružnice a grafy',copy:'Propoj úhel, hodnoty funkcí a proměny grafu.'},
+    {unit:'trig-equations',mode:'solver',icon:'function',title:'Rovnice krok za krokem',copy:'Vyzkoušej postup a vyznač řešení nerovnic.'},
+    {unit:'trig-functions',mode:'cards',icon:'layers',title:'Matematické kartičky',copy:'Úhly, funkce a trojúhelníkové věty.'},
+    {unit:'trig-equations',mode:'quiz',icon:'check',title:'Kvíz ze vzorců a rovnic',copy:'Ověř si výsledek a přečti vysvětlení.'},
   ];
   main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">KROK ZA KROKEM</p><h1>Co si dnes procvičíš?</h1><p>Vyber si způsob učení, který ti právě sedí.</p></div></section><div class="practice-grid">${options.map(o=>{const s=getSubject(getUnit(o.unit).subjectId);return `<a class="practice-card" href="#/units/${o.unit}?mode=${o.mode}" style="${subjectStyle(s)}"><div class="practice-card-top"><span class="subject-icon">${icon(o.icon)}</span><span class="subject-pill">${s.name}</span></div><h2>${o.title}</h2><p>${o.copy}</p><span class="text-link">Začít procvičování ${icon('arrow')}</span></a>`;}).join('')}</div>`;
 }
@@ -94,8 +98,8 @@ async function renderUnit(unit,event,params,version) {
   activeTab=params.get('tab')||'tools';
   const unitEvents=events.filter(e=>e.unitId===unit.id);
   document.title=`${event?event.title:unit.title} — study.`;
-  main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><span>${s.name}</span></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${fullDate(e.date)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
-    <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="PDF materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">PDF materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Můj postup" data-tab="progress" id="unit-tab-progress" aria-controls="unit-panel">${icon('check')}<span class="tab-label-long">Můj postup</span><span class="tab-label-short" aria-hidden="true">Postup</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
+  main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><a href="#/subjects/${s.id}">${s.name}</a></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${fullDate(e.date)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
+    <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="Materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">Materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Můj postup" data-tab="progress" id="unit-tab-progress" aria-controls="unit-panel">${icon('check')}<span class="tab-label-long">Můj postup</span><span class="tab-label-short" aria-hidden="true">Postup</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
   for(const b of main.querySelectorAll('[data-tab]')) b.onclick=()=>{
     const path=location.hash.split('?')[0];
     const next=new URLSearchParams(params);next.set('tab',b.dataset.tab);navigation.navigate(`${path}?${next}`);
@@ -106,8 +110,13 @@ async function renderUnit(unit,event,params,version) {
     panel.innerHTML=`<div class="panel-intro"><h2>Materiály po ruce.</h2><p>Původní studijní podklady, připravené ke čtení i stažení.</p></div>${unit.materials.length?`<div class="materials-grid">${unit.materials.map(m=>`<a class="material-card" href="${esc(m.url)}" target="_blank" rel="noopener">${icon('file')}<div><h3>${esc(m.title)}</h3><p>${esc(m.description)}</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div>`:emptyMaterials()}`;
     return;
   }
+  if(unit.kind==='collection') {
+    const related=(unit.relatedUnitIds||[]).map(getUnit).filter(Boolean);
+    panel.innerHTML=`<div class="panel-intro"><h2>${activeTab==='progress'?'Tvůj postup v tématech':'Vyber si téma k opakování.'}</h2><p>Stručné poznámky, ovladatelné vizualizace a procvičování ze tří dodaných prezentací.</p></div><div class="unit-list">${related.map(item=>`<a class="unit-card" href="#/units/${item.id}${activeTab==='progress'?'?tab=progress':''}" style="${subjectStyle(s)}"><div><p class="eyebrow">${esc(item.label)}</p><h2>${esc(item.title)}</h2><p>${esc(item.description)}</p><span class="text-link">${activeTab==='progress'?'Zobrazit postup':'Otevřít téma'} ${icon('arrow')}</span></div><span class="unit-card-icon">${icon('function')}</span></a>`).join('')}</div>`;
+    return;
+  }
   if(!unit.module) {
-    panel.innerHTML=unit.notes?.length?`<div class="generic-notes"><div class="panel-intro"><h2>Podklady a výpisky</h2></div>${unit.notes.map(note=>`<p>${esc(note)}</p>`).join('')}${unit.materials.length?'<p>Další podklady najdeš v záložce PDF materiály.</p>':''}</div>`:emptyMaterials();
+    panel.innerHTML=unit.notes?.length?`<div class="generic-notes"><div class="panel-intro"><h2>Podklady a výpisky</h2></div>${unit.notes.map(note=>`<p>${esc(note)}</p>`).join('')}${unit.materials.length?'<p>Další podklady najdeš v záložce Materiály.</p>':''}</div>`:emptyMaterials();
     return;
   }
   panel.innerHTML='<p class="loading-copy">Připravuji tvůj studijní prostor…</p>';

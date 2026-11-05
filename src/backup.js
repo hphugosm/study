@@ -5,7 +5,10 @@ const BIO_V1 = 'study:biology:kostra-progress-v1';
 const BIO_V2 = 'study:biology:kostra-progress-v2';
 const MAP_RESULTS = 'study:biology:map-results';
 const MAP_PROGRESS = 'study:biology:map-progress';
-const KEYS = [LAW, BIO_V1, BIO_V2, MAP_RESULTS, MAP_PROGRESS];
+const MATH_FUNCTIONS = 'study:mathematics:trig-functions:progress:v1';
+const MATH_EQUATIONS = 'study:mathematics:trig-equations:progress:v1';
+const CARD_PROGRESS = [LAW, MATH_FUNCTIONS, MATH_EQUATIONS];
+const KEYS = [...CARD_PROGRESS, BIO_V1, BIO_V2, MAP_RESULTS, MAP_PROGRESS];
 const LEGACY = { [LAW]: 'casebook-us-law-progress-v1', [BIO_V1]: 'kostra-progress-v1', [BIO_V2]: 'kostra-progress-v2' };
 
 function fail(message = 'Soubor neobsahuje platnou zálohu postupu study.') { throw new Error(message); }
@@ -46,7 +49,7 @@ function arrayOf(value, validator) {
   return value.map(validator);
 }
 function validateValue(key, value) {
-  if (key === LAW) {
+  if (CARD_PROGRESS.includes(key)) {
     record(value, ['knownCards', 'mistakes', 'attempts', 'readLessons']);
     return {
       knownCards: strings(value.knownCards), mistakes: strings(value.mistakes),
@@ -73,6 +76,8 @@ function summarize(data) {
     lawAttempts: data[LAW]?.attempts.length || 0,
     biologyCards: (data[BIO_V2] || data[BIO_V1] || []).length,
     mapResults: data[MAP_RESULTS]?.length || 0,
+    mathCards: [MATH_FUNCTIONS, MATH_EQUATIONS].reduce((sum, key) => sum + (data[key]?.knownCards.length || 0), 0),
+    mathAttempts: [MATH_FUNCTIONS, MATH_EQUATIONS].reduce((sum, key) => sum + (data[key]?.attempts.length || 0), 0),
     records: Object.keys(data).length,
   };
 }
@@ -90,7 +95,7 @@ function uniqueRecords(items) {
 function merge(key, previous, incoming) {
   if (previous === undefined) return incoming;
   if (key === MAP_PROGRESS) return previous;
-  if (key === LAW) return {
+  if (CARD_PROGRESS.includes(key)) return {
     knownCards: [...new Set([...previous.knownCards, ...incoming.knownCards])],
     mistakes: [...new Set([...previous.mistakes, ...incoming.mistakes])],
     attempts: uniqueRecords([...previous.attempts, ...incoming.attempts]),
