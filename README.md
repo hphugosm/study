@@ -2,11 +2,11 @@
 
 Minimalistická studijní aplikace: školní kalendář, Law, Biologie a Matematika ve společném prostředí. Statický web bez backendu, přihlášení a runtime závislostí. Původní repozitáře zůstaly beze změn.
 
-- **Demo:** https://hphugosm.github.io/study/
+- **Demo:** https://studilo.xyz/
 - **Repozitář:** https://github.com/hphugosm/study
-- **Biologie:** https://hphugosm.github.io/study/#/events/biology-test
-- **Matematika:** https://hphugosm.github.io/study/#/subjects/mathematics
-- **Law Unit 2:** https://hphugosm.github.io/study/#/events/law-test
+- **Biologie:** https://studilo.xyz/#/events/biology-test
+- **Matematika:** https://studilo.xyz/#/subjects/mathematics
+- **Law Unit 2:** https://studilo.xyz/#/events/law-test
 
 Rozhraní je přizpůsobené především iPhonu: stálá horní lišta se šipkami zpět/vpřed, hlavní navigace dole, dotykové cíle 44–48 px, čitelné vstupy bez automatického přibližování a rezervy pro výřez i spodní indikátor. Předmět má vlastní přehled témat: návrat z Kosterní soustavy vede na Biologii a potom do kalendáře. Platí to i pro přímé odkazy; historie funguje i po obnovení stránky.
 
@@ -14,7 +14,7 @@ V patičce najdeš **Nastavení**: instalaci na plochu iPhonu, skutečný offlin
 
 ## Na ploše iPhonu a bez internetu
 
-Otevři [Nastavení](https://hphugosm.github.io/study/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study lo potom otevírá vlastní okno aplikace.
+Otevři [Nastavení](https://studilo.xyz/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study lo potom otevírá vlastní okno aplikace.
 
 Po prvním otevření s připojením se automaticky uloží všechny části webu, všechny studijní předměty, obrázky, PDF i tři původní matematické prezentace. V nastavení počkej na **Připraveno offline**. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. K procvičování pak není potřeba internet ani předchozí návštěva konkrétního předmětu. Nová verze se nabídne v nastavení a sama nepřeruší rozehraný test.
 
@@ -39,6 +39,8 @@ node scripts/serve.mjs --dist
 
 Výstup `dist/` lze nasadit na libovolný statický hosting i do podadresáře. Hash routing umožňuje přímé odkazy bez serverových přepisů. GitHub Actions automaticky sestavuje a publikuje `main` na GitHub Pages.
 
+Vlastní doména je `studilo.xyz`; `www.studilo.xyz` i původní odkaz GitHub Pages vedou na ni. DNS a postup kontroly HTTPS jsou v [návodu k nasazení](docs/deployment.md).
+
 Plný offline režim lokálně testuj ze sestaveného `dist/` pomocí `node scripts/serve.mjs --dist`. Zdrojový server bez sestavení nemá vygenerovaný offline balíček; běžné studijní funkce fungují i tam.
 
 Pro browser testy:
@@ -49,15 +51,15 @@ npx playwright install chromium
 # V druhém terminálu běží npm start
 npm run test:e2e
 # Volitelně proti veřejnému webu:
-STUDY_TEST_URL=https://hphugosm.github.io/study/ npm run test:e2e
+STUDY_TEST_URL=https://studilo.xyz/ npm run test:e2e
 ```
 
 ## Pracovní listy z goniometrie
 
 V obou matematických kategoriích je záložka **Pracovní list**. Každý ze 164 příkladů je tlačítko: otevře velké okno se zadáním, šipky procházejí jednotlivé vysvětlené kroky a nakonec výsledek. Fungují také klávesy ←/→ a Escape. Příklady leží přímo na podobě původních stránek PDF, se stejnými nadpisy, sloupci i označením. Hledání je vyznačí na stránce; výběr úlohy přesune na její původní místo. Na mobilu lze list přibližovat dvěma prsty a posouvat jedním prstem. Tlačítka ± zachovávají místo uprostřed pohledu; přizpůsobení šířce vrací přehled celé stránky. Tažení ani přiblížení neotevírá příklad a zavření řešení zachová polohu listu.
 
-- [Funkce — 60 příkladů](https://hphugosm.github.io/study/#/units/trig-functions?mode=worksheets)
-- [Rovnice a nerovnice — 104 příkladů](https://hphugosm.github.io/study/#/units/trig-equations?mode=worksheets)
+- [Funkce — 60 příkladů](https://studilo.xyz/#/units/trig-functions?mode=worksheets)
+- [Rovnice a nerovnice — 104 příkladů](https://studilo.xyz/#/units/trig-equations?mode=worksheets)
 
 Zadání vycházejí ze dvou původních PDF a postupy z dodaného souboru 164 řešení. Opravy jsou vedené podle PDF; u úlohy GR7-37 je opraven jmenovatel sin(2x), definiční obor i postup. U grafů A/B/C označuje sloupce listu. Originály PDF jsou v Materiálech i přímo u seznamu příkladů. Vzorce, grafy i PDF fungují offline; sazba KaTeX 0.19.1 je přibalená včetně licence a fontů.
 

@@ -152,6 +152,7 @@ test('first installation caches unopened subjects, images and PDFs and saves pro
   await expect(law.locator('.pr-count')).toContainText('1 /');
   const materials = [
     'modules/biology/assets/kosterni-soustava-prehled.pdf',
+    'modules/biology/assets/kosterni-soustava-prezentace.pdf',
     'modules/law/assets/US_Law_Expanded_English_Study_Notes.pdf',
     'modules/law/assets/Pravo_USA_barevne_poznamky.pdf',
   ];

@@ -1,0 +1,45 @@
+name: Verify live study lo
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Test studilo.xyz in Chromium and WebKit
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      STUDY_TEST_URL: https://studilo.xyz/
+      CI: 'true'
+    steps:
+      - name: Check out tests
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Install browser engines and system dependencies
+        run: npx --no-install playwright install --with-deps chromium webkit
+
+      - name: Run complete live browser suite
+        run: npm run test:e2e
+
+      - name: Upload browser reports and failure evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-browser-report-${{ github.run_id }}
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: warn
+          retention-days: 14

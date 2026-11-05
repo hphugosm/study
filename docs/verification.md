@@ -1,4 +1,32 @@
-# Ověření dema study.
+# Ověření dema study lo
+
+## Vlastní doména — 5. listopadu 2026
+
+Nová hlavní adresa je **https://studilo.xyz/**. GitHub Pages má nastavenou
+doménu `studilo.xyz` a povinné HTTPS. Certifikát je schválený pro kořen domény
+i `www.studilo.xyz` a platí do 3. února 2027.
+
+V 17:25 UTC bylo plnou kontrolou TLS ověřeno HTTPS 200 na všech čtyřech
+GitHub Pages IP. `www` přesměruje na hlavní doménu; HTTP i původní
+`https://hphugosm.github.io/study/` vrací 301 na `https://studilo.xyz/`.
+Kontrola přes `curl --resolve` nahrazovala pouze DNS vyhledání, nikdy
+nevypínala ověření certifikátu. Všechny tři autoritativní DNS servery
+souhlasí a GitHub hodnotí DNS obou názvů jako platné.
+
+Aktuální sestavení `fe262bebe555862555f0` ze zdrojů `1cc463a` prošlo místně
+**141 browserovými a HTTP testy, 11 očekávaných přeskočení, 0 chyb**.
+Přeskočení odpovídají sedmi desktopovým běhům mobilních gest, dvěma
+volitelným mobilním výstupům a dvěma opakováním úplné kontroly 164 příkladů,
+která běží jednou na desktopu. Dále prošlo všech **45 Node testů**
+a kontrola JavaScriptu. Offline balíček má 235 souborů (28,1 MiB).
+
+Sada pokrývá aktuální matematiku a 164 pracovních příkladů, mobilní gesta
+Safari, biologické výpisky i původní prezentaci, 121 převzatých podkladů,
+Law, navigaci, ukládání a první instalaci offline balíčku. Počet podkladů
+se odvozuje z registru modulů a materiálů; nová biologická prezentace se
+prověřuje i offline jako úplné PDF a požadavek Range 206.
+
+Nastavení domény a přenos místního postupu: [návod k nasazení](deployment.md).
 
 ## PWA, offline režim a nastavení: lokální a veřejné ověření
 
