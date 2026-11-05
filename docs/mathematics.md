@@ -37,3 +37,14 @@ Povinné kontroly jsou `npm run check`, `npm test`, `npm run build`. Testy matem
 - Všechny režimy obou kategorií se vejdou do 320 px. Provedena i nezávislá kontrola obrazovek a obsahu.
 - První offline návštěva obou matematických kategorií funguje po předchozím otevření pouze kalendáře. V offline režimu se načtou i všechny tři původní PPTX a ukládá se postup.
 - Statické sestavení obsahuje 161 souborů (20,2 MiB); všechny vstupují do ověřovaného offline balíčku.
+
+## Dva pracovní listy se 164 příklady
+
+Přidány jako režim `worksheets` uvnitř stávajících dvou kategorií (bez přidávání kategorií). `Gonio_fce_opakovani.pdf` má 60 úloh; `Opakovani_gonio__ne_rovnice.pdf` má 104 úloh po odečtení opakovaných stran. Dodaný JSON obsahuje zadání, kroky a výsledky. Sdílená komponenta `modules/math-worksheets/` je zobrazuje v přístupném velkém dialogu se šipkami, klávesnicí a čistou matematickou sazbou. Volitelné grafy používají zadané parametry a přerušují křivky u asymptot.
+
+Ověřená oprava: GR7-37 má v původním PDF na pravé straně jmenovatel `sin(2x)`, zatímco dodané řešení uvádělo `sin x`. Opravené zadání dává `1 − tan² x = 1 − tan x`, podmínky `sin x ≠ 0`, `cos x ≠ 0`; z větví tan x = 0 a tan x = 1 zůstává jen `x = π/4 + kπ`. Původní uživatelovy soubory nebyly změněny. Záznam nese poznámku o opravě.
+
+Přibalen KaTeX 0.19.1 (MIT licence ve vendor/katex/LICENSE) a jeho fonty. Za běhu není potřeba CDN. Každý vzorec je při testech vykreslen s chybami jako výjimkami a bez důvěry pro externí obsah. Původní PDF se vkládají do offline balíčku stejně jako zbytek Study.
+
+
+Kontrola pracovních listů: všech 164 zadání odpovídá PDF (60 grafů, 104 ostatních úloh). Po opravách byla ověřena úplnost větví náhodných rovnic algebraickými rozklady; 16 882 kontrol hodnot/kořenů a 180 387 kontrol nerovnic prošlo. Prohlížeč otevřel všech 164 položek a prošel každý krok v obou směrech. Zvlášť ověřeny mobilní šířka 320 px, Safari, skutečně načtené matematické fonty, filtrování, klávesnice, návrat fokusu, grafy a první offline otevření pracovních listů i obou PDF. Padesát regresních scénářů původních modulů prošlo.

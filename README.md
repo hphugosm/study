@@ -52,6 +52,15 @@ npm run test:e2e
 STUDY_TEST_URL=https://hphugosm.github.io/study/ npm run test:e2e
 ```
 
+## Pracovní listy z goniometrie
+
+V obou matematických kategoriích je záložka **Pracovní list**. Každý ze 164 příkladů je tlačítko: otevře velké okno se zadáním, šipky procházejí jednotlivé vysvětlené kroky a nakonec výsledek. Fungují také klávesy ←/→ a Escape. Filtr sekcí a hledání usnadňují výběr úlohy.
+
+- [Funkce — 60 příkladů](https://hphugosm.github.io/study/#/units/trig-functions?mode=worksheets)
+- [Rovnice a nerovnice — 104 příkladů](https://hphugosm.github.io/study/#/units/trig-equations?mode=worksheets)
+
+Zadání vycházejí ze dvou původních PDF a postupy z dodaného souboru 164 řešení. Opravy jsou vedené podle PDF; u úlohy GR7-37 je opraven jmenovatel sin(2x), definiční obor i postup. U grafů A/B/C označuje sloupce listu. Originály PDF jsou v Materiálech i přímo u seznamu příkladů. Vzorce, grafy i PDF fungují offline; sazba KaTeX 0.19.1 je přibalená včetně licence a fontů.
+
 ## Co aplikace obsahuje
 
 - Datový kalendář s přepínáním měsíců, dneškem, více událostmi denně, detailem dne, typy událostí a nejbližšími termíny. Aktuální datum používá časové pásmo Europe/Prague.

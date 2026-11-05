@@ -207,7 +207,7 @@ test('calendar-only first visit prepares unopened mathematics modules and origin
     return Boolean(registration?.active && navigator.serviceWorker.controller && pwa.getPwaState().offlineReady);
   }), { timeout: 60_000 }).toBe(true);
   const materials = [...new Set(units.filter(unit => ['trig-functions', 'trig-equations'].includes(unit.id)).flatMap(unit => unit.materials.map(item => item.url)))];
-  expect(materials).toHaveLength(3);
+  expect(materials).toHaveLength(5);
   await context.setOffline(true);
   try {
     await openMath(page);
@@ -236,7 +236,7 @@ test('calendar-only first visit prepares unopened mathematics modules and origin
         return { status: response.status, magic: String.fromCharCode(...bytes.slice(0, 2)), bytes: bytes.byteLength };
       }, path);
       expect(result.status, path).toBe(200);
-      expect(result.magic, path).toBe('PK');
+      expect(result.magic, path).toBe(path.endsWith('.pdf')?'%P':'PK');
       expect(result.bytes, path).toBeGreaterThan(1000);
     }
     await openMath(page);

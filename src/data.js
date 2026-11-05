@@ -23,13 +23,17 @@ export const units = [
     {title:'Trigonometrie',description:'Původní prezentace · 24 snímků · PPTX',url:'modules/math-trig/assets/Trigonometrie.pptx'},
     {title:'Grafy sin, cos, tan, cot',description:'Původní prezentace · PPTX',url:'modules/math-trig/assets/Grafy_sin_cos_tan_cot.pptx'},
     {title:'Goniometrické rovnice a vzorce',description:'Původní prezentace · PPTX',url:'modules/math-equations/assets/Goniometricke_rovnice_a_vzorce.pptx'},
+    {title:'Goniometrické funkce — pracovní list',description:'60 příkladů · PDF',url:'modules/math-worksheets/assets/Gonio_fce_opakovani.pdf'},
+    {title:'Goniometrické rovnice a nerovnice — pracovní list',description:'104 příkladů · PDF',url:'modules/math-worksheets/assets/Opakovani_gonio__ne_rovnice.pdf'},
   ]},
   {id:'trig-functions',subjectId:'mathematics',title:'Trigonometrie a goniometrické funkce',label:'KATEGORIE 1',description:'Jednotková kružnice, stupně a radiány, sin, cos, tan a cot. Grafy a jejich proměny, vlastnosti funkcí, sinová a kosinová věta.',module:'math-trig',materials:[
     {title:'Trigonometrie',description:'Původní výuková prezentace · PPTX',url:'modules/math-trig/assets/Trigonometrie.pptx'},
     {title:'Grafy sin, cos, tan, cot',description:'Původní výuková prezentace · PPTX',url:'modules/math-trig/assets/Grafy_sin_cos_tan_cot.pptx'},
+    {title:'Goniometrické funkce — pracovní list',description:'60 příkladů · původní zadání PDF',url:'modules/math-worksheets/assets/Gonio_fce_opakovani.pdf'},
   ]},
   {id:'trig-equations',subjectId:'mathematics',title:'Goniometrické vzorce, rovnice a nerovnice',label:'KATEGORIE 2',description:'Přehled vzorců s podmínkami, řešené příklady krok za krokem a nerovnice na kružnici i číselné ose. Kartičky a kvízy s vysvětlením.',module:'math-equations',materials:[
     {title:'Goniometrické rovnice a vzorce',description:'Původní výuková prezentace · PPTX',url:'modules/math-equations/assets/Goniometricke_rovnice_a_vzorce.pptx'},
+    {title:'Goniometrické rovnice a nerovnice — pracovní list',description:'104 příkladů · původní zadání PDF',url:'modules/math-worksheets/assets/Opakovani_gonio__ne_rovnice.pdf'},
   ]},
   {id:'miser',subjectId:'literature',title:'Rozbor Lakomce',label:'DOMÁCÍ ÚKOL',description:'Odevzdání rozboru Molièrova Lakomce. Zadání a materiály zatím nebyly přidány.',materials:[]},
 ];

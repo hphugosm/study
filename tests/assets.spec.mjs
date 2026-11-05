@@ -17,8 +17,8 @@ async function findFiles(directory) {
 
 test('all retained asset URLs and registered study materials load over HTTP', async ({ request, baseURL }) => {
   test.setTimeout(120_000);
-  const files = [...await findFiles('modules/biology/assets'), ...await findFiles('modules/law/assets'), ...await findFiles('modules/math-trig/assets'), ...await findFiles('modules/math-equations/assets')];
-  expect(files).toHaveLength(115);
+  const files = [...await findFiles('modules/biology/assets'), ...await findFiles('modules/law/assets'), ...await findFiles('modules/math-trig/assets'), ...await findFiles('modules/math-equations/assets'), ...await findFiles('modules/math-worksheets/assets')];
+  expect(files).toHaveLength(117);
   const materialURLs = units.flatMap(unit => unit.materials.map(material => material.url));
   for (const url of materialURLs) expect(files).toContain(url);
   // A bounded parallel batch checks every retained image, diagram, font and PDF,

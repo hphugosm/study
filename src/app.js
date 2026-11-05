@@ -85,6 +85,8 @@ function renderPractice() {
     {unit:'law-unit-2',mode:'flashcards',icon:'layers',title:'Law flashcards',copy:'Cases, concepts and legal vocabulary.'},
     {unit:'law-unit-2',mode:'practice',icon:'scale',title:'Law practice',copy:'Mixed questions, feedback and explanations.'},
     {unit:'law-unit-2',mode:'vocabulary',icon:'book',title:'Legal vocabulary',copy:'55 terms with Czech translations.'},
+    {unit:'trig-functions',mode:'worksheets',icon:'file',title:'Pracovní list: funkce',copy:'60 příkladů s velkým zadáním a šipkami v řešení.'},
+    {unit:'trig-equations',mode:'worksheets',icon:'file',title:'Pracovní list: rovnice a nerovnice',copy:'104 příkladů k rozkliknutí, každý s postupem řešení.'},
     {unit:'trig-functions',mode:'circle',icon:'function',title:'Kružnice a grafy',copy:'Propoj úhel, hodnoty funkcí a proměny grafu.'},
     {unit:'trig-equations',mode:'solver',icon:'function',title:'Rovnice krok za krokem',copy:'Vyzkoušej postup a vyznač řešení nerovnic.'},
     {unit:'trig-functions',mode:'cards',icon:'layers',title:'Matematické kartičky',copy:'Úhly, funkce a trojúhelníkové věty.'},
