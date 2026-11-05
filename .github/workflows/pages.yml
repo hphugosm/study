@@ -1,4 +1,4 @@
-name: Deploy study. to GitHub Pages
+name: Deploy study lo to GitHub Pages
 on:
   push:
     branches: [main]

@@ -1,4 +1,4 @@
-# study.
+# study lo
 
 Minimalistická studijní aplikace: školní kalendář, Law, Biologie a Matematika ve společném prostředí. Statický web bez backendu, přihlášení a runtime závislostí. Původní repozitáře zůstaly beze změn.
 
@@ -14,7 +14,7 @@ V patičce najdeš **Nastavení**: instalaci na plochu iPhonu, skutečný offlin
 
 ## Na ploše iPhonu a bez internetu
 
-Otevři [Nastavení](https://hphugosm.github.io/study/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study. potom otevírá vlastní okno aplikace.
+Otevři [Nastavení](https://hphugosm.github.io/study/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study lo potom otevírá vlastní okno aplikace.
 
 Po prvním otevření s připojením se automaticky uloží všechny části webu, všechny studijní předměty, obrázky, PDF i tři původní matematické prezentace. V nastavení počkej na **Připraveno offline**. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. K procvičování pak není potřeba internet ani předchozí návštěva konkrétního předmětu. Nová verze se nabídne v nastavení a sama nepřeruší rozehraný test.
 

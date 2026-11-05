@@ -1,6 +1,6 @@
 # Instalace a offline režim
 
-study. má manifest se samostatným zobrazením, vlastní ikony 192/512 px a Apple touch ikonu 180 px. `start_url`, `id` i `scope` jsou relativní, takže funguje i nasazení pod `/study/` na GitHub Pages. Na iPhonu je instalace dostupná přes systémovou nabídku Safari: Sdílet → Přidat na plochu; pokud systém nabízí „Otevřít jako webovou aplikaci“, ponechat zapnuté. Web sám nemůže tuto systémovou akci provést. Návod je schovaný v nastavení, bez vyskakovacího instalačního banneru.
+study lo má manifest se samostatným zobrazením, vlastní ikony 192/512 px a Apple touch ikonu 180 px. `start_url`, `id` i `scope` jsou relativní, takže funguje i nasazení pod `/study/` na GitHub Pages. Na iPhonu je instalace dostupná přes systémovou nabídku Safari: Sdílet → Přidat na plochu; pokud systém nabízí „Otevřít jako webovou aplikaci“, ponechat zapnuté. Web sám nemůže tuto systémovou akci provést. Návod je schovaný v nastavení, bez vyskakovacího instalačního banneru.
 
 Prohlížeče, které poskytují `beforeinstallprompt`, mohou zobrazit skutečný instalační dialog z tlačítka v nastavení. Safari dostává postup přes svoji systémovou nabídku. Samostatný režim se rozpoznává pomocí `display-mode: standalone` a `navigator.standalone`.
 
@@ -21,13 +21,13 @@ Zdrojový vývojový server bez sestavení nemá vygenerovaný balíček. Běžn
 
 ## Aktualizace bez přerušení testu
 
-Nová verze se nejdřív stáhne do samostatné cache a musí úspěšně ověřit všechny soubory. Čekající worker automaticky nepřepíná otevřený web ani neobnovuje rozpracované procvičování. V nastavení se objeví aktualizace; změna proběhne po výslovném tlačítku uživatele. Když je otevřeno více panelů study., aktualizace požádá o jejich zavření, aby nezasáhla jiný rozpracovaný test.
+Nová verze se nejdřív stáhne do samostatné cache a musí úspěšně ověřit všechny soubory. Čekající worker automaticky nepřepíná otevřený web ani neobnovuje rozpracované procvičování. V nastavení se objeví aktualizace; změna proběhne po výslovném tlačítku uživatele. Když je otevřeno více panelů study lo, aktualizace požádá o jejich zavření, aby nezasáhla jiný rozpracovaný test.
 
 Service worker používá jen svůj prefix `study-offline:<scope>:`. Při aktivaci odstraňuje výhradně předchozí verze stejného rozsahu; nemaže jiné aplikace ani studijní localStorage. Dokumenty se zkouší načíst ze sítě, ale HTML jiné verze se nespojí se starými skripty: v takovém případě se použije úplná dosavadní offline verze a nabídne aktualizace. Známé assety jsou obslouženy z ověřeného snapshotu. PDF podporují i dílčí `Range` požadavky.
 
 ## Omezení
 
-První příprava potřebuje připojení a volné místo. iOS/prohlížeč může při nedostatku místa nebo po vymazání dat webu offline cache odstranit; stav v nastavení pak není „připraveno“ a tlačítko umožní obsah znovu stáhnout. Při změně verze je nejprve nutné dokončit aktualizaci. Instalovaná aplikace a Safari mohou mít podle verze iOS samostatné úložiště; po instalaci je vhodné otevřít study. jednou s připojením a ověřit přípravu přímo v této aplikaci. Offline podklady neznamenají automatickou synchronizaci postupu mezi zařízeními.
+První příprava potřebuje připojení a volné místo. iOS/prohlížeč může při nedostatku místa nebo po vymazání dat webu offline cache odstranit; stav v nastavení pak není „připraveno“ a tlačítko umožní obsah znovu stáhnout. Při změně verze je nejprve nutné dokončit aktualizaci. Instalovaná aplikace a Safari mohou mít podle verze iOS samostatné úložiště; po instalaci je vhodné otevřít study lo jednou s připojením a ověřit přípravu přímo v této aplikaci. Offline podklady neznamenají automatickou synchronizaci postupu mezi zařízeními.
 
 Ověřeno podle primárních podkladů: [Apple — webová aplikace na ploše iPhonu](https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios), [MDN — životní cyklus a cache service workerů](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers).
 

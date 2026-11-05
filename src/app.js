@@ -75,7 +75,7 @@ function renderSubject(subject) {
   main.innerHTML=`<section class="subject-overview" style="${subjectStyle(subject)}"><div class="subject-overview-heading"><span class="subject-icon">${icon(subject.icon)}</span><p class="eyebrow">TVŮJ PŘEDMĚT</p></div><h1>${subject.name}</h1><p>${subject.description}</p></section>
     <section aria-label="Studijní témata"><div class="section-heading"><h2>Témata a příprava</h2><span>${subjectUnits.length} ${subjectUnits.length===1?'téma':'témata'}</span></div><div class="unit-list">${subjectUnits.map(unit=>`<a class="unit-card" href="#/units/${unit.id}" style="${subjectStyle(subject)}"><div><p class="eyebrow">${unit.label||'STUDIJNÍ TÉMA'}</p><h2>${esc(unit.title)}</h2><p>${esc(unit.description)}</p><span class="text-link">Otevřít téma ${icon('arrow')}</span></div><span class="unit-card-icon">${icon('book')}</span></a>`).join('')}</div></section>
     ${subjectEvents.length?`<section class="upcoming-section"><div class="section-heading"><h2>Termíny předmětu</h2></div><div class="upcoming-grid">${subjectEvents.map(event=>eventCard(event)).join('')}</div></section>`:''}`;
-  document.title=`${subject.name} — study.`;
+  document.title=`${subject.name} — study lo`;
 }
 function renderPractice() {
   const options=[
@@ -99,7 +99,7 @@ async function renderUnit(unit,event,params,version) {
   const s=getSubject(unit.subjectId);
   activeTab=params.get('tab')||'tools';
   const unitEvents=events.filter(e=>e.unitId===unit.id);
-  document.title=`${event?event.title:unit.title} — study.`;
+  document.title=`${event?event.title:unit.title} — study lo`;
   main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><a href="#/subjects/${s.id}">${s.name}</a></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${fullDate(e.date)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
     <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="Materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">Materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Můj postup" data-tab="progress" id="unit-tab-progress" aria-controls="unit-panel">${icon('check')}<span class="tab-label-long">Můj postup</span><span class="tab-label-short" aria-hidden="true">Postup</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
   for(const b of main.querySelectorAll('[data-tab]')) b.onclick=()=>{
@@ -152,13 +152,13 @@ async function route({scroll=0,restore=false}={}) {
   const [path,search='']=(location.hash.slice(1)||'/').split('?');
   const segments=path.split('/').filter(Boolean);
   const params=new URLSearchParams(search);
-  document.title='study. — Studuj v klidu.';
+  document.title='study lo — Studuj v klidu.';
   const section=segments[0];
   document.querySelectorAll('[data-nav]').forEach(a=>{const active=section!=='settings'&&a.dataset.nav===(section==='practice'?'practice':section?'subjects':'calendar');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
   if(!section)renderCalendar();
   else if(section==='subjects'&&!segments[1])renderSubjects();
   else if(section==='practice')renderPractice();
-  else if(section==='settings') {document.title='Nastavení — study.';cleanupModule=mountSettings(main);}
+  else if(section==='settings') {document.title='Nastavení — study lo';cleanupModule=mountSettings(main);}
   else if(section==='events'||section==='units'||section==='subjects') {
     const event=section==='events'?events.find(e=>e.id===segments[1]):null;
     const subjectUnits=section==='subjects'?units.filter(u=>u.subjectId===segments[1]):[];

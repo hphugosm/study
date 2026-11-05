@@ -1,4 +1,4 @@
-# Matematika ve study.
+# Matematika ve study lo
 
 Dvě kategorie rozšiřují stávající předmět Matematika. Původní `math-quarter` zůstává cílem kalendářové události a slouží jako rozcestník, není třetí kategorií. Přesný rozsah školní čtvrtletní práce není doložen.
 

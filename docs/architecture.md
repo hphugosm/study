@@ -1,6 +1,6 @@
 # Architektura
 
-study. je jeden statický web postavený na ES modulech. Pro společný shell není potřeba framework ani bundler: starší aplikace mohou zachovat své osvědčené chování a web nemá síťové závislosti na CDN. `npm run build` vytvoří přenositelný `dist/`.
+study lo je jeden statický web postavený na ES modulech. Pro společný shell není potřeba framework ani bundler: starší aplikace mohou zachovat své osvědčené chování a web nemá síťové závislosti na CDN. `npm run build` vytvoří přenositelný `dist/`.
 
 ## Instalace, offline a vzhled
 

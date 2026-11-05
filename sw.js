@@ -69,7 +69,7 @@ async function documentResponse(request, cache) {
     if (expected && await hash(await result.clone().arrayBuffer()) !== expected) return fallback || result;
     return result;
   } catch {
-    return fallback || new Response('study. zatím není připravené offline. Připoj se a otevři aplikaci znovu.', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+    return fallback || new Response('study lo zatím není připravené offline. Připoj se a otevři aplikaci znovu.', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
   } finally { clearTimeout(timeout); }
 }
 
@@ -123,7 +123,7 @@ self.addEventListener('message', event => {
     event.waitUntil((async () => {
       const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
       const appClients = clients.filter(client => client.url.startsWith(BASE));
-      if (appClients.length > 1) { reply({ accepted: false, reason: 'Zavři prosím ostatní otevřené panely study. a zkus aktualizaci znovu.' }); return; }
+      if (appClients.length > 1) { reply({ accepted: false, reason: 'Zavři prosím ostatní otevřené panely study lo a zkus aktualizaci znovu.' }); return; }
       reply({ accepted: true });
       await self.skipWaiting();
     })());
