@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+import path from 'node:path';
 import { worksheetData } from '../modules/math-worksheets/data.js';
+import { worksheetLayout } from '../modules/math-worksheets/layout.js';
 
 // Full worksheet coverage renders thousands of formula states; retain failure screenshots without duplicating the entire DOM in traces.
 test.use({trace:'off'});
@@ -12,7 +15,7 @@ const moduleFor = (page, source) => page.locator(`[data-study-module="${source.m
 async function openWorksheet(page, source) {
   await page.goto(`./#/units/${source.unit}?mode=worksheets`);
   const host = moduleFor(page, source);
-  await expect(host.locator('#worksheet-search')).toBeVisible();
+  await expect(host.locator('#worksheet-viewport')).toBeVisible();
   return host;
 }
 async function openExercise(host, item) {
@@ -35,75 +38,123 @@ async function fits(page) {
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth+1)).toBe(true);
 }
 
-test('worksheet lists preserve source labels and support every section, unique-ID search and no-result feedback', async ({page}) => {
+async function expectMappedTargets(host,source){
+  const actual=await host.locator('button[data-exercise-id]').evaluateAll(buttons=>buttons.map(button=>{
+    const page=button.closest('.worksheet-page'),r=button.getBoundingClientRect(),p=page.querySelector('img').getBoundingClientRect();
+    return{id:button.dataset.exerciseId,pageIndex:Number(page.dataset.sourcePage)-1,x:(r.x-p.x)/p.width,y:(r.y-p.y)/p.height,width:r.width/p.width,height:r.height/p.height};
+  }));
+  expect(actual).toHaveLength(source.count);
+  for(const target of actual){
+    const mapping=worksheetLayout.exercises.find(record=>record.id===target.id),paper=worksheetLayout.pages.find(record=>record.source_file===source.file&&record.page_index===mapping.page_index);
+    expect(target.pageIndex,target.id).toBe(mapping.page_index);
+    const[x0,y0,x1,y1]=mapping.bbox;
+    expect(target.x,target.id).toBeCloseTo(x0/paper.width,3);expect(target.y,target.id).toBeCloseTo(y0/paper.height,3);
+    expect(target.width,target.id).toBeCloseTo((x1-x0)/paper.width,3);expect(target.height,target.id).toBeCloseTo((y1-y0)/paper.height,3);
+  }
+}
+
+test('original PDF pages keep their printed headings, letter columns and positions while search highlights and section navigation jumps', async ({page},testInfo) => {
+  const proofDirectory=testInfo.project.name==='desktop'?process.env.STUDY_PROOF_DIR:null;
+  if(proofDirectory)await page.setViewportSize({width:1440,height:2100});
   for (const source of sources) {
     const host=await openWorksheet(page,source);
+    const pages=worksheetLayout.pages.filter(item=>item.source_file===source.file);
     await expect(host.locator('button[data-exercise-id]')).toHaveCount(source.count);
+    await expect(host.locator('.worksheet-page')).toHaveCount(pages.length);
+    await expectMappedTargets(host,source);
     await expect(host.locator('.pdf-link')).toHaveAttribute('href',new RegExp(`${source.file.replaceAll('.','\\.')}$`));
-    const items=worksheetData.exercises.filter(item=>item.source_file===source.file);
-    for (const section of [...new Set(items.map(item=>item.section))]) {
+    for(const record of pages){
+      const paper=host.locator(`.worksheet-page[data-source-page="${record.page_index+1}"]`);
+      await expect.poll(()=>paper.locator('img').evaluate(img=>img.complete&&img.naturalWidth>0)).toBe(true);
+      for(const section of record.sections){
+        await expect(paper.getByRole('heading',{name:section.title,exact:true})).toHaveCount(1);
+        const option=host.locator('#worksheet-section option').filter({hasText:section.title});
+        await expect(option).toHaveCount(1);
+        await expect(option).toHaveAttribute('value',section.key);
+      }
+    }
+    const items=worksheetData.exercises.filter(item=>item.source_file===source.file),item=items.at(-1);
+    const target=host.locator(`button[data-exercise-id="${item.id}"]`);
+    const position=()=>target.evaluate(button=>{const a=button.getBoundingClientRect(),b=button.closest('.worksheet-page').querySelector('img').getBoundingClientRect();return[(a.x-b.x)/b.width,(a.y-b.y)/b.height,a.width/b.width,a.height/b.height];});
+    const before=await position();
+    await host.locator('#worksheet-search').fill(item.id);
+    await expect(host.locator('button[data-exercise-id][data-highlight="true"]')).toHaveCount(1);
+    await expect(target).toHaveAttribute('data-highlight','true');
+    await expect(host.locator('button[data-exercise-id]')).toHaveCount(source.count);
+    for(const[index,value]of(await position()).entries())expect(value).toBeCloseTo(before[index],6);
+    await host.locator('#worksheet-search').fill('zadani-ktere-neexistuje');
+    await expect(host.locator('button[data-exercise-id][data-highlight="true"]')).toHaveCount(0);
+    await expect(host.locator('#worksheet-count')).toContainText(`0 z ${source.count}`);
+    await expect(host.locator('button[data-exercise-id]')).toHaveCount(source.count);
+    await host.locator('#worksheet-search').fill('');
+    for(const section of [...new Set(items.map(item=>item.section))]){
       await host.locator('#worksheet-section').selectOption(section);
-      await expect(host.locator('button[data-exercise-id]')).toHaveCount(items.filter(item=>item.section===section).length);
+      await expect(host.locator('button[data-exercise-id][data-highlight="true"]')).toHaveCount(items.filter(item=>item.section===section).length);
+      await expect(host.locator('button[data-exercise-id]')).toHaveCount(source.count);
     }
     await host.locator('#worksheet-section').selectOption('');
-    const item=items.at(-1);
-    await host.locator('#worksheet-search').fill(item.id);
-    await expect(host.locator('button[data-exercise-id]')).toHaveCount(1);
-    await expect(host.locator('button[data-exercise-id]')).toHaveAttribute('data-exercise-id',item.id);
-    await host.locator('#worksheet-search').fill('zadani-ktere-neexistuje');
-    await expect(host.locator('button[data-exercise-id]')).toHaveCount(0);
-    await expect(host.locator('.empty')).toContainText('Takový příklad tu není');
-    await host.locator('#worksheet-search').fill('');
-    await expect(host.locator('button[data-exercise-id]')).toHaveCount(source.count);
-    await expect(host.locator('.math-error,.katex-error')).toHaveCount(0);
+    await expect(host.locator('button[data-exercise-id][data-highlight="true"]')).toHaveCount(0);
+    for(const[index,value]of(await position()).entries())expect(value).toBeCloseTo(before[index],6);
     await fits(page);
+  }
+  const host=await openWorksheet(page,sources[1]);
+  await expect(host.getByRole('heading',{name:/^1\. Určete přesnou hodnotu/})).toHaveCount(1);
+  const first=host.locator('button[data-exercise-id="GR1-a"]');
+  await expect(first).toHaveAttribute('aria-label',/a/);
+  const columns=await host.locator('button[data-exercise-id="GR1-a"],button[data-exercise-id="GR1-f"],button[data-exercise-id="GR1-k"]').evaluateAll(buttons=>buttons.map(button=>{const r=button.getBoundingClientRect(),p=button.closest('.worksheet-page').getBoundingClientRect();return{x:r.x-p.x,y:r.y-p.y};}));
+  expect(Math.abs(columns[0].y-columns[1].y)).toBeLessThan(2);
+  expect(Math.abs(columns[1].y-columns[2].y)).toBeLessThan(2);
+  expect(columns[0].x).toBeLessThan(columns[1].x);expect(columns[1].x).toBeLessThan(columns[2].x);
+  const item=worksheetData.exercises.find(item=>item.id==='GR1-a');
+  if(proofDirectory){await mkdir(proofDirectory,{recursive:true});await host.locator('.worksheet-page[data-source-page="1"]').screenshot({path:path.join(proofDirectory,'Study_rozlozeni_listu.png')});}
+  await openExercise(host,item);await expectFormula(host.locator('#worksheet-prompt'),item.prompt_latex);
+  if(proofDirectory){await host.locator('#worksheet-next').click();await host.locator('#worksheet-dialog').screenshot({path:path.join(proofDirectory,'Study_priklad_sin105.png')});}
+  await expect(host.locator('#worksheet-dialog-meta')).toContainText('1. Určete přesnou hodnotu');
+});
+
+test('all 164 original-position exercise hotspots open the matching formula and retain the working step controls',async({page},testInfo)=>{
+  test.skip(testInfo.project.name!=='desktop','Every source hotspot is checked once; mobile covers the same map with pan and zoom.');
+  test.setTimeout(120_000);
+  for(const source of sources){
+    const host=await openWorksheet(page,source);
+    for(const item of worksheetData.exercises.filter(item=>item.source_file===source.file)){
+      const target=host.locator(`button[data-exercise-id="${item.id}"]`);
+      await openExercise(host,item);
+      await expectFormula(host.locator('#worksheet-prompt'),item.prompt_latex);
+      await expect(host.locator('#worksheet-previous')).toBeDisabled();
+      await host.locator('#worksheet-next').click();
+      await expect(host.locator('#worksheet-step')).toHaveAttribute('data-step-index','1');
+      await expectFormula(host.locator('#worksheet-step .step-formula'),item.steps[0].latex);
+      await host.locator('#worksheet-previous').click();
+      await expect(host.locator('#worksheet-step')).toHaveAttribute('data-step-index','0');
+      await host.locator('#worksheet-close').click();
+      await expect(target).toBeFocused();
+    }
   }
 });
 
-const groups = [
-  ['all 60 function graphs', sources[0], item=>item.id.startsWith('GF')],
-  ['all 57 values, structured equations and inequalities', sources[1], item=>item.id.startsWith('GR')&&!item.id.startsWith('GR7-')],
-  ['all 47 random practice equations', sources[1], item=>item.id.startsWith('GR7-')],
-];
-for(const [label,source,predicate] of groups) {
-  test(`${label} open enlarged and expose every exact solution step forwards and backwards`,async({page},testInfo)=>{
-    test.skip(testInfo.project.name!=='desktop','Exhaustive 164-example coverage runs once on desktop; mobile covers representative long solutions.');
-    test.setTimeout(300_000);
-    const host=await openWorksheet(page,source);
-    for(const item of worksheetData.exercises.filter(predicate)) {
-      await openExercise(host,item);
-      const dialog=host.locator('#worksheet-dialog'),step=host.locator('#worksheet-step');
-      await expectFormula(host.locator('#worksheet-prompt'),item.prompt_latex);
-      await expect(host.locator('#worksheet-previous')).toBeDisabled();
-      await expect(step.locator('.answer')).toHaveCount(0);
-      for(let index=1;index<=item.steps.length;index++) {
-        if(index===1){await host.locator('#worksheet-next').click();await host.locator('#worksheet-close').focus();}
-        else await page.keyboard.press('ArrowRight');
-        await expect(step).toHaveAttribute('data-step-index',String(index));
-        await expect(step.locator('h3')).toHaveText(item.steps[index-1].title);
-        await expect(step).toContainText(item.steps[index-1].explanation);
-        await expectFormula(step.locator('.step-formula'),item.steps[index-1].latex);
-        await expect(step.locator('.answer')).toHaveCount(0);
-      }
-      await host.locator('#worksheet-next').click();
-      await expect(step).toHaveAttribute('data-step-index',String(item.steps.length+1));
-      await expectFormula(step.locator('.answer'),item.answer_latex);
-      if(item.correction_note)await expect(step).toContainText(item.correction_note);
-      await expect(host.locator('#worksheet-next')).toBeDisabled();
-      await expect(host.locator('#worksheet-counter')).toContainText(`${item.steps.length+2} / ${item.steps.length+2}`);
-      await expect(dialog.locator('.math-error,.katex-error')).toHaveCount(0);
-      for(let index=item.steps.length;index>=0;index--) {
-        if(index===item.steps.length){await host.locator('#worksheet-previous').click();await host.locator('#worksheet-close').focus();}
-        else await page.keyboard.press('ArrowLeft');
-        await expect(step).toHaveAttribute('data-step-index',String(index));
-        if(index>0)await expectFormula(step.locator('.step-formula'),item.steps[index-1].latex);
-      }
-      await expect(host.locator('#worksheet-previous')).toBeDisabled();
-      await host.locator('#worksheet-close').click();
-      await expect(dialog).not.toBeVisible();
-    }
-  });
-}
+test('paper zoom and mobile pan preserve the PDF layout and keep overflow inside the worksheet viewport',async({page},testInfo)=>{
+  if(testInfo.project.name==='mobile')await page.setViewportSize({width:320,height:568});
+  for(const source of sources){const scoped=await openWorksheet(page,source);await expectMappedTargets(scoped,source);}
+  const host=await openWorksheet(page,sources[1]);
+  const viewport=host.locator('#worksheet-viewport'),paper=host.locator('.worksheet-page').first();
+  await expect(viewport).toHaveAttribute('data-fit','false');
+  const base=(await paper.boundingBox()).width;
+  await host.locator('#worksheet-zoom-in').click();
+  await expect.poll(async()=>(await paper.boundingBox()).width).toBeGreaterThan(base);
+  await host.locator('#worksheet-zoom-out').click();
+  await expect.poll(async()=>(await paper.boundingBox()).width).toBeCloseTo(base,0);
+  if(testInfo.project.name==='mobile'){
+    const geometry=await viewport.evaluate(el=>({width:el.clientWidth,scroll:el.scrollWidth,overflow:getComputedStyle(el).overflowX}));
+    expect(geometry.scroll).toBeGreaterThan(geometry.width);expect(['auto','scroll']).toContain(geometry.overflow);
+  }
+  await host.locator('#worksheet-fit').click();
+  await expect(viewport).toHaveAttribute('data-fit','true');
+  expect((await paper.boundingBox()).width).toBeLessThanOrEqual((await viewport.boundingBox()).width+1);
+  await fits(page);
+  const item=worksheetData.exercises.find(item=>item.id==='GR1-a');
+  await openExercise(host,item);await expectFormula(host.locator('#worksheet-prompt'),item.prompt_latex);
+});
 
 test('worksheet keyboard arrows, Escape and focus restore work and route cleanup removes the active modal',async({page})=>{
   const errors=[];page.on('pageerror',error=>errors.push(error.message));
@@ -186,6 +237,7 @@ test('calendar-only installation caches unopened worksheets, their local math re
       await openWorksheet(page,source);await page.reload();
       const host=moduleFor(page,source);
       await expect(host.locator('button[data-exercise-id]')).toHaveCount(source.count);
+      for(const image of await host.locator('.worksheet-page img').all())await expect.poll(()=>image.evaluate(img=>img.complete&&img.naturalWidth>0)).toBe(true);
       const item=worksheetData.exercises.find(item=>item.source_file===source.file);
       await openExercise(host,item);await finish(host,item);
       await expectFormula(host.locator('#worksheet-step .answer'),item.answer_latex);

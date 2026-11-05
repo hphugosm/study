@@ -48,3 +48,11 @@ Přibalen KaTeX 0.19.1 (MIT licence ve vendor/katex/LICENSE) a jeho fonty. Za b�
 
 
 Kontrola pracovních listů: všech 164 zadání odpovídá PDF (60 grafů, 104 ostatních úloh). Po opravách byla ověřena úplnost větví náhodných rovnic algebraickými rozklady; 16 882 kontrol hodnot/kořenů a 180 387 kontrol nerovnic prošlo. Prohlížeč otevřel všech 164 položek a prošel každý krok v obou směrech. Zvlášť ověřeny mobilní šířka 320 px, Safari, skutečně načtené matematické fonty, filtrování, klávesnice, návrat fokusu, grafy a první offline otevření pracovních listů i obou PDF. Padesát regresních scénářů původních modulů prošlo.
+
+
+### Rozložení podle originálu
+
+Pracovní listy se zobrazují jako ostré renderované původní stránky (612 × 792 PDF bodů, obraz 1836 × 2376 px), s procentně umístěnými klikacími oblastmi nad každým příkladem. Zachována je sazba, úplné zadání úloh, sloupce a označení: například v první úloze rovnicového listu jsou sloupce a–e, f–j a k–o. Zobrazují se jedinečné stránky 1 grafového listu a 1 a 3 rovnicového listu. Mapa oblastí a přesné nadpisy jsou v `modules/math-worksheets/layout.js`. Řešení i jeho ovládání zůstávají stejné. Hledání a přechod na úlohu nepřeskupují příklady; na úzké obrazovce má stránka vnitřní posun a přiblížení.
+
+
+Ověření tohoto rozložení: všechny klikací oblasti nezávisle porovnány s textem původních PDF; 164/164 přiřazení souhlasí, bez překryvů. Prošlo 45 datových testů, 22 prohlížečových kontrol včetně Safari, skutečných rozměrů oblastí na mobilu, řádku a/f/k, zoomu a offline obrázků. Vizuálně ověřena první stránka i otevření (a) sin 105° se správným nadpisem a šipkami.

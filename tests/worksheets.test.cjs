@@ -101,3 +101,58 @@ test('PDF exercise 37 keeps sin(2x) in its denominator and rejects the invalid z
     assert.ok(Math.abs(left-right) < 1e-10);
   }
 });
+
+test('original-paper map covers all 164 exercises with bounded non-overlapping targets covering their printed formulas', async () => {
+  const { worksheetData } = await import('../modules/math-worksheets/data.js');
+  const { worksheetLayout } = await import('../modules/math-worksheets/layout.js');
+  assert.equal(worksheetLayout.exercises.length,164);
+  assert.deepEqual(worksheetLayout.exercises.map(item=>item.id).sort(),worksheetData.exercises.map(item=>item.id).sort());
+  const pages=worksheetLayout.pages;
+  assert.equal(pages.length,3);
+  assert.equal(new Set(pages.map(page=>`${page.source_file}:${page.page_index}`)).size,pages.length);
+  for(const item of worksheetLayout.exercises){
+    const original=worksheetData.exercises.find(exercise=>exercise.id===item.id);
+    const page=pages.find(page=>page.source_file===original.source_file&&page.page_index===item.page_index);
+    assert.ok(page,`${item.id}: exact source page`);
+    assert.equal(item.source_file,original.source_file);
+    assert.equal(item.section,original.section);
+    assert.ok(page.sections.some(section=>section.key===item.section),`${item.id}: printed task heading`);
+    const [x0,y0,x1,y1]=item.bbox;
+    assert.ok(item.bbox.length===4&&item.bbox.every(Number.isFinite),`${item.id}: finite PDF points`);
+    assert.ok(x0>=0&&y0>=0&&x1>x0&&y1>y0&&x1<=page.width&&y1<=page.height,`${item.id}: positive page-bounded hit area`);
+    const [gx0,gy0,gx1,gy1]=item.glyph_bbox;
+    assert.ok(x0<=gx0+.01&&x1>=gx1-.01,`${item.id}: complete printed formula width`);
+    const center=(gy0+gy1)/2,covered=Math.min(y1,gy1)-Math.max(y0,gy0);
+    assert.ok(y0<=center&&y1>=center&&covered/(gy1-gy0)>=.9,`${item.id}: formula center and at least90% of its font bounds remain clickable`);
+  }
+  for(let i=0;i<worksheetLayout.exercises.length;i++)for(let j=i+1;j<worksheetLayout.exercises.length;j++){
+    const a=worksheetLayout.exercises[i],b=worksheetLayout.exercises[j];
+    if(a.source_file!==b.source_file||a.page_index!==b.page_index)continue;
+    const x=Math.min(a.bbox[2],b.bbox[2])-Math.max(a.bbox[0],b.bbox[0]);
+    const y=Math.min(a.bbox[3],b.bbox[3])-Math.max(a.bbox[1],b.bbox[1]);
+    assert.ok(x<=.01||y<=.01,`${a.id} must not intercept ${b.id}`);
+  }
+});
+
+test('PDF page images retain source aspect ratios and a/f/k stay in the first printed exercise row',async()=>{
+  const { worksheetData } = await import('../modules/math-worksheets/data.js');
+  const { worksheetLayout } = await import('../modules/math-worksheets/layout.js');
+  for(const page of worksheetLayout.pages){
+    assert.ok(page.image&&!page.image.startsWith('/'),'Page image is a local relative asset');
+    const bytes=await readFile(path.resolve(__dirname,'..','modules','math-worksheets',page.image));
+    assert.equal(bytes.subarray(1,4).toString(),'PNG');
+    const width=bytes.readUInt32BE(16),height=bytes.readUInt32BE(20);
+    assert.ok(width>=page.width&&height>=page.height,'Image retains readable source resolution');
+    assert.ok(Math.abs(width/height-page.width/page.height)<.001,'Rendered PDF page keeps exact paper proportions');
+  }
+  const first=worksheetLayout.exercises.find(item=>item.id==='GR1-a');
+  const row=['GR1-a','GR1-f','GR1-k'].map(id=>worksheetLayout.exercises.find(item=>item.id===id));
+  assert.deepEqual(first.bbox,[59.096,72.5781,125.3875,89.0774]);
+  assert.equal(first.label,'a');
+  assert.ok(first.source_text.includes('sin(105'));
+  assert.equal(worksheetData.exercises.find(item=>item.id==='GR1-a').prompt_latex,'\\sin(105^\\circ)');
+  assert.ok(Math.abs(row[0].bbox[1]-row[1].bbox[1])<.1&&Math.abs(row[1].bbox[1]-row[2].bbox[1])<.1);
+  assert.ok(row[0].bbox[0]<row[1].bbox[0]&&row[1].bbox[0]<row[2].bbox[0]);
+  const page=worksheetLayout.pages.find(page=>page.source_file===first.source_file&&page.page_index===first.page_index);
+  assert.ok(page.sections.find(section=>section.key===first.section).title.startsWith('1. Určete přesnou hodnotu'));
+});

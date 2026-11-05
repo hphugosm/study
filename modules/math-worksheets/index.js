@@ -1,5 +1,6 @@
 import katex from './vendor/katex/katex.mjs';
 import { worksheetData } from './data.js';
+import { worksheetLayout } from './layout.js';
 import { graphPoles, graphSegments, transformedValue } from '../math-trig/math.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -22,7 +23,18 @@ function math(latex, displayMode = false) {
 /** Shared worksheet view. Each exercise opens its own accessible step-by-step dialog. */
 export function mountWorksheets(container, {sourceFile} = {}) {
   const items = worksheetData.exercises.filter(item => item.source_file === sourceFile);
-  const sections = [...new Set(items.map(item => item.section))];
+  const pages = worksheetLayout.pages.filter(page => page.source_file === sourceFile);
+  const positions = new Map(worksheetLayout.exercises.map(position => [position.id,position]));
+  const sections = pages.flatMap(page => (page.sections || []).map(section => ({...section,page})));
+  const sectionFor = item => sections.find(section => section.key === item.section);
+  const plainMath = value => {
+    let text = String(value ?? '');
+    const slash = String.fromCharCode(92);
+    for (const command of ['left','right','qquad','quad','circ',',','!']) text = text.split(slash+command).join('');
+    text = text.split(slash+'pi').join('π').split(slash).join('').replace(/[{}]/g,' ');
+    return text.split(' ').filter(Boolean).join(' ').trim();
+  };
+  const searchKey = value => normalize(plainMath(value)).replace(/[^a-z0-9π]/g,'');
   const title = titles[sourceFile] || 'Pracovní list';
   const host = document.createElement('section');
   host.lang = 'cs';
@@ -32,9 +44,10 @@ export function mountWorksheets(container, {sourceFile} = {}) {
   const instanceId = ++instance;
   const sourceURL = new URL(`./assets/${sourceFile}`, import.meta.url).href;
   root.innerHTML = `<link rel="stylesheet" href="${new URL('./vendor/katex/katex.min.css', import.meta.url).href}"><link rel="stylesheet" href="${new URL('./styles.css', import.meta.url).href}">
-    <header class="worksheet-heading"><div><p class="eyebrow">PRACOVNÍ LIST · ${items.length} PŘÍKLADŮ</p><h2>${esc(title)}</h2><p>Vyber příklad. Otevře se ve větším okně, kde šipkami postupně odkryješ jeho řešení.</p></div><a class="pdf-link" href="${esc(sourceURL)}" target="_blank" rel="noopener">Původní pracovní list · PDF ↗</a></header>
-    <div class="worksheet-filters"><label for="worksheet-search">Najít příklad<input id="worksheet-search" type="search" placeholder="Např. GF1-12, B2 nebo substituce" autocomplete="off"></label><label for="worksheet-section">Část pracovního listu<select id="worksheet-section"><option value="">Všechny části (${items.length})</option>${sections.map(section => `<option value="${esc(section)}">${esc(section)}</option>`).join('')}</select></label></div>
-    <p id="worksheet-count" class="count" role="status"></p><div id="worksheet-list"></div>
+    <header class="worksheet-heading"><div><h2>${esc(title)}</h2><p>Klikni na příklad přímo v pracovním listu. Větší okno nabídne řešení po jednotlivých krocích.</p></div><a class="pdf-link" href="${esc(sourceURL)}" target="_blank" rel="noopener">Otevřít původní PDF ↗</a></header>
+    <div class="worksheet-filters"><label for="worksheet-search">Najít v pracovním listu<input id="worksheet-search" type="search" placeholder="Např. sin 105° nebo příklad 37" autocomplete="off"></label><label for="worksheet-section">Přejít na zadání<select id="worksheet-section"><option value="">Všechna zadání</option>${sections.map(section => `<option value="${esc(section.key)}">${esc(section.title)}</option>`).join('')}</select></label></div>
+    <div class="reader-toolbar"><p id="worksheet-count" class="count" role="status"></p><div class="zoom-controls" role="group" aria-label="Velikost pracovního listu"><button id="worksheet-zoom-out" type="button" aria-label="Zmenšit pracovní list">−</button><output id="worksheet-zoom-value" aria-label="Zvětšení listu">100 %</output><button id="worksheet-zoom-in" type="button" aria-label="Zvětšit pracovní list">+</button><button id="worksheet-fit" type="button" aria-pressed="false">Přizpůsobit šířce</button></div></div>
+    <div id="worksheet-viewport" class="worksheet-viewport" data-fit="false" tabindex="0" aria-label="Pracovní list v původním rozložení. Při zvětšení lze posouvat do stran."><div id="worksheet-list" class="worksheet-pages"></div></div><p class="reader-help">Na menší obrazovce posuň list do stran, nebo zvol Přizpůsobit šířce. Rozložení sloupců zůstává stejné.</p>
     <dialog id="worksheet-dialog" aria-labelledby="worksheet-dialog-title"><div class="dialog-shell"><header class="dialog-header"><div><p class="eyebrow" id="worksheet-dialog-meta"></p><h2 id="worksheet-dialog-title">Příklad</h2></div><button id="worksheet-close" class="close-button" type="button" aria-label="Zavřít příklad">×</button></header><div class="dialog-scroll"><div id="worksheet-prompt" class="large-math math-scroll" tabindex="0" aria-label="Zadání příkladu"></div><div id="worksheet-step" class="step-content" aria-live="polite" aria-atomic="true"></div><div id="worksheet-graph-area"></div></div><footer class="dialog-footer"><button id="worksheet-previous" type="button" aria-label="Předchozí krok"><span aria-hidden="true">←</span><span>Předchozí krok</span></button><div><p id="worksheet-counter" class="step-counter"></p><p class="keyboard-note">Klávesy ← a → · Esc zavře okno</p></div><button id="worksheet-next" class="primary" type="button" aria-label="Další krok"><span>Další krok</span><span aria-hidden="true">→</span></button></footer></div></dialog>`;
   const $ = selector => root.querySelector(selector);
   const dialog = $('#worksheet-dialog');
@@ -43,18 +56,68 @@ export function mountWorksheets(container, {sourceFile} = {}) {
   let opener = null;
   let disposed = false;
   let previousOverflow = null;
+  let zoom = 1;
+  let fit = false;
+  const viewport = $('#worksheet-viewport');
 
-  function renderList() {
-    const query = normalize($('#worksheet-search').value.trim());
-    const section = $('#worksheet-section').value;
-    const visible = items.filter(item => (!section || item.section === section) && (!query || normalize(`${item.id} ${item.source_label} ${item.section} ${item.prompt_latex} ${(item.steps || []).map(step => `${step.title} ${step.explanation}`).join(' ')}`).includes(query)));
-    $('#worksheet-count').textContent = `${visible.length} z ${items.length} příkladů · ${sourceFile === 'Gonio_fce_opakovani.pdf' ? 'A/B/C označuje sloupec pracovního listu' : 'označení odpovídá původnímu listu'}`;
-    $('#worksheet-list').innerHTML = visible.length ? sections.map(name => {
-      const group = visible.filter(item => item.section === name);
-      if (!group.length) return '';
-      return `<section class="exercise-section"><h3>${esc(name)}</h3><div class="exercise-grid">${group.map(item => `<button type="button" class="exercise-button" data-exercise-id="${esc(item.id)}" aria-haspopup="dialog" aria-label="Otevřít příklad ${esc(item.source_label)}, ${esc(item.section)}"><span class="exercise-label">${esc(item.source_label)}<span class="exercise-id">${esc(item.id)}</span></span><span class="exercise-prompt math-scroll">${math(item.prompt_latex)}</span><span class="open-hint">Rozkliknout a řešit <span aria-hidden="true">↗</span></span></button>`).join('')}</div></section>`;
-    }).join('') : '<div class="empty"><h3>Takový příklad tu není.</h3><p>Zkus jiné označení nebo vyber všechny části.</p></div>';
+  function renderPages() {
+    $('#worksheet-list').innerHTML = pages.map(page => {
+      const pageItems = items.filter(item => positions.get(item.id)?.page_index === page.page_index);
+      const imageURL = new URL(page.image, import.meta.url).href;
+      return `<figure class="worksheet-sheet"><figcaption>Strana ${page.page_index+1}</figcaption><div class="worksheet-page" data-source-page="${page.page_index+1}" style="aspect-ratio:${page.width}/${page.height}"><img class="worksheet-page-image" src="${esc(imageURL)}" alt="${esc(page.title || title)} — původní strana ${page.page_index+1}" width="${page.width}" height="${page.height}" draggable="false"><div class="worksheet-hotspots">${(page.sections || []).map((section,sectionIndex) => {
+        const headingId = `worksheet-section-${instanceId}-${page.page_index}-${sectionIndex}`;
+        return `<section class="worksheet-source-section" data-section="${esc(section.key)}" aria-labelledby="${headingId}"><h3 class="worksheet-section-heading visually-hidden" id="${headingId}">${esc(section.title)}</h3>${pageItems.filter(item => item.section === section.key).map(item => {
+          const position = positions.get(item.id);
+          const [left,top,right,bottom] = position.bbox;
+          return `<button type="button" class="exercise-button" data-exercise-id="${esc(item.id)}" data-section-key="${esc(section.key)}" data-highlight="false" aria-haspopup="dialog" aria-label="${esc(section.title)} — ${esc(item.source_label)}: ${esc(position.source_text || plainMath(item.prompt_latex))}" style="left:${100*left/page.width}%;top:${100*top/page.height}%;width:${100*(right-left)/page.width}%;height:${100*(bottom-top)/page.height}%"><span class="visually-hidden">${esc(position.source_text || `${item.source_label} ${plainMath(item.prompt_latex)}`)}</span></button>`;
+        }).join('')}</section>`;
+      }).join('')}</div></div></figure>`;
+    }).join('');
     root.querySelectorAll('button[data-exercise-id]').forEach(button => button.addEventListener('click', () => openExercise(button.dataset.exerciseId, button)));
+    applyZoom();
+    updateHighlights();
+  }
+
+  function updateHighlights() {
+    const query = searchKey($('#worksheet-search').value.trim());
+    const sectionKey = $('#worksheet-section').value;
+    const filtering = Boolean(query || sectionKey);
+    let matches = 0;
+    for (const item of items) {
+      const section = sectionFor(item);
+      const haystack = searchKey(`${item.id} příklad ${item.source_label} ${section?.title || item.section} ${positions.get(item.id)?.source_text || ''} ${item.prompt_latex}`);
+      const match = (!sectionKey || item.section === sectionKey) && (!query || haystack.includes(query));
+      if (match) matches++;
+      const button = root.querySelector(`button[data-exercise-id="${item.id}"]`);
+      if (button) {
+        button.dataset.highlight = String(filtering && match);
+        button.classList.toggle('is-highlighted',filtering && match);
+      }
+    }
+    $('#worksheet-count').textContent = filtering ? `Nalezeno ${matches} z ${items.length} příkladů` : `${items.length} příkladů · kliknutím otevřeš řešení`;
+  }
+
+  function applyZoom() {
+    const available = Math.max(1,viewport.clientWidth-32);
+    const width = (fit ? available : Math.max(720,available))*zoom;
+    root.querySelectorAll('.worksheet-sheet').forEach(sheet => sheet.style.width = `${width}px`);
+    viewport.dataset.fit = String(fit);
+    $('#worksheet-fit').setAttribute('aria-pressed',String(fit));
+    $('#worksheet-zoom-value').textContent = `${Math.round(zoom*100)} %`;
+    $('#worksheet-zoom-out').disabled = zoom <= .6;
+    $('#worksheet-zoom-in').disabled = zoom >= 2;
+  }
+
+  function jumpToSection() {
+    updateHighlights();
+    const selected = sections.find(section => section.key === $('#worksheet-section').value);
+    if (!selected) return;
+    const page = root.querySelector(`.worksheet-page[data-source-page="${selected.page.page_index+1}"]`);
+    if (!page) return;
+    const pageRect = page.getBoundingClientRect();
+    const viewRect = viewport.getBoundingClientRect();
+    const [left,top] = selected.bbox;
+    viewport.scrollTo({left:Math.max(0,viewport.scrollLeft+pageRect.left-viewRect.left+left/selected.page.width*pageRect.width-16),top:Math.max(0,viewport.scrollTop+pageRect.top-viewRect.top+top/selected.page.height*pageRect.height-16),behavior:'smooth'});
   }
 
   function openExercise(id, button) {
@@ -62,8 +125,8 @@ export function mountWorksheets(container, {sourceFile} = {}) {
     if (!active || disposed) return;
     index = 0;
     opener = button;
-    $('#worksheet-dialog-meta').textContent = `${active.section} · ${active.id}`;
-    $('#worksheet-dialog-title').textContent = `Příklad ${active.source_label}`;
+    $('#worksheet-dialog-meta').textContent = sectionFor(active)?.title || active.section;
+    $('#worksheet-dialog-title').textContent = `Příklad ${active.source_label}${/^[a-z]$/.test(active.source_label)?')':''}`;
     $('#worksheet-prompt').innerHTML = math(active.prompt_latex, true);
     renderStep();
     previousOverflow = document.documentElement.style.overflow;
@@ -150,14 +213,20 @@ export function mountWorksheets(container, {sourceFile} = {}) {
       move(event.key === 'ArrowRight' ? 1 : -1);
     }
   };
-  $('#worksheet-search').addEventListener('input',renderList);
-  $('#worksheet-section').addEventListener('change',renderList);
+  $('#worksheet-search').addEventListener('input',updateHighlights);
+  $('#worksheet-search').addEventListener('keydown',event => { if(event.key==='Enter')root.querySelector('button[data-highlight="true"]')?.scrollIntoView({block:'nearest',inline:'nearest',behavior:'smooth'}); });
+  $('#worksheet-section').addEventListener('change',jumpToSection);
+  $('#worksheet-zoom-in').addEventListener('click',() => {zoom=Math.min(2,Number((zoom+.2).toFixed(1)));applyZoom();});
+  $('#worksheet-zoom-out').addEventListener('click',() => {zoom=Math.max(.6,Number((zoom-.2).toFixed(1)));applyZoom();});
+  $('#worksheet-fit').addEventListener('click',() => {fit=!fit;zoom=1;applyZoom();});
+  const resizeObserver = new ResizeObserver(applyZoom);
+  resizeObserver.observe(viewport);
   $('#worksheet-close').addEventListener('click',() => dialog.close());
   $('#worksheet-previous').addEventListener('click',() => move(-1));
   $('#worksheet-next').addEventListener('click',() => move(1));
   dialog.addEventListener('close',closed);
   dialog.addEventListener('keydown',keydown);
   dialog.addEventListener('click',event => { if(event.target === dialog) { const box=dialog.getBoundingClientRect(); if(event.clientX<box.left || event.clientX>box.right || event.clientY<box.top || event.clientY>box.bottom) dialog.close(); } });
-  renderList();
-  return () => { disposed=true; if(dialog.open)dialog.close(); closed(); host.remove(); };
+  renderPages();
+  return () => { disposed=true; resizeObserver.disconnect(); if(dialog.open)dialog.close(); closed(); host.remove(); };
 }

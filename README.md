@@ -54,7 +54,7 @@ STUDY_TEST_URL=https://hphugosm.github.io/study/ npm run test:e2e
 
 ## Pracovní listy z goniometrie
 
-V obou matematických kategoriích je záložka **Pracovní list**. Každý ze 164 příkladů je tlačítko: otevře velké okno se zadáním, šipky procházejí jednotlivé vysvětlené kroky a nakonec výsledek. Fungují také klávesy ←/→ a Escape. Filtr sekcí a hledání usnadňují výběr úlohy.
+V obou matematických kategoriích je záložka **Pracovní list**. Každý ze 164 příkladů je tlačítko: otevře velké okno se zadáním, šipky procházejí jednotlivé vysvětlené kroky a nakonec výsledek. Fungují také klávesy ←/→ a Escape. Příklady leží přímo na podobě původních stránek PDF, se stejnými nadpisy, sloupci i označením. Hledání je vyznačí na stránce; výběr úlohy přesune na její původní místo. Na mobilu lze list posouvat a přiblížit.
 
 - [Funkce — 60 příkladů](https://hphugosm.github.io/study/#/units/trig-functions?mode=worksheets)
 - [Rovnice a nerovnice — 104 příkladů](https://hphugosm.github.io/study/#/units/trig-equations?mode=worksheets)
