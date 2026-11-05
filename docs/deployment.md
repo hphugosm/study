@@ -47,6 +47,12 @@ curl -I https://www.studilo.xyz/
 STUDY_TEST_URL=https://studilo.xyz/ npm run test:e2e
 ```
 
+Nezávislé ověření na čistém počítači GitHubu: Actions → **Verify live study lo**
+→ **Run workflow**, nebo `gh workflow run verify-live.yml --repo hphugosm/study`.
+Ručně spouštěná kontrola používá běžné DNS, Chromium a Safari WebKit proti
+`https://studilo.xyz/`; HTML report a diagnostiku uchovává 14 dnů. Nic
+nenasazuje a nemění společný obsah. Neúspěšný test znamená neúspěšný běh.
+
 Oficiální podrobnosti: [vlastní doména GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 ## Samostatná aplikace a uložený postup

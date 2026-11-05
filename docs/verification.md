@@ -26,6 +26,19 @@ Law, navigaci, ukládání a první instalaci offline balíčku. Počet podklad�
 se odvozuje z registru modulů a materiálů; nová biologická prezentace se
 prověřuje i offline jako úplné PDF a požadavek Range 206.
 
+Stejná kompletní sada potom prošla přímo proti **https://studilo.xyz/**:
+**141 úspěšných, 11 očekávaně přeskočených, 0 chyb** (5,1 minuty).
+[Veřejný běh 42074991833](https://github.com/hphugosm/study/actions/runs/42074991833)
+ověřoval commit `59bb4cd` na čistém Ubuntu s Chromiem a Safari WebKitem.
+Používal běžné DNS a platné HTTPS, bez přepisování adres ani vypnutí
+ověření certifikátu. Offline scénáře začínaly prázdným úložištěm na novém
+originu a ověřily i čtyři PDF včetně původní biologické prezentace.
+
+Tuto kontrolu lze znovu spustit v Actions → **Verify live study lo** →
+**Run workflow**. Neprovádí nasazení ani změny společného obsahu; testovací
+postup vzniká v oddělených kontextech prohlížeče. HTML report a diagnostika
+se uloží jako artifact běhu na 14 dnů.
+
 Nastavení domény a přenos místního postupu: [návod k nasazení](deployment.md).
 
 ## PWA, offline režim a nastavení: lokální a veřejné ověření
