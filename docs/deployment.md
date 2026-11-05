@@ -47,6 +47,20 @@ curl -I https://www.studilo.xyz/
 STUDY_TEST_URL=https://studilo.xyz/ npm run test:e2e
 ```
 
+macOS má také vlastní resolverovou cache, kterou `dig` nepoužívá. Pokud
+`dig` už vrací správné adresy, ale aplikace stále hlásí neznámý server,
+může pomoci cílené opětovné ověření záznamu v systémové DNS službě:
+
+```sh
+dns-sd -t 10 -C studilo.xyz A IN
+curl -I https://studilo.xyz/
+```
+
+Příkaz po deseti sekundách skončí. Ověřuje pouze daný DNS záznam; nastavení
+domény zůstává v GitHub Pages a u registrátora. Tento postup byl při
+připojení 5. listopadu ověřen: systém nejprve vrátil starou zápornou
+odpověď a poté si načetl všechny čtyři správné adresy.
+
 Nezávislé ověření na čistém počítači GitHubu: Actions → **Verify live study lo**
 → **Run workflow**, nebo `gh workflow run verify-live.yml --repo hphugosm/study`.
 Ručně spouštěná kontrola používá běžné DNS, Chromium a Safari WebKit proti

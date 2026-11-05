@@ -39,6 +39,12 @@ Tuto kontrolu lze znovu spustit v Actions → **Verify live study lo** →
 postup vzniká v oddělených kontextech prohlížeče. HTML report a diagnostika
 se uloží jako artifact běhu na 14 dnů.
 
+V **18:17 UTC** bylo potvrzeno i běžné místní otevření s plným ověřením
+HTTPS: hlavní adresa, `www` a původní GitHub Pages URL skončily na
+`https://studilo.xyz/` s HTTP 200. Nasazený offline balíček má stále shodnou
+verzi `fe262bebe555862555f0`. Následná vizuální kontrola v novém okně
+prohlížeče potvrdila kalendář na vlastní doméně a obě události 5. listopadu.
+
 Nastavení domény a přenos místního postupu: [návod k nasazení](deployment.md).
 
 ## PWA, offline režim a nastavení: lokální a veřejné ověření
