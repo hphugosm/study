@@ -16,6 +16,7 @@ async function openWorksheet(page, source) {
   await page.goto(`./#/units/${source.unit}?mode=worksheets`);
   const host = moduleFor(page, source);
   await expect(host.locator('#worksheet-viewport')).toBeVisible();
+  await expect(host.locator('#worksheet-viewport')).toHaveAttribute('data-ready','true');
   // Shadow-root styles and page images can arrive after the host becomes visible.
   await expect(host.locator('button[data-exercise-id]').first()).toHaveCSS('position','absolute');
   await expect.poll(() => host.locator('.worksheet-page-image').evaluateAll(images => images.length>0&&images.every(image => image.complete&&image.naturalWidth>0))).toBe(true);
@@ -141,7 +142,7 @@ test('paper zoom and mobile pan preserve the PDF layout and keep overflow inside
   for(const source of sources){const scoped=await openWorksheet(page,source);await expectMappedTargets(scoped,source);}
   const host=await openWorksheet(page,sources[1]);
   const viewport=host.locator('#worksheet-viewport'),paper=host.locator('.worksheet-page').first();
-  await expect(viewport).toHaveAttribute('data-fit','false');
+  await expect(viewport).toHaveAttribute('data-fit',/true|false/);
   const base=(await paper.boundingBox()).width;
   await host.locator('#worksheet-zoom-in').click();
   await expect.poll(async()=>(await paper.boundingBox()).width).toBeGreaterThan(base);

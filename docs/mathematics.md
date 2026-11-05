@@ -56,3 +56,10 @@ Pracovní listy se zobrazují jako ostré renderované původní stránky (612 �
 
 
 Ověření tohoto rozložení: všechny klikací oblasti nezávisle porovnány s textem původních PDF; 164/164 přiřazení souhlasí, bez překryvů. Prošlo 45 datových testů, 22 prohlížečových kontrol včetně Safari, skutečných rozměrů oblastí na mobilu, řádku a/f/k, zoomu a offline obrázků. Vizuálně ověřena první stránka i otevření (a) sin 105° se správným nadpisem a šipkami.
+
+
+### Dotykové ovládání listu
+
+Mobilní čtečka zachovává stejné obrazy stránek i procentní souřadnice všech 164 příkladů. Přidáno přiblížení dvěma prsty kolem zvoleného místa, posouvání jedním prstem a oddělení klepnutí od tažení. Tlačítka přiblížení zachovávají obsah ve středu pohledu; čtečka nabízí také přehled podle šířky. Po zavření příkladu se zachová přiblížení a poloha čtečky. Ovládání je omezené na oblast listu; ostatní stránka a řešení používají běžné procházení prohlížeče.
+
+Ověření mobilní úpravy: 45 datových testů a 12 dotykových scénářů prošlo v mobilním Chromiu a emulovaném Safari. Testy zahrnují skutečný vícebodový vstup Chromia, u Safari události PointerEvent, přechod z přiblížení na posun, zrušený dotyk, pravý sloupec, zachování místa po zavření a dosažitelnost příkladu po otočení telefonu. Mobilní rám rezervuje místo pro horní lištu a spodní navigaci; po otočení se zvolený příklad podle potřeby dosune do viditelné části.

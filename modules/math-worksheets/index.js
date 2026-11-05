@@ -1,6 +1,7 @@
 import katex from './vendor/katex/katex.mjs';
 import { worksheetData } from './data.js';
 import { worksheetLayout } from './layout.js';
+import { mountWorksheetGestures } from './gestures.js';
 import { graphPoles, graphSegments, transformedValue } from '../math-trig/math.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -39,15 +40,16 @@ export function mountWorksheets(container, {sourceFile} = {}) {
   const host = document.createElement('section');
   host.lang = 'cs';
   host.className = 'worksheet-host';
+  host.style.visibility = 'hidden';
   const root = host.attachShadow({mode:'open'});
   container.replaceChildren(host);
   const instanceId = ++instance;
   const sourceURL = new URL(`./assets/${sourceFile}`, import.meta.url).href;
-  root.innerHTML = `<link rel="stylesheet" href="${new URL('./vendor/katex/katex.min.css', import.meta.url).href}"><link rel="stylesheet" href="${new URL('./styles.css', import.meta.url).href}">
+  root.innerHTML = `<link rel="stylesheet" href="${new URL('./vendor/katex/katex.min.css', import.meta.url).href}"><link rel="stylesheet" data-reader-style href="${new URL('./styles.css', import.meta.url).href}">
     <header class="worksheet-heading"><div><h2>${esc(title)}</h2><p>Klikni na příklad přímo v pracovním listu. Větší okno nabídne řešení po jednotlivých krocích.</p></div><a class="pdf-link" href="${esc(sourceURL)}" target="_blank" rel="noopener">Otevřít původní PDF ↗</a></header>
     <div class="worksheet-filters"><label for="worksheet-search">Najít v pracovním listu<input id="worksheet-search" type="search" placeholder="Např. sin 105° nebo příklad 37" autocomplete="off"></label><label for="worksheet-section">Přejít na zadání<select id="worksheet-section"><option value="">Všechna zadání</option>${sections.map(section => `<option value="${esc(section.key)}">${esc(section.title)}</option>`).join('')}</select></label></div>
     <div class="reader-toolbar"><p id="worksheet-count" class="count" role="status"></p><div class="zoom-controls" role="group" aria-label="Velikost pracovního listu"><button id="worksheet-zoom-out" type="button" aria-label="Zmenšit pracovní list">−</button><output id="worksheet-zoom-value" aria-label="Zvětšení listu">100 %</output><button id="worksheet-zoom-in" type="button" aria-label="Zvětšit pracovní list">+</button><button id="worksheet-fit" type="button" aria-pressed="false">Přizpůsobit šířce</button></div></div>
-    <div id="worksheet-viewport" class="worksheet-viewport" data-fit="false" tabindex="0" aria-label="Pracovní list v původním rozložení. Při zvětšení lze posouvat do stran."><div id="worksheet-list" class="worksheet-pages"></div></div><p class="reader-help">Na menší obrazovce posuň list do stran, nebo zvol Přizpůsobit šířce. Rozložení sloupců zůstává stejné.</p>
+    <div id="worksheet-viewport" class="worksheet-viewport" data-fit="false" tabindex="0" aria-label="Pracovní list v původním rozložení. Při zvětšení lze posouvat do stran."><div id="worksheet-list" class="worksheet-pages"></div></div><p class="reader-help">Dvěma prsty zvětši detail, jedním prstem list posuň. Klepnutím na příklad otevřeš jeho řešení.</p>
     <dialog id="worksheet-dialog" aria-labelledby="worksheet-dialog-title"><div class="dialog-shell"><header class="dialog-header"><div><p class="eyebrow" id="worksheet-dialog-meta"></p><h2 id="worksheet-dialog-title">Příklad</h2></div><button id="worksheet-close" class="close-button" type="button" aria-label="Zavřít příklad">×</button></header><div class="dialog-scroll"><div id="worksheet-prompt" class="large-math math-scroll" tabindex="0" aria-label="Zadání příkladu"></div><div id="worksheet-step" class="step-content" aria-live="polite" aria-atomic="true"></div><div id="worksheet-graph-area"></div></div><footer class="dialog-footer"><button id="worksheet-previous" type="button" aria-label="Předchozí krok"><span aria-hidden="true">←</span><span>Předchozí krok</span></button><div><p id="worksheet-counter" class="step-counter"></p><p class="keyboard-note">Klávesy ← a → · Esc zavře okno</p></div><button id="worksheet-next" class="primary" type="button" aria-label="Další krok"><span>Další krok</span><span aria-hidden="true">→</span></button></footer></div></dialog>`;
   const $ = selector => root.querySelector(selector);
   const dialog = $('#worksheet-dialog');
@@ -59,6 +61,18 @@ export function mountWorksheets(container, {sourceFile} = {}) {
   let zoom = 1;
   let fit = false;
   const viewport = $('#worksheet-viewport');
+  let gestures = null;
+  let layoutSize = {width:0,height:0};
+  let readerSnapshot = null;
+  let resizedDuringDialog = false;
+  let restoreFrame = 0;
+  let initialFrame = 0;
+  let layoutReady = false;
+  viewport.dataset.ready = 'false';
+  const availableWidth = () => Math.max(1,viewport.clientWidth-32);
+  const baseWidth = () => Math.max(720,availableWidth());
+  const minimumZoom = () => availableWidth()/baseWidth();
+  const centerPoint = () => {const box=viewport.getBoundingClientRect();return {x:box.left+viewport.clientLeft+viewport.clientWidth/2,y:box.top+viewport.clientTop+viewport.clientHeight/2};};
 
   function renderPages() {
     $('#worksheet-list').innerHTML = pages.map(page => {
@@ -74,7 +88,7 @@ export function mountWorksheets(container, {sourceFile} = {}) {
       }).join('')}</div></div></figure>`;
     }).join('');
     root.querySelectorAll('button[data-exercise-id]').forEach(button => button.addEventListener('click', () => openExercise(button.dataset.exerciseId, button)));
-    applyZoom();
+    applyDimensions();
     updateHighlights();
   }
 
@@ -97,18 +111,63 @@ export function mountWorksheets(container, {sourceFile} = {}) {
     $('#worksheet-count').textContent = filtering ? `Nalezeno ${matches} z ${items.length} příkladů` : `${items.length} příkladů · kliknutím otevřeš řešení`;
   }
 
-  function applyZoom() {
-    const available = Math.max(1,viewport.clientWidth-32);
-    const width = (fit ? available : Math.max(720,available))*zoom;
-    root.querySelectorAll('.worksheet-sheet').forEach(sheet => sheet.style.width = `${width}px`);
-    viewport.dataset.fit = String(fit);
+  function captureAnchor(point = centerPoint()) {
+    const paper = [...root.querySelectorAll('.worksheet-page')].map(node => ({node,box:node.getBoundingClientRect()})).sort((a,b) => Math.max(a.box.top-point.y,point.y-a.box.bottom,0)-Math.max(b.box.top-point.y,point.y-b.box.bottom,0))[0];
+    return paper ? {node:paper.node,x:(point.x-paper.box.left)/paper.box.width,y:(point.y-paper.box.top)/paper.box.height} : null;
+  }
+  function restoreAnchor(anchor,point = centerPoint()) {
+    if(!anchor?.node.isConnected)return;
+    const box=anchor.node.getBoundingClientRect();
+    viewport.scrollLeft+=box.left+anchor.x*box.width-point.x;
+    viewport.scrollTop+=box.top+anchor.y*box.height-point.y;
+  }
+  function applyDimensions() {
+    zoom=Math.max(minimumZoom(),Math.min(4,zoom));
+    const width=baseWidth()*zoom;
+    root.querySelectorAll('.worksheet-sheet').forEach(sheet => sheet.style.width=`${width}px`);
+    fit=Math.abs(width-availableWidth())<1;
+    viewport.dataset.fit=String(fit);
+    viewport.dataset.scale=zoom.toFixed(4);
+    viewport.dataset.zoom=String(Math.round(zoom*100));
+    viewport.dataset.pageWidth=width.toFixed(2);
     $('#worksheet-fit').setAttribute('aria-pressed',String(fit));
-    $('#worksheet-zoom-value').textContent = `${Math.round(zoom*100)} %`;
-    $('#worksheet-zoom-out').disabled = zoom <= .6;
-    $('#worksheet-zoom-in').disabled = zoom >= 2;
+    $('#worksheet-fit').textContent=fit?'Čitelná velikost':'Přizpůsobit šířce';
+    $('#worksheet-zoom-value').textContent=`${Math.round(zoom*100)} %`;
+    $('#worksheet-zoom-out').disabled=zoom<=minimumZoom()+.0001;
+    $('#worksheet-zoom-in').disabled=zoom>=4;
+    layoutSize={width:viewport.clientWidth,height:viewport.clientHeight};
+  }
+  function zoomAt(next,from=centerPoint(),to=null) {
+    const anchor=captureAnchor(from);
+    zoom=next;
+    applyDimensions();
+    restoreAnchor(anchor,to || centerPoint());
+  }
+  function resized() {
+    if(disposed || !layoutReady || !root.querySelector('.worksheet-page'))return;
+    if(Math.abs(layoutSize.width-viewport.clientWidth)<1 && Math.abs(layoutSize.height-viewport.clientHeight)<1)return;
+    gestures?.cancelMotion();
+    const box=viewport.getBoundingClientRect();
+    const oldCenter={x:box.left+viewport.clientLeft+(layoutSize.width || viewport.clientWidth)/2,y:box.top+viewport.clientTop+(layoutSize.height || viewport.clientHeight)/2};
+    const anchor=captureAnchor(oldCenter);
+    if(fit)zoom=minimumZoom();
+    applyDimensions();
+    restoreAnchor(anchor,centerPoint());
+    if(dialog.open && readerSnapshot){readerSnapshot={left:viewport.scrollLeft,top:viewport.scrollTop,zoom};resizedDuringDialog=true;}
+  }
+  function tapped({x,y,target}) {
+    if(disposed || dialog.open)return;
+    let button=target?.closest?.('button[data-exercise-id]');
+    if(!button || !viewport.contains(button)) {
+      const candidates=[...root.querySelectorAll('button[data-exercise-id]')].map(node => {const box=node.getBoundingClientRect();return {node,distance:Math.hypot(Math.max(box.left-x,x-box.right,0),Math.max(box.top-y,y-box.bottom,0))};}).filter(item=>item.distance<=10).sort((a,b)=>a.distance-b.distance);
+      // Do not guess between neighbouring printed exercises at a shared gap.
+      if(candidates[0] && (!candidates[1] || candidates[1].distance-candidates[0].distance>=3))button=candidates[0].node;
+    }
+    if(button)openExercise(button.dataset.exerciseId,button);
   }
 
   function jumpToSection() {
+    gestures?.cancelMotion();
     updateHighlights();
     const selected = sections.find(section => section.key === $('#worksheet-section').value);
     if (!selected) return;
@@ -123,6 +182,10 @@ export function mountWorksheets(container, {sourceFile} = {}) {
   function openExercise(id, button) {
     active = items.find(item => item.id === id);
     if (!active || disposed) return;
+    gestures?.cancelMotion();
+    if(restoreFrame){cancelAnimationFrame(restoreFrame);restoreFrame=0;}
+    readerSnapshot={left:viewport.scrollLeft,top:viewport.scrollTop,zoom};
+    resizedDuringDialog=false;
     index = 0;
     opener = button;
     $('#worksheet-dialog-meta').textContent = sectionFor(active)?.title || active.section;
@@ -203,6 +266,37 @@ export function mountWorksheets(container, {sourceFile} = {}) {
     if (previousOverflow !== null) document.documentElement.style.overflow = previousOverflow;
     previousOverflow = null;
     if (!disposed && opener?.isConnected) opener.focus({preventScroll:true});
+    const restore=()=>{
+      if(disposed || !readerSnapshot)return;
+      viewport.scrollLeft=readerSnapshot.left;viewport.scrollTop=readerSnapshot.top;
+      if(resizedDuringDialog && opener?.isConnected){
+        const margin=6;
+        const header=document.querySelector('.site-header')?.getBoundingClientRect();
+        const nav=document.querySelector('.main-nav');
+        const navBox=nav?.getBoundingClientRect();
+        const bottomNav=nav && getComputedStyle(nav).position==='fixed'?Math.max(0,innerHeight-navBox.top):0;
+        const toolbarHeight=root.querySelector('.reader-toolbar').getBoundingClientRect().height;
+        const safeTop=Math.max(0,header?.bottom || 0)+toolbarHeight+margin;
+        const safeBottom=Math.max(safeTop+40,innerHeight-bottomNav-margin);
+        const before=viewport.getBoundingClientRect();
+        const wantedTop=Math.max(safeTop,Math.min(before.top,safeBottom-before.height));
+        const outerDelta=before.top-wantedTop;
+        if(Math.abs(outerDelta)>1)window.scrollBy({top:outerDelta,left:0,behavior:'instant'});
+        const box=opener.getBoundingClientRect(),frame=viewport.getBoundingClientRect();
+        const left=frame.left+viewport.clientLeft+margin,top=Math.max(frame.top+viewport.clientTop+margin,safeTop);
+        const right=left+viewport.clientWidth-2*margin,bottom=Math.min(frame.top+viewport.clientTop+viewport.clientHeight-margin,safeBottom);
+        const nearest=(start,end,min,max)=>{
+          if(start>=min && end<=max)return 0;
+          if(start<min && end>max)return 0;
+          if(end-start<=max-min)return start<min?start-min:end-max;
+          return start>min?start-min:end-max;
+        };
+        viewport.scrollLeft+=nearest(box.left,box.right,left,right);
+        viewport.scrollTop+=nearest(box.top,box.bottom,top,bottom);
+      }
+    };
+    restore();
+    if(!disposed){if(restoreFrame)cancelAnimationFrame(restoreFrame);restoreFrame=requestAnimationFrame(()=>{restoreFrame=0;restore();resizedDuringDialog=false;});}
   }
   const keydown = event => {
     if (!dialog.open || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.target.closest?.('input,select,textarea,[contenteditable="true"]')) return;
@@ -216,10 +310,10 @@ export function mountWorksheets(container, {sourceFile} = {}) {
   $('#worksheet-search').addEventListener('input',updateHighlights);
   $('#worksheet-search').addEventListener('keydown',event => { if(event.key==='Enter')root.querySelector('button[data-highlight="true"]')?.scrollIntoView({block:'nearest',inline:'nearest',behavior:'smooth'}); });
   $('#worksheet-section').addEventListener('change',jumpToSection);
-  $('#worksheet-zoom-in').addEventListener('click',() => {zoom=Math.min(2,Number((zoom+.2).toFixed(1)));applyZoom();});
-  $('#worksheet-zoom-out').addEventListener('click',() => {zoom=Math.max(.6,Number((zoom-.2).toFixed(1)));applyZoom();});
-  $('#worksheet-fit').addEventListener('click',() => {fit=!fit;zoom=1;applyZoom();});
-  const resizeObserver = new ResizeObserver(applyZoom);
+  $('#worksheet-zoom-in').addEventListener('click',() => {gestures?.cancelMotion();zoomAt(Math.min(4,zoom*1.25));});
+  $('#worksheet-zoom-out').addEventListener('click',() => {gestures?.cancelMotion();zoomAt(Math.max(minimumZoom(),zoom/1.25));});
+  $('#worksheet-fit').addEventListener('click',() => {gestures?.cancelMotion();zoomAt(fit?1:minimumZoom());});
+  const resizeObserver = new ResizeObserver(resized);
   resizeObserver.observe(viewport);
   $('#worksheet-close').addEventListener('click',() => dialog.close());
   $('#worksheet-previous').addEventListener('click',() => move(-1));
@@ -228,5 +322,27 @@ export function mountWorksheets(container, {sourceFile} = {}) {
   dialog.addEventListener('keydown',keydown);
   dialog.addEventListener('click',event => { if(event.target === dialog) { const box=dialog.getBoundingClientRect(); if(event.clientX<box.left || event.clientX>box.right || event.clientY<box.top || event.clientY>box.bottom) dialog.close(); } });
   renderPages();
-  return () => { disposed=true; resizeObserver.disconnect(); if(dialog.open)dialog.close(); closed(); host.remove(); };
+  gestures=mountWorksheetGestures(viewport,{onTransform:({factor,from,to})=>zoomAt(zoom*factor,from,to),onTap:tapped});
+  const readerStyle=root.querySelector('link[data-reader-style]');
+  function initialLayout() {
+    if(disposed || layoutReady || initialFrame)return;
+    // Never anchor the initial unstyled full-height stack when the stylesheet bounds the reader.
+    applyDimensions();
+    initialFrame=requestAnimationFrame(()=>{
+      initialFrame=0;
+      if(disposed)return;
+      applyDimensions();
+      viewport.scrollLeft=0;viewport.scrollTop=0;
+      layoutReady=true;viewport.dataset.ready='true';host.style.visibility='';
+    });
+  }
+  function styleFailed() {
+    if(disposed)return;
+    host.style.visibility='';viewport.dataset.ready='error';
+    $('#worksheet-count').textContent='Pracovní list se nepodařilo připravit. Obnov stránku nebo otevři původní PDF.';
+  }
+  readerStyle.addEventListener('load',initialLayout,{once:true});
+  readerStyle.addEventListener('error',styleFailed,{once:true});
+  if(readerStyle.sheet)initialLayout();
+  return () => { disposed=true; resizedDuringDialog=false; resizeObserver.disconnect(); gestures.dispose();readerStyle.removeEventListener('load',initialLayout);readerStyle.removeEventListener('error',styleFailed);if(initialFrame)cancelAnimationFrame(initialFrame);if(restoreFrame)cancelAnimationFrame(restoreFrame); if(dialog.open)dialog.close(); closed(); host.remove(); };
 }
