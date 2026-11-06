@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "skeleton",
+  "sources": [
+    {
+      "id": "0245dda6efe8286b6775d152b4a5298bb94619ca39a200ebca542886649ac390",
+      "title": "Kosterní soustava — původní prezentace",
+      "path": "data/subjects/biology/topics/skeleton/sources/f11c58c90321af35edd54cc86b5d4e891253e6dfcd525a09ffb9f123e19390be.pdf",
+      "sha256": "f11c58c90321af35edd54cc86b5d4e891253e6dfcd525a09ffb9f123e19390be",
+      "size": 4686583,
+      "source_kind": "manual",
+      "review_status": "approved"
+    }
+  ]
+}

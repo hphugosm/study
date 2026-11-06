@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "subject_id": "subject-name",
+  "topic_id": "topic-name",
+  "title": "Veřejný název tématu",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json"
+}

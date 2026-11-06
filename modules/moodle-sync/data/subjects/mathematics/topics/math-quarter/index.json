@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "subject_id": "mathematics",
+  "topic_id": "math-quarter",
+  "title": "Čtvrtletní práce",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json"
+}

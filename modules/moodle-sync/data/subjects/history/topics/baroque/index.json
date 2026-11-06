@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "subject_id": "history",
+  "topic_id": "baroque",
+  "title": "Baroko",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json"
+}

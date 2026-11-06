@@ -1,5 +1,6 @@
 const allowedKinds = new Set(['file','event','assignment','announcement','section','module','course']);
 const filePath = /^files\/[a-f0-9]{64}\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$/;
+const slug = /^[a-z][a-z0-9-]{0,59}$/;
 const secretText = /(?:[\w.+-]+@[\w.-]+\.[a-z]{2,}|(?:token|sesskey|password|cookie)\s*[=:]|[<>])/i;
 
 export function validateFeed(feed) {
@@ -10,8 +11,17 @@ export function validateFeed(feed) {
         !/^[a-z][a-z0-9-]{0,59}$/.test(entry.subject) || typeof entry.title !== 'string' ||
         !entry.title.trim() || entry.title.length > 500 || secretText.test(entry.title) ||
         typeof entry.summary !== 'string' || entry.summary.length > 2000 || secretText.test(entry.summary)) throw new Error('invalid_entry');
-    if (entry.kind === 'file' && (!filePath.test(entry.path) || entry.path.split('/')[1].split('.')[0] !== entry.sha256 ||
-        !Number.isSafeInteger(entry.size) || entry.size < 1 || entry.size > 25000000)) throw new Error('unsafe_file');
+    if (entry.topic !== undefined && !slug.test(entry.topic)) throw new Error('invalid_topic');
+    if (entry.topic_title !== undefined && (entry.topic === undefined || typeof entry.topic_title !== 'string' || !entry.topic_title.trim() || entry.topic_title.length > 500 || secretText.test(entry.topic_title))) throw new Error('invalid_topic_title');
+    if (entry.kind === 'file') {
+      const name = typeof entry.path === 'string' ? entry.path.split('/').at(-1) : '';
+      const extension = name.slice(name.lastIndexOf('.')+1);
+      const canonical = entry.topic !== undefined && ['pdf','pptx','ppt','docx','odt','odp','xlsx','txt'].includes(extension) &&
+        entry.path === `data/subjects/${entry.subject}/topics/${entry.topic}/sources/${entry.sha256}.${extension}`;
+      const flat = entry.topic === undefined && filePath.test(entry.path);
+      if ((!flat && !canonical) || name.split('.')[0] !== entry.sha256 || !/^[a-f0-9]{64}$/.test(entry.sha256) ||
+          !Number.isSafeInteger(entry.size) || entry.size < 1 || entry.size > 25000000) throw new Error('unsafe_file');
+    }
     for (const field of ['due','opens','cutoff','starts','duration','closes']) {
       if (entry[field] !== undefined && (!Number.isSafeInteger(entry[field]) || entry[field] < 0 || entry[field] > 4102444800)) throw new Error('invalid_date');
     }
@@ -35,12 +45,13 @@ if (typeof document !== 'undefined') {
   }
   function render() {
     const query = search.value.trim().toLocaleLowerCase('cs-CZ');
-    const matches = entries.filter(entry => `${entry.title} ${entry.subject} ${entry.summary}`.toLocaleLowerCase('cs-CZ').includes(query));
+    const matches = entries.filter(entry => `${entry.title} ${entry.subject} ${entry.topic_title || entry.topic || ''} ${entry.summary}`.toLocaleLowerCase('cs-CZ').includes(query));
     container.replaceChildren();
     for (const entry of matches) {
       const card = document.createElement('article');
       card.className = 'entry';
-      card.append(text('p',subjects[entry.subject] || entry.subject.replaceAll('-',' '),'meta'),text('h2',entry.title));
+      const context = [subjects[entry.subject] || entry.subject.replaceAll('-',' '), entry.topic_title || entry.topic?.replaceAll('-',' ')].filter(Boolean).join(' · ');
+      card.append(text('p',context,'meta'),text('h2',entry.title));
       if (entry.summary) card.append(text('p',entry.summary));
       if (entry.due || entry.starts) card.append(text('p',`${entry.due?'Odevzdání':'Termín'}: ${dateFormat.format(new Date((entry.due||entry.starts)*1000))}`,'meta'));
       if (entry.kind === 'file') {

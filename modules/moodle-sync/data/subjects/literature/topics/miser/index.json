@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "subject_id": "literature",
+  "topic_id": "miser",
+  "title": "Rozbor Lakomce",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json"
+}

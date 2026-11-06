@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "subject_id": "mathematics",
+  "topic_id": "math-quarter",
+  "sources": [
+    {
+      "id": "3dfe2ff44a55fdf6b0f1aa4ee6dc37807beef58d9b4248bd3f2d7a0eb3fcae63",
+      "title": "Goniometrické funkce — původní pracovní list",
+      "path": "data/subjects/mathematics/topics/math-quarter/sources/271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761.pdf",
+      "sha256": "271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761",
+      "size": 93839,
+      "source_kind": "manual",
+      "review_status": "approved"
+    },
+    {
+      "id": "5bf1631457eec79355b2576a412ca47dc12e6cc820bbf14cdc44a2beea358fb6",
+      "title": "Grafy sin, cos, tan, cot — původní prezentace",
+      "path": "data/subjects/mathematics/topics/math-quarter/sources/16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68.pptx",
+      "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+      "size": 2269865,
+      "source_kind": "manual",
+      "review_status": "approved"
+    },
+    {
+      "id": "8400a1579cef457c1be5fe9f1d79ffd43e1cca3946cf376c53b9efae9c445032",
+      "title": "Goniometrické rovnice a nerovnice — původní pracovní list",
+      "path": "data/subjects/mathematics/topics/math-quarter/sources/c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1.pdf",
+      "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+      "size": 123762,
+      "source_kind": "manual",
+      "review_status": "approved"
+    },
+    {
+      "id": "a6007fe0142f1f8e2a5bf955af7aca93533a005a43388b07b4bfbce8bd315e35",
+      "title": "Trigonometrie — původní prezentace",
+      "path": "data/subjects/mathematics/topics/math-quarter/sources/3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054.pptx",
+      "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+      "size": 12617782,
+      "source_kind": "manual",
+      "review_status": "approved"
+    },
+    {
+      "id": "b6eacb5ec3bbe1576dcc27da63027a3a37234830cffd0602345cb579e2214f69",
+      "title": "Goniometrické rovnice a vzorce — původní prezentace",
+      "path": "data/subjects/mathematics/topics/math-quarter/sources/f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8.pptx",
+      "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+      "size": 563908,
+      "source_kind": "manual",
+      "review_status": "approved"
+    }
+  ]
+}

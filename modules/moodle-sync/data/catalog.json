@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "subjects": [
+    {
+      "id": "biology",
+      "title": "Biologie",
+      "topics": [
+        {
+          "id": "skeleton",
+          "title": "Kosterní soustava člověka – lidské kosti",
+          "index": "subjects/biology/topics/skeleton/index.json"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "Law",
+      "topics": [
+        {
+          "id": "law-unit-2",
+          "title": "U.S. Courts & Civil Liberties",
+          "index": "subjects/law/topics/law-unit-2/index.json"
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "title": "Matematika",
+      "topics": [
+        {
+          "id": "math-quarter",
+          "title": "Čtvrtletní práce",
+          "index": "subjects/mathematics/topics/math-quarter/index.json"
+        },
+        {
+          "id": "trig-functions",
+          "title": "Trigonometrie a goniometrické funkce",
+          "index": "subjects/mathematics/topics/trig-functions/index.json"
+        },
+        {
+          "id": "trig-equations",
+          "title": "Goniometrické vzorce, rovnice a nerovnice",
+          "index": "subjects/mathematics/topics/trig-equations/index.json"
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "title": "Literatura",
+      "topics": [
+        {
+          "id": "miser",
+          "title": "Rozbor Lakomce",
+          "index": "subjects/literature/topics/miser/index.json"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Dějepis",
+      "topics": [
+        {
+          "id": "baroque",
+          "title": "Baroko",
+          "index": "subjects/history/topics/baroque/index.json"
+        }
+      ]
+    }
+  ]
+}

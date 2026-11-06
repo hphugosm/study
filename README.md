@@ -4,6 +4,8 @@ Minimalistická studijní aplikace: školní kalendář, Law, Biologie a Matemat
 
 [Novinky ze školy](modules/moodle-sync/index.html) zobrazují samostatný přehled schválených školních materiálů a termínů. Zatím je prázdný. Synchronizační klient, přihlašovací údaje i neveřejné přehledy patří do odděleného soukromého repozitáře; zde jsou pouze veřejně schválené výstupy. Přílohy tohoto přehledu se nestahují automaticky do offline balíčku.
 
+[Veřejný katalog podkladů](modules/moodle-sync/data/catalog.json) odděluje každý předmět a téma, původní zdroje v `sources/` a budoucí výtahy či procvičování v `derived/`. Obsahuje šest již veřejných původních prezentací a pracovních listů, fyzicky zařazených do odpovídajících témat; soukromá data Moodlu nepřebírá. [Kontrakt a postup pro další práci](docs/moodle-source-catalog.md).
+
 - **Demo:** https://studilo.xyz/
 - **Repozitář:** https://github.com/hphugosm/study
 - **Biologie:** https://studilo.xyz/#/events/biology-test

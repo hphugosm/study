@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "catalog.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "subjects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{0,59}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]{0,59}$"
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 500
+                },
+                "index": {
+                  "type": "string",
+                  "pattern": "^subjects/[a-z][a-z0-9-]*/topics/[a-z][a-z0-9-]*/index\\.json$"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "index"
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "topics"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "subjects"
+  ]
+}
