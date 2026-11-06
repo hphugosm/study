@@ -57,7 +57,7 @@ for (const file of files) {
     text = text.replace(/(\bnew\s+URL\(\s*)(['"])([^'"]+\.(?:css|m?js))\2(\s*,\s*import\.meta\.url\s*\))/g,
       (_, prefix, quote, url, suffix) => `${prefix}${quote}${versionURL(url, source)}${quote}${suffix}`);
     await writeFile(file, text);
-  } else if (source === 'index.html') {
+  } else if (source === 'index.html' || source === 'modules/moodle-sync/index.html') {
     const text = await readFile(file, 'utf8');
     await writeFile(file, text.replace(/((?:src|href)=)(['"])(\.\/[^'"]+\.(?:css|m?js))\2/g,
       (_, prefix, quote, url) => `${prefix}${quote}${versionURL(url, source)}${quote}`));
@@ -65,6 +65,8 @@ for (const file of files) {
 }
 const assets = [];
 for (const file of files) {
+  // Moodle materials stay available online without enlarging the automatic offline package.
+  if (path.relative(dist, file).split(path.sep).join('/').startsWith('modules/moodle-sync/files/')) continue;
   const bytes = await readFile(file);
   assets.push({ url: path.relative(dist, file).split(path.sep).join('/'), bytes: bytes.length,
     sha256: createHash('sha256').update(bytes).digest('hex') });
