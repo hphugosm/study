@@ -44,10 +44,11 @@ test('calendar displays two November 5 events and opens both real units', async 
   await expect(moduleFor(page, 'biology').locator('#atlas-page')).toBeVisible();
   await page.locator('header a[href="#/"]').first().click();
   await expect(page.locator('[data-date="2026-11-05"]')).toBeVisible();
-  await page.locator('[data-date="2026-11-12"]').click();
+  await page.locator('[data-date="2026-11-19"]').click();
   await page.locator('a[href="#/events/law-test"]').first().click();
   await expect(moduleFor(page, 'law')).toBeVisible();
   await expect(page.getByText('UNIT 2', { exact: true })).toBeVisible();
+  await expect(page.locator('.event-banner')).toContainText(/19.*listopad.*2026/);
 });
 
 test('calendar navigates months and returns to current date', async ({ page }) => {
@@ -61,6 +62,35 @@ test('calendar navigates months and returns to current date', async ({ page }) =
   await expect(page.locator('[data-date="2026-10-15"]')).toBeVisible();
   await page.getByRole('button', { name: /dnes/i }).click();
   await expect(page.locator('[data-date="2026-11-04"]')).toBeVisible();
+});
+
+test('history test opens its unsupplied Baroque materials and a standalone all-day excursion returns directly to calendar', async ({ page }) => {
+  await page.goto('./');
+  await page.locator('[data-date="2026-11-09"]').click();
+  await page.locator('a[href="#/events/history-test"]').first().click();
+  await expect(page.locator('h1')).toContainText('Baroko');
+  await expect(page.locator('.event-banner')).toContainText(/9.*listopad.*2026/);
+  await expect(page.locator('#unit-panel')).toContainText('Materiály zatím nebyly přidány');
+  await expect(page.locator('[data-study-module]')).toHaveCount(0);
+  await page.locator('header a[href="#/"]').first().click();
+  await page.locator('[data-date="2026-11-12"]').click();
+  await page.locator('a[href="#/events/power-plants-excursion"]').first().click();
+  await expect(page.locator('h1')).toContainText('Exkurze elektráren');
+  await expect(page.locator('main')).toContainText('Celý den');
+  await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+  // A new direct navigation must have the calendar as its useful parent,
+  // without fabricating a subject or a study unit for the school excursion.
+  const directPage = await page.context().newPage();
+  await directPage.goto('./#/events/power-plants-excursion');
+  await directPage.reload();
+  await expect(directPage.locator('h1')).toContainText('Exkurze elektráren');
+  await expect(directPage.locator('main')).toContainText('Školní akce');
+  await expect(directPage.locator('main')).toContainText('Celý den');
+  await expect(directPage.locator('[data-study-module]')).toHaveCount(0);
+  await directPage.locator('#page-back').click();
+  await expect(directPage).toHaveURL(/#\/$/);
+  await expect(directPage.locator('[data-date="2026-11-12"]')).toBeVisible();
+  await directPage.close();
 });
 
 test('biology atlas has 64 entries, working search, images, cards, zoom and persisted mastery', async ({ page }) => {

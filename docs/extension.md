@@ -36,7 +36,15 @@ Přidej do `events`:
 {id:'physics-test-1',unitId:'physics-unit-1',date:'2026-12-03',type:'test',title:'Název testu',description:'Skutečné zadání nebo popis.'}
 ```
 
-Typy jsou `test`, `homework` a `review`. Datum je lokální školní den `YYYY-MM-DD`, bez času. Event odkazuje na jednotku, jednotka odkazuje na předmět. Další opakování stejné látky je jen další Event se stejným `unitId`. Kalendář, nejbližší termíny, barvy a detail se aktualizují automaticky.
+Typy jsou `test`, `homework`, `review` a `excursion`. Datum je lokální školní den `YYYY-MM-DD`, bez času. Studijní termín odkazuje na jednotku, jednotka odkazuje na předmět. Další opakování stejné látky je jen další Event se stejným `unitId`. Kalendář, nejbližší termíny, barvy a detail se aktualizují automaticky.
+
+Školní akce, například exkurze, může být samostatná událost bez `unitId`.
+Otevře vlastní detail a šipka zpět vede přímo do kalendáře. Celodenní akci
+označ `allDay:true`; údaj „Celý den“ se zobrazí i na kartě a v detailu:
+
+```js
+{id:'power-plants-excursion',date:'2026-11-12',type:'excursion',allDay:true,title:'Exkurze elektráren',description:'Podrobnosti k programu zatím nejsou přidané.'}
+```
 
 ## 4. Volitelný vlastní interaktivní modul
 

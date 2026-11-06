@@ -29,18 +29,34 @@ test('calendar handles leap February and year boundaries without missing or dupl
   }
 });
 
-test('every event resolves through a unit to a subject and all demo dates are correct', async () => {
-  const { subjects, units, events, eventContext } = await import('../src/data.js');
+test('study events resolve their units, school excursions stand alone and all dates are correct', async () => {
+  const { subjects, units, events, eventContext, eventTypes } = await import('../src/data.js');
   for (const records of [subjects, units, events]) assert.equal(new Set(records.map(record => record.id)).size, records.length);
   for (const event of events) {
     const resolved = eventContext(event);
-    assert.ok(resolved.unit?.title, event.id);
-    assert.ok(resolved.subject?.name, event.id);
+    if (event.unitId) {
+      assert.ok(resolved.unit?.title, event.id);
+      assert.ok(resolved.subject?.name, event.id);
+    } else {
+      assert.equal(resolved.unit, undefined, event.id);
+      assert.equal(resolved.subject, undefined, event.id);
+    }
     assert.match(event.date, /^\d{4}-\d{2}-\d{2}$/);
-    assert.ok(['test', 'homework', 'review'].includes(event.type));
+    assert.ok(Object.hasOwn(eventTypes, event.type), event.id);
   }
-  assert.deepEqual(events.map(({ date, type }) => [date, type]), [
-    ['2026-11-05', 'test'], ['2026-11-05', 'test'],
-    ['2026-11-12', 'test'], ['2026-11-18', 'homework'],
-  ]);
+  assert.deepEqual(Object.fromEntries(events.map(({ id, date, type }) => [id, { date, type }])), {
+    'biology-test': { date: '2026-11-05', type: 'test' },
+    'math-test': { date: '2026-11-05', type: 'test' },
+    'history-test': { date: '2026-11-09', type: 'test' },
+    'power-plants-excursion': { date: '2026-11-12', type: 'excursion' },
+    'law-test': { date: '2026-11-19', type: 'test' },
+    'literature-assignment': { date: '2026-11-18', type: 'homework' },
+  });
+  const excursion = events.find(event => event.id === 'power-plants-excursion');
+  assert.equal(excursion.allDay, true);
+  assert.equal(excursion.unitId, undefined);
+  const history = eventContext(events.find(event => event.id === 'history-test'));
+  assert.equal(history.subject.id, 'history');
+  assert.equal(history.unit.id, 'baroque');
+  assert.deepEqual(history.unit.materials, []);
 });

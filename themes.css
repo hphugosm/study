@@ -110,6 +110,9 @@ main:focus-visible { outline-color: var(--study-accent); }
 .calendar-legend { color: var(--study-muted); border-color: var(--study-line); }
 .calendar-legend i { background: var(--study-accent); }
 .calendar-legend .homework { background: color-mix(in srgb, #a56c7b 65%, var(--study-text)); }
+.calendar-legend .excursion { background: color-mix(in srgb, #527c8a 65%, var(--study-text)); border-radius: 1px; transform: rotate(45deg); }
+.calendar-chip.excursion { border-left: 2px solid #527c8a; }
+.mobile-event-dots i.excursion { border-radius: 1px; transform: rotate(45deg); }
 .day-panel { background: var(--study-soft); border-color: var(--study-line); }
 .day-subtitle, .day-footnote, .quiet-empty p { color: var(--study-muted); }
 .quiet-empty > .icon { color: var(--study-accent); }
@@ -121,6 +124,10 @@ main:focus-visible { outline-color: var(--study-accent); }
 .event-type.homework {
   color: color-mix(in srgb, #a56c7b 65%, var(--study-text));
   background: color-mix(in srgb, #a56c7b 10%, var(--study-surface));
+}
+.event-type.excursion {
+  color: color-mix(in srgb, #527c8a 75%, var(--study-text));
+  background: color-mix(in srgb, #527c8a 10%, var(--study-surface));
 }
 .event-card p, .event-arrow, .event-date, .event-date span,
 .subject-shortcut > .icon, .section-heading > span {
@@ -179,6 +186,7 @@ main:focus-visible { outline-color: var(--study-accent); }
 }
 :root[data-theme="dark"] .event-type { color: color-mix(in srgb, #8caa77 45%, var(--study-text)); }
 :root[data-theme="dark"] .event-type.homework { color: color-mix(in srgb, #c48a9d 45%, var(--study-text)); }
+:root[data-theme="dark"] .event-type.excursion { color: color-mix(in srgb, #85b8c8 55%, var(--study-text)); }
 :root[data-theme="dark"] .subject-dot,
 :root[data-theme="dark"] .mobile-event-dots i {
   background: color-mix(in srgb, var(--subject, var(--study-accent)) 50%, var(--study-text));

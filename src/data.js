@@ -1,6 +1,6 @@
 /** @typedef {{id:string,name:string,color:string,tint:string,icon:string,description:string}} Subject */
 /** @typedef {{id:string,subjectId:string,title:string,label?:string,description:string,module?:string,kind?:'collection',relatedUnitIds?:string[],materials:Array<{title:string,description:string,url:string}>,notes?:string[]}} StudyUnit */
-/** @typedef {{id:string,unitId:string,date:string,type:'test'|'homework'|'review',title:string,description:string}} StudyEvent */
+/** @typedef {{id:string,unitId?:string,date:string,type:'test'|'homework'|'review'|'excursion',allDay?:boolean,title:string,description:string}} StudyEvent */
 
 /** @type {Subject[]} */
 export const subjects = [
@@ -8,6 +8,7 @@ export const subjects = [
   {id:'law',name:'Law',color:'#6976a1',tint:'#eff0f8',icon:'scale',description:'Cases, courts & civil liberties.'},
   {id:'mathematics',name:'Matematika',color:'#ac8350',tint:'#f7f1e7',icon:'function',description:'Kružnice, grafy a rovnice. Souvislosti, které si můžeš vyzkoušet.'},
   {id:'literature',name:'Literatura',color:'#a56c7b',tint:'#f8eff2',icon:'book',description:'Příběhy, které stojí za pochopení.'},
+  {id:'history',name:'Dějepis',color:'#94704e',tint:'#f5efe8',icon:'clock',description:'Historická období a jejich souvislosti.'},
 ];
 
 /** @type {StudyUnit[]} */
@@ -37,14 +38,17 @@ export const units = [
     {title:'Goniometrické rovnice a nerovnice — pracovní list',description:'104 příkladů · původní zadání PDF',url:'modules/math-worksheets/assets/Opakovani_gonio__ne_rovnice.pdf'},
   ]},
   {id:'miser',subjectId:'literature',title:'Rozbor Lakomce',label:'DOMÁCÍ ÚKOL',description:'Odevzdání rozboru Molièrova Lakomce. Zadání a materiály zatím nebyly přidány.',materials:[]},
+  {id:'baroque',subjectId:'history',title:'Baroko',label:'PŘÍPRAVA NA TEST',description:'Test z baroka. Přesné zadání a studijní podklady zatím nebyly přidány.',materials:[]},
 ];
 
 /** @type {StudyEvent[]} */
 export const events = [
   {id:'biology-test',unitId:'skeleton',date:'2026-11-05',type:'test',title:'Test – Kosterní soustava člověka',description:'Připrav se s atlasem, kartičkami a slepou mapou lidské kostry.'},
   {id:'math-test',unitId:'math-quarter',date:'2026-11-05',type:'test',title:'Čtvrtletní práce',description:'Opakování trigonometrie, funkcí, vzorců, rovnic a nerovnic ze tří dodaných prezentací.'},
-  {id:'law-test',unitId:'law-unit-2',date:'2026-11-12',type:'test',title:'Unit 2 – Test',description:'Review the landmark cases, court hierarchy and legal vocabulary.'},
+  {id:'history-test',unitId:'baroque',date:'2026-11-09',type:'test',title:'Test – Baroko',description:'Test z dějepisu na téma baroko.'},
+  {id:'power-plants-excursion',date:'2026-11-12',type:'excursion',allDay:true,title:'Exkurze elektráren',description:'Celodenní školní exkurze. Podrobnosti k místu, programu a odjezdu zatím nejsou přidané.'},
   {id:'literature-assignment',unitId:'miser',date:'2026-11-18',type:'homework',title:'Odevzdání rozboru Lakomce',description:'Termín pro odevzdání rozboru. Přesné zadání zatím nebylo přidáno.'},
+  {id:'law-test',unitId:'law-unit-2',date:'2026-11-19',type:'test',title:'Unit 2 – Test',description:'Review the landmark cases, court hierarchy and legal vocabulary.'},
 ];
 
 export const moduleLoaders = {
@@ -58,6 +62,6 @@ export const getSubject = id => subjects.find(subject => subject.id === id);
 export const getUnit = id => units.find(unit => unit.id === id);
 export const eventContext = event => {
   const unit = getUnit(event.unitId);
-  return {event,unit,subject:getSubject(unit.subjectId)};
+  return {event,unit,subject:unit?getSubject(unit.subjectId):undefined};
 };
-export const eventTypes = {test:'Test',homework:'Domácí úkol',review:'Opakování'};
+export const eventTypes = {test:'Test',homework:'Domácí úkol',review:'Opakování',excursion:'Exkurze'};

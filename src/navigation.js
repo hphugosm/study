@@ -10,7 +10,7 @@ export function routeInfo(hash = '#/') {
     subject,
     unit,
     parent: unit ? `#/subjects/${subject.id}` : '#/',
-    label: subject?.name || ({ subjects: 'Předměty', practice: 'Procvičování', settings: 'Nastavení' }[section] || 'Kalendář'),
+    label: subject?.name || event?.title || ({ subjects: 'Předměty', practice: 'Procvičování', settings: 'Nastavení' }[section] || 'Kalendář'),
   };
 }
 
