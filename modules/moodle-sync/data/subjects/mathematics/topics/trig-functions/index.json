@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "subject_id": "mathematics",
+  "topic_id": "trig-functions",
+  "title": "Trigonometrie a goniometrické funkce",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "study"
+}

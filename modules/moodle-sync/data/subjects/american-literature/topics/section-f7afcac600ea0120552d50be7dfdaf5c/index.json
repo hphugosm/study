@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "american-literature",
+  "topic_id": "section-f7afcac600ea0120552d50be7dfdaf5c",
+  "title": "Modernism: The Lost Generation",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 1,
+  "available": true,
+  "listed_current": true
+}

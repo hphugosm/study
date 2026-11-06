@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "american-literature",
+  "topic_id": "section-b1211e24ac753b629e528c0fc039f0ca",
+  "title": "The Contemporary Period: Southern Gothic",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 4,
+  "available": false,
+  "listed_current": true
+}

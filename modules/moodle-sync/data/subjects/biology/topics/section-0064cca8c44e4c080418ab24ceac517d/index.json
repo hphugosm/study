@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "section-0064cca8c44e4c080418ab24ceac517d",
+  "title": "TRÁVICÍ, VYLUČOVACÍ SOUSTAVA, KŮŽE",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 5,
+  "available": false,
+  "listed_current": true
+}

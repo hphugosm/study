@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-7f503a680724268ecfd5a70745bf69aa",
+  "title": "Unit 5.2 - Criminal Law - Elements",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 22,
+  "available": false,
+  "listed_current": true
+}

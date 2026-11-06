@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-7db624e2cf9490c4619c7519f3dfea0b",
+  "title": "Unit 3.2 - Human Rights",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 11,
+  "available": false,
+  "listed_current": true
+}

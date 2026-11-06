@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "american-literature",
+  "topic_id": "section-ad29e0abff7a15322cd5e62195790d06",
+  "title": "The Lost Generation- Quiz",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

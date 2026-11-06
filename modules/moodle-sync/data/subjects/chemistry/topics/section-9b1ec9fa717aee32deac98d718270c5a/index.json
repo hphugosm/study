@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-9b1ec9fa717aee32deac98d718270c5a",
+  "title": "Úvod do studia biochemie",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 1,
+  "available": true,
+  "listed_current": true
+}

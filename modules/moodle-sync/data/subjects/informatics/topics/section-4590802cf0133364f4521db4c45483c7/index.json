@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-4590802cf0133364f4521db4c45483c7",
+  "title": "Úvod",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 0,
+  "available": true,
+  "listed_current": true
+}

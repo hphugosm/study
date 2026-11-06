@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "american-literature",
+  "topic_id": "section-c0a2b160df14dbb40ff4fda28373cade",
+  "title": "The Contemporary Period: Do Android's Dream of Electric Sheep?",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 7,
+  "available": false,
+  "listed_current": true
+}

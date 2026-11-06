@@ -1,0 +1,5 @@
+# Unit 3.5 - Limiting Human Rights (EU/UN)
+
+Předmět: Právo. Varianta: JU3. Pořadí sekce: 14. Identita tématu je veřejný neprůhledný otisk.
+
+Téma pochází z výslovně zkontrolovaného veřejného přehledu. Samotný název tématu neschvaluje žádné školní soubory. Původní podklady jsou v `sources/index.json`, odvozené výstupy v `derived/index.json`.

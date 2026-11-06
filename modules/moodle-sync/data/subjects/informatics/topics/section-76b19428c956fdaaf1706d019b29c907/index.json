@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-76b19428c956fdaaf1706d019b29c907",
+  "title": "Python – cykly a funkce",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 10,
+  "available": true,
+  "listed_current": true
+}

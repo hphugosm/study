@@ -1,0 +1,1979 @@
+{
+  "schema": 1,
+  "subjects": [
+    {
+      "id": "area-studies",
+      "title": "Area Studies",
+      "topics": [
+        {
+          "id": "section-353910dbc2d5caecf926a3327378b1c2",
+          "title": "General",
+          "index": "subjects/area-studies/topics/section-353910dbc2d5caecf926a3327378b1c2/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-ba6d5aa31222c55d75cf22f48655cf80",
+          "title": "Intro to US/General",
+          "index": "subjects/area-studies/topics/section-ba6d5aa31222c55d75cf22f48655cf80/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-57ebae4359c71a17acb53e96ea8717bd",
+          "title": "Northeast",
+          "index": "subjects/area-studies/topics/section-57ebae4359c71a17acb53e96ea8717bd/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-17a30bffaa4a18aa8702ebe923c2a7fc",
+          "title": "Southeast",
+          "index": "subjects/area-studies/topics/section-17a30bffaa4a18aa8702ebe923c2a7fc/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-0e59b1861de7ed28aead01c3c821eb0c",
+          "title": "Midwest",
+          "index": "subjects/area-studies/topics/section-0e59b1861de7ed28aead01c3c821eb0c/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-55c970ec0c37028e1515f57537c93236",
+          "title": "Southwest",
+          "index": "subjects/area-studies/topics/section-55c970ec0c37028e1515f57537c93236/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-babbd411963331a7e0df68020927bcfa",
+          "title": "Northwest",
+          "index": "subjects/area-studies/topics/section-babbd411963331a7e0df68020927bcfa/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 6,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-c7a5710c8eee0e1180c7af4c6328af50",
+          "title": "Canada",
+          "index": "subjects/area-studies/topics/section-c7a5710c8eee0e1180c7af4c6328af50/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 7,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-2aea528627b503af0be5562af6150d98",
+          "title": "New section",
+          "index": "subjects/area-studies/topics/section-2aea528627b503af0be5562af6150d98/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 9,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-176ac9e8b806d336c03329c24295307c",
+          "title": "New section",
+          "index": "subjects/area-studies/topics/section-176ac9e8b806d336c03329c24295307c/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 10,
+          "available": true,
+          "listed_current": true
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "title": "Biologie",
+      "topics": [
+        {
+          "id": "section-cf67c95f50c63a4b0169d2912af3f122",
+          "title": "BIOLOGIE - JU3",
+          "index": "subjects/biology/topics/section-cf67c95f50c63a4b0169d2912af3f122/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-917435c56e7f8da13d6769ff87f37a1d",
+          "title": "SAVCI",
+          "index": "subjects/biology/topics/section-917435c56e7f8da13d6769ff87f37a1d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 1,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-03eb3f66a6da14c362750a3968ba2881",
+          "title": "KOSTERNÍ SOUSTAVA, SVALOVÁ SOUSTAVA",
+          "index": "subjects/biology/topics/section-03eb3f66a6da14c362750a3968ba2881/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-3443344f159467a1296cc192d19677c9",
+          "title": "TĚLNÍ TEKUTINY, CÉVNÍ SOUSTAVA",
+          "index": "subjects/biology/topics/section-3443344f159467a1296cc192d19677c9/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 3,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-8da128d294539a0dd31220a4daadbe5e",
+          "title": "DÝCHACÍ SOUSTAVA",
+          "index": "subjects/biology/topics/section-8da128d294539a0dd31220a4daadbe5e/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 4,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-0064cca8c44e4c080418ab24ceac517d",
+          "title": "TRÁVICÍ, VYLUČOVACÍ SOUSTAVA, KŮŽE",
+          "index": "subjects/biology/topics/section-0064cca8c44e4c080418ab24ceac517d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 5,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-add4fad540aef50c10217785a6b5a46d",
+          "title": "HORMONÁLNÍ, NERVOVÁ SOUSTAVA",
+          "index": "subjects/biology/topics/section-add4fad540aef50c10217785a6b5a46d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 6,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-239df83a9c4f6bcdd1d23179acd70701",
+          "title": "SMYSLOVÁ SOUSTAVA",
+          "index": "subjects/biology/topics/section-239df83a9c4f6bcdd1d23179acd70701/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 7,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-a370b087afcb1423e1b4a89f3a556bd1",
+          "title": "ROZMNOŽOVACÍ SOUSTAVA ČLOVĚKA, GENETIKA",
+          "index": "subjects/biology/topics/section-a370b087afcb1423e1b4a89f3a556bd1/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 8,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-45ea7b984290db36e8a2428ccf90368d",
+          "title": "EKOLOGIE",
+          "index": "subjects/biology/topics/section-45ea7b984290db36e8a2428ccf90368d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 9,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "skeleton",
+          "title": "Kosterní soustava člověka – lidské kosti",
+          "index": "subjects/biology/topics/skeleton/index.json",
+          "origin": "study"
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemie",
+      "topics": [
+        {
+          "id": "section-b29e475a7d3f418745f8f50c5b92df97",
+          "title": "Úvod",
+          "index": "subjects/chemistry/topics/section-b29e475a7d3f418745f8f50c5b92df97/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-9b1ec9fa717aee32deac98d718270c5a",
+          "title": "Úvod do studia biochemie",
+          "index": "subjects/chemistry/topics/section-9b1ec9fa717aee32deac98d718270c5a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-edb6d4d4a4196dfa9657c0a8a0e93029",
+          "title": "Aminokyseliny",
+          "index": "subjects/chemistry/topics/section-edb6d4d4a4196dfa9657c0a8a0e93029/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-7c81652c3859af6be5d57780191a659f",
+          "title": "Bílkoviny a peptidy",
+          "index": "subjects/chemistry/topics/section-7c81652c3859af6be5d57780191a659f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-e50b1d9503439050a4b416599d3b6a19",
+          "title": "Lipidy a biomembrány",
+          "index": "subjects/chemistry/topics/section-e50b1d9503439050a4b416599d3b6a19/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-758ba4e39fb6410629e9a1843722330f",
+          "title": "Sacharidy a fotosyntéza",
+          "index": "subjects/chemistry/topics/section-758ba4e39fb6410629e9a1843722330f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-53beaf122de6cd7b93478498956ef47e",
+          "title": "Nukleové kyseliny",
+          "index": "subjects/chemistry/topics/section-53beaf122de6cd7b93478498956ef47e/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 6,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-a53139e582ef0860a7a96ea24925a133",
+          "title": "Biochemické děje",
+          "index": "subjects/chemistry/topics/section-a53139e582ef0860a7a96ea24925a133/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 7,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-13cf3b395902e13f5c79e4ca06606662",
+          "title": "Enzymy biokatalyzátory",
+          "index": "subjects/chemistry/topics/section-13cf3b395902e13f5c79e4ca06606662/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 8,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-12c02a3bc7eb2d7ecb243d47cc484086",
+          "title": "Vitamíny a hormony",
+          "index": "subjects/chemistry/topics/section-12c02a3bc7eb2d7ecb243d47cc484086/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 9,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-5da518105a26daa01c8076dfbc674505",
+          "title": "Závěrečné opakování učiva",
+          "index": "subjects/chemistry/topics/section-5da518105a26daa01c8076dfbc674505/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 10,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-a88b7b9f9e496bbb4bb9de1b722672d6",
+          "title": "Dopnění učiva z 1. a 2. ročníku, pro maturanty z chemie",
+          "index": "subjects/chemistry/topics/section-a88b7b9f9e496bbb4bb9de1b722672d6/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 11,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-376745cedf565f00ff5babbb071b8b27",
+          "title": "Topic 12",
+          "index": "subjects/chemistry/topics/section-376745cedf565f00ff5babbb071b8b27/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 12,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-2fe72ba3a49a43ef1f193d9136327fda",
+          "title": "Analytická chemie a závěrečné opakování učiva",
+          "index": "subjects/chemistry/topics/section-2fe72ba3a49a43ef1f193d9136327fda/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 13,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-260fffd52b42b987114dd0df9d6023d3",
+          "title": "Topic 14",
+          "index": "subjects/chemistry/topics/section-260fffd52b42b987114dd0df9d6023d3/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 14,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-3219cf2753b2215d793e85781f8ebed1",
+          "title": "Topic 15",
+          "index": "subjects/chemistry/topics/section-3219cf2753b2215d793e85781f8ebed1/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 15,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-06ff184bb1919a8681dc96e301f9f2db",
+          "title": "Topic 16",
+          "index": "subjects/chemistry/topics/section-06ff184bb1919a8681dc96e301f9f2db/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 16,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-d7bf682198c3c0e0d55e414a283d6f35",
+          "title": "Topic 17",
+          "index": "subjects/chemistry/topics/section-d7bf682198c3c0e0d55e414a283d6f35/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 17,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-849a37c711a862b42b1fbd9378f53bd4",
+          "title": "Topic 18",
+          "index": "subjects/chemistry/topics/section-849a37c711a862b42b1fbd9378f53bd4/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 18,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-5094816f8f4db331f723ab4ddf599708",
+          "title": "Topic 19",
+          "index": "subjects/chemistry/topics/section-5094816f8f4db331f723ab4ddf599708/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 19,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-47c51105e99e1b595273c838e85884c7",
+          "title": "Topic 20",
+          "index": "subjects/chemistry/topics/section-47c51105e99e1b595273c838e85884c7/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 20,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-a34612388d0469a55a5bb768882a6806",
+          "title": "Topic 21",
+          "index": "subjects/chemistry/topics/section-a34612388d0469a55a5bb768882a6806/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 21,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-a9eb56249fb10289b48f4a69405792da",
+          "title": "Topic 22",
+          "index": "subjects/chemistry/topics/section-a9eb56249fb10289b48f4a69405792da/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 22,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-371087deb592df9bd2b9bda66bc1810a",
+          "title": "Topic 23",
+          "index": "subjects/chemistry/topics/section-371087deb592df9bd2b9bda66bc1810a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 23,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-7c283e49d6e445940f9b77ccab59d0f6",
+          "title": "Topic 24",
+          "index": "subjects/chemistry/topics/section-7c283e49d6e445940f9b77ccab59d0f6/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 24,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-2018072345cdf4ccddf5f7d306fcecfc",
+          "title": "Topic 25",
+          "index": "subjects/chemistry/topics/section-2018072345cdf4ccddf5f7d306fcecfc/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 25,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-a43b48a826a67209f172b976e267a7ca",
+          "title": "Topic 26",
+          "index": "subjects/chemistry/topics/section-a43b48a826a67209f172b976e267a7ca/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 26,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-41375761f36f34a986446f30b1560967",
+          "title": "Topic 27",
+          "index": "subjects/chemistry/topics/section-41375761f36f34a986446f30b1560967/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 27,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-8513b21d9c4530c71cd4fcfc554ae07a",
+          "title": "Topic 28",
+          "index": "subjects/chemistry/topics/section-8513b21d9c4530c71cd4fcfc554ae07a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 28,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-72f4b522798546b5c27225dc4fe90e14",
+          "title": "Topic 29",
+          "index": "subjects/chemistry/topics/section-72f4b522798546b5c27225dc4fe90e14/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 29,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-65f2f2028c8fd68350cd51d45f960f2d",
+          "title": "Topic 30",
+          "index": "subjects/chemistry/topics/section-65f2f2028c8fd68350cd51d45f960f2d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 30,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-60a0f2232202b8ddbd096e29ebac109a",
+          "title": "Topic 31",
+          "index": "subjects/chemistry/topics/section-60a0f2232202b8ddbd096e29ebac109a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 31,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-e75bfc91042e76ba60c20611e6dffdcc",
+          "title": "Topic 32",
+          "index": "subjects/chemistry/topics/section-e75bfc91042e76ba60c20611e6dffdcc/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 32,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-00881e788d3ee799d4dc9e61240eb137",
+          "title": "Topic 33",
+          "index": "subjects/chemistry/topics/section-00881e788d3ee799d4dc9e61240eb137/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 33,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-187eb39b6028c92bb3fe132d4d9108ab",
+          "title": "Topic 34",
+          "index": "subjects/chemistry/topics/section-187eb39b6028c92bb3fe132d4d9108ab/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 34,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-c4cdab850ec487ea4798ebc29d69b4c2",
+          "title": "Topic 35",
+          "index": "subjects/chemistry/topics/section-c4cdab850ec487ea4798ebc29d69b4c2/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 35,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-15a0a97b0d60ef2c7187b619b2b67d4a",
+          "title": "Topic 36",
+          "index": "subjects/chemistry/topics/section-15a0a97b0d60ef2c7187b619b2b67d4a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 36,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-18d930ff3ebad2716383ab71b591006c",
+          "title": "Topic 37",
+          "index": "subjects/chemistry/topics/section-18d930ff3ebad2716383ab71b591006c/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 37,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-1734ab09074df15419d55f8ae937c9a5",
+          "title": "Topic 38",
+          "index": "subjects/chemistry/topics/section-1734ab09074df15419d55f8ae937c9a5/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 38,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-73f9cc5adde88fc4714c52a186af4e8e",
+          "title": "Topic 39",
+          "index": "subjects/chemistry/topics/section-73f9cc5adde88fc4714c52a186af4e8e/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 39,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-023bc38474d0310c6a2a13736d73904f",
+          "title": "Topic 40",
+          "index": "subjects/chemistry/topics/section-023bc38474d0310c6a2a13736d73904f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 40,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-1b70392ca1d687406ef0c64e933cd685",
+          "title": "Topic 41",
+          "index": "subjects/chemistry/topics/section-1b70392ca1d687406ef0c64e933cd685/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 41,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-07c697d9e4191385b23e4541681e5fb4",
+          "title": "Topic 42",
+          "index": "subjects/chemistry/topics/section-07c697d9e4191385b23e4541681e5fb4/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 42,
+          "available": true,
+          "listed_current": true
+        }
+      ]
+    },
+    {
+      "id": "american-literature",
+      "title": "Americká literatura",
+      "topics": [
+        {
+          "id": "section-18129949a6fcb85d535065dba4487907",
+          "title": "General",
+          "index": "subjects/american-literature/topics/section-18129949a6fcb85d535065dba4487907/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-f7afcac600ea0120552d50be7dfdaf5c",
+          "title": "Modernism: The Lost Generation",
+          "index": "subjects/american-literature/topics/section-f7afcac600ea0120552d50be7dfdaf5c/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-ad29e0abff7a15322cd5e62195790d06",
+          "title": "The Lost Generation- Quiz",
+          "index": "subjects/american-literature/topics/section-ad29e0abff7a15322cd5e62195790d06/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-a9d166e490df453c42d14ac8c07c087c",
+          "title": "Modernism: The Harlem Renaissance",
+          "index": "subjects/american-literature/topics/section-a9d166e490df453c42d14ac8c07c087c/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-b1211e24ac753b629e528c0fc039f0ca",
+          "title": "The Contemporary Period: Southern Gothic",
+          "index": "subjects/american-literature/topics/section-b1211e24ac753b629e528c0fc039f0ca/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 4,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-2b88f23209d4728e0ab25616018090e0",
+          "title": "The Contemporary Period: The Beat Generation",
+          "index": "subjects/american-literature/topics/section-2b88f23209d4728e0ab25616018090e0/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 5,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-24c58f4fb1c15aefb1cfdf9b9e239be2",
+          "title": "Literature Semester Final",
+          "index": "subjects/american-literature/topics/section-24c58f4fb1c15aefb1cfdf9b9e239be2/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 6,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-c0a2b160df14dbb40ff4fda28373cade",
+          "title": "The Contemporary Period: Do Android's Dream of Electric Sheep?",
+          "index": "subjects/american-literature/topics/section-c0a2b160df14dbb40ff4fda28373cade/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 7,
+          "available": false,
+          "listed_current": true
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "title": "Fyzika",
+      "topics": [
+        {
+          "id": "section-aef6c6bb69952127dc9354123b5c8a0a",
+          "title": "Úvod",
+          "index": "subjects/physics/topics/section-aef6c6bb69952127dc9354123b5c8a0a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-33c312bef9b81894bcd91727f6846280",
+          "title": "Testíky",
+          "index": "subjects/physics/topics/section-33c312bef9b81894bcd91727f6846280/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-4c2cedb47b484c58c074486008e5e78d",
+          "title": "Úvod do optiky",
+          "index": "subjects/physics/topics/section-4c2cedb47b484c58c074486008e5e78d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-c5f4686718036f545f4319f131ec2b2a",
+          "title": "Vlnová optika",
+          "index": "subjects/physics/topics/section-c5f4686718036f545f4319f131ec2b2a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-05b5189b5cfd7aca3a2976ae41fce27e",
+          "title": "Geometrická optika",
+          "index": "subjects/physics/topics/section-05b5189b5cfd7aca3a2976ae41fce27e/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-ec4690b142ed622376bcc75ae51edfab",
+          "title": "Speciální teorie relativity",
+          "index": "subjects/physics/topics/section-ec4690b142ed622376bcc75ae51edfab/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 5,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-5cdbb1b7f87b9950516357869cb8f62d",
+          "title": "Nová sekce",
+          "index": "subjects/physics/topics/section-5cdbb1b7f87b9950516357869cb8f62d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 6,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-1a9c5a51b3353f256b0286a3efaf5e77",
+          "title": "Nová sekce",
+          "index": "subjects/physics/topics/section-1a9c5a51b3353f256b0286a3efaf5e77/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 7,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-ada6710826d1813b049d911dfccf69fb",
+          "title": "Nová sekce",
+          "index": "subjects/physics/topics/section-ada6710826d1813b049d911dfccf69fb/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 8,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-00167ccac26880f6023c6889890bd0ba",
+          "title": "Nová sekce",
+          "index": "subjects/physics/topics/section-00167ccac26880f6023c6889890bd0ba/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 9,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-249d378195b82a1a2a321fda4ec08d94",
+          "title": "Obecné informace",
+          "index": "subjects/physics/topics/section-249d378195b82a1a2a321fda4ec08d94/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 10,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-b34ff133a1a523090626e66ac46d547c",
+          "title": "1. pololetí",
+          "index": "subjects/physics/topics/section-b34ff133a1a523090626e66ac46d547c/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 11,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-3bf17340ffc86de7f8b03c1da9e1e703",
+          "title": "2. pololetí",
+          "index": "subjects/physics/topics/section-3bf17340ffc86de7f8b03c1da9e1e703/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 12,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-1f92b693d53edf9cd319e52d6dbc30cc",
+          "title": "Rozvržení 1. pololetí",
+          "index": "subjects/physics/topics/section-1f92b693d53edf9cd319e52d6dbc30cc/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABE",
+          "section_order": 13,
+          "available": false,
+          "listed_current": true
+        }
+      ]
+    },
+    {
+      "id": "informatics",
+      "title": "Informatika",
+      "topics": [
+        {
+          "id": "section-4590802cf0133364f4521db4c45483c7",
+          "title": "Úvod",
+          "index": "subjects/informatics/topics/section-4590802cf0133364f4521db4c45483c7/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-d766e37eb9c6b8208895068ef1289997",
+          "title": "Projekt První Pololetí",
+          "index": "subjects/informatics/topics/section-d766e37eb9c6b8208895068ef1289997/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-52c4dde46706eff6dfe28d6b0b82f2d5",
+          "title": "Základy počítače a dat",
+          "index": "subjects/informatics/topics/section-52c4dde46706eff6dfe28d6b0b82f2d5/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-588cd5ee5179c25883c65e0170e6009f",
+          "title": "Kódování informace a komprese",
+          "index": "subjects/informatics/topics/section-588cd5ee5179c25883c65e0170e6009f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-394b78fad40eff6696e9d17f728f4e2d",
+          "title": "Počítačové sítě a Internet",
+          "index": "subjects/informatics/topics/section-394b78fad40eff6696e9d17f728f4e2d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-82e53b49c1573ef83a670137e16fb3d3",
+          "title": "Algoritmizace a vývojové diagramy",
+          "index": "subjects/informatics/topics/section-82e53b49c1573ef83a670137e16fb3d3/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-7f40ae01a5fe6b6eaeb02c3f719c5d3f",
+          "title": "Web, cloud a digitální služby",
+          "index": "subjects/informatics/topics/section-7f40ae01a5fe6b6eaeb02c3f719c5d3f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 6,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-62559bb5c56b3652a92ab6255e92a27b",
+          "title": "Vizuální programování",
+          "index": "subjects/informatics/topics/section-62559bb5c56b3652a92ab6255e92a27b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 7,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-a3a7955a79f431c349cb50a4ad1a42a9",
+          "title": "p5.js, algoritmy a debugging",
+          "index": "subjects/informatics/topics/section-a3a7955a79f431c349cb50a4ad1a42a9/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 8,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-d002e013566c448efa1998f182cd9b07",
+          "title": "Python – základy",
+          "index": "subjects/informatics/topics/section-d002e013566c448efa1998f182cd9b07/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 9,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-76b19428c956fdaaf1706d019b29c907",
+          "title": "Python – cykly a funkce",
+          "index": "subjects/informatics/topics/section-76b19428c956fdaaf1706d019b29c907/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 10,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-620f7f1df6693f9a687fc3261f4c6716",
+          "title": "Projekt v Pythonu",
+          "index": "subjects/informatics/topics/section-620f7f1df6693f9a687fc3261f4c6716/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 11,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-4ca3aea49751f7af4ecd27534fc1036f",
+          "title": "Závěrečné opakování",
+          "index": "subjects/informatics/topics/section-4ca3aea49751f7af4ecd27534fc1036f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 12,
+          "available": true,
+          "listed_current": true
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "Právo",
+      "topics": [
+        {
+          "id": "section-de185398d3dc14b48d6cb1aaaf198a97",
+          "title": "General",
+          "index": "subjects/law/topics/section-de185398d3dc14b48d6cb1aaaf198a97/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-398348d6dcc7c530a0dc3e2b74be673e",
+          "title": "Unit 1 - Introduction to Law",
+          "index": "subjects/law/topics/section-398348d6dcc7c530a0dc3e2b74be673e/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-ee8af0f49e077771e08b3f7335f8a3de",
+          "title": "Unit 1.1 - The Rule of Law/Public and Private Law",
+          "index": "subjects/law/topics/section-ee8af0f49e077771e08b3f7335f8a3de/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-ce4fc8f63e50fd0fb5fde4b195d608de",
+          "title": "Unit 1.2 - History of Common Law and Punishment",
+          "index": "subjects/law/topics/section-ce4fc8f63e50fd0fb5fde4b195d608de/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-398f4641e4bf54df0f6f3f347310653c",
+          "title": "Quiz - Unit 1 - 1.10",
+          "index": "subjects/law/topics/section-398f4641e4bf54df0f6f3f347310653c/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-6a6e968db9b259d09056e7981ec84ead",
+          "title": "Unit 2.1 - American Law and the Bill of Rights",
+          "index": "subjects/law/topics/section-6a6e968db9b259d09056e7981ec84ead/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-f55fcdfd8a43f9a5a5ee7cdfb285309f",
+          "title": "Unit 2.2 - The American Court System",
+          "index": "subjects/law/topics/section-f55fcdfd8a43f9a5a5ee7cdfb285309f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 6,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-351de56f1f651c9b8f01c1e0af451c4a",
+          "title": "Unit 2.3 - Supreme Court Landmark Decisions",
+          "index": "subjects/law/topics/section-351de56f1f651c9b8f01c1e0af451c4a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 7,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-327aa5611a5de5a27a021f20e214251c",
+          "title": "Unit 2.4 - Civil Liberty",
+          "index": "subjects/law/topics/section-327aa5611a5de5a27a021f20e214251c/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 8,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-e34a26cc76ae3e441e97436d2360a95f",
+          "title": "Quiz - Unit 2",
+          "index": "subjects/law/topics/section-e34a26cc76ae3e441e97436d2360a95f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 9,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-3d8f7cfa5ee0ecaf0ce59a91c894a586",
+          "title": "Unit 3.1 - International Law and Courts",
+          "index": "subjects/law/topics/section-3d8f7cfa5ee0ecaf0ce59a91c894a586/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 10,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-7db624e2cf9490c4619c7519f3dfea0b",
+          "title": "Unit 3.2 - Human Rights",
+          "index": "subjects/law/topics/section-7db624e2cf9490c4619c7519f3dfea0b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 11,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-50ee1ecd3e670f9308a30ee38dcd3126",
+          "title": "Unit 3.3 - Balancing Human Rights and Discrimination",
+          "index": "subjects/law/topics/section-50ee1ecd3e670f9308a30ee38dcd3126/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 12,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-18f24af8ad07b35c95116fcfcfc78dee",
+          "title": "Unit 3.4 - Protecting Offenders' Rights",
+          "index": "subjects/law/topics/section-18f24af8ad07b35c95116fcfcfc78dee/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 13,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-3266e7e532e1b47d73add75e552a8d09",
+          "title": "Unit 3.5 - Limiting Human Rights (EU/UN)",
+          "index": "subjects/law/topics/section-3266e7e532e1b47d73add75e552a8d09/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 14,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-781102dc45bfb87316a554b7fd389672",
+          "title": "Test - Unit 1-3",
+          "index": "subjects/law/topics/section-781102dc45bfb87316a554b7fd389672/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 15,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-e76a8113de9c69ff53996d30efc27920",
+          "title": "Unit 4.1 - Solving Disputes",
+          "index": "subjects/law/topics/section-e76a8113de9c69ff53996d30efc27920/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 16,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-610cf513386295f13b6e4d16c9796a8a",
+          "title": "Unit 4.2 - Civil Law - Introduction",
+          "index": "subjects/law/topics/section-610cf513386295f13b6e4d16c9796a8a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 17,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-ee98a54b3eb11527d3c777c567a854ab",
+          "title": "Unit 4.3 - Civil Law - Case Study I",
+          "index": "subjects/law/topics/section-ee98a54b3eb11527d3c777c567a854ab/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 18,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-4520e7e4ebc9a4cf1fe94434e7844294",
+          "title": "Unit 4.4 - Civil Law - Case Study II",
+          "index": "subjects/law/topics/section-4520e7e4ebc9a4cf1fe94434e7844294/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 19,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-abca39b7a979ff2ce2d88b7296014a98",
+          "title": "Quiz - Unit 4",
+          "index": "subjects/law/topics/section-abca39b7a979ff2ce2d88b7296014a98/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 20,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-03addac5aa10f5e7cf45bd8909961a49",
+          "title": "Unit 5.1 - Civil vs. Criminal Law",
+          "index": "subjects/law/topics/section-03addac5aa10f5e7cf45bd8909961a49/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 21,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-7f503a680724268ecfd5a70745bf69aa",
+          "title": "Unit 5.2 - Criminal Law - Elements",
+          "index": "subjects/law/topics/section-7f503a680724268ecfd5a70745bf69aa/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 22,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-92e294dfc220d626ca9efa65428b0a4b",
+          "title": "Unit 5.3 - Criminal Law - Violent Crime",
+          "index": "subjects/law/topics/section-92e294dfc220d626ca9efa65428b0a4b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 23,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-820dd1a038f3ecca4c54ed5bb63a35d9",
+          "title": "Unit 5.4 - Criminal Law - Process of Justice",
+          "index": "subjects/law/topics/section-820dd1a038f3ecca4c54ed5bb63a35d9/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 24,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-1ed40dfa0bfb757bf8f83602e5e8e585",
+          "title": "Quiz - Unit 5",
+          "index": "subjects/law/topics/section-1ed40dfa0bfb757bf8f83602e5e8e585/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 25,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-a9e68be005dbe6b077a6fce567fff2b6",
+          "title": "Unit 6.1 - Legal People - Intro to The Jury",
+          "index": "subjects/law/topics/section-a9e68be005dbe6b077a6fce567fff2b6/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 26,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-7ff687988a3135ebe17325b20909e2d3",
+          "title": "Unit 6.2 - Legal People - Jury Duty and Selection",
+          "index": "subjects/law/topics/section-7ff687988a3135ebe17325b20909e2d3/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 27,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-f66ac63ac5ffa0827178ba04132ac962",
+          "title": "Unit 6.3 - Legal People - The Grand Jury",
+          "index": "subjects/law/topics/section-f66ac63ac5ffa0827178ba04132ac962/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 28,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-b2949b2c934dc87a1f00c3b6cf3ce1bc",
+          "title": "Quiz - Unit 6",
+          "index": "subjects/law/topics/section-b2949b2c934dc87a1f00c3b6cf3ce1bc/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 29,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-2b58413d6f04f7d5e58bd7b0b33dc504",
+          "title": "Unit 7.1 - Legal People - The Police",
+          "index": "subjects/law/topics/section-2b58413d6f04f7d5e58bd7b0b33dc504/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 30,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-f1e461ebd80e8a0bf522d9bacb0dab36",
+          "title": "Unit 7.2 - Legal People - The Police",
+          "index": "subjects/law/topics/section-f1e461ebd80e8a0bf522d9bacb0dab36/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 31,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-007facc8de9f8dcd4fe908c440760a1b",
+          "title": "Final Exam - Unit 1-7",
+          "index": "subjects/law/topics/section-007facc8de9f8dcd4fe908c440760a1b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 32,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-5a785097c768513e7491e3246a249c23",
+          "title": "Unit 8.1 - Legal People - Lawyers",
+          "index": "subjects/law/topics/section-5a785097c768513e7491e3246a249c23/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 33,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-e1f096cf4a9e8d6eb1eed32cfb16ca4a",
+          "title": "21.-23. Sentencing and Punishment",
+          "index": "subjects/law/topics/section-e1f096cf4a9e8d6eb1eed32cfb16ca4a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 34,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-8c6037770b97c7aac63c180b6c40c826",
+          "title": "EXTRA CREDIT",
+          "index": "subjects/law/topics/section-8c6037770b97c7aac63c180b6c40c826/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 35,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "law-unit-2",
+          "title": "U.S. Courts & Civil Liberties",
+          "index": "subjects/law/topics/law-unit-2/index.json",
+          "origin": "study"
+        }
+      ],
+      "study_title": "Law"
+    },
+    {
+      "id": "mathematics",
+      "title": "Matematika",
+      "topics": [
+        {
+          "id": "section-0eb4eef465522b45edfa8bfda90e7776",
+          "title": "Úvod",
+          "index": "subjects/mathematics/topics/section-0eb4eef465522b45edfa8bfda90e7776/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-19b4bf717ba5fb504c592cbdd891923b",
+          "title": "Stereometrie",
+          "index": "subjects/mathematics/topics/section-19b4bf717ba5fb504c592cbdd891923b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-9b3237cc2327dfc9a3353506fef752b3",
+          "title": "Goniometrie",
+          "index": "subjects/mathematics/topics/section-9b3237cc2327dfc9a3353506fef752b3/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-d9398b472d1e88907d2516d558936679",
+          "title": "Nová sekce",
+          "index": "subjects/mathematics/topics/section-d9398b472d1e88907d2516d558936679/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-4f8c20eab603d8ad36ce93345bce8fc8",
+          "title": "Nová sekce",
+          "index": "subjects/mathematics/topics/section-4f8c20eab603d8ad36ce93345bce8fc8/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-0d4cae838568261b9b1bb6504067c848",
+          "title": "Nová sekce",
+          "index": "subjects/mathematics/topics/section-0d4cae838568261b9b1bb6504067c848/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-6bd4a638c313f9905584c6e237c13260",
+          "title": "Nová sekce",
+          "index": "subjects/mathematics/topics/section-6bd4a638c313f9905584c6e237c13260/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 6,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-009eb03b533706194a5b054409f8cd40",
+          "title": "Nová sekce",
+          "index": "subjects/mathematics/topics/section-009eb03b533706194a5b054409f8cd40/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 7,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-fdd3a43299deb206c2eec4c39cb0f451",
+          "title": "Nová sekce",
+          "index": "subjects/mathematics/topics/section-fdd3a43299deb206c2eec4c39cb0f451/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 8,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-56d5d19d436e299b41f0ec1a180c5834",
+          "title": "Nová sekce",
+          "index": "subjects/mathematics/topics/section-56d5d19d436e299b41f0ec1a180c5834/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 9,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-48a9ad24a31cc1f91c37f4bc9404892b",
+          "title": "Nová sekce",
+          "index": "subjects/mathematics/topics/section-48a9ad24a31cc1f91c37f4bc9404892b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3AB",
+          "section_order": 10,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "math-quarter",
+          "title": "Čtvrtletní práce",
+          "index": "subjects/mathematics/topics/math-quarter/index.json",
+          "origin": "study"
+        },
+        {
+          "id": "trig-functions",
+          "title": "Trigonometrie a goniometrické funkce",
+          "index": "subjects/mathematics/topics/trig-functions/index.json",
+          "origin": "study"
+        },
+        {
+          "id": "trig-equations",
+          "title": "Goniometrické vzorce, rovnice a nerovnice",
+          "index": "subjects/mathematics/topics/trig-equations/index.json",
+          "origin": "study"
+        }
+      ]
+    },
+    {
+      "id": "sociology",
+      "title": "Sociologie",
+      "topics": [
+        {
+          "id": "section-208b4166ebd78ddcd9c0f11a08fd30a3",
+          "title": "Course Information",
+          "index": "subjects/sociology/topics/section-208b4166ebd78ddcd9c0f11a08fd30a3/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-ad4f9e825fcc2c1c3e1dc6a1ffdd53a2",
+          "title": "Unit 1: Sociology Definition, Social Institutions Overview, Key Terms, Common Sense, Sociological Imagination, Theories (Structuralism, Functionalism, Social Action)",
+          "index": "subjects/sociology/topics/section-ad4f9e825fcc2c1c3e1dc6a1ffdd53a2/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-a74b087744b1b66088553d5afdc765e6",
+          "title": "Week 4",
+          "index": "subjects/sociology/topics/section-a74b087744b1b66088553d5afdc765e6/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-b9907b7b7030b067a73af12ce197ff71",
+          "title": "New section",
+          "index": "subjects/sociology/topics/section-b9907b7b7030b067a73af12ce197ff71/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-df2be5271db7d5fbffc50c36401b3b42",
+          "title": "New section",
+          "index": "subjects/sociology/topics/section-df2be5271db7d5fbffc50c36401b3b42/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-ae2502992594106b8ee635ee7eec736d",
+          "title": "New section",
+          "index": "subjects/sociology/topics/section-ae2502992594106b8ee635ee7eec736d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 6,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-6a6b2362ec3254921567928c94057e31",
+          "title": "New section",
+          "index": "subjects/sociology/topics/section-6a6b2362ec3254921567928c94057e31/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 7,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-e47ba37727938997730d0c2c83b12dad",
+          "title": "New section",
+          "index": "subjects/sociology/topics/section-e47ba37727938997730d0c2c83b12dad/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 8,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-d8492d597c0744ed0992dcb791988419",
+          "title": "New section",
+          "index": "subjects/sociology/topics/section-d8492d597c0744ed0992dcb791988419/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 9,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-1cfb77ae9a8d9f997a3ee594116ed150",
+          "title": "New section",
+          "index": "subjects/sociology/topics/section-1cfb77ae9a8d9f997a3ee594116ed150/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 10,
+          "available": true,
+          "listed_current": true
+        }
+      ]
+    },
+    {
+      "id": "social-sciences",
+      "title": "Základy společenských věd",
+      "topics": [
+        {
+          "id": "section-b070c2250ee8c159b069d3cb33fbeb59",
+          "title": "Úvod",
+          "index": "subjects/social-sciences/topics/section-b070c2250ee8c159b069d3cb33fbeb59/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-180fc16220e3f80e6b789e1d58d9a861",
+          "title": "Základy práva",
+          "index": "subjects/social-sciences/topics/section-180fc16220e3f80e6b789e1d58d9a861/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-463f497ccb9579d1e6a90113069af240",
+          "title": "Lidská práva",
+          "index": "subjects/social-sciences/topics/section-463f497ccb9579d1e6a90113069af240/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-d7a1a762af3b9a2054546eba936090b1",
+          "title": "Dělba státní moci",
+          "index": "subjects/social-sciences/topics/section-d7a1a762af3b9a2054546eba936090b1/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-03bc2738d27d99b8445100a8572ad8d5",
+          "title": "Občanské právo",
+          "index": "subjects/social-sciences/topics/section-03bc2738d27d99b8445100a8572ad8d5/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-c78f285dc8e70681cbc3385a7a84555a",
+          "title": "Trestní právo",
+          "index": "subjects/social-sciences/topics/section-c78f285dc8e70681cbc3385a7a84555a/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-8612b67f26f73b55ed19474a6a2e9416",
+          "title": "Základy ekonomie",
+          "index": "subjects/social-sciences/topics/section-8612b67f26f73b55ed19474a6a2e9416/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 6,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-d84c3d22ddf67b49bd5fd323c9842c39",
+          "title": "Česká národní banka",
+          "index": "subjects/social-sciences/topics/section-d84c3d22ddf67b49bd5fd323c9842c39/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 7,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-295380a6c7fbc725ae0a1162cc3e8af3",
+          "title": "Ekonomické myšlení",
+          "index": "subjects/social-sciences/topics/section-295380a6c7fbc725ae0a1162cc3e8af3/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 8,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-6a4af0e880a074757fbdd90735feae3b",
+          "title": "Topic 9",
+          "index": "subjects/social-sciences/topics/section-6a4af0e880a074757fbdd90735feae3b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 9,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-378aff00d0ac2a83c3588418f03be8bf",
+          "title": "Topic 10",
+          "index": "subjects/social-sciences/topics/section-378aff00d0ac2a83c3588418f03be8bf/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 10,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-0b07c9f97bc1f250514eaf9f75f87ab8",
+          "title": "Právní normy",
+          "index": "subjects/social-sciences/topics/section-0b07c9f97bc1f250514eaf9f75f87ab8/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3BDE",
+          "section_order": 11,
+          "available": true,
+          "listed_current": true
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "title": "Zeměpis",
+      "topics": [
+        {
+          "id": "section-b57c9d6f9c93844d1546a8bc0c75603f",
+          "title": "Úvod",
+          "index": "subjects/geography/topics/section-b57c9d6f9c93844d1546a8bc0c75603f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-40e866b3b7adefbcd476d4aedd9c4ecb",
+          "title": "AFRIKA, ASIE - ÚVOD, ISLÁMSKÝ MAKROREGION",
+          "index": "subjects/geography/topics/section-40e866b3b7adefbcd476d4aedd9c4ecb/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 1,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-af60289e699e21e2d2e43370c54cc799",
+          "title": "JIŽNÍ, JIHOVÝCHODNÍ ASIE",
+          "index": "subjects/geography/topics/section-af60289e699e21e2d2e43370c54cc799/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 2,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-7873f8765331c16febbaca81765b5e7d",
+          "title": "VÝCHODNÍ ASIE",
+          "index": "subjects/geography/topics/section-7873f8765331c16febbaca81765b5e7d/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 3,
+          "available": false,
+          "listed_current": true
+        },
+        {
+          "id": "section-66c0e49bb68c8040293988f776f7b0e0",
+          "title": "STŘEDNÍ ASIE, ZAKAVKAZSKO, SIBIŘ",
+          "index": "subjects/geography/topics/section-66c0e49bb68c8040293988f776f7b0e0/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-78d788409010e2eb6c2a02318a5eba7f",
+          "title": "LATINSKÁ AMERIKA",
+          "index": "subjects/geography/topics/section-78d788409010e2eb6c2a02318a5eba7f/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-b78bbad00a9dd25630b66e3856b447a0",
+          "title": "Úvod",
+          "index": "subjects/geography/topics/section-b78bbad00a9dd25630b66e3856b447a0/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 0,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-79068e3b96946daf46298209cbd7e820",
+          "title": "Požadavky k předmětu",
+          "index": "subjects/geography/topics/section-79068e3b96946daf46298209cbd7e820/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 1,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-730ba0baf632efb68e5a3dd83f571103",
+          "title": "Afrika",
+          "index": "subjects/geography/topics/section-730ba0baf632efb68e5a3dd83f571103/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 2,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-e8a274e93a3db6e3bbd33e4760814763",
+          "title": "Nová sekce",
+          "index": "subjects/geography/topics/section-e8a274e93a3db6e3bbd33e4760814763/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 3,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-6c7bc2f03527eadf79645bc510ab81c3",
+          "title": "Nová sekce",
+          "index": "subjects/geography/topics/section-6c7bc2f03527eadf79645bc510ab81c3/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 4,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-593da77ad93f6770be53c51b18ab885b",
+          "title": "Nová sekce",
+          "index": "subjects/geography/topics/section-593da77ad93f6770be53c51b18ab885b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 5,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-605f2c2b7ea74b2f551241400a0f96fe",
+          "title": "Nová sekce",
+          "index": "subjects/geography/topics/section-605f2c2b7ea74b2f551241400a0f96fe/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 6,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-8e2c016215b1793a4fa91d0739045fc9",
+          "title": "Nová sekce",
+          "index": "subjects/geography/topics/section-8e2c016215b1793a4fa91d0739045fc9/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 7,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-6304cad3bd387ea2e84e0bfdfa518c50",
+          "title": "Nová sekce",
+          "index": "subjects/geography/topics/section-6304cad3bd387ea2e84e0bfdfa518c50/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 8,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-23b9c904fe85848d786cea1d461db870",
+          "title": "Nová sekce",
+          "index": "subjects/geography/topics/section-23b9c904fe85848d786cea1d461db870/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 9,
+          "available": true,
+          "listed_current": true
+        },
+        {
+          "id": "section-84922ea578aec3b979f456318bd4489b",
+          "title": "Nová sekce",
+          "index": "subjects/geography/topics/section-84922ea578aec3b979f456318bd4489b/index.json",
+          "origin": "moodle",
+          "course_variant": "JU3ABCDE",
+          "section_order": 10,
+          "available": true,
+          "listed_current": true
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "title": "Literatura",
+      "topics": [
+        {
+          "id": "miser",
+          "title": "Rozbor Lakomce",
+          "index": "subjects/literature/topics/miser/index.json",
+          "origin": "study"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Dějepis",
+      "topics": [
+        {
+          "id": "baroque",
+          "title": "Baroko",
+          "index": "subjects/history/topics/baroque/index.json",
+          "origin": "study"
+        }
+      ]
+    }
+  ],
+  "moodle_subject_ids": [
+    "area-studies",
+    "biology",
+    "chemistry",
+    "american-literature",
+    "physics",
+    "informatics",
+    "law",
+    "mathematics",
+    "sociology",
+    "social-sciences",
+    "geography"
+  ]
+}

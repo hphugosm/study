@@ -2,6 +2,10 @@
 
 Minimalistická studijní aplikace: školní kalendář, Law, Biologie a Matematika ve společném prostředí. Statický web bez backendu, přihlášení a runtime závislostí. Původní repozitáře zůstaly beze změn.
 
+[Novinky ze školy](modules/moodle-sync/index.html) zobrazují samostatný přehled schválených školních materiálů a termínů. Zatím je prázdný. Synchronizační klient, přihlašovací údaje i neveřejné přehledy patří do odděleného soukromého repozitáře; zde jsou pouze veřejně schválené výstupy. Přílohy tohoto přehledu se nestahují automaticky do offline balíčku.
+
+[Veřejný katalog podkladů](modules/moodle-sync/data/catalog.json) má připravených jedenáct potvrzených předmětů JU3, zachovává starší veřejné předměty a odděluje každé skutečně přidané téma, původní zdroje v `sources/` a budoucí výtahy či procvičování v `derived/`. Obsahuje šest již veřejných původních prezentací a pracovních listů, fyzicky zařazených do odpovídajících témat; soukromá data Moodlu nepřebírá. [Kontrakt a postup pro další práci](docs/moodle-source-catalog.md).
+
 - **Demo:** https://studilo.xyz/
 - **Repozitář:** https://github.com/hphugosm/study
 - **Biologie:** https://studilo.xyz/#/events/biology-test
@@ -113,3 +117,5 @@ Law používá `study:law:progress:v1`; Biologie prefix `study:biology:`. Při p
 V nastavení lze stáhnout JSON zálohu postupu Law, Biologie a obou matematických jednotek, také pro přenos mezi doménami. Import nejprve ověří formát a ukáže počty záznamů; teprve po potvrzení sloučí kartičky a výsledky. Neznámé klíče se odmítnou, starší data se nemažou a rozpracovaná mapa se nepřepisuje. Vzhled používá samostatný klíč `study:preferences:v1`.
 
 Zdrojové aplikace: [us-law-casebook](https://github.com/hphugosm/us-law-casebook), [kostra-procvicovani](https://github.com/hphugosm/kostra-procvicovani). Úplné dostupné materiály a jejich označení původu jsou zachované.
+
+Nové schválené školní přílohy používají GitHub Releases a tematické `sources/index.json`; nepřidávají se jako další binární historie tohoto repozitáře. Původní již veřejné soubory zůstávají beze změn.

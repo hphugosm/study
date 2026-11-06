@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "section-cf67c95f50c63a4b0169d2912af3f122",
+  "title": "BIOLOGIE - JU3",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 0,
+  "available": true,
+  "listed_current": true
+}

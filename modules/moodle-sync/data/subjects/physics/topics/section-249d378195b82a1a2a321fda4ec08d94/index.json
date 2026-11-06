@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "physics",
+  "topic_id": "section-249d378195b82a1a2a321fda4ec08d94",
+  "title": "Obecné informace",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABE",
+  "section_order": 10,
+  "available": true,
+  "listed_current": true
+}

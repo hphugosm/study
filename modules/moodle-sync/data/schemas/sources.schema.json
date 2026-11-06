@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sources.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "subject_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,59}$"
+    },
+    "topic_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,59}$"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^data/subjects/[a-z][a-z0-9-]*/topics/[a-z][a-z0-9-]*/sources/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 25000000
+          },
+          "source_kind": {
+            "enum": [
+              "moodle",
+              "manual"
+            ]
+          },
+          "review_status": {
+            "const": "approved"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://github\\.com/hphugosm/study/releases/download/studylo-materials-v1/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "sha256",
+          "size",
+          "source_kind",
+          "review_status"
+        ],
+        "oneOf": [
+          {
+            "required": [
+              "path"
+            ],
+            "not": {
+              "required": [
+                "url"
+              ]
+            }
+          },
+          {
+            "required": [
+              "url"
+            ],
+            "not": {
+              "required": [
+                "path"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "subject_id",
+    "topic_id",
+    "sources"
+  ]
+}

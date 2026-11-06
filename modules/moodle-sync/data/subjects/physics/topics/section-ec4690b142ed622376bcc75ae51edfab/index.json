@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "physics",
+  "topic_id": "section-ec4690b142ed622376bcc75ae51edfab",
+  "title": "Speciální teorie relativity",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABE",
+  "section_order": 5,
+  "available": false,
+  "listed_current": true
+}

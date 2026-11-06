@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-007facc8de9f8dcd4fe908c440760a1b",
+  "title": "Final Exam - Unit 1-7",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 32,
+  "available": false,
+  "listed_current": true
+}

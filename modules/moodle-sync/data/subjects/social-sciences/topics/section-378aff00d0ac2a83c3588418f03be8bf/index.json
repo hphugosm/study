@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-378aff00d0ac2a83c3588418f03be8bf",
+  "title": "Topic 10",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 10,
+  "available": true,
+  "listed_current": true
+}

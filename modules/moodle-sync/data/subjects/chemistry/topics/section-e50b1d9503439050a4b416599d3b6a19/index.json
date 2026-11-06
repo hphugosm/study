@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-e50b1d9503439050a4b416599d3b6a19",
+  "title": "Lipidy a biomembrány",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 4,
+  "available": true,
+  "listed_current": true
+}

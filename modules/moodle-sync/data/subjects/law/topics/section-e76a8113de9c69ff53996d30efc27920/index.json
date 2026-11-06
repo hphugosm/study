@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-e76a8113de9c69ff53996d30efc27920",
+  "title": "Unit 4.1 - Solving Disputes",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 16,
+  "available": false,
+  "listed_current": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "section-a370b087afcb1423e1b4a89f3a556bd1",
+  "title": "ROZMNOŽOVACÍ SOUSTAVA ČLOVĚKA, GENETIKA",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 8,
+  "available": false,
+  "listed_current": true
+}

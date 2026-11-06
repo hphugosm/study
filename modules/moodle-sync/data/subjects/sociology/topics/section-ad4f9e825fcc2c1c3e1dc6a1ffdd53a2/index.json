@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "sociology",
+  "topic_id": "section-ad4f9e825fcc2c1c3e1dc6a1ffdd53a2",
+  "title": "Unit 1: Sociology Definition, Social Institutions Overview, Key Terms, Common Sense, Sociological Imagination, Theories (Structuralism, Functionalism, Social Action)",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

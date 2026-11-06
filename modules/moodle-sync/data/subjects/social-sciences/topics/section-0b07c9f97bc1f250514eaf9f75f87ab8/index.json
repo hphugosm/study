@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-0b07c9f97bc1f250514eaf9f75f87ab8",
+  "title": "Právní normy",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 11,
+  "available": true,
+  "listed_current": true
+}

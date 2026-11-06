@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "geography",
+  "topic_id": "section-40e866b3b7adefbcd476d4aedd9c4ecb",
+  "title": "AFRIKA, ASIE - ÚVOD, ISLÁMSKÝ MAKROREGION",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 1,
+  "available": false,
+  "listed_current": true
+}

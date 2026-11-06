@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-781102dc45bfb87316a554b7fd389672",
+  "title": "Test - Unit 1-3",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 15,
+  "available": false,
+  "listed_current": true
+}

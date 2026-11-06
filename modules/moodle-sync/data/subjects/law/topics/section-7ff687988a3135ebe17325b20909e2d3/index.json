@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-7ff687988a3135ebe17325b20909e2d3",
+  "title": "Unit 6.2 - Legal People - Jury Duty and Selection",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 27,
+  "available": false,
+  "listed_current": true
+}

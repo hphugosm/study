@@ -25,3 +25,5 @@ for(const file of files.filter(file=>/\.(css|html)$/.test(file))){
 const law=spawnSync(process.execPath,['modules/law/check.mjs'],{encoding:'utf8'});
 assert.equal(law.status,0,law.stderr);process.stdout.write(law.stdout);
 console.log(`Checked ${checked} JavaScript files, registry relationships, dates, materials and static asset paths.`);
+
+await import('./check-moodle-catalog.mjs');

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-52c4dde46706eff6dfe28d6b0b82f2d5",
+  "title": "Základy počítače a dat",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

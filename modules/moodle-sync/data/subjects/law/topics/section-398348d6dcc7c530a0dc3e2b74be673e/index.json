@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-398348d6dcc7c530a0dc3e2b74be673e",
+  "title": "Unit 1 - Introduction to Law",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 1,
+  "available": true,
+  "listed_current": true
+}

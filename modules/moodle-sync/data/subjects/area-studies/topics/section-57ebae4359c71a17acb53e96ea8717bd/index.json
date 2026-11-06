@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "area-studies",
+  "topic_id": "section-57ebae4359c71a17acb53e96ea8717bd",
+  "title": "Northeast",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

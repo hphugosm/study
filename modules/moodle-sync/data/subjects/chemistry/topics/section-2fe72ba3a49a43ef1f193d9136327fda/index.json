@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-2fe72ba3a49a43ef1f193d9136327fda",
+  "title": "Analytická chemie a závěrečné opakování učiva",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 13,
+  "available": true,
+  "listed_current": true
+}

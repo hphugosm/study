@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-463f497ccb9579d1e6a90113069af240",
+  "title": "Lidská práva",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

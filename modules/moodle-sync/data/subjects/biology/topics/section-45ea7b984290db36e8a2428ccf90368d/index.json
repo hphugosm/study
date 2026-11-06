@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "section-45ea7b984290db36e8a2428ccf90368d",
+  "title": "EKOLOGIE",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 9,
+  "available": false,
+  "listed_current": true
+}

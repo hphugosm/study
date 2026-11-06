@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-f66ac63ac5ffa0827178ba04132ac962",
+  "title": "Unit 6.3 - Legal People - The Grand Jury",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 28,
+  "available": false,
+  "listed_current": true
+}

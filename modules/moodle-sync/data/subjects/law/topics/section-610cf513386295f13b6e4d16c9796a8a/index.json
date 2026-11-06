@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-610cf513386295f13b6e4d16c9796a8a",
+  "title": "Unit 4.2 - Civil Law - Introduction",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 17,
+  "available": false,
+  "listed_current": true
+}

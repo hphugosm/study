@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-62559bb5c56b3652a92ab6255e92a27b",
+  "title": "Vizuální programování",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 7,
+  "available": true,
+  "listed_current": true
+}

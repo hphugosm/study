@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "subject_id": "mathematics",
+  "topic_id": "trig-equations",
+  "sources": [
+    {
+      "id": "8400a1579cef457c1be5fe9f1d79ffd43e1cca3946cf376c53b9efae9c445032",
+      "title": "Goniometrické rovnice a nerovnice — původní pracovní list",
+      "path": "data/subjects/mathematics/topics/trig-equations/sources/c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1.pdf",
+      "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+      "size": 123762,
+      "source_kind": "manual",
+      "review_status": "approved"
+    },
+    {
+      "id": "b6eacb5ec3bbe1576dcc27da63027a3a37234830cffd0602345cb579e2214f69",
+      "title": "Goniometrické rovnice a vzorce — původní prezentace",
+      "path": "data/subjects/mathematics/topics/trig-equations/sources/f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8.pptx",
+      "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+      "size": 563908,
+      "source_kind": "manual",
+      "review_status": "approved"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-8c6037770b97c7aac63c180b6c40c826",
+  "title": "EXTRA CREDIT",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 35,
+  "available": false,
+  "listed_current": true
+}

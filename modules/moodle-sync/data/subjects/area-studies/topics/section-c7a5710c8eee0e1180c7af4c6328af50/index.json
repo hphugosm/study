@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "area-studies",
+  "topic_id": "section-c7a5710c8eee0e1180c7af4c6328af50",
+  "title": "Canada",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 7,
+  "available": true,
+  "listed_current": true
+}

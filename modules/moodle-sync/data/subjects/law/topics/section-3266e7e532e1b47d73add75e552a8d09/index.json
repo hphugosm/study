@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-3266e7e532e1b47d73add75e552a8d09",
+  "title": "Unit 3.5 - Limiting Human Rights (EU/UN)",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 14,
+  "available": false,
+  "listed_current": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "american-literature",
+  "topic_id": "section-24c58f4fb1c15aefb1cfdf9b9e239be2",
+  "title": "Literature Semester Final",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 6,
+  "available": false,
+  "listed_current": true
+}

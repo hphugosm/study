@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "physics",
+  "topic_id": "section-05b5189b5cfd7aca3a2976ae41fce27e",
+  "title": "Geometrická optika",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABE",
+  "section_order": 4,
+  "available": true,
+  "listed_current": true
+}

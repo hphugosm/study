@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-82e53b49c1573ef83a670137e16fb3d3",
+  "title": "Algoritmizace a vývojové diagramy",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 5,
+  "available": true,
+  "listed_current": true
+}

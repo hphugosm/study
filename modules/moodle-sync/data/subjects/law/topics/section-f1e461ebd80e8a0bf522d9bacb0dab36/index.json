@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-f1e461ebd80e8a0bf522d9bacb0dab36",
+  "title": "Unit 7.2 - Legal People - The Police",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 31,
+  "available": false,
+  "listed_current": true
+}

@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "skeleton",
+  "title": "Kosterní soustava člověka – lidské kosti",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "study"
+}

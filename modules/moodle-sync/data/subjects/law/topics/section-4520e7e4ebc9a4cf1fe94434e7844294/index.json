@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-4520e7e4ebc9a4cf1fe94434e7844294",
+  "title": "Unit 4.4 - Civil Law - Case Study II",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 19,
+  "available": false,
+  "listed_current": true
+}

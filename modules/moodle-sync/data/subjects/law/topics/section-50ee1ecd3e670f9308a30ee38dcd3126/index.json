@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-50ee1ecd3e670f9308a30ee38dcd3126",
+  "title": "Unit 3.3 - Balancing Human Rights and Discrimination",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 12,
+  "available": false,
+  "listed_current": true
+}

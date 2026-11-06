@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-ce4fc8f63e50fd0fb5fde4b195d608de",
+  "title": "Unit 1.2 - History of Common Law and Punishment",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 3,
+  "available": true,
+  "listed_current": true
+}

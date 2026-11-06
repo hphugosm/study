@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "area-studies",
+  "topic_id": "section-babbd411963331a7e0df68020927bcfa",
+  "title": "Northwest",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 6,
+  "available": true,
+  "listed_current": true
+}

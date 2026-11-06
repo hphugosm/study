@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-758ba4e39fb6410629e9a1843722330f",
+  "title": "Sacharidy a fotosyntéza",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 5,
+  "available": true,
+  "listed_current": true
+}
