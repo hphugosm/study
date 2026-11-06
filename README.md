@@ -2,6 +2,8 @@
 
 Minimalistická studijní aplikace: školní kalendář, Law, Biologie a Matematika ve společném prostředí. Statický web bez backendu, přihlášení a runtime závislostí. Původní repozitáře zůstaly beze změn.
 
+[Novinky ze školy](modules/moodle-sync/index.html) zobrazují samostatný přehled schválených školních materiálů a termínů. Zatím je prázdný. Synchronizační klient, přihlašovací údaje i neveřejné přehledy patří do odděleného soukromého repozitáře; zde jsou pouze veřejně schválené výstupy. Přílohy tohoto přehledu se nestahují automaticky do offline balíčku.
+
 - **Demo:** https://studilo.xyz/
 - **Repozitář:** https://github.com/hphugosm/study
 - **Biologie:** https://studilo.xyz/#/events/biology-test
