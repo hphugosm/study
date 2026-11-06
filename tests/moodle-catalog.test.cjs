@@ -79,3 +79,17 @@ test('approved release sources have one canonical digest-bound location without 
  assert.throws(()=>validateSources(index([{...release,url:123}])));
  assert.equal(validateSources(index([source])).sources[0].path,localPath);
 });
+
+test('ordinary DOC JPG PNG WMV release sources remain digest-bound and schema-compatible',async()=>{
+ const {validateSources,approvedReleaseURL,RELEASE_ASSET_PREFIX}=await validators();
+ const {path:ignored,...common}=source;
+ const schema=read('modules/moodle-sync/data/schemas/sources.schema.json');
+ const schemaPattern=new RegExp(schema.properties.sources.items.properties.url.pattern);
+ for(const extension of ['doc','jpg','png','wmv']){
+  const url=RELEASE_ASSET_PREFIX+digest+'.'+extension;
+  assert.ok(approvedReleaseURL(url,digest));assert.ok(schemaPattern.test(url));
+  assert.equal(validateSources(index([{...common,url}])).sources[0].url,url);
+  assert.equal(approvedReleaseURL(url.replace(digest,other),digest),false);
+  assert.throws(()=>validateSources(index([{...common,url:url+'?token=bad'}])));
+ }
+});

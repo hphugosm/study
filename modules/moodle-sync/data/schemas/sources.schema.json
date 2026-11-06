@@ -32,7 +32,7 @@
           },
           "path": {
             "type": "string",
-            "pattern": "^data/subjects/[a-z][a-z0-9-]*/topics/[a-z][a-z0-9-]*/sources/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$"
+            "pattern": "^data/subjects/[a-z][a-z0-9-]*/topics/[a-z][a-z0-9-]*/sources/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$"
           },
           "sha256": {
             "type": "string",
@@ -54,7 +54,7 @@
           },
           "url": {
             "type": "string",
-            "pattern": "^https://github\\.com/hphugosm/study/releases/download/studylo-materials-v1/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$"
+            "pattern": "^https://github\\.com/hphugosm/study/releases/download/studylo-materials-v1/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$"
           }
         },
         "required": [

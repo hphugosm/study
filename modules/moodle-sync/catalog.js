@@ -53,7 +53,7 @@ export function validateTopic(topic) {
 export const RELEASE_ASSET_PREFIX='https://github.com/hphugosm/study/releases/download/studylo-materials-v1/';
 export function approvedReleaseURL(url,sha256){
   if(typeof url!=='string'||!sha.test(sha256))return false;
-  const match=/^https:\/\/github\.com\/hphugosm\/study\/releases\/download\/studylo-materials-v1\/([a-f0-9]{64})\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$/.exec(url);
+  const match=/^https:\/\/github\.com\/hphugosm\/study\/releases\/download\/studylo-materials-v1\/([a-f0-9]{64})\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$/.exec(url);
   return !!match&&match[1]===sha256&&url===RELEASE_ASSET_PREFIX+sha256+'.'+match[2];
 }
 export function validateSources(index) {
@@ -68,7 +68,7 @@ export function validateSources(index) {
       if(!approvedReleaseURL(source.url,source.sha256))throw new Error('unsafe_source_release_url');
     }else{
       const extension=typeof source.path==='string'?source.path.slice(source.path.lastIndexOf('.')+1):'';
-      if(!['pdf','pptx','ppt','docx','odt','odp','xlsx','txt'].includes(extension) || source.path!==`${prefix}sources/${source.sha256}.${extension}`) throw new Error('unsafe_source_path');
+      if(!['pdf','pptx','ppt','docx','odt','odp','xlsx','txt','doc','jpg','png','wmv'].includes(extension) || source.path!==`${prefix}sources/${source.sha256}.${extension}`) throw new Error('unsafe_source_path');
     }
     seen.add(source.id);
   }

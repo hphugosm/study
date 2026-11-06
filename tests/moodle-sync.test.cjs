@@ -38,3 +38,12 @@ test('Moodle overview accepts release download links while rejecting alternate r
  await assert.rejects(()=>validate([{...common,url,path:localPath}]));
  await assert.rejects(()=>validate([common]));
 });
+
+test('ordinary images legacy Word and WMV use approved release links without broad URL permissions',async()=>{
+ const {path:ignored,...common}=file;
+ for(const extension of ['doc','jpg','png','wmv']){
+  const url=`https://github.com/hphugosm/study/releases/download/studylo-materials-v1/${id}.${extension}`;
+  assert.equal((await validate([{...common,url}]))[0].url,url);
+  await assert.rejects(()=>validate([{...common,url:url.replace('studylo-materials-v1','private-release')}]));
+ }
+});

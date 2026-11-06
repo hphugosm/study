@@ -1,6 +1,6 @@
 import {approvedReleaseURL} from './catalog.js';
 const allowedKinds = new Set(['file','event','assignment','announcement','section','module','course']);
-const filePath = /^files\/[a-f0-9]{64}\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$/;
+const filePath = /^files\/[a-f0-9]{64}\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$/;
 const slug = /^[a-z][a-z0-9-]{0,59}$/;
 const secretText = /(?:[\w.+-]+@[\w.-]+\.[a-z]{2,}|(?:token|sesskey|password|cookie)\s*[=:]|[<>])/i;
 
@@ -20,7 +20,7 @@ export function validateFeed(feed) {
       const location=hasURL?entry.url:entry.path;
       const name = typeof location === 'string' ? location.split('/').at(-1) : '';
       const extension = name.slice(name.lastIndexOf('.')+1);
-      const canonical = entry.topic !== undefined && ['pdf','pptx','ppt','docx','odt','odp','xlsx','txt'].includes(extension) &&
+      const canonical = entry.topic !== undefined && ['pdf','pptx','ppt','docx','odt','odp','xlsx','txt','doc','jpg','png','wmv'].includes(extension) &&
         entry.path === `data/subjects/${entry.subject}/topics/${entry.topic}/sources/${entry.sha256}.${extension}`;
       const flat = entry.topic === undefined && filePath.test(entry.path);
       const release=hasURL&&approvedReleaseURL(entry.url,entry.sha256);
