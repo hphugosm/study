@@ -27,6 +27,9 @@ jobs:
       - name: Install locked dependencies
         run: npm ci
 
+      - name: Build release snapshots for update lifecycle tests
+        run: npm run build
+
       - name: Install browser engines and system dependencies
         run: npx --no-install playwright install --with-deps chromium webkit
 

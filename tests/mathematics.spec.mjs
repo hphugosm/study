@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { questions as trigQuestions } from '../modules/math-trig/content.js';
 import { questions as equationQuestions } from '../modules/math-equations/data.js';
 import { units } from '../src/data.js';
+import { readPwaState } from './helpers/pwa-state.mjs';
 
 const trigKey = 'study:mathematics:trig-functions:progress:v1';
 const equationKey = 'study:mathematics:trig-equations:progress:v1';
@@ -201,11 +202,7 @@ test('calendar-only first visit prepares unopened mathematics modules and origin
   test.setTimeout(120_000);
   await page.goto('./');
   await expect(page.locator('[data-study-module]')).toHaveCount(0);
-  await expect.poll(() => page.evaluate(async () => {
-    const registration = await navigator.serviceWorker.getRegistration();
-    const pwa = await import(new URL('src/pwa.js', location.href).href);
-    return Boolean(registration?.active && navigator.serviceWorker.controller && pwa.getPwaState().offlineReady);
-  }), { timeout: 60_000 }).toBe(true);
+  await expect.poll(() => page.evaluate(readPwaState), { timeout: 60_000 }).toMatchObject({ controlled: true, offlineReady: true });
   const materials = [...new Set(units.filter(unit => ['trig-functions', 'trig-equations'].includes(unit.id)).flatMap(unit => unit.materials.map(item => item.url)))];
   expect(materials).toHaveLength(5);
   await context.setOffline(true);

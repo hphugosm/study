@@ -1,5 +1,42 @@
 # Ověření dema study lo
 
+## Automatické aktualizace — 6. listopadu 2026
+
+Sestavení `80d7ce4ae2507723fc2b` prošlo **158 browserovými a HTTP kontrolami,
+11 očekávaných přeskočení, 0 chyb** (2,9 minuty). Dále prošlo všech
+**45 Node testů**, kontrola 59 JavaScriptových souborů a sestavení.
+
+Nových 15 kontrol ověřuje skutečný přechod dvou úplných snapshotů na
+jednom řízeném originu v desktopovém Chromiu, mobilním Chromiu a Safari
+WebKitu. Používají skutečné rozhraní, kalendář, Law kvíz a offline balíček:
+
+- Návrat do aplikace bez tlačítka aktualizace sám načte nové datum Law.
+- Výsledky, vzhled a nesouvisející cache zůstávají zachované; nová verze
+  funguje i po úplném obnovení bez sítě.
+- Ověřené shodné PDF se nestahuje znovu. Poškozený soubor v předchozí
+  cache se pozná podle SHA-256 a stáhne se znovu.
+- Zodpovězená otázka i zpětná vazba přežijí přípravu nové verze. Přepnutí
+  se provede až po návratu do kalendáře, také při kvízu v jiném panelu.
+- Chyba 503 při stahování nezničí dosavadní snapshot; příští návrat
+  automaticky zopakuje pokus.
+- Starší klient bez automatického protokolu zůstane zachovaný a přejde
+  na novou verzi po stažení a běžném zavření a znovuotevření.
+
+Test více panelů zachytil případ Safari, ve kterém přímé načtení skriptu
+vracelo nová data, ale importovaný modul kalendáře stále obsahoval stará.
+Sestavení nyní verzovanými URL označuje celý graf JavaScriptových importů
+včetně dynamických modulů a styly. Stejný test poté prošel bez zmírnění
+ověření nového data v obou panelech.
+
+Samostatně byl v Chromiu i Safari WebKitu ověřen přechod skutečného
+původního sestavení `fe262bebe555862555f0` přes jeho dosavadní tlačítko
+na novou verzi. Kalendář poté zobrazil Law 19. listopadu a kontrolní
+záznam v localStorage zůstal zachovaný.
+
+Řízené rollout testy používají lokální server s produkčními cache hlavičkami;
+nepředstírají dvě různé verze na živém veřejném webu. Mobilní Safari je
+ověřeno emulací WebKitu, nikoli fyzickou instalací na iPhonu.
+
 ## Vlastní doména — 5. listopadu 2026
 
 Nová hlavní adresa je **https://studilo.xyz/**. GitHub Pages má nastavenou

@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { readPwaState } from './helpers/pwa-state.mjs';
 import { worksheetData } from '../modules/math-worksheets/data.js';
 import { worksheetLayout } from '../modules/math-worksheets/layout.js';
 
@@ -230,11 +231,7 @@ test('worksheet graph is interactive and never draws tangent branches across an 
 test('calendar-only installation caches unopened worksheets, their local math renderer and both PDFs for offline use',async({page,context})=>{
   test.setTimeout(120_000);
   await page.goto('./');
-  await expect.poll(()=>page.evaluate(async()=>{
-    const registration=await navigator.serviceWorker.getRegistration();
-    const pwa=await import(new URL('src/pwa.js',location.href).href);
-    return Boolean(registration?.active&&navigator.serviceWorker.controller&&pwa.getPwaState().offlineReady);
-  }),{timeout:60_000}).toBe(true);
+  await expect.poll(()=>page.evaluate(readPwaState),{timeout:60_000}).toMatchObject({controlled:true,offlineReady:true});
   await context.setOffline(true);
   try{
     for(const source of sources){

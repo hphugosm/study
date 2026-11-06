@@ -52,7 +52,7 @@ export function mountSettings(container) {
     const message = ready ? 'Připraveno offline' : state.installing ? 'Připravuji offline podklady…' : offline ? 'Pro první stažení se připoj k internetu.' : state.error ? 'Offline podklady zatím nejsou připravené.' : state.supported ? 'Připravuji offline podklady…' : 'Tento prohlížeč offline režim nepodporuje.';
     $('[data-offline-status]').textContent = message;
     $('[data-offline-status]').dataset.ready = String(ready);
-    $('#offline-detail').textContent = ready ? `Kalendář, studijní moduly včetně matematiky, obrázky a všechny podklady${state.bytes ? ` · ${megabytes(state.bytes)}` : ''}. ${offline ? 'Právě studuješ bez připojení.' : 'Vše uložené v tomto zařízení.'}` : 'První příprava potřebuje připojení. Stav se aktualizuje automaticky.';
+    $('#offline-detail').textContent = ready ? `Kalendář, studijní moduly včetně matematiky, obrázky a všechny podklady${state.bytes ? ` · ${megabytes(state.bytes)}` : ''}. ${offline ? 'Právě studuješ bez připojení.' : 'Aktualizace se načítají automaticky v kalendáři.'}` : 'První příprava potřebuje připojení. Stav se aktualizuje automaticky.';
     $('#download-offline').disabled = !state.supported || state.installing || offline;
     $('#download-offline').innerHTML = `${icon(ready ? 'check' : 'download')}${ready ? 'Ověřit podklady' : 'Připravit offline'}`;
     $('#check-updates').disabled = !state.supported || offline;

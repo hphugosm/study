@@ -47,6 +47,22 @@
 :root[data-large-text="true"] { --study-text-scale: 1.12; }
 
 body { color: var(--study-text); background: var(--study-bg); }
+.app-update-status {
+  width: calc(100% - 88px);
+  max-width: 1232px;
+  margin: 18px auto -18px;
+  padding: 12px 16px;
+  border: 1px solid var(--study-line);
+  border-radius: 10px;
+  background: var(--study-accent-soft);
+  color: var(--study-text);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.app-update-status[hidden] { display: none; }
+@media (max-width: 900px) {
+  .app-update-status { width: calc(100% - 36px); margin: 14px auto -12px; }
+}
 p { color: var(--study-muted); }
 button, input, select, textarea { color: var(--study-text); }
 input, select, textarea { accent-color: var(--study-accent); }

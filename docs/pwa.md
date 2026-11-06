@@ -6,7 +6,7 @@ Prohlížeče, které poskytují `beforeinstallprompt`, mohou zobrazit skutečn�
 
 ## Úplný offline balíček
 
-`npm run build` sestaví `dist/` a vygeneruje `offline-manifest.json`. Ten obsahuje všechny skutečně nasazované soubory, velikosti a SHA-256. Jeho verze je odvozená z obsahu celého webu i zdroje service workeru. Balíček zahrnuje společný shell, styly a fonty, oba studijní moduly, všech 112 převzatých podkladů a všechny tři PDF; předem tedy nemusíš navštívit konkrétní biologický nebo právní režim. Záběr je přibližně 5,4 MiB.
+`npm run build` sestaví `dist/` a vygeneruje `offline-manifest.json`. Ten obsahuje všechny skutečně nasazované soubory, velikosti a SHA-256. Jeho verze je odvozená z obsahu celého webu i zdroje service workeru. Balíček zahrnuje společné rozhraní, styly a fonty, všechny moduly Biologie, Law a Matematiky, jejich obrázky, PDF a původní prezentace. Aktuálně jde o 235 souborů, přibližně 28 MiB. Předem nemusíš otevírat jednotlivé předměty.
 
 První otevření s připojením spustí přípravu automaticky. Nastavení hlásí připravenost až poté, co se všechny soubory stáhnou, ověří kontrolním součtem a uloží. Samotná přítomnost service workeru nestačí. `GET_STATUS` zkontroluje i přítomnost všech očekávaných URL v cache. Po úspěšné přípravě lze bez sítě znovu otevřít kalendář, obě studijní části, jejich obrázky i PDF. LocalStorage s výsledky je na cache nezávislá a zůstává funkční offline.
 
@@ -21,7 +21,15 @@ Zdrojový vývojový server bez sestavení nemá vygenerovaný balíček. Běžn
 
 ## Aktualizace bez přerušení testu
 
-Nová verze se nejdřív stáhne do samostatné cache a musí úspěšně ověřit všechny soubory. Čekající worker automaticky nepřepíná otevřený web ani neobnovuje rozpracované procvičování. V nastavení se objeví aktualizace; změna proběhne po výslovném tlačítku uživatele. Když je otevřeno více panelů study lo, aktualizace požádá o jejich zavření, aby nezasáhla jiný rozpracovaný test.
+Otevřená aplikace kontroluje aktualizace při návratu do popředí a přibližně jednou za minutu, když je viditelná a připojená. Nová verze se nejdřív připraví jako úplný ověřený snapshot. Na hlavní stránce se potom sama načte. Nenápadná hláška přímo nad kalendářem ukáže stahování, případné čekání na jiný panel a dokončení aktualizace.
+
+Každý otevřený panel musí před přepnutím potvrdit svou aktuální stránku. Během otevřeného tématu, kvízu nebo jiné práce zůstává dosavadní verze. Po návratu všech panelů do kalendáře se přepnutí provede automaticky. Kontrola vychází z živé odpovědi stránky, protože `WindowClient.url` může po navigaci pomocí `pushState` obsahovat starší adresu. Krátké předání po dokončeném stažení dočasně zablokuje navigaci; při odložení se ovládání hned uvolní. Výsledky a nastavení v localStorage se zachovají.
+
+JavaScriptové moduly a styly dostávají při sestavení URL s revizí obsahu. Revize pokrývá i všechny statické a dynamické importy. Safari tak nemůže při více otevřených panelech použít starý modul kalendáře z paměti pod adresou nové verze. Nejprve se vytvoří revize zdrojů, potom se počítá manifest z přesných výsledných bajtů; kontrolní součty tak zůstávají platné. Offline cache obsluhuje verzované požadavky ze stejného ověřeného snapshotu.
+
+Shodné podklady se přebírají z předchozího snapshotu, pokud souhlasí jejich záznam v manifestu i nově ověřený SHA-256 obsahu. Ze sítě se stáhnou změněné, chybějící nebo poškozené soubory. Drobná změna kalendáře tak nestahuje znovu všechny obrázky a PDF. Selhání instalace ponechá fungující dosavadní verzi; další kontrola pokus zopakuje.
+
+Ruční kontrola a tlačítko v Nastavení zůstávají jako doplňková možnost. U již otevřené starší verze, která automatický protokol ještě nezná, proběhne tento první přechod přes dosavadní tlačítko nebo po dokončeném stažení a zavření všech jejích oken. Další aktualizace už pravidelné klikání nepotřebují. Neodpovídající starší či uspaný panel se násilně nepřenačítá.
 
 Service worker používá jen svůj prefix `study-offline:<scope>:`. Při aktivaci odstraňuje výhradně předchozí verze stejného rozsahu; nemaže jiné aplikace ani studijní localStorage. Dokumenty se zkouší načíst ze sítě, ale HTML jiné verze se nespojí se starými skripty: v takovém případě se použije úplná dosavadní offline verze a nabídne aktualizace. Známé assety jsou obslouženy z ověřeného snapshotu. PDF podporují i dílčí `Range` požadavky.
 
@@ -31,7 +39,7 @@ První příprava potřebuje připojení a volné místo. iOS/prohlížeč můž
 
 Ověřeno podle primárních podkladů: [Apple — webová aplikace na ploše iPhonu](https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios), [MDN — životní cyklus a cache service workerů](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers).
 
-## Provedená kontrola životního cyklu
+## Dřívější kontrola ručního životního cyklu
 
 Vedle browser sady byl proveden izolovaný rollout test v dočasné kopii sestaveného webu. Po první přípravě se změnil soubor CSS, přepočítaly hashe a manifest a vystavila skutečná nová verze workeru. Nový worker dokončil stahování a zůstal ve stavu `waiting`; právě zodpovězená Law otázka i její vysvětlení zůstaly zachované. Při druhém otevřeném panelu bylo explicitní přepnutí odmítnuté s vysvětlením. Po jeho zavření požadovaná aktualizace proběhla a nová verze přežila obnovení stránky bez sítě. Nesouvisející kontrolní cache zůstala zachovaná.
 

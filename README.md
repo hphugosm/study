@@ -16,7 +16,7 @@ V patičce najdeš **Nastavení**: instalaci na plochu iPhonu, skutečný offlin
 
 Otevři [Nastavení](https://studilo.xyz/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study lo potom otevírá vlastní okno aplikace.
 
-Po prvním otevření s připojením se automaticky uloží všechny části webu, všechny studijní předměty, obrázky, PDF i tři původní matematické prezentace. V nastavení počkej na **Připraveno offline**. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. K procvičování pak není potřeba internet ani předchozí návštěva konkrétního předmětu. Nová verze se nabídne v nastavení a sama nepřeruší rozehraný test.
+Po prvním otevření s připojením se automaticky uloží všechny části webu, všechny studijní předměty, obrázky, PDF i tři původní matematické prezentace. V nastavení počkej na **Připraveno offline**. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. K procvičování pak není potřeba internet ani předchozí návštěva konkrétního předmětu. Nová verze se připraví na pozadí a v kalendáři se sama načte s krátkou informační hláškou. Rozehrané procvičování zůstane zachované; přepnutí počká na návrat do kalendáře i v ostatních otevřených panelech. Shodné ověřené podklady se při aktualizaci nestahují znovu.
 
 Podrobnosti, aktualizace a provozní omezení jsou v [návodu k PWA](docs/pwa.md). Zálohy a nastavení jsou místní, bez účtu a cloudového přenosu.
 

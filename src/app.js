@@ -4,7 +4,7 @@ import {icon} from './icons.js';
 import {createNavigation,routeInfo} from './navigation.js';
 import {initPreferences} from './preferences.js';
 import {mountSettings} from './settings.js';
-import {initPwa} from './pwa.js';
+import {initPwa,notifyPwaRoute} from './pwa.js';
 
 const main = document.querySelector('main');
 const today = pragueToday();
@@ -179,6 +179,7 @@ async function route({scroll=0,restore=false}={}) {
   if(version===routeVersion){
     window.scrollTo({top:scroll,behavior:'instant'});
     if(!restore)main.focus({preventScroll:true});
+    notifyPwaRoute();
   }
 }
 function renderNotFound(){main.innerHTML='<div class="empty-state"><h1>Tahle stránka tu zatím není.</h1><a class="button primary" href="#/">Zpět do kalendáře</a></div>';}

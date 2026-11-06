@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
+import { readPwaState } from './helpers/pwa-state.mjs';
 
 test.beforeEach(async ({ page }) => {
   await page.clock.setFixedTime(new Date('2026-11-04T12:00:00+01:00'));
@@ -16,10 +17,7 @@ async function workerReady(page) {
     const registration = await navigator.serviceWorker.getRegistration();
     return Boolean(registration?.active && navigator.serviceWorker.controller);
   }), { timeout: 60_000 }).toBe(true);
-  await expect.poll(() => page.evaluate(async () => {
-    const api = await import(new URL('src/pwa.js', location.href).href);
-    return api.getPwaState().offlineReady;
-  }), { timeout: 60_000 }).toBe(true);
+  await expect.poll(() => page.evaluate(readPwaState), { timeout: 60_000 }).toMatchObject({ offlineReady: true });
 }
 async function moduleStyle(page, subject) {
   const module = page.locator(`[data-study-module="${subject}"]`);
