@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "area-studies",
+  "topic_id": "section-55c970ec0c37028e1515f57537c93236",
+  "title": "Southwest",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 5,
+  "available": true,
+  "listed_current": true
+}

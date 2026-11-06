@@ -28,3 +28,13 @@ test('Moodle overview accepts canonical per-topic sources and rejects subject/to
   }
   await assert.rejects(()=>validate([{...file,path:mapped.path}]));
 });
+
+test('Moodle overview accepts release download links while rejecting alternate repositories or ambiguous locations',async()=>{
+ const {path:localPath,...common}=file;
+ const url=`https://github.com/hphugosm/study/releases/download/studylo-materials-v1/${id}.pdf`;
+ assert.equal((await validate([{...common,url}]))[0].url,url);
+ assert.equal((await validate([{...common,url,topic:'trig-functions'}]))[0].url,url);
+ for(const bad of [url.replace('hphugosm/study','hphugosm/other'),url.replace('studylo-materials-v1','latest'),url+'?download=1',url+'#x',url+'\n',url.replace(id,'b'.repeat(64))])await assert.rejects(()=>validate([{...common,url:bad}]));
+ await assert.rejects(()=>validate([{...common,url,path:localPath}]));
+ await assert.rejects(()=>validate([common]));
+});

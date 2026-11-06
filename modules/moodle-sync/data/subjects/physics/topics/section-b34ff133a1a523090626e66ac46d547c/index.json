@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "physics",
+  "topic_id": "section-b34ff133a1a523090626e66ac46d547c",
+  "title": "1. pololetí",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABE",
+  "section_order": 11,
+  "available": true,
+  "listed_current": true
+}

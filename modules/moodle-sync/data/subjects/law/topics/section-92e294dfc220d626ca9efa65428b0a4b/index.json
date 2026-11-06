@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-92e294dfc220d626ca9efa65428b0a4b",
+  "title": "Unit 5.3 - Criminal Law - Violent Crime",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 23,
+  "available": false,
+  "listed_current": true
+}

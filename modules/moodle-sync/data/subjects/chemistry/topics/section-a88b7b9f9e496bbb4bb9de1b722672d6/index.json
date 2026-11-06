@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-a88b7b9f9e496bbb4bb9de1b722672d6",
+  "title": "Dopnění učiva z 1. a 2. ročníku, pro maturanty z chemie",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 11,
+  "available": true,
+  "listed_current": true
+}

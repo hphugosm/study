@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "sociology",
+  "topic_id": "section-e47ba37727938997730d0c2c83b12dad",
+  "title": "New section",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 8,
+  "available": true,
+  "listed_current": true
+}

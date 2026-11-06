@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "geography",
+  "topic_id": "section-8e2c016215b1793a4fa91d0739045fc9",
+  "title": "Nová sekce",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABCDE",
+  "section_order": 7,
+  "available": true,
+  "listed_current": true
+}

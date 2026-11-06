@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "section-8da128d294539a0dd31220a4daadbe5e",
+  "title": "DÝCHACÍ SOUSTAVA",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 4,
+  "available": false,
+  "listed_current": true
+}

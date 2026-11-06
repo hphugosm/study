@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "physics",
+  "topic_id": "section-1a9c5a51b3353f256b0286a3efaf5e77",
+  "title": "Nová sekce",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABE",
+  "section_order": 7,
+  "available": false,
+  "listed_current": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-620f7f1df6693f9a687fc3261f4c6716",
+  "title": "Projekt v Pythonu",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 11,
+  "available": true,
+  "listed_current": true
+}

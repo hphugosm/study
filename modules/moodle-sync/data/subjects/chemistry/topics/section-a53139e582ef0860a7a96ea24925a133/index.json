@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-a53139e582ef0860a7a96ea24925a133",
+  "title": "Biochemické děje",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 7,
+  "available": true,
+  "listed_current": true
+}

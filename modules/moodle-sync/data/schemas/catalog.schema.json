@@ -40,20 +40,94 @@
                 "index": {
                   "type": "string",
                   "pattern": "^subjects/[a-z][a-z0-9-]*/topics/[a-z][a-z0-9-]*/index\\.json$"
+                },
+                "origin": {
+                  "enum": [
+                    "study",
+                    "moodle"
+                  ]
+                },
+                "course_variant": {
+                  "type": "string",
+                  "pattern": "^JU3[A-Z]*$"
+                },
+                "section_order": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "available": {
+                  "type": "boolean"
+                },
+                "listed_current": {
+                  "type": "boolean"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "index"
+              ],
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "origin": {
+                        "const": "moodle"
+                      }
+                    },
+                    "required": [
+                      "origin"
+                    ]
+                  },
+                  "then": {
+                    "required": [
+                      "origin",
+                      "course_variant",
+                      "section_order",
+                      "available",
+                      "listed_current"
+                    ],
+                    "properties": {
+                      "id": {
+                        "pattern": "^section-[a-f0-9]{32}$"
+                      }
+                    }
+                  }
+                }
               ]
             }
+          },
+          "study_title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
           }
         },
         "required": [
           "id",
           "title",
           "topics"
+        ]
+      }
+    },
+    "moodle_subject_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 11,
+      "maxItems": 11,
+      "items": {
+        "enum": [
+          "area-studies",
+          "biology",
+          "chemistry",
+          "american-literature",
+          "physics",
+          "informatics",
+          "law",
+          "mathematics",
+          "sociology",
+          "social-sciences",
+          "geography"
         ]
       }
     }

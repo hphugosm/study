@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "mathematics",
+  "topic_id": "section-9b3237cc2327dfc9a3353506fef752b3",
+  "title": "Goniometrie",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

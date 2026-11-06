@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "geography",
+  "topic_id": "section-79068e3b96946daf46298209cbd7e820",
+  "title": "Požadavky k předmětu",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABCDE",
+  "section_order": 1,
+  "available": true,
+  "listed_current": true
+}

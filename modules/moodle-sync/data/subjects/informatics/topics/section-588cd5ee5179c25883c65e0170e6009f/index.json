@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-588cd5ee5179c25883c65e0170e6009f",
+  "title": "Kódování informace a komprese",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 3,
+  "available": true,
+  "listed_current": true
+}

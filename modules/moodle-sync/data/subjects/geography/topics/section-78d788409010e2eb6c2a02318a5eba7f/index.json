@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "geography",
+  "topic_id": "section-78d788409010e2eb6c2a02318a5eba7f",
+  "title": "LATINSKÁ AMERIKA",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 5,
+  "available": true,
+  "listed_current": true
+}

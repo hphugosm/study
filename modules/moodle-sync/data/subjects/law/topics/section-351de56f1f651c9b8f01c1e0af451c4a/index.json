@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-351de56f1f651c9b8f01c1e0af451c4a",
+  "title": "Unit 2.3 - Supreme Court Landmark Decisions",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 7,
+  "available": true,
+  "listed_current": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-d84c3d22ddf67b49bd5fd323c9842c39",
+  "title": "Česká národní banka",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 7,
+  "available": true,
+  "listed_current": true
+}

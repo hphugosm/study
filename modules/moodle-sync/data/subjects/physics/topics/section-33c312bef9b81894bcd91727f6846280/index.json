@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "physics",
+  "topic_id": "section-33c312bef9b81894bcd91727f6846280",
+  "title": "Testíky",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABE",
+  "section_order": 1,
+  "available": true,
+  "listed_current": true
+}

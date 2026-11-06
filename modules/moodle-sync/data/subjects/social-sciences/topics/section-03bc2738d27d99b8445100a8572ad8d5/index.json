@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-03bc2738d27d99b8445100a8572ad8d5",
+  "title": "Občanské právo",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 4,
+  "available": true,
+  "listed_current": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "mathematics",
+  "topic_id": "section-d9398b472d1e88907d2516d558936679",
+  "title": "Nová sekce",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 3,
+  "available": true,
+  "listed_current": true
+}

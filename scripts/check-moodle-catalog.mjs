@@ -13,15 +13,18 @@ const catalog=validateCatalog(await readJSON(path.join(dataRoot,'catalog.json'))
 let topicCount=0,sourceCount=0,derivedCount=0;
 for(const subject of catalog.subjects){
  const existing=subjects.find(item=>item.id===subject.id);
- if(existing)assert.equal(subject.title,existing.name,'Existing public subject title differs');
+ if(existing)assert.equal(subject.study_title||subject.title,existing.name,'Existing public subject title differs');
  for(const ref of subject.topics){
   const topic=validateTopic(await readJSON(path.join(dataRoot,ref.index)));
   assert.equal(topic.subject_id,subject.id);assert.equal(topic.topic_id,ref.id);assert.equal(topic.title,ref.title);
+  for(const field of ['origin','course_variant','section_order','available','listed_current'])assert.equal(topic[field],ref[field],'Topic outline metadata differs');
   const dir=path.dirname(path.join(dataRoot,ref.index));
   const sources=validateSources(await readJSON(path.join(dir,topic.sources_index)));
   const derived=validateDerived(await readJSON(path.join(dir,topic.derived_index)),sources);
   for(const index of [sources,derived]){assert.equal(index.subject_id,subject.id);assert.equal(index.topic_id,ref.id);}
   for(const entry of [...sources.sources,...derived.artifacts]){
+   // Release URLs are format/digest-bound references. Upload bytes are verified separately, never downloaded in check/build.
+   if(entry.url!==undefined)continue;
    const file=path.join(moduleRoot,entry.path);
    const stat=await lstat(file);assert.ok(stat.isFile()&&!stat.isSymbolicLink(),'Catalog asset must be a regular file');
    const bytes=await readFile(file);

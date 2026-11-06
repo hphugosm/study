@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-8612b67f26f73b55ed19474a6a2e9416",
+  "title": "Základy ekonomie",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 6,
+  "available": true,
+  "listed_current": true
+}

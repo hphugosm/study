@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-849a37c711a862b42b1fbd9378f53bd4",
+  "title": "Topic 18",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 18,
+  "available": true,
+  "listed_current": true
+}

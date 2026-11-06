@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "geography",
+  "topic_id": "section-730ba0baf632efb68e5a3dd83f571103",
+  "title": "Afrika",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABCDE",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

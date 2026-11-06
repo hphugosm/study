@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-180fc16220e3f80e6b789e1d58d9a861",
+  "title": "Základy práva",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 1,
+  "available": true,
+  "listed_current": true
+}

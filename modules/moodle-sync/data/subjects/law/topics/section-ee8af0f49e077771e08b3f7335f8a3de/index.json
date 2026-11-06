@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-ee8af0f49e077771e08b3f7335f8a3de",
+  "title": "Unit 1.1 - The Rule of Law/Public and Private Law",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

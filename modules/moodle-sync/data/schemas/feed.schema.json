@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "feed.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "entries": {
+      "type": "array",
+      "maxItems": 20000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "kind": {
+            "enum": [
+              "file",
+              "event",
+              "assignment",
+              "announcement",
+              "section",
+              "module",
+              "course"
+            ]
+          },
+          "subject": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{0,59}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "summary": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "topic": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{0,59}$"
+          },
+          "topic_title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^(files/|data/subjects/[a-z][a-z0-9-]*/topics/[a-z][a-z0-9-]*/sources/)[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://github\\.com/hphugosm/study/releases/download/studylo-materials-v1/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 25000000
+          },
+          "due": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444800
+          },
+          "opens": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444800
+          },
+          "cutoff": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444800
+          },
+          "starts": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444800
+          },
+          "duration": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444800
+          },
+          "closes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444800
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "subject",
+          "title",
+          "summary"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "file"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "sha256",
+                "size"
+              ],
+              "oneOf": [
+                {
+                  "required": [
+                    "path"
+                  ],
+                  "not": {
+                    "required": [
+                      "url"
+                    ]
+                  }
+                },
+                {
+                  "required": [
+                    "url"
+                  ],
+                  "not": {
+                    "required": [
+                      "path"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "entries"
+  ]
+}

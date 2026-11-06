@@ -4,5 +4,6 @@
   "topic_id": "miser",
   "title": "Rozbor Lakomce",
   "sources_index": "sources/index.json",
-  "derived_index": "derived/index.json"
+  "derived_index": "derived/index.json",
+  "origin": "study"
 }

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "sociology",
+  "topic_id": "section-a74b087744b1b66088553d5afdc765e6",
+  "title": "Week 4",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 3,
+  "available": true,
+  "listed_current": true
+}

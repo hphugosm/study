@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "physics",
+  "topic_id": "section-4c2cedb47b484c58c074486008e5e78d",
+  "title": "Úvod do optiky",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3ABE",
+  "section_order": 2,
+  "available": true,
+  "listed_current": true
+}

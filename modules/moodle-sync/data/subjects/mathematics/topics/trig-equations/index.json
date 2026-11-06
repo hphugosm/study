@@ -4,5 +4,6 @@
   "topic_id": "trig-equations",
   "title": "Goniometrické vzorce, rovnice a nerovnice",
   "sources_index": "sources/index.json",
-  "derived_index": "derived/index.json"
+  "derived_index": "derived/index.json",
+  "origin": "study"
 }

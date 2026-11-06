@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "area-studies",
+  "topic_id": "section-ba6d5aa31222c55d75cf22f48655cf80",
+  "title": "Intro to US/General",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 1,
+  "available": true,
+  "listed_current": true
+}

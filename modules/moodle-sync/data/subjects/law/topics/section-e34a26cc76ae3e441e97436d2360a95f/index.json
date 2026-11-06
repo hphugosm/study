@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-e34a26cc76ae3e441e97436d2360a95f",
+  "title": "Quiz - Unit 2",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 9,
+  "available": true,
+  "listed_current": true
+}

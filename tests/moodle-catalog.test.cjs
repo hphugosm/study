@@ -9,11 +9,11 @@ const source={id:digest,title:'Schválený zdroj',path:`data/subjects/mathematic
 const index=sources=>({schema:1,subject_id:'mathematics',topic_id:'trig-functions',sources});
 const validators=()=>import('../modules/moodle-sync/catalog.js');
 
-test('source scaffold includes public subject/topics and only reviewed local original sources',async()=>{
+test('source scaffold preserves public subjects/topics and validates approved content provenance',async()=>{
  const {validateCatalog,validateTopic,validateSources,validateDerived}=await validators();
  const catalog=validateCatalog(read('modules/moodle-sync/data/catalog.json'));
  const {subjects,units}=await import('../src/data.js');
- for(const subject of subjects)assert.ok(catalog.subjects.some(item=>item.id===subject.id&&item.title===subject.name));
+ for(const subject of subjects)assert.ok(catalog.subjects.some(item=>item.id===subject.id&&(item.study_title||item.title)===subject.name));
  for(const unit of units)assert.ok(catalog.subjects.find(item=>item.id===unit.subjectId).topics.some(item=>item.id===unit.id&&item.title===unit.title));
  for(const subject of catalog.subjects)for(const ref of subject.topics){
   const topic=validateTopic(read('modules/moodle-sync/data/'+ref.index));
@@ -21,7 +21,8 @@ test('source scaffold includes public subject/topics and only reviewed local ori
   const dir=path.posix.dirname(ref.index);
   const sources=validateSources(read(`modules/moodle-sync/data/${dir}/${topic.sources_index}`));
   const derived=validateDerived(read(`modules/moodle-sync/data/${dir}/${topic.derived_index}`),sources);
-  assert.ok(sources.sources.every(source=>source.source_kind==='manual'&&source.review_status==='approved'));assert.deepEqual(derived.artifacts,[]);
+  assert.ok(sources.sources.every(source=>['manual','moodle'].includes(source.source_kind)&&source.review_status==='approved'));
+  assert.ok(derived.artifacts.every(artifact=>artifact.review_status==='approved'));
  }
 });
 test('source catalog refuses unreviewed entries, private metadata and cross-topic or traversal paths',async()=>{
@@ -61,4 +62,20 @@ test('seeded source bytes match six explicit existing public originals and prese
   }
  }
  assert.equal(references,11);
+});
+
+test('approved release sources have one canonical digest-bound location without network dependencies',async()=>{
+ const {validateSources,approvedReleaseURL,RELEASE_ASSET_PREFIX}=await validators();
+ const {path:localPath,...common}=source;
+ const url=RELEASE_ASSET_PREFIX+digest+'.pdf';
+ const release={...common,url};
+ assert.equal(validateSources(index([release])).sources[0].url,url);
+ assert.ok(approvedReleaseURL(url,digest));
+ for(const bad of [url.replace('hphugosm/study','someone/study'),url.replace('studylo-materials-v1','another-tag'),url+'?token=bad',url+'#fragment',url+'\n',url.replace('github.com','user@github.com'),url.replace(digest,other),url.replace('.pdf','.html'),url.replace('https:','http:'),url.replace('/'+digest,'/../'+digest)]){
+  assert.equal(approvedReleaseURL(bad,digest),false);assert.throws(()=>validateSources(index([{...release,url:bad}])));
+ }
+ assert.throws(()=>validateSources(index([{...release,path:localPath}])));
+ assert.throws(()=>validateSources(index([common])));
+ assert.throws(()=>validateSources(index([{...release,url:123}])));
+ assert.equal(validateSources(index([source])).sources[0].path,localPath);
 });

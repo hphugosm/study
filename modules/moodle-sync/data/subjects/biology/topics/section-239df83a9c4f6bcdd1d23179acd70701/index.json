@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "section-239df83a9c4f6bcdd1d23179acd70701",
+  "title": "SMYSLOVÁ SOUSTAVA",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 7,
+  "available": false,
+  "listed_current": true
+}

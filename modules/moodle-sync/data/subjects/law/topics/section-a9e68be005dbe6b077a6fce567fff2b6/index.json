@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-a9e68be005dbe6b077a6fce567fff2b6",
+  "title": "Unit 6.1 - Legal People - Intro to The Jury",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 26,
+  "available": false,
+  "listed_current": true
+}

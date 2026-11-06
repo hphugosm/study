@@ -4,5 +4,6 @@
   "topic_id": "law-unit-2",
   "title": "U.S. Courts & Civil Liberties",
   "sources_index": "sources/index.json",
-  "derived_index": "derived/index.json"
+  "derived_index": "derived/index.json",
+  "origin": "study"
 }

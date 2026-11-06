@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-7c81652c3859af6be5d57780191a659f",
+  "title": "Bílkoviny a peptidy",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 3,
+  "available": true,
+  "listed_current": true
+}

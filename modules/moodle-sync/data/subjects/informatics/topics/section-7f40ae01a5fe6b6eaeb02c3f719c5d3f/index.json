@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-7f40ae01a5fe6b6eaeb02c3f719c5d3f",
+  "title": "Web, cloud a digitální služby",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 6,
+  "available": true,
+  "listed_current": true
+}

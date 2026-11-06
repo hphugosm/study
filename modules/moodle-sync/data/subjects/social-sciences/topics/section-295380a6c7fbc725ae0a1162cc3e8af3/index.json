@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-295380a6c7fbc725ae0a1162cc3e8af3",
+  "title": "Ekonomické myšlení",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 8,
+  "available": true,
+  "listed_current": true
+}

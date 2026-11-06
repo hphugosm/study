@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "informatics",
+  "topic_id": "section-d002e013566c448efa1998f182cd9b07",
+  "title": "Python – základy",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 9,
+  "available": true,
+  "listed_current": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-3d8f7cfa5ee0ecaf0ce59a91c894a586",
+  "title": "Unit 3.1 - International Law and Courts",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 10,
+  "available": false,
+  "listed_current": true
+}

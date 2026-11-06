@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "social-sciences",
+  "topic_id": "section-d7a1a762af3b9a2054546eba936090b1",
+  "title": "Dělba státní moci",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3BDE",
+  "section_order": 3,
+  "available": true,
+  "listed_current": true
+}

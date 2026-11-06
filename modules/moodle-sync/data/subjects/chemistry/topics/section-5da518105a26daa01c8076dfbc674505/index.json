@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "chemistry",
+  "topic_id": "section-5da518105a26daa01c8076dfbc674505",
+  "title": "Závěrečné opakování učiva",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 10,
+  "available": true,
+  "listed_current": true
+}

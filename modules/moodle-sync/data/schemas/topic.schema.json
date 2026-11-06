@@ -25,6 +25,26 @@
     },
     "derived_index": {
       "const": "derived/index.json"
+    },
+    "origin": {
+      "enum": [
+        "study",
+        "moodle"
+      ]
+    },
+    "course_variant": {
+      "type": "string",
+      "pattern": "^JU3[A-Z]*$"
+    },
+    "section_order": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "listed_current": {
+      "type": "boolean"
     }
   },
   "required": [
@@ -34,5 +54,33 @@
     "title",
     "sources_index",
     "derived_index"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "origin": {
+            "const": "moodle"
+          }
+        },
+        "required": [
+          "origin"
+        ]
+      },
+      "then": {
+        "required": [
+          "origin",
+          "course_variant",
+          "section_order",
+          "available",
+          "listed_current"
+        ],
+        "properties": {
+          "topic_id": {
+            "pattern": "^section-[a-f0-9]{32}$"
+          }
+        }
+      }
+    }
   ]
 }

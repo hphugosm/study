@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-5a785097c768513e7491e3246a249c23",
+  "title": "Unit 8.1 - Legal People - Lawyers",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 33,
+  "available": false,
+  "listed_current": true
+}

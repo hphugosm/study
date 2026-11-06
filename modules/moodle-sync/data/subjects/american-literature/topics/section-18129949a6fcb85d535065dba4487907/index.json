@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "american-literature",
+  "topic_id": "section-18129949a6fcb85d535065dba4487907",
+  "title": "General",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3AB",
+  "section_order": 0,
+  "available": true,
+  "listed_current": true
+}

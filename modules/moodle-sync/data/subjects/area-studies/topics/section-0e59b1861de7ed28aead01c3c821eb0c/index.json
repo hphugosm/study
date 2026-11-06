@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "area-studies",
+  "topic_id": "section-0e59b1861de7ed28aead01c3c821eb0c",
+  "title": "Midwest",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 4,
+  "available": true,
+  "listed_current": true
+}

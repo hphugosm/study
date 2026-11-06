@@ -1,3 +1,4 @@
+import {approvedReleaseURL} from './catalog.js';
 const allowedKinds = new Set(['file','event','assignment','announcement','section','module','course']);
 const filePath = /^files\/[a-f0-9]{64}\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$/;
 const slug = /^[a-z][a-z0-9-]{0,59}$/;
@@ -14,12 +15,16 @@ export function validateFeed(feed) {
     if (entry.topic !== undefined && !slug.test(entry.topic)) throw new Error('invalid_topic');
     if (entry.topic_title !== undefined && (entry.topic === undefined || typeof entry.topic_title !== 'string' || !entry.topic_title.trim() || entry.topic_title.length > 500 || secretText.test(entry.topic_title))) throw new Error('invalid_topic_title');
     if (entry.kind === 'file') {
-      const name = typeof entry.path === 'string' ? entry.path.split('/').at(-1) : '';
+      const hasPath=Object.hasOwn(entry,'path'),hasURL=Object.hasOwn(entry,'url');
+      if(hasPath===hasURL)throw new Error('file_requires_exactly_one_location');
+      const location=hasURL?entry.url:entry.path;
+      const name = typeof location === 'string' ? location.split('/').at(-1) : '';
       const extension = name.slice(name.lastIndexOf('.')+1);
       const canonical = entry.topic !== undefined && ['pdf','pptx','ppt','docx','odt','odp','xlsx','txt'].includes(extension) &&
         entry.path === `data/subjects/${entry.subject}/topics/${entry.topic}/sources/${entry.sha256}.${extension}`;
       const flat = entry.topic === undefined && filePath.test(entry.path);
-      if ((!flat && !canonical) || name.split('.')[0] !== entry.sha256 || !/^[a-f0-9]{64}$/.test(entry.sha256) ||
+      const release=hasURL&&approvedReleaseURL(entry.url,entry.sha256);
+      if ((hasURL?!release:(!flat && !canonical)) || name.split('.')[0] !== entry.sha256 || !/^[a-f0-9]{64}$/.test(entry.sha256) ||
           !Number.isSafeInteger(entry.size) || entry.size < 1 || entry.size > 25000000) throw new Error('unsafe_file');
     }
     for (const field of ['due','opens','cutoff','starts','duration','closes']) {
@@ -57,7 +62,7 @@ if (typeof document !== 'undefined') {
       if (entry.kind === 'file') {
         const size = entry.size < 1000000 ? `${Math.max(1,Math.round(entry.size/1000))} kB` : `${(entry.size/1000000).toFixed(1)} MB`;
         const link = text('a',`Otevřít materiál · ${size}`,'download');
-        link.href = new URL(entry.path,import.meta.url).href;
+        link.href = entry.url || new URL(entry.path,import.meta.url).href;
         link.setAttribute('download','');
         card.append(link);
       }

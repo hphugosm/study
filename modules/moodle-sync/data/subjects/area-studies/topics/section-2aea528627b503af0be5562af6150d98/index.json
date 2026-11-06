@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "area-studies",
+  "topic_id": "section-2aea528627b503af0be5562af6150d98",
+  "title": "New section",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 9,
+  "available": true,
+  "listed_current": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-f55fcdfd8a43f9a5a5ee7cdfb285309f",
+  "title": "Unit 2.2 - The American Court System",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 6,
+  "available": true,
+  "listed_current": true
+}

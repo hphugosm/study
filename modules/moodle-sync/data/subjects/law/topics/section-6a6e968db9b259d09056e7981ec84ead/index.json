@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "subject_id": "law",
+  "topic_id": "section-6a6e968db9b259d09056e7981ec84ead",
+  "title": "Unit 2.1 - American Law and the Bill of Rights",
+  "sources_index": "sources/index.json",
+  "derived_index": "derived/index.json",
+  "origin": "moodle",
+  "course_variant": "JU3",
+  "section_order": 5,
+  "available": true,
+  "listed_current": true
+}

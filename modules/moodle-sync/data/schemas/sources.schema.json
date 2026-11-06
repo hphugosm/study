@@ -51,16 +51,41 @@
           },
           "review_status": {
             "const": "approved"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://github\\.com/hphugosm/study/releases/download/studylo-materials-v1/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt)$"
           }
         },
         "required": [
           "id",
           "title",
-          "path",
           "sha256",
           "size",
           "source_kind",
           "review_status"
+        ],
+        "oneOf": [
+          {
+            "required": [
+              "path"
+            ],
+            "not": {
+              "required": [
+                "url"
+              ]
+            }
+          },
+          {
+            "required": [
+              "url"
+            ],
+            "not": {
+              "required": [
+                "path"
+              ]
+            }
+          }
         ]
       }
     }
