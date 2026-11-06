@@ -2,7 +2,7 @@
 
 ## Automatické aktualizace — 6. listopadu 2026
 
-Sestavení `80d7ce4ae2507723fc2b` prošlo **158 browserovými a HTTP kontrolami,
+Sestavení `b4f684f9de54e24d25e9` prošlo **158 browserovými a HTTP kontrolami,
 11 očekávaných přeskočení, 0 chyb** (2,9 minuty). Dále prošlo všech
 **45 Node testů**, kontrola 59 JavaScriptových souborů a sestavení.
 
@@ -17,6 +17,7 @@ WebKitu. Používají skutečné rozhraní, kalendář, Law kvíz a offline bal�
   cache se pozná podle SHA-256 a stáhne se znovu.
 - Zodpovězená otázka i zpětná vazba přežijí přípravu nové verze. Přepnutí
   se provede až po návratu do kalendáře, také při kvízu v jiném panelu.
+  Šipky zpět a vpřed zůstávají funkční i po automatickém obnovení.
 - Chyba 503 při stahování nezničí dosavadní snapshot; příští návrat
   automaticky zopakuje pokus.
 - Starší klient bez automatického protokolu zůstane zachovaný a přejde

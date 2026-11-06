@@ -46,7 +46,9 @@ function renderUpdateNotice() {
 function reloadWithNotice() {
   const url = new URL(location.href);
   url.searchParams.set('study-updated', '1');
-  location.replace(url.href);
+  // Keep the app's back/forward state through this automatic reload.
+  history.replaceState(history.state, '', url.href);
+  location.reload();
 }
 function scheduleAutoUpdate() {
   clearTimeout(autoUpdateTimer);
