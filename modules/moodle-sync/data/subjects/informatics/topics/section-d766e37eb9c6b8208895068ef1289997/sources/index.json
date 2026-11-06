@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "informatics",
-  "topic_id": "section-d766e37eb9c6b8208895068ef1289997",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c","review_status":"approved","sha256":"e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d","size":30817,"source_kind":"moodle","title":"Mars_Rover_Huffman_Project_Worksheet.docx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d.docx"}],"subject_id":"informatics","topic_id":"section-d766e37eb9c6b8208895068ef1289997"}

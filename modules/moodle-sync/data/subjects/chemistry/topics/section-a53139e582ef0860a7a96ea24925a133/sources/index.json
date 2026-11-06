@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-a53139e582ef0860a7a96ea24925a133",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68","review_status":"approved","sha256":"899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69","size":948679,"source_kind":"moodle","title":"Léčiva, pesticidy, detergenty.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69.pdf"}],"subject_id":"chemistry","topic_id":"section-a53139e582ef0860a7a96ea24925a133"}

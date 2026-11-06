@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "geography",
-  "topic_id": "section-78d788409010e2eb6c2a02318a5eba7f",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3","review_status":"approved","sha256":"1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7","size":23784032,"source_kind":"moodle","title":"JIŽNÍ AMERIKA - fyzická geografie.pptx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7.pptx"},{"id":"b0660fd576ee16b3ea2f7955ad4bfe6294439a45016740023ca0d2145f805a86","review_status":"approved","sha256":"94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d","size":426683,"source_kind":"moodle","title":"POJMY SLEPÁ MAPA LA.docx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d.docx"}],"subject_id":"geography","topic_id":"section-78d788409010e2eb6c2a02318a5eba7f"}

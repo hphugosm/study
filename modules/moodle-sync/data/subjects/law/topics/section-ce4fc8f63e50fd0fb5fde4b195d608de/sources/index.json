@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "law",
-  "topic_id": "section-ce4fc8f63e50fd0fb5fde4b195d608de",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792","review_status":"approved","sha256":"48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370","size":1672428,"source_kind":"moodle","title":"1. History of English Common Law.pptx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370.pptx"},{"id":"e0f9c3f64511c0ea8f72be846fd06b97c86c60fe861638e8239cef546ddc235c","review_status":"approved","sha256":"28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca","size":15973,"source_kind":"moodle","title":"1. HW History of English Common Law.docx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca.docx"}],"subject_id":"law","topic_id":"section-ce4fc8f63e50fd0fb5fde4b195d608de"}

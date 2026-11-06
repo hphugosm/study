@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-53beaf122de6cd7b93478498956ef47e",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7","review_status":"approved","sha256":"d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2","size":1012718,"source_kind":"moodle","title":"Nukleové kyseliny 2026.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2.pdf"}],"subject_id":"chemistry","topic_id":"section-53beaf122de6cd7b93478498956ef47e"}

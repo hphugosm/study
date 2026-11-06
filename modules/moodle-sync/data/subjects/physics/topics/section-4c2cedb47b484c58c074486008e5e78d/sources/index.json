@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "physics",
-  "topic_id": "section-4c2cedb47b484c58c074486008e5e78d",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f","review_status":"approved","sha256":"f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a","size":139544,"source_kind":"moodle","title":"FY_JU3_PL_Totální odraz a mezní úhel.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a.pdf"},{"id":"ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599","review_status":"approved","sha256":"35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d","size":634123,"source_kind":"moodle","title":"PL - Úvod do optiky - příklady.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d.pdf"},{"id":"e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da","review_status":"approved","sha256":"d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df","size":1513742,"source_kind":"moodle","title":"FY_JU3_PL_Úvod do optiky.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df.pdf"}],"subject_id":"physics","topic_id":"section-4c2cedb47b484c58c074486008e5e78d"}

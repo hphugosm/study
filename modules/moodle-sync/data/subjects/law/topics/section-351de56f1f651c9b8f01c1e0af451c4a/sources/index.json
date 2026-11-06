@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "law",
-  "topic_id": "section-351de56f1f651c9b8f01c1e0af451c4a",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476","review_status":"approved","sha256":"2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4","size":1048228,"source_kind":"moodle","title":"Reading 1 - Brown v. Board of Education.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4.pdf"},{"id":"664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e","review_status":"approved","sha256":"854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609","size":2115632,"source_kind":"moodle","title":"Plessy v. Ferguson - Reading and Response.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609.pdf"},{"id":"e4ae83cbce6ec3b55d9fe5d0a998b504f535ca5a93b2b2d955f767ce42fdfa25","review_status":"approved","sha256":"bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5","size":231356,"source_kind":"moodle","title":"HW - Vocabulary and Concepts.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5.pdf"}],"subject_id":"law","topic_id":"section-351de56f1f651c9b8f01c1e0af451c4a"}

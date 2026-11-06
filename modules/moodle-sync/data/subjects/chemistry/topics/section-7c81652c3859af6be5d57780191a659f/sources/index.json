@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-7c81652c3859af6be5d57780191a659f",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6","review_status":"approved","sha256":"e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348","size":249492,"source_kind":"moodle","title":"Bílkoviny - metabolsimus.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348.pdf"}],"subject_id":"chemistry","topic_id":"section-7c81652c3859af6be5d57780191a659f"}

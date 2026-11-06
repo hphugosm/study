@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-12c02a3bc7eb2d7ecb243d47cc484086",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12","review_status":"approved","sha256":"6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473","size":437146,"source_kind":"moodle","title":"Hormony .pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473.pdf"}],"subject_id":"chemistry","topic_id":"section-12c02a3bc7eb2d7ecb243d47cc484086"}

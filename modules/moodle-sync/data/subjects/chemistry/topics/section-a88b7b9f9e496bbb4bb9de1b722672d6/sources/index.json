@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-a88b7b9f9e496bbb4bb9de1b722672d6",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e","review_status":"approved","sha256":"e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae","size":965467,"source_kind":"moodle","title":"Analytická chemie 2 část.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae.pdf"},{"id":"e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e","review_status":"approved","sha256":"4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693","size":74589,"source_kind":"moodle","title":"názvosloví úkol.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693.pdf"}],"subject_id":"chemistry","topic_id":"section-a88b7b9f9e496bbb4bb9de1b722672d6"}

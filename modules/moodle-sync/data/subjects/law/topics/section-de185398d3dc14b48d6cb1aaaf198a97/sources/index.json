@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "law",
-  "topic_id": "section-de185398d3dc14b48d6cb1aaaf198a97",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"fc6e9c666014ff4d6ffeaea0d8a9bc035e33ee3020c760c0ca5acfbab9c37411","review_status":"approved","sha256":"81bd07b41d3999ad92bd62a196b6c7d88ce46414dfce33af1f9d4b79fbc410f2","size":118105,"source_kind":"moodle","title":"MO LAW 2026.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/81bd07b41d3999ad92bd62a196b6c7d88ce46414dfce33af1f9d4b79fbc410f2.pdf"}],"subject_id":"law","topic_id":"section-de185398d3dc14b48d6cb1aaaf198a97"}
