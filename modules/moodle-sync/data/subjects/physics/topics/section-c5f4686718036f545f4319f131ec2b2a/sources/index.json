@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "physics",
-  "topic_id": "section-c5f4686718036f545f4319f131ec2b2a",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba","review_status":"approved","sha256":"e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead","size":118236,"source_kind":"moodle","title":"FY_JU3_PL_Interference, ohyb, polarizace.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead.pdf"},{"id":"f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e","review_status":"approved","sha256":"87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14","size":131017,"source_kind":"moodle","title":"PL - Disperze a úvod do vlnové optiky.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14.pdf"}],"subject_id":"physics","topic_id":"section-c5f4686718036f545f4319f131ec2b2a"}

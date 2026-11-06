@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-13cf3b395902e13f5c79e4ca06606662",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3","review_status":"approved","sha256":"96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2","size":1003938,"source_kind":"moodle","title":"Enzymy 2025.pptx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2.pptx"}],"subject_id":"chemistry","topic_id":"section-13cf3b395902e13f5c79e4ca06606662"}

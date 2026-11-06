@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-edb6d4d4a4196dfa9657c0a8a0e93029",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f","review_status":"approved","sha256":"77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f","size":57368,"source_kind":"moodle","title":"Reakce AMK - peptidy.docx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f.docx"},{"id":"91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843","review_status":"approved","sha256":"5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d","size":341758,"source_kind":"moodle","title":"Důkaz aminokyselin a bílkovin.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d.pdf"},{"id":"f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696","review_status":"approved","sha256":"2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467","size":407973,"source_kind":"moodle","title":"Aminokyseliny.pptx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467.pptx"}],"subject_id":"chemistry","topic_id":"section-edb6d4d4a4196dfa9657c0a8a0e93029"}

@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "mathematics",
-  "topic_id": "section-19b4bf717ba5fb504c592cbdd891923b",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"924898a3f3817bc6245f8f00bd648de0c47acbc313666a721bf03cc6b5eb1b88","review_status":"approved","sha256":"126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345","size":57791,"source_kind":"moodle","title":"PL_A4_mustr_na_rez_krychle (prazdny).pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345.pdf"},{"id":"f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868","review_status":"approved","sha256":"879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be","size":5217941,"source_kind":"moodle","title":"Stereometrie.pptx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be.pptx"}],"subject_id":"mathematics","topic_id":"section-19b4bf717ba5fb504c592cbdd891923b"}

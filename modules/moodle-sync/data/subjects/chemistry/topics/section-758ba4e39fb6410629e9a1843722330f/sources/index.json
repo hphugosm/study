@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-758ba4e39fb6410629e9a1843722330f",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4","review_status":"approved","sha256":"70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586","size":1104839,"source_kind":"moodle","title":"5 Sacharidy 2025 1. část.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586.pdf"},{"id":"ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28","review_status":"approved","sha256":"9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191","size":1152844,"source_kind":"moodle","title":"5 Sacharidy 2025 2. část.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191.pdf"}],"subject_id":"chemistry","topic_id":"section-758ba4e39fb6410629e9a1843722330f"}
