@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "american-literature",
-  "topic_id": "section-ad29e0abff7a15322cd5e62195790d06",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba","review_status":"approved","sha256":"2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b","size":1451011,"source_kind":"moodle","title":"American Modernism and the Lost Generation - 2026.pdf","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b.pdf"}],"subject_id":"american-literature","topic_id":"section-ad29e0abff7a15322cd5e62195790d06"}

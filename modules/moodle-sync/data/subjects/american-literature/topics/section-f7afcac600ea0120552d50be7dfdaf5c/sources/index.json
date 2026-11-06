@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "american-literature",
-  "topic_id": "section-f7afcac600ea0120552d50be7dfdaf5c",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a","review_status":"approved","sha256":"f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba","size":22143,"source_kind":"moodle","title":"Soliders Home - Full Text.docx","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba.docx"}],"subject_id":"american-literature","topic_id":"section-f7afcac600ea0120552d50be7dfdaf5c"}

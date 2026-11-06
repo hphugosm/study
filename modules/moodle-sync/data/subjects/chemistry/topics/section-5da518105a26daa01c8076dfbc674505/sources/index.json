@@ -1,6 +1,1 @@
-{
-  "schema": 1,
-  "subject_id": "chemistry",
-  "topic_id": "section-5da518105a26daa01c8076dfbc674505",
-  "sources": []
-}
+{"schema":1,"sources":[{"id":"a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e","review_status":"approved","sha256":"556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae","size":128512,"source_kind":"moodle","title":"opakovací otázky celý rok biochemie 2020.doc","url":"https://github.com/hphugosm/study/releases/download/studylo-materials-v1/556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae.doc"}],"subject_id":"chemistry","topic_id":"section-5da518105a26daa01c8076dfbc674505"}
