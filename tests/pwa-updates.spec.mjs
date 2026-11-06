@@ -91,6 +91,11 @@ test('a real release waits for the answered quiz and applies automatically after
   await page.locator('header .wordmark').click();
   await ready(page, rollout.newVersion);
   await expect(page.locator('[data-date="2026-11-19"]')).toHaveAccessibleName(/Law/);
+  await page.getByRole('button', { name: 'Zpět', exact: true }).click();
+  await expect(page).toHaveURL(/#\/events\/law-test$/);
+  await page.getByRole('button', { name: 'Vpřed', exact: true }).click();
+  await expect(page).toHaveURL(/#\/$/);
+  await expect(page.locator('[data-date="2026-11-19"]')).toHaveAccessibleName(/Law/);
 });
 
 test('a quiz in another panel postpones automatic activation until both panels are in calendar', async ({ page, rollout }) => {
