@@ -29,3 +29,7 @@ Nejdřív použij původní podklady z `sources/index.json` příslušného tém
 Strojově čitelný rozcestník je v `catalog.json`. Původní podklady jsou vždy oddělené od výtahů a dalších odvozených výstupů.
 
 Při kontrole veřejného přehledu dne 6. 11. 2026 byly vynechány dvě individuální sekce. Jejich názvy ani interní identifikátory zde nejsou zveřejněné.
+
+Úvodní import ze 6. 11. 2026 přidal **125 schválených odkazů na 123 různých souborů** v [GitHub Releases](https://github.com/hphugosm/study/releases/tag/studylo-materials-v1). Nové přílohy jsou mimo Git historii a web je odkazuje přímo. Původní veřejné materiály Study zůstaly zachované. Počet témat není počet příloh: některá témata dosud nemají dostupný soubor.
+
+Pro další práci agenta načti `catalog.json`, potom `sources/index.json` vybraného tématu a stáhni pouze potřebné podklady. Výstupy patří do `derived/` a musí zachovat reference na přesné ID a SHA-256 použitých zdrojů. Katalog ani samotný import agenty automaticky nespouští.
