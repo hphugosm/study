@@ -1,8 +1,13 @@
-import {approvedReleaseURL} from './catalog.js';
+import {approvedReleaseURL,MOODLE_SUBJECTS} from './catalog.js';
 const allowedKinds = new Set(['file','event','assignment','announcement','section','module','course']);
 const filePath = /^files\/[a-f0-9]{64}\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$/;
 const slug = /^[a-z][a-z0-9-]{0,59}$/;
 const secretText = /(?:[\w.+-]+@[\w.-]+\.[a-z]{2,}|(?:token|sesskey|password|cookie)\s*[=:]|[<>])/i;
+const subjectNames = {literature:'Literatura',history:'Dějepis',...Object.fromEntries(MOODLE_SUBJECTS.map(subject=>[subject.id,subject.title]))};
+
+export function entryContext(entry) {
+  return [subjectNames[entry.subject] || entry.subject.replaceAll('-',' '),entry.topic_title].filter(Boolean).join(' · ');
+}
 
 export function validateFeed(feed) {
   if (feed?.schema !== 1 || !Array.isArray(feed.entries) || feed.entries.length > 20000) throw new Error('invalid_feed');
@@ -40,7 +45,6 @@ if (typeof document !== 'undefined') {
   const container = document.querySelector('#entries');
   const search = document.querySelector('#search');
   const dateFormat = new Intl.DateTimeFormat('cs-CZ',{dateStyle:'long',timeStyle:'short',timeZone:'Europe/Prague'});
-  const subjects = {mathematics:'Matematika',biology:'Biologie',law:'Law',literature:'Literatura',history:'Dějepis',chemistry:'Chemie',physics:'Fyzika',informatics:'Informatika',geography:'Zeměpis',sociology:'Sociologie'};
   let entries = [];
   function text(tag, value, className) {
     const element = document.createElement(tag);
@@ -50,12 +54,12 @@ if (typeof document !== 'undefined') {
   }
   function render() {
     const query = search.value.trim().toLocaleLowerCase('cs-CZ');
-    const matches = entries.filter(entry => `${entry.title} ${entry.subject} ${entry.topic_title || entry.topic || ''} ${entry.summary}`.toLocaleLowerCase('cs-CZ').includes(query));
+    const matches = entries.filter(entry => `${entry.title} ${entryContext(entry)} ${entry.summary}`.toLocaleLowerCase('cs-CZ').includes(query));
     container.replaceChildren();
     for (const entry of matches) {
       const card = document.createElement('article');
       card.className = 'entry';
-      const context = [subjects[entry.subject] || entry.subject.replaceAll('-',' '), entry.topic_title || entry.topic?.replaceAll('-',' ')].filter(Boolean).join(' · ');
+      const context = entryContext(entry);
       card.append(text('p',context,'meta'),text('h2',entry.title));
       if (entry.summary) card.append(text('p',entry.summary));
       if (entry.due || entry.starts) card.append(text('p',`${entry.due?'Odevzdání':'Termín'}: ${dateFormat.format(new Date((entry.due||entry.starts)*1000))}`,'meta'));

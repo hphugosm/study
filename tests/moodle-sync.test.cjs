@@ -47,3 +47,10 @@ test('ordinary images legacy Word and WMV use approved release links without bro
   await assert.rejects(()=>validate([{...common,url:url.replace('studylo-materials-v1','private-release')}]));
  }
 });
+
+test('source context uses Czech subject and reviewed topic names without exposing opaque IDs',async()=>{
+  const {entryContext}=await import('../modules/moodle-sync/view.js');
+  assert.equal(entryContext({subject:'law',topic:'section-'+ 'a'.repeat(32),topic_title:'Unit 2 – soudy'}),'Právo · Unit 2 – soudy');
+  assert.equal(entryContext({subject:'american-literature',topic:'section-'+ 'a'.repeat(32)}),'Americká literatura');
+  assert.equal(entryContext({subject:'social-sciences',topic_title:'Základy práva'}),'Základy společenských věd · Základy práva');
+});
