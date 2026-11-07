@@ -2,5 +2,44 @@
   "schema": 1,
   "subject_id": "chemistry",
   "topic_id": "section-9b1ec9fa717aee32deac98d718270c5a",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Úvod do studia biochemie",
+      "kind": "notes",
+      "path": "data/subjects/chemistry/topics/section-9b1ec9fa717aee32deac98d718270c5a/derived/course-notes-v1/notes.json",
+      "sha256": "235106085058e96624129c74fb2538a45b973c7e8eea87285f03f890658a3d7e",
+      "source_refs": [
+        {
+          "id": "0fb8a5250a51065d54058ff4c0653405b81dd60512a724d6c57bfad6b6cc8646",
+          "sha256": "6ad1f35bbc63d41bd1d0893b621dcf8fe48286011aede358384661760a81b654"
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460"
+        },
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8"
+        },
+        {
+          "id": "5608fbaae9b819d81420875c40c291b746226aad95eef59572c2610fc07d67de",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8"
+        },
+        {
+          "id": "7f74067d0d3c7ba69c81ecd24e998148f9336268a40c62b1d5e6c03203b272d9",
+          "sha256": "97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a"
+        },
+        {
+          "id": "931fdef6bab09f200ccc599d5cfae874a0dfa398b94d520c1ac3e03696aaad11",
+          "sha256": "34f92a4fd1a2d568c8a202538037968fd02877445333fc8c301a99b1bb0b6a60"
+        },
+        {
+          "id": "f60f75d51420dce85b6e4aeb45a4586b58a298e2b49c7520f854e58517fc086c",
+          "sha256": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

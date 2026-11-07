@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "subject": "geography",
+  "topic": "section-b57c9d6f9c93844d1546a8bc0c75603f",
+  "title": "Úvod",
+  "language": "cs",
+  "intro": "Tento dokument obsahuje klasifikační pravidla biologie a zeměpisu pro školní rok 2025/2026. Slouží jako orientace v typech práce; není to tematický výklad ani potvrzení pravidel jiného kurzu.",
+  "sources": [
+    {
+      "id": "321c7e2396e46024b5e5baddb8eee1c3cd9447686311765c742f75e3a771d563",
+      "sha256": "d6f311409792b8314930b9f8bc4fab07dd753fb6b1dfd6efb19aa20906d6dbd3",
+      "title": "Klasifikace BI + ZE - FIALA - 2025-2026docx.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/d6f311409792b8314930b9f8bc4fab07dd753fb6b1dfd6efb19aa20906d6dbd3.docx",
+      "extraction_url": "./extracted/d6f311409792b8314930b9f8bc4fab07dd753fb6b1dfd6efb19aa20906d6dbd3.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/d6f311409792b8314930b9f8bc4fab07dd753fb6b1dfd6efb19aa20906d6dbd3.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "forms",
+      "title": "Co dokument rozlišuje",
+      "source_refs": [
+        {
+          "id": "321c7e2396e46024b5e5baddb8eee1c3cd9447686311765c742f75e3a771d563",
+          "sha256": "d6f311409792b8314930b9f8bc4fab07dd753fb6b1dfd6efb19aa20906d6dbd3",
+          "locator": "tabulka 6"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tabulka odlišuje práci v hodině, krátké písemné vysvětlování odborných pojmů, průběžné testy, referát, malý referát a samostatnou práci s atlasem. U referátů počítá s prezentací před třídou, u práce s atlasem s vyvozováním souvislostí z map, grafů a tabulek.",
+          "source_refs": [
+            {
+              "id": "321c7e2396e46024b5e5baddb8eee1c3cd9447686311765c742f75e3a771d563",
+              "sha256": "d6f311409792b8314930b9f8bc4fab07dd753fb6b1dfd6efb19aa20906d6dbd3",
+              "locator": "tabulka 6"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Na pojmové zkoušení připrav vysvětlení, nikoli jen seznam názvů.",
+            "U referátu spoj prezentaci s ústním vysvětlením tématu.",
+            "Při práci s atlasem vysvětli, co z mapy nebo grafu vyvozuješ."
+          ],
+          "source_refs": [
+            {
+              "id": "321c7e2396e46024b5e5baddb8eee1c3cd9447686311765c742f75e3a771d563",
+              "sha256": "d6f311409792b8314930b9f8bc4fab07dd753fb6b1dfd6efb19aa20906d6dbd3",
+              "locator": "tabulka 6"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Dokument je výslovně označen rokem 2025/2026. Jeho váhy ani stupnici neslučuj automaticky s jiným souborem požadavků.",
+          "source_refs": [
+            {
+              "id": "321c7e2396e46024b5e5baddb8eee1c3cd9447686311765c742f75e3a771d563",
+              "sha256": "d6f311409792b8314930b9f8bc4fab07dd753fb6b1dfd6efb19aa20906d6dbd3",
+              "locator": "odstavec 3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [],
+  "questions": []
+}

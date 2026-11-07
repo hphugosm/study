@@ -1,0 +1,870 @@
+{
+  "schema": 1,
+  "subject": "sociology",
+  "topic": "section-ad4f9e825fcc2c1c3e1dc6a1ffdd53a2",
+  "title": "Unit 1: Sociology Definition, Social Institutions Overview, Key Terms, Common Sense, Sociological Imagination, Theories (Structuralism, Functionalism, Social Action)",
+  "language": "en",
+  "intro": "Move from everyday assumptions to evidence-based social explanation. Both approved decks introduce the vocabulary; the longer deck extends the material to sociological imagination, structuralism, functionalism and social action.",
+  "sources": [
+    {
+      "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+      "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+      "title": "Unit 1 Presentation.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635.pptx",
+      "extraction_url": "./extracted/c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635.zip"
+    },
+    {
+      "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+      "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+      "title": "Unit 1 Presentation. Sociology Definition. Key Terms. Common Sense..pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b.pptx",
+      "extraction_url": "./extracted/5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "social-explanation",
+      "title": "What sociology tries to explain",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 10
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 10
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sociology studies human social life, groups, institutions and societies. Its focus is how social influences shape behaviour, experience and interpretation. This does not require ignoring the individual; it asks what an explanation misses if it considers only an individual trait.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 10
+            },
+            {
+              "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+              "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The decks use school performance as an example: instead of treating a result as proof of intelligence or effort alone, investigate how family, education, peers and opportunity may be connected. These are variables to examine, not automatic explanations already proved.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 12
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 13
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Norms, values, beliefs and traditions",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 7
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 7
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A norm is an accepted expectation or rule guiding behaviour in a group. A value is a shared standard of what is good, right or fair. A belief is something accepted as true; a tradition is a practice or belief passed between generations. The terms are related but answer different questions.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 7
+            },
+            {
+              "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+              "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The culture task asks students to combine these ideas into a definition. As a didactic synthesis, culture can be described here through shared norms, values, beliefs and traditions. That synthesis is a response to the task, not a verbatim definition already filled in on the slide.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 7
+            },
+            {
+              "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+              "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+              "page": 7
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 8
+            },
+            {
+              "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+              "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Concept",
+          "Question it helps answer"
+        ],
+        "rows": [
+          {
+            "label": "Norm",
+            "values": [
+              "Expected behaviour",
+              "What are people expected to do?"
+            ]
+          },
+          {
+            "label": "Value",
+            "values": [
+              "Shared standard",
+              "What is regarded as good or fair?"
+            ]
+          },
+          {
+            "label": "Belief",
+            "values": [
+              "Accepted idea",
+              "What do people take to be true?"
+            ]
+          },
+          {
+            "label": "Tradition",
+            "values": [
+              "Transmission over generations",
+              "What is passed on?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "institutions",
+      "title": "Institutions connect roles and expectations",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 11
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 12
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The decks describe institutions as organised social arrangements, rather than merely buildings. Family, government, economy, education and religion structure relationships and expectations. Family is linked to primary socialisation, the economy to goods and services, education to transmitting knowledge, and government to legitimate power.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 11
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Social structure consists of the institutions and relationships forming society’s building blocks. To explain an educational pattern, ask how institutions connect: for example, how family circumstances and school expectations might interact.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 11
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-sense",
+      "title": "An ordinary impression is a hypothesis, not evidence",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 14
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 15
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 16
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Common-sense ideas may feel obvious because they are familiar. The decks show that such beliefs vary across time and societies and may reproduce prejudice. Sociology asks whether evidence supports an explanation and considers alternatives before accepting it.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 14
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 15
+            },
+            {
+              "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+              "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The shorter deck explicitly stresses evidence, objectivity and keeping an open mind. The exercise about a silent student demonstrates the method: do not jump from observed silence to an identity label; consider past experiences, peer reactions and the meaning of the classroom setting.",
+          "source_refs": [
+            {
+              "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+              "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+              "page": 16
+            },
+            {
+              "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+              "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+              "page": 17
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 17
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Describe the observation",
+          "text": "Record the behaviour without turning it into an unsupported character judgement.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 17
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "title": "Identify the first explanation",
+          "text": "Name the common-sense assumption so it can be questioned.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 17
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "title": "Generate alternatives",
+          "text": "Consider at least two social variables: peers, family, opportunities or past experience.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 17
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "title": "Seek evidence",
+          "text": "Distinguish a possible explanation from one supported by observation.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 17
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imagination",
+      "title": "Connect personal experience with social structures",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 19
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 20
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The longer deck links C. Wright Mills and sociological imagination to the ability to connect life experiences with wider structures and institutions. Socialisation is the process through which people learn how to behave from institutions and interactions throughout life.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 19
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The waiting-room task asks which unwritten rules people follow and who taught them. The point is to notice learned expectations that may feel natural only because they are familiar. The slides challenge a purely biological explanation; they do not prove that biology never matters.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 19
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 20
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 22
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 23
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perspectives",
+      "title": "Three questions about the same behaviour",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 25
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 28
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 30
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 31
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 33
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In the course’s structuralist perspective, focus on institutions, rules and expectations that shape or constrain behaviour. The functionalist perspective asks what those arrangements contribute to society. Social action focuses on individual meanings and motivations; symbolic interactionism examines meanings formed through interaction.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 25
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 28
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 30
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 31
+            },
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 33
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The café example holds the observed behaviour constant: people queue. A structuralist question concerns the norm of waiting, a functionalist question concerns orderly service, and a social-action question asks why a particular person waits. Different perspectives select different explanatory questions rather than simply giving different labels to the same answer.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 33
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Perspective",
+          "Question in the course"
+        ],
+        "rows": [
+          {
+            "label": "Structuralism",
+            "values": [
+              "Rules, roles and constraints",
+              "What arrangement shapes behaviour?"
+            ]
+          },
+          {
+            "label": "Functionalism",
+            "values": [
+              "Contribution to society",
+              "What does this arrangement do?"
+            ]
+          },
+          {
+            "label": "Social action",
+            "values": [
+              "Meaning and motivation",
+              "What does the action mean to the individual?"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Observe a queue",
+          "text": "Describe who waits and what pattern appears.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 33
+            }
+          ]
+        },
+        {
+          "title": "Change the lens",
+          "text": "Ask about the rule, its function and the actor’s motivation separately.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 33
+            }
+          ]
+        },
+        {
+          "title": "Compare explanations",
+          "text": "A habit, fairness belief and avoiding confrontation are possibilities to investigate, not facts proved about every person.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 33
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4c24631cd9cf2599bccf4c8d36a0651571ffe59920b136154e3cfa2a94eeaecf.webp",
+          "alt": "Comparison of social action theory, functionalism and structuralism with a studying-student example",
+          "caption": "Slide32 compares the question each perspective asks. The approaches can examine different aspects of one situation.",
+          "source_refs": [
+            {
+              "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+              "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+              "page": 32
+            }
+          ],
+          "source_media": "extracted/c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635/media/slide-032-image-001.png",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Norm versus value?",
+      "back": "A norm guides expected behaviour; a value expresses a shared standard of good or fair.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 7
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Belief versus tradition?",
+      "back": "A belief is accepted as true; a tradition is passed between generations.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 7
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Social institution?",
+      "back": "An organised system of beliefs, behaviour, rules and relationships structuring social life.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 7
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Socialisation?",
+      "back": "Learning how to behave through social institutions and interactions throughout life.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Sociological imagination?",
+      "back": "Connecting life experiences with larger social structures and institutions.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Structuralism in this course?",
+      "back": "A perspective focused on how social structures shape and constrain behaviour.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "id": "card-7",
+      "front": "Functionalism?",
+      "back": "A perspective asking what social structures do for society.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 28
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 30
+        }
+      ]
+    },
+    {
+      "id": "card-8",
+      "front": "Social action?",
+      "back": "A focus on individual meanings and motivations behind behaviour.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 31
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "“People should wait their turn” is most directly a…",
+      "options": [
+        "norm",
+        "population count",
+        "genetic trait"
+      ],
+      "answer": 0,
+      "explanation": "It describes an expectation about behaviour, not a biological characteristic.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 7
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "“Fairness is good” most directly expresses a…",
+      "options": [
+        "queue length",
+        "court verdict",
+        "value"
+      ],
+      "answer": 2,
+      "explanation": "A value is a standard used to judge what is good or just.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 7
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "Why is a silent student not enough evidence for a character label?",
+      "options": [
+        "All silence has exactly the same cause",
+        "Observed behaviour may have several social explanations",
+        "Sociology cannot examine classrooms"
+      ],
+      "answer": 1,
+      "explanation": "The exercise asks students to generate alternative variables rather than jump to a label.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 17
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Which question is functionalist in the café example?",
+      "options": [
+        "What does queuing contribute to orderly service?",
+        "What does this particular person think?",
+        "What colour is the wall?"
+      ],
+      "answer": 0,
+      "explanation": "Functionalism asks what an arrangement does, while social action investigates personal meaning.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 33
+        }
+      ]
+    },
+    {
+      "id": "question-5",
+      "prompt": "Which question most directly uses social action?",
+      "options": [
+        "Why does this person choose to wait?",
+        "How many institutions are named?",
+        "Which structure constrains everyone?"
+      ],
+      "answer": 0,
+      "explanation": "Meaning and motivation are central to this perspective.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 31
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 33
+        }
+      ]
+    },
+    {
+      "id": "question-6",
+      "prompt": "Which question is structuralist in the course?",
+      "options": [
+        "What was yesterday’s temperature?",
+        "How does an attendance rule shape students’ behaviour?",
+        "Which individual prefers tea?"
+      ],
+      "answer": 1,
+      "explanation": "The course focuses on how institutional rules constrain and organise behaviour.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 25
+        },
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "id": "question-7",
+      "prompt": "What does sociological imagination connect?",
+      "options": [
+        "Only two personal preferences",
+        "Personal experiences and wider social structures",
+        "Only biological explanations"
+      ],
+      "answer": 1,
+      "explanation": "It connects the individual experience to institutions and structures.",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "question-8",
+      "prompt": "What distinguishes a possible explanation from a supported conclusion?",
+      "options": [
+        "Evidence that has been examined",
+        "The number of times it is repeated",
+        "A familiar stereotype"
+      ],
+      "answer": 0,
+      "explanation": "The shorter deck stresses evidence and maintaining an open mind.",
+      "source_refs": [
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b",
+          "page": 16
+        }
+      ]
+    }
+  ]
+}

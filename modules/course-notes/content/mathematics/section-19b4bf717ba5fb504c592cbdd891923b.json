@@ -1,0 +1,824 @@
+{
+  "schema": 1,
+  "subject": "mathematics",
+  "topic": "section-19b4bf717ba5fb504c592cbdd891923b",
+  "title": "Stereometrie",
+  "language": "cs",
+  "intro": "Objemy a povrchy krychle, kvádru, kužele, válce, koule a složených těles. Přehled čte i obrazové snímky prezentace a ukazuje, jak z náčrtu rozhodnout, které plochy nebo objemy opravdu počítat.",
+  "sources": [
+    {
+      "id": "924898a3f3817bc6245f8f00bd648de0c47acbc313666a721bf03cc6b5eb1b88",
+      "sha256": "126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345",
+      "title": "PL_A4_mustr_na_rez_krychle (prazdny).pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345.pdf",
+      "extraction_url": "./extracted/126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345.zip"
+    },
+    {
+      "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+      "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+      "title": "Stereometrie.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be.pptx",
+      "extraction_url": "./extracted/879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "objem-a-povrch",
+      "title": "Než dosadíš: co je délka, plocha a objem",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 2
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 3
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 4
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 5
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Krychle: V = a³, S = 6a².",
+            "Kvádr: V = abc, S = 2(ab + ac + bc).",
+            "Válec: V = πr²v, S = 2πr(r + v).",
+            "Kužel: V = πr²v/3, S = πr(r + s), kde s je strana kužele, nikoliv výška.",
+            "Koule: V = 4πr³/3, S = 4πr².",
+            "Jehlan: V = Sₚv/3, S = Sₚ + Sₚₗ."
+          ],
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 2
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 3
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Objem měříme v krychlových jednotkách, povrch ve čtverečních. Poloměr r není průměr d: r = d/2. Tyto dvě záměny mění výsledek ještě před samotným násobením.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 3
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 4
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 8
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Komolý kužel má podle přehledu V = πh(r₁² + r₁r₂ + r₂²)/3 a obsah pláště Sₚ = π(r₁ + r₂)hₛ. Zde h je kolmá výška a hₛ délka strany pláště v osovém řezu. Obsah pláště nezahrnuje obě podstavy.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 5
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b64b7bc39db7441079004ddf447f7f3d46ebef9ac01156c567071b351c91e0d3.webp",
+          "alt": "Přehled rozměrů a vzorců krychle a kvádru",
+          "caption": "Stereometrie, snímek 2: u povrchu sčítáme stěny, u objemu násobíme tři délky.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 2
+            }
+          ],
+          "source_media": "extracted/879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be/media/slide-002-preview.png",
+          "width": 1400,
+          "height": 788
+        },
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0e02da93320f70b675c7cad1487eeaee487538992ca5b71969b7ad5d6f9daa83.webp",
+          "alt": "Přehled koule, válce a jehlanu s jejich objemy a povrchy",
+          "caption": "Stereometrie, snímek 4: porovnej faktor 1/3 u jehlanu s válcem.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 4
+            }
+          ],
+          "source_media": "extracted/879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be/media/slide-004-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Objem",
+          "Povrch"
+        ],
+        "rows": [
+          {
+            "label": "Co měří",
+            "values": [
+              "Vyplněný prostor",
+              "Obsah hraničních ploch"
+            ]
+          },
+          {
+            "label": "Jednotky",
+            "values": [
+              "Například cm³ nebo m³",
+              "Například cm² nebo m²"
+            ]
+          },
+          {
+            "label": "Složené těleso",
+            "values": [
+              "Objemy lze podle konstrukce přičítat nebo odečítat",
+              "Počítají se jen skutečně přítomné požadované plochy"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "rezane-teleso",
+      "title": "Po rozříznutí přibude řezná plocha",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 9
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 10
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 12
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 18
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 20
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Úlohy s půlkuželem, vykrojenou krychlí, dutinou nebo pečicí formou nejsou pouhé dosazení do vzorce pro původní celé těleso. V náčrtu označ všechny plochy výsledného povrchu: některé původní části zmizí, jiné nově vzniknou řezem nebo dutinou.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 9
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 10
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 12
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Příklad snímku 9: kužel má r = 12 cm a v = 16 cm a je rozříznut osovým řezem na dvě shodné poloviny. Strana kužele je s = √(12² + 16²) = 20 cm. Povrch jedné poloviny tvoří polovina pláště, polovina kruhové podstavy a řezný trojúhelník.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "S poloviny kužele = (πrs)/2 + (πr²)/2 + rv = 120π + 72π + 192 = 192π + 192 ≈ 795 cm². Poslední člen je nová řezná plocha; pouhé půlení původního povrchu by ji vynechalo.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U dutého válce snímek 20 výslovně požaduje i vnitřní plochy. Rozhodnutí „počítám také vnitřní plášť“ je součást čtení zadání, nikoliv kosmetická úprava vzorce.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 20
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/59897868ed274dd594ac7a810c2d16712ff834a105ff132154adee7adc940abf.webp",
+          "alt": "Kužel rozdělený osovým řezem na dva půlkužele se zvýrazněnou řeznou stěnou",
+          "caption": "Stereometrie, snímek 9: nově vzniklá trojúhelníková stěna patří do povrchu.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 9
+            }
+          ],
+          "source_media": "extracted/879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be/media/slide-009-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi stranu kužele",
+          "text": "Z pravoúhlého trojúhelníku osového řezu: s = √(12² + 16²) = 20 cm.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "title": "Vezmi polovinu pláště",
+          "text": "Původní kužel má plášť πrs. Jedna polovina má 120π cm².",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 3
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "title": "Přidej půlkruh a řez",
+          "text": "Polovina podstavy má 72π cm². Trojúhelník v řezu má základnu 24 cm a výšku 16 cm, tedy 192 cm².",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "title": "Sečti až na konci",
+          "text": "S = 192π + 192 ≈ 795,2 cm², po zaokrouhlení na celé cm² 795 cm².",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objemove-pomery",
+      "title": "Při přelévání a dělení sleduj zachování objemu",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 8
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 11
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 13
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 14
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 17
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 19
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 21
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 22
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 23
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Přelití kapaliny nebo rozdělení stejného materiálu na více částí mění tvar, ne součet objemů. Snímky řeší růst hladiny, kouli rozdělenou na dvě kapky i přelévání mezi válci.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 8
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 19
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Koule o průměru 3 mm má poloměr 1,5 mm. Pro dvě stejné kulové kapky platí 2·(4πrₙ³/3) = 4π·1,5³/3. Proto rₙ = 1,5/∛2 ≈ 1,19 mm; poloměr se nepůlí.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U dvou válců na snímku 23 je první třikrát vyšší a má poloviční průměr. Poměr objemů je 3·(1/2)² = 3/4. Voda z prvního proto zaplní tři čtvrtiny druhého, ne jeden a půl jeho objemu.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U hadice snímku 17 počítáme kapacitu z vnitřního průměru 26,3 mm a délky 50 m. Vnitřní poloměr je 0,01315 m, takže V = π·0,01315²·50 ≈ 0,02716 m³ ≈ 27 litrů. Vnější průměr hadice tuto kapacitu neurčuje.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Zadání dalších snímků procvičují skládání kvádru s jehlanem, podíl jehlanu v krychli, součet půlválců, poměry hran a kuželovou sklenici. Ve všech případech nejprve pojmenuj části a jejich společné rozměry.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 11
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 13
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 14
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 16
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 21
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prazdny-nacrt",
+      "title": "Pracovní náčrt je místo pro tvoje řešení",
+      "source_refs": [
+        {
+          "id": "924898a3f3817bc6245f8f00bd648de0c47acbc313666a721bf03cc6b5eb1b88",
+          "sha256": "126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345",
+          "page": 1
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 10
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 15
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 16
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Samostatné PDF obsahuje prázdné náčrty krychle pro konstrukci řezů. Neobsahuje hotové zadání konkrétního řezu ani vyplněné řešení; do náčrtu nejprve doplň označení vrcholů a dané body podle vlastní úlohy.",
+          "source_refs": [
+            {
+              "id": "924898a3f3817bc6245f8f00bd648de0c47acbc313666a721bf03cc6b5eb1b88",
+              "sha256": "126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "V prezentaci podobný náčrt pomáhá rozlišit nové vnější plochy od styčných ploch uvnitř složeného tělesa. Například u stupňů vítězů musí výpočet povrchu respektovat, že stěna ležící na zemi se podle zadání nelepí.",
+          "source_refs": [
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 10
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 15
+            },
+            {
+              "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+              "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+              "page": 16
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/94ccf0ffbea8ac75e5fb31181a6c4d9738723c4816aa911367fb0a0a4131d2a4.webp",
+          "alt": "Prázdné prostorové náčrty krychle pro doplnění konstrukce řezu",
+          "caption": "Původní prázdná šablona; konkrétní řez ani řešení nejsou předvyplněné.",
+          "source_refs": [
+            {
+              "id": "924898a3f3817bc6245f8f00bd648de0c47acbc313666a721bf03cc6b5eb1b88",
+              "sha256": "126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345",
+              "page": 1
+            }
+          ],
+          "source_media": "extracted/126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345/media/page-001-preview.png",
+          "width": 1082,
+          "height": 1400
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-cube",
+      "front": "Jaký objem a povrch má krychle s hranou a?",
+      "back": "V = a³ a S = 6a².",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-cone",
+      "front": "Jaký je objem kužele?",
+      "back": "V = πr²v/3. Výšku v nezaměňuj se stranou kužele s.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "card-sphere",
+      "front": "Jaké vzorce platí pro kouli?",
+      "back": "V = 4πr³/3 a S = 4πr².",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-pyramid",
+      "front": "Co znamená Sₚ ve vzorci V = Sₚv/3?",
+      "back": "Obsah podstavy jehlanu.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-cut",
+      "front": "Proč povrch půlkužele není jen polovina povrchu kužele?",
+      "back": "Řezem vznikne nová trojúhelníková plocha, kterou musíme přičíst.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "card-radius-diameter",
+      "front": "Jak souvisí poloměr a průměr?",
+      "back": "r = d/2; v obsahu a objemu vystupuje druhá či třetí mocnina poloměru.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 3
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 4
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "card-cylinder-ratio",
+      "front": "Jak se změní objem válce při polovičním poloměru a trojnásobné výšce?",
+      "back": "Na 3/4 původního objemu, protože (1/2)²·3 = 3/4.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "card-cavity",
+      "front": "Jaká plocha se snadno zapomene u dutého válce?",
+      "back": "Vnitřní plášť a příslušné okraje podstav, pokud je zadání zahrnuje.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 20
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-cube-values",
+      "prompt": "Krychle s hranou 2 cm má objem…",
+      "options": [
+        "4 cm³",
+        "8 cm³",
+        "24 cm³"
+      ],
+      "answer": 1,
+      "explanation": "V = a³ = 2³ = 8 cm³. Hodnota 24 cm² by byla její povrch, tedy jiná veličina i jednotka.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-cylinder-radius",
+      "prompt": "Válec má průměr 6 cm. Jaký poloměr dosadíš?",
+      "options": [
+        "3 cm",
+        "6 cm",
+        "12 cm"
+      ],
+      "answer": 0,
+      "explanation": "Poloměr je polovina průměru. Záměna by obsah podstavy zvětšila čtyřikrát.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "quiz-cone-volume",
+      "prompt": "Objem kužele se stejnou podstavou a výškou jako válec je…",
+      "options": [
+        "stejný",
+        "jedna třetina objemu válce",
+        "trojnásobný"
+      ],
+      "answer": 1,
+      "explanation": "Kužel má V = πr²v/3, válec V = πr²v.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 3
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "quiz-half-cone",
+      "prompt": "Co je nutné přičíst k polovině pláště a polovině podstavy půlkužele?",
+      "options": [
+        "Další celou kruhovou podstavu",
+        "Novou trojúhelníkovou řeznou stěnu",
+        "Nic, povrch se vždy jen půlí"
+      ],
+      "answer": 1,
+      "explanation": "Osový řez vytvoří další hraniční plochu výsledného tělesa.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "quiz-half-cone-numeric",
+      "prompt": "Půlkužel z r = 12 cm a v = 16 cm má po zaokrouhlení povrch…",
+      "options": [
+        "603 cm²",
+        "795 cm²",
+        "1 206 cm²"
+      ],
+      "answer": 1,
+      "explanation": "s = 20; povrch je 120π + 72π + 192 ≈ 795,2 cm². Hodnota bez řezu by byla příliš malá.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "quiz-mercury",
+      "prompt": "Kouli o průměru 3 mm rozdělíme na dvě shodné koule. Poloměr jedné nové je přibližně…",
+      "options": [
+        "0,75 mm",
+        "1,19 mm",
+        "1,50 mm"
+      ],
+      "answer": 1,
+      "explanation": "Zachování objemu dává rₙ = 1,5/∛2 ≈ 1,19 mm. Půlí se objem, nikoliv poloměr.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "quiz-container-ratio",
+      "prompt": "První válec je třikrát vyšší, ale má poloviční průměr než druhý. Jeho objem je…",
+      "options": [
+        "3/4 objemu druhého",
+        "3/2 objemu druhého",
+        "1/4 objemu druhého"
+      ],
+      "answer": 0,
+      "explanation": "Obsah podstavy se mění se čtvercem průměru: 3·(1/2)² = 3/4.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "quiz-hose",
+      "prompt": "Pro objem vody v hadici použijeme…",
+      "options": [
+        "vnější průměr hadice",
+        "vnitřní průměr dutiny",
+        "jen délku, průměr nerozhoduje"
+      ],
+      "answer": 1,
+      "explanation": "Vodu vyplňuje vnitřní dutina. Zdrojový příklad používá její průměr 26,3 mm a délku 50 m.",
+      "source_refs": [
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+          "page": 17
+        }
+      ]
+    }
+  ]
+}

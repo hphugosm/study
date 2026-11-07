@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": ".. VITAMÍNY\n",
+      "text": "VITAMÍNY\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "VITAMÍNY\n Vitamíny jsou organické látky různého chemického \nsložení, často deriváty izoprenu, heterocyklické \nsloučeniny, steroidní látky, látky sfenolem, esterovou \nnebo chinonovou skupinou ve vzorci. \n Jsou v malých množstvích nepostradatelné pro \nexistenci živých systémů.\n Jejich nedostatek vyvolává poruchy životních funkcí.\n Zatím není znám jejich přesný biochemický účinek."
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "FUNKCE VITAMÍNŮ\n Katalyzátory biochemických reakcí.\n Významná role při procesech vstřebávání a výměny látek \nmezi vnějším prostředím a živým organismem.\n Zachycují volné radikály.\n Regulují a kontrolují metabolismus některých látek\n Umožňují správné fungování hormonů\n Jsou nezbytné pro udržení řady tělesných funkcí a \nvýstavbu nových tkání.\n Slouží jako prevence onemocnění,  posilují imunitní \nreakce organismu.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "VITAMÍNY UMOŽŇUJÍ TVORBU A ÚČINEK HORMONŮ\n Vitamin D je vlastně hormonům velmi podobný – tělo \nho vyrábí v kůži a pak ovlivňuje metabolismus vápníku a \nkostí.\n Vitamin A je důležitý pro tvorbu steroidních hormonů \n(např. pohlavní hormony).\n Vitamin B6 je nutný pro syntézu neurotransmiterů a \nhormonů (serotonin, dopamin).\n Vitamíny podporují enzymy, které reagují na hormony\n Například když inzulin spustí vstup glukózy do buňky, na \nzpracování glukózy jsou potřeba enzymy závislé na \nvitamínech skupiny B (B1, B2, B3)."
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "DRUHY VITAMÍNŮ\n Hydrofilní – rozpustné ve vodě\nPřebytek tělo okamžitě vyloučí\n Lipofilní – rozpustné v tucích \nPřebytek si tělo ukládá – hrozí hypervitaminóza\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": "NEDOSTATEK A PŘEBYTEK VITAMÍNŮ\n Hypovitaminóza (přechodný nedostatek vitamínů)\n Avitaminosa (dlouhodobý nedostatek vitamínů)\nNedostatek vitaminů se projevuje poruchami různých funkcí\norganismu, které mohou vyústit až ve vážná onemocnění.\n Hypervitaminóza (nadbytečný příjem)\nMůže dojít k předávkování organismu. Tento stav je reverzibilní\na odezní, vyloučíme-li daný vitamin ze stravy."
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "SLOŽENÍ\n V letech 1925 – 1950 byla izolována a objasněna \nstruktura většiny vitamínů.\n Vitamíny bývají složkou kofaktorů enzymů.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "text": "SLOŽENÍ\n Vitamín A (retinol) – derivát izoprenu, isoprenoidy -\nterpeny,  vzniká štěpením  β-karotenu\n Vitamín D – steroidní charakter, vznik z cholesterolu UV \nzářením\n Vitamín E (tokoferoly) – isoprenoidy - terpeny, \nantioxidanty, obsahují fenolickou skupinu (OH) –\nantioxidační vlastnosti\n Vitamín K – isoprenoidy- terpeny, chinonová struktura\n Vitamín C (kyselina askorbová) – základ sacharidového \npůvodu, furanosa, redoxní vlastnosti\n Vitamíny skupiny B – často heterocyklické struktury \n(např. thiamin – pyrimidin + thiazol, riboflavin – flavin)."
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "text": "VITAMÍN B1\nThiamin\n heterocyklická struktura\n pyrimidin + thiazol\n podporuje činnost nervů a svalů\n podporuje enzymy, které štěpí cukry\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 10",
+      "number": 10,
+      "text": "VITAMÍN B2\nRiboflavin\n heterocyklická struktura\n V základu je flavin\n Podporuje tvorbu enzymů kontrolujících tvorbu \na  rozklad cukrů a bílkovin\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 11",
+      "number": 11,
+      "text": "VITAMÍN B6\nPyridoxin\n Derivát pyridinu\nFunkce\n metabolismus aminokyselin\n tvorba serotoninu, dopaminu, adrenalinu, \nnoradrenalinu\n tvorba hemoglobinu, podpora enzymů\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 12",
+      "number": 12,
+      "text": "VITAMÍN C\nKyselina askorbová\n základ sacharidového původu, furanosa, redoxní \nvlastnosti\nFunkce\n syntéza kolagenu\n antioxidant  - chrání buňky před volnými radikály\n podporuje imunitní systém\n zvyšuje vstřebávání železa z potravy\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 13",
+      "number": 13,
+      "text": "VITAMÍN A\nRetinol\n Má dlouhý hydrofobní řetězec s primární alkoholovou \nskupinou, díky systému konjugovaných vazeb je barevný. \n Vzniká rozštěpením červeného rostlinného barviva β \nkarotenu. \n Vitamín A  je chemicky zařazen mezi lipidy – isoprenoidy \n– terpeny.  Je derivátem isoprenu. Má 4 izoprenové jednotky\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 14",
+      "number": 14,
+      "text": "VITAMÍNY D\n více druhů (D1 až D7 jedná se o kalciferoly)\n steroidní látky\n chemicky: lipidy – isoprenoidy – steroidy\nVit. D3 cholekalciferol \n vzniká z cholesterolu působením UV záření\n po aktivaci v játrech a ledvinách se mění na kalcitriol, což je \nhormon regulující hladiny vápníku v krvi\n Význam pro metabolismus Ca a P\n ovlivňuje stav kostí a zubů\n nedostatek v dětství působí deformity kostry. Vitamín D je \nzodpovědný za zpětnou resorpci iontů, hlavně Ca2+ a P ze \nstřeva, které se na tvorbě kostí podílí.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 15",
+      "number": 15,
+      "text": "VITAMÍN E\nTokoferol\n patří mezi terpeny – deriváty isoprenu\n obsahuje fenolickou (OH) skupinu - je důležitým \nantioxidantem, má schopnost ničit radikály\n podporuje plodnost (spermatogeneze, vývoj \nembrya)\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 16",
+      "number": 16,
+      "text": "VITAMÍNY K\n isoprenoidy- terpeny, chinonová struktura\n K1 – fylochinon\n rostlinný původ, derivát naftochinonu\n K2 – menachinon\n tvořen střevní mikroflórou (hlavně Escherichia\ncoli ve tlustém střevě\n podílí se na srážení krve – kofaktor při syntéze \nprotrombinu\n podílí se na ukládání vápníku\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 17",
+      "number": 17,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vitaminy rozpustné v tucích\n\nVitamin Zdroj Funkce\nRetinol, Zelenina, žloutek, játra, rybí olej, Růst a tvorba zubů, zrak, ochrana proti\nvit. A mléko infekcím\nalciferol, ítuk, ž é „MNAIAENAKOMO : e\na , í Fybl tu'k_ zloutevk= symiza ' Rídí využití fosfátů a vápníku při tvorbě kostí\nvit. D působením slunečního záření\na-tokoferol, Listová zelenina, rostlinné oleje, Tvorba červených krvinek, brání rozkladu\nvit, E celozmné obilniny mastných kyselin v buňkách\nFylochinon, | Listová zelenina, tvořen bakteriemi: | Podílí se na tvorbě látek umožňujících srážení\nvit, K ve střevech krve\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 18",
+      "number": 18,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vitaminy rozpustné ve vodě\n\nVitamin Zdroj Funkce\nThiamin, Celá zma, játra, hrách, lusky, Funkce enzymů podporujících štěpení cukrů,\nvit. Bz kvasnice, ořechy pomáhá při činnosti nervů a svalů\nRiboflavin, aR : ZY : á Tvorba enzymů kontrolujících tvorbu a rozklad\nzt ; Mléko, vejce, sýry, listová zelenina krů a bílkovin\nNiacin, Libová masa, pšeničné klíčky, Pomáhá při tvorbě enzymů zajišťujících\nvit. Ba obilniny, ryby, kvasnice tkáňové dýchání\nIÍ_VÍ::IM se Maso, celozmné obilniny, zelenina, Pomáhá při tvorbě enzymů štěpících cukry a\npan ? SU ořechy, kvasnice tuky, tvorba pohlavních hormonů\nvit. Bs\nPyridoxal, č HE o Pomáhá při tvorbě enzymů rozkládajících\nvit B; Celozmné obilniny, játra, žloutek, madtié kysc é nn vý\nPa ]13;70(?,1;;. řň Širrvěceničt acice Pomáhá při tvorbě enz;ímú štěpících tuky a\nKyselina listová, Listová zelenina, játra, ovoce, Pomáhá při tvorbě enzymů podílejících se na\nvit. Bo kvasnice tvorbě nukleových kyselin\nKyanokobalamin, | Játra, ledviny, ryby, vejce, mléko, : | Pomáhá při tvorbě enzymů tvořících bílkoviny,\nvit. Bz maso, ústřice podpora tvorby červených krvinek\nKyselina Podporuje tvorbu kolagenu, je nezbytný pro\n\naskorbová, vit. C\n\nCitrusové plody, rajčata, brambory\n\nčinnost mnoha enzymů\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 19",
+      "number": 19,
+      "text": "VÝROBA VITAMÍNŮ:\n Všechny vitamíny jsou vyráběny průmyslově.\n Přidávají se do potravin, krmiv a hlavně slouží v \nmedicíně.\n Vyrábějí se buď chemickou cestou nebo izolací z \npřírodních zdrojů, jako jsou rybí játra, sojový olej, tuk \napod. \n Např. Vit. C se vyrábí z glukosy několika stupňovou \nsyntézou. \n Kyselina askorbová\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "VZORCE VITAMÍNŮ\n\nVitamin A1\nH£, c ©Hs jJ\nó;\\)\\/\\)\\/\\on\n3\n\nY ( CH,CH,OH\nTHIAMINE j)\\\n\nž Š\"\"'l/\\/\\COOH\n\nVitamin D\n\n",
+      "text": "VZORCE VITAMÍNŮ\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 21",
+      "number": 21,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "©\n. Děkuji za pozornost\nd\n",
+      "text": ".\nDěkuji za pozornost"
+    }
+  ]
+}

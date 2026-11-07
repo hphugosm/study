@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "sha256": "c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": ")\n\nN H\n\nADENIN\n\nHomc o G(H\n\nB- D- deoxyribosa\n\nPárování bází\n\nA- T\nA-U\nG-C\n\nAY\n\nNÍ NH\n\nGUANIN\n\nHoHc o SH\n\nH H\n\nH H\nOoH oOoH\n\nB-D ribosa\n\nN\n\n2\n\nA\n\nCYTOSIN\n\nHN l cH HN)Ř\nO/k%J O/LĚJ\n\nTHYMIN URACIL\n\nnukleosid\n\nnukleotid\n",
+      "text": "Párování bází \nA – T\nA – U\nG – C"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "SCHÉMA STRUKTURY MOLEKULY DNA\n\n(a) Key features of (b) Partial chemical structure (c) Space-filling model\nDNA structure\n\nCopyright © Peoarson Educoton, Inc,, publshing a3 Benjsmín Curmrings,\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "KodX XU\nKBCBAgoM\n\nJe A MoWw H\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "kostra z I\nfosforečné a cukru\njednotlivá baze\n\nbuněčné jádro\n3 34 nm\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "transkripce translace\n\nDNA > ———————> RNA — > bílkovina\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Polarita DNA-řetězců v replikační vidličce\n\n5 m rodičovská\n3' ——E€uUNN ; DNA\nnově syntetizované 3\n\nřetězce -)\n\n' —m—am— 3'\n3 : 2%\n\nsměr pohybu\nreplikační vidličky\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 10",
+      "number": 10,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "The Central Dogma of Molecular Biology\n\nReplication\nDNA duplicates\n\nI lnformmioní\n\nilnfom\\zrion\nv Transcription\nRNA RNA synthesis\nNucleus\n/// ucleus\n.-\n/// mRNA\n717\n: 7 Nuclear membrane\ns\nCytoplasm\np PU nNU\n+ Nrnl LU Imnmlllllllllllllll\\IIIIIIIÍIIII]III!!RNA Přřšlkékký\nribosome Protein synthesis\nProtein\nprotein\n\n(Andy Vienrscie 1999\n",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "schema": 1,
+  "subject": "geography",
+  "topic": "section-78d788409010e2eb6c2a02318a5eba7f",
+  "title": "LATINSKÁ AMERIKA",
+  "language": "cs",
+  "intro": "Od And přes Amazonskou pánev po Patagonii: sleduj, jak reliéf, podnebí a vodstvo vytvářejí odlišné krajiny Latinské Ameriky. Prezentace se soustředí hlavně na Jižní Ameriku; doplňkový seznam pro slepou mapu zahrnuje také Mexiko a Karibik.",
+  "sources": [
+    {
+      "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+      "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+      "title": "JIŽNÍ AMERIKA - fyzická geografie.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7.pptx",
+      "extraction_url": "./extracted/1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7.zip"
+    },
+    {
+      "id": "b0660fd576ee16b3ea2f7955ad4bfe6294439a45016740023ca0d2145f805a86",
+      "sha256": "94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d",
+      "title": "POJMY SLEPÁ MAPA LA.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d.docx",
+      "extraction_url": "./extracted/94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "scope-relief",
+      "title": "Rozsah regionu a velké celky povrchu",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Úvodní mapa rozlišuje Střední Ameriku a Mexiko, karibskou oblast a Jižní Ameriku. Při práci se seznamem názvů proto nejprve urči, o kterou část regionu jde: Kalifornský poloostrov nebo Kuba nejsou jihoamerické horské celky.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "V Jižní Americe prezentace staví vedle sebe Kordillery s Andami, Guyanský a Brazilský pevninský štít, Orinockou a Amazonskou nížinu, Altiplano a Patagonii. Základním úkolem je odlišit dlouhé horské pásmo na západě od štítů a nížin dále na východ.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Seznam pro slepou mapu doplňuje Sierra Madre Occidental a Oriental, Laplatskou nížinu a Patagonskou tabuli. Skupiny názvů nejsou hotovým vysvětlením: vždy rozliš název řeky, vysočiny, nížiny nebo pohoří.",
+          "source_refs": [
+            {
+              "id": "b0660fd576ee16b3ea2f7955ad4bfe6294439a45016740023ca0d2145f805a86",
+              "sha256": "94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d",
+              "locator": "odstavec 13"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b96dde7b89c46491d68065c927da665fbf6bc65254e40b7ca4e0f299e5ca7519.webp",
+          "alt": "Mapa členění Latinské Ameriky na Střední Ameriku a Mexiko, Karibik a Jižní Ameriku",
+          "caption": "Nejdříve vymez region, až potom přiřazuj jednotlivé názvy.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 1
+            }
+          ],
+          "source_media": "extracted/1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7/media/slide-001-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "plates",
+      "title": "Pohyb desek a horská bariéra",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 3
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Prezentace otevírá přírodní poměry mapou litosférických desek a otázkou po jejich styku. Následující schéma ukazuje podsouvání oceánské desky, příkop a sopečnou i horskou činnost. Obrázek propojuje útvary, které by jinak zůstaly odděleným seznamem názvů.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 3
+            },
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Andy dále vystupují jako bariéra vůči Tichému oceánu. Podnebí podle prezentace ovlivňuje také nadmořská výška, mořské proudy a všeobecný oběh atmosféry. Šířková poloha mezi obratníky proto sama nevysvětlí každé místo.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 18
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b35dc464b249efaa2933c457184e281394dfb427f08d03048bd3abf3cc52671d.webp",
+          "alt": "Schéma podsouvání oceánské desky pod kontinent, vzniku příkopu, pohoří a sopek",
+          "caption": "Čti schéma od styku desek k povrchovým projevům, snímek 4.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 4
+            }
+          ],
+          "source_media": "extracted/1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7/media/slide-004-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ],
+      "steps": [
+        {
+          "title": "Styk desek",
+          "text": "Sleduj šipky pohybu na schématu.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "title": "Podsouvání",
+          "text": "Oceánská deska na obrázku klesá pod kontinentální okraj.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "title": "Povrchový projev",
+          "text": "Schéma spojuje proces s příkopem, pohořím a sopkou.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "title": "Vliv na krajinu",
+          "text": "Vysoké Andy pak ovlivňují podnebí jako bariéra a výškový rozdíl.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amazon-water",
+      "title": "Amazonie a vodstvo",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 12
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Amazonii zdroj představuje jako mimořádně rozsáhlý deštný les s vysokou biodiverzitou. Amazonská nížina, povodí Amazonky a les nejsou tři totožné pojmy: nížina označuje reliéf, povodí vodní soustavu a les vegetaci.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Amazonku prezentace zdůrazňuje velkým průtokem, rozlehlým povodím a množstvím přítoků. Seznam pro mapu doplňuje Orinoko, Madeiru, Tocantins, Paranu, Paraguay a Uruguay. V mapě proto sleduj celou říční síť, ne jen jednu nejznámější řeku.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Materiál k vodstvu vyžaduje vysvětlit povodí, úmoří, rozvodí a průměrný průtok. Přiložená mapa umožňuje porovnat cesty vody k Atlantskému a Tichému oceánu; pouhé vyjmenování řek nenahrazuje práci s tokem vody.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Příčiny odlesňování podklad spojuje s pastvinami, komerčními plodinami, dopravními stavbami a těžbou dřeva či nerostů. Nejde tedy o jedinou příčinu: různé hospodářské činnosti mohou měnit stejnou krajinu.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 14
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/ecdd0cdf37e0624c4d5b86652998880f95d2cd6f0505f71759894d27e9bd0316.webp",
+          "alt": "Mapa odtoku Jižní Ameriky k Atlantskému a Tichému oceánu",
+          "caption": "Sleduj rozdělení odtoku a polohu říčních soustav na snímku 24.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 24
+            }
+          ],
+          "source_media": "extracted/1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7/media/slide-024-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Pojem",
+          "Co zdůrazňuje"
+        ],
+        "rows": [
+          {
+            "label": "Amazonská nížina",
+            "values": [
+              "Tvar povrchu",
+              "Nížinný reliéf"
+            ]
+          },
+          {
+            "label": "Povodí Amazonky",
+            "values": [
+              "Vodní soustavu",
+              "Území spojené odtokem do říční sítě"
+            ]
+          },
+          {
+            "label": "Amazonský deštný les",
+            "values": [
+              "Vegetační pokryv",
+              "Les a jeho biodiverzitu"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "climate-land-use",
+      "title": "Podnebí, biomy a využití krajiny",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 21
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Prezentace rozlišuje vlhké tropy s pralesem, střídavě vlhké tropy se savanami a řídkými lesy, subtropické stepi neboli pampy a chladnější či vysokohorské krajiny. Kategorie připojuj k mapě, protože nezabírají stejný prostor.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Laplatská nížina je v podkladu spojena se stepí, kvalitní půdou a chovem dobytka. Fotografie Patagonie a andský výškový přehled ukazují odlišné prostředí než amazonský les. Jeden stereotyp tropického kontinentu tak nevystihuje všechny zobrazené oblasti.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 16
+            },
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 17
+            },
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Seznam pro slepou mapu vyžaduje pevninské státy Latinské Ameriky a jejich hlavní města a doplňuje Kubu, Jamajku, Dominikánskou republiku a Haiti. Je to seznam rozsahu procvičování, nikoli seznam odpovědí; názvy měst v něm nejsou rozepsány.",
+          "source_refs": [
+            {
+              "id": "b0660fd576ee16b3ea2f7955ad4bfe6294439a45016740023ca0d2145f805a86",
+              "sha256": "94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d",
+              "locator": "odstavec 16"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/d169eede92a952e93a214b6b646e0791a7668f0695f4a26ca6eaae84e30b5957.webp",
+          "alt": "Výškové členění využití půdy v Andách",
+          "caption": "Porovnej pásma na svahu; nadmořská výška rozlišuje podmínky na malém půdorysu.",
+          "source_refs": [
+            {
+              "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+              "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+              "page": 22
+            }
+          ],
+          "source_media": "extracted/1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7/media/slide-022-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "region",
+      "front": "Jaké tři části rozlišuje úvodní členění?",
+      "back": "Střední Ameriku a Mexiko, karibskou oblast a Jižní Ameriku.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "andes",
+      "front": "Jakou roli přisuzuje prezentace Andám v podnebí?",
+      "back": "Působí jako bariéra vůči Tichému oceánu; významná je také nadmořská výška.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "id": "amazon-terms",
+      "front": "Proč nejsou Amazonská nížina a amazonský les stejný pojem?",
+      "back": "Nížina popisuje povrch, les popisuje vegetační pokryv.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "clearing",
+      "front": "Jmenuj tři příčiny odlesňování uvedené ve zdroji.",
+      "back": "Například pastviny, komerční plodiny, dopravní stavby a těžba.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "pampas",
+      "front": "Jaké krajině odpovídají pampy v prezentaci?",
+      "back": "Subtropickým stepím.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "laplata",
+      "front": "S čím podklad spojuje Laplatskou nížinu?",
+      "back": "Se stepí, kvalitní půdou a chovem dobytka.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "map-range",
+      "front": "Obsahuje seznam pro mapu i karibské státy?",
+      "back": "Ano, výslovně doplňuje Kubu, Jamajku, Dominikánskou republiku a Haiti.",
+      "source_refs": [
+        {
+          "id": "b0660fd576ee16b3ea2f7955ad4bfe6294439a45016740023ca0d2145f805a86",
+          "sha256": "94c456bbc739c16395184cf3c9d07fe0cc9d541c6c9a199c89dfcb9d2d06478d",
+          "locator": "odstavec 16"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "scope",
+      "prompt": "Které členění odpovídá úvodní mapě?",
+      "options": [
+        "Jen Brazílie a Argentina",
+        "Střední Amerika a Mexiko, Karibik, Jižní Amerika",
+        "Pouze Andy a Amazonie"
+      ],
+      "answer": 1,
+      "explanation": "Úvodní mapa rozlišuje širší region; Andy a Amazonie jsou dílčí jihoamerické oblasti.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-plates",
+      "prompt": "Co ukazuje tektonické schéma?",
+      "options": [
+        "Podsouvání oceánské desky a související příkop, pohoří a sopku",
+        "Jen říční erozi bez pohybu desek",
+        "Vznik ledovce na rovině"
+      ],
+      "answer": 0,
+      "explanation": "Schéma spojuje pohyb desek s konkrétními povrchovými projevy.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "prompt": "Které rozlišení je správné?",
+      "options": [
+        "Nížina a les jsou vždy totéž.",
+        "Povodí označuje jen druh stromu.",
+        "Nížina popisuje reliéf, les vegetaci."
+      ],
+      "answer": 2,
+      "explanation": "Pojmy zachycují různé vlastnosti téže širší oblasti.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "quiz-clearing",
+      "prompt": "Která činnost patří mezi příčiny odlesňování ve zdroji?",
+      "options": [
+        "Získávání pastvin a půdy pro komerční plodiny",
+        "Pouze pozorování ptáků",
+        "Jen pokles teploty ve vysokých horách"
+      ],
+      "answer": 0,
+      "explanation": "Prezentace uvádí několik hospodářských příčin včetně zemědělství, dopravy a těžby.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "climate",
+      "prompt": "Který soubor vlivů podnebí uvádí prezentace?",
+      "options": [
+        "Jen zeměpisnou šířku bez dalších vlivů",
+        "Andy, nadmořskou výšku, mořské proudy a oběh atmosféry",
+        "Výhradně rozložení státních hranic"
+      ],
+      "answer": 1,
+      "explanation": "Podklad výslovně kombinuje více přírodních vlivů.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "id": "quiz-pampas",
+      "prompt": "Co znamenají pampy v přehledu biomů?",
+      "options": [
+        "Tropický deštný les",
+        "Vysokohorský ledovec",
+        "Subtropické stepi"
+      ],
+      "answer": 2,
+      "explanation": "Pampy jsou ve slajdu uvedeny jako stepi v subtropech.",
+      "source_refs": [
+        {
+          "id": "3ef6787f813d697b0598fccd9e6058f2889b7c24ffb6c49f4391f57ed0d36cf3",
+          "sha256": "1d5913d67ec7226207d10b81ec5406692d2335e806ec1f187e63e74f5f895da7",
+          "page": 21
+        }
+      ]
+    }
+  ]
+}

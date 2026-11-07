@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "sha256": "3c67cab79f25f4ac4766d9413240e88e77195a9bfcb6e30d97d31dc5adc611fb",
+  "units": [
+    {
+      "kind": "table",
+      "label": "table 1",
+      "number": 1,
+      "text": "\tPublic Law\tPrivate Law\nGeneral Definition\t\t\nExample of a Type of Practiced Law\t\t\nParties Involved (and their names)\t\t\nBurden of Proof \t\t\nPossible Outcomes\t\t\nPunishment\t\t"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "Breakdown of Law"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Breakdown of Law\nPublic Law Private Law\nGeneral Definition\nExample of a Type \nof Practiced Law\nParties Involved \n(and their names)\nBurden of Proof \nPossible Outcomes\nPunishment"
+    }
+  ]
+}

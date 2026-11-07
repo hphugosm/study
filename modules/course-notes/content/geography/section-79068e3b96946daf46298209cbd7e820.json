@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "subject": "geography",
+  "topic": "section-79068e3b96946daf46298209cbd7e820",
+  "title": "Požadavky k předmětu",
+  "language": "cs",
+  "intro": "Praktický přehled k semináři zeměpisu: pomůcky, testy a konzultace podle přiloženého dokumentu. Podrobné klasifikační podmínky zůstávají v originálu; mohou být upraveny vyučujícím.",
+  "sources": [
+    {
+      "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+      "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+      "title": "Požadavky k předmětu (Zeměpis).docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102.docx",
+      "extraction_url": "./extracted/01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "preparation",
+      "title": "Příprava na hodinu a oznámení testů",
+      "source_refs": [
+        {
+          "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+          "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+          "locator": "odstavec 25"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dokument požaduje samostatný sešit pro zeměpis a školní atlas světa. Doporučuje také učebnici Makroregiony světa.",
+          "source_refs": [
+            {
+              "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+              "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+              "locator": "odstavec 26"
+            },
+            {
+              "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+              "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+              "locator": "odstavec 27"
+            },
+            {
+              "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+              "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+              "locator": "odstavec 30"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Testy mají být podle dokumentu oznámeny nejméně týden předem ve školním systému, v informaci k příslušné hodině. Kontroluj tedy oznámení ve školním systému, ne jen vlastní zápisky.",
+          "source_refs": [
+            {
+              "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+              "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+              "locator": "odstavec 17"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Před konzultací je třeba dát vědět, aby se vyučující mohla připravit. Dokument zároveň upozorňuje, že konzultace může odpadnout.",
+          "source_refs": [
+            {
+              "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+              "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+              "locator": "odstavec 10"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Dokument připouští úpravu klasifikačních škál. Jde o pravidla tohoto přiloženého kurzu, nikoli univerzální stupnici pro všechny předměty.",
+          "source_refs": [
+            {
+              "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+              "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+              "locator": "odstavec 16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [],
+  "questions": []
+}

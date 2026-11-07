@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Úvod do optiky\nPotřebné vztahy\nn1 sin α = n2 sin β n = c\nv sin αm = 1\nn1\n1. Jak vysoké rovinné zrcadlo a v jaké výšce potřebuje stojící člověk vysoký 180 cm k tomu, aby se v něm\nviděl celý (od chodidel až po temeno hlavy)? Zrcadlo je umístěno na svislé stěně. Využijte geometrickou\nkonstrukci.\n2. V Kalifornii nalezneme nejvyšší žijící strom na světě. Druh stromu se nazývá sekvoj vždyzelená a jméno\ntohoto stromuje Hyperion. Představte si, že byste chtěli změřit jeho výšku. Do vzdálenosti 102 metrů od\nstromu položíte zrcátko. Postavíte-li se 150 cm od zrcátka (tedy 103,5 m od stromu), uvidíte v zrcátku\nšpičku Hyperionu.\n3. Urči index lomu skla, pokud se v něm světlo šíří rychlostí 200 000 km/s.\n4. Na obrázku je zachycen průchod světla přes čtyři\nvrstvy různých látek. Porovnej jejich indexy lomu.\n5. Kam musí mířit lovec, pokud chce chytit rybu ve vodě?\n6. Světlo dopadá ze vzduchu do vody pod úhlem 35 °. Urči pod jakým úhlem se bude světlo ve vodě šířit.\nIndex lomu vody je 1,33.\n7. Světelný paprsek dopadá ze vzduchu na rozhraní se sklem pod úhlem 55 °. Urči index lomu skla, jestliže\nlomený paprsek je kolmý na odražený paprsek.\n8. Světelný paprsek dopadá na skleněnou desku s\nrovnoběžnými stěnami (viz obrázek). Načrtněte\nprůchod paprsku deskou. Pomocí zákona lomu\ndokažte, že paprsek vycházející z desky je rovnoběžný\ns dopadajícím paprskem.\n9. Světelný paprsek prochází z vody do vzduchu. Urči pod jakým úhlem projde do vzduchu, pokud na\nrozhraní z vody dopadá pod úhlem 80 °.\n10. Pod jakým mezním úhlem musí dopadat světlo, aby nastal totální odraz, pokud světlo přechází:\n(a) ze skla do vzduchu n1 = 1, 5,\n(b) z vody do vzduchu n1 = 1, 33,\n(c) ze skla do vody."
+    }
+  ]
+}

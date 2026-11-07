@@ -1,0 +1,1142 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-e50b1d9503439050a4b416599d3b6a19",
+  "title": "Lipidy a biomembrány",
+  "language": "cs",
+  "intro": "Propoj strukturní vzorce lipidů s jejich vlastnostmi, membránami a metabolismem. Procvičíš rozdíl mezi mastnou kyselinou a triacylglycerolem, vznik mýdla i rozlišení syntézy a odbourávání mastných kyselin.",
+  "sources": [
+    {
+      "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+      "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+      "title": "Lipidy pracovní list 2020.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431.docx",
+      "extraction_url": "./extracted/786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431.zip"
+    },
+    {
+      "id": "12b00df0a04892234275d27417b4b3ccd5da4538064cf7a8499f8b0491dcd3c3",
+      "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed",
+      "title": "Pracovní list lipidy vzorce zjednodušené 2021.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed.docx",
+      "extraction_url": "./extracted/71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed.zip"
+    },
+    {
+      "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
+      "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
+      "title": "ATP, NADPH 2023.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063.docx",
+      "extraction_url": "./extracted/47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063.zip"
+    },
+    {
+      "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+      "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+      "title": "4 LIPIDY 2024.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912.pdf",
+      "extraction_url": "./extracted/04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912.zip"
+    },
+    {
+      "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+      "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c",
+      "title": "2 doplňek, obrázky lipidy.doc",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c.doc",
+      "extraction_url": "./extracted/7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lipidy-a-funkce",
+      "title": "Co spojuje rozmanité lipidy",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 2
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 3
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lipidy tvoří rozmanitou skupinu látek. Podklad zdůrazňuje jejich malou rozpustnost ve vodě a rozpustnost v nepolárních rozpouštědlech. Základní členění zahrnuje triacylglyceroly, vosky, polární lipidy a isoprenoidy.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zásobní funkce: lipidy představují zásobu energie.",
+            "Strukturní funkce: podílejí se na biomembránách a stavbě nervové tkáně.",
+            "Ochranná funkce: mechanická ochrana orgánů a tepelná izolace."
+          ],
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rozlišení zmýdelnitelných a nezmýdelnitelných lipidů se týká jejich chemické stavby. Podklad mezi zmýdelnitelné řadí triacylglyceroly a polární lipidy a mezi nezmýdelnitelné isoprenoidy a jejich deriváty, například cholesterol.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "triacylglyceroly-a-mastne-kyseliny",
+      "title": "Mastná kyselina není hotový tuk",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 4
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 6
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 7
+        },
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Triacylglycerol je ester glycerolu a vyšších mastných kyselin. Odliš tedy alkoholovou složku glycerol, samostatnou mastnou kyselinu a výslednou molekulu triacylglycerolu. Název „tri-“ v tomto tématu připomíná tři navázané acylové zbytky.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 4
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 8
+            },
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "locator": "otázky ke složení triacylglycerolů"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tabulka strukturních vzorců ukazuje mastné kyseliny s různou délkou řetězce a různým počtem dvojných vazeb. Při čtení vzorce nejdřív najdi karboxylovou skupinu, potom spočítej uhlíky a zaznamenej dvojné vazby. Esenciální mastné kyseliny musí organismus získávat potravou; podklad uvádí skupiny omega-6 a omega-3.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 6
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Mastná kyselina je jedna ze stavebních složek triacylglycerolu. Glycerol je druhá složka; výsledný ester není totožný ani s jednou z nich.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 4
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e2bf0546beb7c75f712daedbd3a43f24592f307997bb1aa74335ca0f47ab6c6e.webp",
+          "alt": "Přehled vzorců nasycených a nenasycených mastných kyselin",
+          "caption": "Hledej zakončení COOH, délku řetězce a dvojné vazby. Původní prezentace, strana 6.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 6
+            }
+          ],
+          "source_media": "extracted/04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912/media/page-006-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "vznik-a-stepeni-tuku",
+      "title": "Esterifikace, hydrolýza a hydrogenace",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 8
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 10
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 12
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 13
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 14
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Při esterifikaci reaguje glycerol s karboxylovými kyselinami za vzniku tuku a vody. Hydrolýza esterové vazby naopak vede ke štěpení tuku na glycerol a mastné kyseliny. Směr reakce je proto při vysvětlování stejně důležitý jako názvy látek.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 8
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Hydrogenace je v podkladu popsána jako ztužování: nenasycené mastné kyseliny se sytí vodíkem. Žluknutí označuje zkázu a rozklad tuků spojený s nepříjemným zápachem. Nejde tedy o jiný název esterifikace.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 12
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pro získávání tuků uvádí prezentace lisování rozdrcených semen, vytavování a vyluhování v organických rozpouštědlech. Tyto způsoby získávání odliš od samotné chemické přeměny molekul.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Esterifikace",
+          "Hydrolýza"
+        ],
+        "rows": [
+          {
+            "label": "Směr děje v popisu tuku",
+            "values": [
+              "Vznik esteru z glycerolu a karboxylových kyselin.",
+              "Štěpení esterových vazeb tuku."
+            ]
+          },
+          {
+            "label": "Úloha vody",
+            "values": [
+              "Voda se při tvorbě esterových vazeb odštěpuje.",
+              "Voda se účastní hydrolytického štěpení."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mydlo-a-vosky",
+      "title": "Zmýdelňování a další skupiny lipidů",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 15
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 16
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 17
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 21
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 22
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 23
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 24
+        },
+        {
+          "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+          "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mýdla vznikají při zásadité hydrolýze tuků za použití NaOH nebo KOH. Prezentace spojuje jejich čisticí účinek se snížením povrchového napětí vodných roztoků; obrázkový doplněk ukazuje uspořádání částic kolem nečistoty a její uvolnění do vody.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 15
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 16
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 17
+            },
+            {
+              "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+              "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c",
+              "locator": "obrázky micely a čisticího účinku"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Přírodní vosky jsou estery vyšších mastných kyselin s vyššími jednosytnými alkoholy. V podkladu mají ochrannou a stavební funkci a mohou vytvářet vodoodpudivé vrstvy. Parafínové „vosky“ jsou v témže přehledu odlišeny jako směsi dlouhých alkanů.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 21
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Isoprenoidy jsou v prezentaci rozděleny na terpeny a steroidy. Jako příklady jsou uvedeny silice a pryskyřice, kaučuk, cholesterol, vitamin D a některé hormony. Obrázkový doplněk umožňuje porovnat isopren, steran a cholesterol.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 23
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 24
+            },
+            {
+              "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+              "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c",
+              "locator": "vzorce isoprenu, steranu a cholesterolu"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/d15ba1487d1c45892cd29089edcf49c494920d49ab4dce023716fdd40fa24fd7.webp",
+          "alt": "Obrázkový doplněk s lipidovou dvojvrstvou, fosfolipidem, steroidními vzorci a micelami",
+          "caption": "Porovnej dvojvrstvu s micelou a najdi polární a nepolární část. Původní obrázkový dokument.",
+          "source_refs": [
+            {
+              "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+              "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c"
+            }
+          ],
+          "source_media": "extracted/7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c/media/page-001-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ]
+    },
+    {
+      "id": "biomembrany-a-transport",
+      "title": "Dvojvrstva odděluje, bílkoviny umožňují výměnu",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 26
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 27
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 28
+        },
+        {
+          "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+          "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Polární lipid obsahuje hydrofilní polární část a hydrofobní nepolární část. Prezentace uvádí fosfolipid jako typického zástupce a propojuje jej s lipidovou dvojvrstvou biomembrán. Biomembránu vedle lipidové dvojvrstvy spoluvytvářejí membránové bílkoviny.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 26
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Membrána odděluje prostory, například buňku od okolí, ale buňka musí dále vyměňovat látky, energii a informace. V přehledu najdeme volnou difuzi, transport pomocí iontových kanálků nebo přenašečů a endocytózu. Sodnodraselná pumpa je uvedená jako příklad aktivního transportu: přesouvá sodík ven z buňky a draslík dovnitř.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 27
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 28
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Při popisu transportu odpověz na tři otázky: co přechází, kudy přechází a mezi kterými prostory se pohybuje.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 28
+            },
+            {
+              "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+              "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c",
+              "locator": "schémata membránového transportu"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/078d870b1e242de3e85a38d1168d6cde004ebb261f4e96aa19003ff8da3fca46.webp",
+          "alt": "Schéma průchodu malých molekul, látek rozpustných v lipidech, látek rozpustných ve vodě a iontů přes membránu",
+          "caption": "Obrázek porovnává různé skupiny částic vůči lipidové dvojvrstvě. Strana 29.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 29
+            }
+          ],
+          "source_media": "extracted/04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912/media/page-029-image-001.jpg",
+          "width": 486,
+          "height": 346
+        }
+      ],
+      "steps": [
+        {
+          "title": "Oddělení prostorů",
+          "text": "Lipidová dvojvrstva vytváří hranici mezi dvěma prostředími.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 26
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 27
+            }
+          ]
+        },
+        {
+          "title": "Vlastnost částice",
+          "text": "Rozliš malou molekulu, látku rozpustnou v lipidech, polární látku a iont.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 28
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 29
+            }
+          ]
+        },
+        {
+          "title": "Způsob přenosu",
+          "text": "V podkladu vybírej mezi difuzí, kanálkem, přenašečem a váčkovým transportem; nepopisuj všechny průchody jako stejný děj.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metabolismus-lipidu",
+      "title": "Trávení, přenos a využití mastných kyselin",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 34
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 35
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 39
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 40
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 42
+        },
+        {
+          "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+          "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hlavní trávení tuků lokalizuje prezentace do tenkého střeva a spojuje ho s lipázami a žlučí. Lipázy hydrolyzují tuky; vzniklé mastné kyseliny se následně vstřebávají a jsou transportovány v organismu.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 34
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U lipoproteinů rozlišuje podklad HDL, LDL a VLDL. Pro základní orientaci uvádí směr přenosu: LDL z jater do tkání, HDL z tkání do jater.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při energetickém využití se nejdřív hydrolyticky rozštěpí esterové vazby tuku. Mastná kyselina se aktivuje vazbou na CoA a vstupuje do β-oxidace. Ta v uvedeném přehledu probíhá v mitochondriích a postupně zkracuje řetězec o dva atomy uhlíku až na acetylové zbytky vázané na CoA.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 39
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 40
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Syntéza mastných kyselin je naopak v podkladu umístěna do cytoplazmy a energii vyžaduje. Srovnávací obrázek dobře ukazuje rozdíl mezi odbouráváním v mitochondrii a tvorbou v cytosolu; přesné energetické součty se v tomto procvičování nehodnotí.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 42
+            },
+            {
+              "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+              "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c",
+              "locator": "schéma syntézy a β-oxidace"
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "β-oxidace mastných kyselin",
+          "Syntéza mastných kyselin"
+        ],
+        "rows": [
+          {
+            "label": "Hlavní směr změny",
+            "values": [
+              "Postupné zkracování uhlíkatého řetězce.",
+              "Tvorba a prodlužování uhlíkatého řetězce."
+            ]
+          },
+          {
+            "label": "Místo uvedené v podkladu",
+            "values": [
+              "Mitochondrie.",
+              "Cytoplazma / cytosol."
+            ]
+          },
+          {
+            "label": "Energetická úloha v přehledu",
+            "values": [
+              "Součást získávání energie z mastných kyselin.",
+              "Proces vyžadující přísun energie."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "atp-koenzymy-a-vzorce",
+      "title": "Energie a přenašeče ve vzorcích",
+      "source_refs": [
+        {
+          "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
+          "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063"
+        },
+        {
+          "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+          "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c"
+        },
+        {
+          "id": "12b00df0a04892234275d27417b4b3ccd5da4538064cf7a8499f8b0491dcd3c3",
+          "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed"
+        },
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Doplněk k ATP a NADPH popisuje ATP jako přenašeč chemické energie. Při přeměně ATP na ADP se energie může využít například pro membránový transport nebo biosyntetické procesy. ATP obsahuje bázi, ribózu a fosfátové zbytky; ADP a AMP se odlišují jejich počtem.",
+          "source_refs": [
+            {
+              "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
+              "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
+              "locator": "část Nukleotid ATP"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tentýž dokument rozlišuje redukované formy NADH a NADPH a oxidované formy NAD⁺ a NADP⁺. Jsou uváděny jako koenzymy oxidačně-redukčních dějů a přenašeče vodíku včetně elektronů. Ve schématu syntézy mastných kyselin proto sleduj přenašeče zvlášť od samotného uhlíkatého řetězce.",
+          "source_refs": [
+            {
+              "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
+              "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
+              "locator": "část Koenzymy oxidačně-redukčních reakcí"
+            },
+            {
+              "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+              "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c",
+              "locator": "schéma syntézy mastných kyselin"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pracovní list s lomenými vzorci procvičuje přepis do racionální podoby a pojmenování. U každého obrázku nejdřív určuj funkční skupinu, počet uhlíků a dvojné vazby; teprve potom rozhoduj, zda jde o mastnou kyselinu, ester, alkohol nebo sůl.",
+          "source_refs": [
+            {
+              "id": "12b00df0a04892234275d27417b4b3ccd5da4538064cf7a8499f8b0491dcd3c3",
+              "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed",
+              "locator": "zadání a obrázek vzorců"
+            },
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/3f1876caa8b91dd6321987cf07de379f7bd887153d2b541a2a0310393caf8b5c.webp",
+          "alt": "Pracovní list s lomenými vzorci mastných kyselin, triacylglycerolu, glycerolu a soli",
+          "caption": "Při přepisu kontroluj funkční skupinu a počet uhlíků. Původní pracovní list.",
+          "source_refs": [
+            {
+              "id": "12b00df0a04892234275d27417b4b3ccd5da4538064cf7a8499f8b0491dcd3c3",
+              "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed"
+            }
+          ],
+          "source_media": "extracted/71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed/media/document-image-001.png",
+          "width": 1800,
+          "height": 1200
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi funkční skupinu",
+          "text": "V tabulce rozliš COOH, esterové spojení, OH a karboxylátovou sůl.",
+          "source_refs": [
+            {
+              "id": "12b00df0a04892234275d27417b4b3ccd5da4538064cf7a8499f8b0491dcd3c3",
+              "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed"
+            }
+          ]
+        },
+        {
+          "title": "Přečti uhlíkatou kostru",
+          "text": "Sleduj konce a vrcholy řetězce a zaznamenej každou vyznačenou dvojnou vazbu.",
+          "source_refs": [
+            {
+              "id": "12b00df0a04892234275d27417b4b3ccd5da4538064cf7a8499f8b0491dcd3c3",
+              "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed"
+            }
+          ]
+        },
+        {
+          "title": "Porovnej s přehledem",
+          "text": "Přepsaný vzorec porovnej s přehledem mastných kyselin v prezentaci a se složením glycerolu a tuku.",
+          "source_refs": [
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 4
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 6
+            },
+            {
+              "id": "12b00df0a04892234275d27417b4b3ccd5da4538064cf7a8499f8b0491dcd3c3",
+              "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "triacylglycerol",
+      "front": "Z čeho se skládá triacylglycerol?",
+      "back": "Je to ester glycerolu a vyšších mastných kyselin.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "funkce-lipidu",
+      "front": "Jaké tři hlavní funkce lipidů uvádí prezentace?",
+      "back": "Zásobní, strukturní a ochrannou.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "esterifikace-hydrolyza",
+      "front": "Jak odlišíš esterifikaci a hydrolýzu tuku?",
+      "back": "Esterifikace esterové vazby vytváří a odštěpuje vodu; hydrolýza je štěpí za účasti vody.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 8
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "zmydelnovani",
+      "front": "Co je zmýdelňování?",
+      "back": "Zásaditá hydrolýza tuků, při které vznikají mýdla; v podkladu s NaOH nebo KOH.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 15
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "vosk",
+      "front": "Jaké složky tvoří přírodní vosk?",
+      "back": "Vyšší mastné kyseliny a vyšší jednosytné alkoholy, spojené esterovou vazbou.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "polarni-lipid",
+      "front": "Jaké dvě části má polární lipid?",
+      "back": "Polární hydrofilní část a nepolární hydrofobní část.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "id": "pumpa",
+      "front": "Jaké směry transportu uvádí podklad u Na⁺/K⁺ pumpy?",
+      "back": "Sodík z buňky ven, draslík z okolí do buňky.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "id": "beta-oxidace",
+      "front": "O kolik uhlíků se v popsané β-oxidaci postupně zkracuje řetězec?",
+      "back": "Vždy o dva atomy uhlíku.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "id": "synteza-misto",
+      "front": "Kde podklad uvádí syntézu mastných kyselin?",
+      "back": "V cytoplazmě / cytosolu, na rozdíl od mitochondriální β-oxidace.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 42
+        },
+        {
+          "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+          "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c"
+        }
+      ]
+    },
+    {
+      "id": "nadh-nadph",
+      "front": "Které z uvedených forem jsou redukované: NADH, NADPH, NAD⁺, NADP⁺?",
+      "back": "NADH a NADPH jsou uvedeny jako redukované formy; NAD⁺ a NADP⁺ jako oxidované.",
+      "source_refs": [
+        {
+          "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
+          "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "tuk-versus-kyselina",
+      "prompt": "Které tvrzení správně odlišuje triacylglycerol od mastné kyseliny?",
+      "options": [
+        "Triacylglycerol je jediná volná mastná kyselina.",
+        "Triacylglycerol je ester glycerolu a vyšších mastných kyselin.",
+        "Triacylglycerol tvoří jen molekuly vody."
+      ],
+      "answer": 1,
+      "explanation": "Glycerol a mastné kyseliny jsou stavební složky výsledného esteru. Samostatná mastná kyselina proto není totožná s triacylglycerolem.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 4
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "esterifikace",
+      "prompt": "Při esterifikaci glycerolu s mastnými kyselinami vzniká podle podkladu:",
+      "options": [
+        "tuk a voda",
+        "jen oxid uhličitý",
+        "aminokyselinový řetězec"
+      ],
+      "answer": 0,
+      "explanation": "Esterifikace vytváří esterové vazby a odštěpuje vodu. Peptidový řetězec patří k jinému typu biomolekul.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "zmydelneni",
+      "prompt": "Která reakce je základem popsané výroby mýdla?",
+      "options": [
+        "PCR",
+        "Gelová elektroforéza",
+        "Zásaditá hydrolýza tuku"
+      ],
+      "answer": 2,
+      "explanation": "Podklad uvádí působení NaOH nebo KOH na tuky. PCR a elektroforéza jsou jiné laboratorní metody.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 15
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "hydrogenace",
+      "prompt": "Co se v popsané hydrogenaci děje s nenasycenými mastnými kyselinami?",
+      "options": [
+        "Sytí se vodíkem.",
+        "Mění se na DNA.",
+        "Odštěpuje se jejich aminoskupina."
+      ],
+      "answer": 0,
+      "explanation": "Hydrogenace v podkladu znamená sycení vodíkem a souvisí se ztužováním tuků.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "vosk-slozeni",
+      "prompt": "Přírodní vosky jsou podle prezentace estery mastných kyselin s:",
+      "options": [
+        "DNA",
+        "vyššími jednosytnými alkoholy",
+        "aminokyselinami"
+      ],
+      "answer": 1,
+      "explanation": "U vosků je alkoholová složka odlišná od triacylglycerolů: podklad uvádí vyšší jednosytné alkoholy.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "membrana-stavba",
+      "prompt": "Která dvojice vlastností popisuje dvě části polárního lipidu?",
+      "options": [
+        "Dvě stejně nepolární části",
+        "Dvě stejné bílkovinné části",
+        "Hydrofilní a hydrofobní část"
+      ],
+      "answer": 2,
+      "explanation": "Polární hydrofilní a nepolární hydrofobní část jsou v podkladu propojeny se stavbou lipidové dvojvrstvy.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "id": "sodik-draslik",
+      "prompt": "Který směr transportu odpovídá popisu sodnodraselné pumpy?",
+      "options": [
+        "Na⁺ ven z buňky, K⁺ dovnitř.",
+        "Na⁺ i K⁺ vždy pouze dovnitř.",
+        "Na⁺ dovnitř, K⁺ ven."
+      ],
+      "answer": 0,
+      "explanation": "Prezentace uvádí sodík z intracelulárního do extracelulárního prostoru a draslík opačně.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "id": "beta-dva-uhliky",
+      "prompt": "O kolik uhlíků se při jednom opakovaném cyklu popsané β-oxidace zkracuje řetězec?",
+      "options": [
+        "O jeden",
+        "O dva",
+        "O deset"
+      ],
+      "answer": 1,
+      "explanation": "Podklad popisuje postupné zkracování vždy o dva atomy uhlíku až na acetylové zbytky vázané na CoA.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "id": "synteza-versus-oxidace",
+      "prompt": "Které přiřazení místa odpovídá podkladům?",
+      "options": [
+        "Syntéza v jádře, β-oxidace v ribozomech.",
+        "Obě dráhy pouze v žaludku.",
+        "Syntéza v cytoplazmě, β-oxidace v mitochondriích."
+      ],
+      "answer": 2,
+      "explanation": "Text i srovnávací obrázek rozlišují cytoplazmatickou tvorbu mastných kyselin a mitochondriální odbourávání.",
+      "source_refs": [
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 40
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 42
+        },
+        {
+          "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+          "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c"
+        }
+      ]
+    },
+    {
+      "id": "redukovane-formy",
+      "prompt": "Která dvojice je v doplňku uvedena jako redukované formy?",
+      "options": [
+        "NADH a NADPH",
+        "NAD⁺ a NADP⁺",
+        "Glycerol a cholesterol"
+      ],
+      "answer": 0,
+      "explanation": "Dokument uvádí NADH a NADPH jako redukované přenašeče vodíku včetně elektronů; NAD⁺ a NADP⁺ jsou oxidované formy.",
+      "source_refs": [
+        {
+          "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
+          "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
+          "locator": "část Koenzymy oxidačně-redukčních reakcí"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-edb6d4d4a4196dfa9657c0a8a0e93029",
+  "title": "Aminokyseliny",
+  "language": "cs",
+  "intro": "Od obecné struktury aminokyseliny přejdi ke změnám náboje, tvorbě peptidové vazby a důkazovým reakcím. Původní tabulka a řešený obrázek pomohou propojit názvy s konkrétními vzorci.",
+  "sources": [
+    {
+      "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+      "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f",
+      "title": "Reakce AMK - peptidy.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f.docx",
+      "extraction_url": "./extracted/77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f.zip"
+    },
+    {
+      "id": "043175c0a897ea5bdf81cee0c210402fe2743f864565772315ef4057006d0761",
+      "sha256": "afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04",
+      "title": "Aminokyseliny - přehled.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04.pdf",
+      "extraction_url": "./extracted/afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04.zip"
+    },
+    {
+      "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+      "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+      "title": "Důkaz aminokyselin a bílkovin.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d.pdf",
+      "extraction_url": "./extracted/5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d.zip"
+    },
+    {
+      "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+      "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83",
+      "title": "úkol peptidová vazba, řešení x.jpg",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83.jpg",
+      "extraction_url": "./extracted/9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83.zip"
+    },
+    {
+      "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+      "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+      "title": "Aminokyseliny.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467.pptx",
+      "extraction_url": "./extracted/2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "stavba-a-kod",
+      "title": "Dvě funkční skupiny a postranní řetězec",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 2
+        },
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 3
+        },
+        {
+          "id": "043175c0a897ea5bdf81cee0c210402fe2743f864565772315ef4057006d0761",
+          "sha256": "afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04",
+          "page": 1
+        },
+        {
+          "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+          "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Aminokyseliny jsou základní stavební jednotky bílkovin. V obecném zápisu sleduj aminovou skupinu, karboxylovou skupinu a postranní řetězec R. Právě rozdílný zbytek R umožňuje rozlišit jednotlivé aminokyseliny v přehledové tabulce.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 2
+            },
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 3
+            },
+            {
+              "id": "043175c0a897ea5bdf81cee0c210402fe2743f864565772315ef4057006d0761",
+              "sha256": "afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Podklad rozlišuje větší počet známých aminokyselin a 20 běžně kódovaných aminokyselin. „Kódované“ zde znamená, že pro jejich zabudování do bílkovin existuje genetický kód; nejde o název zvláštní funkční skupiny.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 2
+            },
+            {
+              "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+              "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f",
+              "locator": "otázka 2 a uvedená odpověď"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Při porovnávání dvou vzorců nejdřív najdi společnou kostru a potom odlišný postranní řetězec R.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 3
+            },
+            {
+              "id": "043175c0a897ea5bdf81cee0c210402fe2743f864565772315ef4057006d0761",
+              "sha256": "afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/af47a1c414baa75487fd7b93fe57bfdbed4fc20432d257da9923fbe68f2af06f.webp",
+          "alt": "Tabulka dvaceti aminokyselin se zkratkami a strukturními vzorci",
+          "caption": "Porovnávej společnou kostru a rozdílné zbytky R. Přehled aminokyselin, strana 1.",
+          "source_refs": [
+            {
+              "id": "043175c0a897ea5bdf81cee0c210402fe2743f864565772315ef4057006d0761",
+              "sha256": "afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04",
+              "page": 1
+            }
+          ],
+          "source_media": "extracted/afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04/media/page-001-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ]
+    },
+    {
+      "id": "typy-aminokyselin",
+      "title": "Co prozrazuje postranní řetězec",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 5
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Skupiny aminokyselin lze v podkladu porovnávat podle znaku postranního řetězce: přítomnosti hydroxylu, síry, další karboxylové skupiny, bazické skupiny nebo aromatického kruhu. Nezaměňuj takové chemické třídění s rozlišením podle toho, zda si organismus aminokyselinu umí vytvořit.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Serin a threonin mají v postranním řetězci hydroxylovou skupinu.",
+            "Kyseliny asparagová a glutamová jsou uvedeny mezi kyselými aminokyselinami.",
+            "Lysin, arginin a histidin jsou uvedeny mezi bazickými aminokyselinami.",
+            "Fenylalanin, tyrosin a tryptofan obsahují aromatické kruhy.",
+            "Esenciální aminokyseliny musí organismus přijímat potravou; mezi uvedené příklady patří valin, leucin a isoleucin."
+          ],
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "„Esenciální“ popisuje potřebu příjmu potravou, nikoli počet aminových nebo karboxylových skupin.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 5
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Chemická skupina podle R",
+          "Esencialita"
+        ],
+        "rows": [
+          {
+            "label": "Co otázka zjišťuje",
+            "values": [
+              "Jaký strukturní znak obsahuje postranní řetězec?",
+              "Dokáže organismus aminokyselinu sám vytvořit?"
+            ]
+          },
+          {
+            "label": "Příklad z podkladu",
+            "values": [
+              "Serin: hydroxyl v postranním řetězci.",
+              "Valin, leucin a isoleucin: příjem potravou."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "amfion-a-ph",
+      "title": "Změna prostředí mění protonaci",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 3
+        },
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Aminokyselina se může zapisovat jako amfion: obsahuje současně kladně nabitou skupinu NH₃⁺ a záporně nabitou skupinu COO⁻. Nulový výsledný náboj tedy neznamená, že v molekule žádné náboje nejsou.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 3
+            },
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 6
+            },
+            {
+              "id": "043175c0a897ea5bdf81cee0c210402fe2743f864565772315ef4057006d0761",
+              "sha256": "afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Schéma ve snímku 6 porovnává podobu v kyselém, přibližně neutrálním a zásaditém prostředí. V kyselém prostředí je v ukázce protonovaná i karboxylová skupina; při přechodu do zásaditého prostředí se odštěpuje proton z amoniové skupiny. Sleduj proto vždy obě skupiny a výsledný náboj.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Čísla pH na obrázku jsou součástí zjednodušené ukázky. Pro procvičování zde používej především princip změny protonace, ne univerzální číselnou hodnotu pI pro všechny aminokyseliny.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Kyselé prostředí",
+          "text": "V uvedeném schématu najdeš NH₃⁺ a COOH. Porovnej, která skupina nese kladný náboj.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "title": "Amfion",
+          "text": "Schéma ukazuje NH₃⁺ a COO⁻ současně. Kladný a záporný náboj se v uvedeném jednoduchém zápisu vyrovnávají.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "title": "Zásadité prostředí",
+          "text": "Ukázka obsahuje NH₂ a COO⁻. Zkontroluj, která skupina po odštěpení protonu zůstává nabitá.",
+          "source_refs": [
+            {
+              "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+              "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+              "page": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peptidova-vazba",
+      "title": "Spojování aminokyselin do peptidu",
+      "source_refs": [
+        {
+          "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+          "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f"
+        },
+        {
+          "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+          "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Při tvoření peptidu reaguje karboxylová skupina jedné aminokyseliny s aminovou skupinou druhé. V novém řetězci hledáme peptidovou skupinu –CO–NH–; při spojování se odštěpuje voda. Pracovní list žádá například zapsat reakci cysteinu s alaninem a označit charakteristickou vazbu.",
+          "source_refs": [
+            {
+              "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+              "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f",
+              "locator": "otázka 3"
+            },
+            {
+              "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+              "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83",
+              "locator": "řešené kondenzační reakce na obrázku"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na řešeném obrázku je při spojení tří zbytků zakreslen tripeptid a dvě molekuly vody. Při spojení pěti zbytků je zakreslen pentapeptid a čtyři molekuly vody. U těchto otevřených řetězců vždy porovnávej počet zbytků s počtem nově vytvořených spojení.",
+          "source_refs": [
+            {
+              "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+              "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83",
+              "locator": "dva řešené příklady"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Peptidový řetězec čti jako sled aminokyselinových zbytků. Pořadí zbytků i vyznačení vazeb je důležitější než samotné obkroužení celého vzorce.",
+          "source_refs": [
+            {
+              "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+              "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f"
+            },
+            {
+              "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+              "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4d419c21709fc4c1a7968c077c2a47aaf623c2bd3a0a3dd2af5455f6e526b551.webp",
+          "alt": "Ručně řešená tvorba pentapeptidu a tripeptidu s vyznačenými peptidovými vazbami",
+          "caption": "V horním příkladu je pět zbytků a čtyři molekuly vody, v dolním tři zbytky a dvě molekuly vody.",
+          "source_refs": [
+            {
+              "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+              "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+            }
+          ],
+          "source_media": "extracted/9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83/media/original.jpg",
+          "width": 1800,
+          "height": 1616
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi reagující skupiny",
+          "text": "V prvním zbytku označ karboxylovou a v druhém aminovou skupinu.",
+          "source_refs": [
+            {
+              "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+              "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f"
+            },
+            {
+              "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+              "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+            }
+          ]
+        },
+        {
+          "title": "Sleduj odštěpení vody",
+          "text": "V řešených příkladech se při každém spojení dvou sousedních zbytků odštěpuje voda.",
+          "source_refs": [
+            {
+              "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+              "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+            }
+          ]
+        },
+        {
+          "title": "Označ nové spojení",
+          "text": "Ve výsledku zvýrazni skupinu –CO–NH– a spočítej aminokyselinové zbytky.",
+          "source_refs": [
+            {
+              "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+              "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dukazove-reakce",
+      "title": "Co ukáže ninhydrin a co Biuretova reakce",
+      "source_refs": [
+        {
+          "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+          "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+          "page": 2
+        },
+        {
+          "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+          "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+          "page": 5
+        },
+        {
+          "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+          "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+          "page": 7
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ninhydrinová zkouška je v podkladu spojena s důkazem aminokyselin: ninhydrin reaguje s aminoskupinou a poskytuje fialové zbarvení. Jako příklad využití jsou uvedeny otisky prstů.",
+          "source_refs": [
+            {
+              "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+              "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Biuretova reakce dokazuje peptidové vazby. Podklad uvádí směs NaOH a CuSO₄ a modrofialové zbarvení bílkoviny v alkalickém prostředí. Při odpovědi proto vedle barvy uveď i to, jaký strukturní znak je dokazován.",
+          "source_refs": [
+            {
+              "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+              "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Závěrečná část podkladu přechází od důkazu přítomnosti ke zjišťování pořadí aminokyselin. Uvádí Edmanovo odbourávání a Sangerovu reakci jako metody spojené s určováním sekvence. Podrobné vzorce činidel nejsou součástí tohoto procvičování.",
+          "source_refs": [
+            {
+              "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+              "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+              "page": 7
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Ninhydrinová zkouška",
+          "Biuretova reakce"
+        ],
+        "rows": [
+          {
+            "label": "Sledovaný znak v podkladu",
+            "values": [
+              "Aminoskupina a důkaz aminokyselin.",
+              "Peptidové vazby."
+            ]
+          },
+          {
+            "label": "Uvedený barevný výsledek",
+            "values": [
+              "Fialové zbarvení.",
+              "Modrofialové zbarvení."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "dve-skupiny",
+      "front": "Které dvě funkční skupiny sledujeme v obecné aminokyselině?",
+      "back": "Aminovou skupinu a karboxylovou skupinu.",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "zbytek-r",
+      "front": "Co označuje R v obecném vzorci aminokyseliny?",
+      "back": "Postranní řetězec; může jít o vodík nebo jiný organický zbytek.",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "kodovane",
+      "front": "Proč se používá název kódované aminokyseliny?",
+      "back": "Pro jejich zabudování do bílkovin existuje genetický kód. Pracovní list uvádí 20 běžně kódovaných aminokyselin.",
+      "source_refs": [
+        {
+          "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+          "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f",
+          "locator": "otázka 2"
+        }
+      ]
+    },
+    {
+      "id": "esencialni",
+      "front": "Co znamená esenciální aminokyselina?",
+      "back": "Organismus je odkázán na její příjem potravou, protože ji sám nedokáže syntetizovat.",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "amfion",
+      "front": "Co je amfion?",
+      "back": "Dipolární podoba aminokyseliny s NH₃⁺ a COO⁻ současně.",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 3
+        },
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "peptidova-skupina",
+      "front": "Jak poznáš peptidovou skupinu?",
+      "back": "Ve vzorci hledám spojení –CO–NH– mezi aminokyselinovými zbytky.",
+      "source_refs": [
+        {
+          "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+          "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+        }
+      ]
+    },
+    {
+      "id": "tri-peptid",
+      "front": "Kolik molekul vody je v řešeném příkladu tvorby otevřeného tripeptidu?",
+      "back": "Dvě molekuly vody: spojují se tři zbytky dvěma peptidovými vazbami.",
+      "source_refs": [
+        {
+          "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+          "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+        }
+      ]
+    },
+    {
+      "id": "biuret",
+      "front": "Co dokazuje Biuretova reakce?",
+      "back": "Peptidové vazby; podklad uvádí modrofialový komplex v alkalickém prostředí.",
+      "source_refs": [
+        {
+          "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+          "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+          "page": 5
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "amino-skupiny",
+      "prompt": "Která dvojice patří k obecnému popisu aminokyseliny?",
+      "options": [
+        "–NH₂ a –COOH",
+        "Jen dvě hydroxylové skupiny",
+        "Pouze fosfátové skupiny"
+      ],
+      "answer": 0,
+      "explanation": "Podklad definuje aminokyseliny aminovou a karboxylovou skupinou. Postranní řetězec R pak jednotlivé aminokyseliny odlišuje.",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 2
+        },
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "kodovane-pocet",
+      "prompt": "Kolik běžně kódovaných aminokyselin uvádí pracovní list?",
+      "options": [
+        "4",
+        "20",
+        "300"
+      ],
+      "answer": 1,
+      "explanation": "Číslo 20 se týká pravidelného výskytu v bílkovinách a genetického kódu. Větší počet známých aminokyselin není počet zde kódovaných.",
+      "source_refs": [
+        {
+          "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+          "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f",
+          "locator": "otázka 2 a odpověď"
+        }
+      ]
+    },
+    {
+      "id": "esencialita-znak",
+      "prompt": "Označení esenciální říká, že aminokyselina:",
+      "options": [
+        "má vždy aromatický kruh",
+        "nemá aminoskupinu",
+        "musí být přijímána potravou"
+      ],
+      "answer": 2,
+      "explanation": "Esencialita se týká možnosti vlastní syntézy organismem. Chemické zařazení podle postranního řetězce je jiný pohled.",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "amfion-naboje",
+      "prompt": "Který zápis popisuje amfion v uvedené ukázce?",
+      "options": [
+        "NH₃⁺ a COO⁻ současně",
+        "NH₂ a COOH bez nábojů",
+        "Pouze kladný fosfát"
+      ],
+      "answer": 0,
+      "explanation": "Amfion má současně opačně nabité skupiny. Výsledný nulový náboj neznamená nepřítomnost nábojů.",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "hydroxyl",
+      "prompt": "Kterou dvojici podklad spojuje s hydroxylovou skupinou v postranním řetězci?",
+      "options": [
+        "Lysin a arginin",
+        "Serin a threonin",
+        "Fenylalanin a tryptofan"
+      ],
+      "answer": 1,
+      "explanation": "Serin a threonin jsou uvedeny mezi hydroxyaminokyselinami. Ostatní uvedené dvojice představují bazické nebo aromatické příklady.",
+      "source_refs": [
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "peptid-voda",
+      "prompt": "V dolním řešeném příkladu se ze tří aminokyselinových zbytků vytvoří otevřený tripeptid. Kolik H₂O je odštěpeno?",
+      "options": [
+        "Jedna",
+        "Tři",
+        "Dvě"
+      ],
+      "answer": 2,
+      "explanation": "V řešení jsou dvě nové peptidové vazby a dvě molekuly vody. Počet zbytků není shodný s počtem spojení.",
+      "source_refs": [
+        {
+          "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+          "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83",
+          "locator": "dolní řešený příklad"
+        }
+      ]
+    },
+    {
+      "id": "biuret-znak",
+      "prompt": "Který znak přímo dokazuje Biuretova reakce podle podkladu?",
+      "options": [
+        "Peptidové vazby",
+        "Délku mastné kyseliny",
+        "Počet fosfátů v ATP"
+      ],
+      "answer": 0,
+      "explanation": "Biuretova reakce vytváří barevný komplex v souvislosti s peptidovými vazbami. Ostatní dva znaky se týkají jiných skupin biomolekul.",
+      "source_refs": [
+        {
+          "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+          "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "ninhydrin",
+      "prompt": "Fialové zbarvení po ninhydrinové zkoušce je v podkladu spojeno s reakcí:",
+      "options": [
+        "esterové skupiny",
+        "aminoskupiny",
+        "chloridového iontu"
+      ],
+      "answer": 1,
+      "explanation": "Podklad výslovně spojuje ninhydrin s aminoskupinou a důkazem aminokyselin.",
+      "source_refs": [
+        {
+          "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+          "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

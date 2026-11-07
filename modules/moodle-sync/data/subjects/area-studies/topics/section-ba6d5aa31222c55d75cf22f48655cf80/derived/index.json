@@ -2,5 +2,20 @@
   "schema": 1,
   "subject_id": "area-studies",
   "topic_id": "section-ba6d5aa31222c55d75cf22f48655cf80",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Intro to US/General",
+      "kind": "notes",
+      "path": "data/subjects/area-studies/topics/section-ba6d5aa31222c55d75cf22f48655cf80/derived/course-notes-v1/notes.json",
+      "sha256": "2eefbafc331e402f99eef4747ffe709c09e638a0f274dd7c00f3a161021c5a27",
+      "source_refs": [
+        {
+          "id": "a10c8fddd17a0d0789b52388a6c6fc91c7fc3edcb44689841cf192bc09dfcd40",
+          "sha256": "19873d058f06c4a4ae2118dd327ddb3b778723152dc229618855f6aef342a9c5"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

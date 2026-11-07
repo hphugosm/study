@@ -2,5 +2,36 @@
   "schema": 1,
   "subject_id": "chemistry",
   "topic_id": "section-edb6d4d4a4196dfa9657c0a8a0e93029",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Aminokyseliny",
+      "kind": "notes",
+      "path": "data/subjects/chemistry/topics/section-edb6d4d4a4196dfa9657c0a8a0e93029/derived/course-notes-v1/notes.json",
+      "sha256": "4d3a4fa717ee70aeaec141da8f9bf9817f4f19febf4003154e5bdd8c9797e38d",
+      "source_refs": [
+        {
+          "id": "0209b994ca57d64b5ba635aab2784aa77e9ff32182f43085d8655ea7fcda738f",
+          "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f"
+        },
+        {
+          "id": "043175c0a897ea5bdf81cee0c210402fe2743f864565772315ef4057006d0761",
+          "sha256": "afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04"
+        },
+        {
+          "id": "91c4bc78dcd80b3cd48cfcb08b4c94d48d7060217dca29ec18fb9ac8bada0843",
+          "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d"
+        },
+        {
+          "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+          "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83"
+        },
+        {
+          "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+          "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

@@ -2,5 +2,20 @@
   "schema": 1,
   "subject_id": "mathematics",
   "topic_id": "section-0eb4eef465522b45edfa8bfda90e7776",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Úvod",
+      "kind": "notes",
+      "path": "data/subjects/mathematics/topics/section-0eb4eef465522b45edfa8bfda90e7776/derived/course-notes-v1/notes.json",
+      "sha256": "9ab37a5ab5af51e29db6241251671508f79c8bf64d16dc8388bec0d93cbab948",
+      "source_refs": [
+        {
+          "id": "dcb9896b5fc6117959f8e7925e080abe4df46a27fcbfbc6b54801643281e82e3",
+          "sha256": "e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

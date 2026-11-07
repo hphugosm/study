@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "sha256": "914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d",
+  "units": [
+    {
+      "kind": "image",
+      "label": "image 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "ň : p N7 N\n200 n\ni O—P==0—P-70—P—0—c /0\n\ndb; B: 0)\n\no o: 0u H H\n; | ) OH OH\nŘ — Adenosine 5'-monophosphate\nh | (a) AMP\n' ————=— Adenosine 5'-diphosphate\n\n| | (b) ADP\n\n<—-——.- Adenosine 5'-triphosphate\n(c) ATP\n",
+      "text": ""
+    }
+  ]
+}

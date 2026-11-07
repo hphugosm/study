@@ -1,0 +1,1060 @@
+{
+  "schema": 1,
+  "subject": "mathematics",
+  "topic": "section-9b3237cc2327dfc9a3353506fef752b3",
+  "title": "Goniometrie",
+  "language": "cs",
+  "intro": "Jednotková kružnice propojuje hodnoty funkcí, grafy i řešení rovnic. Přehled doplňuje původní interaktivní moduly trigonometrie a rovnic; pracovní listy a prázdné souřadnicové osy zůstávají samostatnými zdroji k procvičení.",
+  "sources": [
+    {
+      "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+      "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+      "title": "Opakovani_gonio__ne_rovnice.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1.pdf",
+      "extraction_url": "./extracted/c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1.zip"
+    },
+    {
+      "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+      "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+      "title": "Grafy_sin_cos_tan_cot.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68.pptx",
+      "extraction_url": "./extracted/16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68.zip"
+    },
+    {
+      "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+      "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+      "title": "Trigonometrie.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054.pptx",
+      "extraction_url": "./extracted/3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054.zip"
+    },
+    {
+      "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+      "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+      "title": "Goniometricke_rovnice_a_vzorce.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8.pptx",
+      "extraction_url": "./extracted/f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8.zip"
+    },
+    {
+      "id": "6e1cd2c7b3e1ca67207d9c7add2688a6e296a15c7fbb77074cf78651e8a0322d",
+      "sha256": "9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1",
+      "title": "OXY_pro_gon_fce.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1.docx",
+      "extraction_url": "./extracted/9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1.zip"
+    },
+    {
+      "id": "978dfc6ee7c589de65235f878d11faf5ad3d7ee8d0682a7bcc2fd4cd66b2d886",
+      "sha256": "271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761",
+      "title": "Gonio_fce_opakovani.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761.pdf",
+      "extraction_url": "./extracted/271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "uhly-a-kruznice",
+      "title": "Ze stupňů na kružnici",
+      "source_refs": [
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 5
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 7
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 8
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 12
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 14
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plná otočka má 360° = 2π rad. Ze stupňů na radiány převádíme násobením π/180; opačně násobením 180/π. Proto 30° = π/6, 45° = π/4, 60° = π/3 a 90° = π/2.",
+          "source_refs": [
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 5
+            },
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 6
+            },
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bod na jednotkové kružnici má souřadnice [cos x; sin x]. Kosinus je vodorovná souřadnice a sinus svislá. Základní úhly rozšíříme do ostatních kvadrantů pomocí symetrií a znamének.",
+          "source_refs": [
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 8
+            },
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 10
+            },
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Před výpočtem zkontroluj režim kalkulačky: DEG pro stupně, RAD pro radiány. Číslo π v argumentu není totéž jako 180 zadaných v radiánovém režimu.",
+          "source_refs": [
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "tan x = sin x / cos x vyžaduje cos x ≠ 0; cot x = cos x / sin x vyžaduje sin x ≠ 0. Například cot 0 není nekonečno jako hodnota funkce, ale nedefinovaný výraz.",
+          "source_refs": [
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 2
+            },
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 14
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 19
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 20
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9e2a6e20b01d3d99b9d6b7778da83ac8f925fee12e40d52a83e6a731ae71aa90.webp",
+          "alt": "Jednotková kružnice se základními úhly a souřadnicemi",
+          "caption": "Trigonometrie, snímek 8: hodnoty čti jako vodorovnou a svislou souřadnici.",
+          "source_refs": [
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 8
+            }
+          ],
+          "source_media": "extracted/3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054/media/slide-008-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ]
+    },
+    {
+      "id": "grafy-a-promeny",
+      "title": "Odděl změnu výšky od změny periody",
+      "source_refs": [
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 7
+        },
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 9
+        },
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 11
+        },
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 13
+        },
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 19
+        },
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 20
+        },
+        {
+          "id": "978dfc6ee7c589de65235f878d11faf5ad3d7ee8d0682a7bcc2fd4cd66b2d886",
+          "sha256": "271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pro y = a·f(b(x − c)) + d při a ≠ 0 a b ≠ 0 mění a svislé měřítko, d svislý posun, b vodorovné měřítko a c posun po ose x. Záporné a navíc převrátí graf kolem osy x.",
+          "source_refs": [
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 9
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 11
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sinus a kosinus mají základní periodu 2π; po změně argumentu je T = 2π/|b|.",
+            "Tangens a kotangens mají základní periodu π; po změně argumentu je T = π/|b|.",
+            "Pro sinus a kosinus je obor hodnot [d − |a|; d + |a|]."
+          ],
+          "source_refs": [
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 7
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 15
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 19
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Nejdřív vytkni koeficient argumentu: cos(2x + π) = cos(2(x + π/2)). Posun je doleva o π/2, ne o π.",
+          "source_refs": [
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U tangens a kotangens navíc určujeme vyloučené body a svislé asymptoty. Pro zápis a·tan(b(x − c)) + d jsou x = c + (π/2 + kπ)/b; u cot je x = c + kπ/b, kde k ∈ ℤ.",
+          "source_refs": [
+            {
+              "id": "978dfc6ee7c589de65235f878d11faf5ad3d7ee8d0682a7bcc2fd4cd66b2d886",
+              "sha256": "271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761",
+              "page": 1
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 23
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/64f69a71511b14d566dc09b8ff23d889c4e134465e55fb217f34acb2e8093411.webp",
+          "alt": "Zadání a rozklad transformace y = 2sin(2x + π/2) − 3",
+          "caption": "Grafy, snímek 13: všimni si vytažení dvojky před určením posunu.",
+          "source_refs": [
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 13
+            }
+          ],
+          "source_media": "extracted/16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68/media/slide-013-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ],
+      "steps": [
+        {
+          "title": "Uprav argument",
+          "text": "y = 2sin(2x + π/2) − 3 = 2sin(2(x + π/4)) − 3.",
+          "source_refs": [
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "title": "Přečti parametry",
+          "text": "a = 2, b = 2, c = −π/4, d = −3.",
+          "source_refs": [
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 13
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "title": "Urči periodu a obor hodnot",
+          "text": "T = 2π/2 = π; H = [−3 − 2; −3 + 2] = [−5; −1]. Definiční obor je ℝ.",
+          "source_refs": [
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "title": "Zkontroluj posun",
+          "text": "Graf je posunut doleva o π/4. Stejný výraz lze psát 2cos(2x) − 3, proto je tato konkrétní funkce sudá.",
+          "source_refs": [
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 13
+            },
+            {
+              "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+              "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+              "page": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vzorce-a-rovnice",
+      "title": "Všechny větve, všechny periody, všechny podmínky",
+      "source_refs": [
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 3
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 4
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 6
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 12
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 16
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 25
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 31
+        },
+        {
+          "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+          "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+          "page": 3
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Základní vztah: sin²x + cos²x = 1.",
+            "Dvojnásobný argument: sin(2x) = 2sin x cos x; cos(2x) = cos²x − sin²x.",
+            "Součet: sin(α + β) = sin α cos β + cos α sin β; cos(α + β) = cos α cos β − sin α sin β.",
+            "Pozor na zápis: sin²x je druhá mocnina hodnoty, kdežto sin(2x) je sinus dvojnásobného argumentu."
+          ],
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 3
+            },
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 4
+            },
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rovnice sin x = 1/2 má v jedné periodě dvě řešení π/6 a 5π/6. Úplně: x = π/6 + 2kπ nebo x = 5π/6 + 2kπ, k ∈ ℤ. Při substituci s = 3x musíš při návratu dělit i periodický člen.",
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 12
+            },
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U substituce t = sin x musí zůstat t v [−1; 1]. V příkladu 2 + cos(2x) = −5sin x vyjde t = −1/2 nebo t = 3; druhá možnost neodpovídá reálnému sinu a zahazuje se.",
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 18
+            },
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 25
+            },
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 26
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Nerovnice vyžaduje vybrat celý oblouk či interval, ne jen hraniční úhly. Například sin x > 1/2 dává (π/6 + 2kπ; 5π/6 + 2kπ). Ostré znaménko vylučuje koncové body.",
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 28
+            },
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 31
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pracovní list obsahuje i podíly goniometrických výrazů. U úlohy 37 nejprve vyluč nulové jmenovatele cos²x a sin(2x); krácení nesmí tyto podmínky ztratit.",
+          "source_refs": [
+            {
+              "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+              "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/6853fcc16c72ddaa06258d519ad07f2932382686767b2d9d8a54e9abe89d488f.webp",
+          "alt": "Dokončení substituce t = sin x s vyloučením hodnoty t = 3",
+          "caption": "Goniometrické rovnice, snímek 26: algebraické řešení musí splnit obor hodnot sinu.",
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 26
+            }
+          ],
+          "source_media": "extracted/f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8/media/slide-026-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ],
+      "steps": [
+        {
+          "title": "Polož s = 3x",
+          "text": "Rovnici sin(3x) = 1/2 převedeme na sin s = 1/2.",
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 15
+            },
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "title": "Vyřeš rovnici pro s",
+          "text": "s = π/6 + 2kπ nebo s = 5π/6 + 2kπ, k ∈ ℤ.",
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 12
+            },
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "title": "Vyděl celou pravou stranu",
+          "text": "x = π/18 + 2kπ/3 nebo x = 5π/18 + 2kπ/3.",
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "title": "Zkontroluj periodu",
+          "text": "sin(3x) má periodu 2π/3. Ponechat v řešení člen 2kπ bez dělení by vynechalo další platná řešení.",
+          "source_refs": [
+            {
+              "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+              "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+              "page": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trojuhelnik-a-pracovni-listy",
+      "title": "Vyber nástroj podle zadání",
+      "source_refs": [
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 19
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 20
+        },
+        {
+          "id": "978dfc6ee7c589de65235f878d11faf5ad3d7ee8d0682a7bcc2fd4cd66b2d886",
+          "sha256": "271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761",
+          "page": 1
+        },
+        {
+          "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+          "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+          "page": 1
+        },
+        {
+          "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+          "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+          "page": 2
+        },
+        {
+          "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+          "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+          "page": 3
+        },
+        {
+          "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+          "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+          "page": 4
+        },
+        {
+          "id": "6e1cd2c7b3e1ca67207d9c7add2688a6e296a15c7fbb77074cf78651e8a0322d",
+          "sha256": "9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1",
+          "locator": "prázdný souřadnicový pracovní list"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sinová věta spojuje každou stranu s protějším úhlem: a/sin α = b/sin β = c/sin γ. Kosinová věta pro stranu proti úhlu γ je c² = a² + b² − 2ab cos γ.",
+          "source_refs": [
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 19
+            },
+            {
+              "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+              "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pracovní list funkcí odděluje úkoly na periodu a obor hodnot od úkolů na periodu a asymptoty. List rovnic postupuje od přesných hodnot a jednoduchých rovnic přes argumenty 2x, 3x či x/2 a substituce až po nerovnice a smíšené úlohy.",
+          "source_refs": [
+            {
+              "id": "978dfc6ee7c589de65235f878d11faf5ad3d7ee8d0682a7bcc2fd4cd66b2d886",
+              "sha256": "271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761",
+              "page": 1
+            },
+            {
+              "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+              "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+              "page": 1
+            },
+            {
+              "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+              "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+              "page": 2
+            },
+            {
+              "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+              "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+              "page": 3
+            },
+            {
+              "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+              "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "OXY je prázdná grafická pomůcka, ne vyřešený pracovní list. Využij ji pro vlastní náčrt, označení měřítka, periody, průsečíků a případných asymptot.",
+          "source_refs": [
+            {
+              "id": "6e1cd2c7b3e1ca67207d9c7add2688a6e296a15c7fbb77074cf78651e8a0322d",
+              "sha256": "9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1",
+              "locator": "prázdný souřadnicový pracovní list"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/ae3d7e2662c2fae0347a508e67d2be9f5b43a5a26ff5715492c1157bb5e96496.webp",
+          "alt": "Prázdné souřadnicové osy pro vlastní náčrty goniometrických funkcí",
+          "caption": "Prázdná pomůcka OXY; řešení do ní doplňuje student.",
+          "source_refs": [
+            {
+              "id": "6e1cd2c7b3e1ca67207d9c7add2688a6e296a15c7fbb77074cf78651e8a0322d",
+              "sha256": "9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1",
+              "locator": "pracovní list"
+            }
+          ],
+          "source_media": "extracted/9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1/media/page-001-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-radiany",
+      "front": "Kolik radiánů má plná otočka?",
+      "back": "2π radiánů = 360°.",
+      "source_refs": [
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "card-souradnice",
+      "front": "Jaké jsou souřadnice bodu jednotkové kružnice?",
+      "back": "[cos x; sin x]. Kosinus je vodorovná a sinus svislá souřadnice.",
+      "source_refs": [
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 8
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "card-tan-domain",
+      "front": "Kde není tan x definován?",
+      "back": "Tam, kde cos x = 0, tedy x = π/2 + kπ, k ∈ ℤ.",
+      "source_refs": [
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "card-perioda",
+      "front": "Jaká je perioda a·sin(b(x − c)) + d při a,b ≠ 0?",
+      "back": "2π/|b|. Svislý posun a svislé násobení základní periodu nemění.",
+      "source_refs": [
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 9
+        },
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "card-shift",
+      "front": "Proč není cos(2x + π) posunut o −π?",
+      "back": "Argument musíme upravit na 2(x + π/2). Posun je −π/2.",
+      "source_refs": [
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "card-double",
+      "front": "Jak se liší sin²x a sin(2x)?",
+      "back": "sin²x je (sin x)²; sin(2x) = 2sin x cos x.",
+      "source_refs": [
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-sine-roots",
+      "front": "Jaká jsou všechna řešení sin x = 1/2?",
+      "back": "π/6 + 2kπ a 5π/6 + 2kπ, k ∈ ℤ.",
+      "source_refs": [
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "card-substitution",
+      "front": "Co musí splňovat t při t = sin x?",
+      "back": "t ∈ [−1; 1]. Algebraické hodnoty mimo tento interval se vyloučí.",
+      "source_refs": [
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 25
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "id": "card-strict",
+      "front": "Patří hraniční úhel π/6 do sin x > 1/2?",
+      "back": "Ne. V hranici platí rovnost, nikoliv ostrá nerovnost.",
+      "source_refs": [
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 31
+        }
+      ]
+    },
+    {
+      "id": "card-cosine-law",
+      "front": "Která strana vystupuje v c² = a² + b² − 2ab cos γ?",
+      "back": "c je strana proti úhlu γ; γ svírají strany a a b.",
+      "source_refs": [
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 20
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-convert",
+      "prompt": "Kolik je 60° v radiánech?",
+      "options": [
+        "π/6",
+        "π/3",
+        "2π/3"
+      ],
+      "answer": 1,
+      "explanation": "60·π/180 = π/3. Plná otočka je 2π, ne π.",
+      "source_refs": [
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 5
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "quiz-coordinates",
+      "prompt": "Která souřadnice na jednotkové kružnici je sin x?",
+      "options": [
+        "Vodorovná",
+        "Svislá",
+        "Vždy poloměr"
+      ],
+      "answer": 1,
+      "explanation": "Bod má souřadnice [cos x; sin x]. Poloměr kružnice je 1 a není hodnotou obou funkcí.",
+      "source_refs": [
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 8
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "quiz-cos-third",
+      "prompt": "Jaká je hodnota cos(7π/6)?",
+      "options": [
+        "−√3/2",
+        "−1/2",
+        "√3/2"
+      ],
+      "answer": 0,
+      "explanation": "7π/6 je ve třetím kvadrantu a má referenční úhel π/6. Kosinus je záporný a jeho velikost je √3/2.",
+      "source_refs": [
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "quiz-period",
+      "prompt": "Perioda 3sin(0,25x) − 1 je…",
+      "options": [
+        "π/2",
+        "2π",
+        "8π"
+      ],
+      "answer": 2,
+      "explanation": "T = 2π/0,25 = 8π. Parametry 3 a −1 mění svislý průběh, ne periodu.",
+      "source_refs": [
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "quiz-horizontal",
+      "prompt": "cos(2x + π) odpovídá posunu…",
+      "options": [
+        "doleva o π/2",
+        "doleva o π",
+        "doprava o π/4"
+      ],
+      "answer": 0,
+      "explanation": "Po vytknutí dvojky dostaneme cos(2(x + π/2)); základní posun je doleva o π/2. Funkce má periodu π, takže posuny lišící se o násobek π dávají stejný graf.",
+      "source_refs": [
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "quiz-range",
+      "prompt": "Obor hodnot y = 2sin(2x + π/2) − 3 je…",
+      "options": [
+        "[−2; 2]",
+        "[−5; −1]",
+        "[−3; 3]"
+      ],
+      "answer": 1,
+      "explanation": "Sinus je v [−1; 1]; násobení dvěma dává [−2; 2] a posun −3 dává [−5; −1].",
+      "source_refs": [
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 13
+        },
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "quiz-domain",
+      "prompt": "Které body jsou vyloučené pro tan x?",
+      "options": [
+        "x = kπ",
+        "x = π/2 + kπ",
+        "Žádné"
+      ],
+      "answer": 1,
+      "explanation": "V těchto bodech je nulový jmenovatel cos x. x = kπ je naopak nulou tangens.",
+      "source_refs": [
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "quiz-double-arg",
+      "prompt": "Co se při řešení sin(3x) = 1/2 stane s členem 2kπ?",
+      "options": [
+        "Zůstane beze změny",
+        "Vydělí se třemi",
+        "Nahradí se kπ bez další změny"
+      ],
+      "answer": 1,
+      "explanation": "Při návratu ze s = 3x dělíme celý výraz: periodický člen je 2kπ/3.",
+      "source_refs": [
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "quiz-invalid-t",
+      "prompt": "Při t = sin x dostaneme t = −1/2 a t = 3. Co uděláme?",
+      "options": [
+        "Použijeme obě hodnoty",
+        "Vyloučíme t = 3",
+        "Vyloučíme zápornou hodnotu"
+      ],
+      "answer": 1,
+      "explanation": "Sinus reálného úhlu má hodnoty v [−1; 1]. Hodnota −1/2 je přípustná.",
+      "source_refs": [
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 25
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "id": "quiz-inequality",
+      "prompt": "Který zápis řeší sin x > 1/2?",
+      "options": [
+        "Jen x = π/6",
+        "(π/6 + 2kπ; 5π/6 + 2kπ), k ∈ ℤ",
+        "[π/6 + 2kπ; 5π/6 + 2kπ], k ∈ ℤ"
+      ],
+      "answer": 1,
+      "explanation": "Potřebujeme celý interval mezi hraničními úhly a otevřené konce, protože nerovnost je ostrá.",
+      "source_refs": [
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+          "page": 31
+        }
+      ]
+    }
+  ]
+}

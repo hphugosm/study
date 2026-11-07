@@ -2,5 +2,24 @@
   "schema": 1,
   "subject_id": "physics",
   "topic_id": "section-c5f4686718036f545f4319f131ec2b2a",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Vlnová optika",
+      "kind": "notes",
+      "path": "data/subjects/physics/topics/section-c5f4686718036f545f4319f131ec2b2a/derived/course-notes-v1/notes.json",
+      "sha256": "c813646c4e2a6cc4b2ca52108956c5ba7fcd5d48d2477e218c16f7641a309965",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead"
+        },
+        {
+          "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+          "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

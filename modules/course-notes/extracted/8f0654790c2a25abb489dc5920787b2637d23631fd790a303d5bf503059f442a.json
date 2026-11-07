@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Encoding Sound and\nVideo\n\nHow can a computer store something we hear and see?\n",
+      "text": "Encoding Sound and Video\nHow can a computer store something we hear and see?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "text": "Sound Is Analog\nReal sound is a continuous wave.\nAir pressure continuously changes\nA microphone converts these changes into an electrical signal\ncomputers cannot directly store an infinite continuous signal\nHow can we turn this wave into numbers?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "text": "Sampling\nSampling = measuring the signal repeatedly\nInstead of remembering the entire continuous wave:\nWe measure its value many times every second.\nEach measurement = sample"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "text": "Sampling – Sample Rate\nHow often do we take a sample?\nSample rate = number of samples per second (Hz)\n48 kHz = 48 000 samples/s\nWhat happens if we take too few samples?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "text": "More Samples = Better Representation\nHigher sample rate → the digital version follows the original wave more closely.\nBut:\nHigher sample rate → more data.\n\nQuality vs Size trade-off."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "text": "But What Number Do We Store?\nSampling tells us when we measure.\nNow we need to describe how accurately we store each measurement.\nBit depth\n\n8 bits → 256 possible levels\n16 bits → 65,536 possible levels\n\nMore bits → more possible values → more accurate."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "text": "Sample Rate vs Bit Depth\nSample rate\nHow often do we measure?\nBit depth\nHow precisely do we measure?\n\n\nBoth increase quality — and both increase the amount of data."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "text": "Mono vs Stereo\nMono - 1 audio channel\nStereo - 2 audio channels\nLeft\nRight\n\nStereo needs roughly twice as much raw audio data as mono."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "text": "How Much Data Does Sound Need?\nFormula: sample rate × bit depth × channels = bits per second\n\nFor 48 kHz and 16 bit depth:\n48,000 samples/s × 16 bits × 2 channels = 1,536,000 bits/s \n\n1,536,000 ÷ 8 = 192,000 bytes/s\n\nSo one second of uncompressed audio is about 192 kB\n\n3 min song → 192kB ×180 = 34 560 kB = 34 MB"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "text": "Uncompressed (Stores the audio without compression)\nExample: \n\tWAV\nLossless (No original information is lost)\nExample:\n\tFLAC\nLossy (Some information is removed)\nExamples:\n\tMP3, AAC\n\n|Uncompressed| > |lossless| >  |lossy|\nAudio Compression"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "text": "Psychoacoustic Compression\nJPEG uses limitations of our eyes (last lesson).\n\nAudio compression can use limitations of our ears.\nExamples of the idea:\nvery quiet sounds can be hidden by louder sounds\nsome frequencies are harder for us to hear\nless noticeable information can be stored less accurately or removed\nMP3 tries to remove information that we are unlikely to notice.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "text": "Recording:\nSound → Microphone → A/D converter → Digital data\nA/D: Analog → Digital\n\nPlayback\nDigital data → D/A converter → Speaker → Sound\nD/A: Digital → Analog\nA/D and D/A"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "What Is Video?\n\nWhat does FPS stand for?\n",
+      "text": "What Is Video?\n\nWhat does FPS stand for?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "text": "Video\nVideo = a sequence of images shown very quickly + audio\n\nFPS = Frames Per Second\nExamples:\n24 FPS (cinema/movies)\n30 FPS\n60 FPS\nSlow motion: Record at a high FPS, then play the video back at a lower FPS.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "text": "What Does 1080p Mean (on YouTube)?\nWhen we choose 1080p, the number usually tells us the vertical resolution:\n1080p = 1080 rows of pixels\nThe number of columns depends on the aspect ratio of the video.\nSo: 1080p does not always mean exactly 1920 × 1080.\u000b\nAspect ratio\tResolution\n16:9\t1920 × 1080\n4:3\t1440 × 1080"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "text": "Why might we want more/less FPS?\nWhat is the disadvantage of using more FPS?\nWould every type of video benefit from 120 FPS?\nWhy might a football match benefit more from 60 FPS than a normal movie?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "text": "How big would raw video be (1 min, 30 FPS, Full HD)?\nFull HD RGB image ≈ 6 MB\n30 FPS:\n6 MB × 30 ≈ 180 MB every second\nOne minute: ≈ 10–11 GB\n\nAnd that is only Full HD and only 1 minute.\nImagine 4K, 3 hour movie."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "text": "How Can We Compress Video?\nTwo basic ideas:\n\n1. Compress each frame\nSimilar to compressing an image.\n\n2. Do not store everything again\nConsecutive frames are often very similar."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "text": "Keyframes and Changes\nFrame 1 — full image\u000b\u000bFrame 2 — only changes\u000b\u000bFrame 3 — only changes\u000b\u000bFrame 4 — only changes\n……\n\nnew full frame\n\nA keyframe stores a complete image. Other frames can often be described using changes from nearby frames."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "text": "Codec vs Container\nCodec = How the video/audio is compressed and encoded\nExamples:\nH.264, H.265, AV1\n\nContainer = A file that can contain:\nVideo, audio, subtitles, metadata\nExamples:\nMP4, MKV\n\nMP4 is a container - H.264 is the codec inside it."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "text": "Four main things:\n\nResolution (HD, Full HD, 4K, …)\nFPS (24 FPS, 30 FPS, 60 FPS, …)\nBitrate (How much data is used every second)\nCompression / Codec (How efficiently the data is stored)\nWhat Affects Video File Size?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "text": "Video Bitrate (Mbit/s)\nWith raw video, the amount of data is mainly determined by the raw frames themselves.\nWith compressed video, the encoder has to decide how much data it can use to describe each second.\nBitrate = the data „budget“ for each second of compressed video\nIf the bitrate is too low, the codec has to throw away more information, which can cause:\nblur\nblocky areas\nloss of fine detail\nHigher bitrate = more data available to preserve image quality."
+    }
+  ]
+}

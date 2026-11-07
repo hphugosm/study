@@ -1,0 +1,939 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-a53139e582ef0860a7a96ea24925a133",
+  "title": "Biochemické děje",
+  "language": "cs",
+  "intro": "Metabolismus propojuje přeměnu látek s přenosem energie. Začni rozlišením rozkladu a výstavby, potom sleduj cestu živin přes acetyl-CoA, citrátový cyklus a dýchací řetězec.",
+  "sources": [
+    {
+      "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+      "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+      "title": "Biochemické děje, metabolismus 2021.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc.pdf",
+      "extraction_url": "./extracted/509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc.zip"
+    },
+    {
+      "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+      "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+      "title": "Metabolismus souhrn - vysvětlení.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc.pdf",
+      "extraction_url": "./extracted/a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc.zip"
+    },
+    {
+      "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+      "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+      "title": "Léčiva, pesticidy, detergenty.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69.pdf",
+      "extraction_url": "./extracted/899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69.zip"
+    },
+    {
+      "id": "d955d15935b5e739965a73a1d6ae5e2c1167bae7e4ce7e8410cfee705d0104e3",
+      "sha256": "d9755eeaf69b1d33a5143c920c71322e8ae4c89071640ea3c553114d5c6274e2",
+      "title": "úkol k léčivům a pesticidům.png",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/d9755eeaf69b1d33a5143c920c71322e8ae4c89071640ea3c553114d5c6274e2.png",
+      "extraction_url": "./extracted/d9755eeaf69b1d33a5143c920c71322e8ae4c89071640ea3c553114d5c6274e2.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/d9755eeaf69b1d33a5143c920c71322e8ae4c89071640ea3c553114d5c6274e2.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "metabolismus-drahy",
+      "title": "Rozklad, výstavba a jejich společná křižovatka",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 2
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 3
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 4
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 9
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 10
+        },
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Metabolismus je soubor chemických dějů v organismu. Má látkovou a energetickou stránku: zajišťuje stavební materiál, přeměňuje živiny a umožňuje využití energie.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 2
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Katabolické dráhy rozkládají složitější struktury a souvisejí se získáváním energie. Anabolické dráhy naopak vytvářejí složitější látky z jednodušších výchozích částic a energii spotřebovávají. Obě části spolupracují.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 4
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Amfibolická dráha se účastní rozkladu i výstavby. Citrátový cyklus proto není jen „spalovna“: jeho meziprodukty mohou sloužit dalším syntézám.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 10
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 17
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Katabolismus",
+          "Anabolismus"
+        ],
+        "rows": [
+          {
+            "label": "Směr přeměny",
+            "values": [
+              "Odbourávání složitějších látek.",
+              "Syntéza složitějších látek z jednodušších."
+            ]
+          },
+          {
+            "label": "Energie",
+            "values": [
+              "Získávání energie a její uchování v přenašečích.",
+              "Spotřeba energie při biosyntéze."
+            ]
+          },
+          {
+            "label": "Příklady v podkladu",
+            "values": [
+              "Glykolýza a β-oxidace.",
+              "Syntéza mastných kyselin a glukoneogeneze."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "energeticke-prenasece",
+      "title": "ATP, NADH a NADPH: různé způsoby přenosu",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 6
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 9
+        },
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ATP znamená adenosintrifosfát; souvisí s ADP a AMP, které mají méně fosfátových skupin. Je přenašečem chemické energie využitelné pro buněčné pochody.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "NADH a FADH₂ vznikající při odbourávání živin nesou elektrony do dýchacího řetězce. NADPH se v přehledu spojuje především s biosyntetickými drahami, například syntézou mastných kyselin.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 6
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 9
+            },
+            {
+              "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+              "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Energie, atomy a elektrony nejsou totéž. U každé dráhy pojmenuj zvlášť výchozí látku, uhlíkatý produkt a přenašeče energie či elektronů.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 7
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 16
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ziviny-acetylcoa",
+      "title": "Jak různé živiny vstupují do společného metabolismu",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 7
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 8
+        },
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Při trávení se velké molekuly enzymaticky štěpí na stavební jednotky. Sacharidy poskytují jednoduché cukry, bílkoviny aminokyseliny a tuky mastné kyseliny s dalšími složkami. Následující buněčné dráhy pak zpracovávají tyto produkty.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 7
+            },
+            {
+              "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+              "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Glukóza se při glykolýze v cytoplazmě mění na pyruvát.",
+            "Pyruvát se dále může přeměnit na acetyl-CoA vstupující do citrátového cyklu.",
+            "Mastné kyseliny se při β-oxidaci postupně zkracují za vzniku acetyl-CoA.",
+            "Aminokyseliny mají především stavební význam; po odstranění aminoskupiny mohou jejich uhlíkaté zbytky vstupovat do dalších drah."
+          ],
+          "source_refs": [
+            {
+              "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+              "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při odbourávání aminokyselin vzniká amoniak; souhrn vysvětluje jeho převod na močovinu v močovinovém cyklu. Uhlíkatá část a dusíkatá část molekuly tedy nemusejí pokračovat stejnou cestou.",
+          "source_refs": [
+            {
+              "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+              "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "citratovy-cyklus",
+      "title": "Citrátový cyklus propojuje uhlík a přenašeče elektronů",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 13
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 16
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 17
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 18
+        },
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Citrátový neboli Krebsův cyklus je centrální metabolická dráha v mitochondriích. Zpracovává acetylové zbytky přiváděné acetyl-CoA; při celkové bilanci vzniká CO₂ a redukované přenašeče NADH a FADH₂.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 13
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 16
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elektrony z redukovaných přenašečů pokračují do dýchacího řetězce. Cyklus zároveň poskytuje meziprodukty pro jiné reakce, například syntézu aminokyselin, a proto má amfibolický charakter.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Rozliš dvě navazující dráhy: citrátový cyklus vytváří přenašeče s elektrony; dýchací řetězec je dále využívá při tvorbě ATP a regeneraci oxidovaných přenašečů.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 16
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 21
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 22
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/f2a57e37b7e559819b393225a2df3a8c020b9782fd9e9430464878f64780d634.webp",
+          "alt": "Schéma citrátového cyklu: sleduj vstup acetyl-CoA a návaznost jednotlivých meziproduktů. Strana 14.",
+          "caption": "Schéma citrátového cyklu: sleduj vstup acetyl-CoA a návaznost jednotlivých meziproduktů. Strana 14.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 14
+            }
+          ],
+          "source_media": "extracted/509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc/media/page-014-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "dychaci-retezec",
+      "title": "Protonový gradient jako zásoba využitelné energie",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 21
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 22
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 23
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 25
+        },
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Elektrony se v dýchacím řetězci předávají mezi přenašeči a komplexy. Tento tok souvisí s čerpáním protonů přes membránu a vznikem rozdílu jejich koncentrací. Na konci přijímá elektrony kyslík a vzniká voda.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 21
+            },
+            {
+              "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+              "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při návratu protonů přes ATP-syntázu se využije energie gradientu pro syntézu ATP. Podklad používá přirovnání k přečerpávací elektrárně: gradient odpovídá rozdílu hladin a ATP-syntáza turbíně.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 22
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 23
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Kyslík v tomto vysvětlení není zdroj uhlíku. Je koncovým příjemcem elektronů; uhlík živin se při úplném odbourávání uvolňuje jako CO₂.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 13
+            },
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 21
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Předej elektrony",
+          "text": "NADH a FADH₂ přivádějí elektrony získané při předchozích přeměnách živin.",
+          "source_refs": [
+            {
+              "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+              "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "title": "Vytvoř rozdíl koncentrací H⁺",
+          "text": "Přenos elektronů je spojen s čerpáním protonů přes membránu.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "title": "Využij návrat protonů",
+          "text": "ATP-syntáza spojuje průchod protonů s tvorbou ATP.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "title": "Uzavři tok elektronů",
+          "text": "Na konci řetězce přecházejí elektrony na kyslík a vzniká voda.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 21
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b99b7ecb26cf5a4083172e8af520c479f889d8243275c6d790087e4d0959df14.webp",
+          "alt": "Dýchací řetězec propojuje tok elektronů s vytvářením gradientu H⁺. Strana 21.",
+          "caption": "Dýchací řetězec propojuje tok elektronů s vytvářením gradientu H⁺. Strana 21.",
+          "source_refs": [
+            {
+              "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+              "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+              "page": 21
+            }
+          ],
+          "source_media": "extracted/509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc/media/page-021-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "organicka-praxe",
+      "title": "Léčiva, pesticidy a tenzidy: roztřiď účel a stavbu",
+      "source_refs": [
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 2
+        },
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 4
+        },
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 12
+        },
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 14
+        },
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 15
+        },
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 17
+        },
+        {
+          "id": "d955d15935b5e739965a73a1d6ae5e2c1167bae7e4ce7e8410cfee705d0104e3",
+          "sha256": "d9755eeaf69b1d33a5143c920c71322e8ae4c89071640ea3c553114d5c6274e2",
+          "locator": "obrázkové zadání"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Doplňující prezentace třídí látky podle využití. Léčivá látka je účinná složka; léčivý přípravek zahrnuje také pomocné látky a lékovou formu. Podle účelu jsou v přehledu profylaktika, terapeutika a diagnostika.",
+          "source_refs": [
+            {
+              "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+              "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+              "page": 2
+            },
+            {
+              "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+              "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Analgetika se používají ke zmírnění bolesti; anestetika ke znecitlivění.",
+            "Pesticidy jsou prostředky působící proti škůdcům; insekticidy míří na hmyz.",
+            "Detergenty mají čisticí a prací účinky a obsahují povrchově aktivní látky – tenzidy."
+          ],
+          "source_refs": [
+            {
+              "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+              "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+              "page": 5
+            },
+            {
+              "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+              "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+              "page": 6
+            },
+            {
+              "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+              "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+              "page": 12
+            },
+            {
+              "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+              "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tenzid propojuje hydrofobní část s hydrofilní. Hydrofobní část se sdružuje s mastnou nečistotou, hydrofilní umožňuje její rozptýlení ve vodném prostředí. Mýdla jsou sodné nebo draselné soli mastných kyselin vznikající zásaditou hydrolýzou tuků.",
+          "source_refs": [
+            {
+              "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+              "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+              "page": 14
+            },
+            {
+              "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+              "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pracovní obrázkové zadání k léčivům a pesticidům využij pro přiřazování skupin a pojmů. Názvy látek v tomto oddílu slouží chemickému třídění, nikoli stanovení léčebného použití.",
+          "source_refs": [
+            {
+              "id": "d955d15935b5e739965a73a1d6ae5e2c1167bae7e4ce7e8410cfee705d0104e3",
+              "sha256": "d9755eeaf69b1d33a5143c920c71322e8ae4c89071640ea3c553114d5c6274e2",
+              "locator": "zadání k léčivům a pesticidům"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "c-katabolismus",
+      "front": "Co je katabolismus?",
+      "back": "Odbourávací část metabolismu související se získáváním energie.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "c-anabolismus",
+      "front": "Co je anabolismus?",
+      "back": "Výstavbová část metabolismu, která z jednodušších látek vytváří složitější a energii spotřebovává.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "c-amfibolicka",
+      "front": "Proč je citrátový cyklus amfibolický?",
+      "back": "Účastní se odbourávání živin i poskytování meziproduktů pro další syntézy.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "c-gradient",
+      "front": "K čemu slouží protonový gradient?",
+      "back": "Jeho energie se při průchodu protonů ATP-syntázou využívá pro tvorbu ATP.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "id": "c-kyslik",
+      "front": "Jaká je úloha kyslíku na konci dýchacího řetězce?",
+      "back": "Přijímá elektrony; za účasti protonů vzniká voda.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "c-tenzid",
+      "front": "Jaké dvě části vysvětlují účinek tenzidu?",
+      "back": "Hydrofobní a hydrofilní část propojují mastnou nečistotu s vodným prostředím.",
+      "source_refs": [
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 14
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-anabolismus",
+      "prompt": "Který děj patří mezi anabolické příklady v podkladu?",
+      "options": [
+        "Syntéza mastných kyselin",
+        "β-oxidace mastných kyselin",
+        "Odbourávání živin na jednodušší látky"
+      ],
+      "answer": 0,
+      "explanation": "Syntéza vytváří složitější molekuly a spotřebovává energii; β-oxidace je odbourávací dráha.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "q-amfibolicka",
+      "prompt": "Co znamená, že je dráha amfibolická?",
+      "options": [
+        "Probíhá výhradně mimo buňku",
+        "Nemá žádný vztah k metabolismu",
+        "Podílí se na rozkladných i výstavbových přeměnách"
+      ],
+      "answer": 2,
+      "explanation": "Citrátový cyklus poskytuje energii při odbourávání a zároveň meziprodukty pro další syntézy.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 10
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "q-pyruvat",
+      "prompt": "Kde podle souhrnu probíhá glykolýza?",
+      "options": [
+        "Pouze v žaludeční dutině",
+        "V cytoplazmě buňky",
+        "Jen v buněčném jádře"
+      ],
+      "answer": 1,
+      "explanation": "Glykolýza je buněčná přeměna glukózy na pyruvát, nikoli samotné trávení v zažívacím traktu.",
+      "source_refs": [
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "q-acetyl",
+      "prompt": "Co je společným vstupem do citrátového cyklu při zpracování více druhů živin?",
+      "options": [
+        "Acetyl-CoA",
+        "Celá molekula škrobu",
+        "Chromozom"
+      ],
+      "answer": 0,
+      "explanation": "Souhrn vysvětluje návaznost metabolismu sacharidů, mastných kyselin a uhlíkatých zbytků aminokyselin na acetyl-CoA.",
+      "source_refs": [
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "q-urea",
+      "prompt": "S jakou přeměnou souvisí močovinový cyklus v souhrnu?",
+      "options": [
+        "Přepisem DNA do RNA",
+        "Přeměnou světla na chlorofyl",
+        "Převodem amoniaku vznikajícího při odbourávání aminokyselin na močovinu"
+      ],
+      "answer": 2,
+      "explanation": "Dusíkatá složka aminokyselin se zpracovává jinak než jejich uhlíkatý zbytek; amoniak se převádí na močovinu.",
+      "source_refs": [
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "q-prenasece",
+      "prompt": "Které molekuly předávají elektrony do dýchacího řetězce?",
+      "options": [
+        "Pouze CO₂ a močovina",
+        "NADH a FADH₂",
+        "Celulóza a škrob"
+      ],
+      "answer": 1,
+      "explanation": "Redukované přenašeče navazují na předešlé katabolické děje a předávají elektrony do řetězce.",
+      "source_refs": [
+        {
+          "id": "8f01b97edc9b4bd4427d2e1cac3e570e4df868440d13bd29f64716c98656ea56",
+          "sha256": "a42c9b7b66d9321cb5e7e57cd632b3d52534c159624d5729efccc35b0df565fc",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "q-syntaza",
+      "prompt": "Co přímo využívá ATP-syntáza v popsaném modelu?",
+      "options": [
+        "Tok protonů po gradientu",
+        "Štěpení celé DNA na aminokyseliny",
+        "Tvorbu glykogenu v žaludku"
+      ],
+      "answer": 0,
+      "explanation": "Přirovnání k turbíně vystihuje využití energie protonového gradientu při tvorbě ATP.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 22
+        },
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "q-terminalni",
+      "prompt": "Co vzniká při předání elektronů na kyslík na konci dýchacího řetězce?",
+      "options": [
+        "Nové chromozomy",
+        "Škrob",
+        "Voda"
+      ],
+      "answer": 2,
+      "explanation": "Konečným příjemcem elektronů je kyslík a vzniká voda; CO₂ souvisí s odbouráním uhlíkatých látek.",
+      "source_refs": [
+        {
+          "id": "45e16c45e83884c44bb35fccfe1ac3d9f90e254fa3dfdc13480fe63603e235cb",
+          "sha256": "509327343f874946a22a3538f5b56fe01dc474d7b7942f6f578f0eb78b18aefc",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "q-insekticid",
+      "prompt": "Kterou skupinu škůdců cílí insekticidy?",
+      "options": [
+        "Pouze viry uvnitř ribozomů",
+        "Hmyz",
+        "Výhradně plevelné rostliny"
+      ],
+      "answer": 1,
+      "explanation": "Insekticidy jsou v prezentaci uvedené jako prostředky k hubení hmyzu.",
+      "source_refs": [
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "q-mydlo",
+      "prompt": "Co jsou chemicky mýdla?",
+      "options": [
+        "Sodné nebo draselné soli mastných kyselin",
+        "Pouze směsi glukózy a fruktózy",
+        "Ribonukleové kyseliny"
+      ],
+      "answer": 0,
+      "explanation": "Mýdla jsou tenzidy vznikající zásaditou hydrolýzou tuků; jejich stavba umožňuje odmašťovací účinek.",
+      "source_refs": [
+        {
+          "id": "c549bcb6d18838a4d36020b92e4835ae868ea78d44464227ce675083ddcf4b68",
+          "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+          "page": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "text": "Encoding or Encryption\nEncoding changes representation. Encryption tries to hide meaning.\nA \t\t→ \t65 \nA \t\t→ \t.- \nA \t\t→ \tD \nHELLO \t→ \tKHOOR\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "text": "Caesar Cipher\nshift every letter by the same amount \nthe shift is the key \nsame plaintext letter → always same ciphertext letter\n\nA → D\u000bB → E\u000bHELLO → KHOOR"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "text": "Task 1 – Encrypt\nPlaintext: MEET ME AFTER CLASS\u000bShift: +3\nTask 2 – Decrypt\nCiphertext: YMJ UFWYD NX MJWJ\u000bShift: +5\n\nPHHW PH DIWHU FODVV\t\tTHE PARTY IS HERE"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "text": "A real cipher that was actually cracked\n\nThe Zodiac Z408 Cipher — 1969\n408 encrypted symbols \nused a homophonic substitution cipher \none plaintext letter could have several different symbols \nsolved by Donald and Bettye Harden \nthey used guessed words — cribs \none important guess was KILL / KILLING \nthe repeated LL pattern helped reveal part of the key\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "text": "Enigma – Predictable Messages\n\nEnigma changed the substitution constantly using rotors. \nThis created a huge number of possible settings. \nBut many military messages had predictable content. \nCodebreakers could guess parts of the plaintext: \nweather reports \nstandard phrases \ngreetings and sign-offs \nrepeated military wording \nThese guesses helped eliminate many impossible Enigma settings.\nSimulator"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "text": "Why is a predictable phrase such as a greeting, weather report, or sign-off dangerous in encrypted communication?\n\nIf you know something about the person who wrote a message, can that help you break the cipher?\n\nWhat else could help us if we had a much longer text?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "text": "Why Caesar cipher is weak?\nWhich symbol appears most often? \nDo languages use every letter equally often? \nWhich letters do you think are most common in English?\n\nAOL ZLJYLA TLZZHNL YLCLHSZ DOLYL AOL ALHT DPSS TLLA. LCLYF TLTILY ULLKZ AV YLTLTILY AOL YLK LUCLSVWL ILMVYL AOLF SLHCL."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Letter Freguency Letter Freguency\ne 12.7020%|m\n9.0560%\n8.1670%\n7.5070%\n6.9660%\n6.7490%\n\n6.3270%\n6.0940%\n5.9870%\n4.25230%\n4.0250%\n2.7820%\n2.7580%\n\n|a |jx j7 |*x]e jojo j= pr]>»]|s\n\nc|ojTJjajojo]v]js\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "text": "AOL ZLJYLA TLZZHNL YLCLHSZ DOLYL AOL ALHT DPSS TLLA. LCLYF TLTILY ULLKZ AV YLTLTILY AOL YLK LUCLSVWL ILMVYL AOLF SLHCL.\nDecrypt this Caesar cipher\nOur guess E = L \nShift ="
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "text": "Morse code\nWhy would E get just one dot, while Z gets four signals?\n\nWhat are the four most frequent letters in English alphabet?\n\nWhat are the four least frequent letters in English alphabet?\n\nWhy is that?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "text": "Mars Robot Challenge\nRobot commands:\nForward — 50% \nRight — 25% \nLeft — 15% \nU-turn — 10%\n\nWe have 4 commands. If every code has the same length, how many bits do we need?\n\nBut, should FORWARD really use the same number of bits as U-TURN?\nDesign the shortest possible binary code you can for these commands.\nevery command needs a code, \nmessages must be uniquely decodable, \ncommon commands should ideally have shorter codes."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Forward = 0\nRight 2 10\nLeft = 110\nU-turn — 111\n\nAverage length = 1.75\nbits/command\n",
+      "text": "Forward → 0 \nRight → 10 \nLeft → 110 \nU-turn → 111\n\n\n\nAverage length = 1.75 bits/command"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "text": "Why this would not work?\n\nForward → 1 \nRight → 10 \nLeft → 110 \nU-turn → 111\n\nWhat would the robot do if given the following instructions?\n\n110111"
+    }
+  ]
+}

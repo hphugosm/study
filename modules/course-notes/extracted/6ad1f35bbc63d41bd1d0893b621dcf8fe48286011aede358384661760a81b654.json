@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "sha256": "6ad1f35bbc63d41bd1d0893b621dcf8fe48286011aede358384661760a81b654",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Je]\n\n[s]\n\nM\n\n[] 1\n\n",
+      "text": ""
+    }
+  ]
+}

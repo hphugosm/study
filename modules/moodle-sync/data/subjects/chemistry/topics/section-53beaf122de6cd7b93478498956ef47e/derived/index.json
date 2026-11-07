@@ -2,5 +2,44 @@
   "schema": 1,
   "subject_id": "chemistry",
   "topic_id": "section-53beaf122de6cd7b93478498956ef47e",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Nukleové kyseliny",
+      "kind": "notes",
+      "path": "data/subjects/chemistry/topics/section-53beaf122de6cd7b93478498956ef47e/derived/course-notes-v1/notes.json",
+      "sha256": "cf2aaf355a7e0a1d692d90a83aa94da6e54e51b921d187bb9bf00a35b5a3fe6a",
+      "source_refs": [
+        {
+          "id": "0ba39b0fb0f3fe109f0bfaee1286833233e14acd0d7a73a7b10db5ccafbcbf1e",
+          "sha256": "c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83"
+        },
+        {
+          "id": "4f833ef00e36819b48f5c138a8ba5bddd24079d75723db7114e64a5f4ad12df6",
+          "sha256": "5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39"
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2"
+        },
+        {
+          "id": "990ada058e2a09594e0bfc004291ce44fe12715a7bc7e1f0450c965f41bd8d53",
+          "sha256": "fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495"
+        },
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331"
+        },
+        {
+          "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+          "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f"
+        },
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

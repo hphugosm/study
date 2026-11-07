@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "subject": "mathematics",
+  "topic": "section-0eb4eef465522b45edfa8bfda90e7776",
+  "title": "Úvod",
+  "language": "cs",
+  "intro": "Toto téma obsahuje prázdnou tabulkovou pomůcku k váženému průměru. Není to sada výukových poznámek ani zveřejněné hodnocení konkrétního studenta.",
+  "sources": [
+    {
+      "id": "dcb9896b5fc6117959f8e7925e080abe4df46a27fcbfbc6b54801643281e82e3",
+      "sha256": "e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948",
+      "title": "Znamky-template.xlsx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948.xlsx",
+      "extraction_url": "./extracted/e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "vazeny-prumer",
+      "title": "Co počítá přiložená šablona",
+      "source_refs": [
+        {
+          "id": "dcb9896b5fc6117959f8e7925e080abe4df46a27fcbfbc6b54801643281e82e3",
+          "sha256": "e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948",
+          "locator": "List1; výpočet celkového průměru"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Šablona seskupuje vstupy do čtyř kategorií: čtvrtletní práce, testy, DP a aktivita. Nejprve počítá dílčí průměry kategorií a potom je kombinuje váhami 4, 3, 2 a 1.",
+          "source_refs": [
+            {
+              "id": "dcb9896b5fc6117959f8e7925e080abe4df46a27fcbfbc6b54801643281e82e3",
+              "sha256": "e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948",
+              "locator": "vzorce B5, D5, K5 a O5"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Celkový průměr v tabulce: (4·Q + 3·T + 2·D + A)/10, kde Q, T, D a A jsou dílčí průměry uvedených kategorií. Jde o doslovnou strukturu vzorce, nikoliv přidaná pravidla klasifikace.",
+          "source_refs": [
+            {
+              "id": "dcb9896b5fc6117959f8e7925e080abe4df46a27fcbfbc6b54801643281e82e3",
+              "sha256": "e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948",
+              "locator": "vzorec P3"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Soubor je prázdná pomůcka: neobsahuje zveřejněné známky konkrétního člověka.",
+            "Funkce AVERAGE pracuje se zadanými hodnotami příslušné skupiny buněk; zkontroluj, kam hodnoty zadáváš.",
+            "Samotný vzorec neurčuje pravidlo zaokrouhlení ani konečnou klasifikaci. Tyto podmínky z tohoto souboru neodvozujeme."
+          ],
+          "source_refs": [
+            {
+              "id": "dcb9896b5fc6117959f8e7925e080abe4df46a27fcbfbc6b54801643281e82e3",
+              "sha256": "e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948",
+              "locator": "buňky vstupů a vzorce tabulky"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [],
+  "questions": []
+}

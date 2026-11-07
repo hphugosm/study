@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Fotosyntéza\n",
+      "text": "Fotosyntéza"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Co to je?\n• Proces, při kterém je v \nrostlinách a některých \nmikroorganismech využívána \nenergie slunečního záření \npro tvorbu cukrů a dalších \npotřebných látek.\n• V rostlinách probíhá ve \nspecializovaných organelách \nbuněk zelených částí –\nchloroplastech.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Fotosyntéza\n• Anoxygenní (Zelené sirné bakterie, dárcem vodíku není \nvoda, ale H2S – kyslík není vedlejším produktem, probíhá za \nanaerobních podmínek.)\n• Oxygenní (Dárcem vodíku je voda. Vedlejší produkt je \nkyslík. Hlavní zdroj kyslíku v atmosféře.)"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Fotosyntéza je proces, kterým rostliny vyrábí \nsacharidy a kyslík.\nProbíhá ve dvou fázích:\nSvětelné: energie světla je využita pro tvorbu ATP , NADPH a \nrozklad vody (konzervování energie)\nTemnostní: získané ATP a NADPH jsou využity pro tvorbu \ntriacylglycerolu z oxidu uhličitého. Z něj si pak rostlina vytvoří \ndalší důležité látky\nSumárně lze fotosyntézu vyjádřit rovnicí:\n– C6H12O6 zástupný vzorec pro sacharidy\n6 CO2 + 6 H2O + energie → C6H12O6 + 6 O2"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "Světelná fáze\n• Světelná fáze slouží k \npřeměně světelné \nenergie na energii \nchemickou (ATP , \nNADPH).\n• Takto připravená \nenergie je později \nvyužita pro syntézu \ntriacylglycerolu.\n• Součástí světelné fáze \nje i rozklad vody \n(Hillova reakce), kdy \ndochází k uvolnění \nkyslíku.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "ophyli b\n\nChloroplast membrána\n\nstroma\n\nU eukaryot se reakce světelné fáze\nuskutečňují na membránách tvlakoidu,\nfáze temnostní probíhá ve stromatu\nchloroplastu.\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "Jak se chytá světlo?\n• V chloroplastech jsou barviva, která umí \n„chytit“ světlo (absorbují  ho ve viditelné \noblasti).\n• Hlavní podíl tvoří chlorofyly.\n• Vše je ve spojení s proteiny uspořádáno do \nlapacích komplexů – antén, které fungují \njako „past na světlo“.\n• Past funguje na principu energetického \nvybuzení elektronu a postupném předávání \nvzniklého vzruchu mezi anténami.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "text": "Jak se chytá světlo?\n• Energie je pomocí \nelektronů předávána až do \nstředu „pasti“, kde je \numístněno reakční \ncentrum.\n• Reakční centrum je \nmolekula fotosystému.\n• Po doputování vzruchu do \nreakčního centra je proces \nfotosyntézy zahájen.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "text": "V chloroplastu jsou dva fotosystémy\n• PS II – místo, kde probíhá fotolýza vody\n• PS I – místo, kde dochází ke vzniku ATP , NADPH+H+\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 10",
+      "number": 10,
+      "text": "Jak se ze světla získává energie?\nPři aktivaci fotosystémů \ndojde k uvolnění elektronů\nElektron z fotosystému  \nI může být použit pro \npohon protonové \npumpy, nebo na \nsynthesu NADPH\nElektron z fotosystému \nII je použit pro pohon \nprotonové pumpy a \nsoučasně doplňuje \nelektron fotosystému I\nExistují dva fotosystémy\nFotosystém II doplňuje \nsvůj elektron rozkladem \nvody\nVzniklá protonová \nnerovnováha \n(gradient) je použita \npro synthesu ATP \nstejně jako v \ndýchacím řetězci"
+    },
+    {
+      "kind": "page",
+      "label": "page 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "SCHÉMA PROCESŮ PŘI PRIMÁRNÍ (SVÉTELNÉ) FÁZI FOTOSYNTÉZY\n\nLight o\nZ( CALVIN\ncVCLE\n© CHO (s49an)]\nSTROMA\nLight\nSTROMA\n\nCytochrome\ncomplex\nystem Photosystem |\nt Light NADP*+\nreductase ©)\n2H*+ NADP* + 2H*+\n+H*+\nUD I\nATP\nsynthase\n\nCopynght © Pearson Education, nc., publishing as Berjamin Cummngs.\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 12",
+      "number": 12,
+      "text": "Jak se rozkládá voda?\n• Voda je rozkládána pomocí složitého komplexu v blízkosti \nfotosystému II\n• Odpadním produktem rozkladu vody je kyslík\n• Proces se nazývá Hillova reakce\n2 H2O → 4 e- + 4 H+ + O2"
+    },
+    {
+      "kind": "page",
+      "label": "page 13",
+      "number": 13,
+      "text": "Temnostní fáze\n• Slouží k syntéze glukózy.\n• Jako výchozí materiál slouží \nATP a NADPH ze světelné \nfáze a oxid uhličitý z \natmosféry.\n• Proces se nazývá Calvinův \ncyklus – v sérii reakcí je CO2 \nredukován na sacharidy.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 14",
+      "number": 14,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Sekundární fáze fotosyntézy\n\n: Ribulosa-1,5-bisfosfát : 3\n\"\"\"\"\" \"?'5—0903 I-fosfoglycerát\n3 n!:—on\n3\n„ r\nu opoj“\nHoC—OH\no \\ OPO,\nRibulosa-5- 3 wboos „í_ 1,3-bisfosfoglycerát\nfontšť Čb o Calvinův cyklus S -0\noP0 Hzč—o\"o:\n\n©\n[] H o\ne Y W >0\n\nGlyceraldehyd-3- s n';_ou z ž »J;_ou\nfosfát Hzč— OPOJ ý Hul“:— oP0y Glyceraldehyd-3-fosfát\nPoo m 1\n| - Sacharidy ! $O /\n| Mastné kysolmy A — m — ]\n\noH l\n: Amlnokysellny. udnoro,* | Glyceraldehyd-3-fosfát 1\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 15",
+      "number": 15,
+      "text": "Calvinův cyklus\n• CO2  se naváže na ribulóza-1,5-bisfosfát, tato reakce je  \nkatalyzována enzymem Rubisco (ribulóza-1,5-bisfosfát-\nkarboxyláza/oxygenáza).\n• Vzniklý produkt se ihned štěpí na 2 molekuly 3-fosfoglycerátu\n• Ze 3molekul ribulózy získá 6 molekul 3-fosfoglycerátu\n3-fosfoglycerát (kyselina 3-fosfoglycerová)\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 16",
+      "number": 16,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "3-fosfoglycerát se pomocí energie mění na 1, 3- bisfosfoglycerát\n\n1x POz\n\no\nc::=o ó\nH(l:—OH //0 : fosfoglycerátkináza (|:=O\nHé—o—fTO * ATP — * HE—OH o + ADP\né\n|\n\no /-\nH \\_H—/Q—P/—o/\n3-fosfoglycerát H o\n\n1,3-bisfosfoglycerát\n",
+      "text": "3-fosfoglycerát se pomocí  energie mění na 1, 3 – bisfosfoglycerát\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 17",
+      "number": 17,
+      "text": "• 1, 3 – bisfosfoglycerát se pomocí NADPH redukuje na \nglyceraldehyd-3-fosfát\n• Z molekuly glyceraldehyd-3-fosfátu se syntetizují další látky \njako sacharidy, škrob, MK, aminokyseliny, bílkoviny apod. \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 18",
+      "number": 18,
+      "text": "Calvinův cyklus\nAsimilační fáze:\nváže se CO2 z \novzduší\nJe třeba 3 \nmolekuly CO2 pro \nsyntézu \nglyceraldehydu-3-\nfosfátu\n-Ten je posléze \npředán do \nglukoneogenese k \nsyntéze glukosy\n-Spotřeba ATP a \nNADPH ze \nsvětelné fáze\nRegenerační \nfáze: výchozí \nribosa musí \nbýt postupně \nregenerována\n-spotřeba ATP \nze světelné \nfáze\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 19",
+      "number": 19,
+      "text": "• jedna molekula glyceraldehyd-3-fosfátu \nopouští cyklus a  pomocí glukoneogeneze se z \nní syntetizují další látky(sacharidy, škrob, MK, \naminokyseliny, bílkovinyatd.). \n• Ze zbývajících pěti molekul glyceraldehyd-3-\nfosfátu v regenerační fázi vznikají opět 3 \nmolekuly ribulóza-5-fosfátu a jejich následnou \nfosforylací ATP vznikají 3 molekuly ribulóza-\n1,5-bisfosfátu. \n• Calvinův cyklus se cyklicky opakuje"
+    },
+    {
+      "kind": "page",
+      "label": "page 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Sekundární fáze fotosyntézy\n\n: Ribulosa-1,5-bisfosfát : 3\n\"\"\"\"\" \"?'5—0903 I-fosfoglycerát\n3 n!:—on\n3\n„ r\nu opoj“\nHoC—OH\no \\ OPO,\nRibulosa-5- 3 wboos „í_ 1,3-bisfosfoglycerát\nfontšť Čb o Calvinův cyklus S -0\noP0 Hzč—o\"o:\n\n©\n[] H o\ne Y W >0\n\nGlyceraldehyd-3- s n';_ou z ž »J;_ou\nfosfát Hzč— OPOJ ý Hul“:— oP0y Glyceraldehyd-3-fosfát\nPoo m 1\n| - Sacharidy ! $O /\n| Mastné kysolmy A — m — ]\n\noH l\n: Amlnokysellny. udnoro,* | Glyceraldehyd-3-fosfát 1\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 21",
+      "number": 21,
+      "text": "C4-rostliny, aneb jak na to \njdou kaktusy a kukuřice\n• V teplých krajích by rostliny ztrácely při fotosyntéze mnoho vody \ndíky pórům, kterými je vyměňován kyslík  a oxid uhličitý.\n• Aby se minimalizovaly ztráty, rostliny mají jinou anatomii listů a \nfotosyntéza je rozdělena jak časově, tak prostorově.\n• V noci, když je okolní vzduch vlhký a studený, jsou póry otevřené \na přijímají CO2, který je ukládán v hloubi listu.\n• Ve dne probíhá světelná fáze, CO2 je uvolněn a fixován do \nsacharidu (glyceraldehyd-5-fosfát)"
+    },
+    {
+      "kind": "page",
+      "label": "page 22",
+      "number": 22,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vacuole\n\nco; Ý\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 23",
+      "number": 23,
+      "text": "Faktory ovlivňující fotosyntézu\n• koncentrace CO2\n• teplota\n• voda\n• minerální výživa\n• imise (rozklad chlorofylu)"
+    },
+    {
+      "kind": "page",
+      "label": "page 24",
+      "number": 24,
+      "text": "DĚKUJI ZA POZORNOST\nZdroj obrázků: \nhttp://old.vscht.cz/anl/oppa-sem-bio/PDFs/II_9_OPPA.pdf\nwww.google.cz"
+    }
+  ]
+}

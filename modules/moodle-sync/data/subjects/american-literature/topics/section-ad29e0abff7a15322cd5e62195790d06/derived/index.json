@@ -2,5 +2,20 @@
   "schema": 1,
   "subject_id": "american-literature",
   "topic_id": "section-ad29e0abff7a15322cd5e62195790d06",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "The Lost Generation- Quiz",
+      "kind": "notes",
+      "path": "data/subjects/american-literature/topics/section-ad29e0abff7a15322cd5e62195790d06/derived/course-notes-v1/notes.json",
+      "sha256": "bb3c338fd0ca973a4c6c7ab56470161e3f3aec38688d35fcc11f0c64ef55a4ad",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

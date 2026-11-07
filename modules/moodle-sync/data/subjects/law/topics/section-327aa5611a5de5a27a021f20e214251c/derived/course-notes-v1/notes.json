@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "subject": "law",
+  "topic": "section-327aa5611a5de5a27a021f20e214251c",
+  "title": "Unit 2.4 - Civil Liberty",
+  "language": "en",
+  "intro": "This source is a blank viewing worksheet, not a transcript or answer key. Use it to collect evidence about wartime democracy, the Gobitas children and constitutional liberty; the supplied document alone does not establish every requested answer.",
+  "sources": [
+    {
+      "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+      "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+      "title": "Video Worksheets - Liberty.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be.docx",
+      "extraction_url": "./extracted/7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "questions",
+      "title": "Three kinds of questions need different evidence",
+      "source_refs": [
+        {
+          "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+          "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+          "locator": "A Nation of Liberties worksheet, two video sections"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The first section asks what principles the Allies were defending, how World War II changed America and what tensions the interview describes. Some questions ask for historical evidence; others ask you to interpret a speaker’s metaphor about the Supreme Court moving in fits and starts.",
+          "source_refs": [
+            {
+              "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+              "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+              "locator": "A Nation of Liberties worksheet, two video sections"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The second section asks why the Gobitas children refused a pledge and salute, which liberty and amendment they claimed, the lower-court outcome and the Supreme Court’s reasoning. Those prompts identify the issues to investigate; they do not supply the missing video evidence.",
+          "source_refs": [
+            {
+              "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+              "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+              "locator": "A Nation of Liberties worksheet, two video sections"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "The worksheet states that Justice Felix Frankfurter wrote an 8–1 Supreme Court opinion. It does not state the holding in the blank answer space. Do not mistake a question for its answer.",
+          "source_refs": [
+            {
+              "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+              "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+              "locator": "A Nation of Liberties worksheet, two video sections"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viewing-method",
+      "title": "Build an evidence-based case note",
+      "source_refs": [
+        {
+          "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+          "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+          "locator": "A Nation of Liberties worksheet, two video sections"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Keep the factual question separate from your evaluation. If asked why a government might require a pledge, state that you are considering a possible justification; if asked what the Court decided, record evidence of the actual decision. A personal view cannot substitute for the latter.",
+          "source_refs": [
+            {
+              "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+              "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+              "locator": "A Nation of Liberties worksheet, two video sections"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Record the dispute",
+          "text": "Identify the conduct challenged and the liberty claimed.",
+          "source_refs": [
+            {
+              "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+              "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+              "locator": "A Nation of Liberties worksheet, two video sections"
+            }
+          ]
+        },
+        {
+          "title": "Separate court stages",
+          "text": "Keep lower-court outcomes and Supreme Court reasoning in different notes.",
+          "source_refs": [
+            {
+              "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+              "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+              "locator": "A Nation of Liberties worksheet, two video sections"
+            }
+          ]
+        },
+        {
+          "title": "Locate evidence",
+          "text": "Record the relevant video statement or a verified class source.",
+          "source_refs": [
+            {
+              "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+              "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+              "locator": "A Nation of Liberties worksheet, two video sections"
+            }
+          ]
+        },
+        {
+          "title": "Interpret separately",
+          "text": "Then explain what the evidence suggests about democracy, dissent and change.",
+          "source_refs": [
+            {
+              "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+              "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+              "locator": "A Nation of Liberties worksheet, two video sections"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "What does the blank worksheet establish?",
+      "back": "The issues to investigate and a few stated details, not a complete set of case holdings.",
+      "source_refs": [
+        {
+          "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+          "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+          "locator": "A Nation of Liberties worksheet, two video sections"
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "How should a factual answer differ from an opinion answer?",
+      "back": "A factual answer needs evidence of what happened or was decided; an opinion answer needs clearly identified reasoning.",
+      "source_refs": [
+        {
+          "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+          "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+          "locator": "A Nation of Liberties worksheet, two video sections"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Can the missing video’s complete historical conclusions be recovered from the question prompts alone?",
+      "options": [
+        "Yes, every question states its answer",
+        "No, the prompts identify evidence to collect",
+        "Only by guessing the teacher’s view"
+      ],
+      "answer": 1,
+      "explanation": "The source is a viewing worksheet with blank answers, not a transcript.",
+      "source_refs": [
+        {
+          "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+          "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+          "locator": "A Nation of Liberties worksheet, two video sections"
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "Which task calls for evidence of a court decision?",
+      "options": [
+        "What do you personally think?",
+        "What was the lower court’s outcome?",
+        "What reasons might a school board have?"
+      ],
+      "answer": 1,
+      "explanation": "The outcome question asks what a court actually did; the other prompts invite reasoning or interpretation.",
+      "source_refs": [
+        {
+          "id": "c34ab5e2bf89bc64a4405bf13c744ab8687dd0dd5cee9bb1379462daef876862",
+          "sha256": "7c48d2917a0a3001628dfae5cb829c01154ea5d408cfff121ca5c792b957d8be",
+          "locator": "A Nation of Liberties worksheet, two video sections"
+        }
+      ]
+    }
+  ]
+}

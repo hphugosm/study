@@ -2,5 +2,36 @@
   "schema": 1,
   "subject_id": "chemistry",
   "topic_id": "section-e50b1d9503439050a4b416599d3b6a19",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Lipidy a biomembrány",
+      "kind": "notes",
+      "path": "data/subjects/chemistry/topics/section-e50b1d9503439050a4b416599d3b6a19/derived/course-notes-v1/notes.json",
+      "sha256": "1b6e50dd828850743879bafb43b53d216a17afea6c4bab077f2708d613fb9e83",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+        },
+        {
+          "id": "12b00df0a04892234275d27417b4b3ccd5da4538064cf7a8499f8b0491dcd3c3",
+          "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed"
+        },
+        {
+          "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
+          "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912"
+        },
+        {
+          "id": "c8a2a2e0e3c053680a244da79b7f94ff59cc23e1d79702013b43f7562374a5b7",
+          "sha256": "7b8720841ada61e459fbbd6b92a1d9de0dd7de3dcfdc8defae626137af867d6c"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

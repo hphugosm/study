@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83",
+  "units": [
+    {
+      "kind": "image",
+      "label": "image 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "d\n\nMŽČ (H -(!) t/M- C]// -(W\" F Moz /C// (00 7 g A-000 4 Mho j/ (M\nÍ CH í\nA H 6 ú /U ,„'Z\n\n© d A3 Y\n\n> oh (51h =ch ě-1 H () - r bo d- € 42%0\n\nPóutlapoo,a\n\n' - — + —\nNý — A-(O07 + Ms - A( t Mo - H- >\n\nÓH\n\nM47 CH-(to-NR- 0 KeoW)OG-LAT t 2060\n\n/ Í\n0H\n\n",
+      "text": ""
+    }
+  ]
+}

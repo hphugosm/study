@@ -1,0 +1,1558 @@
+{
+  "schema": 1,
+  "subject": "informatics",
+  "topic": "section-588cd5ee5179c25883c65e0170e6009f",
+  "title": "Kódování informace a komprese",
+  "language": "cs",
+  "intro": "Jak se z textu, obrazu a zvuku stávají bity, kdy data komprimujeme a kdy k nim naopak přidáváme kontrolní informace. Přehled propojuje všech pět prezentací a odděluje kódování od šifrování.",
+  "sources": [
+    {
+      "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+      "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+      "title": "8_Encoding_sound_video.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a.pptx",
+      "extraction_url": "./extracted/8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a.zip"
+    },
+    {
+      "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+      "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+      "title": "7_encoding_image.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881.pptx",
+      "extraction_url": "./extracted/6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881.zip"
+    },
+    {
+      "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+      "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+      "title": "5_6_Efficient_and_reliable_encoding_5_Huff_6.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06.pptx",
+      "extraction_url": "./extracted/eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06.zip"
+    },
+    {
+      "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+      "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+      "title": "Encoding_3_class.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d.pptx",
+      "extraction_url": "./extracted/08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d.zip"
+    },
+    {
+      "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+      "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+      "title": "Simple_ciphers_and_Efficient_coding.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c.pptx",
+      "extraction_url": "./extracted/053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "znaky-a-bajty",
+      "title": "Znak není totéž co jeho uložení do bajtů",
+      "source_refs": [
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 3
+        },
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 5
+        },
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 7
+        },
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 9
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kódování přiřazuje informaci určitou reprezentaci. Pro 26 písmen potřebuje stejně dlouhý binární kód alespoň 5 bitů: 4 bity nabízejí jen 16 možností, 5 bitů už 32.",
+          "source_refs": [
+            {
+              "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+              "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "ASCII přiděluje hodnoty 0–127: jde o 7bitový kód se 128 pozicemi, včetně řídicích znaků.",
+            "Unicode přiděluje znakům číselné identifikátory napříč různými písmy.",
+            "UTF-8 převádí Unicode do konkrétních posloupností 1 až 4 bajtů; běžné ASCII znaky zachovávají původní jednobajtové hodnoty."
+          ],
+          "source_refs": [
+            {
+              "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+              "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+              "page": 5
+            },
+            {
+              "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+              "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+              "page": 7
+            },
+            {
+              "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+              "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Číselný identifikátor znaku, například U+010C, ještě není posloupnost uložených bajtů. Unicode a UTF-8 proto nejsou zaměnitelná označení.",
+          "source_refs": [
+            {
+              "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+              "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+              "page": 8
+            },
+            {
+              "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+              "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Unicode",
+          "UTF-8"
+        ],
+        "rows": [
+          {
+            "label": "Co popisuje",
+            "values": [
+              "Číselný identifikátor znaku",
+              "Zápis těchto znaků do bajtů"
+            ]
+          },
+          {
+            "label": "Příklad z prezentace",
+            "values": [
+              "Znak má své code point číslo",
+              "Jednotlivé znaky používají 1–4 bajty"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sifrovani",
+      "title": "Změnit reprezentaci není totéž co skrýt zprávu",
+      "source_refs": [
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 11
+        },
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 1
+        },
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 2
+        },
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 4
+        },
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 5
+        },
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 9
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kódování řeší reprezentaci; šifrování má chránit obsah před neoprávněným čtením. Caesarova šifra posouvá všechna písmena o stejný počet míst. Pro klíč +3 se HELLO změní na KHOOR.",
+          "source_refs": [
+            {
+              "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+              "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+              "page": 11
+            },
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 1
+            },
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Stejné písmeno se u Caesarovy šifry při jednom klíči mění vždy stejně. Pomáhají proto četnosti písmen a odhad pravděpodobných slov. Prezentace na historických příkladech Z408 a Enigmy ukazuje význam odhadnutého úseku zprávy neboli cribu.",
+          "source_refs": [
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 4
+            },
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 5
+            },
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "ASCII ani UTF-8 nejsou tajný klíč. Použití jiného kódování samo o sobě neslouží jako zabezpečení zprávy.",
+          "source_refs": [
+            {
+              "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+              "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+              "page": 11
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Zvol klíč",
+          "text": "U Caesarovy šifry +3 má každé písmeno stejný posun.",
+          "source_refs": [
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "title": "Přepiš písmena",
+          "text": "H → K, E → H, L → O, L → O, O → R.",
+          "source_refs": [
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "title": "Pro dešifrování posun obrať",
+          "text": "Od KHOOR použij −3 a získáš HELLO. Důležitý je správný směr klíče.",
+          "source_refs": [
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "title": "Posuď slabinu",
+          "text": "Opakující se písmena zůstávají opakujícími se písmeny. Četnosti a předvídatelné fráze poskytují vodítka.",
+          "source_refs": [
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 5
+            },
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entropie-a-huffman",
+      "title": "Častější symbol dostává kratší cestu",
+      "source_refs": [
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 11
+        },
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 12
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 6
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 11
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 23
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 24
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 38
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Robot má podle příkladu četnosti Forward 50 %, Right 25 %, Left 15 % a U-turn 10 %. Stejně dlouhý kód vyžaduje 2 bity na povel. Kód F → 0, R → 10, L → 110 a U → 111 má průměrnou délku 0,50·1 + 0,25·2 + 0,15·3 + 0,10·3 = 1,75 bitu na povel.",
+          "source_refs": [
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 11
+            },
+            {
+              "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+              "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+              "page": 12
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 2
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Méně pravděpodobná událost přináší více informace ve smyslu nepředvídatelnosti. Entropie je průměrné množství informace na symbol a v prezentaci slouží jako teoretická dolní mez průměrné délky bezeztrátového kódování.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 6
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 8
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Prefixový kód nemá žádné celé kódové slovo jako začátek jiného slova. Proto lze 0, 10, 110 a 111 jednoznačně číst postupně, i když mají různou délku.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Huffmanův postup opakovaně slučuje dva nejméně četné uzly. Po dokončení stromu označíme větve 0 a 1 a kód čteme od kořene k symbolu. Prezentace ukazuje také zprávu BIG_BOB_BITES_BANANAS a její 66bitový zápis.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 24
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 28
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 37
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 38
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b904e57ba0d0934f2d3f1bcf2b97cce7c7791fec2dd946c53b72ca93a34123b4.webp",
+          "alt": "Huffmanův strom čtyř robotických povelů s četnostmi 50, 25, 15 a 10 procent",
+          "caption": "Prezentace o Huffmanově kódování, snímek 26: sleduj délky cest ke čtyřem povelům.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 26
+            }
+          ],
+          "source_media": "extracted/eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06/media/slide-026-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ],
+      "steps": [
+        {
+          "title": "Seřaď četnosti",
+          "text": "Začni uzly L = 15 a U = 10, dvěma nejmenšími četnostmi.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "title": "Spoj nejmenší dvojici",
+          "text": "Jejich součet je 25. Zbývá F = 50, R = 25 a uzel LU = 25.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "title": "Opakuj slučování",
+          "text": "Spoj oba uzly s četností 25 do 50 a potom obě padesátky do kořene 100.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "title": "Přečti kódy",
+          "text": "V uvedeném označení větví vychází F = 0, R = 10, L = 110 a U = 111. Obrácení označení větví může dát jiné, ale stejně dlouhé platné kódy.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 26
+            }
+          ]
+        },
+        {
+          "title": "Ověř úsporu",
+          "text": "Pro 100 povelů daných četností je délka 175 bitů místo 200. Počítáme jen povely v daném příkladu, ne případnou režii pro uložení kódové tabulky.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 2
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chyby",
+      "title": "Kontrolní bity přidáváme záměrně",
+      "source_refs": [
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 14
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 15
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 16
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 17
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 18
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 20
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Komprese se snaží odstranit zbytečnou redundanci; ochrana před chybami ji naopak záměrně přidává. Prezentace porovnává trojí opakování bitu, paritní bit a Hammingův kód (7,4).",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 14
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 15
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sudá parita doplní jeden bit tak, aby byl celkový počet jedniček sudý. Odhalí každou jednobitovou chybu, ale nepozná její pozici; dvě změny se mohou z hlediska parity vyrušit.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 16
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Aritmetická kontrola zdrojového příkladu: řetězec 10110010 obsahuje čtyři jedničky, takže má sudou paritu. Uvedení stejného řetězce podruhé nemůže samo prokazovat chybu; spočítej skutečné bity, ne jen přiložený popisek.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 16
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hamming (7,4): čtyři datové a tři paritní bity.",
+            "P1 kontroluje pozice 1, 3, 5, 7; P2 kontroluje 2, 3, 6, 7; P4 kontroluje 4, 5, 6, 7.",
+            "V příkladu 0110001 selžou P2 a P4. Pozice chyby je 2 + 4 = 6; oprava vrátí 0110011."
+          ],
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 18
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 20
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Přijmi zprávu",
+          "text": "V příkladu je přijato 0110001 místo původního 0110011.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "title": "Zkontroluj tři parity",
+          "text": "P1 má sudý počet jedniček, P2 a P4 lichý.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 18
+            },
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "title": "Najdi pozici",
+          "text": "Selhané kontroly dávají 2 + 4 = 6. Tato kombinace určuje pozici jedné chyby.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "title": "Oprav a znovu ověř",
+          "text": "Překlop šestý bit a znovu ověř parity. V tomto příkladu dostaneš 0110011.",
+          "source_refs": [
+            {
+              "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+              "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+              "page": 20
+            }
+          ]
+        }
+      ],
+      "interactive": {
+        "kind": "parity",
+        "title": "Sestav kontrolní bit a vyzkoušej změnu zprávy",
+        "defaults": {
+          "bits": "10110010",
+          "parity": "even"
+        },
+        "source_refs": [
+          {
+            "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+            "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+            "page": 14
+          },
+          {
+            "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+            "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+            "page": 15
+          },
+          {
+            "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+            "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+            "page": 16
+          },
+          {
+            "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+            "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+            "page": 17
+          },
+          {
+            "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+            "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+            "page": 18
+          },
+          {
+            "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+            "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+            "page": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "obraz",
+      "title": "Rozlišení, barvy a způsob uložení jsou různé věci",
+      "source_refs": [
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 4
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 7
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 9
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 15
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 16
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 19
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 20
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 22
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rastrový obraz je mřížka pixelů. Full HD 1920 × 1080 obsahuje 2 073 600 pixelů. V uvedeném RGB modelu má každý pixel tři hodnoty 0–255, tedy 256³ = 16 777 216 možných kombinací.",
+          "source_refs": [
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 4
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 7
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 9
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při třech bajtech na pixel potřebuje nekomprimovaný Full HD RGB obraz 1920·1080·3 = 6 220 800 bajtů, přibližně 6,22 MB v desetinných jednotkách. Skutečný soubor navíc závisí na formátu a kompresi.",
+          "source_refs": [
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 15
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "PNG: rastrový obraz a bezeztrátová komprese, vhodná například pro diagramy a snímky obrazovky.",
+            "JPEG: rastrový obraz se ztrátovou kompresí, vhodný zejména pro fotografie a plynulé přechody.",
+            "SVG: popis tvarů místo ukládání každého pixelu; při zvětšování se tvary znovu vypočítají."
+          ],
+          "source_refs": [
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 19
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 20
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Větší počet megapixelů znamená vyšší rozlišení obrazu, ne automaticky lepší zachycený detail. Prezentace dále ukazuje chroma key: podle RGB hodnot lze vybrat zelené nebo modré pozadí a nahradit ho jiným.",
+          "source_refs": [
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 16
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 24
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 25
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "PNG",
+          "JPEG"
+        ],
+        "rows": [
+          {
+            "label": "Zachování původních pixelů",
+            "values": [
+              "Bezeztrátové",
+              "Ztrátové"
+            ]
+          },
+          {
+            "label": "Uvedené vhodné použití",
+            "values": [
+              "Diagramy, loga, screenshoty",
+              "Fotografie a barevné přechody"
+            ]
+          },
+          {
+            "label": "Co z velikosti nepoznáš",
+            "values": [
+              "Menší soubor sám neznamená nižší rozlišení",
+              "Menší soubor sám neznamená stejné zachování detailu"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "zvuk",
+      "title": "Vzorkování určuje kdy, bitová hloubka jak přesně",
+      "source_refs": [
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 2
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 3
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 6
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 8
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 9
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 10
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 12
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mikrofon převádí změny tlaku na elektrický signál. Vzorkování měří signál opakovaně; vzorkovací frekvence udává počet měření za sekundu. Bitová hloubka udává počet možných úrovní jednoho vzorku: 8 bitů dává 256, 16 bitů 65 536 úrovní.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 2
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 3
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 4
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Datový tok nekomprimovaného zvuku = vzorkovací frekvence × bitová hloubka × počet kanálů. Mono má jeden kanál, stereo dva.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 8
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pro 48 000 vzorků/s, 16 bitů a dva kanály je tok 1 536 000 bitů/s = 192 000 bajtů/s. Tři minuty jsou 180 sekund, tedy 34 560 000 bajtů ≈ 34,56 MB bez komprese.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "WAV je v prezentaci příkladem nekomprimovaného uložení.",
+            "FLAC je příklad bezeztrátové komprese.",
+            "MP3 a AAC jsou příklady ztrátové komprese.",
+            "Záznam používá A/D převod: analogový → digitální. Přehrávání navazuje D/A převodem."
+          ],
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 10
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Zapiš vstupy",
+          "text": "48 kHz převedeme na 48 000 vzorků za sekundu; stereo znamená dva kanály.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 4
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 8
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "title": "Spočítej bity za sekundu",
+          "text": "48 000 × 16 × 2 = 1 536 000 bitů/s.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "title": "Převeď bity na bajty",
+          "text": "Dělíme osmi: 192 000 bajtů/s. Dělení počtem kanálů by bylo chybné.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "title": "Zohledni délku",
+          "text": "Pro 180 sekund vynásobíme 192 000 × 180. Jde o nekomprimovaný signál, nikoliv předpověď velikosti MP3.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 9
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "title": "Kodek a kontejner plní jinou roli",
+      "source_refs": [
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 14
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 15
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 17
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 19
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 20
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 22
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Video tvoří rychle zobrazovaná posloupnost snímků, obvykle doplněná zvukem. FPS je počet snímků za sekundu. Zpomalený záběr v uvedeném principu nahraje více snímků za sekundu a přehraje je nižší frekvencí.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "1080p udává výšku obrazu v pixelech, tedy počet vodorovných řádků; šířka závisí na poměru stran. Prezentace porovnává 1920 × 1080 při 16:9 a 1440 × 1080 při 4:3. Rozlišení, FPS a datový tok proto nejsou zaměnitelné údaje.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 15
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Komprese videa využívá kompresi jednotlivých obrazů a podobnost sousedních snímků. Klíčový snímek uchovává úplný obraz, jiné snímky lze popsat změnami vůči okolním snímkům.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 18
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Kodek určuje způsob kódování a komprese, například H.264, H.265 nebo AV1. Kontejner, například MP4 či MKV, může sdružovat video, audio, titulky a metadata.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Datový tok komprimovaného videa je „rozpočet“ dat za sekundu. Příliš nízký tok může znamenat rozmazání, bloky a ztrátu detailu; vyšší FPS samo o sobě není totéž jako vyšší bitrate.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 21
+            },
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 22
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b8bc122c50bb930824e1eb6ab7334399049f161c3ac1eabf52ffaf8409f06b0e.webp",
+          "alt": "Schéma klíčového snímku a následných změnových snímků",
+          "caption": "Kódování zvuku a videa, snímek 19: data se nemusí ukládat jako zcela nové celé obrázky.",
+          "source_refs": [
+            {
+              "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+              "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+              "page": 19
+            }
+          ],
+          "source_media": "extracted/8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a/media/slide-019-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-ascii",
+      "front": "Kolik hodnot obsahuje základní 7bitové ASCII?",
+      "back": "128 hodnot 0–127 včetně tisknutelných a řídicích znaků.",
+      "source_refs": [
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "card-utf8",
+      "front": "Kolik bajtů může podle prezentace použít UTF-8 pro jeden znak?",
+      "back": "1 až 4 bajty; ASCII znaky zachovávají původní jednobajtové hodnoty.",
+      "source_refs": [
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "card-encryption",
+      "front": "Čím se liší kódování a šifrování?",
+      "back": "Kódování mění reprezentaci; šifrování má chránit obsah a pro obnovení zprávy potřebuje klíč.",
+      "source_refs": [
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "card-prefix",
+      "front": "Co je prefixový kód?",
+      "back": "Žádné celé kódové slovo není začátkem jiného. To umožňuje jednoznačné postupné dekódování.",
+      "source_refs": [
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "card-huffman",
+      "front": "Které uzly se v Huffmanově algoritmu slučují?",
+      "back": "Vždy dva aktuálně nejméně četné uzly; jejich součet se vrací mezi ostatní uzly.",
+      "source_refs": [
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "id": "card-parita",
+      "front": "Co umí a neumí jeden paritní bit?",
+      "back": "Odhalí jednobitovou chybu, ale neřekne její pozici; sudý počet změn může uniknout.",
+      "source_refs": [
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "card-pixel",
+      "front": "Kolik bajtů má pixel v uvedeném 24bitovém RGB modelu?",
+      "back": "Tři bajty: po jednom pro červenou, zelenou a modrou složku.",
+      "source_refs": [
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 7
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "card-rastr-vektor",
+      "front": "Jaký je rozdíl mezi PNG a SVG?",
+      "back": "PNG ukládá rastr pixelů; SVG popisuje tvary, které se při zobrazení vypočítají.",
+      "source_refs": [
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 19
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "id": "card-sample-bit",
+      "front": "Čím se liší sample rate a bit depth?",
+      "back": "Sample rate: jak často měříme. Bit depth: kolik úrovní může mít hodnota jednoho vzorku.",
+      "source_refs": [
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "card-codec",
+      "front": "Jaký je rozdíl mezi H.264 a MP4?",
+      "back": "H.264 je kodek; MP4 je kontejner pro uložení například obrazu, zvuku a titulků.",
+      "source_refs": [
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 20
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-alphabet",
+      "prompt": "Nejmenší počet bitů ve stejně dlouhém kódu pro 26 symbolů je…",
+      "options": [
+        "4",
+        "5",
+        "26"
+      ],
+      "answer": 1,
+      "explanation": "2⁴ = 16 nestačí, 2⁵ = 32 už pokryje všech 26 symbolů.",
+      "source_refs": [
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "quiz-unicode-utf",
+      "prompt": "Které tvrzení odpovídá prezentaci?",
+      "options": [
+        "Unicode a UTF-8 jsou dvě jména stejného formátu souboru",
+        "Unicode přiděluje identifikátor znaku, UTF-8 určuje jeho zápis do bajtů",
+        "Každý znak UTF-8 zabírá vždy 4 bajty"
+      ],
+      "answer": 1,
+      "explanation": "UTF-8 je proměnně dlouhé kódování Unicode: jeden znak má 1–4 bajty.",
+      "source_refs": [
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 8
+        },
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "quiz-caesar",
+      "prompt": "Co dostaneme z HELLO při Caesarově posunu +3?",
+      "options": [
+        "KHOOR",
+        "EBIIL",
+        "HELLO65"
+      ],
+      "answer": 0,
+      "explanation": "Každé písmeno posuneme o tři: H→K, E→H, L→O, O→R. EBIIL by odpovídalo opačnému směru.",
+      "source_refs": [
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-robot-average",
+      "prompt": "Kódy 0, 10, 110, 111 mají četnosti 50 %, 25 %, 15 %, 10 %. Průměrná délka je…",
+      "options": [
+        "1,75 bitu/povel",
+        "2,5 bitu/povel",
+        "3 bity/povel"
+      ],
+      "answer": 0,
+      "explanation": "Sečteme pravděpodobnost krát délku: 0,5·1 + 0,25·2 + 0,15·3 + 0,10·3 = 1,75.",
+      "source_refs": [
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 2
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "quiz-prefix-invalid",
+      "prompt": "Proč je sada 1, 10, 110, 111 nevhodná jako okamžitě čitelný prefixový kód?",
+      "options": [
+        "Není v ní dost nul",
+        "Celé slovo 1 je začátkem dalších slov",
+        "Všechny kódy mají stejnou délku"
+      ],
+      "answer": 1,
+      "explanation": "Prefix 1 se překrývá s dalšími slovy; začátek přijatého toku nelze tímto jednoduchým postupem ihned jednoznačně uzavřít.",
+      "source_refs": [
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c",
+          "page": 13
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "quiz-parity-count",
+      "prompt": "Kolik jedniček má 10110010?",
+      "options": [
+        "3, proto lichou paritu",
+        "4, proto sudou paritu",
+        "5, proto lichou paritu"
+      ],
+      "answer": 1,
+      "explanation": "Jedničky jsou na pozicích 1, 3, 4 a 7. Tato přímá kontrola zároveň odhaluje chybný popisek zdrojového příkladu.",
+      "source_refs": [
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "quiz-hamming-six",
+      "prompt": "V příkladu selžou kontroly P2 a P4, P1 je v pořádku. Který bit se opraví?",
+      "options": [
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Syndrom v uvedeném Hammingově kódu určuje pozici 2 + 4 = 6.",
+      "source_refs": [
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "id": "quiz-rgb-size",
+      "prompt": "Kolik bajtů mají samotné pixely 1920 × 1080 při 3 bajtech/pixel?",
+      "options": [
+        "2 073 600",
+        "6 220 800",
+        "16 777 216"
+      ],
+      "answer": 1,
+      "explanation": "Počet pixelů násobíme třemi. 16 777 216 je počet RGB barevných kombinací, ne velikost tohoto obrazu.",
+      "source_refs": [
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 9
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "quiz-png",
+      "prompt": "Která volba odpovídá bezeztrátovému rastrovému formátu vhodnému pro diagramy?",
+      "options": [
+        "PNG",
+        "JPEG",
+        "H.264"
+      ],
+      "answer": 0,
+      "explanation": "PNG je bezeztrátový rastr. JPEG používá ztrátovou obrazovou kompresi; H.264 je video kodek.",
+      "source_refs": [
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 19
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 20
+        },
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "id": "quiz-audio-rate",
+      "prompt": "48 kHz × 16 bitů × 2 kanály odpovídá…",
+      "options": [
+        "192 000 bajtům/s",
+        "192 000 bitům/s",
+        "48 000 bajtům/s"
+      ],
+      "answer": 0,
+      "explanation": "Součin dává 1 536 000 bitů/s; po dělení osmi je to 192 000 bajtů/s.",
+      "source_refs": [
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "quiz-1080p",
+      "prompt": "Proč 1080p nemusí vždy znamenat 1920 × 1080?",
+      "options": [
+        "1080 značí počet kanálů",
+        "Šířka závisí na poměru stran",
+        "1080p je výhradně údaj o zvuku"
+      ],
+      "answer": 1,
+      "explanation": "Prezentace uvádí 1920 × 1080 pro 16:9 a 1440 × 1080 pro 4:3.",
+      "source_refs": [
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "quiz-container",
+      "prompt": "Které přiřazení je správné?",
+      "options": [
+        "MP4 = kodek, H.264 = kontejner",
+        "MP4 = kontejner, H.264 = kodek",
+        "Oba názvy znamenají rozlišení"
+      ],
+      "answer": 1,
+      "explanation": "Kodek určuje kompresi; kontejner sdružuje proudy a další části souboru.",
+      "source_refs": [
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
+          "page": 20
+        }
+      ]
+    }
+  ]
+}

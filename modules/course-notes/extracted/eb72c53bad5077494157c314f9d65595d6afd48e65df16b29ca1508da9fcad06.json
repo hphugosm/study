@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Mars Robot Challenge\n\nRobot commands:\n* Forward — 50%\n* Right — 25%\n\n* Left — 15%\n\n* U-turn — 10%\n",
+      "text": "Mars Robot Challenge\nRobot commands:\nForward — 50% \nRight — 25% \nLeft — 15% \nU-turn — 10%\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "text": "Code A:\n(50 %)\tForward → 0 \n(25 %)\tRight → 10 \n(15 %)\tLeft → 110 \n(10 %)\tU-turn → 111\n\nCode B:\n(50 %)\tForward → 00 \n(25 %)\tRight → 01 \n(15 %)\tLeft → 10 \n(10 %)\tU-turn → 11\n\nImagine the robot receives 100 commands:\n50 Forward \n25 Right \n15 Left \n10 U-turn\nHow many bits will Code A use?\u000bHow many bits will Code B use?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "text": "Code A:\n(50 %)\tForward → 0 \n(25 %)\tRight → 10 \n(15 %)\tLeft → 110 \n(10 %)\tU-turn → 111\n\n\nAverage length = 1.75 bits/command\nCode B:\n(50 %)\tForward → 00 \n(25 %)\tRight → 01 \n(15 %)\tLeft → 10 \n(10 %)\tU-turn → 11\n\n\nAverage length = 2 bits/command\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "text": "Average Code Length\nWe can calculate the average number of bits used per symbol: \nFor our robot:\nCould we do even better?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "text": "What Is “Information”?\nMessage A:\nThe Sun will rise tomorrow.\nMessage B:\nA meteor will hit our school tomorrow.\n\nWhich message is more surprising?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "text": "In information theory:\nA less probable event carries more information.\n\nsomething certain → almost no new information \nsomething unlikely → much more information \n\nFor the robot:\nForward: 50% → not very surprising \nU-turn: 10% → more surprising \n\nInformation theory measures probability, not how important the message is to a human.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "How Can We Measure\nm&g'\\magmgure of information do?\n\nWe want /(p) to satisfy three intuitive properties:\n\n1. A certain event gives no new information\n2. Less probable events should give more information\n3. Independent events should add\n\nlFtwo independent events happen, we learn something from each one.\nTherefore, the total information should be the sum of the information\nfrom both events.\n",
+      "text": "How Can We Measure Information?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Probability\n\n1 0 bits\n\n1/2 1 bit\n1/4 2 bits\n1/8 3 bits\n1/16 4 bits\n\nWhat mathematical operation does this?\n",
+      "text": "What mathematical operation does this?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "text": "Information of an Event\n50 % probability:\t\t\t\t\t\t1 bit\n25 % probability:\t\t\t\t\t\t2 bits\n12.5 % probability:\t\t\t\t\t3 bits"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "text": "From Information to Entropy\nA source produces many different symbols.\n\nEach symbol has:\nits probability \nits information value \nWe want the average information per symbol.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "text": "How can we think about Entropy?\nEntropy tells us how unpredictable a source is on average. \nEntropy measures how much new information we get from each symbol on average. \nEntropy is the average amount of information carried by each symbol. \nEntropy gives a theoretical lower limit on the average number of bits needed per symbol for lossless encoding.\n\nHigh entropy → less predictable → more information → harder to compress\nLow entropy → more predictable → less information → easier to compress\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "text": "Good compression tries to get close to the entropy.\n(50 %)\tForward → 0 \n(25 %)\tRight → 10 \n(15 %)\tLeft → 110 \n(10 %)\tU-turn → 111\n\nAverage length = 1.75 bits/command\nOur simple code is already extremely close to the theoretical limit."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "text": "So Should We Remove Every Extra Bit?\nIf fewer bits are better, why would we ever deliberately add extra bits?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "text": "So Should We Remove Every Extra Bit?\nIf fewer bits are better, why would we ever deliberately add extra bits?\nnoise \ndamaged storage \ntransmission problems \nhardware errors\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "text": "Detecting and Correcting Errors\nRepetition:\n\nInstead of 1 \t\t\tWe send: 111\n\nReceived: 101\t\tWe conclude 1\n\nDoes it work?\nIs it efficient?\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "text": "Detecting and Correcting Errors\nParity bit: Add one extra bit so the total number of 1s is even.\n\nData: 1011001\tNumber of 1s: 4\tSo parity bit: 0\n\nTransmit: 10110010\n\nIf we receive: 10110010\t\tNumber of 1s: 3 Something went wrong.\n\nWhat are the limitations?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "text": "Detecting and Correcting Errors\nParity bit: Add one extra bit so the total number of 1s is even.\n\nData: 1011001\tNumber of 1s: 4\tSo parity bit: 0\n\nTransmit: 10110010\n\nIf we receive: 10110010\t\tNumber of 1s: 3 Something went wrong.\n\nWhat are the limitations?\ndetects any single-bit error \ncannot tell us where the error occurred \ntwo errors can cancel each other out\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "text": "Detecting and Correcting Errors\nHamming Code (7,4):\n 4 data bits, 3 parity bits\n\nP1 checks:\t\t1, 3, 5, 7\nP2 checks:\t\t2, 3, 6, 7\nP4 checks:\t\t4, 5, 6, 7"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "text": "We want to send data:\t1011\n\n\n\nP1 checks 1,3,5,7\nThere are two 1s → P1 = 0\n\nSimilarly: P2 = 1\t&\tP4 = 0\n\nSo we transmit:\t\t0110011\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Imagine we have received: 0110001\n\nReceiver checks parity:\n\nP12 OK\n\nP2 » FAIL\n\nP4 > FAIL\n\nFailed parity positions: 2+4 = 6, therefore: Error at bit 6\nFlipbit6back: 0110011\n\nKey idea:\nThe pattern of failed parity checks identifies the position of the error.\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "text": "You receive: 1000101\tIt uses Hamming(7,4) with even parity.\nWhich parity checks fail? \nWhich bit is incorrect? \nCorrect the code.\n\nRemember:\nP1 checks 1,3,5,7 \nP2 checks 2,3,6,7 \nP4 checks 4,5,6,7\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "text": "From Entropy to Huffman Coding\nLast lessons: frequent symbols should have shorter codes.\n\nHow do we systematically decide which code each symbol should get?\nHow can we make the code both efficient and unambiguous?\nCan an algorithm build such a code for us?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 23",
+      "number": 23,
+      "text": "Huffman coding\n\nlossless compression method \nuses symbol frequencies \nfrequent symbols receive shorter codes \nrare symbols receive longer codes \nproduces a prefix-free code\n\n\n*A prefix-free code is a code in which no complete codeword is the beginning of another codeword."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 24",
+      "number": 24,
+      "text": "How to Build a Huffman Code:\n\nList all symbols and their frequencies. \nFind the two least frequent symbols. \nJoin them into one node. \nAdd their frequencies. \nRepeat until only one node remains. \nLabel branches 0 and 1. \nRead each code from the root to the symbol.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 25",
+      "number": 25,
+      "text": "How to Build a Huffman Code:\n\nList all symbols and their frequencies. \nFind the two least frequent symbols. \nJoin them into one node. \nAdd their frequencies. \nRepeat until only one node remains. \nLabel branches 0 and 1. \nRead each code from the root to the symbol.\n\nRobot commands:\nForward — 50% \nRight — 25% \nLeft — 15% \nU-turn — 10%\n\nL\nU\n25\nR\n50\nF\n100\nL\nU\n25\nL\nU\n25\nR\n50"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 26",
+      "number": 26,
+      "text": "How to Build a Huffman Code:\n\nList all symbols and their frequencies. \nFind the two least frequent symbols. \nJoin them into one node. \nAdd their frequencies. \nRepeat until only one node remains. \nLabel branches 0 and 1. \nRead each code from the root to the symbol.\n\nRobot commands:\nForward — 50% \nRight — 25% \nLeft — 15% \nU-turn — 10%\n\nL\nU\n25\nR\n50\nF\n100\n1\n0\n0\n0\n1\n1\nForward → 0 \nRight → 10 \nLeft → 110 \nU-turn → 111"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 27",
+      "number": 27,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "List all symbols and their freguencies.\n\nBIG BOB BITES BANANA\nS\n",
+      "text": "List all symbols and their frequencies. \nBIG_BOB_BITES_BANANAS"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 28",
+      "number": 28,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "1)List all symbols and their freguencies.\n\nBIG BOB BITES BANANA\nS\n\nFreguency 5\n\n",
+      "text": "1)List all symbols and their frequencies. \nBIG_BOB_BITES_BANANAS\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 29",
+      "number": 29,
+      "text": "2) Find the two least frequent symbols & Join them into one node, add their frequencies. Repeat.\n\nG\nO\n2\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 30",
+      "number": 30,
+      "text": "2) Find the two least frequent symbols & Join them into one node, add their frequencies. Repeat.\n\nG\nO\n2\nT\nE\n2\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 31",
+      "number": 31,
+      "text": "2) Find the two least frequent symbols & Join them into one node, add their frequencies. Repeat.\n\nG\nO\n2\nT\nE\n2\nI\nS\n4\n4\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 32",
+      "number": 32,
+      "text": "2) Find the two least frequent symbols & Join them into one node, add their frequencies. Repeat.\n\nG\nO\n2\nT\nE\n2\n4\n_\nN\n5\nI\nS\n4\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 33",
+      "number": 33,
+      "text": "2) Find the two least frequent symbols & Join them into one node, add their frequencies. Repeat.\n\nG\nO\n2\nT\nE\n2\n4\n_\nN\n5\nI\nS\n4\nA\n7\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 34",
+      "number": 34,
+      "text": "2) Find the two least frequent symbols & Join them into one node, add their frequencies. Repeat.\n\nG\nO\n2\nT\nE\n2\n4\n_\nN\n5\nI\nS\n4\nA\n7\nB\n9\n12\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 35",
+      "number": 35,
+      "text": "2) Find the two least frequent symbols & Join them into one node, add their frequencies. Repeat.\n\nG\nO\n2\nT\nE\n2\n4\n_\nN\n5\nI\nS\n4\nA\n7\nB\n9\n12\n21\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 36",
+      "number": 36,
+      "text": "3) Label branches 0 and 1\nG\nO\n2\nT\nE\n2\n4\n_\nN\n5\nI\nS\n4\nA\n7\nB\n9\n12\n21\n1\n1\n1\n1\n1\n1\n1\n1\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nFrequency\t5\t2\t1\t3\t1\t1\t1\t2\t3\t2"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 37",
+      "number": 37,
+      "text": "4) Read each code from the root to the symbol\nG\nO\n2\nT\nE\n2\n4\n_\nN\n5\nI\nS\n4\nA\n7\nB\n9\n12\n21\n1\n1\n1\n1\n1\n1\n1\n1\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nCode\t10\t010\t11110\t000\t11111\t11100\t11101\t011\t110\t001"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 38",
+      "number": 38,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Code 11110 000 11111 11100 11101 011\n\nBIG BOB BITES BANANAS\n\n100101111000010111111000010010111001110101100010110001\n110001110011\n\n66 bits H = 3.10 bits/symbol\n\n21 x 3.101 = 65.12 bits\n",
+      "text": "BIG_BOB_BITES_BANANAS\n\n\n100101111000010111111000010010111001110101100010110001110001110011\n\n66 bits\nCharacter\tB\tI\tG\t_\tO\tT\tE\tS\tA\tN\nCode\t10\t010\t11110\t000\t11111\t11100\t11101\t011\t110\t001"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 39",
+      "number": 39,
+      "text": "Decode: Start at the root and follow the bits until you reach a symbol. \n\n100101111000010111111000010010111001110101100010110001110001110011\nG\nO\n2\nT\nE\n2\n4\n_\nN\n5\nI\nS\n4\nA\n7\nB\n9\n12\n21\n1\n1\n1\n1\n1\n1\n1\n1\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0"
+    }
+  ]
+}

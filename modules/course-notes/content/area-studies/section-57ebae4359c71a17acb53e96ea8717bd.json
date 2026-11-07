@@ -1,0 +1,342 @@
+{
+  "schema": 1,
+  "subject": "area-studies",
+  "topic": "section-57ebae4359c71a17acb53e96ea8717bd",
+  "title": "Northeast",
+  "language": "en",
+  "intro": "How did accusations become a public crisis in Salem in 1692? Follow the reading’s account of belief, evidence and social change, then separate what people claimed from what could be checked.",
+  "sources": [
+    {
+      "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+      "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+      "title": "Salem Witch Trials.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5.docx",
+      "extraction_url": "./extracted/352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "belief-and-accusation",
+      "title": "Belief made the accusation plausible",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 3"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The reading begins with young girls experiencing seizures and unusual attacks in Salem Village, Massachusetts. Their accusations did not enter a neutral setting: belief in witchcraft was already widespread in seventeenth-century America and Europe. A community can find a claim convincing because it fits an existing belief, even before checking whether that claim has reliable evidence.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 3"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Distinguish an accusation from a demonstrated fact. The reading reports what the girls alleged; it does not establish that witchcraft caused the attacks.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spectral-evidence",
+      "title": "Why spectral evidence mattered",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 4"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The court accepted testimony about seeing an accused person’s spirit in a vision or dream. The reading calls this spectral evidence and stresses that it could not be verified with hard evidence. That made it difficult to challenge an accusation through ordinary checking: another person could not independently inspect the dream.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 4"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As accusations widened, executions and imprisonment spread beyond the first accused women. Ministers eventually called for an end when the charges threatened to extend beyond Salem. The reading’s central problem is therefore institutional as well as personal: a court gave unverifiable claims the power to determine people’s fate.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 4"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Accusations begin",
+          "text": "The girls accuse several women after the attacks.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 3"
+            }
+          ]
+        },
+        {
+          "title": "The court accepts visions",
+          "text": "Spectral testimony gives further accusations a route into the trials.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 4"
+            }
+          ]
+        },
+        {
+          "title": "The crisis spreads",
+          "text": "By autumn, the reading reports twenty executions and more than one hundred people imprisoned.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 4"
+            }
+          ]
+        },
+        {
+          "title": "The trials are challenged",
+          "text": "Ministers call for an end; people still imprisoned are later cleared.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hysteria-and-transition",
+      "title": "Fear and a changing society",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 5"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The text presents public hysteria, supported by a genuine belief in witchcraft, as one explanation. It allows that some girls may have been acting, while responsible adults also became involved. Avoid reducing the event to one person’s trick: the account describes a wider social reaction.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The reading also contrasts traditional farming and religious life with a growing commercial and more secular society. Many accusers represented the former, while many accused belonged to the rising commercial class. This is a social interpretation offered by the text, not proof of every individual’s motive.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 6"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The modern expression “witch hunt” refers here to false accusations against many people. To use the analogy carefully, explain the shared mechanism—large accusations and weak evidence—rather than assuming every modern disagreement is equivalent.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 7"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "label": "1692: Salem Village",
+          "text": "Attacks, accusations and the first trials begin.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 3"
+            }
+          ]
+        },
+        {
+          "label": "Autumn 1692",
+          "text": "The reading reports twenty executions and more than one hundred imprisoned.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 4"
+            }
+          ]
+        },
+        {
+          "label": "After opposition grows",
+          "text": "The trials end and the remaining prisoners are later freed of their charges.",
+          "source_refs": [
+            {
+              "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+              "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+              "locator": "odstavec 4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "spectral",
+      "front": "What was spectral evidence?",
+      "back": "Testimony that an accused person appeared as a spirit in a dream or vision; the reading says it could not be independently verified.",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 4"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "front": "Which social transition does the reading connect with Salem?",
+      "back": "A traditional Puritan farming society was becoming more commercial and secular.",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 6"
+        }
+      ]
+    },
+    {
+      "id": "witch-hunt",
+      "front": "What does “witch hunt” mean in the reading’s modern usage?",
+      "back": "False accusations made against a large number of people.",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 7"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "front": "Was belief in witchcraft unusual in the source’s seventeenth-century setting?",
+      "back": "No. The reading describes it as widespread in America and Europe.",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 3"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "evidence",
+      "prompt": "Which testimony is an example of spectral evidence?",
+      "options": [
+        "A witness says the accused appeared in a dream.",
+        "A witness presents a physical object that others can inspect.",
+        "A court checks a written travel record."
+      ],
+      "answer": 0,
+      "explanation": "Spectral evidence concerns spirits or visions. Unlike an inspectable object or record, the dream cannot be independently checked.",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 4"
+        }
+      ]
+    },
+    {
+      "id": "setting",
+      "prompt": "Where does the reading place Salem Village?",
+      "options": [
+        "Virginia",
+        "Massachusetts",
+        "Kansas"
+      ],
+      "answer": 1,
+      "explanation": "The opening paragraph places Salem Village in Massachusetts.",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 3"
+        }
+      ]
+    },
+    {
+      "id": "social-change",
+      "prompt": "Which contrast does the reading use to interpret the conflict?",
+      "options": [
+        "Coastal fishing versus mountain mining",
+        "Traditional farming and religion versus a rising commercial class",
+        "An exclusively foreign court versus a local army"
+      ],
+      "answer": 1,
+      "explanation": "The text links accusers with traditional farming and religion and many accused with the commercial class. It does not establish a motive for every person.",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 6"
+        }
+      ]
+    },
+    {
+      "id": "caution",
+      "prompt": "Which conclusion best matches the reading’s explanation?",
+      "options": [
+        "Only children were involved in the hysteria.",
+        "Every accusation was supported by verifiable evidence.",
+        "Adults as well as girls became caught up in the crisis."
+      ],
+      "answer": 2,
+      "explanation": "The reading explicitly notes adult involvement and the unverifiable character of spectral evidence.",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
+          "locator": "odstavec 5"
+        }
+      ]
+    }
+  ]
+}

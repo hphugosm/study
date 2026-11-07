@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "METABOLISMUS BÍLKOVIN\n• trávení bílkovin začíná v žaludku účinkem žaludeční šťávy \nobsahující PEPSINY (trávicí bílkoviny)\n• v žaludku je kyselý obsah díky 0,5% HCl, ta přemění \npepsinogen (proenzym) na pepsin (enzym)\n• účinkem pepsinu probíhá hydrolýza bílkovin (při pH 2 – 4)\n• ve střevech je pankreatická šťáva a žluč – ty neutralizují \nžaludeční obsah na pH okolo 6,5\n• trávení bílkovin v tenkém střevě pokračuje účinkem trypsinu a \nchymotrypsinu – štěpí polypeptidy a bílkoviny na oligopeptidy \na dipeptidy"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "• bílkoviny se postupně rozštěpí až na jednotlivé aminokyseliny, \nty jsou vstřebávány do lymfy nebo krve a jsou rozvedeny do \ntkání v jejichž buňkách jsou dále zpracovány\n• malá část aminokyselin koluje v krvi (ve stálém množství), část \nprojde játry a krevním oběhem se dostane do tkání, kde \nse vytvářejí tkáňové bílkoviny, část je využita jako zdroj energie \na část se jich použije k přestavbě na sacharidy a tuky\n• Konečná zplodina metabolismu bílkovin je močovina – tvoří se \nv játrech a vylučuje se ledvinami, hlavní způsob eliminace \namoniaku.\n• Organismus si neumí bílkoviny ukládat do zásoby, je nutné \nzajistit každodenní příjem bílkovin. Bílkoviny se v těle \nodbourávají několik minut (insulin) až po desítky dnů. \nPrůměrně 80 dní."
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Močovinový cyklus\n• metabolický cyklus pomocí něj se tělo zbavuje \nnadbytečného dusíku, který je zabudován do močoviny a \nmočí vyloučen\n• Působením bakterií dochází k rozkladu močoviny na amoniak \na oxid uhličitý. Uvolněný amoniak pak způsobuje \ncharakteristický dráždivý zápach odstáté moči. \n• slouží k ochraně organismu před toxickými účinky amoniaku\n• Močovinový cyklus probíhá hlavně v játrech (část cyklu se \nodehrává v mitochondrii a druhá část v cytoplazmě)\n• Denně se vytvoří  a vyloučí v průměru 25 - 35g močoviny. \nMočovina přechází do krve a v ledvinách se z krve dostává \nglomerulární filtrací do moče."
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "• Souhrn močovinového cyklu lze zapsat:\n• HCO3\n- + NH3 + Asp + 3ATP → CO(NH2)2 + fumarát + 2ADP + 1AMP + 2Pi + 1PPi\nNadbytečný dusík organismy vylučují třemi způsoby \npomocí:\n• amoniaku - vodní živočichové\n• močoviny - savci\n• kyseliny močové - plazi, ptáci, hmyz\n• Aminokyseliny získané ať už z potravy nebo degradací \nproteinů v buňce jsou buď znovu využity k syntéze \nproteinů nebo odbourány za zisku energie. "
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Katabolismus aminokyselin — močovinový cyklus\n\nNHa| +\no\n| <\nH,N—C — NH\n\nUrea\n\n(c) Urea cycle\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Močovinový cyklus\n\no o\n: Í U\n2ATP+HCOs + NH — HN—-C—0-P-0' + 2ADP+\nd O NHo\nm f\nkarbamoylfosfát y\\\\m\nCH2\nI\np $Ho\n2 (e\nornithin HO—NHÍ\"\ncitrullin : Coo\nNÉ Mitochondrie\n9\nč jspecifický čřcký\nÍ přenašet specifi\nó přenašeč\nCH H\nH= Č-NH) citrullin = G0O\nA\nÁ n CHo\ndoo- - orithin ATP. Kl-NuŽ\nCytoplazma *\ncoo-\n0 3 — aspartát\nC\nHN NH AMP+ PPj\nmočovina s H0\nargináza\nH0 coo-\nm ů Č\nHA C H arginino- — CH M\nL jnát Í\n\\(\\: F | sukcinát H(\\:WH_C\\„NHZ\nýu \"hkcináza coo\" ŇH\nd G2\nýHe ©Ho\nóHo ©H2\nHO—NHS* coo HO—NHS*\n00- CH ČCoo-\n\n00-\nfumarát\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "Močovinový cyklus\n• Probíhá hlavně v játrech. Část cyklu se odehraje v \nmitochondrii a část v cytoplazmě jaterní buňky. \n• amoniak je vázán během močovinového cyklu do močoviny \na močí vyloučen. Tím se zabrání jeho toxickému působení.\n• Fixace NH3 začíná v mitochondrii. Amoniak je navázán do \nsloučeniny karbamoylfosfátu za spotřeby dvou molekul ATP. \n• Vstupní látkou je ornithin. Ten se spojí s Karbamoylfosfátem \nza vzniku citrulinu a uvolní se fosfát. Citrulin je pak \npřenesen pomocí specifického přenašeče do cytoplazmy."
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "text": "• Amoniak ve vzniklém karbamoylfosfátu je zdrojem jednoho z \ndusíků ve vznikající močovině.\nCytoplazma\n• Citrulin je po přenesení do cytoplazmy spojen s aspartátem \n(kys. asparagová) za vzniku argininosukcinátu  a spotřeby 2 \nmolekul ATP Aspartát je zdrojem druhého dusíku ve vznikající \nmočovině. \n• Argininosukcinát je dále štěpen enzymem argininosukcinázou \nza vzniku aminokyseliny argininu a fumarátu. Fumarát  je dále \nv citrátovém cyklu přeměněn na oxalacetát, který lze \ntransaminací převést zpět na aspartát.\n• Vzniklý arginin je hydrolyticky rozštěpen enzymem arginázou \nna močovinu a ornitin. Ornitin je přenesen do \nmitochodnriální matrix a celý cyklus se opakuje. "
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Zdroje obrázků: www.google.cz\nDĚKUJI ZA POZORNOST\n",
+      "text": "DĚKUJI ZA POZORNOST\nZdroje obrázků: www.google.cz"
+    }
+  ]
+}

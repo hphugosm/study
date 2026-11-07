@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": "Analytická chemie\nKvantitativní analýza"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "KVANTIATIVNÍ ANALÝZA\n• stanovuje množství složek obsažných v analyzované látce\n• slouží k tomu moderní, rychlé analytické metody, které se zakládají zejména na využití \ninstrumentální techniky.  (Odběr vzorku, provedení analýzy, vyhodnocení výsledku, \nzápis vypočtených dat.)"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Kvantitativní analýza\n• Úkolem je stanovení množství složek v analyzovaném vzorku\n• Základ je znát kvalitativní složení vzorku a poté zvolit \nvhodnou metodu kvantitativní analýzy, aby byli dosaženy \nsprávné výsledky. \n• Vhodně odebrat vzorek\n• Správné vážení vzorku"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Odebírání, úprava a převádění vzorků do \nroztoku\n• Vzorek musí být reprezentativní (musí vystihovat průměrné \nsložení analyzované látky)\n• U pevných látek se vzorek odebírá z několika míst. Kusový \nmateriál se pak drtí – pomocí hmoždířů nebo třecí misky s \ntloučkem.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "Odebírání, úprava a převádění vzorků do \nroztoku\n• Vzorky kovů nebo slitin se získávají odvrtáním, \nfrézováním nebo pilováním\nPevné vzorky se poté rozpouštějí – buď ve vodě nebo \nkyselinách nebo tavením.\n• Kapalné vzorky – se homogenizují\n• Plynné vzorky – se homogenizují"
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": "Vážení vzorku\n• Váží se na analytických vahách\n• K vážení se používá lodička \nnebo váženka\n• Příklady vzorků: ropné \nprodukty, pesticidy, barviva, \nléčiva, voda, kovové materiály, \ncement, rostlinné nebo \nživočišné tkáně. \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "Vážková analýza - Gravimetrie\n• Je založená na vyloučení stanovované složky ve formě málo rozpustné sloučeniny\n• Množství analytu se určuje z hmotnosti sloučeniny nebo samotného analytu, izolovaného ze \nvzorku.\nPrincip: \n• převedení analytu do roztoku\n• vyloučení analytu ve formě sraženiny\n• Filtrace sraženiny promýváním\n• Sušení nebo žíhání sraženiny\n• Vážení a výpočet"
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "text": "Příklad vážkové analýzy\nStanovení hliníku v Al2O3\n• Srážení hliníku amoniakem – vzniká hydroxid hlinitý\n• Srážíme za varu → vyloučí se sraženina, která se dá filtrovat\n• Filtrační zbytek žíháme až na Al2O3\n• Al2O3 zvážíme a nakonec vypočítáme obsah hliníku"
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "text": "Odměrná analýza (Volumetrie) TITRACE\n• Metoda kvantitativní analýzy založená na měření objemu odměrného roztoku o \npřesně známé koncentraci (titru)\n• Analyt stanovíme z přesně změřeného objemu roztoku činidla o přesně známé \nkoncentraci\n• Jednoduchá, rychlá, levná metoda\nPrincip: \n• Roztok činidla o přesně známé koncentraci (titr, neboli titrační činidlo) reaguje se \nstanovovanou složkou (analytem) až do bodu ekvivalence (konec titrace)"
+    },
+    {
+      "kind": "page",
+      "label": "page 10",
+      "number": 10,
+      "text": "Pojmy\n• TITR: titrační činidlo, činidlo o \npřesně známé koncentraci, \nodměrný roztok)\n• ANALYT: stanovovaná složka, \nurčovaná látka\n• BOD EKVIVALENCE: okamžik \nskončení chemické reakce, \nurčovaná látka zreagovala s \nčinidlem\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 11",
+      "number": 11,
+      "text": "Postup TITRACE\nOdvážit a odměřit \nvzorek\nPříprava roztoku k \ntitraci\nTitrace\n Výpočet koncentrace \nanalytu"
+    },
+    {
+      "kind": "page",
+      "label": "page 12",
+      "number": 12,
+      "text": "1) Odvážit a \nodměřit vzorek\n• Odvážit vzorek, vložit ho do odměrné baňky a převést do \nroztoku. \n• Nádoby na dolití: odměrná baňka, odměrný válec, pístový \ndávkovač\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 13",
+      "number": 13,
+      "text": "1) Odvážit a \nodměřit vzorek\n• Odvážit vzorek, vložit ho do odměrné baňky a převést do \nroztoku. \n• Nádoby na Vylití: pipety, byrety, injekční stříkačky\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 14",
+      "number": 14,
+      "text": "2) Příprava roztoku \nk titraci\n• Zředění vzorku v titrační baňce\n• Úprava pH\n• Přídavek indikátoru\nIndikátor: chemická látka, která reaguje změnou barvy nebo zákalem v \nblízkosti bodu ekvivalence. \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 15",
+      "number": 15,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "indikátor kyselý roztok zásaditý roztok\n\nfenolftalein bezbarvý červenofialový .\n\nlakmus červený . modrý .\nmethyloranž červený . žlutooranžový .\n\nzabarvení lakmusu v kyselém zabarvení fenolftaleinu v kyselém\n\na zásaditém roztoku\n\na zásaditém roztoku\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 16",
+      "number": 16,
+      "text": "3) Titrace\n• Za stálého míchání přidáváme z byrety odměrný roztok až do \nokamžiku bodu ekvivalence\nDosažení bodu ekvivalence zjišťujeme:\n• Vizuálně: změnou zabarvení způsobenou indikátorem\n• Instrumentálně: přístroj, který reaguje na změnu v titrovaném roztoku\n• Teplota\n• pH\n• Elektrická vodivost\n• Optické vlastnosti"
+    },
+    {
+      "kind": "page",
+      "label": "page 17",
+      "number": 17,
+      "text": "Titrace – titrační \nkřivka\nGraficky znázorňuje závislost \nkoncentrace analytu na \nobjemu přidávaného činidla"
+    },
+    {
+      "kind": "page",
+      "label": "page 18",
+      "number": 18,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "I Titrační aparatura\n\nFiltrační:\n\nnálevka\nByreta Byreta\naa\nP \"Řá Titrační\nKádinka je\n=\n\nodměrný roztok\no známé koncentraci\n\n0%\n\ntitrační baňka\n\nvzorek o neznámé\n„- koncentraci\n\nV\n\npřed titrací\n\ndržák na byrety\n\nstojan\n\n„ pryžová hadička\n\n— tlačka\n\npo titraci\n",
+      "text": "Titrační aparatura\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 19",
+      "number": 19,
+      "text": "4) Výpočet \nkoncentrace \nanalytu\n• Z byrety odečteme spotřebu odměrného roztoku a \nvypočítáme obsah analytu.\nK výpočtu obsahu stanovované \nsložky (analytu) musíme znát:\n• Navážku vzorku – hmotnost: m (g)\n• Spotřebu titračního činidla –\nobjem: V (cm3)\n• Přesnou koncentraci titračního \nčinidla: C (mol.dm-3)\n• Molární hmotnost stanovované \nsložky: M (g.mol-1)"
+    },
+    {
+      "kind": "page",
+      "label": "page 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Neutralizační (acidobazické)\n\nSrážecí\n\n| Typy TITRACÍ\n\nKomplexotvorné\n\nOxidačně-redukční\n\nSrážecí titrace Acidobazické titrace\n\n",
+      "text": "Typy TITRACÍ\n• Neutralizační (acidobazické)\n• Srážecí\n• Komplexotvorné\n• Oxidačně-redukční\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 21",
+      "number": 21,
+      "text": "Instrumentální analýza\nPodle principu na kterých jsou založeny se dělí do několika skupin\n• Elektrochemické instrumentální metody\n• Potenciometrie, polarografie, voltametrie, konduktometrie, coulometrie, \nelektrogravimetrie\n• Optické instrumentální metody\n• Emisní metody, absorpční metody, refraktometrie, polarimetrie, rentgenová \nspektrální analýza, \n• Termická analýza \n• Termická dilatometrie, entalpiometrie"
+    },
+    {
+      "kind": "page",
+      "label": "page 22",
+      "number": 22,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "I Potenciometrická titrace\n\n",
+      "text": "Potenciometrická titrace"
+    },
+    {
+      "kind": "page",
+      "label": "page 23",
+      "number": 23,
+      "text": "Refraktometrie\n• optická metoda analytické chemie, založená na měření indexu \nlomu světla. Používá se k rychlému stanovení koncentrace, \nčistoty látek, kvality látek apod.\n• Kvalita vína, medu, obsah vody v mléku, měření obsahu cukru \nv pivě atd.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 24",
+      "number": 24,
+      "text": "Kde studovat instrumentální analýzu nebo \nanalytickou chemii\n• Fakulta chemicko-inženýrská – VSCHT\n• Fakulta potravinářské a biochemické technologie – VSCHT\n• Fakulta stavební, Fakulta jaderná a fyzikálně inženýrská - ČVUT\n• Farmaceutická fakulta – Univerzita Karlova\n• Přírodovědecká fakulta - Univerzita Karlova\n• Pedagogická fakulta - Univerzita Karlova\n• Fakulta chemicko-technologická – Univerzita Pardubice\n• Přírodovědecká fakulta - Univerzita Palackého v Olomouci\n• Fakulta životního prostředí - Univerzita Jana Evangelisty Purkyně v Ústí nad Labem"
+    },
+    {
+      "kind": "page",
+      "label": "page 25",
+      "number": 25,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Konec\n\nDěkuji za pozornost\n",
+      "text": "Konec\nDěkuji za pozornost"
+    }
+  ]
+}

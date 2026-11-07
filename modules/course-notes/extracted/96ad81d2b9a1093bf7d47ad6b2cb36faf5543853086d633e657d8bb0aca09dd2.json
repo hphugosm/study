@@ -1,0 +1,268 @@
+{
+  "schema": 1,
+  "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": "Enzymy - biokatalyzátory\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Enzymy -\nbiokatalyzátory\n",
+      "text": "Enzymy - biokatalyzátory"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "text": "Enzymy - biokatalyzátory\n\nV buňce probíhají v danou chvíli jen ty reakce, které jsou zrovna pro život důležité.\n\nProbíhají takovou rychlostí, jakou je právě potřeba.\n\nBuňka má na každou významnou chemickou reakci enzym.\n\nVědní disciplína, která se zabývá enzymy se nazývá enzymologie.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "text": "Enzymy - biokatalyzátory\n\nEnzymy jsou proteiny specializované pro katalýzu reakcí.\n\nUrychlují přeměnu substrátů na produkty.\n\nTéměř každá metabolická reakce má svůj enzym.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Co Enzym umí\n\n1) Snižovat aktivační\nenergii té reakce, kterou\n\nkatalyzuje.\nenergetický\nprůběh P\nreakce katalyzováno\npotencionální\nenergie Ea\naktivační\nenergie\nA+B\nc+D\n\n",
+      "text": "\u000bCO Enzym umí\u000b\u000b\n1) Snižovat aktivační energii té reakce, kterou katalyzuje.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "text": "CO Enzym umí:\n2) Vykazovat specifitu účinku. \n    Dovoluje buňce přesně „rozhodovat” o tom, které reakce daného substrátu budou v určitou chvíli preferovány.\n\n„Kterým reakcím dá přednost“\n\n3) Katalyzovat pouze určitou reakci daného substrátu.\n    Enzym katalyzuje jen určitou přeměnu. \n\n    Pro každou reakci daného substrátu musí buňka syntetizovat jiný enzym."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "text": "Co Enzym umí:\n4) Vykazovat substrátovou specifitu\n   Tzn. preferovat určitý substrát. \n   Enzym katalyzuje přeměnu jen určitého substrátu, který pak přemění na produkty\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "laa\n\nSUBSTRÁT\n— —\n\nKOMPLEX ENZYM-SUBSTRÁT\n\nENZYM\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "text": "CO Enzym umí:\u000b\n5) Regulovat účinnost (aktivitu) enzymu  \n   Regulace je nutná, aby reakce probíhala větší či menší rychlostí.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "text": "Struktura enzymů\n\nEnzym je buď bílkovina nebo ribonukleová kyselina (ribozymy\n\nKaždý enzym má své aktivní místo (místo na které se váže substrát).\n \nAktivní místo \n je malá kapsa (štěrbina) uvnitř nebo při povrchu enzymu, často hydrofobní, umožňující vazbu substrátu, slabšími, většinou nekovalentními vazbami. (Vodíkové můstky, hydrofobní interakce.)\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "text": "Vazba substrátu na enzym:\u000b\nTeorie zámek a klíč (starší teorie)\nRukavice a ruka – indukované přizpůsobení. \n   Spíše enzym se substrátu přizpůsobuje.\nSubstrát se naváže - dojde k reakci - vznikají produkty a ty opouštějí aktivní místo enzymu.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "E_—.&\n\nZnázomění indukovaného přizpůsobení konformační změnou\nve struktuře enzymu podle Koshlanda. K prostorové změně\nv aktivním centru enzymu dochází v okamžiku navázání\n\nsubstrátu (modře vyznačený).\n\n—\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "text": "\u000b\u000b\u000b\u000b\u000b\u000b\u000bSLOŽENÍ ENZYMU\n\nEnzym je buď jednoduchá bílkovina nebo složená.\nSložená se nazývá HOLOENZYM.\nKaždý HOLOENZYM se skládá z APOENZYMU a KOFAKTORU\n\nApoenzym : je peptidová část enzymu na kterou se váže kofaktor.\nKofaktor: je nepeptidová součást enzymu, která se přímo účastní chemické reakce.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "text": "\u000bKofaktor je buď prostetická skupina nebo koenzym\u000b\n\nPROSTETICKÁ SKUPINA\nNapř. u aminokyselin je to u Serinu OH skupina, u Cysteinu SH skupina.\nBiotin, železo, zinek (Zn2+, Fe2+, Cu2+, Mg2+)\n\n KOENZYM\nTen umí dočasně vázat atomy (třeba H) a převést je. Může na sebe navázat i víc enzymů.\nNaváže se – pracuje- jiný enzym ho pak vyváže – \n     a koenzym si najde jiný enzym a pracuje dál.\n\nPř.: Koenzym A – váže zbytky kyseliny octové.\nKoenzym Q 10  -  chinonová skupina , antioxidant, chrání struktury před volnými radikály.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "text": "\u000bFaktory ovlivňující enzymovou aktivitu:\u000b\u000b\nKoncentrace substrátu\npH\nTeplota\nIontová síla\nAktivátory a inhibitory\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "text": "Názvosloví enzymů\u000b\n\nTriviální názvy (přípona in)\nPepsin (trávicí enzym, rozkládá bílkoviny)\nTrypsin (rozkládá peptidovou vazbu)\nChymotrypsin (rozkládá peptidovou vazbu)\n\nSpolečné zakončení enzymů na -asa \nNázev se tvořil podle substrátu jehož přeměnu enzym katalyzoval.\nLipasa – štěpí tuky\nSacharáza – rozkládá sacharózu\nLaktáza – rozkládá mléčný cukr\n\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "text": "\nAmyláza – štěpí škrob na maltózu a glukózu.\nLipáza – štěpí tuky na glycerol a mastné kyseliny.\nLaktáza – rozkládá mléčný cukr laktózu na glukózu a galaktózu.\nMaltáza – štěpí maltózu na dvě glukózy.\nSacharáza – rozkládá sacharózu (cukr) na glukózu a fruktózu.\nPeptidáza – štěpí peptidy na jednotlivé aminokyseliny.\n\nDalší enzymy v metabolismu\nDNA-polymeráza – tvoří nové vlákno DNA.\nRNA-polymeráza – syntetizuje RNA podle DNA matrice.\nLigáza – spojuje úseky DNA nebo jiných molekul.\nHelikáza – rozplétá dvoušroubovici DNA při replikaci.\nATP-syntáza – vyrábí ATP v mitochondriích.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "text": "\u000b\u000bJEDNOTNÁ KLASIFIKACE ENZYMŮ\u000b\n\n    Enzymy jsou rozděleny do 6 hlavních tříd podle typu katalyzované reakce.\n\nOxidoreduktasy\nTransferasy\nHydrolasy\nLyasy\nIzomerasy\nLigasy\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "text": "\u000bOXIDOREDUKTASY\u000b\u000b\nKatalyzují oxidačně – redukční reakce\nKofaktor mění v průběhu reakce své oxidační číslo\nEnzym se jmenuje většinou oxidasa, peroxidasa atp.\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "TRANSFERASY\n\nKatalyzují přenos skupin\n(CH, , NH,, fosfátová skupina)\n\ntransferasg\nD- hexosa | >- D hexosa\nM 6-fosfát\n\nfosfotransferasa, hexokinasa\npřenáší fosfátovou sk.\n\n",
+      "text": "\u000bTRANSFERASY\u000b\u000b\nKatalyzují přenos skupin \n(CH2  , NH2, fosfátová skupina)\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "text": "\u000bHYDROLASY\u000b\u000b\nKatalyzují hydrolytické štěpení vazeb, které vznikly kondenzací molekul za odštěpení vody.\n\nPeptidasy a proteasy - štěpí peptidové vazby CO-NH\nNapř.: Pepsin, Trypsin, Chymotrypsin\n\nGlykosidasy – štěpí glykosidové vazby  (z poloacetalového hydroxylu se stává glykosidová vazba)\n    např.: Amylasy - štěpí škrob, glykogen, polysacharidy\n\nEsterasy – štěpí esterové vazby lipidů, fosfolipidů…\n    např.: \n    Lipasy –hydrolyzují tuky na glycerol a mastné kys.\n    Fosfolipázy – štěpí fosfolipidy"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "text": "\u000bLYASY\u000b\u000b\n\nEnzymy, které katalyzují adiční reakci na dvojné vazbě nebo eliminační reakci za vzniku dvojné vazby.\n\nKatalyzují nehydrolytické štěpení a energeticky nenáročný vznik vazeb C-C, C-O, C-N \n\nProvádějí to většinou tak, že odštěpují ze substrátu nebo do něj vnášejí malé molekuly (H2O, CO2, NH3 ad.) bez pomoci dalšího reaktantu.\n \nMají povahu složených bílkovin.  Příkladem je pyruvátdekarboxylasa, která odštěpuje z pyruvátu (kyseliny pyrohroznové) oxid uhličitý za vzniku acetaldehydu. \u000b\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 23",
+      "number": 23,
+      "text": "\u000bIZOMERASY\u000b\u000b\nRealizují přesuny atomů a vytváří tak optické nebo polohové izomery\n\nU sacharidu dochází k přesunu dvojné vazby z aldehydu na keton\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 24",
+      "number": 24,
+      "text": "\u000bLIGASY\u000b\u000b\nKatalyzují vznik energeticky náročných vazeb za současného rozložení látky uvolňující energii.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 25",
+      "number": 25,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Názvosloví enzymů\n\nNÁZVOSLOVÍ ENZYMŮ\n\ntriviální názvosloví, \"polosystematické\", systematické, -asa x -áza\nSystematické:\n\nNomenklatura\n\nkatalog enzymů: http//www.rrz.uni-hamburg.de/biologie/b. online/e18 1/ec.htm\n\nhttp:/www.expasy.org/enzyme/\n\nEnzyme Commission (EC) lUBMB =0 N BA L alkoholdehydrogenasa\n6.tříd — typ rekace\n\npodtřída — substrát, skupina\n\npodpodtřída - speciální vlastnosti (akceptor apod.)\n\npořadové číslo\n\nza povšimnutí stojí: prosthetické skupiny se neobjevují v názvu enzymu,\nkoenzymy ano\n\ntriviální (pepsin, trypsin, elastasa, invertasa ...)\n\ndoporučené (\"polosystematické\") (alkoholdegydrogenasa...)\n\n",
+      "text": "\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 26",
+      "number": 26,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "ENZYME\n\n|\nsujissprot\nENZYME:\n\nEnzyme nomenclature database:\n\nENZYME is a repository of information relative to the nomenclature of enzymes. It is primarily based on the recommendations of the Nomenclature Committee of the International Union of Biochemistry and\nMolecular Biology (IUBMB) and it deseribes each type of characterized enzyme for which an EC (Enzyme Commission) number has been provided [More details / References ].\nENZYME now includes entries with preliminary EC numbers. Preliminary EC numbers include an 'n' as part of the fourth (serial) digit (e.g. EC 3.5.1.n3).\n\nRelease of 11-Jun-14 (5445 active entries)\n\nAccess to ENZYME:\n+ y EC mmber: : ) 6) (s[]\n+ by enzyme class\n+ by description (official name) or alternative name(s):\n»+ by chemical compound\n+ by cofactor\n+ by search in comments lines\n\nDocuments\n\n+ ENZYME user manual\n+ How to obtain ENZYME\n\n",
+      "text": "\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 27",
+      "number": 27,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Accepted Name:\n\nCatalase.\nReaction catalysed\n2 H(2)O(2) <=> O(2) + 2 H(2)O:\nCofactor(s)\nHeme; Manganese\nComment(s)\n\n* A manganese protein containing Mn(l!l) in the resting state, which also belongs here, is often called pseudocatalase.\n+ The enzymes from some organisms, such as Penicilium simplicissimum, can also act as a peroxidase (EC 1.11.1.7) for which several organic substances, especially ethanol, can act as a hydrogen donor\n+ Enzymes that exhibit both catalase and peroxidase activity belong under EC 1.11.1.21\n\nCross-rererences:\n\nPROSITE PDOC00395\n\nBRENDA 1.11.1.6\n\nEC2PDB 1.11.1.6\n\nExplorEnz 111.1.6\n\nPRIAM enzyme-specific profiles 1.11.1.6\n\nKEGG Ligand Database for Enzyme Nomenclature 111.1.6\n\nIUBMB Enzyme Nomenclature 1.11.1.6\n\nIntEnz 1.11.1.6\n\nMEDLINE Find literature relating to 1.11.1.6\n\nMetaCyc 1.11.1.6\nP83657, CAT1 COMTR; GE9C168, CAT1 NEUCR; P81138, CAT1 PENJA;\nA9C169, CAT3 NEUCR; a96528, CATA1 ARATH; O27487, CATA1 CAEEL;\nP48350, CATA1 CUCPE: P17598, CATA1 GOSHI; P55307, CATA1 HORVU;\nP18122, CATA1 MAIZE; P49315, CATA1 NICPL; POC549, CATA1 ORYSI;\nOOE4K1, CATA1, ORYSJ; 01297, CATA1. RICCO; P30264, CATA1 SOLLC;\nP49284, CATA1 SOLTU; P29756, CATA1 SOYBN; P49319, CATA1 TOBAC;\nG0D9C4, CATA2, ORYSU; P49318, CATA2 RICCO; ODXHHI, CATAZ SOLLC;\nP55312, CATA2 SOLTU; P55313, CATA2 WHEAT; O42547, CATA3 ARATH;\nP48352, CATA3 CUCPE; P18123, CATA3 MAIZE; P49317, CATA3 NICPL;\nO48560, CATA3 SOYBN; O48561, CATA4 SOYBN; P90682, CATA ASCSU;\nP78574, CATA ASPFU; OBAXHO, CATA AVIMR; P45737, CATA BACFR;\nP26901, CATA BACSU; OBX1PO, CATA BLUGH; POA324, CATA BORBR;\nPOA325, CATA BORPA; POA323, CATA BORPE; P55304, CATA BOTFU;\nPO0432, CATA BOVIN; POA327, CATA BRUAB; POA326, CATA BRUME;\nOBFWUO, CATA BRUSU; O216W4, CATA CALJA; O59296, CATA CAMJE;\nO13289, CATA CANAL: OB6VB8, CATA CANBO; O97492, CATA CANFA;\nPO7820, CATA CANTR; O9M5L6, CATA CAPAN; O64405, CATA CAVPO:\nOGPT92, CATA DANRE; O59337, CATA DEIRA; O9ZNIY, CATA DESVM;\nO77229, CATA DICDI; P17336, CATA DROME; P55305, CATA EMENI;\nODPWF7, CATA GLARU; P44390, CATA HAEIN; P45739, CATA HELAN;\nODZKX5, CATA HELPJ; P77872, CATA HELPY; PO4040, CATA HUMAN;\n\nUniProtkB/Swiss-Prot PO7145, CATA IPOBA; P30265, CATA LACSK: O926X0, CATA LISIN:\n\nOBY3PY, CATA LISMO; P24168, CATA LISSE; O93662, CATA METBF;\n\nP29422, CATA MICLU; P24270, CATA MOUSE; ©59602, CATA NEIGO;\n\n",
+      "text": "\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 28",
+      "number": 28,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Ligasy - příklady\n\nEC 6.1.1.1 L-Tyrosin:tRNATw-ligasa (AMP-tvořící), tyrosin-tRNA-ligasa\nL-Tyr + tRNATY + ATP 2 L-Tyr-t-RNATw + AMP + PP,\n\nEC 6.2.1.1 Acetát:CoA-ligasa (AMP-tvořící), acetát-CoA ligasa\nCH,COO:+ HSCoA + ATP 2 acetyl-SCoA + AMP + PP,\n\nEC 6.3.1.4 L-Aspartát:amoniak-ligasa (ADP-tvořící), asparaginsynthetasa\nL-Asp + NH, + ATP 2 L-Asn+ ADP + P; (EC 6.3.1.1.. AMP-tvořící)\n\nEC 6.4.1.1 Pyruvát:oxid uhličitý-ligasa (ADP-tvořící), pyruvátkarboxylasa\nCH,-CO-COO:+ HCO,- +ATP 2 '00C-CH,-CO-COO'+ ADP + P;\n\nEC 6.5.1.1 Poly(deoxyribonukleotid): poly(deoxyribonukleotid)-ligasa (AMP-\ntvořící), DNA-ligasa\nATP + (deoxyribonukleotid), + (deoxyribonukleotid) >\n—> (deoxyribonukleotid) „ AMP + PP,;\n",
+      "text": "\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 29",
+      "number": 29,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "KINETIKA ENZYMOVÝCH\nREAKCI\n* Základní model:\n\nvratná reakce\n\n2. ES—>E+P\n\nnevratná reakce\n\n",
+      "text": "Kinetika enzymových reakcí\nZákladní model:\n\n\nEnzymová reakce probíhá ve dvou krocích:\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 30",
+      "number": 30,
+      "text": "Regulace enzymové aktivity\nPomocí efektorů:\nAKTIVÁTORY – zvyšují činnost enzymu\nINHIBITORY – snižují aktivitu enzymu\n\nINHIBICE nevratná (IREVERZIBILNÍ)\nInhibitor se váže na enzym a úplně ho inaktivuje\n\nINHIBICE vratná (REVERZIBILNÍ)\nInhibitor se naváže slabě, možnost znovu fungovat\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 31",
+      "number": 31,
+      "text": "Využití enzymů\nVýroba alkoholických nápojů (cukr → ethanol)\nKvasný průmysl\nVýroba antibiotik a vitamínů\nČištění odpadních vod\nPotravinářský průmysl\n\nFunkce při trávení: enzymy štěpí bílkoviny, lipidy a polysacharidy až na jejich základní stavební jednotky"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 32",
+      "number": 32,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "LABORATORNÍ PRÁCE\n\n* https://www.youtube.com/watch?v=S-H1klHVE7\nUdet=9s\n\n",
+      "text": "Laboratorní práce\nhttps://www.youtube.com/watch?v=S-H1klHVE7U&t=9s\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 33",
+      "number": 33,
+      "text": "ÚKOL:\nZavzpomínejte, nebo najděte v sešitě enzymy, které používáme při trávení. Můžete započítat i proenzym. Vypište názvy alespoň šesti enzymů, které tělo používá při trávení.\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 34",
+      "number": 34,
+      "text": "ŘEŠENÍ:\nPepsinogen\nPepsin\nTrypsin\nChymotrypsin\nPankreatická lipáza\nStřevní lipáza\nAmylázy – Ptyalin a pak také (maltáza, sacharáza, laktáza)\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 35",
+      "number": 35,
+      "text": "Trávicí enzymy\nrozkládají velké makromolekuly na menší molekuly, které se vstřebávají ve střevech\n\nHlavní trávicí enzymy - hydrolasy\nproteolytické enzymy – rozložení bílkovin\nlipázy – rozložení tuků\namylázy – rozložení sacharidů\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 36",
+      "number": 36,
+      "text": "Trávicí enzymy\nAmyláza – štěpí škrob na jednodušší sacharidy.  Obsažena ve slinách a slinivce břišní.\nPepsin – enzym rozkládající molekuly bílkovin. Je součástí žaludeční šťávy. \nLipáza – rozkládá molekuly tuku na mastné kyseliny.\nje produkována slinivkou břišní a vypouštěna do tenkého střeva. \nTrypsin a chymotrypsin – jsou proteázy (hydrolázy) rozkládají polypeptidy. Uvolňují se ze slinivky břišní a v tenkém střevě. Metabolismus bílkovin.\nCeluláza – pomáhá s trávením potravin bohatých na vlákninu jako je například brokolice, chřest a fazole, štěpí celulózu – polysacharid.\nExopeptidázy, karboxypeptidáza a aminopeptidáza – pomáhají uvolnit jednotlivé aminokyseliny z větších molekul. \nLaktáza – přeměňuje cukr laktózu na glukózu a galaktózu.\nSacharáza – štěpí cukr sacharózu na glukózu a fruktózu.\nMaltáza – redukuje molekulu maltózy na glukózu.\n "
+    },
+    {
+      "kind": "slide",
+      "label": "slide 37",
+      "number": 37,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "ž\n\nCeluláza\n\nTrypsin\n\nInvertáza\n\nMaitáza\n\nSacharáza\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 38",
+      "number": 38,
+      "text": "Otázky k procvičení\nCo jsou to enzymy?\nKolik má tělo enzymů?\nCo enzym umí?\nZ čeho se enzym skládá?\nCo je to koenzym? \nNa jakých šest tříd se dělí enzymy?\nJaké znáte trávicí enzymy?\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 39",
+      "number": 39,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "DĚKUJI ZA\nPOZORNOST\n",
+      "text": "Děkuji za pozornost\n"
+    }
+  ]
+}

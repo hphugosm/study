@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "sha256": "71343cb8f87ea5db602035415e41f51b8a708e442047fc0ce25474dbf3a330ed",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Pracovní list: lipidy"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "Úkol: přepište následující vzorce do racionální (nezjednodušené) podoby a pojmenujte je."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Pracovní list: lipidy\nÚkol: přepište následující vzorce do racionální (nezjednodušené) podoby a \npojmenujte je.\n"
+    }
+  ]
+}

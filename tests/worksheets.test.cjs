@@ -69,9 +69,9 @@ test('all 60 worksheet graphs have numerically valid points, periods and tangent
   }
 });
 
-test('two source PDFs are available inside the existing two mathematics categories without adding another category', async () => {
+test('two source PDFs remain inside the two original mathematics categories', async () => {
   const { units } = await import('../src/data.js');
-  const categories = units.filter(unit => unit.subjectId === 'mathematics' && unit.module);
+  const categories = units.filter(unit => unit.subjectId === 'mathematics' && unit.module && unit.origin !== 'moodle');
   assert.deepEqual(categories.map(unit => unit.id).sort(), ['trig-equations', 'trig-functions']);
   for (const source of [graphSource, equationSource]) {
     const materials = categories.flatMap(unit => unit.materials);

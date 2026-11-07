@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": "Analytická chemie\nÚvod do analytické chemie"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Analytická chemie\n• Je vědní obor, který se zabývá zkoumáním chemického složení látek\n• Využívá k tomu poznatky z anorganické, organické a fyzikální chemie, fyziky a dalších \nvědních oborů\n• Základní úkol analytické chemie je určit kvalitativní a kvantitativní složení látky\nPoužití analytické chemie\n• v průmyslu při hodnocení surovin, meziproduktů i hotových výrobků\n• při sledování výrobních postupů\n• při kontrole složení vody, půdy, ovzduší atd.\n• ve výzkumu (archeologie, medicína, farmacie, jaderná chemie, elektrotechnika)"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Kvantitativní a kvalitativní analytická chemie\nKvalitativní analýza\n• slouží k dokazování, které složky jsou obsaženy v analyzované látce\n• nejčastěji se kvalitativní analýzou potvrzuje přítomnost jedné nebo \nněkolika hledaných složek ve vzorku\nKvantitativní analýza\n• stanovuje množství složek obsažných v analyzované látce\n• slouží k tomu moderní, rychlé analytické metody, které se zakládají na \nvyužití instrumentální techniky.  (Odběr vzorku, provedení analýzy, \nvyhodnocení výsledku, zápis vypočtených dat.)"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Analytické metody – chemické a instrumentální\n• Chemické: využívají více chemické vlastnosti látek a \npoužívají jednodušší zařízení, jako jsou např. váhy, byrety. \nVzorek, úprava vzorku pro analýzu, reakce vzorku, měření, \nzpracování, výsledek.\n• Instrumentální: využívají přístroje, které mají složité \nelektronické, optické a mechanické části."
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "Analytické reakce:\n• Má být snadno proveditelná, měly by jí provázet \nnápadné změny jako vznik sraženiny, změna bravy, vývoj \nplynu. \n• Reakce musí být dostatečně citlivá a také \ncharakteristická pro určitou látku nebo skupinu látek. \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": "Analytické reakce:\n• Neutralizační – acidobazické reakce (teorie kyselin a zásad, Arrheniova, \nBronstedova, Lewisova, Disociační konstanta, Výpočet pH roztoků\n• Oxidačně-redukční\n• Srážecí  - jsou iontové reakce při nichž vznikají málo rozpustné látky, které \nse z roztoku vylučují v pevné fázi – nazýváme sraženina\n• Komplexotvorné – vznikají komplexní sloučeniny. Komplex je molekula \nvzniklá z centrálního iontu na který se koordinačně-kovalentní vazbou váže \nskupina aniontů či skupina neutrálních molekul nazývaných ligandy. \nLigandy jsou donorem el.páru, centrální ionty jsou akceptorem.\n• v analytické chemii jsou často využívány. \\vzniklé komplexy jsou hezky \nbarevné a dají  se využít na rozpuštění skoro nerozpustných látek. Např. \njodid stříbrný rozpustíme v kyanidu draselném, za vzniku komplexu \n[Ag(CN)2]-\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "KVALITATIVNÍ \nANALÝZA\n➢ Důkaz přítomnosti či nepřítomnosti látky\n➢ Zjištění složení neznámého vzorku\n➢ Druh atomů obsažených ve zkoumané látce\n• Kvalitativní analýza anorganických látek\n• Důkaz iontu bývá jako informace dostačující\n• Ionty lze dokázat i ve směsích\n• Provádíme důkazové reakce s kationty a anionty\n• Kvalitativní analýza organických látek\n• Reakce molekul v roztoku jsou pomalejší\n• Nutná je identifikace molekuly (pomocí optických metod)\n• Identifikace s použitím instrumentálních metod"
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "text": "KVALITATIVNÍ ANALÝZA \nANORGANICKÝCH LÁTEK\n• Postup:\n• Orientační zkoušky\n• Skupinové reakce\n• Specifické reakce\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "text": "Orientační \nzkoušky:\n• Popis vzorku – skupenství, barva struktura, zápach \napod.\n• pH reakce – pomocí univerzálního indikátorového \npapírku\n• Odparek – pokud není žádný, jednalo se o vodu, \ntěkavé látky nebo hydroxid amonný\n• Rozpustnost – ve vodě, v kyselinách\n• Reakce se zředěnou kys. sírovou – vývoj plynů \n(buď se projeví zápachem (síra, kyanidy), nebo \nzabarvením přiloženého pH  papírku, nebo přímo \nhnědým či fialovým dýmem – jako u jodu nebo \nbromu. \n• Zkouška v plameni (hoří, těká, třaská, taví se, barví \nplamen)"
+    },
+    {
+      "kind": "page",
+      "label": "page 10",
+      "number": 10,
+      "text": "Skupinové \nreakce\n• K dělení iontů jsou vhodné srážecí reakce. \nNapříklad sirovodíkový způsob. Pomocí \nskupinových reakcí dojde k postupnému \nrozdělení směsi kationtů na menší skupiny \nneboli analytické třídy. \n• V podstatě je založen na rozdílné rozpustnosti \nchloridů, sulfidů, hydroxidů, uhličitanů různých \nkovů. \n• Kationty jsou rozděleny do pěti hlavních tříd, \nkteré se dále dělí na podskupiny. "
+    },
+    {
+      "kind": "page",
+      "label": "page 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 12",
+      "number": 12,
+      "text": "Pět hlavních \ntříd kationtů\nI. třída obsahuje kationty které se sráží zředěnou HCl jako jsou chloridy: \nAg+,Hg2\n2+,Pb2+\nII. třída kationtů se oddělí z filtrátu po I. třídě srážením sirovodíkem \n(H2S) z kyselého prostředí. Vznikají sulfidy. Ty se dále dělí na podskupiny \nA a B. Kritériem je rozpustnost vpolysulfidu amonném. A  se v něm \nnerozpouští.  \nA CuS,PbS,HgS,CdS,Bi2S3 atd. \nB As2S3,As2S5,Sb2S3,Sb2S5,SnS, SnS2, atd. \nIII. třída obsahuje kationty, které se sráží se sulfidem amonným. Vznikne \nsraženina sulfidů a hydroxidů: NiS, CoS, ZnS, FeS apod. Al(OH)3, \nCr(OH)3 apod. \nIV. třída kationtů se sráží ve filtrátě po III.třídě uhličitanem amonným za \npřítomnosti chloridu amonného na nerozpustné uhličitany: CaCO3, \nSrCO3, BaCO3\nV. třídaobsahuje kationty, které se nesrážejí sžádným z uvedených \nskupinových činidel: Mg2+, Na+, K+, NH4+. Jednotlivé ionty se dokazují \nselektivními reakcemi"
+    },
+    {
+      "kind": "page",
+      "label": "page 13",
+      "number": 13,
+      "text": "Důkazy \naniontů\n• Jsou založeny na skupinových a selektivních \nreakcích\n• slouží k tomu reakce srážecí a oxidačně \nredukční. Podle srážecích reakcí dělíme anionty \ndo tří analytických tříd. \n• I. Třída – se sráží s AgNO3 i BaCl2 (jsou to \nsírany, fosforečnany, uhličitany, chromany, \nfluoridy)\n• II. Třída obsahuje anionty, které se sráží jen \ns AgNO3 (jsou to chloridy, bromidy, jodidy, \nsulfidy, dusitany, kyanidy)\n• III. Třída obsahuje anionty, které se nesráží ani \ns AgNO3 ani s BaCl2 (jsou to dusičnany, \nchlorečnany, chloristany, manganistany) "
+    },
+    {
+      "kind": "page",
+      "label": "page 14",
+      "number": 14,
+      "text": "Specifické reakce –\nselektivní reakce\n• umožňují konečný důkaz iontů , využíváme \nk tomu specifické reakce, jako srážecí, \nkomplexotvorné, redoxní apod. \n• provádíme ve zkumavkách, na kapkovací\ndestičce, na filtračním papíře, pod \nmikroskopem\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 15",
+      "number": 15,
+      "text": "KVALITATIVNÍ ANALÝZA \nORGANICKÝCH LÁTEK\n• Organické sloučeniny mají jinou povahu než \nanorganické. Ty anorganické jsou většinou iontové \npovahy, ale ty organické se vyznačují kovalentními \nvazbami (nejčastěji s C, H, O, N, Sa halogeny)\n• Identifikace je stížená tím, že několik organických \nlátek má stejný sumární vzorec. Proto nestačí \nzjistit z jakých prvků je látka složena. Musí se zjisti, \njakým způsobem jsou prvky v molekule vázány.  –\nzjistit strukturu molekuly a případně velikost\n• Strukturu organické látky určujeme důkazem \nfunkčních skupin a dvojných a trojných vazeb. \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 16",
+      "number": 16,
+      "text": "Postup při \nanalýze \norganické \nlátky:\nUrčit, jestli je to látka nebo směs\nRozdělení vzorku na jednotlivé látky\nZjistit vlastnosti jednotlivých látek\nZjistit fyzikální konstanty a rozpustnost\nProvést elementární analýzu a stanovit molekulovou \nhmotnost\nZjistit přítomnost funkčních skupin\nPřipravit deriváty, kterými se potvrdí správnost identifikace"
+    },
+    {
+      "kind": "page",
+      "label": "page 17",
+      "number": 17,
+      "text": "Kvalitativní \nelementární \nanalýza \norganických \nsloučenin\n• Důkaz uhlíku (zahřívání, žíhání)\n• Důkaz vodíku (oxidací na vodu při reakci s CuO)\n• Důkaz dusíku a síry (zkouška pomocí mineralizace \norganické látky – Lassaigneova zkouška)\n• Důkaz halogenů (Beilsteinova zkouška nebo \nLassaigneova zkouška)\n• Důkaz kovů (spálením látky v proudu kyslíku  nebo \nvzduchu – zbyde zbytek, který se dále analyzuje \npostupy anorganické analýzy)"
+    },
+    {
+      "kind": "page",
+      "label": "page 18",
+      "number": 18,
+      "text": "Důkazy \npřítomnosti \nfunkčních \nskupin\n• Důkaz hydroxylové skupiny (xanthogenová reakce – hnědožlutá \nsraženina)\n• Karbonylová skupina  -CO (reakcí s hydraziny za vzniku \nhydrazonů)\n• Karboxylová skupina COOH (zkoumají se kyselé vlastnosti \nvodíku _ dávat pozitivní kyselou reakci s chemickým \nindikátorem)\n• Aminová skupina NH2 (reakcí s kyselinou dusitou)\n• Dvojné a trojné vazby (využívá se jejich schopnosti adovat Br –\nsledujeme výsledné zbarvení, nebo reakcí s KMnO4, který se ze \nsvé fialové barvy odbarvuje  - redukuje díky dvojným nebo \ntrojným vazbám. Vzniká hnědý oxid manganičitý. "
+    },
+    {
+      "kind": "page",
+      "label": "page 19",
+      "number": 19,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "I Děkuji za pozornost\n",
+      "text": "Děkuji za pozornost\n"
+    }
+  ]
+}

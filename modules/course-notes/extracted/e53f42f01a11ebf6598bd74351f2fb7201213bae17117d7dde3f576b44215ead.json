@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "PL - Interference, ohyb a polarizace\nInterference\nVlnové vlastnosti světla se nejvýrazněji projevují přiinterferenci(skládání) světla. Vlnění, která přicházejí\ndo určitého bodu z různých zdrojů, se v tomto bodě navzájem skládají.\nPrincip superpozice.Pokud se v jednom místě setkají dvě nebo více vlnění, výsledná okamžitá vý-\nchylka je rovna součtu okamžitých výchylek jednotlivých vlnění.\ny=y 1 +y 2\nInterferenceje jev, při kterém se dvě nebo více vlnění skládají a dochází k jejich vzájemnému zesilování\n(konstruktivní interference) nebo zeslabování (destruktivní interference).\nPři skládání vlnění ve fázi dochází k jejich zesílení. Výsledná amplituda je rovna součtu amplitud jednotlivých\nvlnění.A=A 1 +A 2.\nPři skládání vlnění v protifázi dochází k jejich zeslabení. Výsledná amplituda je rovna rozdílu amplitud\njednotlivých vlnění v absolutní hodnotě.A=|A1 −A 2|.\nPokud mají obě vlnění stejnou amplitudu, dojde k jejich úplnému vyrušení.\nPro vznik stálého interferenčního obrazce musí mít vlnění stejnou frekvenci a stálý fázový rozdíl (musí být\nkoherentní). Může dojít ke zesilování některých barevných složek a potlačení jiných (vrstva oleje, povrch\nbublin).\n1"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Difrakce (ohyb)\nDifrakce světla je jev podmíněný vlnovými vlastnostmi světla. Důsledkem je odlišné šíření světla, než by od-\npovídalo přímočarému šíření světla.\nDifrakcese projevuje tak, že po dopadu na okraj překážky se světlo šíří i za překážku do oblasti geometrického\nstínu (do prostoru, kam by na základě přímočarého šíření nemělo světlo proniknout).\nOhyb (difrakce)světla je jev, při kterém světlo proniká i do oblasti geometrického stínu za překážkou\nnebo otvorem.\nOhyb je výrazný, pokud jsou rozměry překážky nebo otvoru srovnatelné s vlnovou délkou světla.\nPolarizace\nx\n⃗E\n⃗B\nSvětlo je příčné elektromagnetické vlnění, při kterém\nvektory elektrické intenzity⃗Ea magnetické indukce\n⃗Bkmitají navzájem kolmo a zároveň kolmo ke směru\nšíření světla.\nSměr vektoru⃗Ev dané rovině je u přirozeného světla nahodilý (v rovině kolmé ke směru šíření). Takové\nsvětlo označujeme jakosvětlo nepolarizované. V případě, že vektor⃗Ekmitá stále v jedné přímce, je světlo\nlineárně polarizované.\nPolarizace světlaje jev, při kterém se uspořádá směr kmitání vektoru elektrické intenzity světelného\nvlnění.\nPolarizační filtr (polarizátor)propouští pouze složku elektrického pole světla kmitající v jeho propustném\nsměru. Jsou-li dva ideální polarizační filtry natočeny tak, že jejich propustné směry jsou navzájem kolmé,\nsvětlo jimi neprochází.\n2"
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "schema": 1,
+  "sha256": "97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Pracovní list: příprava na test z biochemie"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": "Co je to biochemie a čím se zabývá?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": "Na jaké úrovni studuje biochemie živé systémy?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": "Čím se zabývá dynamická biochemie? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": "Čím se zabývá statická biochemie? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 14",
+      "number": 14,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 15",
+      "number": 15,
+      "text": "Organismy jsou složené z biomolekul. Napište název šesti různých biomolekul, které se podílejí na složení organismů."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 16",
+      "number": 16,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 17",
+      "number": 17,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 18",
+      "number": 18,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 19",
+      "number": 19,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 20",
+      "number": 20,
+      "text": "Považujeme bakterii za živý organismus? Dále vypište alespoň 5 specifických vlastností, které jsou společné pro živé systémy. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 21",
+      "number": 21,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 22",
+      "number": 22,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 23",
+      "number": 23,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 24",
+      "number": 24,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 25",
+      "number": 25,
+      "text": "K čemu slouží v buňce ribozomy a k čemu mitochondrie? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 26",
+      "number": 26,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 27",
+      "number": 27,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 28",
+      "number": 28,
+      "text": "Jaké jsou základní chemické reakce, které probíhají v buňkách? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 29",
+      "number": 29,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 30",
+      "number": 30,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 31",
+      "number": 31,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 32",
+      "number": 32,
+      "text": "Co jsou to biochemické metody? Jaké je jejich využití?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 33",
+      "number": 33,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 34",
+      "number": 34,
+      "text": "Pracovní list: příprava na test z biochemie"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 35",
+      "number": 35,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 36",
+      "number": 36,
+      "text": "Co je to biochemie a čím se zabývá?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 37",
+      "number": 37,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 38",
+      "number": 38,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 39",
+      "number": 39,
+      "text": "Na jaké úrovni studuje biochemie živé systémy?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 40",
+      "number": 40,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 41",
+      "number": 41,
+      "text": "Čím se zabývá dynamická biochemie? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 42",
+      "number": 42,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 43",
+      "number": 43,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 44",
+      "number": 44,
+      "text": "Čím se zabývá statická biochemie? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 45",
+      "number": 45,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 46",
+      "number": 46,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 47",
+      "number": 47,
+      "text": "Organismy jsou složené z biomolekul. Napište název šesti různých biomolekul, které se podílejí na složení organismů."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 48",
+      "number": 48,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 49",
+      "number": 49,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 50",
+      "number": 50,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 51",
+      "number": 51,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 52",
+      "number": 52,
+      "text": "Považujeme bakterii za živý organismus? Dále vypište alespoň 5 specifických vlastností, které jsou společné pro živé systémy. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 53",
+      "number": 53,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 54",
+      "number": 54,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 55",
+      "number": 55,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 56",
+      "number": 56,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 57",
+      "number": 57,
+      "text": "K čemu slouží v buňce ribozomy a k čemu mitochondrie? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 58",
+      "number": 58,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 59",
+      "number": 59,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 60",
+      "number": 60,
+      "text": "Jaké jsou základní chemické reakce, které probíhají v buňkách?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 61",
+      "number": 61,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 62",
+      "number": 62,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 63",
+      "number": 63,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 64",
+      "number": 64,
+      "text": "Co jsou to biochemické metody? Jaké je jejich využití?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 65",
+      "number": 65,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 66",
+      "number": 66,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 67",
+      "number": 67,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 68",
+      "number": 68,
+      "text": "Pojmenujte vzorce"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 69",
+      "number": 69,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 70",
+      "number": 70,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 71",
+      "number": 71,
+      "text": "CH3-CH2- CH2-COOH                    "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 72",
+      "number": 72,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 73",
+      "number": 73,
+      "text": "CH3-CH2 -CH2-OH                    "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 74",
+      "number": 74,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 75",
+      "number": 75,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 76",
+      "number": 76,
+      "text": "HCl                   NaCl"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 77",
+      "number": 77,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 78",
+      "number": 78,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 79",
+      "number": 79,
+      "text": "H2SO4               H3PO4"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 80",
+      "number": 80,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 81",
+      "number": 81,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 82",
+      "number": 82,
+      "text": "Vysvětlete pojem trojsytný alkohol. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 83",
+      "number": 83,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 84",
+      "number": 84,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 85",
+      "number": 85,
+      "text": "Karbonylovou skupinu mají jaké látky? Zapište obě skupiny. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 86",
+      "number": 86,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 87",
+      "number": 87,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 88",
+      "number": 88,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 89",
+      "number": 89,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 90",
+      "number": 90,
+      "text": "Jak vypadá hydroxylová skupina? A jaké látky jí mají?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 91",
+      "number": 91,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 92",
+      "number": 92,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 93",
+      "number": 93,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 94",
+      "number": 94,
+      "text": "Zapište vzorec glycerolu."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 95",
+      "number": 95,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 96",
+      "number": 96,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 97",
+      "number": 97,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 98",
+      "number": 98,
+      "text": "Pojmenujte vzorce"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 99",
+      "number": 99,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 100",
+      "number": 100,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 101",
+      "number": 101,
+      "text": "CH3-CH2- CH2-COOH                    "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 102",
+      "number": 102,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 103",
+      "number": 103,
+      "text": "CH3-CH2 -CH2-OH                    "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 104",
+      "number": 104,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 105",
+      "number": 105,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 106",
+      "number": 106,
+      "text": "HCl                   NaCl"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 107",
+      "number": 107,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 108",
+      "number": 108,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 109",
+      "number": 109,
+      "text": "H2SO4               H3PO4"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 110",
+      "number": 110,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 111",
+      "number": 111,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 112",
+      "number": 112,
+      "text": "Vysvětlete pojem trojsytný alkohol. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 113",
+      "number": 113,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 114",
+      "number": 114,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 115",
+      "number": 115,
+      "text": "Karbonylovou skupinu mají jaké látky? Zapište obě skupiny. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 116",
+      "number": 116,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 117",
+      "number": 117,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 118",
+      "number": 118,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 119",
+      "number": 119,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 120",
+      "number": 120,
+      "text": "Jak vypadá hydroxylová skupina? A jaké látky jí mají?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 121",
+      "number": 121,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 122",
+      "number": 122,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 123",
+      "number": 123,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 124",
+      "number": 124,
+      "text": "Zapište vzorec glycerolu."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 125",
+      "number": 125,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 126",
+      "number": 126,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Pracovní list: příprava na test z biochemie\n1. Co je to biochemie a čím se zabývá?\n2. Na jaké úrovni studuje biochemie živé systémy?\n3. Čím se zabývá dynamická biochemie? \n4. Čím se zabývá statická biochemie? \n5. Organismy jsou složené z biomolekul. Napište název šesti různých \nbiomolekul, které se podílejí na složení organismů.\n6. Považujeme bakterii za živý organismus? Dále vypište alespoň 5 \nspecifických vlastností, které jsou společné pro živé systémy. \n7. K čemu slouží v buňce ribozomy a k čemu mitochondrie? \n8. Jaké jsou základní chemické reakce, které probíhají v buňkách? \n9. Co jsou to biochemické metody? Jaké je jejich využití?\nPracovní list: příprava na test z biochemie\n1. Co je to biochemie a čím se zabývá?\n2. Na jaké úrovni studuje biochemie živé systémy?\n3. Čím se zabývá dynamická biochemie? \n4. Čím se zabývá statická biochemie? \n5. Organismy jsou složené z biomolekul. Napište název šesti různých \nbiomolekul, které se podílejí na složení organismů.\n6. Považujeme bakterii za živý organismus? Dále vypište alespoň 5 \nspecifických vlastností, které jsou společné pro živé systémy. \n7. K čemu slouží v buňce ribozomy a k čemu mitochondrie? \n8. Jaké jsou základní chemické reakce, které probíhají v buňkách?\n9. Co jsou to biochemické metody? Jaké je jejich využití?"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "1) Pojmenujte vzorce\nCH3-CH2- CH2-COOH \nCH3-CH2 -CH2-OH \nHCl                   NaCl\nH2SO4               H3PO4\n2) Vysvětlete pojem trojsytný alkohol. \n3) Karbonylovou skupinu mají jaké látky? Zapište obě \nskupiny. \n4) Jak vypadá hydroxylová skupina? A jaké látky jí mají?\n5) Zapište vzorec glycerolu.\n1) Pojmenujte vzorce\nCH3-CH2- CH2-COOH \nCH3-CH2 -CH2-OH \nHCl                   NaCl\nH2SO4               H3PO4\n2) Vysvětlete pojem trojsytný alkohol. \n3) Karbonylovou skupinu mají jaké látky? Zapište obě \nskupiny. \n4) Jak vypadá hydroxylová skupina? A jaké látky jí mají?\n5) Zapište vzorec glycerolu."
+    }
+  ]
+}

@@ -1,0 +1,1031 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-a88b7b9f9e496bbb4bb9de1b722672d6",
+  "title": "Dopnění učiva z 1. a 2. ročníku, pro maturanty z chemie",
+  "language": "cs",
+  "intro": "Doplňující materiály spojují analytickou chemii s názvoslovím komplexů. U analýzy nejdříve rozliš, zda zjišťuješ přítomnost látky, nebo její množství; u komplexu hlídej náboj a oxidační číslo.",
+  "sources": [
+    {
+      "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+      "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+      "title": "komplexní sloučeniny žáci.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b.pdf",
+      "extraction_url": "./extracted/e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b.zip"
+    },
+    {
+      "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+      "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+      "title": "analytická 1 část.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b.pdf",
+      "extraction_url": "./extracted/29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b.zip"
+    },
+    {
+      "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+      "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+      "title": "Analytická chemie 2 část.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae.pdf",
+      "extraction_url": "./extracted/e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae.zip"
+    },
+    {
+      "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+      "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693",
+      "title": "názvosloví úkol.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693.pdf",
+      "extraction_url": "./extracted/4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "analyza-cile",
+      "title": "Kvalitativní a kvantitativní otázka",
+      "source_refs": [
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 2
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 3
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 4
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 2
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 3
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Analytická chemie zkoumá chemické složení látek. Kvalitativní analýza odpovídá na otázku, které složky vzorek obsahuje; kvantitativní analýza určuje jejich množství. Před výběrem kvantitativní metody potřebujeme znát, co stanovujeme.",
+          "source_refs": [
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 2
+            },
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 3
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chemické metody využívají chemické reakce a základní zařízení, například váhy či byretu. Instrumentální metody využívají měřicí přístroje s optickými, elektronickými nebo mechanickými částmi.",
+          "source_refs": [
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 4
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Kvalitativní analýza",
+          "Kvantitativní analýza"
+        ],
+        "rows": [
+          {
+            "label": "Základní otázka",
+            "values": [
+              "Která složka je přítomna?",
+              "Kolik stanovované složky je přítomno?"
+            ]
+          },
+          {
+            "label": "Typ výsledku",
+            "values": [
+              "Důkaz určité složky nebo iontu.",
+              "Hmotnost, koncentrace či jiné vyjádření množství."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "vzorek",
+      "title": "Výsledek začíná reprezentativním vzorkem",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 3
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 4
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 5
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Reprezentativní vzorek má vystihovat složení analyzovaného materiálu. Odběr z jediného netypického místa by mohl zkreslit výsledek ještě před samotným měřením.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pevné materiály se mohou vzorkovat na více místech a upravovat drcením.",
+            "Kapalné a plynné vzorky se před odběrem homogenizují.",
+            "Podle povahy vzorku následuje převod do vhodné formy pro analýzu.",
+            "Přesná navážka se zjišťuje na analytických vahách."
+          ],
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 4
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 5
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Přesný přístroj sám neopraví nereprezentativní odběr. Odděluj správný výběr vzorku od přesnosti následného měření.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 3
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dukazove-reakce",
+      "title": "Pozorovatelný projev ještě musí být charakteristický",
+      "source_refs": [
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 5
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 6
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 8
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 10
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 14
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 15
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 18
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Důkazová reakce má mít snadno pozorovatelný projev, být dostatečně citlivá a charakteristická pro hledanou látku či skupinu. Mezi projevy patří vznik sraženiny, změna barvy nebo vývoj plynu.",
+          "source_refs": [
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Neutralizační reakce: acidobazická přeměna.",
+            "Redoxní reakce: oxidačně-redukční změna.",
+            "Srážecí reakce: vznik málo rozpustné pevné fáze.",
+            "Komplexotvorná reakce: vznik částice s centrálním atomem a ligandy."
+          ],
+          "source_refs": [
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při kvalitativní anorganické analýze se uplatňují orientační, skupinové a specifické reakce. Skupinový krok rozděluje směs na menší soubory; selektivní důkaz pak pomáhá určit jednotlivou složku.",
+          "source_refs": [
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 8
+            },
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 10
+            },
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U organických látek nestačí zjistit pouze sumární složení: různé struktury mohou mít stejný sumární vzorec. Proto se zkoumají také funkční skupiny a násobné vazby.",
+          "source_refs": [
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 15
+            },
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gravimetrie",
+      "title": "Gravimetrie převádí množství analytu na hmotnost",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 7
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 8
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Při vážkové analýze se stanovovaná složka převede do izolovatelné formy, často málo rozpustné sloučeniny. Z její známé chemické povahy a hmotnosti se určuje obsah analytu.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Příklad v podkladu sleduje hliník: po vzniku hydroxidu hlinitého následuje žíhání na Al₂O₃ a zvážení. Rozliš tedy původní vzorek, vyloučenou sraženinu a konečnou váženou formu.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Převeď analyt do vhodné formy",
+          "text": "Cílem je získat oddělitelnou sloučeninu s definovaným složením.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Odděl a uprav produkt",
+          "text": "V přehledu následuje filtrace, promývání a sušení nebo žíhání.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Zvaž a vyhodnoť",
+          "text": "Hmotnost a chemické složení vážené formy umožňují výpočet množství analytu.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 7
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titrace",
+      "title": "Titrace spojuje známou koncentraci s přesným objemem",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 9
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 10
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 11
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 14
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 16
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 19
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 20
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Odměrná analýza stanovuje analyt pomocí přesně odměřeného objemu činidla o známé koncentraci. V bodě ekvivalence spolu analyt a činidlo zreagovaly ve vztahu odpovídajícím dané chemické reakci.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 9
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Indikátor ukazuje změnou barvy nebo zákalem blízkost bodu ekvivalence; lze použít i přístrojové sledování, například pH, vodivost či optické vlastnosti. Pozorovaný signál a chemický pojem ekvivalence proto pojmenuj zvlášť.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 14
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Pro výpočet hlídej jednotky: objem v cm³ musíš při použití koncentrace v mol·dm⁻³ převést na dm³. Podklad uvádí také navážku, přesnou koncentraci činidla a molární hmotnost.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 19
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "1. Připrav známé množství vzorku",
+          "text": "Vzorek odvaž a odměř podle zvolené analytické úlohy.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 11
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "title": "2. Připrav titrovaný roztok",
+          "text": "Podle metody uprav prostředí a zvol indikátor nebo přístrojové sledování.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "title": "3. Sleduj spotřebu činidla",
+          "text": "Odměrný roztok se přidává z byrety a sleduje se dosažení konečného signálu titrace.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "title": "4. Přepočítej výsledek",
+          "text": "Spotřebu činidla vyhodnoť s jeho koncentrací, stechiometrií reakce a velikostí vzorku.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 19
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/83740f531c68fbf645dbfda2888b6f9dcec2f69205aae0d45a6b51c03af9754a.webp",
+          "alt": "Titrační aparatura: rozliš byretu s činidlem a baňku se stanovovaným vzorkem. Strana 18.",
+          "caption": "Titrační aparatura: rozliš byretu s činidlem a baňku se stanovovaným vzorkem. Strana 18.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 18
+            }
+          ],
+          "source_media": "extracted/e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae/media/page-018-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ]
+    },
+    {
+      "id": "instrumentalni-metody",
+      "title": "Přístrojová metoda je pojmenovaná podle měřeného principu",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 21
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 22
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 23
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Elektrochemické metody: v přehledu například potenciometrie, konduktometrie a voltametrie.",
+            "Optické metody: emisní a absorpční metody, refraktometrie a polarimetrie.",
+            "Termické metody: využívají měření související s teplotními a tepelnými změnami."
+          ],
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Refraktometrie je založena na měření indexu lomu. Podklad uvádí její použití ke sledování koncentrace nebo kvality materiálů a potravin. Při potenciometrické titraci se chemický průběh sleduje elektrickým měřením.",
+          "source_refs": [
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 22
+            },
+            {
+              "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+              "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+              "page": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "komplexy-nazvoslovi",
+      "title": "U komplexu začni nábojem a ligandem",
+      "source_refs": [
+        {
+          "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+          "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+          "page": 1
+        },
+        {
+          "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+          "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693",
+          "page": 1
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Komplexní částice obsahuje centrální atom či ion a ligandy. Ligand poskytuje elektronový pár pro koordinační vazbu. V názvoslovném přehledu jsou mezi neutrálními ligandy H₂O (aqua), NH₃ (ammin) a CO (karbonyl).",
+          "source_refs": [
+            {
+              "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+              "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+              "page": 1
+            },
+            {
+              "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+              "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Název v dodané školní tabulce spojuje počet ligandů, jejich pojmenování a název centrálního atomu se zakončením odpovídajícím oxidačnímu číslu. Pro výpočet vždy platí: oxidační číslo centra + součet nábojů ligandů = náboj komplexní částice.",
+          "source_refs": [
+            {
+              "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+              "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Model odvozený z pracovního listu: u [Ni(NH₃)₆]²⁺ jsou všechny amminové ligandy neutrální. Rovnice je x + 6·0 = +2, takže nikl má oxidační číslo II. Počet šesti ligandů vyjadřuje předpona hexa-.",
+          "source_refs": [
+            {
+              "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+              "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+              "page": 1
+            },
+            {
+              "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+              "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Další úlohy pracují s aniontovými ligandy, například amido NH₂⁻, fosfato PO₄³⁻ a nitrato NO₃⁻. Náboj na hranaté závorce není automaticky oxidační číslo samotného centrálního atomu.",
+          "source_refs": [
+            {
+              "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+              "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+              "page": 1
+            },
+            {
+              "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+              "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Urči hranici komplexní částice",
+          "text": "Nejprve najdi centrální atom a ligandy uvnitř hranaté závorky; případný protiion je mimo ni.",
+          "source_refs": [
+            {
+              "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+              "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Sečti náboje ligandů",
+          "text": "Například ammin je v tabulce neutrální, nitrato má náboj −1.",
+          "source_refs": [
+            {
+              "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+              "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Dopočítej oxidační číslo",
+          "text": "U [Fe(NO₃)₂] je celek neutrální: x + 2·(−1) = 0, tedy x = +II.",
+          "source_refs": [
+            {
+              "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+              "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693",
+              "page": 1
+            },
+            {
+              "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+              "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Sestav název v konvenci pracovního listu",
+          "text": "Použij početní předponu, jméno ligandu a název centra s odpovídajícím zakončením.",
+          "source_refs": [
+            {
+              "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+              "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/f6b45e4aeb7811b805937d9ce12017d384747e9c447b5837116cd0c7737bcbdd.webp",
+          "alt": "Školní tabulka ligandů a postup tvorby názvu komplexu. Strana 1.",
+          "caption": "Školní tabulka ligandů a postup tvorby názvu komplexu. Strana 1.",
+          "source_refs": [
+            {
+              "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+              "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+              "page": 1
+            }
+          ],
+          "source_media": "extracted/e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b/media/page-001-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "c-kvalitativni",
+      "front": "Na jakou otázku odpovídá kvalitativní analýza?",
+      "back": "Které složky jsou ve vzorku přítomné.",
+      "source_refs": [
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "c-kvantitativni",
+      "front": "Na jakou otázku odpovídá kvantitativní analýza?",
+      "back": "Jaké množství stanovované složky je ve vzorku.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "c-reprezentativni",
+      "front": "Co znamená reprezentativní vzorek?",
+      "back": "Vzorek, který vystihuje složení analyzovaného materiálu.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "c-gravimetrie",
+      "front": "Co se přímo měří při gravimetrii?",
+      "back": "Hmotnost analytu nebo definované sloučeniny, z níž lze jeho množství vypočítat.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "c-analyt",
+      "front": "Co je analyt?",
+      "back": "Stanovovaná složka, tedy látka nebo částice, jejíž množství či přítomnost určujeme.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "c-ligand",
+      "front": "Co je ligand?",
+      "back": "Částice vázaná na centrální atom; poskytuje elektronový pár pro koordinační vazbu.",
+      "source_refs": [
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 6
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-kvalita",
+      "prompt": "Která otázka je kvalitativní?",
+      "options": [
+        "Je ve vzorku přítomen daný ion?",
+        "Jaká je hmotnost dané složky v gramech?",
+        "Jaká je přesná koncentrace složky?"
+      ],
+      "answer": 0,
+      "explanation": "Kvalitativní analýza zjišťuje přítomnost či identitu, kvantitativní množství.",
+      "source_refs": [
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "q-vzorek",
+      "prompt": "Proč se pevný materiál může vzorkovat z více míst?",
+      "options": [
+        "Aby se vždy změnilo oxidační číslo všech atomů",
+        "Aby přístroj nemusel nic měřit",
+        "Aby vzorek lépe vystihoval složení celku"
+      ],
+      "answer": 2,
+      "explanation": "Reprezentativnost je vlastnost odběru; přesnost vážení sama chybný výběr vzorku nenahradí.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "q-srazeni",
+      "prompt": "Jaký projev odpovídá srážecí reakci?",
+      "options": [
+        "Vždy vznik nového plynného prvku",
+        "Vznik málo rozpustné pevné fáze",
+        "Pouze změna pořadí bází DNA"
+      ],
+      "answer": 1,
+      "explanation": "Sraženina je pevná fáze vylučující se z roztoku při vzniku málo rozpustné látky.",
+      "source_refs": [
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "q-vazkova",
+      "prompt": "Na jaké měřené veličině stojí gravimetrie?",
+      "options": [
+        "Hmotnosti definované vážené formy",
+        "Výhradně na barvě plamene",
+        "Pouze na sekvenci DNA"
+      ],
+      "answer": 0,
+      "explanation": "Gravimetrie využívá hmotnost izolované formy a její chemické složení k výpočtu analytu.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-titrace",
+      "prompt": "Co potřebuješ znát u odměrného roztoku pro titraci?",
+      "options": [
+        "Pouze jeho obchodní název",
+        "Jen barvu prázdné byrety",
+        "Jeho přesnou koncentraci a spotřebovaný objem"
+      ],
+      "answer": 2,
+      "explanation": "Z koncentrace, spotřeby a stechiometrie lze určit množství analytu.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 9
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "q-indikator",
+      "prompt": "Jakou roli má indikátor při titraci?",
+      "options": [
+        "Vždy tvoří hlavní stanovovaný analyt",
+        "Poskytuje pozorovatelný signál v blízkosti bodu ekvivalence",
+        "Nahrazuje znalost koncentrace činidla"
+      ],
+      "answer": 1,
+      "explanation": "Podklad uvádí změnu barvy nebo zákal v blízkosti bodu ekvivalence; koncentraci činidla přesto potřebujeme znát.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "q-objem",
+      "prompt": "Kolik dm³ je 25 cm³ při převodu jednotek pro titrační výpočet?",
+      "options": [
+        "0,025 dm³",
+        "25 dm³",
+        "2500 dm³"
+      ],
+      "answer": 0,
+      "explanation": "Modelový převod: 1 dm³ = 1000 cm³, proto 25 cm³ odpovídá 0,025 dm³. Jednotky objemu a koncentrace musejí být slučitelné.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "q-refrakce",
+      "prompt": "Kterou veličinu měří refraktometrie?",
+      "options": [
+        "Počet aminokyselin v kodonu",
+        "Výhradně hmotnost sraženiny",
+        "Index lomu"
+      ],
+      "answer": 2,
+      "explanation": "Podklad definuje refraktometrii jako optickou metodu založenou na měření indexu lomu.",
+      "source_refs": [
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "q-nikl",
+      "prompt": "Jaké oxidační číslo má Ni v [Ni(NH₃)₆]²⁺ podle školního pravidla pro neutrální amminový ligand?",
+      "options": [
+        "−II",
+        "II",
+        "VI"
+      ],
+      "answer": 1,
+      "explanation": "Každý ligand NH₃ je neutrální. Součet x + 6·0 musí odpovídat náboji +2, takže x = +II.",
+      "source_refs": [
+        {
+          "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+          "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+          "page": 1
+        },
+        {
+          "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+          "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "q-zelezo",
+      "prompt": "Jaké oxidační číslo má Fe v neutrálním komplexu [Fe(NO₃)₂]?",
+      "options": [
+        "II",
+        "0",
+        "−II"
+      ],
+      "answer": 0,
+      "explanation": "Dva nitrato ligandy mají celkový náboj −2. Pro neutrální částici tedy musí mít Fe oxidační číslo +II.",
+      "source_refs": [
+        {
+          "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+          "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+          "page": 1
+        },
+        {
+          "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+          "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}

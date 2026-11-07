@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Afrika — biomy\n",
+      "text": "Afrika – biomy "
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "VEGETAČNÍ PÁSMA - BIOMY\n• Podnebný pás – v každém podnebném pásu se vyskytuje konkrétní \nvegetační pás\n• Rozmístění biomů je závislé na:\no Zeměpisné šířce\no Nadmořské výšce\no Vlivu oceánu (oceanita a kontinentalita)\no Oceánských proudech\no Všeobecné cirkulaci atmosféry "
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "TROPICKÝ PODNEBNÝ PÁS \n• Člení se podle vzdálenosti od rovníku a blízkosti oceánu:\no Vlhký tropický podnebný pás – vznik tropických deštných lesů v okolí řeky \nKongo \no Střídavě vlhký tropický podnebný pás– oblast savan\no Suchý tropický podnebný pás– v okolí pouští\n Vliv pasátů – vznik Sahary\n Vliv studených oceánských proudů – vznik pouští Namib a Kalahari"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "SUBTROPICKÉ LESY A KŘOVINY\n• Výskyt v Africe: Středomoří (Maroko, Tunisko, Libye, Alžírsko)\n• Podnebí:\no Průměrné roční srážky: cca 500 mm\no Průměrná roční teplota: kolem 20°C\n• Rostlinstvo: cypřiš, vavřín, korkový dub, borovice pinie\n• Zemědělské produkty: mandarinky, broskvoně, fíkovníky, olivovníky, vinná réva\n• Živočišstvo: ibis, volavky, gazela, makak, gekon, dikobraz\n• Problémy: v létě velké sucho → časté požáry \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "POUŠTĚ A POLOPOUŠTĚ\n• Výskyt v Africe: pouště Sahara, Namib a Kalahari\n• Podnebí: \no Průměrné roční srážky: do 250 mm \no Velké teplotní rozdíly mezi dnem a nocí (ve dne teploty přes 40°C, v noci teploty pod bodem mrazu)\n• Rostlinstvo: kaktusy (opuncie), sukulenty (agáve), suchomilné traviny (pštrosí tráva)\n• Zemědělské produkty: palma datlová\n• Živočišstvo: fenek, velbloud, štír\n• Problémy: desertifikace – rozšiřování pouští (písečné bouře, vznik písečných dun)\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": "Oáza – místo s vodní plochou v poušti, s vegetací a osídlením \nVádí – občasné (epizodické) vodní toky v suchých oblastechTuaregové – kočovný národ obývající Saharu"
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "SAVANY\n• Výskyt v Africe: Keňa, Tanzanie\n• Podnebí: střídání období dešťů a období sucha\no Průměrné roční srážky: 700 až 1500 mm\no Průměrná měsíční teplota: okolo 20 až 28°C\n• Rostlinstvo: akácie, baobab, traviny\n• Živočišstvo: lev, slon, žirafa, nosorožec, gepard, antilopa, pštros\n• Problémy: časté požáry\nTarangire National Park v Tanzanii\nvýskyt požárů"
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "text": "TROPICKÉ DEŠTNÉ LESY\n• Výskyt v Africe: Konžská pánev (Kongo, Gabon, Kamerun, DR Kongo) \n• Podnebí: \no Roční srážky: až 2000 mm \no Průměrná teplota: 25 až 28°C\n• Rostlinstvo: vzácné dřeviny (mahagon, eben), liány, orchideje\n• Zemědělské produkty: káva, kakao, dřevo \n• Živočišstvo: gorila, šimpanz, lemur, papoušci, okapi\n• Problémy: kácení a vypalování lesů (deforestace)\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "text": "HORY\n• Výskyt: Atlas, Dračí hory, Etiopská vysočina\n• S rostoucí výškou klesá teplota (asi o 0,65 °C na 100 m)\n• Rostliny: lišejníky, mechy\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 10",
+      "number": 10,
+      "text": "Ochrana přírody v africe\n• NP Krůgerův – založen roku 1902 prezidentem Paulem Krugerem.\n• NP Serengeti\no Největší národní park Afriky, v Tanzanii u jezera Turkana.\no Od roku 1981 biosférickou rezervací. \n• NP Viktoriiny vodopády\no Na hranici Zambie a Zimbabwe na řece Zambezi. \no Objeveny roku 1855 skotským cestovatelem Davidem Livingtonem.\n• Ohrožené druhy zvířat – gorily horské, sloni, žirafy, nosorožci nebo lvi\n• Endemity – zejména Madagaskar\no Např. lemur kata – predátorem je fossa.\no Např. želva paprsčitá\n"
+    }
+  ]
+}

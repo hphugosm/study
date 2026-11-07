@@ -2,5 +2,28 @@
   "schema": 1,
   "subject_id": "law",
   "topic_id": "section-398348d6dcc7c530a0dc3e2b74be673e",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Unit 1 - Introduction to Law",
+      "kind": "notes",
+      "path": "data/subjects/law/topics/section-398348d6dcc7c530a0dc3e2b74be673e/derived/course-notes-v1/notes.json",
+      "sha256": "f46eb0fc9de79eef69d0761ab868e768bc525c34a3fd4d965892116f2ae262d3",
+      "source_refs": [
+        {
+          "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+          "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c"
+        },
+        {
+          "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+          "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443"
+        },
+        {
+          "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+          "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

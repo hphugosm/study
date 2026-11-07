@@ -2,5 +2,28 @@
   "schema": 1,
   "subject_id": "physics",
   "topic_id": "section-4c2cedb47b484c58c074486008e5e78d",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Úvod do optiky",
+      "kind": "notes",
+      "path": "data/subjects/physics/topics/section-4c2cedb47b484c58c074486008e5e78d/derived/course-notes-v1/notes.json",
+      "sha256": "df7647759f0ce9fbdaa0790504ba54cc24ae9db306fa151a908b0202e111304a",
+      "source_refs": [
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a"
+        },
+        {
+          "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+          "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d"
+        },
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

@@ -2,5 +2,40 @@
   "schema": 1,
   "subject_id": "social-sciences",
   "topic_id": "section-180fc16220e3f80e6b789e1d58d9a861",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Základy práva",
+      "kind": "notes",
+      "path": "data/subjects/social-sciences/topics/section-180fc16220e3f80e6b789e1d58d9a861/derived/course-notes-v1/notes.json",
+      "sha256": "06868e844ca57b06422b20072f2324ddae3ccd16c6a49bc346ecd2380bf96633",
+      "source_refs": [
+        {
+          "id": "1acdf9a7e41c60669a80858960aa5090c6a6742406f72d6d21c53315e5beb08c",
+          "sha256": "106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f"
+        },
+        {
+          "id": "1c6ea8722c5f003ad548a6b5957eaa697bad8d36f37cd62c206c51c156fbc983",
+          "sha256": "bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69"
+        },
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4"
+        },
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e"
+        },
+        {
+          "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+          "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498"
+        },
+        {
+          "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+          "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

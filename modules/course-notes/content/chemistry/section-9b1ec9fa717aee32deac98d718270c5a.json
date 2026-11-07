@@ -1,0 +1,1009 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-9b1ec9fa717aee32deac98d718270c5a",
+  "title": "Úvod do studia biochemie",
+  "language": "cs",
+  "intro": "Biochemie propojuje složení živých soustav s ději, které v nich probíhají. Projdi cestu od buňky a biomolekul k laboratorním metodám; potom zkus zvolit správnou metodu pro konkrétní úkol.",
+  "sources": [
+    {
+      "id": "0fb8a5250a51065d54058ff4c0653405b81dd60512a724d6c57bfad6b6cc8646",
+      "sha256": "6ad1f35bbc63d41bd1d0893b621dcf8fe48286011aede358384661760a81b654",
+      "title": "úkol - tajenka.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6ad1f35bbc63d41bd1d0893b621dcf8fe48286011aede358384661760a81b654.docx",
+      "extraction_url": "./extracted/6ad1f35bbc63d41bd1d0893b621dcf8fe48286011aede358384661760a81b654.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/6ad1f35bbc63d41bd1d0893b621dcf8fe48286011aede358384661760a81b654.zip"
+    },
+    {
+      "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+      "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+      "title": "1b. Biochemickémetody.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460.pptx",
+      "extraction_url": "./extracted/5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460.zip"
+    },
+    {
+      "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+      "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+      "title": "1. Úvod do Biochemie I.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8.pdf",
+      "extraction_url": "./extracted/48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8.zip"
+    },
+    {
+      "id": "5608fbaae9b819d81420875c40c291b746226aad95eef59572c2610fc07d67de",
+      "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+      "title": "1. Úvod do Biochemie I.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8.pdf",
+      "extraction_url": "./extracted/48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8.zip"
+    },
+    {
+      "id": "7f74067d0d3c7ba69c81ecd24e998148f9336268a40c62b1d5e6c03203b272d9",
+      "sha256": "97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a",
+      "title": "Pracovní list - příprava na test z biochemie.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a.docx",
+      "extraction_url": "./extracted/97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a.zip"
+    },
+    {
+      "id": "931fdef6bab09f200ccc599d5cfae874a0dfa398b94d520c1ac3e03696aaad11",
+      "sha256": "34f92a4fd1a2d568c8a202538037968fd02877445333fc8c301a99b1bb0b6a60",
+      "title": "úkol - Opakování učiva2 ročník.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/34f92a4fd1a2d568c8a202538037968fd02877445333fc8c301a99b1bb0b6a60.docx",
+      "extraction_url": "./extracted/34f92a4fd1a2d568c8a202538037968fd02877445333fc8c301a99b1bb0b6a60.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/34f92a4fd1a2d568c8a202538037968fd02877445333fc8c301a99b1bb0b6a60.zip"
+    },
+    {
+      "id": "f60f75d51420dce85b6e4aeb45a4586b58a298e2b49c7520f854e58517fc086c",
+      "sha256": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2",
+      "title": "Buňka.doc",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2.doc",
+      "extraction_url": "./extracted/4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "co-zkouma-biochemie",
+      "title": "Živé soustavy očima chemie",
+      "source_refs": [
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 2
+        },
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 7
+        },
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 13
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Biochemie zkoumá chemické pochody v živých organismech. Zatímco anatomie popisuje organismus a mikroskopie umožňuje zkoumat buňky či tkáně, biochemie pracuje především na molekulové úrovni: sleduje vodu, ionty, bílkoviny, nukleové kyseliny, sacharidy a lipidy.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 2
+            },
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Statický pohled se soustředí na látkové složení a struktury. Dynamický pohled sleduje přeměny a propojené reakční děje. Při učení se proto u každého pojmu ptej dvěma způsoby: z čeho se skládá a co se s ním v buňce děje.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 7
+            },
+            {
+              "id": "7f74067d0d3c7ba69c81ecd24e998148f9336268a40c62b1d5e6c03203b272d9",
+              "sha256": "97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a",
+              "locator": "otázky ke statické a dynamické biochemii"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Voda a anorganické ionty tvoří součást látkového složení organismů.",
+            "Mezi uvedené biomolekuly patří bílkoviny, nukleové kyseliny, sacharidy a lipidy.",
+            "Využití biochemie zasahuje například do potravinářství, farmacie, zemědělství, genetiky, ekologie a toxikologie."
+          ],
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 3
+            },
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Nestačí znát název biomolekuly. Propoj její stavbu s rolí v živé soustavě.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 2
+            },
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bunka-a-organely",
+      "title": "Buňka jako místo biochemických dějů",
+      "source_refs": [
+        {
+          "id": "f60f75d51420dce85b6e4aeb45a4586b58a298e2b49c7520f854e58517fc086c",
+          "sha256": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2"
+        },
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 14
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Buňka je základní stavební jednotkou živých organismů. Podklad rozlišuje prokaryotní buňky s volně uloženou genetickou informací a složitější eukaryotní buňky. V jednom mnohobuněčném organismu se mohou vyskytovat různé typy buněk s rozdílnou stavbou.",
+          "source_refs": [
+            {
+              "id": "f60f75d51420dce85b6e4aeb45a4586b58a298e2b49c7520f854e58517fc086c",
+              "sha256": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2",
+              "locator": "úvod a rozdělení buněk"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jádro uchovává genetickou informaci v chromozomech obsahujících DNA.",
+            "Ribozomy se podílejí na tvorbě bílkovin.",
+            "Mitochondrie jsou spojeny s buněčným dýcháním.",
+            "Chloroplasty jsou místem fotosyntézy.",
+            "Endoplazmatické retikulum a Golgiho aparát se účastní tvorby, úprav a transportu buněčných produktů."
+          ],
+          "source_refs": [
+            {
+              "id": "f60f75d51420dce85b6e4aeb45a4586b58a298e2b49c7520f854e58517fc086c",
+              "sha256": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2",
+              "locator": "přehled buněčných struktur"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Živé soustavy přijímají a přeměňují látky, reagují na okolní podmínky a udržují stálost vnitřního prostředí. Homeostáza tedy neznamená, že se v organismu nic nemění: vnitřní podmínky se udržují regulačními zásahy.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 14
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Prokaryotní buňka",
+          "Eukaryotní buňka"
+        ],
+        "rows": [
+          {
+            "label": "Uspořádání genetické informace v podkladu",
+            "values": [
+              "Volně uložená genetická informace.",
+              "Genetická informace spojená s buněčným jádrem."
+            ]
+          },
+          {
+            "label": "Příklady z podkladu",
+            "values": [
+              "Bakterie a sinice.",
+              "Prvoci, kvasinky a buňky mnohobuněčných organismů."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/1618365d10966096e9e2cf8dac5343869ccc1f3e5ddeb0fbea0a807211487565.webp",
+          "alt": "Schémata buněčných struktur z původní prezentace",
+          "caption": "Porovnej obrázky s funkcemi organel v textu. Původní prezentace, strana 15.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 15
+            }
+          ],
+          "source_media": "extracted/48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8/media/page-015-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "energie-a-metabolismus",
+      "title": "Metabolické dráhy na sebe navazují",
+      "source_refs": [
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 16
+        },
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 17
+        },
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 18
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Buněčné dýchání uvolňuje energii z chemických vazeb živin a souvisí s tvorbou ATP, pohotového energetického zdroje buňky. V podkladu na sebe navazují glykolýza, citrátový cyklus a dýchací řetězec; jako konečné produkty úplného odbourání jsou uvedeny CO₂ a voda.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Glykolýza souvisí s uvolňováním energie ze sacharidů, například glukózy.",
+            "Citrátový cyklus je propojený se zpracováním živin a s tvorbou CO₂.",
+            "Dýchací řetězec uzavírá popsanou cestu získávání energie.",
+            "Glukoneogeneze představuje novou tvorbu glukózy z necukerných zdrojů.",
+            "Močovinový cyklus pomáhá odstranit nadbytečný dusík."
+          ],
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 17
+            },
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Název dráhy spoj s její hlavní úlohou: získání energie, tvorba glukózy nebo odstranění dusíku.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 17
+            },
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 18
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Vstupní živina",
+          "text": "Začni molekulou živiny, například sacharidem. Její vazby představují zdroj chemické energie.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "title": "Postupné reakce",
+          "text": "Energie se neuvolňuje jediným neřízeným dějem. Podklad popisuje několik navazujících metabolických cest.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "title": "ATP a konečné produkty",
+          "text": "Výsledek spoj s tvorbou ATP a s produkty úplného odbourání, CO₂ a vodou.",
+          "source_refs": [
+            {
+              "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+              "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+              "page": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "separace-castic",
+      "title": "Centrifugace a elektroforéza",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 3
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 5
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 7
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Centrifugace odděluje částice působením odstředivé síly. Slouží například k separaci organel, proteinů a dalších biomolekul podle jejich vlastností, zejména velikosti a hustoty.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Gelová elektroforéza naproti tomu využívá pohyb nabitých částic v elektrickém poli. Vzorek prochází póry gelu; gel a okolní pufr umožňují vlastní separaci a vedení elektrického proudu. U DNA a RNA podklad uvádí záporný náboj a pohyb ke kladné anodě.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 5
+            },
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U zobrazeného gelu se menší molekuly dostávají dále od startu než větší. Velikost se odhaduje srovnáním polohy pásů vzorku s vedle naneseným markerem. Marker je srovnávací standard, nikoli další neznámý vzorek.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 7
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/676d3004fc9be2bffa53107779d2ad2b46719131f9fa675b4fdd9b082b018065.webp",
+          "alt": "Elektroforetický gel s pásy vzorků a srovnávacím markerem",
+          "caption": "Sleduj start, směr pohybu a polohu pásů vůči markeru. Snímek 7.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 7
+            }
+          ],
+          "source_media": "extracted/5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460/media/slide-007-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi start",
+          "text": "Urči, kde byly vzorky naneseny. Vzdálenost pásu posuzuj od startu, nikoli od spodního okraje obrázku.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Porovnej vzdálenost",
+          "text": "V uvedeném principu putují menší molekuly rychleji a dále než větší.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Použij marker",
+          "text": "Pásy neznámého vzorku porovnej se srovnávacími pásy markeru a odhadni velikost.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chromatografie",
+      "title": "Dvě fáze a chromatografický záznam",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 8
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 9
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 10
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 12
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Chromatografie rozděluje látky podle jejich různé afinity k nepohyblivé stacionární a pohyblivé mobilní fázi. Oddělení vzniká opakovaným rozdělováním mezi obě fáze. Jako stacionární fáze jsou uvedeny například papír, tenká vrstva adsorbentu nebo gel; mobilní fází může být směs rozpouštědel či plyn.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chromatograf je přístroj, chromatogram je jeho záznam. Na ukázce chromatogramu jsou analyty zachyceny jako oddělené píky. Ionexová chromatografie je v podkladu spojena s dělením nabitých látek a s analýzou aminokyselin nebo čištěním peptidů a proteinů.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 9
+            },
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 10
+            },
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Chromatograf = přístroj. Chromatogram = záznam. Stacionární a mobilní fáze = prostředí, mezi kterými se látka rozděluje.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 8
+            },
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 9
+            },
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e264c00779a31aefd7f3c883f59a0ced303d4001a006e0c541591ff5524f56b6.webp",
+          "alt": "Chromatogram s několika oddělenými píky",
+          "caption": "Oddělené píky představují záznam jednotlivých analytů. Snímek 10.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 10
+            }
+          ],
+          "source_media": "extracted/5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460/media/slide-010-image-001.png",
+          "width": 850,
+          "height": 827
+        }
+      ]
+    },
+    {
+      "id": "nmr-a-pcr",
+      "title": "Určení struktury nebo zmnožení DNA",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 19
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 21
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 22
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "NMR je nedestruktivní fyzikální metoda založená na interakci atomových jader se silným magnetickým polem a rádiovými vlnami. Podklad ji spojuje s určením složení, struktury i množství zkoumané látky.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "PCR je laboratorní metoda pro rychlé zmnožení vybraného úseku DNA. Využívá DNA polymerázu a opakované cykly zahřívání a ochlazování. Z malého množství původní DNA tak vzniká velké množství kopií cílové sekvence; přístrojem zobrazeným v podkladu je termocyklér.",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 21
+            },
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Volba metody vychází z otázky: chci oddělit složky, analyzovat strukturu látky, nebo zmnožit konkrétní úsek DNA?",
+          "source_refs": [
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 2
+            },
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 19
+            },
+            {
+              "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+              "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+              "page": 21
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "NMR",
+          "PCR"
+        ],
+        "rows": [
+          {
+            "label": "Hlavní úkol v podkladu",
+            "values": [
+              "Určit složení a strukturu zkoumané látky.",
+              "Zmnožit specifický úsek DNA."
+            ]
+          },
+          {
+            "label": "Klíčový princip",
+            "values": [
+              "Jádra atomů, silné magnetické pole a rádiové vlny.",
+              "DNA polymeráza a střídání teplot v cyklech."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "opakovani-a-pracovni-listy",
+      "title": "Co procvičovat před testem",
+      "source_refs": [
+        {
+          "id": "7f74067d0d3c7ba69c81ecd24e998148f9336268a40c62b1d5e6c03203b272d9",
+          "sha256": "97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a"
+        },
+        {
+          "id": "931fdef6bab09f200ccc599d5cfae874a0dfa398b94d520c1ac3e03696aaad11",
+          "sha256": "34f92a4fd1a2d568c8a202538037968fd02877445333fc8c301a99b1bb0b6a60"
+        },
+        {
+          "id": "0fb8a5250a51065d54058ff4c0653405b81dd60512a724d6c57bfad6b6cc8646",
+          "sha256": "6ad1f35bbc63d41bd1d0893b621dcf8fe48286011aede358384661760a81b654"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Přípravný pracovní list propojuje definici biochemie, živé soustavy, funkce organel a laboratorní metody. Další část vrací pozornost k organické chemii: k funkčním skupinám, názvům a zápisům vzorců. Starší opakovací list rozšiřuje tuto přípravu o uhlovodíky, reakce a deriváty.",
+          "source_refs": [
+            {
+              "id": "7f74067d0d3c7ba69c81ecd24e998148f9336268a40c62b1d5e6c03203b272d9",
+              "sha256": "97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a"
+            },
+            {
+              "id": "931fdef6bab09f200ccc599d5cfae874a0dfa398b94d520c1ac3e03696aaad11",
+              "sha256": "34f92a4fd1a2d568c8a202538037968fd02877445333fc8c301a99b1bb0b6a60"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Obrázková tajenka má ve svislém směru větu „BIOCHEMIE JE VĚDNÍ OBOR“. K obrázku nejsou připojené slovní nápovědy k jednotlivým řádkům. Vodorovné řádky proto použij jako otevřené doplňovací cvičení.",
+          "source_refs": [
+            {
+              "id": "0fb8a5250a51065d54058ff4c0653405b81dd60512a724d6c57bfad6b6cc8646",
+              "sha256": "6ad1f35bbc63d41bd1d0893b621dcf8fe48286011aede358384661760a81b654",
+              "locator": "obrázková tajenka"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Ověřuj porozumění vlastní větou: co daná metoda nebo organela dělá a čím se liší od jiné. Samotné rozpoznání názvu ještě nestačí.",
+          "source_refs": [
+            {
+              "id": "7f74067d0d3c7ba69c81ecd24e998148f9336268a40c62b1d5e6c03203b272d9",
+              "sha256": "97bcef84adebd629466908cdfe4a454feb9801f688f9927c5688040b6ff3be7a"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "molekulova-uroven",
+      "front": "Na jaké úrovni pracuje především biochemie?",
+      "back": "Na molekulové úrovni: zkoumá složení a chemické pochody živých soustav.",
+      "source_refs": [
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "homeostaza",
+      "front": "Co znamená homeostáza?",
+      "back": "Udržování stálosti vnitřního prostředí pomocí regulačních zásahů.",
+      "source_refs": [
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "ribozom",
+      "front": "K čemu slouží ribozomy?",
+      "back": "K tvorbě bílkovin.",
+      "source_refs": [
+        {
+          "id": "f60f75d51420dce85b6e4aeb45a4586b58a298e2b49c7520f854e58517fc086c",
+          "sha256": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2",
+          "locator": "přehled buněčných struktur"
+        }
+      ]
+    },
+    {
+      "id": "centrifugace",
+      "front": "Jaký fyzikální princip využívá centrifugace?",
+      "back": "Oddělení částic působením odstředivé síly.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "elektroforeza-marker",
+      "front": "Proč se při elektroforéze používá marker?",
+      "back": "Je to srovnávací standard pro odhad velikosti molekul podle polohy pásů.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "chromatogram",
+      "front": "Chromatograf versus chromatogram?",
+      "back": "Chromatograf je přístroj; chromatogram je záznam oddělených analytů, například ve formě píků.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 9
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "dve-faze",
+      "front": "Které dvě fáze rozlišuje chromatografie?",
+      "back": "Stacionární nepohyblivou fázi a mobilní pohyblivou fázi.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "pcr",
+      "front": "Jaký je hlavní úkol PCR?",
+      "back": "Zmnožit specifické úseky DNA pomocí DNA polymerázy v opakovaných teplotních cyklech.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 21
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uroven-zkoumani",
+      "prompt": "Která otázka nejlépe odpovídá molekulovému pohledu biochemie?",
+      "options": [
+        "Jaký tvar má celý orgán?",
+        "Které molekuly vstupují do metabolické reakce?",
+        "Kolik buněk tvoří pozorovanou tkáň?"
+      ],
+      "answer": 1,
+      "explanation": "Biochemie v podkladu sleduje molekuly a jejich chemické přeměny. Tvar orgánu nebo popis tkáně představují jinou úroveň pohledu.",
+      "source_refs": [
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "homeostaza-vyznam",
+      "prompt": "Organismus regulačními zásahy udržuje vnitřní pH. Jde o příklad:",
+      "options": [
+        "homeostázy",
+        "chromatografie",
+        "vytavování"
+      ],
+      "answer": 0,
+      "explanation": "Homeostáza znamená udržování stálého vnitřního prostředí. Chromatografie je separační metoda a vytavování se týká získávání tuků.",
+      "source_refs": [
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "organela-proteiny",
+      "prompt": "Kterou strukturu spojíš podle podkladu přímo s tvorbou bílkovin?",
+      "options": [
+        "Chloroplast",
+        "Mitochondrii",
+        "Ribozom"
+      ],
+      "answer": 2,
+      "explanation": "Ribozomy jsou v podkladu spojeny s tvorbou bílkovin, mitochondrie s buněčným dýcháním a chloroplasty s fotosyntézou.",
+      "source_refs": [
+        {
+          "id": "f60f75d51420dce85b6e4aeb45a4586b58a298e2b49c7520f854e58517fc086c",
+          "sha256": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2",
+          "locator": "přehled buněčných struktur"
+        }
+      ]
+    },
+    {
+      "id": "odstrediva-sila",
+      "prompt": "Potřebuješ oddělit částice pomocí odstředivé síly. Zvolíš:",
+      "options": [
+        "NMR",
+        "centrifugaci",
+        "PCR"
+      ],
+      "answer": 1,
+      "explanation": "Centrifugace využívá odstředivou sílu. NMR pracuje s atomovými jádry v magnetickém poli a PCR zmnožuje úseky DNA.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 3
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 19
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "gel-vzdalenost",
+      "prompt": "V popsaném gelu leží pás dále od místa nanesení. Co při stejných podmínkách odpovídá podkladu?",
+      "options": [
+        "Molekuly tohoto pásu jsou menší než molekuly pásu blíže startu.",
+        "Molekuly jsou vždy elektricky neutrální.",
+        "Pás nutně patří jiné chemické látce než DNA."
+      ],
+      "answer": 0,
+      "explanation": "U uvedeného principu se menší molekuly pohybují gelem rychleji a dále. Z polohy samotné nelze vyvozovat chemickou identitu ani neutralitu.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 5
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "chromatogram-zaznam",
+      "prompt": "Které přiřazení je správné?",
+      "options": [
+        "Chromatogram je pohyblivá fáze.",
+        "Chromatograf je záznam píků.",
+        "Chromatogram je záznam získaný z chromatografu."
+      ],
+      "answer": 2,
+      "explanation": "Podklad jasně rozlišuje přístroj chromatograf a záznam chromatogram. Fáze označují jinou část principu separace.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 8
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 9
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "pcr-versus-nmr",
+      "prompt": "Chceš získat velké množství kopií vybrané sekvence DNA. Která metoda odpovídá cíli?",
+      "options": [
+        "PCR",
+        "NMR",
+        "Ionexová chromatografie"
+      ],
+      "answer": 0,
+      "explanation": "PCR specifické úseky DNA zmnožuje. NMR analyzuje látky a ionexová chromatografie slouží k separaci nabitých látek.",
+      "source_refs": [
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 12
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 19
+        },
+        {
+          "id": "2e47b2752bc24ca3b9ab53fbaed095a1e564d1163b16539ba7397403672f85d6",
+          "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "metabolicky-cil",
+      "prompt": "Který děj je v přehledu spojen s odstraněním nadbytečného dusíku?",
+      "options": [
+        "Glukoneogeneze",
+        "Močovinový cyklus",
+        "Gelová elektroforéza"
+      ],
+      "answer": 1,
+      "explanation": "Močovinový cyklus řeší nadbytečný dusík. Glukoneogeneze tvoří glukózu z necukerných zdrojů a elektroforéza je laboratorní separace.",
+      "source_refs": [
+        {
+          "id": "3f80ba4172108fb9653164da39a9187311bbfdfc6acda47baf68571930151b5e",
+          "sha256": "48eed84fcf63b5b75c52e242ba95bd2e0078e50f4800245339bbbdcb96682dd8",
+          "page": 18
+        }
+      ]
+    }
+  ]
+}

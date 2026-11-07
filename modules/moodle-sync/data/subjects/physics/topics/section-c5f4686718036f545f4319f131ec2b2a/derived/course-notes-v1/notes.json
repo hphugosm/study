@@ -1,0 +1,560 @@
+{
+  "schema": 1,
+  "subject": "physics",
+  "topic": "section-c5f4686718036f545f4319f131ec2b2a",
+  "title": "Vlnová optika",
+  "language": "cs",
+  "intro": "Bílé světlo a disperze, skládání vlnění, ohyb a polarizace. Nejprve odliš jednotlivé jevy, potom je propojuj s tím, co se při nich mění.",
+  "sources": [
+    {
+      "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+      "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+      "title": "FY_JU3_PL_Interference, ohyb, polarizace.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead.pdf",
+      "extraction_url": "./extracted/e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead.zip"
+    },
+    {
+      "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+      "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+      "title": "PL - Disperze a úvod do vlnové optiky.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14.pdf",
+      "extraction_url": "./extracted/87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "disperze",
+      "title": "Jedno bílé světlo, různé barevné složky",
+      "source_refs": [
+        {
+          "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+          "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Disperze je rozklad bílého světla při lomu na barevné složky. V modelu použitém v pracovním listu závisí index prostředí na frekvenci: pro fialovou složku je větší než pro červenou.",
+          "source_refs": [
+            {
+              "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+              "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Červená složka má v uvedeném spektru nejmenší index a láme se nejméně.",
+            "Fialová složka má největší index a láme se nejvíce.",
+            "Pořadí v listu: červená, oranžová, žlutá, zelená, modrá, fialová."
+          ],
+          "source_refs": [
+            {
+              "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+              "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Nezaměňuj rozklad na barvy s „obarvením“ jednoho paprsku. Bílé světlo obsahuje složky, které se na rozhraní odkloní různě.",
+          "source_refs": [
+            {
+              "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+              "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9ed3912f0700256be3870cfdbf42bdd2f6113bb04ebfd37f84fbbedf7bd4a940.webp",
+          "alt": "Původní náčrt rozkladu bílého světla a pořadí spektra",
+          "caption": "Disperze, původní pracovní list, strana 1.",
+          "source_refs": [
+            {
+              "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+              "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+              "page": 1
+            }
+          ],
+          "source_media": "extracted/87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14/media/page-001-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ]
+    },
+    {
+      "id": "faze-a-interference",
+      "title": "Sčítají se okamžité výchylky",
+      "source_refs": [
+        {
+          "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+          "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+          "page": 2
+        },
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fáze vyjadřuje, ve které části svého kmitu se bod nachází. Princip superpozice říká y = y₁ + y₂: v místě setkání vlnění se sčítají jejich okamžité výchylky.",
+          "source_refs": [
+            {
+              "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+              "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+              "page": 2
+            },
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Interference může zesílit nebo zeslabit výsledné vlnění. Ve fázi jsou při skládání amplitudy A = A₁ + A₂; v protifázi je A = |A₁ − A₂|. Stejné amplitudy v protifázi se mohou zcela vyrušit.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Stálý interferenční obrazec potřebuje koherentní vlnění: stejnou frekvenci a stálý fázový rozdíl. Nestačí, že se dva paprsky náhodou potkají.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při přechodu světla do jiného prostředí navazují příklady v listu rychlost, frekvenci a vlnovou délku. Pro stejnou frekvenci má pomalejší šíření kratší vlnovou délku; počítáme se vztahem v = λf.",
+          "source_refs": [
+            {
+              "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+              "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Ve fázi",
+          "V protifázi"
+        ],
+        "rows": [
+          {
+            "label": "Složení amplitud",
+            "values": [
+              "A₁ + A₂",
+              "|A₁ − A₂|"
+            ]
+          },
+          {
+            "label": "Stejné amplitudy",
+            "values": [
+              "Výsledná amplituda je dvojnásobná",
+              "Mohou se úplně vyrušit"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Zvol dvě stejné amplitudy",
+          "text": "Didaktický příklad: dvě vlnění mají amplitudu 2 libovolné jednotky.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Slož je ve fázi",
+          "text": "Výchylky dosahují maxima současně. Výsledná amplituda je 2 + 2 = 4.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Posuň jedno do protifáze",
+          "text": "Maximu prvního odpovídá opačná výchylka druhého. Výsledek má amplitudu |2 − 2| = 0.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Vrať se k podmínce stálosti",
+          "text": "Aby se obrazec neztrácel, musí zůstat frekvence shodné a fázový rozdíl stálý.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ohyb-a-polarizace",
+      "title": "Dva další projevy vlnových vlastností",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Difrakce neboli ohyb znamená šíření světla i do oblasti geometrického stínu za hranou překážky nebo otvorem. Je výrazná, když je rozměr překážky či otvoru srovnatelný s vlnovou délkou.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Světlo je příčné elektromagnetické vlnění. Vektory elektrické intenzity E a magnetické indukce B kmitají navzájem kolmo a kolmo ke směru šíření. Polarizace uspořádává směr kmitání elektrického pole.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nepolarizované světlo nemá v rovině kolmé k šíření jeden stálý směr kmitání E.",
+            "Lineárně polarizované světlo má kmitání E v jedné přímce.",
+            "Dva ideální polarizátory s navzájem kolmými propustnými směry světlo nepropustí."
+          ],
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Interference = skládání; difrakce = ohyb do geometrického stínu; polarizace = uspořádání směru kmitání. Při vysvětlování pojmenuj konkrétní mechanismus.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 1
+            },
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/49aa528081fd850615c56b44b48296416a6bab5acc434d7c6bdcb01344ebda02.webp",
+          "alt": "Náčrt příčného elektromagnetického vlnění a poznámky k difrakci a polarizaci",
+          "caption": "Vlnová optika, původní pracovní list, strana 2.",
+          "source_refs": [
+            {
+              "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+              "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+              "page": 2
+            }
+          ],
+          "source_media": "extracted/e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead/media/page-002-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-disperze",
+      "front": "Co je disperze světla?",
+      "back": "Rozklad bílého světla na barevné složky při lomu, protože se liší jejich index lomu.",
+      "source_refs": [
+        {
+          "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+          "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-barvy",
+      "front": "Která složka se v modelu pracovního listu láme nejvíce?",
+      "back": "Fialová; červená se láme nejméně.",
+      "source_refs": [
+        {
+          "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+          "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-faze",
+      "front": "Co popisuje fáze?",
+      "back": "V jaké části svého kmitání se daný bod právě nachází.",
+      "source_refs": [
+        {
+          "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+          "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-superpozice",
+      "front": "Jak zní princip superpozice?",
+      "back": "Výsledná okamžitá výchylka je součtem výchylek: y = y₁ + y₂.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-koherence",
+      "front": "Co potřebujeme pro stálý interferenční obrazec?",
+      "back": "Stejnou frekvenci a stálý fázový rozdíl.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-protifaze",
+      "front": "Jaká je amplituda při skládání v protifázi?",
+      "back": "A = |A₁ − A₂|; při stejných amplitudách je nulová.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-difrakce",
+      "front": "Kdy je difrakce výrazná?",
+      "back": "Když jsou rozměry otvoru nebo překážky srovnatelné s vlnovou délkou.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-polarizace",
+      "front": "Co polarizace uspořádává?",
+      "back": "Směr kmitání elektrické intenzity světelného vlnění.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 2
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-spektrum",
+      "prompt": "V modelu disperze v listu má největší index lomu…",
+      "options": [
+        "červená složka",
+        "fialová složka",
+        "všechny složky stejně"
+      ],
+      "answer": 1,
+      "explanation": "V listu roste index s frekvencí. Fialová složka se proto odchyluje více než červená.",
+      "source_refs": [
+        {
+          "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+          "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-fazove-zesileni",
+      "prompt": "Dvě vlnění s amplitudami 3 a 2 se skládají ve fázi. Výsledná amplituda je…",
+      "options": [
+        "1",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Ve fázi se amplitudy sčítají: 3 + 2 = 5. Součin amplitud do tohoto vztahu nepatří.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-fazove-zeslabeni",
+      "prompt": "Stejné amplitudy 2 a 2 v protifázi dávají…",
+      "options": [
+        "0",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "A = |2 − 2| = 0. Hodnota 4 by odpovídala skládání ve fázi.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-staly-obrazec",
+      "prompt": "Co je nutné pro stálý interferenční obrazec?",
+      "options": [
+        "Jen velká intenzita",
+        "Stejná frekvence a stálý fázový rozdíl",
+        "Pouze stejná barva překážky"
+      ],
+      "answer": 1,
+      "explanation": "Tato dvojice podmínek vyjadřuje koherenci v pracovním listu.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-geometricky-stin",
+      "prompt": "Světlo se dostává za otvor do oblasti geometrického stínu. Jde o…",
+      "options": [
+        "difrakci",
+        "polarizaci",
+        "pouze změnu názvu barvy"
+      ],
+      "answer": 0,
+      "explanation": "Difrakce je ohyb světla; je výrazná pro otvor srovnatelný s vlnovou délkou.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-filtry",
+      "prompt": "Dva ideální polarizátory mají navzájem kolmé propustné směry. Výsledek?",
+      "options": [
+        "Světlo se zesílí",
+        "Světlo neprochází",
+        "Vznikne úplný odraz na vodě"
+      ],
+      "answer": 1,
+      "explanation": "Druhý filtr nepropouští složku kmitající ve směru určeném prvním filtrem.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-pricne",
+      "prompt": "Vektory E a B ve světelném vlnění jsou podle náčrtu…",
+      "options": [
+        "rovnoběžné se směrem šíření",
+        "navzájem kolmé a kolmé ke směru šíření",
+        "vždy nulové"
+      ],
+      "answer": 1,
+      "explanation": "Právě příčný charakter světelného vlnění souvisí s možností polarizace.",
+      "source_refs": [
+        {
+          "id": "6a655bf7616966ab9bacf6439da0cc21c9691a09f808db86fcba288ea9de41ba",
+          "sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-vlnova-delka",
+      "prompt": "Při stejné frekvenci se rychlost šíření zmenší na dvě třetiny. Co udělá λ?",
+      "options": [
+        "Zmenší se na dvě třetiny",
+        "Zvětší se na 1,5násobek",
+        "Nemůže se změnit"
+      ],
+      "answer": 0,
+      "explanation": "Ze vztahu λ = v/f při pevném f plyne stejný poměr změny λ a v. Jde o odvození pro typ příkladu ve druhém listu.",
+      "source_refs": [
+        {
+          "id": "f41f138ae053d4e66f2f9f45177f0a63ef2de7a01c1f2565d722309945025c7e",
+          "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

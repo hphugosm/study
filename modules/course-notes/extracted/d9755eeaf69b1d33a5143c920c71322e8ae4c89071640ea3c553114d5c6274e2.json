@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "sha256": "d9755eeaf69b1d33a5143c920c71322e8ae4c89071640ea3c553114d5c6274e2",
+  "units": [
+    {
+      "kind": "image",
+      "label": "image 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Ox OH\nč/oj(cm\no\nc 9 C1\n„GCA,\n\noo\nA\n",
+      "text": ""
+    }
+  ]
+}

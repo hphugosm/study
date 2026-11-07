@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Encoding\n",
+      "text": "Encoding"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "text": "What is a bit?\nWhat is a byte?\n\nIf computers work with numbers, how can they store the letter A?\n\nHow can they store different alphabets?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "text": "How many bits would we need to encode the English alphabet (26 symbols)?\n\n\nIf we encoded each letter according to its position in the alphabet, starting from 0, what would the following binary message say?\n\n10110 01110 10110 / 10100 / 00000 00010 10011 10100 00000 01011 01011 11000 / 00011 01000 00011 / 01000 10011"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Character encoding\n\nASCII\nUnicode\nUTF-8\n",
+      "text": "Character encoding\nASCII\nUnicode\nUTF-8"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "text": "Character encoding-ASCII\nASCII - American Standard Code for Information Interchange\nA standard that assigns numbers from 0 - 127 to English letters, numbers, punctuation marks and control codes. \n7-bit code (128 characters)\n95 printable (letters, digits, punctuation, space, etc.) \n33 control (codes originally used to control terminals, printers, communication, or text formatting – Esc=Escape)\n\u000b\nCharacter\tDecimal\tBinary\nA\t65\t01000001\nB\t66\t01000010\nC\t67\t01000011\na\t97\t01100001\nb\t98\t01100010"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "o 1\n1 1 001 soH 33 u 041 ! 65 a 101 A 7 141 a\n2 2 002 sx 34 2 042 “ “ 102 s s8 142 b\n3 3 003 Ex 3 z 043 a 67 “ 103 c s 143 e\n4 4 004 soT 3e 24 044 s 68 “ 104 D 100 144 d\ns s 005 swa 37 2s 045 * 69 45 105 1] 101 145 e\n6 6 006 - ack 38 26 046 a 7 4“ 106 F 102 146 '\nH 7 007 BEL 39 27 047 ť n 7 107 6 103 147 a\ns s o10 8s “ 2 050 [] n “ 110 \" 104 150 A\ns s ou TAB: u 29 051 ) n 49 m ' 105 151 ;\n10 a o12 w “ z 052 * 7 4“ 112 1 106 152 i\nu b 013 r “ z 053 + 7 4 113 k 107 9 153 k\n1 s o14 ld a 2e 054 ž 76 e 114 L 108 6e 154 1\n13 d 015 k 4 2d 055 - 7 d 115 m 109 64 155 m\n14 e 016 so 3 2e 056 F 7 e 116 N 110 6e 156 „\n15 ' 017 s “ 2 057 1 7 “ 117 o 111 f 157 o\n16 10 020 D 48 30 060 o so so 120 a 112 7o 160 [2\n1 u 021 per 49 31 061 1 s1 s1 121 a 113. n 161 u\n18 t 022 pez so 32 062 z s s2 122 R 114 7 162 r\n19 13 023 Des. s1 33 063 3 s 53 123 s 115 7 163 s\n20 1 024 12] s2 P1 064 4 s“ s“ 124 T 116 74 164 r\n2 15 025 NAK sa 35 065 s ss ss 125 [] 117 7 165 u\n2 16 026 — SN 3e 066 . se s 126 v 118 76 166 v\nz z 027 ET8 ss 7 067 7 s7 s7 127 w 119 7 167 w\n2 18 030 — CAN se 38 o7o s s8 s8 130 x 120 78 170 x\n2 19 031 m s7 39 071 s s9 59 131 v 121 7 171 v\n26 18 032 suB E) 3a 072 : o sa 132 z 122 7 172 :\n27 1b 033 ssc 59 3b 073 u s 133 l 123 7 173 t\n28 1 034 B o 3e 074 s se 134 N 124 7e 174 I\n29 1d 035 cs 61 3d 075 E2) 5d 135 1 125 7a 175 )\nJ 1e 036 RS 62 3e 076 s se 136 * 126 7e 176 d\n31 f 037 US 63 3 077 95 5E 137 127 7í 177 DEL\n\nIn excel: =CHAR(64) shows what? Is it enough?\n",
+      "text": "In excel: =CHAR(64) shows what?\nIs it enough?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "text": "Character encoding-Unicode\nWhat about č, ř, é, 中, Ж, 😀 ?\nUnicode - computing industry standard that assigns a unique number to every character across almost all living and historical writing systems.\nUnicode\n\u000b\nIn excel:\n =UNICODE(“A“)\n=UNICHAR(20013)"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "text": "Character encoding-Unicode\nComputers store bytes, not “U+010C”.\nA Unicode code point is a unique numerical ID number assigned to represent a character, symbol, or control action in the Unicode Standard\nSo how do we turn Unicode code points into bytes?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "text": "UTF-8\nUTF-8 (Unicode Transformation Format – 8-bit)\nA variable-length character encoding for Unicode.\nVariable-length means different characters can use different amounts of storage: some use 1 byte, others 2, 3, or 4 bytes. \nConverts each Unicode character into a specific sequence of 1 to 4 bytes \nASCII characters keep the same one-byte values\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "text": "Experiment\nWith this online converter: https://www.gaijin.at/en/tools/unicode-detector\ndemonstrate the following:\nHello\nAhoj\nČau\nПривет\n你好\n😀 \n\u000b"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "text": "Encoding vs. Encryption\nEncoding\nPurpose - represent information in another form\nASCII\nUnicode\nUTF-8\nEncryption\nPurpose - Protect information from unauthorized access\nRequires a key to recover the original information.\nPlaintext - encryption - ciphertext\n\u000b"
+    }
+  ]
+}

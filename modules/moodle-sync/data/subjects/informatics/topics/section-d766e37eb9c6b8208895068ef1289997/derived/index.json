@@ -2,5 +2,24 @@
   "schema": 1,
   "subject_id": "informatics",
   "topic_id": "section-d766e37eb9c6b8208895068ef1289997",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Projekt První Pololetí",
+      "kind": "notes",
+      "path": "data/subjects/informatics/topics/section-d766e37eb9c6b8208895068ef1289997/derived/course-notes-v1/notes.json",
+      "sha256": "0d7034f4e7262e68f67dcc45cfe408ee8618f7147006bb518d6c2ee120b0b26f",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d"
+        },
+        {
+          "id": "42532b5457d880f56c96adfb505978b21b1724ff0aa722f431ffe87d3f52c6b3",
+          "sha256": "8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

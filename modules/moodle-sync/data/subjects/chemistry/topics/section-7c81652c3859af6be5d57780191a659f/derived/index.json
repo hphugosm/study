@@ -2,5 +2,36 @@
   "schema": 1,
   "subject_id": "chemistry",
   "topic_id": "section-7c81652c3859af6be5d57780191a659f",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Bílkoviny a peptidy",
+      "kind": "notes",
+      "path": "data/subjects/chemistry/topics/section-7c81652c3859af6be5d57780191a659f/derived/course-notes-v1/notes.json",
+      "sha256": "0880c36f154ae8cffde8d0360f4373994b5bb9563f5562aafe2c1514aaf51d39",
+      "source_refs": [
+        {
+          "id": "017ca2a286d406ccd035aaebb6d47b670934cc0eb9622ece06543a137eb720c5",
+          "sha256": "1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488"
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992"
+        },
+        {
+          "id": "1b61414ab9139f4a0484726951dbaae3f4c8e92a4528b01a9d05aed7a70ecedc",
+          "sha256": "b79008e4c528fb633d1bb51939ac82cd3b86e3e33fc8f8f2598751ee3ccdf698"
+        },
+        {
+          "id": "4f1345bbb36c1d5f979cebc55530e1a822c5d04bae62cde97d73cb7a3102ec6e",
+          "sha256": "914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d"
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

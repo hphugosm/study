@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "PL - Úplný odraz\nOpakování - Odraz a lom\nPříklad.Světlo dopadá ze vzduchu do skla s indexem lomun= 1,5pod úhlem40 ◦. Určete úhel lomu.\nPříklad.Světlo přechází z vody do vzduchu. Úhel dopadu je30 ◦. Určete úhel lomu. Index lomu vody je1,33.\nÚplný odraz\nSvětlo při tomto jevu prochází z opticky hustšího prostředí/s vyšším indexem lomu (sklo) do prostředí opticky\nřidšího/s nižším indexem lomu (vzduch).\nPříklad.Světelný paprsek prochází z vody do vzduchu. Určete pod jakým úhlem projde do vzduchu, pokud\nna rozhraní z vody dopadá pod úhlem 80°.\nÚplný (totální) odraznastává při přechodu světla z prostředí svyšším indexemlomu do prostředí\nsnižším indexemlomu, pokud úhel dopadu překročí mezní úhel. Světlo se pak na rozhraní celé odráží\nzpět do původního prostředí.\nPři mezním úhlu dopadu dosahuje úhel lomu hodnotyβ= 90 ◦, tedy lomený paprsek se šíří podél rozhraní.\nDoplňte podmínkuβ= 90 ◦ do Snellova zákona a vyjádřete vztah promezní úhelα m:\n1"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Mezní úhel\nk k k\nPříklad.Vypočítejte mezní úhel pro přechod světla:\na) z vody do vzduchu\nb) ze skla do vzduchu\nMůže nastat úplný odraz při přechodu světla ze vzduchu do vody?\nPříklad(*).Světelný paprsek dopadá na skleněnou desku s rovnoběžnými stěnami. Načrtněte průchod paprsku\ndeskou. Pomocí zákona lomu dokažte, že paprsek vycházející z desky je rovnoběžný s dopadajícím paprskem.\nn1\nn2\nn1\n2"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "schema": 1,
+  "sha256": "5120b17dbd1b9577ab995360b10d4c25e5105dd4ecd877a65a38b2ba06b18668",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Fotosyntéza"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "Co je to fotosyntéza?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": "Kde probíhá fotosyntéza?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": "Na jaké dva typy dělíme fotosyntézu z hlediska zisku energie?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 8",
+      "number": 8,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": "Jaký typ fotosyntézy využívají sirné bakterie?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": "Kdo je dárcem vodíku u oxygenní fotosyntézy?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 14",
+      "number": 14,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 15",
+      "number": 15,
+      "text": "V jakých fázích probíhá fotosyntéza? Stručně je popište."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 16",
+      "number": 16,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 17",
+      "number": 17,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 18",
+      "number": 18,
+      "text": "Jaká látka je vedlejším produktem fotosyntézy a proč? Zapište také chemickou rovnici fotosyntézy."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 19",
+      "number": 19,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 20",
+      "number": 20,
+      "text": "Co rostlina díky fotosyntéze získá?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 21",
+      "number": 21,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 22",
+      "number": 22,
+      "text": "Kdo zachycuje světlo pro fotosyntézu?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 23",
+      "number": 23,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 24",
+      "number": 24,
+      "text": "Kam musí doputovat vzruch, aby byl proces fotosyntézy zahájen?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 25",
+      "number": 25,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 26",
+      "number": 26,
+      "text": "Jaké znáte fotosystémy?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 27",
+      "number": 27,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 28",
+      "number": 28,
+      "text": "Jak se rozkládá voda?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 29",
+      "number": 29,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 30",
+      "number": 30,
+      "text": "Co je využito pro zdroj energie a co je odpadní produkt?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 31",
+      "number": 31,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 32",
+      "number": 32,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 33",
+      "number": 33,
+      "text": "Kdy rostlina uvolňuje kyslík a kdy oxid uhličitý?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 34",
+      "number": 34,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 35",
+      "number": 35,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 36",
+      "number": 36,
+      "text": "K čemu dochází během temnostní fáze?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 37",
+      "number": 37,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 38",
+      "number": 38,
+      "text": "K čemu je Calvinův cyklus?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 39",
+      "number": 39,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 40",
+      "number": 40,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 41",
+      "number": 41,
+      "text": "Probíhá fotosyntéza u všech rostlin stejně? Vysvětlete svoje tvrzení. "
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Fotosyntéza\n1. Co je to fotosyntéza?\n2. Kde probíhá fotosyntéza?\n3. Na jaké dva typy dělíme fotosyntézu z hlediska zisku energie?\n4. Jaký typ fotosyntézy využívají sirné bakterie?\n5. Kdo je dárcem vodíku u oxygenní fotosyntézy?\n6. V jakých fázích probíhá fotosyntéza? Stručně je popište.\n7. Jaká látka je vedlejším produktem fotosyntézy a proč? Zapište také chemickou rovnici fotosyntézy.\n8. Co rostlina díky fotosyntéze získá?\n9. Kdo zachycuje světlo pro fotosyntézu?\n10. Kam musí doputovat vzruch, aby byl proces fotosyntézy zahájen?\n11. Jaké znáte fotosystémy?\n12. Jak se rozkládá voda?\n13. Co je využito pro zdroj energie a co je odpadní produkt?\n14. Kdy rostlina uvolňuje kyslík a kdy oxid uhličitý?\n15. K čemu dochází během temnostní fáze?\n16. K čemu je Calvinův cyklus?\n17. Probíhá fotosyntéza u všech rostlin stejně? Vysvětlete svoje tvrzení. "
+    }
+  ]
+}

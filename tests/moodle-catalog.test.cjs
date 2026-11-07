@@ -14,7 +14,7 @@ test('source scaffold preserves public subjects/topics and validates approved co
  const catalog=validateCatalog(read('modules/moodle-sync/data/catalog.json'));
  const {subjects,units}=await import('../src/data.js');
  for(const subject of subjects)assert.ok(catalog.subjects.some(item=>item.id===subject.id&&(item.study_title||item.title)===subject.name));
- for(const unit of units)assert.ok(catalog.subjects.find(item=>item.id===unit.subjectId).topics.some(item=>item.id===unit.id&&item.title===unit.title));
+ for(const unit of units)assert.ok(catalog.subjects.find(item=>item.id===unit.subjectId).topics.some(item=>item.id===(unit.topicId||unit.id)&&item.title===unit.title));
  for(const subject of catalog.subjects)for(const ref of subject.topics){
   const topic=validateTopic(read('modules/moodle-sync/data/'+ref.index));
   assert.equal(topic.subject_id,subject.id);assert.equal(topic.topic_id,ref.id);

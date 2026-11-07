@@ -2,5 +2,24 @@
   "schema": 1,
   "subject_id": "social-sciences",
   "topic_id": "section-463f497ccb9579d1e6a90113069af240",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Lidská práva",
+      "kind": "notes",
+      "path": "data/subjects/social-sciences/topics/section-463f497ccb9579d1e6a90113069af240/derived/course-notes-v1/notes.json",
+      "sha256": "d800aea2542c1bcb55890330c50466de1b1b17b64de95ae58206cf605d531400",
+      "source_refs": [
+        {
+          "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+          "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce"
+        },
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

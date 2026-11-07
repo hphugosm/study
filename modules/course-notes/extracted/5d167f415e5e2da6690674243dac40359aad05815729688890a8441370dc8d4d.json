@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "sha256": "5d167f415e5e2da6690674243dac40359aad05815729688890a8441370dc8d4d",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Důkaz aminokyselin a bílkovin\n",
+      "text": "Důkaz aminokyselin a bílkovin"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Ninhydrinová zkouška\n• zkouška na důkaz AK a bílkovin\n• např. zviditelnění otisků prstů\n• Ninhydrin je sloučenina ve formě bílých až světle \nžlutých krystalků, která se naváže na \naminoskupinu a poskytne fialové zbarvení –\ndůkaz aminokyselin\n• pokus: vodný roztok, smícháme s bílkem  -\nzahřejeme a čekáme až se roztok zbarví"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "COOH\nOH w COOH\nOH + \"2 ———> > —N\nR R\no : [0]\nNinhydrin Aminokyselina Schiffova báze\ndekarboxylace\nco,\no\nm o\n/ +HO\nNH: + HC ů\nR hydrolýza n \\R2\no\no o\nkondenzace ř N á ;\no o\nPrincip reakce ninhydrinu s a-aminokyselinami.\nN=—= Reakce poskytuje typické fialové zbarvení.\nPodobné reakce dává ninhydrin i s dalšími\naminosloučeninami.\no o\n\nRuhemanova violeť\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Ninhydrinová zkouška\n\n",
+      "text": "Ninhydrinová zkouška\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "Biuretova reakce\n• Biuretova reakce je reakce při  níž se dokazuje bílkovina pomocí \nsměsi roztoků NaOH a CuSO4\n• Bílkovina se při důkazu zbarví modrofialově\n• Biuretovou reakcí dokážeme peptidové vazby\n• Peptidová vazba tvoří v alkalickém prostředí se solemi mědi \ncharakteristicky barevný komplex\n• Biuret je kondenzační produkt dvou molekul močoviny. Vzniká \nžíháním močoviny za odštěpení amoniaku. Jedná se o nejmenší \nmolekulu, která reaguje v tzv.biuretové reakci. \n• NH2 – CO – NH – CO – NH2\n• https://www.youtube.com/watch?v=zq2rfF3JaQQ"
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Biuretova reakce\n\n",
+      "text": "Biuretova reakce\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "Určovaní sekvence aminokyselin \nv řetězci\n• Edmanovo odbourávání – za pomocí činidla: \nfenylisokyanát\n- slouží k určení sekvence AK v jejich polypeptidovém\nřetězci\n• Sangerova reakce –používá 1fluoro 2,4 dinitrobenzen\n1953 - Sanger - stanovil primární strukturu bílkovin\n– rozštěpí proteinový řetězec na jednotlivé aminokyseliny \na ty pak analyzujeme pomocí chromatografických \nmetod"
+    }
+  ]
+}

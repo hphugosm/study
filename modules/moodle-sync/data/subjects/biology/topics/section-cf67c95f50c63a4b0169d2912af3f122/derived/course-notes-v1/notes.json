@@ -1,0 +1,1002 @@
+{
+  "schema": 1,
+  "subject": "biology",
+  "topic": "section-cf67c95f50c63a4b0169d2912af3f122",
+  "title": "BIOLOGIE - JU3",
+  "language": "cs",
+  "intro": "Eukaryotická buňka jako soustava spolupracujících částí: jádro, membránové organely, plastidy a cytoskelet. Přehled vychází z dvanácti snímků a jejich popsaných obrázků. Připojená klasifikační pravidla jsou historický dokument pro rok 2020/2021, nikoli potvrzení dnešních podmínek.",
+  "sources": [
+    {
+      "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+      "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+      "title": "EUKARYOTICKA_BUNKA.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9.pptx",
+      "extraction_url": "./extracted/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9.zip"
+    },
+    {
+      "id": "7e79891701c3992050748b1baf3b536f2ddac1faa0411ec9efebc84d4d4103ed",
+      "sha256": "07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0",
+      "title": "Klasifikace BI + ZE - FIALA - 2021.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0.docx",
+      "extraction_url": "./extracted/07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "jadro-a-chromozomy",
+      "title": "Jádro a chromozomy",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 2
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 3
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 4
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Jádro je ve zdroji označeno také jako nukleus nebo karyon. Snímek rozlišuje jadernou membránu, karyoplazmu, chromozomy a jadérko. Na obrázku si nejprve odděl obal jádra od jeho vnitřního obsahu.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Zvětšený chromozom je znázorněn jako dvě podélné chromatidy spojené centromerou. Obrázek rozlišuje dlouhá a krátká raménka. Další schéma propojuje pohled na buňku a jádro s chromozomem a vláknem DNA.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 3
+            },
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Jádro, chromozom a chromatida nejsou tři názvy stejné věci. Při popisu postupuj od celého jádra k jednotlivému chromozomu a jeho částem.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 2
+            },
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4e2afc0191facdd2b86617d939cc0519fe94e296ae19dde6d8440eadace55b95.webp",
+          "alt": "Popsané jádro s jaderným obalem, póry, jadérkem a chromatinem",
+          "caption": "Jádro: všimni si rozdílu mezi obalem, póry a vnitřním obsahem. Původní snímek 2.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 2
+            }
+          ],
+          "source_media": "extracted/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9/media/slide-002-image-001.png",
+          "width": 462,
+          "height": 378
+        },
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/fa2e67384b9435882d2127e21b357a7c6a137962798ab464c3a43b7049f4b79b.webp",
+          "alt": "Schéma chromozomu s dlouhými a krátkými raménky a dvěma chromatidami",
+          "caption": "Chromozom a jeho části. Původní snímek 3.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 3
+            }
+          ],
+          "source_media": "extracted/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9/media/slide-003-image-001.png",
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi celek",
+          "text": "Začni jádrem. K jeho pojmenovaným částem patří obal, karyoplazma, jadérko a chromozomy.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "title": "Změň měřítko",
+          "text": "U jednotlivého vyobrazeného chromozomu rozliš dvě podélné chromatidy a místo jejich spojení.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "title": "Vrať části do souvislosti",
+          "text": "Schéma DNA nepopisuje jinou buňku: ukazuje podrobnější pohled na struktury uvnitř jádra.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 3
+            },
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mitochondrie",
+      "title": "Mitochondrie a buněčné dýchání",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 5
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Prezentace spojuje mitochondrie s buněčným dýcháním a získáváním energie pro buňku. Zdůrazňuje dvě membrány. Doprovodný řez pojmenovává vnější a vnitřní membránu, kristy a matrix.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Při opakování spoj tři opěrné body: mitochondrie → dvě membrány → buněčné dýchání a energie.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 5
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/68bdcd8e603b76f7c82a1b145362f4434b7fba3ce9490ce2f7695cb562cc8061.webp",
+          "alt": "Řez mitochondrií s vnější membránou, vnitřní membránou, kristami a matrix",
+          "caption": "Řez mitochondrií pomáhá rozlišit dvě membrány a vnitřní prostor. Původní snímek 5.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 5
+            }
+          ],
+          "source_media": "extracted/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9/media/slide-005-image-001.png",
+          "width": 436,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "id": "er-golgi-lysozomy",
+      "title": "Tvorba, úprava a trávení látek",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hrubé endoplazmatické retikulum je ve zdroji spojeno s ribozomy a syntézou bílkovin. U hladkého endoplazmatického retikula uvádí prezentace glykolipidy. Golgiho systém je spojován s úpravou bílkovin a lipidů.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lysozomy obsahují trávicí enzymy. Není proto vhodné zaměňovat jejich funkci s tvorbou bílkovin nebo s úpravami v Golgiho systému.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hrubé ER: ribozomy a syntéza bílkovin.",
+            "Hladké ER: ve zdroji uvedeno u glykolipidů.",
+            "Golgiho systém: úprava bílkovin a lipidů.",
+            "Lysozomy: trávicí enzymy."
+          ],
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Hledáš syntézu bílkovin",
+          "text": "Vyber hrubé endoplazmatické retikulum a vazbu na ribozomy.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "title": "Hledáš úpravu látek",
+          "text": "Vyber Golgiho systém. V prezentaci je jeho funkcí úprava bílkovin a lipidů.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "title": "Hledáš trávení",
+          "text": "Vyber lysozomy a jejich trávicí enzymy. Jde o porovnání funkcí, nikoli o úplnou dráhu jedné molekuly.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plastidy-a-vakuola",
+      "title": "Plastidy a vakuola rostlinné buňky",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 5
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "U rostlinné eukaryotické buňky prezentace rozlišuje chloroplasty, chromoplasty a leukoplasty. Chloroplasty spojuje s fotosyntézou, chromoplasty s karotenoidy a xantofyly a leukoplasty se škrobem.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U rostlinné vakuoly jsou uvedeny dvě části popisu: tonoplast a buněčná šťáva. Nepřiřazuj tonoplast k jádru nebo mitochondrii; v tomto přehledu patří k vakuole.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Chloroplasty → fotosyntéza.",
+            "Chromoplasty → karotenoidy a xantofyly.",
+            "Leukoplasty → škrob."
+          ],
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 7
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0c332b9f012bd24acbf051457d440d5f274217f7ad48c5587ad6f3cc59b4c1c1.webp",
+          "alt": "Popsaný chloroplast s obalem, stromatem, thylakoidy a granem",
+          "caption": "Chloroplast je plastid spojovaný ve zdroji s fotosyntézou. Původní snímek 7.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 7
+            }
+          ],
+          "source_media": "extracted/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9/media/slide-007-image-001.png",
+          "width": 408,
+          "height": 232
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Mitochondrie",
+          "Chloroplast"
+        ],
+        "rows": [
+          {
+            "label": "Děj uvedený v prezentaci",
+            "values": [
+              "Buněčné dýchání",
+              "Fotosyntéza"
+            ]
+          },
+          {
+            "label": "Snímek k opakování",
+            "values": [
+              "5: dvojice membrán a energie pro buňku",
+              "7: plastidy rostlinné buňky"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cytoskelet-a-srovnani",
+      "title": "Cytoskelet a srovnání buněk",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 8
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 9
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 10
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cytoskeletární systém je představen pomocí mikrotubulů a mikrofilament. Zdroj k němu vztahuje také dělicí vřeténko. Obrázky ukazují vláknité struktury v různém měřítku.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ve srovnávacích obrázcích poznáš rostlinnou buňku podle zobrazené buněčné stěny, vakuoly a chloroplastů. Zároveň najdi společně zobrazené struktury, například jádro, mitochondrie a endoplazmatické retikulum.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 9
+            },
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "U buněčné stěny zdroj vyjmenovává celulózu, chitin a lignin. Nevyvozuj z tohoto seznamu, že každá eukaryotická buňka obsahuje všechny uvedené složky.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 8
+            },
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/01ef068192614b2437100462c51de4ce7390bbff94c3f747a6eeeae2a3cedbef.webp",
+          "alt": "Popsaná živočišná buňka s jádrem, ribozomy, Golgiho aparátem a mitochondriemi",
+          "caption": "Živočišná buňka: porovnej popsané organely se sousedním rostlinným schématem. Původní snímek 10.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 10
+            }
+          ],
+          "source_media": "extracted/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9/media/package-image12.png",
+          "width": 357,
+          "height": 447
+        },
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4941fa64d165627682e7e1c023e4adbceb47df430324cf8dbfcf892dd75c39ad.webp",
+          "alt": "Popsaná rostlinná buňka s velkou vakuolou, buněčnou stěnou a chloroplasty",
+          "caption": "Rostlinná buňka: vyhledej centrální vakuolu, buněčnou stěnu a chloroplasty. Původní snímek 10.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 10
+            }
+          ],
+          "source_media": "extracted/9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9/media/package-image13.png",
+          "width": 367,
+          "height": 459
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi společné části",
+          "text": "V obou schématech vyhledej jádro a mitochondrie.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "title": "Najdi rozdíly ve vyobrazení",
+          "text": "U rostlinné buňky ukaž buněčnou stěnu, chloroplast a vakuolu.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "title": "Připoj funkci k obrázku",
+          "text": "Chloroplast spoj s fotosyntézou a vakuolu s pojmy tonoplast a buněčná šťáva.",
+          "source_refs": [
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 6
+            },
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 7
+            },
+            {
+              "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+              "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+              "page": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicka-klasifikace",
+      "title": "Historický podklad ke klasifikaci 2020/2021",
+      "source_refs": [
+        {
+          "id": "7e79891701c3992050748b1baf3b536f2ddac1faa0411ec9efebc84d4d4103ed",
+          "sha256": "07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "warning",
+          "text": "Dokument výslovně uvádí školní rok 2020/2021. Ber jej jako historický podklad, ne jako potvrzení aktuálních podmínek hodnocení.",
+          "source_refs": [
+            {
+              "id": "7e79891701c3992050748b1baf3b536f2ddac1faa0411ec9efebc84d4d4103ed",
+              "sha256": "07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Přehled uvádí práci v hodině, písemné zkoušení, průběžné testy, delší a kratší referát a práci s atlasem. U jednotlivých forem obsahuje rozsah a váhu; obsahuje také procentní stupnici testů.",
+          "source_refs": [
+            {
+              "id": "7e79891701c3992050748b1baf3b536f2ddac1faa0411ec9efebc84d4d4103ed",
+              "sha256": "07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Výukové otázky v tomto tématu se týkají buněčné biologie, nikoli zapamatování historických vah známek. Původní tabulku najdeš ve zdroji.",
+          "source_refs": [
+            {
+              "id": "7e79891701c3992050748b1baf3b536f2ddac1faa0411ec9efebc84d4d4103ed",
+              "sha256": "07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "jadro-casti",
+      "front": "Které části jádra vyjmenovává snímek 2?",
+      "back": "Jadernou membránu, karyoplazmu, chromozomy a jadérko.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "jadro-nazvy",
+      "front": "Jaká další označení jádra uvádí prezentace?",
+      "back": "Nukleus a karyon.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "chromatidy",
+      "front": "Jak jsou na obrázku spojeny dvě chromatidy?",
+      "back": "Centromerou; obrázek rozlišuje také dlouhá a krátká raménka.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "mitochondrie-dej",
+      "front": "S jakým dějem je spojena mitochondrie?",
+      "back": "S buněčným dýcháním a energií pro buňku.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "mitochondrie-obal",
+      "front": "Kolik membrán zdroj zdůrazňuje u mitochondrie?",
+      "back": "Dvě membrány.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "hrube-er",
+      "front": "S čím je spojeno hrubé ER?",
+      "back": "S ribozomy a syntézou bílkovin.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "golgi",
+      "front": "Jakou funkci uvádí zdroj u Golgiho systému?",
+      "back": "Úpravu bílkovin a lipidů.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "lysozomy",
+      "front": "Co obsahují lysozomy?",
+      "back": "Trávicí enzymy.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "vakuola",
+      "front": "Jaké dva pojmy uvádí snímek 6 u vakuoly?",
+      "back": "Tonoplast a buněčná šťáva.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "chloroplasty",
+      "front": "Který děj je ve zdroji spojen s chloroplasty?",
+      "back": "Fotosyntéza.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "chromoplasty",
+      "front": "Jaké látky jsou uvedeny u chromoplastů?",
+      "back": "Karotenoidy a xantofyly.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "leukoplasty",
+      "front": "S čím jsou v prezentaci spojeny leukoplasty?",
+      "back": "Se škrobem.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "cytoskelet",
+      "front": "Které dvě vláknité struktury uvádí cytoskeletární systém?",
+      "back": "Mikrotubuly a mikrofilamenta.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 8
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-jadro",
+      "prompt": "Která skupina obsahuje pouze části jádra uvedené ve zdroji?",
+      "options": [
+        "Jadérko, karyoplazma a chromozomy",
+        "Tonoplast, chloroplast a vakuola",
+        "Krista, matrix a buněčná stěna"
+      ],
+      "answer": 0,
+      "explanation": "Snímek 2 vyjmenovává jadérko, karyoplazmu a chromozomy mezi částmi jádra. Tonoplast patří v přehledu k vakuole a kristy s matrix k obrázku mitochondrie.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 2
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 5
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "q-chromozom",
+      "prompt": "Jak obrázek označuje spojení dvou podélných chromatid?",
+      "options": [
+        "Jadérko",
+        "Centromera",
+        "Tonoplast"
+      ],
+      "answer": 1,
+      "explanation": "Na snímku 3 jsou dvě chromatidy spojeny centromerou. Jadérko je část jádra a tonoplast se objevuje u vakuoly.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 2
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 3
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "q-mitochondrie",
+      "prompt": "Která kombinace odpovídá mitochondrii v prezentaci?",
+      "options": [
+        "Fotosyntéza a škrob",
+        "Trávicí enzymy a jedna chromatida",
+        "Dvě membrány a buněčné dýchání"
+      ],
+      "answer": 2,
+      "explanation": "Snímek 5 zdůrazňuje dvě membrány a buněčné dýchání. Fotosyntéza je uvedena u chloroplastů a trávicí enzymy u lysozomů.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 5
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-hrube-er",
+      "prompt": "Kterou dvojici přiřadíš hrubému endoplazmatickému retikulu?",
+      "options": [
+        "Ribozomy a syntéza bílkovin",
+        "Karotenoidy a xantofyly",
+        "Tonoplast a buněčná šťáva"
+      ],
+      "answer": 0,
+      "explanation": "Hrubé ER je na snímku 6 spojeno s ribozomy a syntézou bílkovin. Zbývající dvojice patří k chromoplastům a vakuole.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-golgi",
+      "prompt": "Hledáš organelu spojovanou s úpravou bílkovin a lipidů. Kterou vybereš?",
+      "options": [
+        "Jadérko",
+        "Golgiho systém",
+        "Chromoplast"
+      ],
+      "answer": 1,
+      "explanation": "Golgiho systém je ve zdroji spojen s úpravou bílkovin a lipidů. Nejde o údaj uvedený u jadérka ani chromoplastu.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-lysozomy",
+      "prompt": "Kde prezentace uvádí trávicí enzymy?",
+      "options": [
+        "V leukoplastech",
+        "V chromozomech",
+        "V lysozomech"
+      ],
+      "answer": 2,
+      "explanation": "Snímek 6 přiřazuje trávicí enzymy lysozomům. Leukoplasty jsou uvedeny se škrobem; chromozomy jsou probírány u jádra.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 3
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-plastidy",
+      "prompt": "Které přiřazení tří plastidů souhlasí se zdrojem?",
+      "options": [
+        "Chloroplast–fotosyntéza; chromoplast–karotenoidy a xantofyly; leukoplast–škrob",
+        "Chloroplast–trávicí enzymy; chromoplast–chromatidy; leukoplast–jaderné póry",
+        "Chloroplast–buněčné dýchání; chromoplast–tonoplast; leukoplast–ribozomy"
+      ],
+      "answer": 0,
+      "explanation": "Všechna tři správná přiřazení jsou uvedena na snímku 7. Podobnost slov chromoplast a chromozom neznamená stejnou strukturu.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-tonoplast",
+      "prompt": "Se kterou strukturou je ve zdroji spojen tonoplast?",
+      "options": [
+        "S mitochondrií",
+        "S vakuolou",
+        "S chromatidou"
+      ],
+      "answer": 1,
+      "explanation": "Tonoplast je uveden u rostlinné vakuoly spolu s buněčnou šťávou, nikoli u mitochondrie nebo chromatid.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "q-cytoskelet",
+      "prompt": "Která dvojice patří k cytoskeletárnímu systému?",
+      "options": [
+        "Jadérko a karyoplazma",
+        "Karotenoidy a xantofyly",
+        "Mikrotubuly a mikrofilamenta"
+      ],
+      "answer": 2,
+      "explanation": "Prezentace uvádí mikrotubuly a mikrofilamenta na snímku 8. Ostatní dvojice patří k jádru a chromoplastům.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 2
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 7
+        },
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "q-obrazek",
+      "prompt": "Které struktury odlišují rostlinnou buňku v předloženém srovnávacím obrázku?",
+      "options": [
+        "Buněčná stěna, chloroplast a vakuola",
+        "Dvě chromatidy a centromera",
+        "Jadérko a ribozomy jako jediné části"
+      ],
+      "answer": 0,
+      "explanation": "Rostlinné schéma na snímku 10 pojmenovává buněčnou stěnu, chloroplast a vakuolu. Chromatidy nejsou rozlišovacím popisem celého tohoto schématu.",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9",
+          "page": 10
+        }
+      ]
+    }
+  ]
+}

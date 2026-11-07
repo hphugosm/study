@@ -2,5 +2,24 @@
   "schema": 1,
   "subject_id": "sociology",
   "topic_id": "section-ad4f9e825fcc2c1c3e1dc6a1ffdd53a2",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Unit 1: Sociology Definition, Social Institutions Overview, Key Terms, Common Sense, Sociological Imagination, Theories (Structuralism, Functionalism, Social Action)",
+      "kind": "notes",
+      "path": "data/subjects/sociology/topics/section-ad4f9e825fcc2c1c3e1dc6a1ffdd53a2/derived/course-notes-v1/notes.json",
+      "sha256": "938a2d8a184f7106e9d95ef4d795c48ad12b0e05e8f427cdef8385d641ff60df",
+      "source_refs": [
+        {
+          "id": "5d233eb1658c11a6bd14dc23c41e51ecc2d67b9423830cbee78692fa9ebfa6d8",
+          "sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635"
+        },
+        {
+          "id": "ac36a90c3ad6b14b4d69a4d82748eaae267ab51f49cea7286493b7987fd1a9b6",
+          "sha256": "5561fee6afa143a6dfbd35687c6a947ae93025653c24c1aaa299fc2cbf085c6b"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

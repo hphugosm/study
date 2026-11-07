@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Bílkoviny\n",
+      "text": "Bílkoviny"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Bílkoviny\n• složené z více jak 100 aminokyselin\n• podstatou všech živých organismů\nDělení bílkovin podle jejich funkce:\n• stavební a podpůrné  \n• transportní a skladovací \n• pohybová\n• ochranná a obranná \n• regulační funkce\n• katalytická funkce"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Chemické složení bílkovin:\nJednoduché – obsahují pouze AK\nSložené: mají polypeptidovou část tvořenou z AK + další složku\n• Metaloproteiny\n• Fosfoproteiny \n• Glykoproteiny\n• Lipoproteiny\n• Nukleoproteiny"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Dělení bílkovin podle celkového tvaru molekuly\n• Globulární\n• Fibrilární\nDělení bílkovin podle umístění\n• Membránové: \n• periferní: volně přisedlé na membránu\n• Integrální: zabudovány dovnitř bílkovinné \nmembrány"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "fibrilární proteiny\n\n%i : fibrin (srazenl krve)\n\nglobulární proteiny\nalkohol dehydrogenáza\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": ".Membránové bílkoviny \n• periferní: volně přisedlé na membránu\n• Integrální: zabudovány dovnitř bílkovinné membrány\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "hydrofobní (nepolární)\nkonec fosfolipidu\n\nhydrofilní (polární)\nhlavička fosfolipidu\n\ncholesterol vnitřní proteiny vnější protein\n\nvnitřní povrch\n\nObr. 2.8 Vizualizace biologické membrány\n\no\nm\nH,C-CH,-CH, CH,-CH, CH CH CH CH CH, CH CH CH CH CH C-O -CHo\n\nH,C-CH,-CH, CH -CH, CH CH CH CH =CH -CH, CH, CH CH CH CH, CHŽA(E—O-(IÉH\no\n\nCH;-O\n\nfosfolipid (1-palmitoyl-2-oleoyl-fosfatidylserin)\n\no\nl\n\nP—\nI.\n\no\n\nAAA Y\n\nlipidová dvojvrstva\npolární nepolámí\nhlavice řetězec\n7\n\nNH\no—cH>-CH\ncoo“\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "text": "Chemická struktura bílkovinných molekul\n• páteří molekuly je peptidový řetězec složený ze 100 \naž 2000 zbytků kódovaných aminokyselin\n• aminokyseliny jsou v řetězci uspořádány podle \npořadí, které je kódované v molekule DNA – říká se jí \nsekvence\n• sekvence je pro každou bílkovinu typická"
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "text": "Kovalentní a nekovalentní interakce\nKovalentní interakce (vazebné)\n• Disulfidové můstky - způsob propojení peptidových řetězců pomocí \nkovalentní vazby\nNekovalentní interakce (nevazebné)\n• Vodíkové můstky - vznikají mezi  - NH a CO skupinami peptidového \nřetězce\n• Iontové vazby - jsou přitahovány opačně nabité postranní řetězce \naminokyselin\n• Hydrofobní interakce\n- způsobeny vzájemným působením \nnepolárních skupin\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 10",
+      "number": 10,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "oxidace\n+ = >-\n. redukce\n\nOxidace a redukce disulfidového můstku\nje principem účesu zvaného trvalá.\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 11",
+      "number": 11,
+      "text": "Chemická struktura bílkovin\nPrimární struktura\n• pořadí aminokyselin v peptidovém řetězci\n• standardně se zapisuje od N-konce k C-konci\n• neposkytuje úplnou informaci o chemické \nstruktuře bílkoviny, je potřeba znát ještě \nkovalentní interakce\n• poprvé ji stanovil v roce 1953 Frederick Sanger, \nčímž byla poprvé dokázána jedinečná kovalentní \nstruktura bílkovin"
+    },
+    {
+      "kind": "page",
+      "label": "page 12",
+      "number": 12,
+      "text": ".Sekundární struktura\n• je prostorové uspořádání aminokyselinových zbytků , \nkteré jsou blízko u sebe v lineární sekvenci „na krátké \nvzdálenosti“\n• (alfa-helix) – šroubovice\n• (Beta struktura)  - skládaného listu \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 13",
+      "number": 13,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Sekundární struktura bílkovin - a-helix\n\nR H o R H o R\n| |\n\ncI N C c N. c\n\\N/ H\\C/ \\CH/ \\N/ I'\\C/ \\CH/ \\N\n| | | | | | |\nH C.) R H o R řll o\nl\\„ vodíková vazba ž\n\n....................................\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 14",
+      "number": 14,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Sekundární struktura bílkovin - struktura \"skládaného listu\"\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 15",
+      "number": 15,
+      "text": ".\nTerciární struktura\n• označuje trojrozměrné uspořádání celého \npeptidového řetězce\n• jedná se o prostorové uspořádání AK zbytků které \njsou umístěny daleko od sebe v lineární sekvenci \npeptidového řetězce\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 16",
+      "number": 16,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "polypeptidový\n\n/ řetězec\nL Ye\nó HC\nsolný můstek — 047 A\nN0 |\n\nhydrofobní\n\ninterakce \\\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 17",
+      "number": 17,
+      "text": "Terciární struktura\n• Konečný prostorový tvar molekuly může být \nglobulární nebo fibrilární\n• Prostorové uspořádání – sekundární nebo \nterciální struktura se může měnit vlivem \nvnějších podmínek\n• Vratná změna = změna konformace molekuly"
+    },
+    {
+      "kind": "page",
+      "label": "page 18",
+      "number": 18,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "terciární struktura trypsinu\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 19",
+      "number": 19,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Terciární struktura bílkovin\n\na-helix\n\nskládaný list\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Terciární struktura\nHemoglobinu\n\n",
+      "text": "Terciární struktura\nHemoglobinu\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 21",
+      "number": 21,
+      "text": "Kvartérní struktura\n• se vyskytuje u proteinů, které se skládají z více než \njednoho peptidového řetězce – tedy z několika \npodjednotek\n• řeší prostorové  uspořádání podjednotek tvořících jednu \nfunkční bílkovinu\n• podjednotky jsou samostatné peptidové struktury, které \njsou navzájem spojeny nekovalentními interakcemi \n• takovéto uspořádání vykazují jen složitější bílkoviny, např. \nhemoglobin (4 podjednotky . alfa- 2, beta 2, ) ferritin,  \nfibrily kolagenu, nebo lidské DNA polymerázy\n• bílkoviny se mohou skládat buď z odlišných (oligomery) \nnebo ze shodných podjednotek (protomery). "
+    },
+    {
+      "kind": "page",
+      "label": "page 22",
+      "number": 22,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 23",
+      "number": 23,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Kvarterní struktura bílkovin\n\nhem - nebílkovinná složka\n\nhemoglobin\n\nsložený ze čtyř globulárních\npodjednotek\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 24",
+      "number": 24,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Svinování a denaturace bílkovin\n\n* Svinování:\n\n* Denaturace:\n",
+      "text": "Svinování a denaturace bílkovin\n• Svinování:\n• Denaturace: \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 25",
+      "number": 25,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "CH\nlS\n\nc CH\nHC /c=c\\/\nHC—C\\\\ /C=CH\nll Ď\n“Bc\\c/c A v „0 »0/0Hs\nII |\n/C\\C /N*N\\ cýc\\\nSurface view OOC\\ /CH2 lA S_ Ca\nCH, HC-C C=CH\n2 V\nC=C\\\nHWC? CHg\nAlpha \\CHz\nSectioned view polypeptide p /\nchains o0c\n(a) RBC shape\n\n(b) Hemoglobin molecule\n\n(c) Iron-containing heme\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 26",
+      "number": 26,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Hemoglobin\n\nI/'N Histidi it\nHŇ \\/Č istidine uni\n\nN.\nDeoxyform\n\n/N * j. *\nF \\/Č Histidine unit\nHN\nN\noxyform\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 27",
+      "number": 27,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "fibrinogen\n\n",
+      "text": "fibrinogen\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 28",
+      "number": 28,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "HO\n\nNHs= o\n\nHN)\\N N\nH H\nNH2 [0]\n\nzT\n\nZI\n\nOH\n\nOH\n",
+      "text": "kasein\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 29",
+      "number": 29,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "NH\nOoH\nH0 M :\nNH\no.\np á O;ž o\no\n/ ;\n\nInzulin\n\no NH\n— k\nN\n\nH Ll\no\nH HN —-(\no\nNH,\nHN\nOoH 2\nAA\nPř \"\n[eké\nys—ysSer-Leumgyr,\n“ s) ?5 GN eu lu ásn-Tyr: _L_[ysf\nv le\n\\ Thr-ser p\\„-Ala»Leu-TYV—Leu—val—Rys\nCýs, al'\nLeu/y a „A l\n7 W zer—Hi$ JM\nHis f\nasn Th\n\nly\nÓva—Phe \"\"PromyprTyr—Phe Ph\n\nNH\n\nNH\n\nAsn\n",
+      "text": "Inzulin\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 30",
+      "number": 30,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "DĚKUJI ZA POZORNOST\n",
+      "text": "DĚKUJI ZA POZORNOST\nZdroje obrázků: www.google.cz"
+    }
+  ]
+}

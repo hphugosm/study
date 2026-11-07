@@ -266,3 +266,6 @@ button, a, input, select, summary { touch-action: manipulation; }
   input, select, textarea { font-size: 16px; min-height: 44px; }
   button, .button { -webkit-tap-highlight-color: transparent; }
 }
+
+/* Reviewed Moodle topics share the original subject cards and navigation. */
+.topic-search-label{display:block;font-size:12px;color:#677468;margin-bottom:7px}.topic-search{font:inherit;max-width:520px;width:100%;padding:12px 15px;border:1px solid #dce3da;border-radius:10px;background:white;color:#29392e}.course-topic-group{margin-top:28px}.course-topic-group>h3{font-size:17px;font-weight:600;margin:0 0 14px}.topic-availability{font-size:12px!important;color:#6c796e!important}.course-topic-card[hidden],.course-topic-group[hidden]{display:none}.related-course-topics{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:22px;font-size:12px}.related-course-topics a{color:var(--subject,#527762);text-decoration:underline;text-underline-offset:3px}.legacy-tools{margin-top:28px}.legacy-tools .button{margin:6px 10px 6px 0}.topic-search:focus-visible{outline:3px solid #ac8350;outline-offset:3px}

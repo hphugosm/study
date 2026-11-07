@@ -2,5 +2,20 @@
   "schema": 1,
   "subject_id": "geography",
   "topic_id": "section-66c0e49bb68c8040293988f776f7b0e0",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "STŘEDNÍ ASIE, ZAKAVKAZSKO, SIBIŘ",
+      "kind": "notes",
+      "path": "data/subjects/geography/topics/section-66c0e49bb68c8040293988f776f7b0e0/derived/course-notes-v1/notes.json",
+      "sha256": "f8b69543ec1502b1d9560e76fbd9cb9b830848f933409bd83a5eca72edb422c0",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

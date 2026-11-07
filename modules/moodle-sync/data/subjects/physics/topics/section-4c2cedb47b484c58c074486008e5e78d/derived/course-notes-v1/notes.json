@@ -1,0 +1,655 @@
+{
+  "schema": 1,
+  "subject": "physics",
+  "topic": "section-4c2cedb47b484c58c074486008e5e78d",
+  "title": "Úvod do optiky",
+  "language": "cs",
+  "intro": "Od paprsku a indexu lomu k odrazu, Snellovu zákonu a úplnému odrazu. Výpisky propojují všechny tři pracovní listy; řešené výpočty jsou názorná doplnění jejich zadání.",
+  "sources": [
+    {
+      "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+      "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+      "title": "FY_JU3_PL_Totální odraz a mezní úhel.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a.pdf",
+      "extraction_url": "./extracted/f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a.zip"
+    },
+    {
+      "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+      "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+      "title": "PL - Úvod do optiky - příklady.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d.pdf",
+      "extraction_url": "./extracted/35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d.zip"
+    },
+    {
+      "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+      "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+      "title": "FY_JU3_PL_Úvod do optiky.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df.pdf",
+      "extraction_url": "./extracted/d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "paprsek-a-prostredi",
+      "title": "Paprsek popisuje směr, index popisuje prostředí",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 1
+        },
+        {
+          "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+          "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vlnoplocha spojuje body, které kmitají se stejnou fází. Ve stejnorodém izotropním optickém prostředí jsou světelné paprsky kolmé na vlnoplochu a udávají směr šíření světla.",
+          "source_refs": [
+            {
+              "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+              "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Izotropní prostředí: rychlost světla je ve všech směrech stejná.",
+            "Anizotropní prostředí: rychlost závisí na směru šíření.",
+            "Bodový zdroj je zjednodušení zdroje se zanedbatelnou velikostí."
+          ],
+          "source_refs": [
+            {
+              "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+              "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Index lomu je n = c/v. Při stejném c znamená vyšší n menší rychlost v daném prostředí. Nezaměňuj rychlost světla s jeho směrem: n popisuje prostředí, úhly popisují geometrii paprsku.",
+          "source_refs": [
+            {
+              "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+              "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "„Opticky hustší“ zde znamená vyšší index lomu. Samotné označení nehovoří o hmotnostní hustotě materiálu.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "odraz-a-lom",
+      "title": "Úhly měř od kolmice, ne od rozhraní",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 2
+        },
+        {
+          "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+          "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kolmice dopadu je přímka kolmá k rozhraní v místě dopadu. Úhel dopadu α, odrazu α′ i lomu β měříme právě od ní. Zákon odrazu říká α = α′; odražený paprsek leží v rovině dopadu.",
+          "source_refs": [
+            {
+              "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+              "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Snellův zákon: n₁ sin α = n₂ sin β. Pro výpočet úhlu nejprve vyjádři sin β = (n₁/n₂) sin α.",
+          "source_refs": [
+            {
+              "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+              "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "n₁ < n₂: lom ke kolmici, tedy β < α pro nenulový úhel dopadu.",
+            "n₁ > n₂: lom od kolmice, tedy β > α, pokud ještě vzniká lomený paprsek.",
+            "Po výpočtu zkontroluj, že argument arcsin leží mezi −1 a 1."
+          ],
+          "source_refs": [
+            {
+              "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+              "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+              "page": 2
+            },
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "V řešeném příkladu ze zadání přechází světlo ze vzduchu do skla s n = 1,5 pod úhlem 40°. Při zjednodušení n vzduchu = 1 dostáváme β ≈ 25,4°. Menší úhel odpovídá lomu ke kolmici.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/a45127faf7eb6fb2c022cb770f8937840346405ceb04866b799ca8c5745f8509.webp",
+          "alt": "Náčrty odrazu a lomu s kolmicí dopadu",
+          "caption": "Původní pracovní list, strana 2: sleduj, odkud se měří úhly.",
+          "source_refs": [
+            {
+              "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+              "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+              "page": 2
+            }
+          ],
+          "source_media": "extracted/d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df/media/page-002-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ],
+      "steps": [
+        {
+          "title": "1. Vyznač rozhraní a kolmici",
+          "text": "Paprsek tvoří 40° s kolmicí. Zapiš n₁ = 1 a n₂ = 1,5.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "2. Vyjádři sinus neznámého úhlu",
+          "text": "sin β = sin 40° / 1,5 ≈ 0,4285.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "3. Použij inverzní funkci",
+          "text": "β = arcsin 0,4285 ≈ 25,4°. Kalkulačka musí pracovat ve stupních.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "4. Ověř směr lomu",
+          "text": "Index se zvětšil a úhel se zmenšil: výsledek je v souladu s lomem ke kolmici.",
+          "source_refs": [
+            {
+              "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+              "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Lom ke kolmici",
+          "Lom od kolmice"
+        ],
+        "rows": [
+          {
+            "label": "Indexy",
+            "values": [
+              "n₁ < n₂",
+              "n₁ > n₂"
+            ]
+          },
+          {
+            "label": "Úhly při existujícím lomu",
+            "values": [
+              "β < α",
+              "β > α"
+            ]
+          },
+          {
+            "label": "Úplný odraz",
+            "values": [
+              "Touto cestou nevznikne",
+              "Může vzniknout po překročení mezního úhlu"
+            ]
+          }
+        ]
+      },
+      "interactive": {
+        "kind": "refraction",
+        "title": "Vyzkoušej lom světla a úplný odraz",
+        "defaults": {
+          "n1": 1,
+          "n2": 1.5,
+          "incidence": 45
+        },
+        "source_refs": [
+          {
+            "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+            "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+            "page": 2
+          },
+          {
+            "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+            "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+            "page": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mezni-uhel",
+      "title": "Úplný odraz potřebuje dvě podmínky",
+      "source_refs": [
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 1
+        },
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 2
+        },
+        {
+          "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+          "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Úplný odraz nastává při přechodu z vyššího indexu lomu do nižšího a při úhlu dopadu větším než mezní úhel αₘ. Při samotném mezním úhlu je β = 90°: paprsek se šíří podél rozhraní.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Dosazením β = 90° do Snellova zákona získáme sin αₘ = n₂/n₁, kde n₁ > n₂. Pro přechod do vzduchu při n₂ ≈ 1 je sin αₘ ≈ 1/n₁.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            },
+            {
+              "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+              "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pro vodu s n₁ = 1,33 a vzduch s n₂ = 1 vychází αₘ ≈ 48,8°. Dopad 80° ze zadání už mez překročil: nejde hledat reálný úhel lomu, ale rozpoznat úplný odraz.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            },
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pro sklo s n = 1,5 a vzduch vychází αₘ ≈ 41,8°. Při přechodu ze vzduchu do vody podmínka n₁ > n₂ splněná není, takže úplný odraz tímto směrem nevznikne.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 2
+            },
+            {
+              "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+              "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Rozpoznej směr přechodu",
+          "text": "Zjisti, zda paprsek míří z vyššího n do nižšího. Bez této podmínky úplný odraz nečekej.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Spočítej mezní úhel",
+          "text": "αₘ = arcsin(n₂/n₁). Pro vodu a vzduch použij arcsin(1/1,33).",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "title": "Porovnej s úhlem dopadu",
+          "text": "80° > 48,8°, proto nastane úplný odraz. Hodnota (1,33/1) sin 80° > 1 je stejný problém vyjádřený Snellovým zákonem.",
+          "source_refs": [
+            {
+              "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+              "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-vlnoplocha",
+      "front": "Co mají společného body vlnoplochy?",
+      "back": "Kmitají se stejnou fází; paprsky ve stejnorodém izotropním prostředí jsou na vlnoplochu kolmé.",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-index",
+      "front": "Jak souvisí index lomu a rychlost?",
+      "back": "n = c/v. Vyšší index při stejném c znamená menší rychlost v prostředí.",
+      "source_refs": [
+        {
+          "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+          "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-kolmice",
+      "front": "Odkud měříme úhel dopadu a lomu?",
+      "back": "Od kolmice k rozhraní v místě dopadu.",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-odraz",
+      "front": "Jak zní zákon odrazu?",
+      "back": "α = α′; odražený paprsek leží v rovině dopadu.",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-snell",
+      "front": "Jak zní Snellův zákon?",
+      "back": "n₁ sin α = n₂ sin β.",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-ke-kolmici",
+      "front": "Kdy se světlo láme ke kolmici?",
+      "back": "Při přechodu z nižšího indexu do vyššího: n₁ < n₂.",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-uplny-odraz",
+      "front": "Jaké dvě podmínky potřebuje úplný odraz?",
+      "back": "Přechod z vyššího n do nižšího a úhel dopadu větší než mezní.",
+      "source_refs": [
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-mezni",
+      "front": "Co platí při mezním úhlu?",
+      "back": "β = 90° a sin αₘ = n₂/n₁; lomený paprsek míří podél rozhraní.",
+      "source_refs": [
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-index-rychlost",
+      "prompt": "Index prostředí se při stejném c zvětší. Co to znamená pro v?",
+      "options": [
+        "Rychlost se zvětší",
+        "Rychlost se zmenší",
+        "Rychlost vždy zůstane stejná"
+      ],
+      "answer": 1,
+      "explanation": "Ze vztahu v = c/n plyne nepřímá úměrnost. Směr paprsku z této změny samotné neurčíme.",
+      "source_refs": [
+        {
+          "id": "ca1a7c6857f03ca59469238907ed69884c3558d520dfe11a6213a689a3cf0599",
+          "sha256": "35fa40c9eae888a0c89e26348a6af01046f84451b8a7a30f4deba6788eafbe4d",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-mereni-uhlu",
+      "prompt": "Úhel dopadu měříme mezi dopadajícím paprskem a…",
+      "options": [
+        "rozhraním",
+        "kolmicí dopadu",
+        "odraženým paprskem"
+      ],
+      "answer": 1,
+      "explanation": "Definice v pracovním listu používá kolmici dopadu, nikoliv plochu rozhraní.",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-odraz-35",
+      "prompt": "Paprsek dopadá pod úhlem 35° ke kolmici. Jaký je úhel odrazu?",
+      "options": [
+        "17,5°",
+        "35°",
+        "70°"
+      ],
+      "answer": 1,
+      "explanation": "Zákon odrazu říká α′ = α. Úhel mezi oběma paprsky je jiná veličina.",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-smer-lomu",
+      "prompt": "Přechod n₁ < n₂ se při nenulovém úhlu projeví…",
+      "options": [
+        "lomem ke kolmici",
+        "lomem od kolmice",
+        "nutně úplným odrazem"
+      ],
+      "answer": 0,
+      "explanation": "Ve vyšším indexu je sin β menší než sin α, a proto β < α.",
+      "source_refs": [
+        {
+          "id": "e6fd7857a973980519ae4cec71933d4adc74c30a745c15a469108746843df6da",
+          "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-sklo-40",
+      "prompt": "Ze vzduchu (n₁ = 1) do skla (n₂ = 1,5) pod 40°: β je přibližně…",
+      "options": [
+        "25,4°",
+        "40°",
+        "74,6°"
+      ],
+      "answer": 0,
+      "explanation": "β = arcsin(sin 40° / 1,5) ≈ 25,4°. Větší index vede k lomu ke kolmici.",
+      "source_refs": [
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-voda-80",
+      "prompt": "Světlo míří z vody (n = 1,33) do vzduchu pod 80°. Co nastane?",
+      "options": [
+        "Lom ke kolmici",
+        "Úplný odraz",
+        "Lom s β = 80°"
+      ],
+      "answer": 1,
+      "explanation": "Mezní úhel je přibližně 48,8°. Dopad 80° ho překračuje a běžné řešení arcsin by mělo argument větší než 1.",
+      "source_refs": [
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 1
+        },
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz-u-meze",
+      "prompt": "Jaký úhel lomu odpovídá meznímu úhlu dopadu?",
+      "options": [
+        "0°",
+        "45°",
+        "90°"
+      ],
+      "answer": 2,
+      "explanation": "Při β = 90° se lomený paprsek šíří podél rozhraní. Úplný odraz nastává až pro větší úhel dopadu.",
+      "source_refs": [
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-vzduch-voda",
+      "prompt": "Může vzniknout úplný odraz při přechodu ze vzduchu do vody (n vzduchu ≈ 1, n vody = 1,33)?",
+      "options": [
+        "Ano, při každém úhlu",
+        "Ne, není splněno n₁ > n₂",
+        "Ano, přesně při 30°"
+      ],
+      "answer": 1,
+      "explanation": "Úplný odraz vyžaduje přechod z opticky hustšího do opticky řidšího prostředí.",
+      "source_refs": [
+        {
+          "id": "b26a206aa50025b6a5b63a550f30dee4b8e8525f52e43997a36e6c7c0155223f",
+          "sha256": "f77ec101c1ba1d9a96a8d953317060114372f5652a476ad621f2d4a7d72db44a",
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

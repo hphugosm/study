@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "sha256": "87143de81a86777efe9f065b98316ce3b8fee65c4e83bc4ef74e38f54fb30b14",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "PL - Disperze a úvod do vlnové optiky\nDisperze světla\nDopadá-li na optické rozhraní dvou prostředí bílé světlo, lomené světlo již není bílé, ale jeho okraje jsou zbar-\nvené (jeden červeně, druhý fialově). Pozorujeme, že bílé světlo se při lomu rozložilo na barevné složky. Tento\njev se nazývádisperze světla.\nCo je příčinou rozkladu na barevné složky?\nIndex lomu optického prostředí závisí na frekvenci světla a při disperzi se s rostoucí frekvencí zvětšuje.\nMonofrekvenční světlo:\nNejvíceselámepaprseksvětla ,nejméněpaprseksvětla .Disperze\nsvědčí o tom, že bílé světlo je složeno z .\nPo jednom lomu není rozklad světla příliš výrazný; paprsky červeného a fialového světla svírají malý úhel.\nProto se pro rozklad světla používá vícenásobný lom na několika rozhraních. Nejčastěji k tomu využíváme\n.\nk\nBílé denní světlo se hranolem rozloží na spektrum, v němž jsou zastoupeny všechny barvy odpovídající\npaprskům monofrekvenčního světla v posloupnosti: červená (nejmenší index lomu), oranžová, žlutá,\nzelená, modrá, fialová (největší index lomu).\n1"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Úvod do vlnové optiky\nVlnění a základní veličiny, které ho charakterizují:\nRychlost vlnění:\nPříklad.Světlo o frekvenci5·10 14 Hzpřechází ze vzduchu do skla o indexu lomun= 1,5.\na) Určete vlnovou délku světla ve vzduchu.\nb) Vypočítejte rychlost šíření světla ve skle.\nc) Určete vlnovou délku světla ve skle.\nFáze vlněnínám říká, v jaké části svého kmitání se daný bod právě nachází.\nPříklad.Do každé souřadnicové soustavy nakreslete dvě harmonická vlnění se stejnou amplitudou a vlnovou\ndélkou tak, aby byla\nve fázi v protifázi\n2"
+    }
+  ]
+}

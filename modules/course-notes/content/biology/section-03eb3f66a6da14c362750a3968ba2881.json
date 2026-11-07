@@ -1,0 +1,1571 @@
+{
+  "schema": 1,
+  "subject": "biology",
+  "topic": "section-03eb3f66a6da14c362750a3968ba2881",
+  "title": "KOSTERNÍ SOUSTAVA, SVALOVÁ SOUSTAVA",
+  "language": "cs",
+  "intro": "Přehled kosterní soustavy od stavby kosti přes spojení kostí po páteř, hrudník, končetiny a lebku. Vychází z 63 snímků původní prezentace. Název tématu zahrnuje také svalovou soustavu, ale tento schválený podklad pokrývá kosterní část. Podrobný interaktivní atlas kostí zůstává dostupný v původním modulu.",
+  "sources": [
+    {
+      "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+      "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+      "title": "KOSTERNÍ SOUTAVA.ppt",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03.ppt",
+      "extraction_url": "./extracted/10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "funkce-a-tvary",
+      "title": "Kostra jako opora pohybu a ochrana",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 2
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 3
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 5
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 38
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kosterní soustava tvoří pasivní pohybový aparát. Základními orgány jsou kosti; zdroj zdůrazňuje také ochranu jiných orgánů a zásobárnu minerálních látek. Pohyb popisuje ve spolupráci s příčně pruhovanou svalovou soustavou.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dlouhé kosti: například kosti končetin.",
+            "Krátké kosti: jako jednoznačný příklad si zapamatuj kosti zápěstní.",
+            "Ploché kosti: lopatka a kost pánevní.",
+            "Diafýza je tělo dlouhé kosti; epifýzy jsou její konce."
+          ],
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 3
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 38
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Nezaměňuj rozdělení podle tvaru s pojmenováním částí: dlouhá kost je typ, diafýza a epifýza jsou části konkrétní kosti.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/7c93f3f8d7531e5cfb6e2aa3e77761989a5a9a4eb25784b265c1eab5baaa5708.webp",
+          "alt": "Schéma dlouhé kosti s epifýzami, epifyzární chrupavkou a diafýzou",
+          "caption": "Srovnej tělo a konce dlouhé kosti; čísla 1–3 odpovídají legendě. Původní snímek 5.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 5
+            }
+          ],
+          "source_media": "extracted/10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03/media/slide-005-image-001.png",
+          "width": 402,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "id": "rust-a-tkan",
+      "title": "Růst a vnitřní stavba kosti",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 4
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 7
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 8
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 11
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 12
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 13
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kostnatění se nazývá osifikace. Prezentace uvádí, že většina kostí vzniká z chrupavky, zatímco kosti lebeční klenby a část klíční kosti z vaziva. Růst do délky spojuje s růstovými chrupavkami; růst do šířky s kostitvornými buňkami okostice.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 4
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Okostice je zásobena cévami a nervy a podílí se na výživě kosti. Kostní tkáň má kostní buňky a mezibuněčnou hmotu. Zdroj v ní rozlišuje organickou složku, ossein, a anorganické látky, například fosforečnan a uhličitan vápenatý. Hmota vytváří lamely.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 7
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Houbovitá neboli spongiózní kost je popsána jako soustava trámečků. Jejich uspořádání podle zatížení se nazývá architektonika. U hutné neboli kompaktní kosti jsou lamely kruhovitě uspořádány kolem Haversových kanálků s cévami.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 11
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dřeňová dutina dlouhé kosti obsahuje kostní dřeň. Zdroj rozlišuje červenou krvetvornou dřeň a žlutou dřeň s ukládáním tuku. V dospělejším věku uvádí zachovanou krvetvorbu například v hrudní kosti, obratlech a žebrech.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 13
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Houbovitá kost",
+          "Hutná kost"
+        ],
+        "rows": [
+          {
+            "label": "Stavba ve zdroji",
+            "values": [
+              "Soustava kostních trámečků",
+              "Lamely kolem Haversových kanálků"
+            ]
+          },
+          {
+            "label": "Uvedené umístění",
+            "values": [
+              "Epifýzy dlouhých kostí, vnitřek plochých a krátkých kostí",
+              "Tělo dlouhých kostí, povrchová vrstva plochých a krátkých kostí"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Osifikace",
+          "text": "Při kostnatění vzniká kost. Prezentace uvádí chrupavčitý základ většiny kostí a vazivový základ vybraných kostí.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "title": "Růst do délky",
+          "text": "Najdi růstovou chrupavku mezi koncem a tělem dlouhé kosti.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "title": "Růst do šířky",
+          "text": "Přiřaď kostitvorné buňky okostice k růstu kosti do šířky.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spojeni-kosti",
+      "title": "Pevná spojení a klouby",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 14
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 15
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pevné spojení kostí může být podle prezentace zajištěno chrupavkou, vazivem nebo kostí. Příklady: spona stydká, švy lebky a srůst částí pánevní kosti.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pohyblivé spojení představuje kloub. Rozliš kloubní plochy, pouzdro a dutinu. Povrch hlavice a jamky pokrývá chrupavka; kloubní maz snižuje tření a usnadňuje pohyb.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Hlavice a jamka jsou protilehlé kloubní plochy. Chrupavka a kloubní maz nejsou jejich další názvy: mají v popisu odlišnou roli.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 15
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e51b1d5d4ff53cde6457d99d8f35faaa93968f1dbada3a55e4229bdc5c5e503b.webp",
+          "alt": "Schéma kyčelního kloubu s hlavicí stehenní kosti a jamkou pánevní kosti",
+          "caption": "Na konkrétním spojení ukaž hlavici, jamku a jejich vzájemnou polohu. Původní snímek 15.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 15
+            }
+          ],
+          "source_media": "extracted/10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03/media/slide-015-image-001.png",
+          "width": 400,
+          "height": 392
+        }
+      ]
+    },
+    {
+      "id": "pater",
+      "title": "Páteř, obratel a prohnutí",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 18
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 19
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 20
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 21
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 22
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 24
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Páteř se skládá z obratlů. Na obratli rozliš tělo, oblouk a výběžky; v popsaném obrázku jsou také obratlový otvor, trnový a příčný výběžek. Řada obratlů vytváří páteřní kanál a mezi obratli se nacházejí meziobratlové ploténky.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 18
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Krčních obratlů je ve zdroji 7.",
+            "Hrudních obratlů 12, bederních 5.",
+            "Křížový oddíl je uveden s 5 obratli; kostrč se 4–5."
+          ],
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 20
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Atlas neboli nosič je první krční obratel. Zdroj zdůrazňuje, že nemá tělo a jeho spojení s lebkou souvisí s kývavými pohyby. Axis neboli čepovec má zub a je spojován s otáčivými pohyby hlavy.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 20
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lordóza znamená prohnutí dopředu a je zde uvedena v krční a bederní části. Kyfóza je prohnutí dozadu v hrudní a křížové části. Skoliózu zdroj popisuje jako vybočení páteře do stran.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 24
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b42a19e684f191400a6bc9eb1bc3e8b86426b9e2a8413ba41408c08b92ce51d3.webp",
+          "alt": "Popsaný obratel s obratlovým otvorem, obloukem a příčným a trnovým výběžkem",
+          "caption": "Nejdřív ukaž otvor a oblouk, potom oba typy výběžků. Původní snímek 19.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 19
+            }
+          ],
+          "source_media": "extracted/10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03/media/slide-019-image-001.png",
+          "width": 557,
+          "height": 466
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Atlas – nosič",
+          "Axis – čepovec"
+        ],
+        "rows": [
+          {
+            "label": "Pořadí",
+            "values": [
+              "První krční obratel",
+              "Druhý krční obratel"
+            ]
+          },
+          {
+            "label": "Znak zdůrazněný ve zdroji",
+            "values": [
+              "Nemá tělo",
+              "Má zub směřující vzhůru"
+            ]
+          },
+          {
+            "label": "Pohyb v prezentaci",
+            "values": [
+              "Kývavý",
+              "Otáčivý"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hrudnik",
+      "title": "Žebra, hrudní kost a hrudník",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 25
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 26
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hrudník neboli thorax tvoří žebra, hrudní kost a hrudní obratle. Prezentace jej spojuje s ochranou srdce a plic. Hrudní kost rozděluje na rukojeť, tělo a mečovitý výběžek.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 26
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Prvních 7 párů jsou žebra pravá: chrupavkou se spojují s hrudní kostí.",
+            "Další 3 páry jsou nepravé: spojují se s chrupavkou posledního páru pravých žeber.",
+            "Poslední 2 páry jsou volné."
+          ],
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Počty 7 + 3 + 2 si spojuj se způsobem připojení, ne pouze s pořadím tří názvů.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horni-koncetina",
+      "title": "Horní končetina od pletence po prsty",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 27
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 30
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 31
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 33
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 34
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 35
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 37
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 38
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pletenec horní končetiny tvoří klíční kost a lopatka. Volná končetina pokračuje kostí pažní, kostmi předloktí, zápěstím, záprstím a články prstů.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 27
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 30
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pažní kost se označuje humerus. Předloktí tvoří kost vřetenní a loketní. Pro rozlišení jejich dolních částí použij strany ruky: vřetenní je na palcové, loketní na malíkové straně. Flexe znamená ohnutí, extenze natažení.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 31
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 33
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 34
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zápěstních kostí je 8 ve dvou řadách po čtyřech.",
+            "Záprstních kostí je 5.",
+            "Palec má 2 články, ostatní prsty po 3."
+          ],
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 37
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 38
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Kost vřetenní",
+          "Kost loketní"
+        ],
+        "rows": [
+          {
+            "label": "Strana ruky",
+            "values": [
+              "Palcová",
+              "Malíková"
+            ]
+          },
+          {
+            "label": "Úsek končetiny",
+            "values": [
+              "Předloktí",
+              "Předloktí"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Pletenec a paže",
+          "text": "Začni klíční kostí a lopatkou a pokračuj k pažní kosti.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 27
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 30
+            }
+          ]
+        },
+        {
+          "title": "Dvojice předloktí",
+          "text": "Podle palce rozliš vřetenní kost; na malíkové straně vyhledej loketní kost.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 31
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 34
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "title": "Ruka",
+          "text": "Pokračuj k osmi zápěstním kostem, pěti záprstním kostem a článkům prstů.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 37
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dolni-koncetina",
+      "title": "Dolní končetina a klenba nohy",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 40
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 41
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 43
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 44
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 45
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 46
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 47
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 48
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 49
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 50
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pletenec dolní končetiny tvoří kost pánevní vzniklá srůstem kosti kyčelní, stydké a sedací. Kost stehenní neboli femur je v prezentaci označena jako nejdelší a nejsilnější kost těla.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 40
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 41
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kolenní kloub spojuje stehenní kost, holenní kost a čéšku. V bérci je holenní kost na palcové a lýtková na malíkové straně. Holenní kost tvoří základ vnitřního kotníku, lýtková zevního; oba kotníky vytvářejí vidlici pro hlezenní kloub.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 43
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 44
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 45
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Zánártních kostí je 7. Patní kost je nejmohutnější z nich a na její hrbol se upíná Achillova šlacha. Chodidlo je příčně i podélně klenuté; zdroj u klenby uvádí mezikostní svaly a šlachy.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 47
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 48
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 49
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/ec74d2791f724c0284f90e96b1e611e9e73cf05c252343c92583da3feeca7e1b.webp",
+          "alt": "Popsané kosti bérce zepředu s vnitřním a zevním kotníkem",
+          "caption": "Na obrázku bérce rozliš holenní a lýtkovou kost a jejich kotníky. Původní snímek 46.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 46
+            }
+          ],
+          "source_media": "extracted/10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03/media/slide-046-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Kost holenní",
+          "Kost lýtková"
+        ],
+        "rows": [
+          {
+            "label": "Strana bérce",
+            "values": [
+              "Palcová",
+              "Malíková"
+            ]
+          },
+          {
+            "label": "Kotník",
+            "values": [
+              "Vnitřní",
+              "Zevní"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "lebka",
+      "title": "Lebka a jazylka",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 51
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 52
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 53
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 55
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 56
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 58
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 59
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lebka má mozkovou a obličejovou část. Mozková část chrání mozek a rozlišuje se u ní klenba a spodina. Mezi kostmi spodiny zdroj uvádí kost týlní, klínovou a spánkovou.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 51
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 52
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Horní čelist a kost lícní jsou popsány jako párové.",
+            "Dvě nosní kosti tvoří kostěný podklad nosního hřbetu; slzní kost leží ve vnitřní stěně očnice.",
+            "Radličná kost je součást nosní přepážky.",
+            "Dolní čelist je kloubně spojena s kostí spánkovou.",
+            "Jazylka je nepárová, podpírá jazyk a slouží jako závěs pro hrtan."
+          ],
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 55
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 56
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U lebky novorozence zdroj zdůrazňuje malou obličejovou část. Doprovodný obrázek pojmenovává švy a fontanely; při práci s ním odliš popisovanou oblast od konkrétní kosti.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 58
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 59
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5c403738240fdcdd0af20d327f964782838daa3919dba83274abbaa2904fcf9c.webp",
+          "alt": "Barevně rozlišené kosti na spodině lební s legendou, velkým týlním otvorem a kloubními hrboly",
+          "caption": "Spodina lební: nejprve najdi velký týlní otvor a pak porovnej kosti s legendou. Původní snímek 53.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 53
+            }
+          ],
+          "source_media": "extracted/10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03/media/slide-053-image-001.jpg",
+          "width": 1360,
+          "height": 880
+        }
+      ]
+    },
+    {
+      "id": "onemocneni-pojmy",
+      "title": "Onemocnění jako přehled pojmů",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 61
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 62
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 63
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Závěr prezentace uvádí dnu, artrózu, osteoporózu a revmatoidní artritidu. Jde zde o školní přehled názvů; z něj nelze určovat diagnózu ani léčbu konkrétního člověka.",
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 61
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 62
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 63
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dna je ve zdroji spojena s kyselinou močovou a jejím usazováním v kloubech.",
+            "Artrózu zdroj popisuje pomocí rozpadu chrupavky a vzájemného tření kostí.",
+            "Osteoporóza je uvedena jako řídnutí kostí.",
+            "Revmatoidní artritida je popsána jako zánětlivé autoimunitní onemocnění."
+          ],
+          "source_refs": [
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 61
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 62
+            },
+            {
+              "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+              "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+              "page": 63
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "diafyza",
+      "front": "Co je diafýza?",
+      "back": "Tělo neboli střední část dlouhé kosti.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 3
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "epifyza",
+      "front": "Co je epifýza?",
+      "back": "Konec dlouhé kosti.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 3
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "osifikace",
+      "front": "Jak se nazývá kostnatění?",
+      "back": "Osifikace.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "okostice",
+      "front": "S čím zdroj spojuje okostici?",
+      "back": "S výživou kosti díky cévám a nervům a s růstem do šířky díky kostitvorným buňkám.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "spongiozni",
+      "front": "Jak je popsána houbovitá kost?",
+      "back": "Jako soustava trámečků; jejich uspořádání podle zatížení je architektonika.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "kompaktni",
+      "front": "Co obklopují lamely hutné kosti?",
+      "back": "Haversovy kanálky, v nichž jsou uloženy cévy.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "kloubni-maz",
+      "front": "Jaká je uvedená funkce kloubního mazu?",
+      "back": "Snižuje tření a usnadňuje pohyb.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "atlas-axis",
+      "front": "Který je nosič a který čepovec?",
+      "back": "Atlas je první krční obratel, nosič; axis je druhý krční obratel, čepovec.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 20
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "lordoza-kyfoza",
+      "front": "Jak odlišíš lordózu a kyfózu?",
+      "back": "Lordóza je prohnutí dopředu, kyfóza dozadu.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "id": "zebra",
+      "front": "Jaké počty párů uvádí zdroj u pravých, nepravých a volných žeber?",
+      "back": "7 pravých, 3 nepravé a 2 volné páry.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "id": "predlokti",
+      "front": "Která kost předloktí je na palcové straně?",
+      "back": "Kost vřetenní. Kost loketní je na malíkové straně.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 31
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 34
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 35
+        }
+      ]
+    },
+    {
+      "id": "prsty",
+      "front": "Kolik článků mají prsty ruky?",
+      "back": "Palec 2, ostatní prsty po 3.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 38
+        }
+      ]
+    },
+    {
+      "id": "femur",
+      "front": "Která kost je femur?",
+      "back": "Kost stehenní, v prezentaci nejdelší a nejsilnější kost lidského těla.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "id": "kotniky",
+      "front": "Která kost tvoří vnitřní a která zevní kotník?",
+      "back": "Vnitřní kotník tvoří holenní kost, zevní lýtková kost.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 44
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 45
+        }
+      ]
+    },
+    {
+      "id": "jazylka",
+      "front": "Jak je ve zdroji popsána jazylka?",
+      "back": "Nepárová kost, která podpírá jazyk a slouží jako závěs pro hrtan.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 56
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-diafyza",
+      "prompt": "Jak nazveš tělo dlouhé kosti?",
+      "options": [
+        "Epifýza",
+        "Diafýza",
+        "Kloubní dutina"
+      ],
+      "answer": 1,
+      "explanation": "Diafýza je tělo dlouhé kosti. Epifýzy jsou její konce; kloubní dutina je součást kloubu.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 3
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 5
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "q-rust",
+      "prompt": "Které přiřazení růstu kosti souhlasí se zdrojem?",
+      "options": [
+        "Do délky – růstové chrupavky; do šířky – kostitvorné buňky okostice",
+        "Do délky – kloubní maz; do šířky – jadérko",
+        "Do délky – Haversovy kanálky; do šířky – švy lebky"
+      ],
+      "answer": 0,
+      "explanation": "Snímek 4 spojuje růst do délky s růstovými chrupavkami, snímek 7 růst do šířky s buňkami okostice. Maz usnadňuje pohyb v kloubu.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 4
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 7
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "q-formy-kosti",
+      "prompt": "Které tvrzení patří k houbovité kosti?",
+      "options": [
+        "Je tvořena pouze kloubním mazem",
+        "Její lamely jsou popsány výhradně kolem Haversových kanálků",
+        "Má soustavu kostních trámečků uspořádaných podle zatížení"
+      ],
+      "answer": 2,
+      "explanation": "Soustava trámečků a architektonika jsou uvedeny u houbovité kosti. Kruhové lamely kolem Haversových kanálků se týkají hutné kosti.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 11
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "q-spojeni",
+      "prompt": "Která dvojice představuje příklady pevného spojení kostí ze zdroje?",
+      "options": [
+        "Loketní a kolenní kloub",
+        "Švy lebky a spona stydká",
+        "Hlavice a kloubní maz"
+      ],
+      "answer": 1,
+      "explanation": "Švy jsou příklad vazivového a spona stydká chrupavčitého spojení. Klouby patří mezi pohyblivá spojení.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 14
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "q-atlas",
+      "prompt": "Jaký znak prezentace zdůrazňuje u atlasu?",
+      "options": [
+        "Je to první krční obratel a nemá tělo",
+        "Je to druhý krční obratel se zubem",
+        "Je to hrudní kost se třemi částmi"
+      ],
+      "answer": 0,
+      "explanation": "Atlas neboli nosič je první krční obratel bez těla. Zub je zdůrazněn u axisu, druhého krčního obratle.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 20
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "q-pater",
+      "prompt": "Který popis odpovídá kyfóze podle zdroje?",
+      "options": [
+        "Vybočení páteře do stran",
+        "Prohnutí páteře dopředu",
+        "Prohnutí páteře dozadu"
+      ],
+      "answer": 2,
+      "explanation": "Kyfóza je prohnutí dozadu; lordóza dopředu a skolióza vybočení do stran.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "id": "q-zebra",
+      "prompt": "Které žebro je podle přehledu označeno jako pravé?",
+      "options": [
+        "Patří k prvním 7 párům a chrupavkou se připojuje k hrudní kosti",
+        "Patří k posledním 2 volným párům",
+        "Patří ke 3 párům připojeným k chrupavce posledního pravého páru"
+      ],
+      "answer": 0,
+      "explanation": "Prvních 7 párů jsou pravá žebra. Další 3 páry jsou nepravé a poslední 2 volné.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "id": "q-hrudnik",
+      "prompt": "Která sestava tvoří hrudník?",
+      "options": [
+        "Lopatka, klíční kost a humerus",
+        "Žebra, hrudní kost a hrudní obratle",
+        "Kost pánevní, femur a čéška"
+      ],
+      "answer": 1,
+      "explanation": "Prezentace definuje thorax jako žebra, hrudní kost a hrudní obratle. Ostatní sestavy patří ke končetinám.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 26
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 27
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 40
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 41
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 43
+        }
+      ]
+    },
+    {
+      "id": "q-predlokti",
+      "prompt": "Na palcové straně ruky hledáš dolní část které kosti předloktí?",
+      "options": [
+        "Kosti loketní",
+        "Kosti pažní",
+        "Kosti vřetenní"
+      ],
+      "answer": 2,
+      "explanation": "Kost vřetenní je ve zdroji na palcové straně; loketní na malíkové. Pažní kost není kostí předloktí.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 31
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 34
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 35
+        }
+      ]
+    },
+    {
+      "id": "q-ruka",
+      "prompt": "Které počty odpovídají zápěstí, záprstí a článkům palce?",
+      "options": [
+        "8 zápěstních, 5 záprstních, 2 články palce",
+        "5 zápěstních, 8 záprstních, 3 články palce",
+        "7 zápěstních, 5 záprstních, 2 články každého prstu"
+      ],
+      "answer": 0,
+      "explanation": "Snímek 38 uvádí 8 zápěstních kostí, 5 záprstních a 2 články palce. Ostatní prsty mají po 3 článcích.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 38
+        }
+      ]
+    },
+    {
+      "id": "q-kotnik",
+      "prompt": "Které přiřazení kotníků je správné?",
+      "options": [
+        "Lýtková kost – vnitřní; holenní – zevní",
+        "Holenní kost – vnitřní; lýtková – zevní",
+        "Stehenní kost – oba kotníky"
+      ],
+      "answer": 1,
+      "explanation": "Holenní kost tvoří základ vnitřního kotníku a lýtková zevního. Stehenní kost leží nad bércem.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 43
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 44
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 45
+        }
+      ]
+    },
+    {
+      "id": "q-jazylka",
+      "prompt": "Jaká je uvedená funkce jazylky?",
+      "options": [
+        "Chrání mozek jako lební klenba",
+        "Tvoří palcovou stranu předloktí",
+        "Podpírá jazyk a slouží jako závěs pro hrtan"
+      ],
+      "answer": 2,
+      "explanation": "Jazylka je popsána jako nepárová kost s oporou jazyka a závěsem pro hrtan. Ochrana mozku patří k mozkové části lebky.",
+      "source_refs": [
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 51
+        },
+        {
+          "id": "40362b2f916185d85eacf27727b7a40788f9a8ba637b3661256ced73388a0e6b",
+          "sha256": "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03",
+          "page": 56
+        }
+      ]
+    }
+  ]
+}

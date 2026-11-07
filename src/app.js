@@ -18,6 +18,7 @@ const monthFormat = new Intl.DateTimeFormat('cs-CZ',{month:'long',year:'numeric'
 const fullDate = key => new Intl.DateTimeFormat('cs-CZ',{day:'numeric',month:'long',year:'numeric'}).format(parseDate(key));
 const dayName = key => new Intl.DateTimeFormat('cs-CZ',{weekday:'long'}).format(parseDate(key));
 const esc = text => String(text).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const counted = (count,one,few,many) => `${count} ${count===1?one:count>=2&&count<=4?few:many}`;
 const subjectStyle = s => `--subject:${s.color};--tint:${s.tint}`;
 const schoolEventStyle = {name:'Školní akce',color:'#527c8a',tint:'#edf4f6',icon:'calendar'};
 const eventSubject = event => eventContext(event).subject || schoolEventStyle;
@@ -68,7 +69,7 @@ function renderCalendar() {
 function subjectCard(subject) {
   const subjectUnits=units.filter(u=>u.subjectId===subject.id&&u.kind!=='collection');
   const count=events.filter(e=>getUnit(e.unitId)?.subjectId===subject.id).length;
-  return `<a class="subject-card" href="#/subjects/${subject.id}" style="${subjectStyle(subject)}"><span class="subject-icon">${icon(subject.icon)}</span><div class="subject-card-top"><span>${subjectUnits.length} ${subjectUnits.length===1?'téma':'témata'}</span>${icon('arrow')}</div><h2>${subject.name}</h2><p>${subject.description}</p><div class="subject-card-foot"><span class="subject-dot"></span>${subjectUnits.some(u=>u.module)?'Materiály a procvičování':'Materiály zatím nepřidány'}<span>${count} ${count===1?'termín':'termíny'}</span></div></a>`;
+  return `<a class="subject-card" href="#/subjects/${subject.id}" style="${subjectStyle(subject)}"><span class="subject-icon">${icon(subject.icon)}</span><div class="subject-card-top"><span>${counted(subjectUnits.length,'téma','témata','témat')}</span>${icon('arrow')}</div><h2>${subject.name}</h2><p>${subject.description}</p><div class="subject-card-foot"><span class="subject-dot"></span>${subjectUnits.some(u=>u.module)?'Materiály a procvičování':subjectUnits.some(u=>u.materials.length)?'Původní podklady':'Materiály zatím nepřidány'}<span>${counted(count,'termín','termíny','termínů')}</span></div></a>`;
 }
 function renderSubjects() {
   main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">TVŮJ STUDIJNÍ PROSTOR</p><h1>Každý předmět má své místo.</h1><p>Od prvních poznámek až po poslední opakování.</p></div></section><div class="subjects-grid">${subjects.map(subjectCard).join('')}</div><div class="subtle-note">${icon('layers')}<div><h3>Prostor pro další témata</h3><p>Každý předmět může obsahovat více jednotek, materiálů i termínů.</p></div></div>`;
@@ -77,9 +78,14 @@ function renderSubjects() {
 function renderSubject(subject) {
   const subjectUnits=units.filter(unit=>unit.subjectId===subject.id&&unit.kind!=='collection');
   const subjectEvents=events.filter(event=>getUnit(event.unitId)?.subjectId===subject.id);
-  main.innerHTML=`<section class="subject-overview" style="${subjectStyle(subject)}"><div class="subject-overview-heading"><span class="subject-icon">${icon(subject.icon)}</span><p class="eyebrow">TVŮJ PŘEDMĚT</p></div><h1>${subject.name}</h1><p>${subject.description}</p></section>
-    <section aria-label="Studijní témata"><div class="section-heading"><h2>Témata a příprava</h2><span>${subjectUnits.length} ${subjectUnits.length===1?'téma':'témata'}</span></div><div class="unit-list">${subjectUnits.map(unit=>`<a class="unit-card" href="#/units/${unit.id}" style="${subjectStyle(subject)}"><div><p class="eyebrow">${unit.label||'STUDIJNÍ TÉMA'}</p><h2>${esc(unit.title)}</h2><p>${esc(unit.description)}</p><span class="text-link">Otevřít téma ${icon('arrow')}</span></div><span class="unit-card-icon">${icon('book')}</span></a>`).join('')}</div></section>
+  const groups=new Map();
+  for(const unit of subjectUnits.filter(unit=>unit.origin==='moodle')){const key=unit.course_variant||'JU3';if(!groups.has(key))groups.set(key,[]);groups.get(key).push(unit);}
+  const legacy=subjectUnits.filter(unit=>unit.origin!=='moodle');if(legacy.length)groups.set('Původní studijní nástroje',legacy);
+  const card=unit=>`<a class="unit-card course-topic-card" data-topic-search="${esc(unit.title.toLocaleLowerCase('cs-CZ'))}" href="#/units/${unit.id}" style="${subjectStyle(subject)}"><div><p class="eyebrow">${esc(unit.label||'STUDIJNÍ TÉMA')}</p><h2>${esc(unit.title)}</h2><p>${esc(unit.description)}</p>${unit.origin==='moodle'?`<p class="topic-availability">${unit.available===false?'Nyní nepřístupné':`${unit.sourceCount} zdrojů · ${unit.lessonCount} lekcí${unit.questionCount?` · ${unit.questionCount} otázek`:''}`}</p>`:''}<span class="text-link">Otevřít téma ${icon('arrow')}</span></div><span class="unit-card-icon">${icon(unit.module?'book':'file')}</span></a>`;
+  main.innerHTML=`<section class="subject-overview" style="${subjectStyle(subject)}"><div class="subject-overview-heading"><span class="subject-icon">${icon(subject.icon)}</span><p class="eyebrow">TVŮJ PŘEDMĚT</p></div><h1>${esc(subject.name)}</h1><p>${esc(subject.description)}</p></section>
+    <section aria-label="Studijní témata"><div class="section-heading"><h2>Témata a příprava</h2><span>${counted(subjectUnits.length,'téma','témata','témat')}</span></div><label class="topic-search-label" for="topic-search">Najít téma</label><input class="topic-search" id="topic-search" type="search" placeholder="Název tématu" autocomplete="off"><p id="topic-search-status" class="topic-availability" aria-live="polite"></p>${[...groups].map(([name,items])=>`<section class="course-topic-group"><h3>${esc(name)}</h3><div class="unit-list">${items.map(card).join('')}</div></section>`).join('')}</section>
     ${subjectEvents.length?`<section class="upcoming-section"><div class="section-heading"><h2>Termíny předmětu</h2></div><div class="upcoming-grid">${subjectEvents.map(event=>eventCard(event)).join('')}</div></section>`:''}`;
+  const search=main.querySelector('#topic-search');search.oninput=()=>{let count=0;const query=search.value.trim().toLocaleLowerCase('cs-CZ');for(const card of main.querySelectorAll('[data-topic-search]')){card.hidden=!card.dataset.topicSearch.includes(query);if(!card.hidden)count++;}for(const group of main.querySelectorAll('.course-topic-group'))group.hidden=![...group.querySelectorAll('[data-topic-search]')].some(card=>!card.hidden);main.querySelector('#topic-search-status').textContent=query?`Nalezeno témat: ${count}`:'';};
   document.title=`${subject.name} — study lo`;
 }
 function renderPractice() {
@@ -97,6 +103,7 @@ function renderPractice() {
     {unit:'trig-functions',mode:'cards',icon:'layers',title:'Matematické kartičky',copy:'Úhly, funkce a trojúhelníkové věty.'},
     {unit:'trig-equations',mode:'quiz',icon:'check',title:'Kvíz ze vzorců a rovnic',copy:'Ověř si výsledek a přečti vysvětlení.'},
   ];
+  options.push(...units.filter(unit=>unit.module==='course-notes'&&unit.questionCount>0&&unit.available!==false).map(unit=>({unit:unit.id,mode:'practice',icon:'check',title:unit.title,copy:`${unit.questionCount} otázek s vysvětlením ze schválených podkladů.`})));
   main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">KROK ZA KROKEM</p><h1>Co si dnes procvičíš?</h1><p>Vyber si způsob učení, který ti právě sedí.</p></div></section><div class="practice-grid">${options.map(o=>{const s=getSubject(getUnit(o.unit).subjectId);return `<a class="practice-card" href="#/units/${o.unit}?mode=${o.mode}" style="${subjectStyle(s)}"><div class="practice-card-top"><span class="subject-icon">${icon(o.icon)}</span><span class="subject-pill">${s.name}</span></div><h2>${o.title}</h2><p>${o.copy}</p><span class="text-link">Začít procvičování ${icon('arrow')}</span></a>`;}).join('')}</div>`;
 }
 
@@ -112,6 +119,8 @@ async function renderUnit(unit,event,params,version) {
     const next=new URLSearchParams(params);next.set('tab',b.dataset.tab);navigation.navigate(`${path}?${next}`);
   };
   main.querySelectorAll('[data-tab]').forEach(b=>{b.setAttribute('aria-selected',b.dataset.tab===activeTab);b.tabIndex=b.dataset.tab===activeTab?0:-1;b.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const all=[...main.querySelectorAll('[data-tab]')],index=all.indexOf(b);const target=e.key==='Home'?all[0]:e.key==='End'?all.at(-1):all[(index+(e.key==='ArrowRight'?1:all.length-1))%all.length];target.click();setTimeout(()=>main.querySelector(`[data-tab="${target.dataset.tab}"]`)?.focus(),0);});});
+  const related=unit.origin==='moodle'?(unit.legacyUnitIds||[]).map(getUnit).filter(Boolean):units.filter(item=>item.legacyUnitIds?.includes(unit.id));
+  if(related.length){const nav=document.createElement('nav');nav.className='related-course-topics';nav.setAttribute('aria-label','Související témata');nav.innerHTML='<span>Související témata:</span>'+related.map(item=>`<a href="#/units/${item.id}">${esc(item.title)}</a>`).join('');main.querySelector('.unit-hero').append(nav);}
   const panel=main.querySelector('#unit-panel');
   if(activeTab==='materials') {
     panel.innerHTML=`<div class="panel-intro"><h2>Materiály po ruce.</h2><p>Původní studijní podklady, připravené ke čtení i stažení.</p></div>${unit.materials.length?`<div class="materials-grid">${unit.materials.map(m=>`<a class="material-card" href="${esc(m.url)}" target="_blank" rel="noopener">${icon('file')}<div><h3>${esc(m.title)}</h3><p>${esc(m.description)}</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div>`:emptyMaterials()}`;
@@ -120,6 +129,11 @@ async function renderUnit(unit,event,params,version) {
   if(unit.kind==='collection') {
     const related=(unit.relatedUnitIds||[]).map(getUnit).filter(Boolean);
     panel.innerHTML=`<div class="panel-intro"><h2>${activeTab==='progress'?'Tvůj postup v tématech':'Vyber si téma k opakování.'}</h2><p>Stručné poznámky, ovladatelné vizualizace a procvičování ze tří dodaných prezentací.</p></div><div class="unit-list">${related.map(item=>`<a class="unit-card" href="#/units/${item.id}${activeTab==='progress'?'?tab=progress':''}" style="${subjectStyle(s)}"><div><p class="eyebrow">${esc(item.label)}</p><h2>${esc(item.title)}</h2><p>${esc(item.description)}</p><span class="text-link">${activeTab==='progress'?'Zobrazit postup':'Otevřít téma'} ${icon('arrow')}</span></div><span class="unit-card-icon">${icon('function')}</span></a>`).join('')}</div>`;
+    return;
+  }
+  if(!unit.module&&unit.origin==='moodle') {
+    const related=(unit.legacyUnitIds||[]).map(getUnit).filter(Boolean);
+    panel.innerHTML=`<div class="panel-intro"><h2>${unit.available===false?'Téma nyní není zpřístupněné.':unit.materials.length?'Původní podklady k tématu.':'Podklady zatím nejsou zveřejněné.'}</h2><p>${unit.available===false?'Zobrazuje se skutečná položka školního kurzu. Nové výpisky se zde nevytvářejí bez dostupných podkladů.':unit.materials.length?'Můžeš otevřít schválené původní zdroje. Redakčně ověřené výpisky a procvičování se přidávají samostatně.':'Název i pořadí odpovídají školnímu kurzu. K tomuto tématu zatím nejsou dostupné schválené zdroje ani výpisky.'}</p></div>${unit.materials.length?`<div class="materials-grid">${unit.materials.map(material=>`<a class="material-card" href="${esc(material.url)}" target="_blank" rel="noopener"><div><h3>${esc(material.title)}</h3><p>Původní schválený zdroj</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div>`:''}${related.length?`<section class="legacy-tools"><h3>Související interaktivní nástroje</h3>${related.map(item=>`<a class="button" href="#/units/${item.id}">${esc(item.title)} ${icon('arrow')}</a>`).join('')}</section>`:''}`;
     return;
   }
   if(!unit.module) {
@@ -131,15 +145,16 @@ async function renderUnit(unit,event,params,version) {
     const module=await moduleLoaders[unit.module]();
     if(version!==routeVersion)return;
     if(activeTab==='progress') {
-      const progress=module.getProgress();
+      const progress=module.getProgress(unit);
       const isBio=unit.module==='biology';
-      const counts=isBio?[[progress.mastered||0,'zvládnutých položek'],[progress.total||64,'položek v atlasu'],[(progress.results||[]).length,'uložených výsledků']]:[[(progress.knownCards||[]).length,'známých kartiček'],[(progress.readLessons||[]).length,'přečtených lekcí'],[(progress.attempts||[]).length,'dokončených testů']];
-      panel.innerHTML=`<div class="panel-intro"><h2>Každé opakování se počítá.</h2><p>Postup pro ${s.name} se ukládá automaticky v tomto prohlížeči.</p></div><div class="progress-grid">${counts.map(([n,l])=>`<div class="progress-card"><strong>${n}</strong><span>${l}</span></div>`).join('')}</div><a class="button primary" href="${location.hash.split('?')[0]}">Pokračovat v učení ${icon('arrow')}</a><p class="storage-note">Ukládání je oddělené podle předmětu. Původní uložená data zůstávají zachovaná. Na jiném zařízení či jiné doméně se postup automaticky nepřenáší.</p>`;
+      const counts=isBio?[[progress.mastered||0,'zvládnutých položek'],[progress.total||64,'položek v atlasu'],[(progress.results||[]).length,'uložených výsledků']]:[[(progress.knownCards||[]).length,'známých kartiček'],[(progress.readLessons||[]).length,'přečtených lekcí'],[(progress.attempts||[]).length,unit.module==='course-notes'?'zodpovězených otázek':'dokončených testů']];
+      panel.innerHTML=`<div class="panel-intro"><h2>Každé opakování se počítá.</h2><p>Tvůj postup v tomto tématu se ukládá automaticky v tomto prohlížeči.</p></div><div class="progress-grid">${counts.map(([n,l])=>`<div class="progress-card"><strong>${n}</strong><span>${l}</span></div>`).join('')}</div><a class="button primary" href="${location.hash.split('?')[0]}">Pokračovat v učení ${icon('arrow')}</a><p class="storage-note">Ukládání je oddělené podle předmětu. Původní uložená data zůstávají zachovaná. Na jiném zařízení či jiné doméně se postup automaticky nepřenáší.</p>`;
       return;
     }
     panel.innerHTML=`<div class="module-frame" data-study-module="${unit.module}"></div>`;
     const host=panel.firstElementChild;
-    const cleanup=await module.mount(host,{mode:params.get('mode')||(isBiology(unit)?'atlas':'learn')});
+    host.style.setProperty('--subject',s.color);host.style.setProperty('--tint',s.tint);
+    const cleanup=await module.mount(host,{unit,mode:params.get('mode')||(isBiology(unit)?'atlas':'learn')});
     if(version!==routeVersion)cleanup?.();else cleanupModule=cleanup;
   } catch(error) {
     if(version!==routeVersion)return;

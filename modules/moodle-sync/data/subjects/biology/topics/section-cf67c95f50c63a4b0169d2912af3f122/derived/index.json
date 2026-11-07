@@ -2,5 +2,24 @@
   "schema": 1,
   "subject_id": "biology",
   "topic_id": "section-cf67c95f50c63a4b0169d2912af3f122",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "BIOLOGIE - JU3",
+      "kind": "notes",
+      "path": "data/subjects/biology/topics/section-cf67c95f50c63a4b0169d2912af3f122/derived/course-notes-v1/notes.json",
+      "sha256": "e351895754194a26b5e6d842f46e0d66f1587c79c0fb91926cc46ed6485997b8",
+      "source_refs": [
+        {
+          "id": "136a1514ad71f3c86ad4b95e37bfdf0b891f21244d1ecbf2b2ea76a6e5761f0d",
+          "sha256": "9afe10ecac96943c93ea07b736bba0987fd2e24f31b7ef7589e5e26d074da3f9"
+        },
+        {
+          "id": "7e79891701c3992050748b1baf3b536f2ddac1faa0411ec9efebc84d4d4103ed",
+          "sha256": "07098b23458adab1131bcee2cde6dc729ee2e81e2330ea5b8cf66290b7a911f0"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

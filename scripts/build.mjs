@@ -68,6 +68,7 @@ for (const file of files) {
   // Moodle materials stay available online without enlarging the automatic offline package.
   const relative = path.relative(dist, file).split(path.sep).join('/');
   if (relative.startsWith('modules/moodle-sync/files/') ||
+      relative.startsWith('modules/course-notes/extracted/') ||
       /^modules\/moodle-sync\/data\/subjects\/[^/]+\/topics\/[^/]+\/(?:sources|derived)\/(?!index\.json$)/.test(relative)) continue;
   const bytes = await readFile(file);
   assets.push({ url: path.relative(dist, file).split(path.sep).join('/'), bytes: bytes.length,

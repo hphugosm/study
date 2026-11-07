@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "sha256": "d6b0ca24efb1fdc1d8623b9da32092cf8fb0c24a6aa5a5444d069a5286ef08df",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "PL - Úvod do optiky\nŠíření světla\nOptické prostředí může být:\n•a\n-\n-\n•\n•\nIzotropní prostředí - prostředí, ve kterém je rychlost světla ve všech směrech stejná (sklo, voda, ...).\nAnizotropní prostředí - prostředí, ve kterém rychlost světla závisí na směru, kterým se vlny šíří.\nBodový zdroj světla - zdroj světla, který má zanedbatelnou velikost\nVlnoplocha - plocha, jejíž body kmitají se stejnou fází (jsou ve stejném okamžiku ve stejné části svého kmitu)\nSměr šířenísvětla ve stejnorodém optickém prostředí udávají přímkykolména vlnoplochu, které se\nnazývají světelnépaprsky.\nPrincip nezávislosti chodu světelných paprsků:\nŠíření světla ze zdroje si zjednodušeně představujeme pomocí , které se\nnavzájem a postupují prostředím jeden na druhém.\nIndex lomu:\n1"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Odraz a lom světla\nK odrazu a lomu světelných paprsků dochází tehdy, jestliže světelný paprsek dopadá narozhraní dvou\nprostředís odlišnými optickými vlastnostmi.\nSvětelný paprsek dopadá na rozhraní dvou optických prostředí podúhlem dopaduα, který paprsek svírá s\nkolmicídopadukvztyčenou v místě dopadu na rozhraní optických prostředí.\nDopadající paprsek a kolmice dopadu tvoří rovinu - rovinu dopadu. Odražený paprsek svírá s kolmicí dopadu\núhel odrazuα ′.\nk\nZákon odrazu světla:Velikost úhlu odrazu se rovná velikosti úhlu dopadu, tedyα=α ′. Odražený\npaprsek leží v rovině dopadu.\nPříklad.Jak vysoké rovinné zrcadlo a v jaké výšce potřebuje stojící člověk vysoký 180 cm k tomu, aby se v\nněm viděl celý (od chodidel až po temeno hlavy)? Zrcadlo je umístěno na svislé stěně. Využijte geometrickou\nkonstrukci.\nZákon lomu světla:Jestliže se paprsek šíří v prostředí o indexu lomun 1 a dopadá na rozhraní pod\núhlemα, tak se ve druhém prostředí o indexu lomun 2 láme pod úhlemβ, přičemž platíSnellův zákon:\nn1 sinα=n 2 sinβ\nLom ke kolmici(n 1 < n 2)\nk\nLom od kolmice(n 1 > n 2)\nk\nPříklad.Světlo dopadá ze vzduchu do vody pod úhlem 35°. Urči pod jakým úhlem se bude světlo ve vodě\nšířit. Index lomu vody je 1,33.\n2"
+    }
+  ]
+}

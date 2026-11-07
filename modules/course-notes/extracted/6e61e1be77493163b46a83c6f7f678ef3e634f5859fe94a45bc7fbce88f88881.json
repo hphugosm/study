@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Encoding Images\n",
+      "text": "Encoding Images"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "How does a computer store a picture?\n",
+      "text": "How does a computer store a picture?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "A Picture Is a Grid of Pixels\n\nWhat does a Resolution mean?\n\nHD =\nFull HD =\n4K =\n",
+      "text": "A Picture Is a Grid of Pixels\n\nWhat does a Resolution mean?\n\nHD = \nFull HD = \n4K = "
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "speaker_notes": "1920 × 1080 = 2 073 600 pixels",
+      "text": "A Picture Is a Grid of Pixels\n\nWhat does a Resolution mean?\n\nHD = 1280 x 720\nFull HD = 1920 x 1080\n4K = 3840 x 2160\n\nHow many pixels are in one Full HD image?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "But what is pixel?\n\nWhat does RGB mean?\n",
+      "text": "But what is pixel?\n\n\nWhat does RGB mean?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "But what is pixel?\nPicture Element\n\nWhat does RGB mean?\nStands for Red, Green, Blue\n\nXO4 LCD\n",
+      "text": "But what is pixel?\nPicture Element\n\n\nWhat does RGB mean?\nStands for Red, Green, Blue"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "speaker_notes": "0-255 is 256 different numbers aka 2^8. Which is exactly how many combinations can one byte (= 8 bits) have. One pixel is 3 bytes.",
+      "text": "Pixel\nEach pixel is described by three numbers: (Red, Green, Blue)\n\nthe first number tells us how much red light the pixel emits,\nthe second how much green light it emits,\nand the third how much blue light it emits.\n\nEach RGB value is a number from 0 to 255.\n0 = none of that color\n255 = maximum amount of that color\nWhy exactly 0–255?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "text": "How many different colors can one pixel display?\n\nWhat color is:\u000b\t(0,0,0) \t\t\t=\n\t(255,255,255) \t= \n\t(0,255,0)\t\t\t=\n\t(0,0,255)\t\t\t="
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "text": "How many different colors can one pixel display?\n256x256x256 = 16 777 216\nWhat color is:\u000b\t(0,0,0) \t\t\t=\tBlack\n\t(255,255,255) \t= \tWhite\n\t(0,255,0)\t\t\t=\tGreen\n\t(0,0,255)\t\t\t=\tBlue"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "text": "Which model is used for pixels on a screen, and which one is used for mixing paints or printing colors?\nhttps://rgbcolorpicker.com/"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": "CMYK vs RGB"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "What do these color codes mean?\n\nfiFFFFFF\nH3D67C5\n\nblack silver white\n000000 H*HC0C0OCO AHEEAE\n(0,0,0) (192,192,192) (255,255,255)\n\nnavy blue teal\n000080 40000ff 008080\n(0,0,128) (0,0,255) (0,128,128)\n\ngreen\n008000\n\n(0,128,0)\n\nmaroon\n800000 800080\n(128,0,0) (128,0,128)\n\nHFFFFFF\n\n00+FF 00+FF 00+FF\n\nRGB\n\nrgb(255,255,255)\n\nRed — Green  Blue\n0-255 0-255 0-255\n\nRGBA\n\nrgba(255,255,255,1.0)\n\nAlpha\n0.0=1.0\n\nD-libro\n",
+      "text": "What do these color codes mean?\n\n#FFFFFF\n#3D67C5"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "text": "Powerpoint\nBlender\nMS Paint\nBoth RGB values and hexadecimal color codes are widely used to represent colors in digital design, websites, and graphics software."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "What does this picture show?\n\n(255,255,255)| — (0,0,0) (e,0,0) (e,e,e) (255,255,255) — (0,0,0) (0,0,0) (e,e,0) (e,0,0) (0,0,0)\n(0,0,0) | |(255,255,255) (255,255,255) (255,255,255) (255,255,255) (255,255,255) (255,255,255) (255,255,255) (255,255,255) — (0,0,0)\n(06,0,0) |(255,255,255) (255,255,255) (255,255,255) (255,255,255) (255,255,255) (255,255,255) (255,255,255)| — (0,0,0) | (255,255,255)\n(0,0,0) (0,0,0) (0,0,0) (06,0,0) (255,255,255) (255,255,255) (255,255,255) | (0,0,0) | (255,255,255) (255,255,255)\n(06,0,0) |(255,255,255) (255,255,255) (255,255,255) | (0,0,0) | (255,255,255) | (0,0,0) | (255,255,255) (255,255,255) (255,255,255)\n(06,0,06) |(255,255,255) (255,255,255) (255,255,255) | (0,0,0) | (255,255,255) | (0,0,0) | (255,255,255) (255,255,255) (255,255,255)\n\n(255,255,255)| — (0,0,0) (e,0,0) (e,e,e) (255,255,255) (255,255,255) | (0,0,0) | (255,255,255) (255,255,255) (255,255,255)\n\n",
+      "text": "What does this picture show?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "text": "How Big Is a Raw Full HD Image?\n1920 × 1080 = 2 073 600 pixels ≈ 2 Mpx\nRGB image (3 bytes per pixel)\nSo:\t\t2,073,600 × 3 = 6,220,800 bytes\n\n≈ 6 MB\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "text": "Mpx\nMore Mpx can mean more detail, but it does not automatically mean a better photo.\n\nMpx describes the image resolution, not necessarily the amount of real detail captured.\n12 Mpx means the camera can produce an image with about 12 million pixels."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "text": "The image is the pixels.\n\u000bThe file format decides how to store them.\n\nExamples:\nBMP\nPNG\nJPEG / JPG\nSVG\n\nSame image, different file size.\nImage vs Image File"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "text": "BMP files usually store raw pixel data without major compression, which keeps image quality high but results in large file sizes.\n.BMP"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "text": ".PNG= Portable Network Graphics\nstores the image as pixels (Raster)\nuses lossless compression\nafter opening the file, the original pixel values can be reconstructed exactly\nvery good at compressing areas with repeated or similar colors\nBest for:\nscreenshots\nlogos\ndiagrams\nGraphics with Transparency\n\nNot ideal for photographs because the file can become quite large.\nPNG saves space without throwing away image information."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "text": ".JPEG (JPG)\nstores the image as pixels (Raster)\nuses lossy compression\nremoves some image information to reduce file size\nworks especially well for photographs and smooth color gradients\nBest for: photographs and web images\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "text": ".JPEG (JPG)\nhttps://www.disk-project.eu/web/sv/do-you-know-jpg-compression/\nPsychovisual compression\n\tJPEG takes advantage of how our eyes work:\n\tWe notice changes in brightness and detail more than small changes in color.\n\n\tSo JPEG can store color information less precisely while keeping the image \tlooking almost the same to us.\n\n\tThis is called psychovisual compression — removing information that humans \tare less likely to notice.\n\nJPEG makes files smaller by sacrificing some image accuracy, especially information our eyes are less sensitive to.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "text": ". SVG  = Scalable Vector Graphics \nSVG is fundamentally different from PNG and JPEG (Raster X Vector image).\nInstead of storing every pixel, it stores instructions for drawing shapes like:\nlines\ncircles\nrectangles\ncurves\ntext\nBecause the shapes are calculated again whenever the image is displayed, SVG can be enlarged without becoming pixelated.\nBest for:\nlogos\nicons\ndiagrams\nNot suitable for normal photographs."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 23",
+      "number": 23,
+      "text": "How Can We Make Images Smaller?\nReduce the resolution\u000bFewer pixels = less data to store.\nReduce the number of colors\u000bUse fewer possible color values or a smaller color palette.\nUse lossless compression\u000bStore repeated patterns more efficiently without losing information.\u000bExample: PNG\nUse lossy compression\u000bRemove some less noticeable image information.\u000bExample: JPEG\nChoose the right file format\u000bDifferent formats are better for different types of images."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 24",
+      "number": 24,
+      "text": "Green Screen / Blue Screen\nHow does it work?\nThe computer checks the RGB values of each pixel.\nIf a pixel is close to the chosen screen color, it is removed or made transparent.\nA new background is then placed behind the subject.\nExample:\n(20, 230, 30) → very green → probably part of the green screen.\n\nWhy Green and Blue, but not Red?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 25",
+      "number": 25,
+      "text": "Why green?\ncamera sensors capture green very well\ngreen is usually very different from human skin tones\nit gives a clean separation from the person\nWhy blue?\nBlue screen works the same way and is useful when:\nthe subject is wearing green\nthe scene contains green objects\nWhy not red?\nRed is much closer to skin tones, lips, and many natural colors, so removing red could accidentally remove parts of the person."
+    }
+  ]
+}

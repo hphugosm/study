@@ -2,5 +2,24 @@
   "schema": 1,
   "subject_id": "mathematics",
   "topic_id": "section-19b4bf717ba5fb504c592cbdd891923b",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Stereometrie",
+      "kind": "notes",
+      "path": "data/subjects/mathematics/topics/section-19b4bf717ba5fb504c592cbdd891923b/derived/course-notes-v1/notes.json",
+      "sha256": "6d2782657ca09769487cc11dda9b809d82e806398235cdfad3558a5e602338d1",
+      "source_refs": [
+        {
+          "id": "924898a3f3817bc6245f8f00bd648de0c47acbc313666a721bf03cc6b5eb1b88",
+          "sha256": "126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345"
+        },
+        {
+          "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+          "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

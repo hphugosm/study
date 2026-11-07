@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "ZEMĚPIS – INFORMACE K PŘEDMĚTU"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": "KONTAKTNÍ INFORMACE:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": "Vyučující: Mgr. Kristýna Pamánková (kabinet 447, 4. patro)"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": "Počet hodin semináře ze zeměpisu týdně: 1"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": "Kurz JU3ABCDE na platformě Moodle"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": "Konzultační hodiny:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 8",
+      "number": 8,
+      "text": "Dopisování testů, vysvětlení nesrovnalostí"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": "Termíny KH (kabinet 447): pondělí 8:00-8:25, pátek 8:00-8:25"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": "Prosím, informujte mě, že na konzultaci přijdete, abych se na to mohla připravit."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": "Zároveň se někdy může stát, že konzultace odpadne, tak abyste do školy nešli zbytečně dříve."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": "KLASIFIKAČNÍ KRITÉRIA: "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 14",
+      "number": 14,
+      "text": "Minimální počet známek za pololetí: 3 známek s vyšší váhou.  Známka za práci v hodině se do tohoto součtu nezapočítává. Známka za práci v hodině slouží pouze ke zlepšení průměru."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 15",
+      "number": 15,
+      "text": "Při nedostatečném počtu známek nebo při absenci přesahující 25 % nebude žák/žákyně z předmětu klasifikován a bude vykonávat doplňkové zkoušky. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 16",
+      "number": 16,
+      "text": "Váhy známek: práce v hodině (0,1 – 0, 2), pracovní list (0,3), prezentace (0,5), malý projekt (0,5) malá test a slepá mapa (0,6), ústní zkoušení, velký test a velký projekt (1,0). Škály známek mohou být ještě upraveny dle potřeb vyučujícího."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 17",
+      "number": 17,
+      "text": "Testy budou ohlašovány minimálně týden dopředu, a to do systému školy online. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 18",
+      "number": 18,
+      "text": "Informace (kolonka i) k hodině v rozvrhu, kdy byl test ohlášen."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 19",
+      "number": 19,
+      "text": "Způsob hodnocení: známky. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 20",
+      "number": 20,
+      "text": "Způsob vyhodnocení testu: Váš získaný počet bodů / celkový počet bodů x 100"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 21",
+      "number": 21,
+      "text": ""
+    },
+    {
+      "kind": "table",
+      "label": "table 22",
+      "number": 22,
+      "text": "Procentuální škála\n100 % - 90 %\t1\n89 % - 75 %\t2\n74 % - 55 %\t3\n54 % - 40 %\t4\n39 % - 0 %\t5"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 23",
+      "number": 23,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 24",
+      "number": 24,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 25",
+      "number": 25,
+      "text": "POŽADOVANÉ POMŮCKY NA VYUČOVACÍ HODINY:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 26",
+      "number": 26,
+      "text": "Sešit pouze na daný předmět. Nepoužívat sešit na více předmětů."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 27",
+      "number": 27,
+      "text": "Školní atlas Světa"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 28",
+      "number": 28,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 29",
+      "number": 29,
+      "text": "DOPORUČENÁ LITERATURA:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 30",
+      "number": 30,
+      "text": "Makroregiony světa (Anděl, Bičík, Bláha) – modrá a oranžová verze knihy"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 31",
+      "number": 31,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "ZEMĚPIS – INFORMACE K PŘEDMĚTU\nKONTAKTNÍ INFORMACE:\n Vyučující  : Mgr. Kristýna Pamánková (kabinet 447, 4. patro)\n Počet hodin semináře ze zeměpisu týdně  : 1\n Kurz JU3ABCDE na platformě Moodle\n Konzultační hodiny:  \no Dopisování testů, vysvětlení nesrovnalostí\no Termíny KH (kabinet 447): pondělí 8:00-8:25, pátek 8:00-8:25\no Prosím, informujte mě, že na konzultaci přijdete, abych se na to mohla \npřipravit.\no Zároveň se někdy může stát, že konzultace odpadne, tak abyste do školy nešli \nzbytečně dříve.\nKLASIFIKAČNÍ KRITÉRIA:  \n Minimální počet známek za pololetí: 3 známek s vyšší váhou.  Známka za práci v \nhodině se do tohoto součtu nezapočítává. Známka za práci v hodině slouží pouze ke \nzlepšení průměru.\n Při nedostatečném počtu známek nebo při absenci přesahující 25 % nebude \nžák/žákyně z předmětu klasifikkován a bude vykonávat doplňkové zkoušky. \n Váhy známek:   práce v hodině (0,1 – 0, 2), pracovní list (0,3), prezentace (0,5), malý \nprojekt (0,5) malá test a slepá mapa (0,6), ústní zkoušení, velký test a velký projekt \n(1,0). Škály známek mohou být ještě upraveny dle potřeb vyučujícího.\n Testy budou ohlašovány minimálně týden dopředu, a to do systému školy online. \no Informace (kolonka i) k hodině v rozvrhu, kdy byl test ohlášen.\n Způsob hodnocení:   známky. \n Způsob vyhodnocení testu:   Váš získaný počet bodů / celkový počet bodů x 100\nProcentuální škála\n100 % - 90 % 1\n89 % - 75 % 2\n74 % - 55 % 3\n54 % - 40 % 4\n39 % - 0 % 5\nPOŽADOVANÉ POMŮCKY NA VYUČOVACÍ HODINY:\n Sešit pouze na daný předmět. Nepoužívat sešit na více předmětů.\n Školní atlas Světa\nDOPORUČENÁ LITERATURA:\n Makroregiony světa (Anděl, Bičík, Bláha) – modrá a oranžová verze knihy"
+    }
+  ]
+}

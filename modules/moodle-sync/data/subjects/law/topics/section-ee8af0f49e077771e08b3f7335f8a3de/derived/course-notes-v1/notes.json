@@ -1,0 +1,879 @@
+{
+  "schema": 1,
+  "subject": "law",
+  "topic": "section-ee8af0f49e077771e08b3f7335f8a3de",
+  "title": "Unit 1.1 - The Rule of Law/Public and Private Law",
+  "language": "en",
+  "intro": "Use six failed-society skits to explain what the rule of law requires, then distinguish the public/private-law comparison worksheet from a completed answer key.",
+  "sources": [
+    {
+      "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+      "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+      "title": "2. Presentation follow along worksheet.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26.pdf",
+      "extraction_url": "./extracted/01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26.zip"
+    },
+    {
+      "id": "7cc458b8d0abbda7de995bd8ac03f59e8161320ab88f5f35a54e11c860b91798",
+      "sha256": "cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8",
+      "title": "2. What Is the Rule of Law - Definition Principle.odt",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8.odt",
+      "extraction_url": "./extracted/cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8.zip"
+    },
+    {
+      "id": "832357bdb0425dcdf43d14b70cf05950b3dc763f7b5d2cec1b17659990787300",
+      "sha256": "3c67cab79f25f4ac4766d9413240e88e77195a9bfcb6e30d97d31dc5adc611fb",
+      "title": "Public Law v. Private Law Organizer.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/3c67cab79f25f4ac4766d9413240e88e77195a9bfcb6e30d97d31dc5adc611fb.docx",
+      "extraction_url": "./extracted/3c67cab79f25f4ac4766d9413240e88e77195a9bfcb6e30d97d31dc5adc611fb.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/3c67cab79f25f4ac4766d9413240e88e77195a9bfcb6e30d97d31dc5adc611fb.zip"
+    },
+    {
+      "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+      "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+      "title": "2. The Rule of Law.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4.pptx",
+      "extraction_url": "./extracted/94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4.zip"
+    },
+    {
+      "id": "e3a361f55771a9eb85c9673dc8213c7b8c85e6600bdd28e1f1ef3e576aaa3208",
+      "sha256": "5c7d40a0f807c0c8f244125b6cb0857ff044b78249d6beaeb3a5613afd288055",
+      "title": "2. HW - Rule of Law.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/5c7d40a0f807c0c8f244125b6cb0857ff044b78249d6beaeb3a5613afd288055.pdf",
+      "extraction_url": "./extracted/5c7d40a0f807c0c8f244125b6cb0857ff044b78249d6beaeb3a5613afd288055.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5c7d40a0f807c0c8f244125b6cb0857ff044b78249d6beaeb3a5613afd288055.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "definition",
+      "title": "Power must operate through clear and impartial rules",
+      "source_refs": [
+        {
+          "id": "7cc458b8d0abbda7de995bd8ac03f59e8161320ab88f5f35a54e11c860b91798",
+          "sha256": "cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8",
+          "locator": "Definition, clarity and Johnson classroom example"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The reading defines the rule of law by denying that any person, official or government is above the law. Its practical test is whether rules are clear enough for people to understand the conduct expected of them and are applied impartially.",
+          "source_refs": [
+            {
+              "id": "7cc458b8d0abbda7de995bd8ac03f59e8161320ab88f5f35a54e11c860b91798",
+              "sha256": "cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8",
+              "locator": "Definition, clarity and Johnson classroom example"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The Johnson example challenges a vague vagrancy rule: simply waiting at a bus stop without much cash does not clearly demonstrate the behaviour described in the statute. The reading uses the scenario to connect predictable rules, evidence and limits on enforcement.",
+          "source_refs": [
+            {
+              "id": "7cc458b8d0abbda7de995bd8ac03f59e8161320ab88f5f35a54e11c860b91798",
+              "sha256": "cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8",
+              "locator": "Definition, clarity and Johnson classroom example"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "The reading contains a problematic constitutional paraphrase using “pursuit of happiness”. Do not memorise that sentence as the text of an amendment. These notes retain its supported clarity-and-fairness lesson.",
+          "source_refs": [
+            {
+              "id": "7cc458b8d0abbda7de995bd8ac03f59e8161320ab88f5f35a54e11c860b91798",
+              "sha256": "cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8",
+              "locator": "Definition, clarity and Johnson classroom example"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factor-1",
+      "title": "Order and security",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 3
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 5
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 1
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The robbery skit shows that nominal laws do little when police cannot investigate, detain offenders or maintain order.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 3
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 5
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Explain the causal chain: the failed safeguard changes what officials can do or what citizens can realistically obtain.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 3
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 5
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factor-2",
+      "title": "Legitimacy",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 6
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 7
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 1
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Unworkable imported building and vehicle rules, combined with absent public input, undermine people’s willingness to accept the law.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 6
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 7
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Explain the causal chain: the failed safeguard changes what officials can do or what citizens can realistically obtain.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 6
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 7
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factor-3",
+      "title": "Checks and balances",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 8
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 9
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 1
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A president, lawmakers and judges who trade favours do not independently restrain each other’s power.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 8
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 9
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Explain the causal chain: the failed safeguard changes what officials can do or what citizens can realistically obtain.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 8
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 9
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factor-4",
+      "title": "Equal application",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 10
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 11
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 1
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The judge punishes a poor thief but excuses an influential mayor. Position and wealth change the result.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 10
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 11
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Explain the causal chain: the failed safeguard changes what officials can do or what citizens can realistically obtain.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 10
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 11
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factor-5",
+      "title": "Procedural fairness",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 12
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 13
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 1
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Indefinite detention, unexplained charges and arbitrary fees make legal procedure unpredictable.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 12
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 13
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Explain the causal chain: the failed safeguard changes what officials can do or what citizens can realistically obtain.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 12
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 13
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factor-6",
+      "title": "Access to justice",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 14
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 15
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 1
+        },
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Distance, unaffordable travel, unreadable forms and discriminatory treatment prevent a person from enforcing a right.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 14
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 15
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Explain the causal chain: the failed safeguard changes what officials can do or what citizens can realistically obtain.",
+          "source_refs": [
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 14
+            },
+            {
+              "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+              "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+              "page": 15
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organizer",
+      "title": "Public and private law: use the table as a comparison tool",
+      "source_refs": [
+        {
+          "id": "832357bdb0425dcdf43d14b70cf05950b3dc763f7b5d2cec1b17659990787300",
+          "sha256": "3c67cab79f25f4ac4766d9413240e88e77195a9bfcb6e30d97d31dc5adc611fb",
+          "locator": "Public Law v. Private Law Organizer, comparison table"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The blank organiser asks for general definitions, legal fields, parties, burden of proof, outcomes and punishment. It does not itself supply the answers. Fill it using the class’s worked cases and record which type of proceeding each claim describes; do not invent a single burden of proof applying to every public or private dispute.",
+          "source_refs": [
+            {
+              "id": "832357bdb0425dcdf43d14b70cf05950b3dc763f7b5d2cec1b17659990787300",
+              "sha256": "3c67cab79f25f4ac4766d9413240e88e77195a9bfcb6e30d97d31dc5adc611fb",
+              "locator": "Public Law v. Private Law Organizer, comparison table"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The two Rule of Law worksheets support retrieval practice: match causes to effects and then connect constitutional examples to the six safeguards. The graphic organiser is for explaining relationships, rather than memorising the skit dialogue.",
+          "source_refs": [
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 1
+            },
+            {
+              "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+              "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26",
+              "page": 2
+            },
+            {
+              "id": "e3a361f55771a9eb85c9673dc8213c7b8c85e6600bdd28e1f1ef3e576aaa3208",
+              "sha256": "5c7d40a0f807c0c8f244125b6cb0857ff044b78249d6beaeb3a5613afd288055",
+              "page": 1
+            },
+            {
+              "id": "e3a361f55771a9eb85c9673dc8213c7b8c85e6600bdd28e1f1ef3e576aaa3208",
+              "sha256": "5c7d40a0f807c0c8f244125b6cb0857ff044b78249d6beaeb3a5613afd288055",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Order and security? ",
+      "back": "The robbery skit shows that nominal laws do little when police cannot investigate, detain offenders or maintain order.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 3
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Legitimacy? ",
+      "back": "Unworkable imported building and vehicle rules, combined with absent public input, undermine people’s willingness to accept the law.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 6
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Checks and balances? ",
+      "back": "A president, lawmakers and judges who trade favours do not independently restrain each other’s power.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 8
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Equal application? ",
+      "back": "The judge punishes a poor thief but excuses an influential mayor. Position and wealth change the result.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 10
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Procedural fairness? ",
+      "back": "Indefinite detention, unexplained charges and arbitrary fees make legal procedure unpredictable.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 12
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Access to justice? ",
+      "back": "Distance, unaffordable travel, unreadable forms and discriminatory treatment prevent a person from enforcing a right.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 14
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 15
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "A mayor avoids punishment because he knows the judge. Which safeguard fails most directly?",
+      "options": [
+        "Equal application of the law",
+        "Only access to written forms",
+        "The existence of a legislature"
+      ],
+      "answer": 0,
+      "explanation": "The same law is applied differently because of status and influence.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 10
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "A court exists but a claimant cannot understand the form and receives no help. Which issue is central?",
+      "options": [
+        "Access to justice",
+        "Whether a mayor is guilty",
+        "Statutory law versus custom"
+      ],
+      "answer": 0,
+      "explanation": "Formal existence of a court does not guarantee a usable route to a remedy.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 14
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "Why do the borrowed building rules undermine legitimacy in the skit?",
+      "options": [
+        "Citizens personally dislike every public official",
+        "They address conditions local people cannot realistically meet and ignore their input",
+        "All written laws are necessarily illegitimate"
+      ],
+      "answer": 1,
+      "explanation": "The skit connects legitimacy to workable rules and representation.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 6
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Which situation illustrates procedural unfairness?",
+      "options": [
+        "A published hearing schedule applied equally",
+        "A claimant receives a clear explanation",
+        "A prisoner is held for years without knowing when a judge will hear the case"
+      ],
+      "answer": 2,
+      "explanation": "The detention skit focuses on arbitrary and unexplained procedure.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 12
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "question-5",
+      "prompt": "What is the problem when judges accept favours from lawmakers?",
+      "options": [
+        "Checks and balances break down",
+        "Public law becomes private law automatically",
+        "Courts are independent"
+      ],
+      "answer": 0,
+      "explanation": "Officials cease independently limiting one another.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 8
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "question-6",
+      "prompt": "Why is order and security insufficient by itself?",
+      "options": [
+        "It guarantees that every law is morally correct",
+        "The other skits show separate failures of fairness, equality and access",
+        "It makes all other safeguards identical"
+      ],
+      "answer": 1,
+      "explanation": "The lesson presents six connected safeguards, each addressing a different failure.",
+      "source_refs": [
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 3
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4",
+          "page": 15
+        }
+      ]
+    }
+  ]
+}

@@ -2,5 +2,20 @@
   "schema": 1,
   "subject_id": "geography",
   "topic_id": "section-79068e3b96946daf46298209cbd7e820",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Požadavky k předmětu",
+      "kind": "notes",
+      "path": "data/subjects/geography/topics/section-79068e3b96946daf46298209cbd7e820/derived/course-notes-v1/notes.json",
+      "sha256": "e8c136b19e6cada1a83b26ca7979179f9de52621789465fbf996bdf549f38582",
+      "source_refs": [
+        {
+          "id": "61bfc343ac4aae33a848e40786d34e85af40432206e927913e1f49748f4ce75c",
+          "sha256": "01fac22a93d44df2273687469c79331024d94b1ee0af1c5991666d4f5e291102"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

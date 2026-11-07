@@ -1,0 +1,732 @@
+{
+  "schema": 1,
+  "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Přehled otázek – Biochemie – 3. ročník"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": "Úvod, složení organismů, biochemie"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": "Co je to biochemie a čím se zabývá?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": "Do jakého století spadají počátky biochemie?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": "Čím se zabývá dynamická a statická biochemie?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 8",
+      "number": 8,
+      "text": "Jaké jsou společné vlastnosti pro živé systémy? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": "Za jakých podmínek probíhají chemické reakce v buňkách? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": "Kde je uložena genetická informace u eukaryotní  buňky?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": "Jakou funkci mají mitochondrie v buňce?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": "Vysvětlete, k čemu slouží biochemické metody."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 14",
+      "number": 14,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 15",
+      "number": 15,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 16",
+      "number": 16,
+      "text": "Aminokyseliny, peptidy, bílkoviny"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 17",
+      "number": 17,
+      "text": "Co jsou to aminokyseliny a jaké mají chemické složení?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 18",
+      "number": 18,
+      "text": "Kolik aminokyselin se pravidelně vyskytuje v bílkovinách?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 19",
+      "number": 19,
+      "text": "Proč říkáme některým aminokyselinám – kódované aminokyseliny? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 20",
+      "number": 20,
+      "text": "Uveďte název těchto aminokyselin"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 21",
+      "number": 21,
+      "text": "              "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 22",
+      "number": 22,
+      "text": "Napište vzorec Glycinu, Alaninu, Fenylalaninu, Cysteinu, Serinu"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 23",
+      "number": 23,
+      "text": "Z kolika aminokyselin jsou složeny oligopeptidy, polypeptidy a bílkoviny?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 24",
+      "number": 24,
+      "text": "Napište definici a značku pro izoelektrický bod."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 25",
+      "number": 25,
+      "text": "Napište rovnici chemické reakce: alaninu s fenylalaninem – výsledný produkt pojmenujte, určete o jaký peptid se jedná a zaškrtněte charakteristickou vazbu v peptidech."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 26",
+      "number": 26,
+      "text": "Rozdělte bílkoviny podle jejich funkce."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 27",
+      "number": 27,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 28",
+      "number": 28,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 29",
+      "number": 29,
+      "text": "K následujícím bílkovinám přiřaďte funkci, kterou mají v organismu:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 30",
+      "number": 30,
+      "text": "Kolagen"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 31",
+      "number": 31,
+      "text": "Ferritin"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 32",
+      "number": 32,
+      "text": "Myosin"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 33",
+      "number": 33,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 34",
+      "number": 34,
+      "text": "Jaké je chemické složení složených bílkovin?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 35",
+      "number": 35,
+      "text": "Jak vypadá bílkovina, která má celkový tvar molekuly globulární?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 36",
+      "number": 36,
+      "text": "Co vyjadřuje primární a sekundární struktura bílkovin?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 37",
+      "number": 37,
+      "text": "Popište, jak vypadá struktura bílkovin – alfa."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 38",
+      "number": 38,
+      "text": "Popište, k čemu dochází při svinování a denaturaci bílkovin."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 39",
+      "number": 39,
+      "text": "Kde začíná trávení bílkovin? Jaké pH má žaludeční obsah?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 40",
+      "number": 40,
+      "text": "Co dělají střevní enzymy: trypsin a chymotrypsin s bílkovinami?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 41",
+      "number": 41,
+      "text": "Jak se nazývá konečná zplodina metabolismu bílkovin?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 42",
+      "number": 42,
+      "text": "K čemu slouží močovinový cyklus?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 43",
+      "number": 43,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 44",
+      "number": 44,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 45",
+      "number": 45,
+      "text": "Lipidy a biomembrány"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 46",
+      "number": 46,
+      "text": "Co jsou to lipidy a na jaké podskupiny se dělí?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 47",
+      "number": 47,
+      "text": "Co jsou to triacylglyceroly chemicky? Jaké mají chemické složení?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 48",
+      "number": 48,
+      "text": "Vysvětlete pojem esenciální mastné kyseliny. Jaké znáte druhy? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 49",
+      "number": 49,
+      "text": "K čemu slouží esenciální mastné kyseliny v organismu, tj. jaké tam mají funkce?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 50",
+      "number": 50,
+      "text": "Zapište vzorec kyseliny  palmitové a laurové."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 51",
+      "number": 51,
+      "text": "Co jsou to isoprenoidy? Zapište také vzorec. Jaké znáte další zástupce těchto sloučenin? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 52",
+      "number": 52,
+      "text": "Co je to mýdlová micela? Jaké má části? Nakreslete jí. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 53",
+      "number": 53,
+      "text": "Z jakých částí se skládá biologická membrána? Zakreslete jí."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 54",
+      "number": 54,
+      "text": "Popište následující obrázek. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 55",
+      "number": 55,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 56",
+      "number": 56,
+      "text": "Popište metabolismus lipidů. (Kde probíhá hlavní trávení, vlivem čeho, co je výsledkem metabolismu lipidů.) "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 57",
+      "number": 57,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 58",
+      "number": 58,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 59",
+      "number": 59,
+      "text": "Sacharidy"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 60",
+      "number": 60,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 61",
+      "number": 61,
+      "text": "Co jsou to sacharidy a jaké prvky obsahují ve své molekule? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 62",
+      "number": 62,
+      "text": "Jaký mají sacharidy význam pro náš organismus? (4 příklady) "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 63",
+      "number": 63,
+      "text": "Jak dělíme sacharidy z chemického hlediska? Uveďte rozdělení a počty jednotek.                                         "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 64",
+      "number": 64,
+      "text": "Co je to sacharóza? Jaké je její využití z hlediska energie? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 65",
+      "number": 65,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 66",
+      "number": 66,
+      "text": "Zakreslete vzorec pro glyceraldehyd a dihydroxyaceton. Vysvětlete na těchto vzorcích, co jsou to aldosy a a ketosy. Zatrhněte tyto charakteristické skupiny.  Znázorněte chirální atom uhlíku. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 67",
+      "number": 67,
+      "text": "Vysvětlete pojem monosacharidová jednotka. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 68",
+      "number": 68,
+      "text": "Co jsou to pentosy? Napište také název a vzorec pro jednoho zástupce a uveďte jeho význam nebo využití. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 69",
+      "number": 69,
+      "text": "Co je to glukosa? Jaké je její chemické složení? Uveďte vzorec, dále její výskyt, význam a využití. Odpověď zapište na druhou stranu. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 70",
+      "number": 70,
+      "text": "Popište metabolismus sacharidů.  (Kde probíhá hlavní trávení, vlivem čeho, co je výsledkem metabolismu sacharidů.) "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 71",
+      "number": 71,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 72",
+      "number": 72,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 73",
+      "number": 73,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 74",
+      "number": 74,
+      "text": "Nukleové kyseliny    "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 75",
+      "number": 75,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 76",
+      "number": 76,
+      "text": "Co jsou to nukleové kyseliny? Jaké druhy rozeznáváme? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 77",
+      "number": 77,
+      "text": "Co je to nukleotid a z jakých částí je složen? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 78",
+      "number": 78,
+      "text": "Co je to nukleosid a z jakých částí je složen?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 79",
+      "number": 79,
+      "text": "Vypište názvy všech bází a zapište vzorec pro adenin. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 80",
+      "number": 80,
+      "text": "K čemu slouží Chargaffova pravidla? Vysvětlete a uveďte příklad. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 81",
+      "number": 81,
+      "text": "Popište sekundární strukturu DNA (jak to vypadá, co je páteří šroubovice, co je uvnitř, čím je to spojeno, kolik je tam řetězců) "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 82",
+      "number": 82,
+      "text": "Zapište schématem přenos genetické informace. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 83",
+      "number": 83,
+      "text": "K čemu dochází při transkripci a kde v buňce probíhá? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 84",
+      "number": 84,
+      "text": "Vysvětlete pojem replikační vidlička a nakreslete jí. Jaký má význam v přenosu genetické informace? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 85",
+      "number": 85,
+      "text": "Vysvětlete pojmy kodon, antikodon a triplet. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 86",
+      "number": 86,
+      "text": " "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 87",
+      "number": 87,
+      "text": "Metabolismus"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 88",
+      "number": 88,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 89",
+      "number": 89,
+      "text": "Co je to metabolismus?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 90",
+      "number": 90,
+      "text": "Vysvětlete děje katabolismus a anabolismus."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 91",
+      "number": 91,
+      "text": "Co je to ATP?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 92",
+      "number": 92,
+      "text": "Jak funguje katabolismus?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 93",
+      "number": 93,
+      "text": "Co jsou to amfibolické dráhy?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 94",
+      "number": 94,
+      "text": "Co je to citrátový cyklus?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 95",
+      "number": 95,
+      "text": "Co je to dýchací řetězec?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 96",
+      "number": 96,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 97",
+      "number": 97,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 98",
+      "number": 98,
+      "text": "Enzymy, vitamíny, hormony"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 99",
+      "number": 99,
+      "text": "                                                   "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 100",
+      "number": 100,
+      "text": "Co jsou to enzymy? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 101",
+      "number": 101,
+      "text": "Kolik má tělo enzymů? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 102",
+      "number": 102,
+      "text": "Co enzym umí? 5 bodů. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 103",
+      "number": 103,
+      "text": "Z čeho se enzym skládá? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 104",
+      "number": 104,
+      "text": "Co je to koenzym? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 105",
+      "number": 105,
+      "text": "Na jakých šest tříd se dělí enzymy?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 106",
+      "number": 106,
+      "text": "Co jsou to vitamíny?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 107",
+      "number": 107,
+      "text": "Může být vitamín složkou enzymů?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 108",
+      "number": 108,
+      "text": "Jaká je funkce vitamínů v těle?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 109",
+      "number": 109,
+      "text": "Vysvětlete pojmy: Hypovitaminóza, hypervitaminóza, avitaminóza"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 110",
+      "number": 110,
+      "text": "Jaké znáte druhy vitamínů podle rozpustnosti ve vodě?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 111",
+      "number": 111,
+      "text": "Co jsou to hormony?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 112",
+      "number": 112,
+      "text": "Jak můžeme rozdělit hormony z chemického hlediska? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 113",
+      "number": 113,
+      "text": "Oxytocin je peptidický hormon, co to znamená?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 114",
+      "number": 114,
+      "text": "Adrenalin je aminokyselinový hormon, co to znamená?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 115",
+      "number": 115,
+      "text": "Kortizol je steroidní hormon, co to znamená?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 116",
+      "number": 116,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 117",
+      "number": 117,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Přehled otázek – Biochemie – 3. ročník\nÚvod, složení organismů, biochemie\n1. Co je to biochemie a čím se zabývá?\n2. Do jakého století spadají počátky biochemie?\n3. Čím se zabývá dynamická a statická biochemie?\n4. Jaké jsou společné vlastnosti pro živé systémy? \n5. Za jakých podmínek probíhají chemické reakce v buňkách? \n6. Kde je uložena genetická informace u eukaryotní  buňky?\n7. Jakou funkci mají mitochondrie v buňce?\n8. Vysvětlete, k čemu slouží biochemické metody.\nAminokyseliny, peptidy, bílkoviny\n9. Co jsou to aminokyseliny a jaké mají chemické složení?\n10. Kolik aminokyselin se pravidelně vyskytuje v bílkovinách?\n11. Proč říkáme některým aminokyselinám – kódované aminokyseliny? \n12. Uveďte název těchto aminokyselin\n \n13. Napište vzorec Glycinu, Alaninu, Fenylalaninu, Cysteinu, Serinu\n14. Z kolika aminokyselin jsou složeny oligopeptidy, polypeptidy a bílkoviny?\n15. Napište definici a značku pro izoelektrický bod.\n16. Napište rovnici chemické reakce: alaninu s fenylalaninem – výsledný produkt \npojmenujte, určete o jaký peptid se jedná a zaškrtněte charakteristickou vazbu \nv peptidech.\n17. Rozdělte bílkoviny podle jejich funkce.\n18. K následujícím bílkovinám přiřaďte funkci, kterou mají v organismu:"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "a. Kolagen\nb. Ferritin\nc. Myosin\n19. Jaké je chemické složení složených bílkovin?\n20. Jak vypadá bílkovina, která má celkový tvar molekuly globulární?\n21. Co vyjadřuje primární a sekundární struktura bílkovin?\n22. Popište, jak vypadá struktura bílkovin – alfa.\n23. Popište, k čemu dochází při svinování a denaturaci bílkovin.\n24. Kde začíná trávení bílkovin? Jaké pH má žaludeční obsah?\n25. Co dělají střevní enzymy: trypsin a chymotrypsin s bílkovinami?\n26. Jak se nazývá konečná zplodina metabolismu bílkovin?\n27. K čemu slouží močovinový cyklus?\nLipidy a biomembrány\n28. Co jsou to lipidy a na jaké podskupiny se dělí?\n29. Co jsou to triacylglyceroly chemicky? Jaké mají chemické složení?\n30. Vysvětlete pojem esenciální mastné kyseliny. Jaké znáte druhy? \n31. K čemu slouží esenciální mastné kyseliny v organismu, tj. jaké tam mají funkce?\n32. Zapište vzorec kyseliny  palmitové a laurové.\n33. Co jsou to isoprenoidy? Zapište také vzorec. Jaké znáte další zástupce těchto sloučenin? \n34. Co je to mýdlová micela? Jaké má části? Nakreslete jí. \n35. Z jakých částí se skládá biologická membrána? Zakreslete jí.\n36. Popište následující obrázek. \n37. Popište metabolismus lipidů. (Kde probíhá hlavní trávení, vlivem čeho, co je výsledkem \nmetabolismu lipidů.) \nSacharidy"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "1. Co jsou to sacharidy a jaké prvky obsahují ve své molekule? \n2. Jaký mají sacharidy význam pro náš organismus? (4 příklady) \n3. Jak dělíme sacharidy z chemického hlediska? Uveďte rozdělení a počty jednotek. \n4. Co je to sacharóza? Jaké je její využití z hlediska energie? \n5. Zakreslete vzorec pro glyceraldehyd a dihydroxyaceton. Vysvětlete na těchto \nvzorcích, co jsou to aldosy a a ketosy. Zatrhněte tyto charakteristické skupiny.  \nZnázorněte chirální atom uhlíku. \n6. Vysvětlete pojem monosacharidová jednotka. \n7. Co jsou to pentosy? Napište také název a vzorec pro jednoho zástupce a uveďte jeho \nvýznam nebo využití. \n8. Co je to glukosa? Jaké je její chemické složení? Uveďte vzorec, dále její výskyt, \nvýznam a využití. Odpověď zapište na druhou stranu. \n9. Popište metabolismus sacharidů.  (Kde probíhá hlavní trávení, vlivem čeho, co je \nvýsledkem metabolismu sacharidů.) \nN  ukleové kyseliny   \n1. Co jsou to nukleové kyseliny? Jaké druhy rozeznáváme? \n2. Co je to nukleotid a z jakých částí je složen? \n3. Co je to nukleosid a z jakých částí je složen?\n4. Vypište názvy všech bází a zapište vzorec pro adenin. \n5. K čemu slouží Chargaffova pravidla? Vysvětlete a uveďte příklad. \n6. Popište sekundární strukturu DNA (jak to vypadá, co je páteří šroubovice, co je uvnitř, \nčím je to spojeno, kolik je tam řetězců) \n7. Zapište schématem přenos genetické informace. \n8. K čemu dochází při transkripci a kde v buňce probíhá? \n9. Vysvětlete pojem replikační vidlička a nakreslete jí. Jaký má význam v přenosu \ngenetické informace? \n10. Vysvětlete pojmy kodon, antikodon a triplet. \n \nMetabolismus"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "1. Co je to metabolismus?\n2. Vysvětlete děje katabolismus a anabolismus.\n3. Co je to ATP?\n4. Jak funguje katabolismus?\n5. Co jsou to amfibolické dráhy?\n6. Co je to citrátový cyklus?\n7. Co je to dýchací řetězec?\nEnzymy, vitamíny, hormony\n  \n1. Co jsou to enzymy? \n2. Kolik má tělo enzymů? \n3. Co enzym umí? 5 bodů. \n4. Z čeho se enzym skládá? \n5. Co je to koenzym? \n6. Na jakých šest tříd se dělí enzymy?\n7. Co jsou to vitamíny?\n8. Může být vitamín složkou enzymů?\n9. Jaká je funkce vitamínů v těle?\n10. Vysvětlete pojmy: Hypovitaminóza, hypervitaminóza, avitaminóza\n11. Jaké znáte druhy vitamínů podle rozpustnosti ve vodě?\n12. Co jsou to hormony?\n13. Jak můžeme rozdělit hormony z chemického hlediska? \n14. Oxytocin je peptidický hormon, co to znamená?\n15. Adrenalin je aminokyselinový hormon, co to znamená?\n16. Kortizol je steroidní hormon, co to znamená?"
+    }
+  ]
+}

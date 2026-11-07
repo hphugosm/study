@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "sha256": "b79008e4c528fb633d1bb51939ac82cd3b86e3e33fc8f8f2598751ee3ccdf698",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "Fibrinogen"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": "Kasein"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": "Inzulin"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Fibrinogen\n\n: o\nH H\nŇ N\nHF N A\nH H H\nNH>\n\nčo.\n\nH\n\nH\n\np\n\np\n\nč0\nL0]\nInzulin\n„a le,\ně Čoy\nlí\nbys—bys-Ser-Leugyn, je\na Tp GN euvolu-Asn-Tyr-cys“\ns le\n| mesér iu-Ala-Leu-Tyr-Leu-Vahoys\n%s Aal b\nzš Leu y\nle Gx a\n7 Ser—His' Gu\nHg A\nGi j9\nTh ly\nAsn, \"—Pro-rnrTyr—Phe-Phe\n\nÓvalPhe\n\nHt\n\nč0\n\nA\n\nNH\n\noH\n\nNH\n\níH\n\nHN\n",
+      "text": "Fibrinogen\nKasein\nInzulin\n"
+    }
+  ]
+}

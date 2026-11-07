@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "sha256": "9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Z dh k d\n\n8 s\nad v-\nB B\nBe Be\n\nB M\nKie Šie-\n\nle:\nm\na pop\nš e\n\nB B\n8 Be\njH šn\nA a\n\nD) b\ns 8\n\nv- v-\nB B\n\nBe Be\nM M\nBe Be\ns s\n\nppp k pop k\n\ne e\nB B\nBe Be\nšn šn\na a\nb b\n\nš adiš děši, Aě l, Jely, lu\n\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Z dh k d\n\nZ dh k d\n\nZ dh k d\n\nš adiš děši, Aě l, Jely, lu\n\nPEEEZKT\n\nPEEEZKT\n\nZ dh k d\n\nZ dh k d\n\nZ dh k d\n\nPEEEZKT\n\nPEEEZKT\n\nPEEEZKT\n\n",
+      "text": ""
+    }
+  ]
+}

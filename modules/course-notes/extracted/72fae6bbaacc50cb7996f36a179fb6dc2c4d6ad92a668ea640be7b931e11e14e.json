@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Struktura právních norem\n\nHypotéza, dispozice, sankce\n",
+      "text": "Struktura právních norem\nHypotéza, dispozice, sankce"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Struktura právní normy\nAby právní norma plnila svou funkci, musí obsahovat nezbytné náležitosti.\n1. Hypotéza\n2. Dispozice\n3. Sankce\nObecně platný mechanismus:\nJestliže jsou takové podmínky, pak je třeba se chovat takto, jinak přijde tento trest.\nNapř.: Jestliže svítí na semaforu červená, pak musí řidič dát přednost ostatním vozidlům, jinak bude pokutován."
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Hypotéza\nStanovuje podmínky, při kterých je požadováno chování, které norma vymezuje.\nHypotéza může povahu například \n● Časovou - vymezuje určité období (při dosažení plnoletosti…)\n● Prostorovou - vymezuje určité místo (na území chráněné krajinné oblasti…)\n● Situační - vymezuje určité okolnosti (během konání voleb…)\n● Podle subjektu práva - vymezuje, koho se právo týká (členové policejního sboru…)\nHypotéza je nezbytnou součástí každé právní normy. Stanovuje na koho, kdy, kde nebo \nza jakých okolností se daná norma aplikuje."
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Dispozice\nUdává požadované chování dané právní normy. Je tím samotným obsahem normy.\n● Obsahuje konkrétní práva a povinnosti subjektů, jichž se norma týká, a to nastanou-li \npodmínky a skutečnosti vyplývající z hypotézy.\nDispozice by měla obsahovat úplné řešení požadovaného chování, ať už na přímo nebo negací.\n● Povinnost třídit odpad / Zákaz skládky\nHypotéza a dispozice jsou často formulovány společně \n● Maximální povolená rychlost v obci je 50 km/h\n○ Hypotéza - v obci\n○ Dispozice - maximální rychlost 50 km/h"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "Sankce\nDeﬁnuje, jakým způsobem bude postihováno porušení dané normy.\nSankce stanovuje výši nebo druh trestu - důsledku nesprávného chování v případné, \npokud někdo při naplnění hypotézy poruší dispozici.\n● Některé normy nemusí obsahovat sankci \n○ například opravňující normy (vlastník nemovitosti má právo ji pronajímat…)\nSmyslem sankce není pouze potrestání viníka - povědomí o hrozících sankcích působí \npreventivně před porušováním právních norem. \n● Přispívá k dodržování norem a osvojení si řádného chování."
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": "„Zaměstnavatel může výjimečně pracovní poměr okamžitě zrušit jen tehdy, porušil-li \nzaměstnanec povinnost vyplývající z právních předpisů vztahujících se k jím \nvykonávané práci zvlášť hrubým způsobem.“\n● Hypotéza: pokud zaměstnanec poruší své povinnosti zvlášť hrubým způsobem\n● Dispozice: zaměstnanec vykonává své povinnosti dle předpisů\n● Sankce: okamžité ukončení pracovního poměru"
+    }
+  ]
+}

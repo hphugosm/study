@@ -1,0 +1,537 @@
+{
+  "schema": 1,
+  "subject": "social-sciences",
+  "topic": "section-03bc2738d27d99b8445100a8572ad8d5",
+  "title": "Občanské právo",
+  "language": "cs",
+  "intro": "Odděl právní osobnost od svéprávnosti a poté použij pojmy dědického práva v jednoduchém modelu. Poznámky shrnují dodané výňatky a jejich podmínky; neřeší konkrétní právní situaci podle aktuální úplné úpravy.",
+  "sources": [
+    {
+      "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+      "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+      "title": "Občanský zákoník - obecná ustanovení.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e.pdf",
+      "extraction_url": "./extracted/3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e.zip"
+    },
+    {
+      "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+      "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+      "title": "Dědictví - vybraná ustanovení.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959.pdf",
+      "extraction_url": "./extracted/8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959.zip"
+    },
+    {
+      "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+      "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+      "title": "Obecné pojmy.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7.pdf",
+      "extraction_url": "./extracted/c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7.zip"
+    },
+    {
+      "id": "d5629c626fe4582e77d999e3a823cf76c82b1c2b5fdee2252ed4ef52a54b8a27",
+      "sha256": "f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5",
+      "title": "Dědictví - pojmy.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5.pdf",
+      "extraction_url": "./extracted/f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "osoby",
+      "title": "Být nositelem práv není totéž jako samostatně jednat",
+      "source_refs": [
+        {
+          "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+          "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+          "page": 1
+        },
+        {
+          "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+          "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Právní osobnost je způsobilost mít práva a povinnosti. Svéprávnost je způsobilost vlastním právním jednáním práva nabývat a k povinnostem se zavazovat. Právní jednání tak může práva a povinnosti založit, změnit nebo zrušit.",
+          "source_refs": [
+            {
+              "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+              "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+              "page": 1
+            },
+            {
+              "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+              "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Výňatek rozlišuje fyzickou a právnickou osobu. U člověka spojuje právní osobnost s narozením a smrtí; zároveň zvlášť upravuje ochranu zájmů počatého dítěte. Tyto výroky nezaměňuj s okamžikem nabytí plné svéprávnosti.",
+          "source_refs": [
+            {
+              "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+              "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+              "page": 1
+            },
+            {
+              "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+              "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Právní osobnost",
+          "Svéprávnost"
+        ],
+        "rows": [
+          {
+            "label": "Základní otázka",
+            "values": [
+              "Může být osoba nositelem práv a povinností?",
+              "Může je vlastním jednáním nabývat a zavazovat se?"
+            ]
+          },
+          {
+            "label": "Dítě",
+            "values": [
+              "Má právní osobnost",
+              "Rozsah právního jednání závisí na podmínkách uvedených ve výňatku"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nezletili",
+      "title": "Nezletilost neznamená nulovou možnost právně jednat",
+      "source_refs": [
+        {
+          "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+          "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+          "page": 1
+        },
+        {
+          "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+          "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+          "page": 1
+        },
+        {
+          "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+          "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+          "page": 2
+        },
+        {
+          "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+          "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podle dodaného § 31 je nezletilý bez plné svéprávnosti způsobilý k jednáním přiměřeným rozumové a volní vyspělosti jeho věku. Nejde tedy o jednoduché pravidlo „pod 18 let nelze nic právně udělat“. § 32 řeší souhlas zákonného zástupce k určitému jednání či účelu.",
+          "source_refs": [
+            {
+              "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+              "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+              "page": 2
+            },
+            {
+              "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+              "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "§ 30 spojuje plnou svéprávnost se zletilostí, kterou výňatek stanoví na 18 let. Před tím uvádí přiznání svéprávnosti nebo uzavření manželství. Přiznání podle § 37 je podmíněné soudní rozhodnutí, nikoli automatická změna dosažením 16 let.",
+          "source_refs": [
+            {
+              "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+              "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+              "page": 1
+            },
+            {
+              "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+              "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+              "page": 1
+            },
+            {
+              "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+              "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+              "page": 2
+            },
+            {
+              "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+              "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Další výňatky se týkají podnikání se souhlasem a soudním přivolením, práce nezletilých a zásahů do integrity. U těchto citlivých situací je podstatný celý soubor podmínek; poznámky z nich nevytvářejí univerzální praktickou radu.",
+          "source_refs": [
+            {
+              "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+              "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+              "page": 2
+            },
+            {
+              "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+              "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dedicke-pojmy",
+      "title": "Kdo, co a jak může být předmětem dědění",
+      "source_refs": [
+        {
+          "id": "d5629c626fe4582e77d999e3a823cf76c82b1c2b5fdee2252ed4ef52a54b8a27",
+          "sha256": "f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5",
+          "page": 1
+        },
+        {
+          "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+          "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zůstavitel je člověk, po němž se dědí. Pozůstalost zahrnuje majetek a dluhy. Dědicem může být podle pojmového listu fyzická či právnická osoba. Závěť je odvolatelný projev vůle pro případ smrti; dědická smlouva je odlišný smluvní způsob povolání dědice.",
+          "source_refs": [
+            {
+              "id": "d5629c626fe4582e77d999e3a823cf76c82b1c2b5fdee2252ed4ef52a54b8a27",
+              "sha256": "f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5",
+              "page": 1
+            },
+            {
+              "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+              "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nepominutelní dědici jsou ve výňatku děti zůstavitele, a pokud nedědí, jejich potomci. Povinný díl není totéž co libovolně slíbený dar. Podklad výslovně rozlišuje výši povinného dílu nezletilého a zletilého potomka a stanoví zákonné důvody vydědění.",
+          "source_refs": [
+            {
+              "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+              "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tridy",
+      "title": "Dědické třídy: rozhodují podmínky přechodu",
+      "source_refs": [
+        {
+          "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+          "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "První uvedená třída zahrnuje děti a manžela, každého stejným dílem; u nedědícího dítěte text řeší zastoupení potomky. Druhá třída nastupuje, pokud nedědí potomci. U manžela v ní výňatek zaručuje alespoň polovinu. Třetí třídu podklad váže na nedědění manžela a rodičů.",
+          "source_refs": [
+            {
+              "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+              "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Model pouze podle první třídy: manžel a dvě dědící děti jsou tři podílníci, tedy každý třetina. Pokud za jinak stejných předpokladů počítáme povinný díl zletilého dítěte, čtvrtina jeho zákonného podílu je 1/4 × 1/3 =1/12. To není celý dědický podíl a výpočet předpokládá přesně popsanou situaci.",
+          "source_refs": [
+            {
+              "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+              "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Urči předpoklady modelu",
+          "text": "Zde dědí manžel a dvě děti a pracujeme jen s pravidlem první třídy.",
+          "source_refs": [
+            {
+              "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+              "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Spočítej zákonný podíl",
+          "text": "Tři stejné podíly: každý 1/3.",
+          "source_refs": [
+            {
+              "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+              "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Odděl povinný díl",
+          "text": "Pro zletilého nepominutelného dědice použije výňatek 1/4 zákonného podílu.",
+          "source_refs": [
+            {
+              "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+              "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Vypočti součin",
+          "text": "1/4 × 1/3 =1/12. Neměň tento výsledek na obecné pravidlo pro každou rodinu.",
+          "source_refs": [
+            {
+              "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+              "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Právní osobnost?",
+      "back": "Způsobilost mít práva a povinnosti.",
+      "source_refs": [
+        {
+          "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+          "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+          "page": 1
+        },
+        {
+          "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+          "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Svéprávnost?",
+      "back": "Způsobilost nabývat práva a zavazovat se vlastním právním jednáním.",
+      "source_refs": [
+        {
+          "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+          "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+          "page": 1
+        },
+        {
+          "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+          "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Je 16 let samo o sobě plná svéprávnost?",
+      "back": "Ne. Dodaný § 37 řeší podmínky přiznání soudem.",
+      "source_refs": [
+        {
+          "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+          "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+          "page": 2
+        },
+        {
+          "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+          "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Pozůstalost?",
+      "back": "Majetek a dluhy zůstavitele.",
+      "source_refs": [
+        {
+          "id": "d5629c626fe4582e77d999e3a823cf76c82b1c2b5fdee2252ed4ef52a54b8a27",
+          "sha256": "f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Zůstavitel × dědic?",
+      "back": "Člověk, po němž se dědí × osoba, na niž pozůstalost nebo podíl přechází.",
+      "source_refs": [
+        {
+          "id": "d5629c626fe4582e77d999e3a823cf76c82b1c2b5fdee2252ed4ef52a54b8a27",
+          "sha256": "f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Nepominutelný dědic ve výňatku?",
+      "back": "Dítě zůstavitele; nedědí-li, jeho potomci.",
+      "source_refs": [
+        {
+          "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+          "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Který pojem označuje způsobilost mít práva?",
+      "options": [
+        "Právní osobnost",
+        "Pouze plná svéprávnost",
+        "Závěť"
+      ],
+      "answer": 0,
+      "explanation": "Právní osobnost není podmíněna možností samostatně uzavřít každou smlouvu.",
+      "source_refs": [
+        {
+          "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+          "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+          "page": 1
+        },
+        {
+          "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+          "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "Co je podle podkladu správně o nezletilém?",
+      "options": [
+        "Může činit jednání přiměřená rozumové a volní vyspělosti jeho věku",
+        "Dosažením 16 let je vždy plně svéprávný",
+        "Není nikdy osobou"
+      ],
+      "answer": 0,
+      "explanation": "§ 31 připouští věku a vyspělosti přiměřená jednání.",
+      "source_refs": [
+        {
+          "id": "84f66e9e244db7a5b15eaa098b4aab442b96ed6639a4ad2a63f9f63d5df6ee42",
+          "sha256": "3f57215eec6973afe63941cbaf85a96f38d9f13bdf1fe5596ba28a4d7fb9543e",
+          "page": 2
+        },
+        {
+          "id": "d3e9912312b5b422bd991a9100f05b6e8bb2d8ad5e04ffa38aa4f61791eebc80",
+          "sha256": "c4ee0ca6873c5dbb436d007a7066e0384a7b83123f0910b5a479e0baed0b51c7",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "Co zahrnuje pojem pozůstalost na pojmovém listu?",
+      "options": [
+        "Jen nemovitosti",
+        "Jen hotové peníze",
+        "Majetek i dluhy"
+      ],
+      "answer": 2,
+      "explanation": "Pojmový list uvádí obě složky.",
+      "source_refs": [
+        {
+          "id": "d5629c626fe4582e77d999e3a823cf76c82b1c2b5fdee2252ed4ef52a54b8a27",
+          "sha256": "f597eb748b9824f38f80fd79f80a30dda1f31fa85431b7b4e349396e4f94cca5",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Kdo v dodané první třídě dědí při manželovi a dvou dědících dětech?",
+      "options": [
+        "Manžel vše",
+        "Každý ze tří stejným dílem",
+        "Pouze nejstarší dítě"
+      ],
+      "answer": 1,
+      "explanation": "Jde o přesně vymezený model se třemi stejnými podíly.",
+      "source_refs": [
+        {
+          "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+          "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-5",
+      "prompt": "Je povinný díl zletilého potomka totéž co jeho celý zákonný podíl?",
+      "options": [
+        "Ne, výňatek jej určuje jako čtvrtinu zákonného podílu",
+        "Je vždy celá pozůstalost",
+        "Ano"
+      ],
+      "answer": 0,
+      "explanation": "Je třeba odlišit základ výpočtu a jeho zlomek.",
+      "source_refs": [
+        {
+          "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+          "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-6",
+      "prompt": "Co je závěť podle dodaného výňatku?",
+      "options": [
+        "Pouze seznam dluhů",
+        "Neodvolatelný převod majetku za života",
+        "Odvolatelný projev vůle pro případ smrti"
+      ],
+      "answer": 2,
+      "explanation": "Výňatek výslovně spojuje závěť s odvolatelností a smrtí.",
+      "source_refs": [
+        {
+          "id": "938aa894960b7e6cfac72af52c3bf046c12a4493a64e5574bce781a3dab54189",
+          "sha256": "8174f2b7928b3e87e51c23e08ae830a450f0d530f885bd230b4d1ec1fd39f959",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}

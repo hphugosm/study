@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Právo\n\nNormy, morálka a spravedlnost v režii státu\n",
+      "text": "Právo\nNormy, morálka a spravedlnost v režii státu"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Co je to právo?\nPrávo jako multidimenzionální fenomén\n● Systém norem (příkazů a zákazů)\n● Nositel hodnot (morálka, spravedlnost…)\n● Společenská praxe (činnost státních orgánů, regulace společenských vztahů…)\nNormativní akademická deﬁnice\n“Právo je systém obecně závazných pravidel chování (právních norem), které jsou \nvydávány k tomu oprávněnými orgány veřejné moci ve státem předepsané formě a \njejichž zachovávání je vynutitelné státní mocí.”"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Co je to právo?\nPřirozené právo jako nositel spravedlnosti a morálky \n“Právo je soubor principů a norem, které vycházejí z přirozeného řádu věcí, lidské \npodstaty nebo rozumu, existují nezávisle na vůli zákonodárce a představují \nměřítko spravedlnosti pro právo psané (pozitivní).”\nPrávo jako praxe společnosti\n“Právo je soubor společenských pravidel a rozhodovacích vzorců, které jsou reálně \naplikovány v praxi soudu a jiných orgánů a účinně regulují společenské vztahy.”\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Právo a morálka\n“Právo je minimum morálky.”\nMorálka\nSoubor hodnot, norem a pravidel chování na základě:\n● Nepsaných principů a hodnot\n● Společenského konsensu\n● Vnitřního přesvědčení jedince\nZa porušení práva hrozí sankce ze strany státu. \nZa porušení morálky přichází sankce od společnosti (veřejné mínění) \n/ sebe sama (svědomí)."
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "Legalita & legitimita\nLegální - v souladu s právem\nLegitimní - v souladu se společenským přesvědčením\nLegitimita práva v právním státě vyplývá ze souladu s morálkou a \nveřejné angažovanosti na deﬁnici právních norem - především \nprostřednictvím volených zástupců do zákonodárného sboru a \ndalších orgánů státní moci."
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": "Legalita & legitimita\nPříklady rozporu legality a legitimity\n● Proporcionalita sankcí (tresty za znásilnění vs. držení drog pro vlastní \npotřebu, promlčitelnost závažných činů…)\n● Právo v totalitě (politické procesy, utlačování menšin, ukrývání \npronásledovaných osob…)\n● Občanská neposlušnost (blokování dopravy, nepovolená shromáždění, \nvyhýbání se vojenské službě, guerilla gardening…)\n● Jednání v nouzi (krádež jídla pro hladovějící dítě, obstarání…) \n● Whistleblowing (porušení mlčenlivosti ve veřejném zájmu, stíhání \nwhistleblowerů…)\n● Daně (daňová optimalizace, daňové ráje…)\n"
+    }
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "schema": 1,
+  "subject": "social-sciences",
+  "topic": "section-180fc16220e3f80e6b789e1d58d9a861",
+  "title": "Základy práva",
+  "language": "cs",
+  "intro": "Rozliš právo a morálku, právní sílu předpisu a vnitřní strukturu normy. Pracovní situace slouží k odůvodňování a klasifikaci; ne všechny požadují jedinou správnou hodnotovou odpověď.",
+  "sources": [
+    {
+      "id": "1acdf9a7e41c60669a80858960aa5090c6a6742406f72d6d21c53315e5beb08c",
+      "sha256": "106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f",
+      "title": "Mělo by právo zasahovat.png",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f.png",
+      "extraction_url": "./extracted/106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f.zip"
+    },
+    {
+      "id": "1c6ea8722c5f003ad548a6b5957eaa697bad8d36f37cd62c206c51c156fbc983",
+      "sha256": "bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69",
+      "title": "pořádek fakta.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69.pdf",
+      "extraction_url": "./extracted/bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69.zip"
+    },
+    {
+      "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+      "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+      "title": "Historický vývoj práva.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4.pdf",
+      "extraction_url": "./extracted/73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4.zip"
+    },
+    {
+      "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+      "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+      "title": "Struktura právních norem.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e.pdf",
+      "extraction_url": "./extracted/72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e.zip"
+    },
+    {
+      "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+      "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498",
+      "title": "pořádek zadání.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498.pdf",
+      "extraction_url": "./extracted/1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498.zip"
+    },
+    {
+      "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+      "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+      "title": "Úvod do práva.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c.pdf",
+      "extraction_url": "./extracted/bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "pravo-a-moralka",
+      "title": "Právní pravidlo, hodnoty a společenská praxe",
+      "source_refs": [
+        {
+          "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+          "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+          "page": 2
+        },
+        {
+          "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+          "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+          "page": 3
+        },
+        {
+          "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+          "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+          "page": 4
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Úvodní prezentace ukazuje právo ze tří hledisek: jako soustavu závazných norem, jako nositele hodnot a jako pravidla skutečně používaná soudy a dalšími orgány. Normativní pojetí zdůrazňuje oprávněný orgán, předepsanou formu a státní vynutitelnost. Přirozenoprávní pojetí se ptá, zda psané právo odpovídá spravedlnosti.",
+          "source_refs": [
+            {
+              "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+              "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+              "page": 2
+            },
+            {
+              "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+              "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+              "page": 3
+            },
+            {
+              "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+              "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Morálka vychází také z přesvědčení, společenského hodnocení a svědomí. Právní sankci uplatňuje stát; morální odsouzení může přicházet od okolí nebo od člověka samotného. Výrok „právo je minimum morálky“ proto není tvrzením, že každý morální požadavek je zákonem.",
+          "source_refs": [
+            {
+              "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+              "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+              "page": 2
+            },
+            {
+              "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+              "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+              "page": 3
+            },
+            {
+              "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+              "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+              "page": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legalita-legitimita",
+      "title": "Legalita a legitimita kladou jiné otázky",
+      "source_refs": [
+        {
+          "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+          "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+          "page": 5
+        },
+        {
+          "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+          "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Legální znamená soulad s právem. Legitimní v použité prezentaci znamená soulad se společenským přesvědčením a uznávanými hodnotami. Spor o přiměřenost trestu nebo občanskou neposlušnost může ukázat napětí mezi oběma hledisky. Samotný pocit spravedlnosti ještě nedokazuje soulad s právem.",
+          "source_refs": [
+            {
+              "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+              "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+              "page": 5
+            },
+            {
+              "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+              "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Obrázkový pracovní list „Má právo zasahovat?“ výslovně žádá rozhodnutí, co by právo stanovovat mělo, nikoli zjištění aktuálně platného práva. U každé situace formuluj chráněný zájem, zásah do jiných hodnot a důvod svého pořadí závažnosti. Hodnotový žebříček nevydávej za seznam platných trestných činů.",
+          "source_refs": [
+            {
+              "id": "1acdf9a7e41c60669a80858960aa5090c6a6742406f72d6d21c53315e5beb08c",
+              "sha256": "106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f",
+              "locator": "Zadání a šestnáct diskusních situací"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5aa8fc3d69930667b45b8c37e66aed0a1eeb650ff1c5c4b05676a971dd19bf1b.webp",
+          "alt": "Diskusní pracovní list s otázkou, které jednání by právo mělo postihovat",
+          "caption": "Důležitá poznámka v zadání rozlišuje návrh pravidla od popisu účinného práva.",
+          "source_refs": [
+            {
+              "id": "1acdf9a7e41c60669a80858960aa5090c6a6742406f72d6d21c53315e5beb08c",
+              "sha256": "106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f"
+            }
+          ],
+          "source_media": "extracted/106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f/media/original.png",
+          "width": 1800,
+          "height": 1196
+        }
+      ]
+    },
+    {
+      "id": "norma",
+      "title": "Hypotéza, dispozice a sankce",
+      "source_refs": [
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 2
+        },
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 3
+        },
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 4
+        },
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 5
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hypotéza vymezuje, kdy, kde, na koho nebo za jakých okolností se pravidlo použije. Dispozice vyjadřuje požadované či dovolené chování. Sankce popisuje následek porušení. Rozklad je nástroj k pochopení pravidla: podmínka → chování → následek.",
+          "source_refs": [
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 2
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 3
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 4
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Prezentace sama upozorňuje, že některé opravňující normy sankci neobsahují. Není tedy bezpečné memorovat úvodní schéma jako tvrzení, že v každé jednotlivé větě předpisu najdeme výslovně všechny tři části.",
+          "source_refs": [
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 2
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 5
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi podmínku",
+          "text": "Ptej se kdy, kde, kdo a za jakých okolností.",
+          "source_refs": [
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 2
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 3
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 4
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "title": "Najdi požadované chování",
+          "text": "Urči, co se musí, nesmí nebo může udělat.",
+          "source_refs": [
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 2
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 3
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 4
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "title": "Najdi následek",
+          "text": "Pokud jej ukázka uvádí, odděl následek porušení od samotné povinnosti.",
+          "source_refs": [
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 2
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 3
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 4
+            },
+            {
+              "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+              "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+              "page": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pravni-rad",
+      "title": "Pramen práva a jeho právní síla",
+      "source_refs": [
+        {
+          "id": "1c6ea8722c5f003ad548a6b5957eaa697bad8d36f37cd62c206c51c156fbc983",
+          "sha256": "bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69",
+          "page": 1
+        },
+        {
+          "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+          "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498",
+          "page": 1
+        },
+        {
+          "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+          "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Právní řád je soustava pramenů práva platných v daném státě. Základní školní pyramida rozlišuje ústavní pořádek, zákony a podzákonné předpisy. Určení stupně není otázkou počtu paragrafů: záleží na druhu předpisu a orgánu, který jej vydal.",
+          "source_refs": [
+            {
+              "id": "1c6ea8722c5f003ad548a6b5957eaa697bad8d36f37cd62c206c51c156fbc983",
+              "sha256": "bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69",
+              "page": 1
+            },
+            {
+              "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+              "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498",
+              "page": 1
+            },
+            {
+              "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+              "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "V úloze lze vyhlášku ministerstva rozpoznávat podle orgánu a výslovného zákonného zmocnění, vládní nařízení podle vlády a provádění zákona. Občanský zákoník patří mezi zákony; Ústava a Listina k ústavnímu pořádku. U každého úryvku spoj název předpisu s místem v pyramidě.",
+          "source_refs": [
+            {
+              "id": "1c6ea8722c5f003ad548a6b5957eaa697bad8d36f37cd62c206c51c156fbc983",
+              "sha256": "bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69",
+              "page": 1
+            },
+            {
+              "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+              "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498",
+              "page": 1
+            },
+            {
+              "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+              "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Podklad „Fakta pro učitele“ zjednodušuje některé legislativní postupy i zařazení evropského a mezinárodního práva. Třípatrovou pomůcku proto nepoužívej jako úplný výklad vztahu všech právních pramenů.",
+          "source_refs": [
+            {
+              "id": "1c6ea8722c5f003ad548a6b5957eaa697bad8d36f37cd62c206c51c156fbc983",
+              "sha256": "bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Úroveň",
+          "Pomůcka k rozpoznání"
+        ],
+        "rows": [
+          {
+            "label": "Ústavní pořádek",
+            "values": [
+              "Ústava, Listina, další ústavní zákony",
+              "Základní rámec státní moci a práv"
+            ]
+          },
+          {
+            "label": "Zákony",
+            "values": [
+              "Například občanský zákoník",
+              "Zákonná právní síla"
+            ]
+          },
+          {
+            "label": "Podzákonné předpisy",
+            "values": [
+              "Například nařízení vlády a vyhlášky",
+              "Provádění a působnost v mezích vyšších předpisů"
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/ad7f5ef244b62b5c61d21b140778e935d39c5727389020bec98cec3ea9ed4617.webp",
+          "alt": "Pyramida právního řádu a vysvětlení základních druhů předpisů",
+          "caption": "Sleduj tři základní úrovně; doprovodný text je školní zjednodušení.",
+          "source_refs": [
+            {
+              "id": "1c6ea8722c5f003ad548a6b5957eaa697bad8d36f37cd62c206c51c156fbc983",
+              "sha256": "bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69",
+              "page": 1
+            }
+          ],
+          "source_media": "extracted/bcd705e2460dfe719f8573b7e23232c95d7e948c756251fee088a1eb869e9c69/media/page-001-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ]
+    },
+    {
+      "id": "vyvoj",
+      "title": "Od obyčeje k psaným a obecným pravidlům",
+      "source_refs": [
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+          "page": 2
+        },
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+          "page": 4
+        },
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+          "page": 5
+        },
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+          "page": 6
+        },
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+          "page": 7
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Historický přehled klade vedle sebe zvykové a kodifikované právo, středověký právní partikularismus a novověké požadavky svobody, rovnosti a dělby moci. Partikularismus znamená souběh odlišných právních soustav pro různé stavy či skupiny; kodifikace znamená zachycení pravidel do psané soustavy.",
+          "source_refs": [
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 2
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 4
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 5
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 6
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Prezentace je orientační přehled, nikoli spolehlivá podrobná časová osa: některá data spojují různé události nebo osoby. Z přehledu zde přebíráme pojmové proměny, nikoli sporné letopočty.",
+          "source_refs": [
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 2
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 4
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 5
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 6
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 7
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "label": "Starověké soustavy",
+          "text": "Psané kodifikace a jejich vztah k předchozím obyčejům.",
+          "source_refs": [
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 2
+            },
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "label": "Středověký partikularismus",
+          "text": "Různé právní režimy podle příslušnosti ke skupině.",
+          "source_refs": [
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "label": "Novověké proměny",
+          "text": "Přirozená práva, rovnost a rozdělení státní moci jako témata přehledu.",
+          "source_refs": [
+            {
+              "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+              "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+              "page": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Legalita × legitimita?",
+      "back": "Soulad s právem × společenské uznání a hodnotové ospravedlnění v pojetí prezentace.",
+      "source_refs": [
+        {
+          "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+          "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+          "page": 5
+        },
+        {
+          "id": "d9ba5fdaef8932c1c75a901bef00c37ecc038e5056d0fa043f9b0ec6ffb3592e",
+          "sha256": "bcf73806e619075aae88596da567de7c59ff2a25237d3bb50fc75d6253962d6c",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Hypotéza normy?",
+      "back": "Podmínky použití: kdo, kdy, kde a za jakých okolností.",
+      "source_refs": [
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Dispozice normy?",
+      "back": "Požadované, zakázané nebo dovolené chování.",
+      "source_refs": [
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Sankce?",
+      "back": "Následek porušení; některé opravňující normy ji výslovně neobsahují.",
+      "source_refs": [
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Kodifikace × obyčej?",
+      "back": "Psané uspořádání pravidel × pravidla vyrůstající ze zvyku.",
+      "source_refs": [
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Právní partikularismus?",
+      "back": "Odlišné právní soustavy pro různé skupiny obyvatel.",
+      "source_refs": [
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+          "page": 5
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Která otázka hledá hypotézu normy?",
+      "options": [
+        "Jaké okolnosti pravidlo spouštějí?",
+        "Jaký trest následuje?",
+        "Jak se jmenuje autor učebnice?"
+      ],
+      "answer": 0,
+      "explanation": "Hypotéza stanovuje podmínky; trest patří do sankce.",
+      "source_refs": [
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "Co vyjadřuje dispozice?",
+      "options": [
+        "Obsah požadovaného chování",
+        "Datum vydání předpisu",
+        "Právní sílu vyhlášky"
+      ],
+      "answer": 0,
+      "explanation": "Dispozice určuje práva a povinnosti při splnění hypotézy.",
+      "source_refs": [
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "Které tvrzení respektuje prezentaci o sankcích?",
+      "options": [
+        "Některé normy sankci neobsahují",
+        "Každá opravňující norma musí mít výslovný trest",
+        "Sankce nikdy nemá preventivní funkci"
+      ],
+      "answer": 0,
+      "explanation": "Prezentace uvádí výjimku u opravňujících norem.",
+      "source_refs": [
+        {
+          "id": "5151228ea1ae5ea411544030cc5e38807a8db67220c3c4e259098becae027092",
+          "sha256": "72fae6bbaacc50cb7996f36a179fb6dc2c4d6ad92a668ea640be7b931e11e14e",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Co zjišťuje obrázková diskusní úloha?",
+      "options": [
+        "Co by podle žáka právo mělo stanovovat",
+        "Přesný seznam současných trestných činů",
+        "Závazný rozsudek v každé situaci"
+      ],
+      "answer": 0,
+      "explanation": "Toto rozlišení je výslovně uvedeno v zadání.",
+      "source_refs": [
+        {
+          "id": "1acdf9a7e41c60669a80858960aa5090c6a6742406f72d6d21c53315e5beb08c",
+          "sha256": "106b758943892f38cc309d7737d5f17172393ad4a337d563fc9dd7ebe554f20f"
+        }
+      ]
+    },
+    {
+      "id": "question-5",
+      "prompt": "Kam v základní pyramidě patří občanský zákoník?",
+      "options": [
+        "Mezi obecní vyhlášky",
+        "Mimo právní řád",
+        "Mezi zákony"
+      ],
+      "answer": 2,
+      "explanation": "Pracovní list jej přímo používá jako ukázku zákona.",
+      "source_refs": [
+        {
+          "id": "d81d394bff32c3df8cd920b516b6bcbb2f15e2922975af210f6b8e38c51747ef",
+          "sha256": "1ce70f21a0705289f4f1cd61eea9abebc1e94228bcb42a66ad5d2cd47cc90498",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-6",
+      "prompt": "Co znamená právní partikularismus?",
+      "options": [
+        "Pouze ústní právní normy",
+        "Jediný režim pro všechny skupiny",
+        "Různé právní soustavy pro různé skupiny"
+      ],
+      "answer": 2,
+      "explanation": "Středověký přehled uvádí zemské, církevní, městské a další právo.",
+      "source_refs": [
+        {
+          "id": "4fb863319d92ded72cc2100efc459d1192a8cdc9781dc6c6f1ca9bb7e98cbab5",
+          "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+          "page": 5
+        }
+      ]
+    }
+  ]
+}

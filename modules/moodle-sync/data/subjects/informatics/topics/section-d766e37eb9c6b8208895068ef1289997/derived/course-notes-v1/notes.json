@@ -1,0 +1,508 @@
+{
+  "schema": 1,
+  "subject": "informatics",
+  "topic": "section-d766e37eb9c6b8208895068ef1289997",
+  "title": "Projekt První Pololetí",
+  "language": "cs",
+  "intro": "Naplánuj platnou misi, zaznamenej každý povel a z četností sestav vlastní Huffmanův kód. Zadání nevyžaduje nejkratší trasu; nejdřív musí souhlasit poloha, směr, energie, data a všechny vědecké úkoly.",
+  "sources": [
+    {
+      "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+      "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+      "title": "Mars_Rover_Huffman_Project_Worksheet.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d.docx",
+      "extraction_url": "./extracted/e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d.zip"
+    },
+    {
+      "id": "42532b5457d880f56c96adfb505978b21b1724ff0aa722f431ffe87d3f52c6b3",
+      "sha256": "8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75",
+      "title": "Map_final.png",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75.png",
+      "extraction_url": "./extracted/8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "mapa-a-povely",
+      "title": "Mapa nestačí: robot má také orientaci",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Rover instructions; Special squares"
+        },
+        {
+          "id": "42532b5457d880f56c96adfb505978b21b1724ff0aa722f431ffe87d3f52c6b3",
+          "sha256": "8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75",
+          "locator": "původní mapa"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Na mapě rozliš průchozí bílá pole, černé překážky, dobíjecí stanice, místa sběru vzorků, fotografická místa se šipkou a zelený cíl. Šipka u fotografie určuje směr, kterým musí rover při povelu Ph hledět.",
+          "source_refs": [
+            {
+              "id": "42532b5457d880f56c96adfb505978b21b1724ff0aa722f431ffe87d3f52c6b3",
+              "sha256": "8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75",
+              "locator": "původní mapa"
+            },
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Special squares"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "F: posun o jedno pole v aktuálním směru.",
+            "L/R/U: otočení o 90° vlevo, 90° vpravo nebo 180°; rover zůstává na stejném poli.",
+            "Ph: fotografie na fotografickém poli při správném natočení.",
+            "Pi: sběr vzorku na poli se vzorkem.",
+            "Ch: dobití pouze na nabíjecí stanici.",
+            "T: odeslání všech dat a vyprázdnění úložiště; lze ho použít z libovolného pole."
+          ],
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Rover instructions"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Úplná posloupnost musí obsahovat i všechna otočení a akce. „Dojedu k fotografii“ není náhrada za konkrétní povely F, L, R, Ph.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Write the complete instruction sequence"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/8d050ebf3741891499a21462dd9652f5d92e46be0240cef3573ec8a6d4a9a742.webp",
+          "alt": "Původní mapa mise s chodbami, nabíječkami, fotografiemi, vzorky a zeleným cílem",
+          "caption": "Mapa k projektu: před pohybem sleduj směr roveru a směr šipek u fotografií.",
+          "source_refs": [
+            {
+              "id": "42532b5457d880f56c96adfb505978b21b1724ff0aa722f431ffe87d3f52c6b3",
+              "sha256": "8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75",
+              "locator": "původní obrázek"
+            }
+          ],
+          "source_media": "extracted/8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75/media/original.png",
+          "width": 1800,
+          "height": 742
+        }
+      ]
+    },
+    {
+      "id": "omezeni-mise",
+      "title": "Dvě oddělená omezení: baterie a data",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Energy; Data storage"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rover začíná s energií 10. Pouze F spotřebuje 1 jednotku; otáčení, fotografie, sběr, dobíjení a odesílání podle tohoto zadání energii nespotřebovávají. Při nule už další F není dovolen.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Energy"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ch obnoví baterii na 10, ale jen na nabíjecí stanici. Úložiště pojme nejvýše 3 datové položky. Každé Ph i Pi přidá jednu položku; při plném úložišti je další vědecká akce zakázaná až do T.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Rover instructions; Data storage"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "T lze použít kdekoli a nebere energii, ale prodlužuje posloupnost povelů. Před dosažením cíle musí být odeslána všechna získaná data a splněny všechny úkoly.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Data storage; Plan the mission"
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Baterie",
+          "Datové úložiště"
+        ],
+        "rows": [
+          {
+            "label": "Počáteční stav / kapacita",
+            "values": [
+              "10 jednotek energie",
+              "Nejvýše 3 položky"
+            ]
+          },
+          {
+            "label": "Co stav mění",
+            "values": [
+              "F ubere 1; Ch obnoví 10",
+              "Ph/Pi přidá 1; T nastaví 0"
+            ]
+          },
+          {
+            "label": "Kde obnovit stav",
+            "values": [
+              "Ch jen na stanici",
+              "T z libovolného pole"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Zkontroluj fotografii",
+          "text": "Didaktický příklad před Ph: rover stojí na fotografickém poli a směřuje podle jeho šipky.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Rover instructions"
+            }
+          ]
+        },
+        {
+          "title": "Zkontroluj volné místo",
+          "text": "Má-li úložiště už 3 položky, Ph nelze provést. Nejprve odešli T.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Data storage"
+            }
+          ]
+        },
+        {
+          "title": "Proveď akci",
+          "text": "Ph přidá jednu položku; podle zadání přitom nespotřebuje energii.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Energy; Data storage"
+            }
+          ]
+        },
+        {
+          "title": "Naplánuj další přesun",
+          "text": "Před F musí být energie alespoň 1 a cílové pole nesmí být překážka.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Energy; Special squares"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "od-trasy-ke-kodu",
+      "title": "Nejdřív platná mise, potom úspornější zápis",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Count the frequencies; Build a Huffman tree; Compare with fixed-length encoding"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Z úplné platné posloupnosti spočítej četnosti všech osmi názvů F, L, R, U, Ph, Pi, Ch a T. Huffmanův strom stavíš z četností vlastní trasy, ne automaticky z procent jiného příkladu v prezentaci.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Count the frequencies; Build a Huffman tree"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při stavbě stromu spojuj vždy dva aktuálně nejméně četné uzly. Pak označ větve 0 a 1 a přelož celou posloupnost. Délku zprávy získáš součtem četnost povelu × délka jeho kódu.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Build a Huffman tree; Create the Huffman code; Encode the mission"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Pro pevně dlouhý zápis osmi povelů jsou potřeba 3 bity na povel, protože 2³ = 8. Má-li mise N povelů, pevná délka je 3N bitů. Úsporu porovnávej se stejnou úplnou misí.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Compare with fixed-length encoding"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Ověř platnost trasy",
+          "text": "Musí souhlasit povolená pole, směr fotografií, energie, kapacita dat, splnění úkolů a odeslání před cílem.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Plan the mission"
+            }
+          ]
+        },
+        {
+          "title": "Zapiš a sečti povely",
+          "text": "Každý příkaz zaznamenej jednotlivě. Součet četností se musí rovnat počtu všech příkazů N.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Write the complete instruction sequence; Count the frequencies"
+            }
+          ]
+        },
+        {
+          "title": "Postav strom a zakóduj",
+          "text": "Použij skutečné četnosti své trasy; kódy přečti od kořene k jednotlivým povelům.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Build a Huffman tree; Create the Huffman code"
+            }
+          ]
+        },
+        {
+          "title": "Změř výsledek",
+          "text": "Huffmanovu délku porovnej s 3N. Průměrná délka je počet bitů dělený N; úspora v procentech je rozdíl délek dělený pevnou délkou krát 100.",
+          "source_refs": [
+            {
+              "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+              "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+              "locator": "Encode the mission; Compare with fixed-length encoding"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-forward",
+      "front": "Který povel spotřebovává energii?",
+      "back": "Pouze F, vždy jednu jednotku. Ostatní vyjmenované příkazy jsou v modelu zadání energeticky zdarma.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Energy"
+        }
+      ]
+    },
+    {
+      "id": "card-photo",
+      "front": "Kdy je platný povel Ph?",
+      "back": "Rover stojí na fotografickém poli, směřuje podle šipky a má místo v úložišti.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Rover instructions; Data storage"
+        }
+      ]
+    },
+    {
+      "id": "card-transmit",
+      "front": "Kde smí rover provést T?",
+      "back": "Z libovolného pole; odešle všechna data a vyprázdní úložiště na nulu.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Rover instructions; Data storage"
+        }
+      ]
+    },
+    {
+      "id": "card-charge",
+      "front": "Co přesně udělá Ch?",
+      "back": "Na nabíjecí stanici obnoví energii na 10 jednotek.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Rover instructions"
+        }
+      ]
+    },
+    {
+      "id": "card-fixed",
+      "front": "Kolik bitů na povel potřebuje pevný kód osmi povelů?",
+      "back": "3 bity, protože 2³ = 8.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Compare with fixed-length encoding"
+        }
+      ]
+    },
+    {
+      "id": "card-mission-finish",
+      "front": "Co musí platit před příchodem do cíle?",
+      "back": "Všechny požadované úkoly jsou hotové a všechna získaná data jsou odeslaná.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Data storage; Plan the mission"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-battery",
+      "prompt": "Rover provede 4× F, 2× R a 1× Ph. Kolik energie z původních 10 zbývá?",
+      "options": [
+        "3",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "Jen čtyři posuny F ubírají energii: 10 − 4 = 6. Otočení ani Ph ji v tomto zadání nečerpají.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Energy"
+        }
+      ]
+    },
+    {
+      "id": "quiz-storage",
+      "prompt": "Úložiště obsahuje 3 položky. Co je potřeba před dalším Pi?",
+      "options": [
+        "Poslat T",
+        "Otočit se U",
+        "Provést ještě jedno Ph"
+      ],
+      "answer": 0,
+      "explanation": "Pi by přidalo čtvrtou položku. T odešle všechny dosavadní položky a kapacitu uvolní.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Data storage"
+        }
+      ]
+    },
+    {
+      "id": "quiz-turn",
+      "prompt": "Co provede R?",
+      "options": [
+        "Posun doprava o jedno pole",
+        "Otočení o 90° vpravo bez změny pole",
+        "Odeslání dat"
+      ],
+      "answer": 1,
+      "explanation": "R mění orientaci, nikoliv polohu. Posun vpřed provádí F až podle aktuální orientace.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Rover instructions"
+        }
+      ]
+    },
+    {
+      "id": "quiz-photo-facing",
+      "prompt": "Rover stojí na správném fotografickém poli, ale hledí jiným směrem než šipka. Je Ph platné?",
+      "options": [
+        "Ano, stačí pole",
+        "Ne, musí se nejdřív správně natočit",
+        "Ano, když má energii 10"
+      ],
+      "answer": 1,
+      "explanation": "Zadání požaduje správné pole i směr. Energie toto pravidlo nenahrazuje.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Rover instructions"
+        }
+      ]
+    },
+    {
+      "id": "quiz-ten-commands",
+      "prompt": "Jak dlouhý je pevně dlouhý kód mise s 10 příkazy z osmi druhů povelů?",
+      "options": [
+        "10 bitů",
+        "24 bitů",
+        "30 bitů"
+      ],
+      "answer": 2,
+      "explanation": "Každý povel má 3 bity, tedy 10 × 3 = 30. Nejde o automatický odhad délky Huffmanova kódu.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Compare with fixed-length encoding"
+        }
+      ]
+    },
+    {
+      "id": "quiz-frequency",
+      "prompt": "Z jakých četností vytvoříš Huffmanův strom pro odevzdávanou misi?",
+      "options": [
+        "Z vlastní úplné posloupnosti",
+        "Vždy 50 %, 25 %, 15 %, 10 %",
+        "Jen z fotografií"
+      ],
+      "answer": 0,
+      "explanation": "Projekt výslovně požaduje četnosti povelů z vlastní trasy včetně otočení, přenosů a dalších akcí.",
+      "source_refs": [
+        {
+          "id": "0da663f89b7d555530e56ae3a693819c222a29b3c41988426b902b164c66797c",
+          "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+          "locator": "Count the frequencies; Build a Huffman tree"
+        }
+      ]
+    }
+  ]
+}

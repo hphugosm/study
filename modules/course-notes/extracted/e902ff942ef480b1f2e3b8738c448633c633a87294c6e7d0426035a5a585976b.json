@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "NÁZVOSLOVÍ KOMPLEXNÍCH SLOUČENIN \n \nNázev vytvoříme: \n1) z počtu ligandů (di, tri, tetra, penta, hexa)  př. tetra \n2) z ligandu  př. aqua \n3) ze středového atomu + zakončení oxid. čísla  př. zinečnatý \n \nLigandy: \nNeutrální náboj: \nH2O° – AQUA \nNH3° – AMMIN \nNO° – NITROSYL \nCO° - KARBONYL \n \nZáporný náboj – aniontové ligandy \nCl- chloro          Br - bromo \nF- fluoro            I - jodo \nOH- hydroxo     NH2-  amido \nH- hydrido         PO43- fosfato \nCN- kyano         CO32- karbonato \nO2- oxo               O22-  peroxo \nS2- thio               HPO42- hydrogenfosfato \nSO42- sulfato      SO32- sulfito \nNO2- nitro          NO3- nitrato \n \n \n3) Vyjádření oxidačního čísla centrálního atomu \n \na) Nulové oxid. Číslo: název atomu v 1. nebo 2. pádu \n komplex tetrakarbonyl niklu \n \nb) Záporné oxid. Číslo - zakončení id \ntetrakarbonyl kobaltid sodný \n \nc) Kladné ox.číslo  - příslušné zakončení ox. čísla \nkation hexaamin chromitý \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Názvosloví komplexních sloučenin\n\nligandy s neutrálním nábojem\n\n— Aniontové ligandy\n\nVzorec | Název ligandu lon Název ligandu lon Název ligandu\nHO agua É fluoro ci chloro\nNH5 ammin r jodo Br bromo\nNO nitrosyl NOz nitro NOs nitrato\nco karbonyl ož — ox O2ž peroxo\n\nNHz amido s0d sulfato\nS0 sulfito OH hydroxo\nH hydrido S0 thiosulfato\na thio — C0 karbonato\na disulfido PO fosfato\nHS merkapto HPOsž hydrogenfosfato\nCN kyano CH:COO\" acetato\nVýskyt a využití\n\nkomplexní sloučeniny se připravují převážně uměle, avšak můžeme je nalézt i\n\nzcela volně v přírodě.\n\nKrystalohydráty (hydratované soli), např. modrá skalice CuSO4 « 5 H20 jsou ve\n\nskutečnosti komplexy\n\n— uzmíněného pentahydrátu síranu měďnatého je centrálním atomem kation\nmědďdnatý, funkci ligandu mají molekuly vody a síranový anion je cizorodý. Jeho\n\nskutečný název je síran pentaaguaměďdnatý a vzorec pak [Cu(H20])s]SO4.\n\nŠiroká škála různých oborů využije komplexní sloučeniny. Aplikují se při výrobě\nplastů, barviv anebo se užívají v analytické či jaderné chemii. S\n\nvyužitím komplexů lze znehodnotit jedovaté kyanidy či připravit třaskaviny\n(např. acetylid stříbrný Ag2C2).\n\nHydroxid tetraamminměďnatý [Cu(NHs)s](OH)e, triviálně činidlo Schweizerovo,\n\nje dobrým rozpouštědlem celulosy, což umožňuje jeho využití při výrobě\n\nhedvábí.\n\n",
+      "text": " \n \n \n   \n \n"
+    }
+  ]
+}

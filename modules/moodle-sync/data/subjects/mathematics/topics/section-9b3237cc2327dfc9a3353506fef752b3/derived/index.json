@@ -2,5 +2,40 @@
   "schema": 1,
   "subject_id": "mathematics",
   "topic_id": "section-9b3237cc2327dfc9a3353506fef752b3",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Goniometrie",
+      "kind": "notes",
+      "path": "data/subjects/mathematics/topics/section-9b3237cc2327dfc9a3353506fef752b3/derived/course-notes-v1/notes.json",
+      "sha256": "7fced252e441a4bbfb70ae278d4021a4e22c9b84247bc3be6ba202fee26ff4c6",
+      "source_refs": [
+        {
+          "id": "05e701d962053b34ecdcaca22b573563009ad5cce026d38fd8aa3258a02f8319",
+          "sha256": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1"
+        },
+        {
+          "id": "274e5c9b1521098ce00183bc99b9479f20829597dc608f35dd2ef88991c4b53f",
+          "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68"
+        },
+        {
+          "id": "2822b649b9e2891e1fe3b9e8c8f511b376fcbf81fa898867b083eca92b8b4573",
+          "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054"
+        },
+        {
+          "id": "2a6b75ba4bb6de98df150294aeaba3e6d74a336a37c445460abc9cd5dda17387",
+          "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8"
+        },
+        {
+          "id": "6e1cd2c7b3e1ca67207d9c7add2688a6e296a15c7fbb77074cf78651e8a0322d",
+          "sha256": "9e545d91139f2a490b02c50e49a534b3d7601fdc2fdfcc210aae5f75012527f1"
+        },
+        {
+          "id": "978dfc6ee7c589de65235f878d11faf5ad3d7ee8d0682a7bcc2fd4cd66b2d886",
+          "sha256": "271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

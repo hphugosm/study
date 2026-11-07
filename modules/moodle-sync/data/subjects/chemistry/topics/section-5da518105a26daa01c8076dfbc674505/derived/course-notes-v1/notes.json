@@ -1,0 +1,325 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-5da518105a26daa01c8076dfbc674505",
+  "title": "Závěrečné opakování učiva",
+  "language": "cs",
+  "intro": "Celoroční přehled obsahuje otázky k samostatné odpovědi, nikoli ověřený klíč řešení. Zachováváme jejich tematické skupiny i požadavky na kreslení vzorců; konkrétní výklady jsou v odpovídajících tematických kapitolách.",
+  "sources": [
+    {
+      "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+      "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+      "title": "opakovací otázky celý rok biochemie 2020.doc",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae.doc",
+      "extraction_url": "./extracted/556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "uvod-opakovani",
+      "title": "Úvod, složení organismů, biochemie",
+      "source_refs": [
+        {
+          "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+          "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+          "locator": "oddíl Úvod, složení organismů, biochemie"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Tento zdroj je seznam zadání. U otevřených otázek zde není automaticky hodnocená správná odpověď ani vymyšlený bodovací klíč.",
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "oddíl Úvod, složení organismů, biochemie"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Co je to biochemie a čím se zabývá?",
+            "Do jakého století spadají počátky biochemie?",
+            "Čím se zabývá dynamická a statická biochemie?",
+            "Jaké jsou společné vlastnosti pro živé systémy?",
+            "Za jakých podmínek probíhají chemické reakce v buňkách?",
+            "Kde je uložena genetická informace u eukaryotní  buňky?",
+            "Jakou funkci mají mitochondrie v buňce?",
+            "Vysvětlete, k čemu slouží biochemické metody."
+          ],
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "oddíl Úvod, složení organismů, biochemie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bilkoviny-opakovani",
+      "title": "Aminokyseliny, peptidy, bílkoviny",
+      "source_refs": [
+        {
+          "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+          "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+          "locator": "oddíl Aminokyseliny, peptidy, bílkoviny"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Co jsou to aminokyseliny a jaké mají chemické složení?",
+            "Kolik aminokyselin se pravidelně vyskytuje v bílkovinách?",
+            "Proč říkáme některým aminokyselinám – kódované aminokyseliny?",
+            "Uveďte název těchto aminokyselin",
+            "Napište vzorec Glycinu, Alaninu, Fenylalaninu, Cysteinu, Serinu",
+            "Z kolika aminokyselin jsou složeny oligopeptidy, polypeptidy a bílkoviny?",
+            "Napište definici a značku pro izoelektrický bod.",
+            "Napište rovnici chemické reakce: alaninu s fenylalaninem – výsledný produkt pojmenujte, určete o jaký peptid se jedná a zaškrtněte charakteristickou vazbu v peptidech.",
+            "Rozdělte bílkoviny podle jejich funkce.",
+            "K následujícím bílkovinám přiřaďte funkci, kterou mají v organismu:",
+            "Kolagen",
+            "Ferritin",
+            "Myosin",
+            "Jaké je chemické složení složených bílkovin?",
+            "Jak vypadá bílkovina, která má celkový tvar molekuly globulární?",
+            "Co vyjadřuje primární a sekundární struktura bílkovin?",
+            "Popište, jak vypadá struktura bílkovin – alfa.",
+            "Popište, k čemu dochází při svinování a denaturaci bílkovin.",
+            "Kde začíná trávení bílkovin? Jaké pH má žaludeční obsah?",
+            "Co dělají střevní enzymy: trypsin a chymotrypsin s bílkovinami?",
+            "Jak se nazývá konečná zplodina metabolismu bílkovin?",
+            "K čemu slouží močovinový cyklus?"
+          ],
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "oddíl Aminokyseliny, peptidy, bílkoviny"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/73f8be201b430db6a9c52f56f78f5a1e7a955ebb3b2f604ffa7df1eaed5c6997.webp",
+          "alt": "Vzorce aminokyselin k pojmenování v otázkách.",
+          "caption": "Vzorce aminokyselin k pojmenování v otázkách.",
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "obrázek v oddílu Aminokyseliny, peptidy, bílkoviny"
+            }
+          ],
+          "source_media": "extracted/556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae/media/document-image-001.png",
+          "width": 1084,
+          "height": 254
+        }
+      ]
+    },
+    {
+      "id": "lipidy-opakovani",
+      "title": "Lipidy a biomembrány",
+      "source_refs": [
+        {
+          "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+          "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+          "locator": "oddíl Lipidy a biomembrány"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Co jsou to lipidy a na jaké podskupiny se dělí?",
+            "Co jsou to triacylglyceroly chemicky? Jaké mají chemické složení?",
+            "Vysvětlete pojem esenciální mastné kyseliny. Jaké znáte druhy?",
+            "K čemu slouží esenciální mastné kyseliny v organismu, tj. jaké tam mají funkce?",
+            "Zapište vzorec kyseliny  palmitové a laurové.",
+            "Co jsou to isoprenoidy? Zapište také vzorec. Jaké znáte další zástupce těchto sloučenin?",
+            "Co je to mýdlová micela? Jaké má části? Nakreslete jí.",
+            "Z jakých částí se skládá biologická membrána? Zakreslete jí.",
+            "Popište následující obrázek.",
+            "Popište metabolismus lipidů. (Kde probíhá hlavní trávení, vlivem čeho, co je výsledkem metabolismu lipidů.)"
+          ],
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "oddíl Lipidy a biomembrány"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/2d76d724ab6c9641372aced750ed322c8f08e9184364a21ffb5f1b8c6c1734b0.webp",
+          "alt": "Schéma membrány k popisu v oddílu Lipidy a biomembrány.",
+          "caption": "Schéma membrány k popisu v oddílu Lipidy a biomembrány.",
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "obrázek v oddílu Lipidy a biomembrány"
+            }
+          ],
+          "source_media": "extracted/556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae/media/document-image-002.png",
+          "width": 649,
+          "height": 218
+        }
+      ]
+    },
+    {
+      "id": "sacharidy-opakovani",
+      "title": "Sacharidy",
+      "source_refs": [
+        {
+          "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+          "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+          "locator": "oddíl Sacharidy"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Co jsou to sacharidy a jaké prvky obsahují ve své molekule?",
+            "Jaký mají sacharidy význam pro náš organismus? (4 příklady)",
+            "Jak dělíme sacharidy z chemického hlediska? Uveďte rozdělení a počty jednotek.",
+            "Co je to sacharóza? Jaké je její využití z hlediska energie?",
+            "Zakreslete vzorec pro glyceraldehyd a dihydroxyaceton. Vysvětlete na těchto vzorcích, co jsou to aldosy a a ketosy. Zatrhněte tyto charakteristické skupiny.  Znázorněte chirální atom uhlíku.",
+            "Vysvětlete pojem monosacharidová jednotka.",
+            "Co jsou to pentosy? Napište také název a vzorec pro jednoho zástupce a uveďte jeho význam nebo využití.",
+            "Co je to glukosa? Jaké je její chemické složení? Uveďte vzorec, dále její výskyt, význam a využití. Odpověď zapište na druhou stranu.",
+            "Popište metabolismus sacharidů.  (Kde probíhá hlavní trávení, vlivem čeho, co je výsledkem metabolismu sacharidů.)"
+          ],
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "oddíl Sacharidy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nk-opakovani",
+      "title": "Nukleové kyseliny",
+      "source_refs": [
+        {
+          "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+          "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+          "locator": "oddíl Nukleové kyseliny"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Co jsou to nukleové kyseliny? Jaké druhy rozeznáváme?",
+            "Co je to nukleotid a z jakých částí je složen?",
+            "Co je to nukleosid a z jakých částí je složen?",
+            "Vypište názvy všech bází a zapište vzorec pro adenin.",
+            "K čemu slouží Chargaffova pravidla? Vysvětlete a uveďte příklad.",
+            "Popište sekundární strukturu DNA (jak to vypadá, co je páteří šroubovice, co je uvnitř, čím je to spojeno, kolik je tam řetězců)",
+            "Zapište schématem přenos genetické informace.",
+            "K čemu dochází při transkripci a kde v buňce probíhá?",
+            "Vysvětlete pojem replikační vidlička a nakreslete jí. Jaký má význam v přenosu genetické informace?",
+            "Vysvětlete pojmy kodon, antikodon a triplet."
+          ],
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "oddíl Nukleové kyseliny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metabolismus-opakovani",
+      "title": "Metabolismus",
+      "source_refs": [
+        {
+          "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+          "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+          "locator": "oddíl Metabolismus"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Co je to metabolismus?",
+            "Vysvětlete děje katabolismus a anabolismus.",
+            "Co je to ATP?",
+            "Jak funguje katabolismus?",
+            "Co jsou to amfibolické dráhy?",
+            "Co je to citrátový cyklus?",
+            "Co je to dýchací řetězec?"
+          ],
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "oddíl Metabolismus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulatory-opakovani",
+      "title": "Enzymy, vitamíny, hormony",
+      "source_refs": [
+        {
+          "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+          "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+          "locator": "oddíl Enzymy, vitamíny, hormony"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Co jsou to enzymy?",
+            "Kolik má tělo enzymů?",
+            "Co enzym umí? 5 bodů.",
+            "Z čeho se enzym skládá?",
+            "Co je to koenzym?",
+            "Na jakých šest tříd se dělí enzymy?",
+            "Co jsou to vitamíny?",
+            "Může být vitamín složkou enzymů?",
+            "Jaká je funkce vitamínů v těle?",
+            "Vysvětlete pojmy: Hypovitaminóza, hypervitaminóza, avitaminóza",
+            "Jaké znáte druhy vitamínů podle rozpustnosti ve vodě?",
+            "Co jsou to hormony?",
+            "Jak můžeme rozdělit hormony z chemického hlediska?",
+            "Oxytocin je peptidický hormon, co to znamená?",
+            "Adrenalin je aminokyselinový hormon, co to znamená?",
+            "Kortizol je steroidní hormon, co to znamená?"
+          ],
+          "source_refs": [
+            {
+              "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+              "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae",
+              "locator": "oddíl Enzymy, vitamíny, hormony"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [],
+  "questions": []
+}

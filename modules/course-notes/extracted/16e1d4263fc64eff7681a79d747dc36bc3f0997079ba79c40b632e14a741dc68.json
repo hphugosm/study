@@ -1,0 +1,180 @@
+{
+  "schema": 1,
+  "sha256": "16e1d4263fc64eff7681a79d747dc36bc3f0997079ba79c40b632e14a741dc68",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Goniometrie - grafy\n",
+      "text": "Goniometrie - grafy"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "text": "Zkuste načrtnout grafy na intervalu (-2π,2π):\n\n\t\ty = sin(x)\n\t\ty = cos(x)\n\nPoužijte základní hodnoty z jednotkové kružnice.\n*Od teď budeme pracovat v radiánech."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Grafy cos a sin:\n\n",
+      "text": "Grafy cos a sin:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vlastnosti:\n\nf(z) = sinz g(z) = cos z\n* D,=R * D,=R\n* H= (-1,1) * H,= (—1,1)\n* periodická, základní perioda T' = 27 * periodická, základní perioda T = 27\n* maxf =1 * maxg =1\n* minf = —1 * ming= —1\n* omezená: * omezená:\n-l<sinz <1 -1 <cosx < 1\n* lichá: * sudá:\nsin(—zx) = zsinz cos(—zx) = cos z\n\nPeriodická funkce: Funkce f je periodická, pokud existuje číslo T' > 0 takové, že\n\nJ(e+T) = j)\npro všechna z € D;. Číslo T nazýváme periodou funkce.\n",
+      "text": "Vlastnosti:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "y = sin(x)\n\ny = -sin(x)\n\ny = sin(x) + 2\ny = 3sin(x)\n\ny = sin(x + rr)\ny = sin(2x)\n\nDesmos\n",
+      "text": "Desmos\ny = sin(x)\ny = -sin(x)\ny = sin(x) + 2\ny = 3sin(x)\ny = sin(x + π)\ny = sin(2x)\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "y = sin(x)\n\ny = -sin(x)  převrátí graf kolem osy x\n\nv = sin(x) + 2  posune graf o +2 po ose y\n\nv = 3sin(x)  “roztáhne“ graf ve směru osy y 3krát\nv = sin(x + n)  posune graf o - n po ose x\n\nv = sin(2x)  “roztáhne“ graf ve směru osy x škrat\n\nCo nám mění periodu a jak?\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "text": "Načrtněte a určete periodu\n\ny = cos(x)\ny = -cos(x)\ny = cos(x) + 2\ny = 3cos(x)\ny = cos(x + π)\ny = cos(2x)\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "V = COS(2X+ T[) = Musím vytknout 2\ny = cos(2(x+5))\n\n. TU\nPosun po osexjeo 7\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Desmos - šoupátka\n\ny = asin(b(z — c)) + d\n\ny = acos(b(z — c)) + d\n",
+      "text": "Desmos - šoupátka"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "text": "Načrtněte: y = 2sin(2x+ π /2) – 3\n\nUpravím y = 2sin(2(x+ π /4)) – 3\nPostupně aplikuji úpravy \nV pořadí (a,d,b,c)\n\n\n\n*případně lze i pořadí (b,c,a,d)"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Načrtněte: y = 2sin(2x+ 11 /2) - 3\n\nPostup:\ny = 2sin(x)  “roztáhne“ graf ve směru osy y 2krát\nv = 2sin(x)- 3 * posune graf o -3 po ose y\n\ny = 2sin(2x) - 3 * “roztáhne“ graf ve směru osy x Škrát\ny = 2sin(2(x + n /4)) - 3 % posune graf o - n /4 po ose x\n",
+      "text": "Načrtněte: y = 2sin(2x+ π /2) - 3"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "f(x) = 2sin(2x+ 11 /2) - 3\n\nUrčete:\nPeriodu, Df, Hf, max, min, sudost/lichost\n",
+      "text": "f(x) = 2sin(2x+ π /2) - 3\nUrčete:\nPeriodu, Df, Hf, max, min, sudost/lichost"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "text": "Načrtněte a určete periodu, Df a Hf:\n \ny = sin(2x+ π /2) – 3\ny = 3sin(0.25x) – 1\ny = cos(2x+ π )\ny = -2sin(x- π /4)\ny = 0.25cos(x) - 3"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "text": "Načrtněte graf funkce a určete periodu, Df a Hf:\n\na) y = 4sin(x- π)\nb) y = 0.5 sin(x) - 3\nc) y = -cos(x+ π /2) + 1\nd) y = (cos(x) + cos(x)) – 2\n\n\t"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Funkce Tangens a Cotangens\n\nz ) tanz cot z z | tanz | cotz T tan z cot z\n\n0 0 undef. %\" — 3 — Š %7' 3 %\n\nz| a vV3 | %) -1 | -1 || % ) undef. | 0\n\nš 3 ? T 0 undef %\" —1 —1\n\nŽ undef. 0 %f % v3 1%\" — % —V3\n%\" 1 1 27 0 undef.\n\n",
+      "text": "Funkce Tangens a Cotangens"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Tangens\n\n-\n\nn\nvojat |bolst\n\n—\n\nýsiu\n)_cos Z)\n\ntan (\n\n13\n\nlim tanr = +0,\n\nz-%\n\n1\n\n= nedefinováno\n\nlim tanz = —\nz-%\n\n-360%,\n\n27\n\n09\n\n-1807\n\n-90?\n\n99\n\n1807\n\n27\n\n3607\n\n-\n\n-užn\n\n2\n\n3\n\n21\n",
+      "text": "Tangens"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Cotangens\n\ncos(0)\nt(0) = =\ncot(0) sin(0)\nlim cot z = —\n\nz0-\n\n—  nedefinováno\n\n1\n0\n\n-860?\n\n09\n\n900\n\n1800\n\n709\n\n360\n\nlim cot z = +0o\n\nza0* n\n\nje\n\n1/2 TĚ\n\n32\n\n",
+      "text": "Cotangens"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vlastnost tanr cot z\nDefiniční obor | RXV($+kr; kEZ) RNV(kr; keZ)\nObor hodnot R R\nPeriodická ano ano\nZákladní perioda T=rT T=rT\nMaximum nemá nemá\nMinimum nemá nemá\nOmezenost neomezená neomezená\nSudá / lichá lichá lichá\nMonotónnost rostoucí klesající\nSvislé asymptoty z=át+ků z=kr\ntan(—z) = — tanz, cot(—z) = —cot x\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "f: y = atan(b(z — c)) +d, g: y =acot(b(z — c))+d\n\na — svislé natažení/stlačení; a < 0 = převrácení podle osy z\nb - mění periodu:\n\nT\nP = —\n|b]\nc - posun doprava oc\nd- posun nahoru/dolů o d\nAsymptoty:\ntan Tz=c+\nDesmos k\ncot r=čc+—,\n\n",
+      "text": "Desmos"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 23",
+      "number": 23,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Určete periodu a asymptoty\n\n1. y= tanz +1\n: y = atan(b(z — d :y= t(b(z — d\n\n2. y = cot(z + 7) f yzatan(bz-o)+d | g: vzacot(bíz )) +\n\n3. y = tan(2z — T)\n\n4. y = 2tan(z — š)\n\n5\n\n. y = cot(3x + 7)\n\n1\n6. y = 3cot ža:fr)fl z 84 k\nT tan: T=—, T=c+\n7. y = —2tan (4:5 — š) +3 |b] b\nT\n. Y = t — ) — k\n8. y = 5co 2:1:+3) 2 eB s T:l, z:c+—n\n9. y = — tan la;f\" +4 l b\nAn 3“ 6\n3 3T\n10. y = r- 1\ny = 2cot 2:1: 4)+\n",
+      "text": "Určete periodu a asymptoty"
+    }
+  ]
+}

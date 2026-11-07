@@ -1,0 +1,750 @@
+{
+  "schema": 1,
+  "sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Mars Rover Mission"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": "Your task is to plan a complete mission for a rover on Mars. The rover must travel through the map, complete all required tasks, use charging stations when necessary, manage its limited data storage, transmit collected data to Ground Control, and finally reach the destination."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": "You do not need to find the most optimal or shortest possible route. Your route only needs to be valid and complete all necessary tasks. However, a shorter route will usually require fewer instructions to transmit."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": "Rover instructions:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 8",
+      "number": 8,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": "F – Forward: Move one square forward in the direction the rover is facing. F costs 1 energy unit."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": "L – Turn left: Rotate 90 degrees to the left. The rover stays on the same square."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": "R – Turn right: Rotate 90 degrees to the right. The rover stays on the same square."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": "U – U-turn: Rotate 180 degrees. The rover stays on the same square."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": "Ph – Photo: Take a photograph on a Photo square. Each Photo square contains an arrow. The rover must be standing on the Photo square and facing in the direction of the arrow when it uses Ph."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 14",
+      "number": 14,
+      "text": "Pi – Pick: Collect a sample on a Sample square. The rover must be standing on the Sample square when it uses Pi."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 15",
+      "number": 15,
+      "text": "Ch – Charge: Recharge the rover on a Charging Station square. After Ch, the battery is restored to 10 energy units."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 16",
+      "number": 16,
+      "text": "T – Transmit: Send all collected scientific data to Ground Control and clear the rover's data storage. T can be used from any square and does not consume energy."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 17",
+      "number": 17,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 18",
+      "number": 18,
+      "text": "Energy:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 19",
+      "number": 19,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 20",
+      "number": 20,
+      "text": "The rover starts with 10 energy units."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 21",
+      "number": 21,
+      "text": "Only F consumes energy. Every F costs 1 energy unit."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 22",
+      "number": 22,
+      "text": "The rover may not move forward when its energy is 0."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 23",
+      "number": 23,
+      "text": "To continue, the rover must be standing on a Charging Station square and use Ch."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 24",
+      "number": 24,
+      "text": "L, R, U, Ph, Pi, Ch and T do not consume energy."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 25",
+      "number": 25,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 26",
+      "number": 26,
+      "text": "Data storage:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 27",
+      "number": 27,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 28",
+      "number": 28,
+      "text": "The rover can store a maximum of 3 data items."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 29",
+      "number": 29,
+      "text": "Each Ph and each Pi creates 1 data item."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 30",
+      "number": 30,
+      "text": "When the storage already contains 3 data items, the rover may continue to move and turn, but it may not use Ph or Pi again until it uses T."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 31",
+      "number": 31,
+      "text": "T sends all stored data to Ground Control and clears the storage back to 0 data items."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 32",
+      "number": 32,
+      "text": "The rover may use T at any time, but unnecessary transmissions make the instruction sequence longer."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 33",
+      "number": 33,
+      "text": "All collected data must be transmitted before the rover reaches the destination."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 34",
+      "number": 34,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 35",
+      "number": 35,
+      "text": "Special squares:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 36",
+      "number": 36,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 37",
+      "number": 37,
+      "text": "Photo square: The rover must visit the square and use Ph while facing the direction shown by the arrow on that square."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 38",
+      "number": 38,
+      "text": "Sample square: The rover must visit the square and use Pi to collect the sample."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 39",
+      "number": 39,
+      "text": "Charging Station: The rover may use Ch here to restore its battery to 10 energy units."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 40",
+      "number": 40,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 41",
+      "number": 41,
+      "text": "Obstacle / inaccessible terrain: The rover cannot enter this square."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 42",
+      "number": 42,
+      "text": "Destination (green tile): The mission finishes when the rover reaches this square after completing all required tasks."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 43",
+      "number": 43,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 44",
+      "number": 44,
+      "text": "1. Plan the mission"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 45",
+      "number": 45,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 46",
+      "number": 46,
+      "text": "Find a valid route through the map. Your rover must visit every required Photo square, take every required photo while facing the correct direction, visit every required Sample square, collect every required sample, recharge whenever necessary, manage its data storage, transmit all collected data, and reach the final destination."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 47",
+      "number": 47,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 48",
+      "number": 48,
+      "text": "2. Write the complete instruction sequence"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 49",
+      "number": 49,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 50",
+      "number": 50,
+      "text": "Write every rover instruction in order using only the short instruction names: F, L, R, U, Ph, Pi, Ch, T."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 51",
+      "number": 51,
+      "text": "Example: F, F, R, F, Ph, U, F, L, F, Pi, ..."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 52",
+      "number": 52,
+      "text": "Do not skip any turns or actions. Use T whenever necessary so that the rover never tries to collect a fourth data item. All remaining data must be transmitted before the rover reaches the destination."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 53",
+      "number": 53,
+      "text": "Sequence of moves:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 54",
+      "number": 54,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 55",
+      "number": 55,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 56",
+      "number": 56,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 57",
+      "number": 57,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 58",
+      "number": 58,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 59",
+      "number": 59,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 60",
+      "number": 60,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 61",
+      "number": 61,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 62",
+      "number": 62,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 63",
+      "number": 63,
+      "text": "3. Count the frequencies"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 64",
+      "number": 64,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 65",
+      "number": 65,
+      "text": "Count how many times each instruction occurs in your complete mission. Record the frequency of F, L, R, U, Ph, Pi, Ch and T."
+    },
+    {
+      "kind": "table",
+      "label": "table 66",
+      "number": 66,
+      "text": "Instruction\tFrequency\tHuffman code\nF\t\t\nL\t\t\nR\t\t\nU\t\t\nPh\t\t\nPi\t\t\nCh\t\t\nT\t\t"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 67",
+      "number": 67,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 68",
+      "number": 68,
+      "text": "4. Build a Huffman tree"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 69",
+      "number": 69,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 70",
+      "number": 70,
+      "text": "Use the instruction frequencies from your own route to construct a Huffman tree. Always combine the two currently least frequent nodes. After combining two nodes, treat their sum as a new node and continue until one complete tree remains."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 71",
+      "number": 71,
+      "text": "Huffman tree:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 72",
+      "number": 72,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 73",
+      "number": 73,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 74",
+      "number": 74,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 75",
+      "number": 75,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 76",
+      "number": 76,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 77",
+      "number": 77,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 78",
+      "number": 78,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 79",
+      "number": 79,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 80",
+      "number": 80,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 81",
+      "number": 81,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 82",
+      "number": 82,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 83",
+      "number": 83,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 84",
+      "number": 84,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 85",
+      "number": 85,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 86",
+      "number": 86,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 87",
+      "number": 87,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 88",
+      "number": 88,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 89",
+      "number": 89,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 90",
+      "number": 90,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 91",
+      "number": 91,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 92",
+      "number": 92,
+      "text": "5. Create the Huffman code"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 93",
+      "number": 93,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 94",
+      "number": 94,
+      "text": "Assign 0 and 1 to the branches of your Huffman tree and write the final Huffman code for all eight instructions: F, L, R, U, Ph, Pi, Ch and T."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 95",
+      "number": 95,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 96",
+      "number": 96,
+      "text": "6. Encode the mission"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 97",
+      "number": 97,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 98",
+      "number": 98,
+      "text": "Translate your entire instruction sequence into binary using your Huffman code. Write the complete binary message and calculate its total length in bits."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 99",
+      "number": 99,
+      "text": "Encoded mission:"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 100",
+      "number": 100,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 101",
+      "number": 101,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 102",
+      "number": 102,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 103",
+      "number": 103,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 104",
+      "number": 104,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 105",
+      "number": 105,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 106",
+      "number": 106,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 107",
+      "number": 107,
+      "text": "Huffman encoding: __________ bits"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 108",
+      "number": 108,
+      "text": "Average code length: __________ bits/command"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 109",
+      "number": 109,
+      "text": "Entropy: __________ bits/command"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 110",
+      "number": 110,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 111",
+      "number": 111,
+      "text": "7. Compare with fixed-length encoding"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 112",
+      "number": 112,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 113",
+      "number": 113,
+      "text": "There are 8 possible instructions: F, L, R, U, Ph, Pi, Ch and T."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 114",
+      "number": 114,
+      "text": "With fixed-length encoding, 8 different instructions require 3 bits per instruction because 2^3 = 8."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 115",
+      "number": 115,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 116",
+      "number": 116,
+      "text": "Number of instructions: __________"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 117",
+      "number": 117,
+      "text": "Fixed-length size: number of instructions x 3 = __________ bits"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 118",
+      "number": 118,
+      "text": "Huffman encoded size: __________ bits"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 119",
+      "number": 119,
+      "text": "Bits saved: __________ bits"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 120",
+      "number": 120,
+      "text": "Percentage saved: __________ %"
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Mars Rover Mission\nYour task is to plan a complete mission for a rover on Mars. The rover must travel through the map, complete \nall required tasks, use charging stations when necessary, manage its limited data storage, transmit collected \ndata to Ground Control, and finally reach the destination.\nYou do not need to find the most optimal or shortest possible route. Your route only needs to be valid and \ncomplete all necessary tasks. However, a shorter route will usually require fewer instructions to transmit.\nRover instructions:\nF – Forward: Move one square forward in the direction the rover is facing. F costs 1 energy unit.\nL – Turn left: Rotate 90 degrees to the left. The rover stays on the same square.\nR – Turn right: Rotate 90 degrees to the right. The rover stays on the same square.\nU – U-turn: Rotate 180 degrees. The rover stays on the same square.\nPh – Photo: Take a photograph on a Photo square. Each Photo square contains an arrow. The rover must be \nstanding on the Photo square and facing in the direction of the arrow when it uses Ph.\nPi – Pick: Collect a sample on a Sample square. The rover must be standing on the Sample square when it \nuses Pi.\nCh – Charge: Recharge the rover on a Charging Station square. After Ch, the battery is restored to 10 energy \nunits.\nT – Transmit: Send all collected scientific data to Ground Control and clear the rover's data storage. T can be \nused from any square and does not consume energy.\nEnergy:\nThe rover starts with 10 energy units.\nOnly F consumes energy. Every F costs 1 energy unit.\nThe rover may not move forward when its energy is 0.\nTo continue, the rover must be standing on a Charging Station square and use Ch.\nL, R, U, Ph, Pi, Ch and T do not consume energy.\nData storage:\nThe rover can store a maximum of 3 data items.\nEach Ph and each Pi creates 1 data item.\nWhen the storage already contains 3 data items, the rover may continue to move and turn, but it may not \nuse Ph or Pi again until it uses T.\nT sends all stored data to Ground Control and clears the storage back to 0 data items.\nThe rover may use T at any time, but unnecessary transmissions make the instruction sequence longer.\nAll collected data must be transmitted before the rover reaches the destination.\nSpecial squares:\nPhoto square: The rover must visit the square and use Ph while facing the direction shown by the arrow on \nthat square.\nSample square: The rover must visit the square and use Pi to collect the sample.\nCharging Station: The rover may use Ch here to restore its battery to 10 energy units.\nObstacle / inaccessible terrain: The rover cannot enter this square."
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Destination (green tile): The mission finishes when the rover reaches this square after completing all required \ntasks.\n1. Plan the mission\nFind a valid route through the map. Your rover must visit every required Photo square, take every required \nphoto while facing the correct direction, visit every required Sample square, collect every required sample, \nrecharge whenever necessary, manage its data storage, transmit all collected data, and reach the final \ndestination.\n2. Write the complete instruction sequence\nWrite every rover instruction in order using only the short instruction names: F, L, R, U, Ph, Pi, Ch, T.\nExample: F, F, R, F, Ph, U, F, L, F, Pi, ...\nDo not skip any turns or actions. Use T whenever necessary so that the rover never tries to collect a fourth \ndata item. All remaining data must be transmitted before the rover reaches the destination.\nSequence of moves:\n3. Count the frequencies\nCount how many times each instruction occurs in your complete mission. Record the frequency of F, L, R, U, \nPh, Pi, Ch and T.\nInstruction Frequency Huffman code\nF\nL\nR\nU\nPh\nPi\nCh\nT\n4. Build a Huffman tree"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Use the instruction frequencies from your own route to construct a Huffman tree. Always combine the two \ncurrently least frequent nodes. After combining two nodes, treat their sum as a new node and continue until \none complete tree remains.\nHuffman tree:\n5. Create the Huffman code\nAssign 0 and 1 to the branches of your Huffman tree and write the final Huffman code for all eight instructions: \nF, L, R, U, Ph, Pi, Ch and T.\n6. Encode the mission\nTranslate your entire instruction sequence into binary using your Huffman code. Write the complete binary \nmessage and calculate its total length in bits.\nEncoded mission:"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Huffman encoding: __________ bits\nAverage code length: __________ bits/command\nEntropy: __________ bits/command\n7. Compare with fixed-length encoding\nThere are 8 possible instructions: F, L, R, U, Ph, Pi, Ch and T.\nWith fixed-length encoding, 8 different instructions require 3 bits per instruction because 2^3 = 8.\nNumber of instructions: __________\nFixed-length size: number of instructions x 3 = __________ bits\nHuffman encoded size: __________ bits\nBits saved: __________ bits\nPercentage saved: __________ %"
+    }
+  ]
+}

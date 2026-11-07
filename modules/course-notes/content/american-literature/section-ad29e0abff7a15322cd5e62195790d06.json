@@ -1,0 +1,586 @@
+{
+  "schema": 1,
+  "subject": "american-literature",
+  "topic": "section-ad29e0abff7a15322cd5e62195790d06",
+  "title": "The Lost Generation- Quiz",
+  "language": "en",
+  "intro": "Modernist writing asks how individuals make sense of a world whose social and cultural certainties have become unstable. This presentation connects that question with narrative experiment, the Lost Generation and selected works by Hemingway, Fitzgerald and Faulkner.",
+  "sources": [
+    {
+      "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+      "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+      "title": "American Modernism and the Lost Generation - 2026.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b.pdf",
+      "extraction_url": "./extracted/2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "modernist-change",
+      "title": "Social change and literary experiment",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The presentation describes the period between the world wars as a difficult coming of age: an increasingly urban society lived differently from the earlier agrarian generation. The point is not merely that cities replace a rural setting. Changes in social life also alter the kinds of conflict and uncertainty literature explores.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The source identifies experiments in form, narrative structure and style, an emphasis on subjective experience, fragmentation and non-linear storytelling. A text can therefore reveal a world through one person’s partial perception rather than a single orderly explanation.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The presentation names free verse, compression and prose poetry among the roots of modernist practice. Keep the general characteristics separate from a claim about a particular text: a work should be called fragmented or non-linear only when its structure provides evidence.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Narrative technique",
+          "Effect to look for"
+        ],
+        "rows": [
+          {
+            "label": "Subjective experience",
+            "values": [
+              "Events filtered through a person’s perspective.",
+              "Readers must consider what that person notices or fails to understand."
+            ]
+          },
+          {
+            "label": "Non-linear structure",
+            "values": [
+              "Events presented outside a simple chronological order.",
+              "The reader reconstructs connections between moments."
+            ]
+          },
+          {
+            "label": "Fragmentation",
+            "values": [
+              "A broken or discontinuous presentation.",
+              "The form can express instability rather than smooth certainty."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "alienation",
+      "title": "The individual and an uncertain world",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The presentation links modernism with a breakdown of social norms, alienation and the isolated person facing an unmanageable future. Alienation is a useful interpretive term when you can explain the gap between an individual and the surrounding community.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The source connects this question with Gertrude Stein’s phrase “lost generation,” T. S. Eliot’s separation of thought and feeling, and Hughes’s deferred dream. These are related approaches to disconnection, not interchangeable descriptions of every writer.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The move toward urban life also shifts conflicts toward society and the individual’s place in it. When writing an answer, name a pressure, show how the character responds and explain the resulting distance.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hemingway-krebs",
+      "title": "Hemingway and the homecoming problem",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 15
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The presentation introduces In Our Time as a 1925 collection and associates its stories with alienation, loss, grief and separation. It then uses Harold Krebs in “Soldier’s Home” to turn those broad themes into a reading task.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Its worked example of isolation is the failure of listeners at home to hear Krebs’s war experiences. Its discussion of trauma focuses on his desire to avoid consequences, while the prayer scene becomes evidence of estrangement from belief. These are interpretations of textual details; they should not be mistaken for a clinical diagnosis.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Use the theme table as an argument pattern: theme → a precise event or detail → explanation of the connection. A theme word alone is not an analysis.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 19
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Choose one theme",
+          "text": "For example, alienation or loss.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "title": "Find a concrete scene",
+          "text": "The source uses the failed war conversations or the scene with his mother.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "title": "Explain the link",
+          "text": "Show how the scene creates distance, loss of connection or difficulty readjusting.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gatsby",
+      "title": "Gatsby: wealth does not settle the dream",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 23
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nick Carraway is both a character and the narrator; the presentation warns that he is unreliable. Gatsby is therefore encountered through a participant’s account rather than an all-knowing view. Daisy and Tom Buchanan’s wealth, Gatsby’s parties and the Valley of the Ashes create important social contrasts.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 23
+            },
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The main action is set around New York and Long Island in the summer of 1922, with flashbacks to Gatsby’s past. The past is structurally present in the telling, just as Gatsby tries to make it return in his life.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 24
+            },
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 27
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The source reads the novel through the American Dream, class divisions, greed, hypocrisy and the hollowness of leisure. Gatsby’s pursuit of wealth and Daisy does not make wealth equal to moral greatness. His wish to restore the past also turns hope into a struggle against time.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 27
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The green light at Daisy’s dock stands for hope and the American Dream in the presentation. Link the symbol to distance and desire: it is visible across the bay but belongs to the world Gatsby wants to reach.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 28
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4dec72ca98af0d7f3ecb3d369417b9deea87ee847f0dd5c3da84b64c79797add.webp",
+          "alt": "Presentation discussion of the green light as a symbol of hope and the American Dream",
+          "caption": "Symbolism, source page 28.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 28
+            }
+          ],
+          "source_media": "extracted/2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b/media/page-028-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ]
+    },
+    {
+      "id": "faulkner",
+      "title": "Faulkner: one event, several accounts",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 31
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The presentation’s examples make narrative form central to Faulkner. It describes multiple family accounts in The Sound and the Fury, fifteen narrators in As I Lay Dying, and flashbacks with sometimes conflicting information in Absalom, Absalom!",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 31
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "As I Lay Dying is described as stream-of-consciousness writing with fifteen separate narrators. Different people can support or contradict one another’s versions. The reader must compare perspective and motivation rather than simply count the speakers.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 32
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Multiple narrators do not automatically provide one complete truth. Ask what changes when the same situation is told through a different consciousness.",
+          "source_refs": [
+            {
+              "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+              "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+              "page": 32
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "features",
+      "front": "Name three modernist features listed in the presentation.",
+      "back": "Subjective experience, fragmentation and non-linear storytelling; experimentation with form is also central.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "card-alienation",
+      "front": "What relationship does a reading of alienation examine?",
+      "back": "The distance between an individual and the society or community around them.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "theme-evidence",
+      "front": "What are the three parts of the presentation’s theme table?",
+      "back": "Theme, example from the text and explanation of how that example shows the theme.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "nick",
+      "front": "What two roles does Nick Carraway have?",
+      "back": "Narrator and character; the presentation also labels him unreliable.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "gatsby-setting",
+      "front": "When and where is the main action of Gatsby set in the presentation?",
+      "back": "Summer 1922, in New York City and on Long Island.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "id": "green-light",
+      "front": "What does the green light represent in the presentation?",
+      "back": "Hope and the American Dream for Gatsby.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "id": "narrators",
+      "front": "How many narrators does the presentation identify in As I Lay Dying?",
+      "back": "Fifteen separate narrators, whose accounts can support or contradict one another.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 32
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "form",
+      "prompt": "Which feature belongs to the presentation’s account of modernist literature?",
+      "options": [
+        "Avoiding subjective experience",
+        "Experimentation with narrative structure",
+        "A rule requiring every story to be chronological"
+      ],
+      "answer": 1,
+      "explanation": "The presentation lists experimentation, subjectivity and non-linear forms rather than a compulsory single structure.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "urban",
+      "prompt": "Which social shift does the presentation emphasize?",
+      "options": [
+        "An agrarian nation becoming increasingly urban",
+        "An urban nation abandoning every city",
+        "An end to differences between generations"
+      ],
+      "answer": 0,
+      "explanation": "The presentation connects modernism with urbanization and lives unlike those of the previous generation.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "prompt": "Which answer best follows the theme-table method?",
+      "options": [
+        "“Alienation” with no example",
+        "A biography unrelated to the story",
+        "A scene of failed communication followed by an explanation of isolation"
+      ],
+      "answer": 2,
+      "explanation": "The model requires a theme, textual evidence and an explained connection.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "narrator",
+      "prompt": "How does the presentation identify Nick Carraway?",
+      "options": [
+        "An all-knowing narrator outside the story",
+        "A narrator who is also a character and is labelled unreliable",
+        "A narrator of As I Lay Dying"
+      ],
+      "answer": 1,
+      "explanation": "Nick’s participation and reliability matter to how Gatsby’s story reaches the reader.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "prompt": "Which structural detail complicates the main summer-1922 setting?",
+      "options": [
+        "Flashbacks to Gatsby’s past",
+        "Fifteen narrators in Gatsby",
+        "A claim that no past events matter"
+      ],
+      "answer": 0,
+      "explanation": "The Gatsby slide explicitly mentions flashbacks. The fifteen narrators belong to the Faulkner discussion.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "id": "symbol",
+      "prompt": "What meaning does the source assign to the green light?",
+      "options": [
+        "Only a warning about boats",
+        "Proof that Gatsby has achieved equality",
+        "Hope and the American Dream"
+      ],
+      "answer": 2,
+      "explanation": "The source connects the light with Gatsby’s aspiration rather than a completed achievement.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "id": "quiz-faulkner",
+      "prompt": "Why should the reader compare the narrators of As I Lay Dying?",
+      "options": [
+        "Their accounts may support or contradict one another.",
+        "They all use a single identical account.",
+        "The presentation says they have no relation to events."
+      ],
+      "answer": 0,
+      "explanation": "The source emphasizes different versions of events and stream-of-consciousness narration.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 32
+        }
+      ]
+    },
+    {
+      "id": "wealth",
+      "prompt": "Which statement best matches the presentation’s reading of wealth in Gatsby?",
+      "options": [
+        "Wealth and moral greatness are identical.",
+        "Wealth can coexist with corruption and emptiness.",
+        "Class divisions do not matter."
+      ],
+      "answer": 1,
+      "explanation": "The presentation separates wealth from greatness and stresses greed, class and leisure’s hollowness.",
+      "source_refs": [
+        {
+          "id": "ea355fcbfb9fc3d8917bf427995dd22891c23b5a6790ed18eba37c7be92a95ba",
+          "sha256": "2854102bdc3451ff345c3e293e863c85e7ba03fb9b82acfd755cd7bf1b7a692b",
+          "page": 27
+        }
+      ]
+    }
+  ]
+}

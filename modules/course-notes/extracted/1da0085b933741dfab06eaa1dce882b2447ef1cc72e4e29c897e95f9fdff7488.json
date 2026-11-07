@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "sha256": "1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488",
+  "units": [
+    {
+      "kind": "image",
+      "label": "image 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Močovinový cyklus\n\no o\nď Ň L\n2ATP+HCO; + NH: — HszCfch\\)fO + 2ADP +Pj m\no S NH2\nkarbamoylfosfát „1,„\nCH\n; I\nP; ó\n2 CH2\nornithin HČ—NHy*\ncitrullin : COo-\n+ Mitochondrie\njspecifický n\n( přenašet specifický\nCH přenašeč\n]\nCH. coo-\nH Č-NHÝ citrulin - $\n— CNh\ncoo- Ornithin CHo\n600 h ATP HC—NHŽ\nzi ]\nCytoplazma Čoo-\n% 3 aspartát\npřeNÍ\nHN NH AMP+ PPj\nmočovina 5 HO\nargináza\nHO coo-\n1\nH2 ŇHo arginino- — CH\nN arginín sukcinát ch_NH_C\\ÝN o\nČoo“ H\n*\nHČ—NHy*\n\n",
+      "text": ""
+    }
+  ]
+}

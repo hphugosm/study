@@ -1,0 +1,1278 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-758ba4e39fb6410629e9a1843722330f",
+  "title": "Sacharidy a fotosyntéza",
+  "language": "cs",
+  "intro": "Od stavby cukrů přes zásobní a stavební polysacharidy až po jejich tvorbu ve fotosyntéze. Vzorce čti společně s obrázky: stejný sumární vzorec ještě neznamená stejnou strukturu.",
+  "sources": [
+    {
+      "id": "0798c012aaff3ae4d76596105bc4d013ea018c3625162f9fbf7b0eeff31951fb",
+      "sha256": "5120b17dbd1b9577ab995360b10d4c25e5105dd4ecd877a65a38b2ba06b18668",
+      "title": "9 Fotosyntéza otázky 2025.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/5120b17dbd1b9577ab995360b10d4c25e5105dd4ecd877a65a38b2ba06b18668.docx",
+      "extraction_url": "./extracted/5120b17dbd1b9577ab995360b10d4c25e5105dd4ecd877a65a38b2ba06b18668.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5120b17dbd1b9577ab995360b10d4c25e5105dd4ecd877a65a38b2ba06b18668.zip"
+    },
+    {
+      "id": "0a74e369f29a843b8c653fc6250404ad242d2681dbe38955480fd0d3831ba388",
+      "sha256": "67036632a342c8de78ea43f70463254f7155efd81367d2256e79e3f567fd9053",
+      "title": "dú sacharidy 001.jpg",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/67036632a342c8de78ea43f70463254f7155efd81367d2256e79e3f567fd9053.jpg",
+      "extraction_url": "./extracted/67036632a342c8de78ea43f70463254f7155efd81367d2256e79e3f567fd9053.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/67036632a342c8de78ea43f70463254f7155efd81367d2256e79e3f567fd9053.zip"
+    },
+    {
+      "id": "695171f1a0e0f1d2b7735e9745db6f061c7ba5d8b64685b436b97446a8fe1746",
+      "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
+      "title": "ATP, NADPH 2023.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063.docx",
+      "extraction_url": "./extracted/47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063.zip"
+    },
+    {
+      "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+      "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+      "title": "5 Sacharidy 2025 1. část.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586.pdf",
+      "extraction_url": "./extracted/70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586.zip"
+    },
+    {
+      "id": "7a635fb8bd181918e710eaf31ca7fb639692a80a2c94dc8c3064a1567f3f7811",
+      "sha256": "172bbf1d8fe44f732075e565fca394f288bce22f1e2cbd1954f65176f55191fb",
+      "title": "Opakovací otázky - sacharidy.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/172bbf1d8fe44f732075e565fca394f288bce22f1e2cbd1954f65176f55191fb.docx",
+      "extraction_url": "./extracted/172bbf1d8fe44f732075e565fca394f288bce22f1e2cbd1954f65176f55191fb.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/172bbf1d8fe44f732075e565fca394f288bce22f1e2cbd1954f65176f55191fb.zip"
+    },
+    {
+      "id": "9a0eb63cf8ff6e3170d84b374ee302e8bea46b282cfdf458c9525b10f496c816",
+      "sha256": "9926ad7e0f6b98985212d9badee74537526c8664e4daa420c4949aca0181d173",
+      "title": "Sacharidy řešení 2023.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9926ad7e0f6b98985212d9badee74537526c8664e4daa420c4949aca0181d173.docx",
+      "extraction_url": "./extracted/9926ad7e0f6b98985212d9badee74537526c8664e4daa420c4949aca0181d173.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9926ad7e0f6b98985212d9badee74537526c8664e4daa420c4949aca0181d173.zip"
+    },
+    {
+      "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+      "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+      "title": "9 fotosyntéza 2025.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3.pdf",
+      "extraction_url": "./extracted/5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3.zip"
+    },
+    {
+      "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+      "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+      "title": "5 Sacharidy 2025 2. část.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191.pdf",
+      "extraction_url": "./extracted/9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191.zip"
+    },
+    {
+      "id": "e8e1eb5e0d36f248c0578d54d03dce3f57ac78b2836ca79ebc39259c01a17aaf",
+      "sha256": "b9e89afc702988df32df48531fa4b354b12ddbd95f31f91cfa79de1bfc69fd0e",
+      "title": "Fotosyntéza řešení.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/b9e89afc702988df32df48531fa4b354b12ddbd95f31f91cfa79de1bfc69fd0e.docx",
+      "extraction_url": "./extracted/b9e89afc702988df32df48531fa4b354b12ddbd95f31f91cfa79de1bfc69fd0e.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b9e89afc702988df32df48531fa4b354b12ddbd95f31f91cfa79de1bfc69fd0e.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "sacharidy-stavba",
+      "title": "Co rozlišuje jednotlivé sacharidy",
+      "source_refs": [
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 2
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 4
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 6
+        },
+        {
+          "id": "7a635fb8bd181918e710eaf31ca7fb639692a80a2c94dc8c3064a1567f3f7811",
+          "sha256": "172bbf1d8fe44f732075e565fca394f288bce22f1e2cbd1954f65176f55191fb",
+          "locator": "otázky 1–8"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sacharidy jsou organické sloučeniny obsahující uhlík, vodík a kyslík. Vedle energetické úlohy mají význam zásobní i stavební. Základní stavební jednotkou je monosacharidová jednotka; počet jednotek rozlišuje mono-, oligo- a polysacharidy.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 2
+            },
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 3
+            },
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Monosacharid: jedna jednotka. Příklady jsou glukóza, fruktóza a ribóza.",
+            "Oligosacharid: ve školním přehledu 2–10 jednotek; dvě jednotky tvoří disacharid.",
+            "Polysacharid: mnoho jednotek spojených do dlouhých řetězců, často větvených."
+          ],
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Počet atomů uhlíku dává názvy trióza, tetróza, pentóza a hexóza. Glyceraldehyd je výchozí příklad aldózy s aldehydickou skupinou, dihydroxyaceton ketózy s ketonickou skupinou.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "C₆H₁₂O₆ je příklad vzorce hexóz, ne univerzální vzorec všech monosacharidů. Ribóza jako pentóza má C₅H₁₀O₅.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 6
+            },
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Aldóza",
+          "Ketóza"
+        ],
+        "rows": [
+          {
+            "label": "Rozlišující skupina",
+            "values": [
+              "Aldehydická skupina v otevřeném řetězci.",
+              "Ketonická skupina v otevřeném řetězci."
+            ]
+          },
+          {
+            "label": "Jednoduchý příklad",
+            "values": [
+              "Glyceraldehyd.",
+              "Dihydroxyaceton."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/f83863440af7e3af914f6056b09c7bd9b73b28ac5fefea0f26334ae5401b157b.webp",
+          "alt": "Fischerovy vzorce a chirální uhlík: sleduj čtyři různé substituenty i polohu OH skupiny. Strana 7.",
+          "caption": "Fischerovy vzorce a chirální uhlík: sleduj čtyři různé substituenty i polohu OH skupiny. Strana 7.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 7
+            }
+          ],
+          "source_media": "extracted/70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586/media/page-007-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "cyklizace-vazba",
+      "title": "Z řetězce vzniká kruh a glykosidová vazba",
+      "source_refs": [
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 12
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 15
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 16
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 18
+        },
+        {
+          "id": "9a0eb63cf8ff6e3170d84b374ee302e8bea46b282cfdf458c9525b10f496c816",
+          "sha256": "9926ad7e0f6b98985212d9badee74537526c8664e4daa420c4949aca0181d173",
+          "locator": "řešený list, úlohy ke vzorcům"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "V otevřeném řetězci může hydroxylová skupina reagovat s karbonylovou skupinou téže molekuly. Vzniká cyklická forma a nový poloacetalový hydroxyl. Fischerův vzorec zdůrazňuje uspořádání skupin v řetězci, Haworthův vzorec ukazuje cyklickou formu.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 12
+            },
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 13
+            },
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cyklické formy se rozlišují jako anomery α a β. Poloha hydroxylu u anomerního uhlíku je důležitá také pro vznik glykosidové vazby mezi jednotkami.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 16
+            },
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Při přepisu vzorců nestačí zachovat počty C, H a O. Zachovej přesné navázání a orientaci skupin; právě na tom stojí úlohy v řešeném pracovním listu.",
+          "source_refs": [
+            {
+              "id": "9a0eb63cf8ff6e3170d84b374ee302e8bea46b282cfdf458c9525b10f496c816",
+              "sha256": "9926ad7e0f6b98985212d9badee74537526c8664e4daa420c4949aca0181d173",
+              "locator": "úlohy 2 a 4"
+            },
+            {
+              "id": "7a635fb8bd181918e710eaf31ca7fb639692a80a2c94dc8c3064a1567f3f7811",
+              "sha256": "172bbf1d8fe44f732075e565fca394f288bce22f1e2cbd1954f65176f55191fb",
+              "locator": "úloha k Fischerovým a Haworthovým vzorcům"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi karbonylovou skupinu",
+          "text": "Nejdříve rozliš aldózu a ketózu podle otevřeného řetězce.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "title": "Sleduj vnitromolekulární reakci",
+          "text": "OH skupina se váže k uhlíku karbonylové skupiny a vzniká cyklická forma.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "title": "Urči novou vazbu",
+          "text": "Spojení monosacharidových jednotek popiš glykosidovou vazbou; při čtení vzorce sleduj čísla spojených uhlíků.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 19
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e1d42f670acc74bf51e82854e7075dcef1a1e458949b1effd26255e5eb997aea.webp",
+          "alt": "Anomery α a β: porovnej polohu anomerního hydroxylu, ne pouze tvar kruhu. Strana 16.",
+          "caption": "Anomery α a β: porovnej polohu anomerního hydroxylu, ne pouze tvar kruhu. Strana 16.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 16
+            }
+          ],
+          "source_media": "extracted/70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586/media/page-016-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "disacharidy",
+      "title": "Tři disacharidy, které se snadno pletou",
+      "source_refs": [
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 20
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 21
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 22
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 23
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Sacharóza = glukóza + fruktóza; běžný řepný či třtinový cukr.",
+            "Maltóza = dvě jednotky glukózy spojené α(1→4); uvolňuje se při štěpení škrobu.",
+            "Laktóza = galaktóza + glukóza; mléčný cukr s vazbou β(1→4)."
+          ],
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 20
+            },
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 21
+            },
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Maltóza a laktóza mají zachovaný volný poloacetalový hydroxyl, a proto jsou v přehledu uvedeny jako redukující. U sacharózy se na glykosidové vazbě podílejí obě anomerní skupiny, a proto patří mezi neredukující sacharidy.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při výrobě cukru se cukerná šťáva čistí, zbavuje nerozpustných příměsí, zahušťuje a nechává krystalizovat. V podkladu je rozlišené čeření Ca(OH)₂ a následná saturace CO₂.",
+          "source_refs": [
+            {
+              "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+              "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+              "page": 24
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Maltóza a laktóza",
+          "Sacharóza"
+        ],
+        "rows": [
+          {
+            "label": "Volný poloacetalový hydroxyl",
+            "values": [
+              "Zůstává alespoň jeden volný.",
+              "Na spojení jsou využity obě anomerní skupiny."
+            ]
+          },
+          {
+            "label": "Chování v přehledu",
+            "values": [
+              "Redukující disacharidy.",
+              "Neredukující disacharid."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "polysacharidy",
+      "title": "Proč škrob, glykogen a celulóza nemají stejnou funkci",
+      "source_refs": [
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 2
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 3
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 4
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 6
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 7
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Škrob je zásobní polysacharid rostlin. Obsahuje amylózu s převážně lineárním řetězcem α(1→4) a amylopektin s větvením α(1→6). Glykogen je silně větvená zásobní forma živočichů ukládaná zejména v játrech a svalech.",
+          "source_refs": [
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 2
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 3
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 4
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jaterní zásoba pomáhá udržovat glukózu v krvi; svalová zásoba slouží potřebám daného svalu. Celulóza má stavební funkci v rostlinách. Její β-glykosidové vazby lidské trávicí enzymy neštěpí, a v potravě proto tvoří vlákninu.",
+          "source_refs": [
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 6
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Agar: polysacharid s vysokou gelující schopností, využívaný také pro kultivaci mikroorganismů.",
+            "Kyselina hyaluronová: váže vodu a má význam v tkáních a kloubní tekutině.",
+            "Inulin: zásobní polysacharid některých rostlin, například čekanky."
+          ],
+          "source_refs": [
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 9
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Zásobní polysacharidy",
+          "Stavební polysacharid"
+        ],
+        "rows": [
+          {
+            "label": "Příklady",
+            "values": [
+              "Škrob a glykogen.",
+              "Celulóza."
+            ]
+          },
+          {
+            "label": "Hlavní role",
+            "values": [
+              "Uchování využitelných zásob.",
+              "Stavba rostlinných struktur."
+            ]
+          },
+          {
+            "label": "Vazby v probíraných příkladech",
+            "values": [
+              "U škrobu a glykogenu α-vazby.",
+              "U celulózy β-vazby."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/8df4c2b535e8fb79ea59127705aeb8028e942e7d089b33205c2b64c944c28557.webp",
+          "alt": "Amylóza a amylopektin: na obrázcích porovnej nevětvený řetězec a větvení. Strana 3.",
+          "caption": "Amylóza a amylopektin: na obrázcích porovnej nevětvený řetězec a větvení. Strana 3.",
+          "source_refs": [
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 3
+            }
+          ],
+          "source_media": "extracted/9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191/media/page-003-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "metabolismus-cukru",
+      "title": "Kam putuje přijatá glukóza",
+      "source_refs": [
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 11
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 12
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 13
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 21
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 25
+        },
+        {
+          "id": "695171f1a0e0f1d2b7735e9745db6f061c7ba5d8b64685b436b97446a8fe1746",
+          "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
+          "locator": "odstavce ATP a koenzymy"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Štěpení škrobu začíná v ústech slinnou amylázou a pokračuje hlavně v tenkém střevě. Vstřebané jednoduché cukry se dostávají ke tkáním; glukóza je významným substrátem glykolýzy. Ta probíhá v cytosolu a převádí glukózu na pyruvát za tvorby ATP.",
+          "source_refs": [
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 12
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Glykogeneze: tvorba zásobního glykogenu z glukózy.",
+            "Glykogenolýza: odbourávání glykogenu; ve svalu vznikají meziprodukty pro vlastní energetické využití.",
+            "Glukoneogeneze: tvorba glukózy z necukerných výchozích látek.",
+            "Pentózová dráha: poskytuje NADPH a pentózy pro tvorbu nukleotidů."
+          ],
+          "source_refs": [
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 19
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 21
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 23
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "ATP přenáší chemickou energii a jeho přeměna na ADP je spojena s uvolněním energie pro buněčné pochody. NADH a NADPH jsou redukované přenašeče související s přenosem vodíku a elektronů; nezaměňuj jejich funkci se zásobním polysacharidem.",
+          "source_refs": [
+            {
+              "id": "695171f1a0e0f1d2b7735e9745db6f061c7ba5d8b64685b436b97446a8fe1746",
+              "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
+              "locator": "část Nukleotid ATP a Koenzymy oxidačně-redukčních reakcí"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Rozliš tři podobná slova: glykogeneze zásobu tvoří, glykogenolýza ji odbourává a glukoneogeneze vytváří glukózu z necukerných zdrojů.",
+          "source_refs": [
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 21
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 23
+            },
+            {
+              "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+              "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+              "page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fotosynteza-faze",
+      "title": "Světelná fáze dodává energii Calvinovu cyklu",
+      "source_refs": [
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 2
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 3
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 10
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 12
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 13
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 15
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 19
+        },
+        {
+          "id": "0798c012aaff3ae4d76596105bc4d013ea018c3625162f9fbf7b0eeff31951fb",
+          "sha256": "5120b17dbd1b9577ab995360b10d4c25e5105dd4ecd877a65a38b2ba06b18668",
+          "locator": "otázky 1–17"
+        },
+        {
+          "id": "e8e1eb5e0d36f248c0578d54d03dce3f57ac78b2836ca79ebc39259c01a17aaf",
+          "sha256": "b9e89afc702988df32df48531fa4b354b12ddbd95f31f91cfa79de1bfc69fd0e",
+          "locator": "řešený list Fotosyntéza"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fotosyntéza využívá energii světla k tvorbě organických látek. V zelených částech rostlin probíhá v chloroplastech. U oxygenní fotosyntézy je dárcem vodíku voda a vzniká kyslík; přehled ji odlišuje od anoxygenní fotosyntézy některých bakterií.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 2
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ve světelné fázi zachytí barviva energii a předají ji reakčním centrům fotosystémů. Přenos elektronů souvisí s vytvořením protonového gradientu a tvorbou ATP; vzniká také NADPH. Rozklad vody doplňuje elektrony a uvolňuje O₂: 2 H₂O → 4 e⁻ + 4 H⁺ + O₂.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 7
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 8
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 10
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Calvinův cyklus využívá ATP a NADPH ze světelné fáze při fixaci a redukci CO₂. Po navázání CO₂ na ribulóza-1,5-bisfosfát vzniká 3-fosfoglycerát; dále se tvoří glyceraldehyd-3-fosfát. Část produktu slouží syntéze dalších látek a část regeneruje výchozí akceptor.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 13
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 15
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 17
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "text": "Na úvodních stranách je uveden triacylglycerol, ale podrobný popis Calvinova cyklu na stranách 15–19 pracuje s glyceraldehyd-3-fosfátem. V tomto vysvětlení sledujeme právě podrobně rozepsanou dráhu.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 4
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 17
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Otázky i ručně doplněné řešení slouží k opakování stejných pojmů. U obrázků a chemických vzorců ověřuj originální zápis: automatický přepis rukopisu není spolehlivý pro určování chemických vazeb.",
+          "source_refs": [
+            {
+              "id": "0798c012aaff3ae4d76596105bc4d013ea018c3625162f9fbf7b0eeff31951fb",
+              "sha256": "5120b17dbd1b9577ab995360b10d4c25e5105dd4ecd877a65a38b2ba06b18668",
+              "locator": "pracovní list"
+            },
+            {
+              "id": "e8e1eb5e0d36f248c0578d54d03dce3f57ac78b2836ca79ebc39259c01a17aaf",
+              "sha256": "b9e89afc702988df32df48531fa4b354b12ddbd95f31f91cfa79de1bfc69fd0e",
+              "locator": "rukopisné řešení"
+            },
+            {
+              "id": "0a74e369f29a843b8c653fc6250404ad242d2681dbe38955480fd0d3831ba388",
+              "sha256": "67036632a342c8de78ea43f70463254f7155efd81367d2256e79e3f567fd9053",
+              "locator": "fotografie řešení sacharidů"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "1. Zachycení světla",
+          "text": "Chlorofylové antény předávají energii reakčnímu centru fotosystému.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 7
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "title": "2. Přenos elektronů a rozklad vody",
+          "text": "Elektrony procházejí přenašeči; voda dodává elektrony a vzniká kyslík. Gradient H⁺ umožňuje tvorbu ATP.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 10
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "title": "3. Fixace a redukce CO₂",
+          "text": "Calvinův cyklus spotřebuje ATP a NADPH a vytváří glyceraldehyd-3-fosfát.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 15
+            },
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "title": "4. Výstup a regenerace",
+          "text": "Část produktu se využije k syntéze dalších látek, zbývající část regeneruje akceptor CO₂.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 19
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/a6c6ab57fd2b7b5a2c4117680fb93b82262c4bd700f3fed2c635ad7875860de7.webp",
+          "alt": "Začátek Calvinova cyklu: vazba CO₂ a vznik 3-fosfoglycerátu. Strana 15.",
+          "caption": "Začátek Calvinova cyklu: vazba CO₂ a vznik 3-fosfoglycerátu. Strana 15.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 15
+            }
+          ],
+          "source_media": "extracted/5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3/media/page-015-preview.png",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9d77664064652267d84e4d5497586aba9ecd88abacf8db371a70c7c3f14ed230.webp",
+          "alt": "Rozdělení produktu mezi syntézu dalších látek a regeneraci akceptoru. Strana 19.",
+          "caption": "Rozdělení produktu mezi syntézu dalších látek a regeneraci akceptoru. Strana 19.",
+          "source_refs": [
+            {
+              "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+              "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+              "page": 19
+            }
+          ],
+          "source_media": "extracted/5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3/media/page-019-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "c-aldosa",
+      "front": "Čím se liší aldóza a ketóza?",
+      "back": "V otevřeném řetězci má aldóza aldehydickou a ketóza ketonickou skupinu.",
+      "source_refs": [
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "c-sacharoza",
+      "front": "Z čeho se skládá sacharóza?",
+      "back": "Z glukózy a fruktózy; jde o neredukující disacharid.",
+      "source_refs": [
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 20
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "c-skrob",
+      "front": "Jak se liší amylóza a amylopektin?",
+      "back": "Amylóza má lineární řetězec α(1→4); amylopektin má navíc větvení α(1→6).",
+      "source_refs": [
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "c-glykogen",
+      "front": "Kde je hlavní zásoba glykogenu?",
+      "back": "V játrech a svalech. Jaterní zásoba souvisí s glykémií, svalová s potřebou daného svalu.",
+      "source_refs": [
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 4
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "c-svetlo",
+      "front": "Co poskytuje světelná fáze Calvinovu cyklu?",
+      "back": "ATP a NADPH.",
+      "source_refs": [
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "c-calvin",
+      "front": "K čemu slouží Calvinův cyklus?",
+      "back": "K fixaci a redukci CO₂ za spotřeby ATP a NADPH; vzniká glyceraldehyd-3-fosfát a regeneruje se akceptor CO₂.",
+      "source_refs": [
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 15
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 17
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 19
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-jednotky",
+      "prompt": "Která dvojice obsahuje pouze disacharidy?",
+      "options": [
+        "Maltóza a laktóza",
+        "Glukóza a ribóza",
+        "Škrob a celulóza"
+      ],
+      "answer": 0,
+      "explanation": "Maltóza i laktóza obsahují dvě monosacharidové jednotky. Glukóza a ribóza jsou monosacharidy, škrob a celulóza polysacharidy.",
+      "source_refs": [
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 4
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 21
+        },
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "id": "q-pentoza",
+      "prompt": "Která látka je významná pentóza?",
+      "options": [
+        "Sacharóza",
+        "Glykogen",
+        "Ribóza"
+      ],
+      "answer": 2,
+      "explanation": "Ribóza je pětiuhlíkatý cukr; sacharóza je disacharid a glykogen polysacharid.",
+      "source_refs": [
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "q-redukce",
+      "prompt": "Proč je v podkladu maltóza označena jako redukující?",
+      "options": [
+        "Je složena z více než deseti jednotek",
+        "Zůstává jí volný poloacetalový hydroxyl",
+        "Obsahuje ketonickou skupinu fruktózy"
+      ],
+      "answer": 1,
+      "explanation": "Redukující charakter je v přehledu spojen s volným poloacetalovým hydroxylem; maltóza je disacharid dvou glukóz.",
+      "source_refs": [
+        {
+          "id": "7a1f4839af37eb23c3c3b818fa9380ec05e00a1f571774adccbc4213780f31b4",
+          "sha256": "70880ce367ae8f1ba7d139738f4eeef85d2da5328ff5e40f7ce68a9051c00586",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "id": "q-zasoba",
+      "prompt": "Která dvojice přiřazení je správná?",
+      "options": [
+        "Škrob – zásoba rostlin; glykogen – zásoba živočichů",
+        "Škrob – stavební látka buněčných stěn; celulóza – zásoba jater",
+        "Glykogen – pouze stavební vlákno rostlin"
+      ],
+      "answer": 0,
+      "explanation": "Škrob a glykogen plní zásobní roli; celulóza je rostlinný stavební polysacharid.",
+      "source_refs": [
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 2
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 4
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-vetveni",
+      "prompt": "Čím se amylopektin odlišuje od amylózy?",
+      "options": [
+        "Je tvořen pouze fruktózou",
+        "Nemá žádné glykosidové vazby",
+        "Obsahuje větvení přes vazby α(1→6)"
+      ],
+      "answer": 2,
+      "explanation": "Obě složky škrobu jsou tvořeny glukózovými jednotkami. Amylopektin má oproti lineární amylóze větvení.",
+      "source_refs": [
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "q-glykogenolyza",
+      "prompt": "Který pojem označuje odbourávání glykogenu?",
+      "options": [
+        "Glukoneogeneze",
+        "Glykogenolýza",
+        "Glykogeneze"
+      ],
+      "answer": 1,
+      "explanation": "Glykogenolýza zásobu štěpí; glykogeneze ji tvoří. Glukoneogeneze vytváří glukózu z necukerných výchozích látek.",
+      "source_refs": [
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 21
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 23
+        },
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "id": "q-voda",
+      "prompt": "Odkud se při oxygenní fotosyntéze uvolňuje vedlejší produkt O₂?",
+      "options": [
+        "Z rozkladu vody",
+        "Z rozpadu molekuly ATP",
+        "Přímo z oddělení kyslíku z CO₂"
+      ],
+      "answer": 0,
+      "explanation": "Přehled uvádí rovnici 2 H₂O → 4 e⁻ + 4 H⁺ + O₂. Rozklad vody tedy dodává elektrony a uvolňuje kyslík.",
+      "source_refs": [
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "q-faze",
+      "prompt": "Které látky dodává světelná fáze pro Calvinův cyklus?",
+      "options": [
+        "Glykogen a celulózu",
+        "Pouze CO₂ a vodu",
+        "ATP a NADPH"
+      ],
+      "answer": 2,
+      "explanation": "ATP a NADPH přenášejí získanou energii a redukční schopnost do následných reakcí.",
+      "source_refs": [
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "q-calvin",
+      "prompt": "Který produkt uvádí podrobný popis redukční části Calvinova cyklu?",
+      "options": [
+        "Močovinu",
+        "Glyceraldehyd-3-fosfát",
+        "Triacylglycerol jako bezprostřední produkt"
+      ],
+      "answer": 1,
+      "explanation": "Strana 17 jmenuje glyceraldehyd-3-fosfát. Ten slouží tvorbě dalších látek; část se využívá při regeneraci akceptoru CO₂.",
+      "source_refs": [
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 17
+        },
+        {
+          "id": "a7413397328c9574c0ceb97cedfef991916669e93ab933a5420e317d8b81efba",
+          "sha256": "5578b32b89cf308acc698f990a4461fb99c1b8d0e01f7590aed70dff657581a3",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "q-celuloza",
+      "prompt": "Které tvrzení o celulóze odpovídá přehledu sacharidů?",
+      "options": [
+        "Má stavební funkci a její β-vazby lidské trávicí enzymy neštěpí",
+        "Je tvořena pouze ribózou",
+        "Je jedinou zásobní látkou jater"
+      ],
+      "answer": 0,
+      "explanation": "Podklad odlišuje stavební celulózu od zásobního škrobu a glykogenu. Nestrávená celulóza je součástí vlákniny.",
+      "source_refs": [
+        {
+          "id": "ade38f518d83b122481962096da1adf939aa608f81bfb0998101bd8d5f247a28",
+          "sha256": "9329a839d3962416d770275d1b912863c6eb722f90aede3896d63a0edfab5191",
+          "page": 7
+        }
+      ]
+    }
+  ]
+}

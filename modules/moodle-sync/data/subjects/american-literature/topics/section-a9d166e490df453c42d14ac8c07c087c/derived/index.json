@@ -2,5 +2,36 @@
   "schema": 1,
   "subject_id": "american-literature",
   "topic_id": "section-a9d166e490df453c42d14ac8c07c087c",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Modernism: The Harlem Renaissance",
+      "kind": "notes",
+      "path": "data/subjects/american-literature/topics/section-a9d166e490df453c42d14ac8c07c087c/derived/course-notes-v1/notes.json",
+      "sha256": "376322c0181a3773b0ea980e0310c60804de73c4ae6d439c898fbda9372d7fab",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc"
+        },
+        {
+          "id": "53cbfe7f2e9d7c59740661c4edf96ab22c874c70077e7f9bead8a634029f3afa",
+          "sha256": "2776be4e696f634ce94d5be61da1fd55f434239cf75c3b035b4f740753e125ce"
+        },
+        {
+          "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+          "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95"
+        },
+        {
+          "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+          "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0"
+        },
+        {
+          "id": "fda7da217706b38f1c9ccbd64d591567df52b11c353fb38e2398bf25e6312ab3",
+          "sha256": "c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

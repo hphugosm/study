@@ -2,5 +2,36 @@
   "schema": 1,
   "subject_id": "geography",
   "topic_id": "section-730ba0baf632efb68e5a3dd83f571103",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Afrika",
+      "kind": "notes",
+      "path": "data/subjects/geography/topics/section-730ba0baf632efb68e5a3dd83f571103/derived/course-notes-v1/notes.json",
+      "sha256": "3cfd571dfc53b0032c8d05b1eb0cabab55da26a70967951102cf2258435220d5",
+      "source_refs": [
+        {
+          "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+          "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4"
+        },
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1"
+        },
+        {
+          "id": "6e7933f609b37a0551662f29b8afdaf24ebbee35d13d67eac61a82fc5a088811",
+          "sha256": "20ebbd167587cf35eeeb99a30a1b372dcae5cb0bbb493abfcb576c609539b4b5"
+        },
+        {
+          "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+          "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060"
+        },
+        {
+          "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+          "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

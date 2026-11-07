@@ -1,0 +1,391 @@
+{
+  "schema": 1,
+  "subject": "geography",
+  "topic": "section-66c0e49bb68c8040293988f776f7b0e0",
+  "title": "STŘEDNÍ ASIE, ZAKAVKAZSKO, SIBIŘ",
+  "language": "cs",
+  "intro": "Sibiř, středoasijské republiky a Zakavkazsko nejsou jedna stejnorodá oblast. Podklad je propojuje dědictvím bývalého SSSR, ale přírodní prostředí i rozmístění obyvatel se výrazně liší. Rozliš regionální charakteristiku od historických či politických tvrzení konkrétního slajdu.",
+  "sources": [
+    {
+      "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+      "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+      "title": "STŘEDNÍ ASIE, SIBIŘ, ZAKAVKAZSKO - zkrácená verze, podklady.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b.pdf",
+      "extraction_url": "./extracted/3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "siberia",
+      "title": "Sibiř: velká rozloha, řídké osídlení",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 3
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Materiál staví proti sobě velkou rozlohu Sibiře a podstatně menší podíl obyvatelstva Ruska. Uvádí tajgu, tundru a permafrost. Smyslem srovnání je prostorový nepoměr: rozloha sama nevypovídá o množství obyvatel ani o možnostech zemědělství.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při práci s mapou proto odlišuj plochu regionu od jeho osídlení. Výčet přírodních podmínek čti společně s údaji o obyvatelstvu; neuč se pouze dvě velká čísla bez vysvětlení, co porovnávají.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Číselné údaje jsou převzaty z výukového podkladu bez uvedeného data statistiky. Nejsou zde vydávány za aktuální demografický stav.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "central-asia",
+      "title": "Střední Asie: kontinentalita a suroviny",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 8
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Středoasijské republiky podklad charakterizuje kontinentálním klimatem, bezodtokými oblastmi, stepmi, polopouštěmi, pouštěmi a velehorami. Jedna regionální charakteristika tedy zahrnuje jak suché nížinné krajiny, tak vysoká pohoří.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kazachstán je v prezentaci označen za největší vnitrozemský stát světa. Navazující část zdůrazňuje černé uhlí, ropu, vzácné kovy a uran a připomíná Bajkonur. Při odpovědi odděl polohu od hospodářského využití.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 9
+            },
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Slajd o Aralském jezeře ukazuje posloupnost obrysů vodní plochy od roku 1960 do roku 2014 a loď na suchu. Z obrázku lze doložit ústup vodní plochy a posun pobřeží; samotný slajd však nepodává úplné vysvětlení příčin, proto je z něj nedoplňuj odhadem.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/876ae65a5c21fd144ced9d773f53135738992075b5eae2c3c84024573534dbff.webp",
+          "alt": "Mapa postupného zmenšování Aralského jezera a loď na suchu",
+          "caption": "Porovnej obrysy označené roky 1960 až 2014. Obrázek dokládá změnu rozsahu, ne úplný seznam příčin.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 12
+            }
+          ],
+          "source_media": "extracted/3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b/media/page-012-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Sibiř podle podkladu",
+          "Střední Asie podle podkladu"
+        ],
+        "rows": [
+          {
+            "label": "Zmiňované prostředí",
+            "values": [
+              "Tajga, tundra, permafrost",
+              "Stepi, polopouště, pouště, velehory"
+            ]
+          },
+          {
+            "label": "Hlavní studijní kontrast",
+            "values": [
+              "Velká rozloha a nízký podíl obyvatel",
+              "Vnitrozemská poloha, suché prostředí a surovinové bohatství"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "caucasus",
+      "title": "Zakavkazsko mezi dvěma moři",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 13
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zakavkazsko je v podkladu vymezeno jižně od hlavního hřebene Velkého Kavkazu a severně od Malého Kavkazu, mezi Kaspickým a Černým mořem. Zeměpisná poloha je první opora, teprve potom přiřazuj státy a města.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Podklad zmiňuje mírný až subtropický pás, ale současně vysokohorské podmínky na velké části území. Zeměpisná šířka a nadmořská výška tedy působí společně; označit celou oblast jedním klimatickým přívlastkem by bylo příliš hrubé.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U Arménie je uveden Jerevan a u Gruzie Tbilisi. Ázerbájdžán materiál spojuje s pobřežím Kaspického moře a s rozmanitostí velehor, stepí a polopouští.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 17
+            },
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 20
+            },
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Politický výčet na straně 16 obsahuje sporná území a otázky. Není bezpečným aktuálním seznamem států; neuč se z něj počet států jako jednoznačný současný fakt.",
+          "source_refs": [
+            {
+              "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+              "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+              "page": 16
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "siberian-land",
+      "front": "Které tři přírodní pojmy podklad zdůrazňuje u Sibiře?",
+      "back": "Tajga, tundra a permafrost.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "central-climate",
+      "front": "Jaké klima a odtokové poměry podklad uvádí pro Střední Asii?",
+      "back": "Kontinentální klima a bezodtoké oblasti.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "kazakhstan",
+      "front": "Čím je Kazachstán výjimečný podle slajdu?",
+      "back": "Je označen za největší vnitrozemský stát světa.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "aral",
+      "front": "Co lze přímo vyčíst ze srovnání obrysů Aralu?",
+      "back": "Vodní plocha v zobrazené časové řadě ustupuje a mění se poloha pobřeží.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "caucasus-location",
+      "front": "Která moře rámují Zakavkazsko?",
+      "back": "Černé moře na západě a Kaspické moře na východě.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "cities",
+      "front": "Která hlavní města materiál uvádí u Arménie a Gruzie?",
+      "back": "Jerevan a Tbilisi.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 20
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-siberia",
+      "prompt": "Která skupina pojmů patří ve zdroji k Sibiři?",
+      "options": [
+        "Tajga, tundra, permafrost",
+        "Kávovníkové plantáže a deštný prales",
+        "Korálové ostrovy a monzunové pobřeží"
+      ],
+      "answer": 0,
+      "explanation": "Slajd u Sibiře výslovně uvádí tajgu, tundru a permafrost.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "central",
+      "prompt": "Která charakteristika odpovídá Střední Asii v podkladu?",
+      "options": [
+        "Výhradně přímořské klima",
+        "Kontinentální klima a bezodtoké oblasti",
+        "Jen rovníkové lesy"
+      ],
+      "answer": 1,
+      "explanation": "Zdroj kombinuje vnitrozemské podmínky se stepmi, pouštěmi i velehorami.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "aral-evidence",
+      "prompt": "Co mapa Aralského jezera přímo dokládá?",
+      "options": [
+        "Úplný seznam hospodářských příčin",
+        "Beze změny trvající pobřeží",
+        "Změnu obrysu a zmenšení vodní plochy"
+      ],
+      "answer": 2,
+      "explanation": "Mapa umožňuje srovnat rozsah v jednotlivých letech. Úplné příčiny na slajdu vysvětleny nejsou.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "quiz-caucasus",
+      "prompt": "Které dvě vodní plochy vymezují Zakavkazsko na západě a východě?",
+      "options": [
+        "Černé a Kaspické moře",
+        "Rudé a Středozemní moře",
+        "Atlantský a Indický oceán"
+      ],
+      "answer": 0,
+      "explanation": "Zdroj výslovně uvádí Černé moře na západě a Kaspické na východě.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "altitude",
+      "prompt": "Proč nestačí nazvat celé Zakavkazsko jen subtropickou oblastí?",
+      "options": [
+        "Protože podklad neuvádí žádná pohoří",
+        "Protože na velké části panují vysokohorské podmínky",
+        "Protože celá oblast leží v tundře"
+      ],
+      "answer": 1,
+      "explanation": "Zdroj kombinuje podnebný pás s výškovou členitostí a vysokohorským prostředím.",
+      "source_refs": [
+        {
+          "id": "5b99a5ab9dd112c39b65fd08410b8d8be4e0665147c7452ea8ff491932b9ba97",
+          "sha256": "3e26842ba13ac73d66e61a92e517282b604de4bdadf88827de8af14659d2ae2b",
+          "page": 13
+        }
+      ]
+    }
+  ]
+}

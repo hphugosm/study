@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Afrika – pojmy do slepé mapy"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "Ostrovy: Madeira, Svatá Helena, Bioko, Zanzibar, Madagaskar, Mauricius, Réunion"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": "Souostroví: Kanárské ostrovy, Kapverdy, Maskarény, Komory, Seychely, Sokotra"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": "Poloostrovy: Somálský"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": "Oceány: Atlantský, Indický "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": "Moře: Rudé, Středozemní"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": "Zálivy: Guinejský, Adenský, Velká Syrta"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 8",
+      "number": 8,
+      "text": "Průlivy: Gibraltarský, Mosambický, Bab-al-Mandab"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": "Průplavy: Suezský"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": "Pohoří: Atlas, Adamauské hory, Dračí hory, Etiopská vysočina, Východoafrická vysočina"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": "Pánve: Čadská, Konžská"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": "Pouště, polopouště: Sahara, Namib, Kalahari"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": "Řeky: Nil, Kagera, Kongo, Niger, Zambezi, Orange"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 14",
+      "number": 14,
+      "text": "Jezera: Čadské, Tana, Albertovo, Rudolfovo (Turkana), Viktoriino, Tanganika, Malawi"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 15",
+      "number": 15,
+      "text": "Přehradní nádrže: Volta, Asuánská, Kariba"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 16",
+      "number": 16,
+      "text": "Vodopády: Viktoriiny vodopády"
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Afrika – pojmy do slepé mapy\n Ostrovy: Madeira, Svatá Helena, Bioko, Zanzibar, Madagaskar, Mauricius, Réunion\n Souostroví: Kanárské ostrovy, Kapverdy, Maskarény, Komory, Seychely, Sokotra\n Poloostrovy: Somálský\n Oceány: Atlantský, Indický \n Moře: Rudé, Středozemní\n Zálivy: Guinejský, Adenský, Velká Syrta\n Průlivy: Gibraltarský, Mosambický, Bab-al-Mandab\n Průplavy: Suezský\n Pohoří: Atlas, Adamauské hory, Dračí hory, Etiopská vysočina, Východoafrická \nvysočina\n Pánve: Čadská, Konžská\n Pouště, polopouště: Sahara, Namib, Kalahari\n Řeky: Nil, Kagera, Kongo, Niger, Zambezi, Orange\n Jezera: Čadské, Tana, Albertovo, Rudolfovo (Turkana), Viktoriino, Tanganika, Malawi\n Přehradní nádrže: Volta, Asuánská, Kariba\n Vodopády: Viktoriiny vodopády\n"
+    }
+  ]
+}

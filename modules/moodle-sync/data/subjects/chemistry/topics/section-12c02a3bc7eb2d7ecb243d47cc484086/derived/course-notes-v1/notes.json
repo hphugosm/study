@@ -1,0 +1,895 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-12c02a3bc7eb2d7ecb243d47cc484086",
+  "title": "Vitamíny a hormony",
+  "language": "cs",
+  "intro": "Vitamíny propojuj s chemickou stavbou a funkcí v metabolismu. U hormonů rozliš chemický původ, místo vzniku a účinek; stejný hormon lze podle různých hledisek zařadit odlišně.",
+  "sources": [
+    {
+      "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+      "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+      "title": "Hormony .pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473.pdf",
+      "extraction_url": "./extracted/6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473.zip"
+    },
+    {
+      "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+      "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+      "title": "Vitamíny.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64.pdf",
+      "extraction_url": "./extracted/73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "vitaminy-vyznam",
+      "title": "Malé množství, významná biochemická role",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 2
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 3
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 7
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 8
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vitamíny jsou organické látky různorodého chemického složení, které živé systémy potřebují v malých množstvích. Podklad je propojuje s metabolismem, enzymy a udržením tělesných funkcí.",
+          "source_refs": [
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 2
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mnohé vitamíny jsou součástí kofaktorů enzymů. U vitamínů skupiny B se v přehledu opakují heterocyklické struktury; vitamíny A, D, E a K jsou spojeny s isoprenoidními či steroidními strukturami. Kyselina askorbová má redoxní vlastnosti.",
+          "source_refs": [
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 7
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Pojmy nedostatku a nadbytku popisují odlišné stavy: hypovitaminóza je nedostatek, avitaminóza výrazný či dlouhodobý nedostatek, hypervitaminóza nadbytek. Z pouhého názvu vitamínu neodvozuj jeho vhodné množství.",
+          "source_refs": [
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rozpustnost-vitaminy",
+      "title": "Rozpustnost propojuje strukturu s chováním",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 5
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 8
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 9
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 12
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 13
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 14
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 15
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 16
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Školní přehled rozlišuje vitamíny hydrofilní, tedy rozpustné ve vodě, a lipofilní, rozpustné v tucích. Rozpustnost je užitečná orientace při srovnávání jejich chemické stavby a ukládání v organismu.",
+          "source_refs": [
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "A: retinol; v podkladu je spojen s β-karotenem a isoprenoidní strukturou.",
+            "D: steroidní charakter; po aktivaci je spojen s regulací metabolismu vápníku.",
+            "E: tokoferoly s fenolickou OH skupinou a antioxidačními vlastnostmi.",
+            "K: chinonová struktura; podíl na procesech srážení krve.",
+            "C: kyselina askorbová, redoxní vlastnosti a účast na syntéze kolagenu.",
+            "Skupina B: příklady heterocyklických vitamínů spojených s funkcí enzymů."
+          ],
+          "source_refs": [
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 8
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 9
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 12
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 13
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 14
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 15
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 16
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Hydrofilní skupina",
+          "Lipofilní skupina"
+        ],
+        "rows": [
+          {
+            "label": "Prostředí rozpustnosti",
+            "values": [
+              "Voda.",
+              "Tuky."
+            ]
+          },
+          {
+            "label": "Typické příklady z přehledu",
+            "values": [
+              "Vitamín C a vitamíny skupiny B.",
+              "Vitamíny A, D, E a K."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/89f5a0f2323b3ee8bb143e1b3db31544d74a0a42c3cd567a11ab72e6efbeedb7.webp",
+          "alt": "Retinol a jeho chemické zařazení: sleduj řetězec, dvojné vazby a OH skupinu. Strana 13.",
+          "caption": "Retinol a jeho chemické zařazení: sleduj řetězec, dvojné vazby a OH skupinu. Strana 13.",
+          "source_refs": [
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 13
+            }
+          ],
+          "source_media": "extracted/73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64/media/page-013-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "konkretni-vitaminy",
+      "title": "Přiřaď známý vitamín ke konkrétnímu pojmu",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 9
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 10
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 11
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 12
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 14
+        },
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 16
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "B₁ – thiamin: podklad jej spojuje s enzymy zpracovávajícími sacharidy.",
+            "B₂ – riboflavin: základem struktury je flavin.",
+            "B₆ – pyridoxin: souvislost s metabolismem aminokyselin a tvorbou některých přenašečů.",
+            "C – kyselina askorbová: syntéza kolagenu a antioxidační působení.",
+            "D₃ – cholekalciferol: po aktivaci vzniká kalcitriol, propojení s metabolismem Ca a P.",
+            "K – fylochinon a menachinon: souvislost s tvorbou látek potřebných při srážení krve."
+          ],
+          "source_refs": [
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 9
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 10
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 11
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 12
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 14
+            },
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při učení spojuj vždy trojici název – chemická vlastnost – uvedená biochemická funkce. Samotné písmeno vitamínu nevysvětluje, proč se chová určitým způsobem.",
+          "source_refs": [
+            {
+              "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+              "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+              "page": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hormony-stavba",
+      "title": "Hormony lze dělit podle chemického původu",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 2
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 4
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 6
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 7
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 8
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hormony jsou chemické regulátory propojující činnost buněk a orgánů. Mají specifický účinek a podílejí se na řízení vnitřního prostředí. Lze je třídit podle původu, účinku, žlázy i chemického složení.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 2
+            },
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 4
+            },
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Peptidické hormony jsou tvořené řetězcem aminokyselin; příkladem je oxytocin.",
+            "Aminokyselinové hormony jsou odvozené od aminokyselin; příkladem je adrenalin.",
+            "Steroidní hormony jsou odvozené od cholesterolu; příkladem je kortizol."
+          ],
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 7
+            },
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "„Peptidický“, „stresový“ a „hormon nadledvin“ nejsou tři konkurenční názvy jedné klasifikace. Každý používá jiné hledisko: stavbu, účinek nebo místo vzniku.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 6
+            },
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 7
+            },
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 15
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/cfb7308e8dc14d6a116e7a1a46177a8a2d360af9f9d87335956b7f72c0db6fbc.webp",
+          "alt": "Příklad peptidického hormonu: ve vzorci sleduj aminokyselinový řetězec. Strana 9.",
+          "caption": "Příklad peptidického hormonu: ve vzorci sleduj aminokyselinový řetězec. Strana 9.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 9
+            }
+          ],
+          "source_media": "extracted/6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473/media/page-009-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "hormonalni-regulace",
+      "title": "Kdo řídí koho: žláza, hormon a cílový účinek",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 11
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 12
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 13
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 14
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 15
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 17
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 18
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 20
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Regulační hormony ovlivňují činnost dalších endokrinních žláz. Podklad uvádí TSH z hypofýzy, který stimuluje štítnou žlázu, a ACTH, který ovlivňuje kůru nadledvin. Tím se liší od popisu přímého účinku hormonu na tkáň.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Inzulin snižuje glykémii; glukagon podporuje uvolňování glukózy ze zásob v játrech.",
+            "Tyroxin a trijodtyronin souvisejí s řízením látkové přeměny.",
+            "Adrenalin a noradrenalin jsou v přehledu spojené se stresovou pohotovostí.",
+            "Aldosteron souvisí s hospodařením s Na⁺ a K⁺; kortizol s mobilizací při stresové zátěži.",
+            "ADH a oxytocin jsou příklady neurohormonů vznikajících v hypothalamu."
+          ],
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 13
+            },
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 14
+            },
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 15
+            },
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Přehled řadí mezi tkáňové hormony například gastrin tvořený v žaludeční sliznici a sekretin vznikající v tenkém střevě. Při opakování sleduj místo jejich tvorby a uvedený účinek.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 18
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Regulační hormon",
+          "text": "TSH vzniká v hypofýze.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "title": "Další žláza",
+          "text": "TSH stimuluje štítnou žlázu k tvorbě hormonů.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "title": "Účinek v tkáních",
+          "text": "Tyroxin je v podkladu spojen se zrychlením metabolismu buněk.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fytohormony",
+      "title": "Také rostliny používají chemické regulátory",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 16
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fytohormony řídí růst, vývoj a reakce rostlin na prostředí. Název skupiny propoj s konkrétním projevem, nikoli jen s obecnou větou „podporuje rostlinu“.",
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Auxiny: prodlužování buněk a růstové reakce za světlem.",
+            "Cytokininy: podpora buněčného dělení.",
+            "Gibereliny: růst stonku, klíčení a kvetení.",
+            "Kyselina abscisová: klidové období, tlumení růstu a uzavírání průduchů.",
+            "Ethylen: plynný regulátor spojený se zráním plodů a stárnutím."
+          ],
+          "source_refs": [
+            {
+              "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+              "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+              "page": 16
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "c-rozpustnost",
+      "front": "Jaké dvě skupiny vitamínů podle rozpustnosti rozlišuje učivo?",
+      "back": "Hydrofilní, rozpustné ve vodě, a lipofilní, rozpustné v tucích.",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "c-askorbat",
+      "front": "Jak se jinak jmenuje vitamín C?",
+      "back": "Kyselina askorbová; podklad zdůrazňuje redoxní vlastnosti a syntézu kolagenu.",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "c-kofaktor",
+      "front": "Jak se vitamíny propojují s enzymy?",
+      "back": "Mohou být součástí kofaktorů a podporovat konkrétní biochemické přeměny.",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "c-peptid",
+      "front": "Co znamená peptidický hormon?",
+      "back": "Hormon tvořený řetězcem aminokyselin, například oxytocin.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 7
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "c-regulace",
+      "front": "Jaký vztah uvádí podklad pro TSH?",
+      "back": "TSH z hypofýzy stimuluje štítnou žlázu.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "c-ethylen",
+      "front": "Který z probíraných fytohormonů je plyn?",
+      "back": "Ethylen, spojený se zráním plodů.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 16
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-hydrofilni",
+      "prompt": "Co znamená hydrofilní vitamín?",
+      "options": [
+        "Je rozpustný ve vodě",
+        "Je tvořen pouze aminokyselinami",
+        "Je vždy plynný"
+      ],
+      "answer": 0,
+      "explanation": "Hledisko hydrofilní/lipofilní vyjadřuje rozpustnost, ne velikost molekuly nebo skupenství.",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "q-hyper",
+      "prompt": "Který pojem označuje nadbytek vitamínu?",
+      "options": [
+        "Avitaminóza",
+        "Transkripce",
+        "Hypervitaminóza"
+      ],
+      "answer": 2,
+      "explanation": "Hypervitaminóza označuje nadbytek, zatímco avitaminóza nedostatek.",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "q-kolagen",
+      "prompt": "Který vitamín spojuje podklad se syntézou kolagenu?",
+      "options": [
+        "Výhradně vitamín B₂",
+        "Vitamín C",
+        "Pouze vitamín K"
+      ],
+      "answer": 1,
+      "explanation": "Strana 12 uvádí kyselinu askorbovou a její vztah ke kolagenu.",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "q-d",
+      "prompt": "Který vitamín má v podkladu steroidní charakter a souvisí s metabolismem vápníku?",
+      "options": [
+        "Vitamín D",
+        "Vitamín C",
+        "Vitamín B₁"
+      ],
+      "answer": 0,
+      "explanation": "Vitamín D je chemicky spojen se steroidní strukturou a po aktivaci s kalcitriolem.",
+      "source_refs": [
+        {
+          "id": "a057e5957c5d0e69ddbbb805c44891e033c3827b759b85bcbccbc78a76d7c54a",
+          "sha256": "73662925c554071c44cf7990532c59fba8728c8e191876450e5c7270c89bcb64",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "q-oxytocin",
+      "prompt": "Proč je oxytocin zařazen mezi peptidické hormony?",
+      "options": [
+        "Je tvořen pouze glukózovými jednotkami",
+        "Je odvozen od škrobu",
+        "Je tvořen řetězcem aminokyselin"
+      ],
+      "answer": 2,
+      "explanation": "Chemické zařazení peptidický popisuje aminokyselinový řetězec.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 7
+        },
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "q-kortizol",
+      "prompt": "Který chemický původ je v přehledu uveden pro kortizol?",
+      "options": [
+        "Nukleotid DNA",
+        "Steroidní hormon odvozený od cholesterolu",
+        "Polysacharid odvozený od celulózy"
+      ],
+      "answer": 1,
+      "explanation": "Kortizol je v podkladu příkladem steroidního hormonu.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-inzulin",
+      "prompt": "Který směr účinku podklad uvádí pro inzulin?",
+      "options": [
+        "Snižování glykémie",
+        "Tvorbu nové DNA šroubovice",
+        "Přímý rozklad chlorofylu"
+      ],
+      "answer": 0,
+      "explanation": "Inzulin je uveden jako hormon snižující koncentraci glukózy v krvi.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "q-tsh",
+      "prompt": "Co stimuluje TSH v popsaném regulačním vztahu?",
+      "options": [
+        "Přímo štěpení celulózy",
+        "Vylučování chlorofylu",
+        "Štítnou žlázu"
+      ],
+      "answer": 2,
+      "explanation": "TSH z hypofýzy ovlivňuje štítnou žlázu; jde o příklad hormonu řídícího další žlázu.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "q-abscisova",
+      "prompt": "Která funkce je v přehledu přiřazena kyselině abscisové?",
+      "options": [
+        "Tvorba antikodonu tRNA",
+        "Uzavírání průduchů a podpora klidového období",
+        "Přímé štěpení peptidových vazeb v žaludku"
+      ],
+      "answer": 1,
+      "explanation": "Jde o fytohormon spojený s tlumením růstu a reakcí na podmínky prostředí.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "q-cytokininy",
+      "prompt": "Které fytohormony podklad spojuje s buněčným dělením?",
+      "options": [
+        "Cytokininy",
+        "Anorganické fosfáty",
+        "Antikodony"
+      ],
+      "answer": 0,
+      "explanation": "Cytokininy jsou v seznamu rostlinných regulátorů přiřazeny k podpoře dělení buněk.",
+      "source_refs": [
+        {
+          "id": "30791cdfae1f0e6f526a8687ecdb2ed8e6253944f2f9df43a2d1ba7204809b12",
+          "sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473",
+          "page": 16
+        }
+      ]
+    }
+  ]
+}

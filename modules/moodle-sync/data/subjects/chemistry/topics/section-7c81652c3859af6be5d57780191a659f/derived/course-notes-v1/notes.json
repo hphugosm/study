@@ -1,0 +1,1002 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-7c81652c3859af6be5d57780191a659f",
+  "title": "Bílkoviny a peptidy",
+  "language": "cs",
+  "intro": "Bílkoviny propojují pořadí aminokyselin s prostorovým tvarem a funkcí. Nejdřív rozliš čtyři úrovně struktury, potom sleduj trávení a zpracování dusíku v močovinovém cyklu.",
+  "sources": [
+    {
+      "id": "017ca2a286d406ccd035aaebb6d47b670934cc0eb9622ece06543a137eb720c5",
+      "sha256": "1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488",
+      "title": "močovin cyklus.png",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488.png",
+      "extraction_url": "./extracted/1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488.zip"
+    },
+    {
+      "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+      "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+      "title": "Bílkoviny - úvod struktura.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992.pdf",
+      "extraction_url": "./extracted/356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992.zip"
+    },
+    {
+      "id": "1b61414ab9139f4a0484726951dbaae3f4c8e92a4528b01a9d05aed7a70ecedc",
+      "sha256": "b79008e4c528fb633d1bb51939ac82cd3b86e3e33fc8f8f2598751ee3ccdf698",
+      "title": "Vzorce bílkovin na ukázku.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/b79008e4c528fb633d1bb51939ac82cd3b86e3e33fc8f8f2598751ee3ccdf698.docx",
+      "extraction_url": "./extracted/b79008e4c528fb633d1bb51939ac82cd3b86e3e33fc8f8f2598751ee3ccdf698.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b79008e4c528fb633d1bb51939ac82cd3b86e3e33fc8f8f2598751ee3ccdf698.zip"
+    },
+    {
+      "id": "4f1345bbb36c1d5f979cebc55530e1a822c5d04bae62cde97d73cb7a3102ec6e",
+      "sha256": "914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d",
+      "title": "ATP,ADP,AMP.png",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d.png",
+      "extraction_url": "./extracted/914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d.zip"
+    },
+    {
+      "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+      "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+      "title": "Bílkoviny - metabolsimus.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348.pdf",
+      "extraction_url": "./extracted/e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "funkce-a-rozdeleni",
+      "title": "Jedna skupina látek, mnoho funkcí",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 2
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 3
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 4
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bílkoviny mají peptidový řetězec tvořený aminokyselinovými zbytky. Podklad je rozděluje podle funkce na stavební a podpůrné, transportní a skladovací, pohybové, ochranné a obranné, regulační a katalytické. Stejnou molekulu proto můžeme popisovat z několika hledisek.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 2
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jednoduché bílkoviny obsahují pouze aminokyselinovou složku. Složené mají vedle polypeptidové části další složku; v přehledu najdeme například metalo-, fosfo-, glyko-, lipo- a nukleoproteiny. Další rozlišení se týká celkového tvaru na globulární a fibrilární.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 3
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U membránových bílkovin odlišuj periferní, které na membránu přisedají, a integrální, které jsou do ní zabudované. Tato dvojice popisuje umístění vůči membráně, nikoli pořadí aminokyselin.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 4
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ctyri-urovne",
+      "title": "Od sekvence k uspořádání podjednotek",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 11
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 12
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 15
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 21
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Primární struktura popisuje pořadí aminokyselin v peptidovém řetězci. Standardně se zapisuje od N-konce k C-konci. Sekvence je pro bílkovinu typická a podklad ji propojuje s informací v DNA.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 8
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sekundární struktura zahrnuje místní prostorové uspořádání blízkých zbytků, například α-helix a β-skládaný list. Terciární struktura popisuje trojrozměrné uspořádání celého peptidového řetězce, tedy i vztahy zbytků, které jsou v lineární sekvenci daleko od sebe.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 12
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kvartérní strukturu řešíme u bílkovin složených z více podjednotek: jde o jejich společné prostorové uspořádání. Podklad uvádí hemoglobin se čtyřmi podjednotkami. Není správné automaticky předpokládat několik podjednotek u každé bílkoviny.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Pořadí zbytků, místní tvar, tvar celého řetězce a sestava podjednotek jsou čtyři různé otázky.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 11
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 12
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 15
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 21
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/ba1a29e11777dd1605f16f4baa3977247b9387accbadc05f409138425403b12e.webp",
+          "alt": "Přehled primární, sekundární, terciární a kvartérní struktury bílkoviny",
+          "caption": "V každém panelu se mění úroveň popisu: sekvence, místní struktura, celý řetězec a sestava podjednotek. Strana 22.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 22
+            }
+          ],
+          "source_media": "extracted/356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992/media/page-022-image-001.jpg",
+          "width": 849,
+          "height": 393
+        }
+      ],
+      "steps": [
+        {
+          "title": "1. Primární",
+          "text": "Přečti pořadí aminokyselinových zbytků od N-konce k C-konci.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "title": "2. Sekundární",
+          "text": "Sleduj pravidelné místní uspořádání: α-helix nebo β-skládaný list.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "title": "3. Terciární",
+          "text": "Popiš výsledný trojrozměrný tvar jednoho celého peptidového řetězce.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "title": "4. Kvartérní",
+          "text": "Teprve u více podjednotek sleduj jejich společnou sestavu.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interakce-a-tvar",
+      "title": "Co drží prostorové uspořádání",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 9
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 17
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 24
+        },
+        {
+          "id": "1b61414ab9139f4a0484726951dbaae3f4c8e92a4528b01a9d05aed7a70ecedc",
+          "sha256": "b79008e4c528fb633d1bb51939ac82cd3b86e3e33fc8f8f2598751ee3ccdf698"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podklad odděluje kovalentní disulfidové můstky od nekovalentních interakcí. K nekovalentním zařazuje vodíkové můstky, přitahování opačně nabitých postranních řetězců a hydrofobní interakce nepolárních skupin.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Prostorové uspořádání se může měnit působením vnějších podmínek. Podklad uvádí vratnou změnu konformace a obrazově porovnává svinování a denaturaci. Při popisu nejdřív řekni, zda mluvíš o pořadí zbytků, nebo o prostorovém tvaru.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 17
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Doplňkový dokument s ukázkami vzorců používej k nácviku čtení peptidového řetězce a porovnání chemického zápisu s prostorovým modelem. Podrobné určování identity každého zobrazeného vzorce není v tomto procvičování hodnoceno.",
+          "source_refs": [
+            {
+              "id": "1b61414ab9139f4a0484726951dbaae3f4c8e92a4528b01a9d05aed7a70ecedc",
+              "sha256": "b79008e4c528fb633d1bb51939ac82cd3b86e3e33fc8f8f2598751ee3ccdf698",
+              "locator": "obrázkové ukázky vzorců"
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Kovalentní interakce",
+          "Nekovalentní interakce"
+        ],
+        "rows": [
+          {
+            "label": "Příklady uvedené v podkladu",
+            "values": [
+              "Disulfidové můstky.",
+              "Vodíkové můstky, iontové a hydrofobní interakce."
+            ]
+          },
+          {
+            "label": "Na co se zaměřit při čtení",
+            "values": [
+              "Propojení pomocí kovalentní vazby.",
+              "Působení mezi polárními, nabitými nebo nepolárními skupinami."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "traveni-bilkovin",
+      "title": "Od potravy k aminokyselinám",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 1
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podle podkladu začíná trávení bílkovin v žaludku působením pepsinů. Kyselé prostředí souvisí s přítomností HCl a s přeměnou pepsinogenu na aktivní pepsin. Podstatou štěpení je hydrolýza.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "V tenkém střevě pokračuje trávení mimo jiné trypsinem a chymotrypsinem. Řetězce se postupně štěpí na kratší peptidy a aminokyseliny. Vstřebané aminokyseliny se následně využívají v buňkách například ke tvorbě tkáňových bílkovin; mohou být také dále metabolicky zpracovány.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 1
+            },
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Nezaměňuj trávení s novou tvorbou bílkoviny: hydrolýza řetězec štěpí, syntéza nové peptidové vazby naopak vytváří.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 1
+            },
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Žaludek",
+          "text": "Pepsin pracuje v kyselém prostředí a zahajuje popsané štěpení bílkovin.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Tenké střevo",
+          "text": "Další enzymy, včetně trypsinu a chymotrypsinu, pokračují ve štěpení peptidových řetězců.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Využití aminokyselin",
+          "text": "Aminokyseliny po vstřebání slouží například k syntéze vlastních bílkovin nebo k dalším metabolickým přeměnám.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mocovinovy-cyklus",
+      "title": "Jak se organismus zbavuje nadbytečného dusíku",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 2
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 3
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 7
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 8
+        },
+        {
+          "id": "017ca2a286d406ccd035aaebb6d47b670934cc0eb9622ece06543a137eb720c5",
+          "sha256": "1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Močovinový cyklus chrání organismus před toxickým působením amoniaku tím, že dusík zabuduje do močoviny. Podklad lokalizuje cyklus hlavně do jater: část probíhá v mitochondrii a část v cytoplazmě. Močovina přechází do krve a ledviny ji vylučují do moči.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 2
+            },
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 3
+            },
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ve schématu sleduj přechod od karbamoylfosfátu přes citrulin k argininosukcinátu a argininu. Štěpením argininu se uvolňuje močovina a obnovuje ornithin, který umožní další oběh cyklu. Jeden dusík vznikající močoviny je v podkladu spojen s amoniakem, druhý s aspartátem.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 7
+            },
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 8
+            },
+            {
+              "id": "017ca2a286d406ccd035aaebb6d47b670934cc0eb9622ece06543a137eb720c5",
+              "sha256": "1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Játra močovinu tvoří, ledviny ji vylučují. Tyto dvě úlohy se často zaměňují.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 2
+            },
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/1c395119f02a6b0d731bf3faef0d85a2493bd04dde595d186d086e53794bba2d.webp",
+          "alt": "Schéma močovinového cyklu rozděleného mezi mitochondrii a cytoplazmu",
+          "caption": "Najdi citrulin, arginin, močovinu a obnovený ornithin. Sleduj také hranici mitochondrie a cytoplazmy.",
+          "source_refs": [
+            {
+              "id": "017ca2a286d406ccd035aaebb6d47b670934cc0eb9622ece06543a137eb720c5",
+              "sha256": "1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488"
+            }
+          ],
+          "source_media": "extracted/1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488/media/original.png",
+          "width": 1104,
+          "height": 1176
+        }
+      ],
+      "steps": [
+        {
+          "title": "Zachycení dusíku",
+          "text": "V mitochondrii je amoniak vázán do karbamoylfosfátu; ten se spojuje s ornithinem za vzniku citrulinu.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Cytoplazmatická část",
+          "text": "Citrulin vstupuje do cytoplazmy a reaguje s aspartátem. Vzniká argininosukcinát a následně arginin.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "title": "Močovina a obnova nosiče",
+          "text": "Z argininu vzniká močovina a ornithin. Ornithin se vrací do mitochondrie a cyklus může pokračovat.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "title": "Vyloučení",
+          "text": "Močovina přechází z jater do krve a je vyloučena ledvinami do moči.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atp-a-cteni-schemat",
+      "title": "ATP, ADP a AMP ve schématech",
+      "source_refs": [
+        {
+          "id": "4f1345bbb36c1d5f979cebc55530e1a822c5d04bae62cde97d73cb7a3102ec6e",
+          "sha256": "914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d"
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 4
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 8
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Samostatný obrázek umožňuje porovnat adenosinmonofosfát, adenosindifosfát a adenosintrifosfát. V názvu i ve vzorci sleduj počet fosfátových zbytků: jeden, dva nebo tři. ATP je také součástí zápisu močovinového cyklu v podkladu.",
+          "source_refs": [
+            {
+              "id": "4f1345bbb36c1d5f979cebc55530e1a822c5d04bae62cde97d73cb7a3102ec6e",
+              "sha256": "914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d"
+            },
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při čtení metabolického schématu odděluj vstupní dusíkaté látky, přenašeče energie a výsledný produkt. Podrobná energetická bilance není v textových podkladech podaná jednotně; zde se proto procvičuje smysl cyklu, jeho umístění a pořadí hlavních meziproduktů, ne sporné součty ATP.",
+          "source_refs": [
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 4
+            },
+            {
+              "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+              "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+              "page": 8
+            },
+            {
+              "id": "017ca2a286d406ccd035aaebb6d47b670934cc0eb9622ece06543a137eb720c5",
+              "sha256": "1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/8d477147c227e0086e8f5ba059be838ce3f62eff8b16e7ace0b9a487bdf87349.webp",
+          "alt": "Vzorce AMP, ADP a ATP s vyznačeným počtem fosfátových zbytků",
+          "caption": "Mono-, di- a tri- označuje jeden, dva a tři fosfátové zbytky v uvedených nukleotidech.",
+          "source_refs": [
+            {
+              "id": "4f1345bbb36c1d5f979cebc55530e1a822c5d04bae62cde97d73cb7a3102ec6e",
+              "sha256": "914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d"
+            }
+          ],
+          "source_media": "extracted/914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d/media/original.png",
+          "width": 663,
+          "height": 586
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "primarni",
+      "front": "Co je primární struktura bílkoviny?",
+      "back": "Pořadí aminokyselinových zbytků v peptidovém řetězci, standardně čtené od N-konce k C-konci.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "sekundarni",
+      "front": "Jaké dva příklady sekundární struktury uvádí podklad?",
+      "back": "α-helix a β-skládaný list.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "terciarni",
+      "front": "Co popisuje terciární struktura?",
+      "back": "Trojrozměrné uspořádání celého peptidového řetězce.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "kvarterni",
+      "front": "Kdy mluvíme o kvartérní struktuře?",
+      "back": "U bílkoviny tvořené více peptidovými podjednotkami; popisujeme jejich společné prostorové uspořádání.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "disulfid",
+      "front": "Kterou kovalentní interakci uvádí přehled struktury?",
+      "back": "Disulfidové můstky. Vodíkové, iontové a hydrofobní interakce jsou uvedeny mezi nekovalentními.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "pepsin",
+      "front": "Který enzym zahajuje popsané trávení bílkovin v žaludku?",
+      "back": "Pepsin, který vzniká z pepsinogenu v kyselém prostředí.",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "urea-organy",
+      "front": "Kde se močovina tvoří a kudy se vylučuje?",
+      "back": "Tvoří se hlavně v játrech a vylučuje se ledvinami do moči.",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 2
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "cyklus-ornithin",
+      "front": "Která látka se v závěru močovinového cyklu obnoví?",
+      "back": "Ornithin, který se vrací do mitochondrie a umožňuje pokračování cyklu.",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 8
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "sekvence",
+      "prompt": "Kterou úroveň struktury popisuje pořadí aminokyselinových zbytků?",
+      "options": [
+        "Terciární",
+        "Kvartérní",
+        "Primární"
+      ],
+      "answer": 2,
+      "explanation": "Primární struktura je sekvence. Terciární popisuje tvar celého řetězce a kvartérní sestavu více podjednotek.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 11
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 15
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "struktura-sroubovice",
+      "prompt": "α-helix a β-skládaný list jsou příklady:",
+      "options": [
+        "sekundární struktury",
+        "primární sekvence",
+        "výhradně kvartérní struktury"
+      ],
+      "answer": 0,
+      "explanation": "Podklad je řadí mezi místní prostorová uspořádání sekundární struktury.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "vice-podjednotek",
+      "prompt": "Popisuješ společné uspořádání několika peptidových podjednotek jedné bílkoviny. Jde o:",
+      "options": [
+        "primární strukturu",
+        "kvartérní strukturu",
+        "hydrolýzu"
+      ],
+      "answer": 1,
+      "explanation": "Kvartérní struktura se vztahuje k sestavě více podjednotek. Primární struktura udává pořadí zbytků a hydrolýza je štěpná reakce.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "kovalentni-interakce",
+      "prompt": "Která interakce je v podkladu uvedena jako kovalentní?",
+      "options": [
+        "Hydrofobní působení",
+        "Vodíkový můstek",
+        "Disulfidový můstek"
+      ],
+      "answer": 2,
+      "explanation": "Disulfidové můstky jsou zde kovalentní. Zbylé dvě možnosti patří mezi uvedené nekovalentní interakce.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "membranovy-protein",
+      "prompt": "Integrální membránová bílkovina je podle podkladu:",
+      "options": [
+        "zabudovaná do membrány",
+        "jen volně přisedlá na membránu",
+        "definovaná výhradně pořadím aminokyselin"
+      ],
+      "answer": 0,
+      "explanation": "Integrální bílkoviny jsou do membrány zabudované. Volně přisedlé jsou označené jako periferní.",
+      "source_refs": [
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "traveni-zaludek",
+      "prompt": "Která dvojice patří k popsanému začátku trávení bílkovin v žaludku?",
+      "options": [
+        "Trypsin a neutrální prostředí",
+        "Pepsin a kyselé prostředí",
+        "DNA polymeráza a termocyklér"
+      ],
+      "answer": 1,
+      "explanation": "Žaludeční část podklad spojuje s pepsinem a HCl. Trypsin uvádí u pokračování trávení v tenkém střevě.",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "mocovina-tvorba",
+      "prompt": "Kde podklad lokalizuje hlavní tvorbu močoviny?",
+      "options": [
+        "V ledvinách",
+        "V žaludku",
+        "V játrech"
+      ],
+      "answer": 2,
+      "explanation": "Játra močovinu vytvářejí; ledviny ji z krve vylučují do moči.",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 2
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "cyklus-prostory",
+      "prompt": "Mezi kterými dvěma prostory je rozdělen močovinový cyklus v jaterní buňce?",
+      "options": [
+        "Mitochondrie a cytoplazma",
+        "Jádro a jadérko",
+        "Žaludek a tenké střevo"
+      ],
+      "answer": 0,
+      "explanation": "Část cyklu je v mitochondrii a část v cytoplazmě. Žaludek a střevo jsou orgány trávení, ne dvě buněčné části cyklu.",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 3
+        },
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "ornithin-obnova",
+      "prompt": "Co se podle popisu uvolní při štěpení argininu na konci cyklu?",
+      "options": [
+        "Jen glukóza",
+        "Močovina a ornithin",
+        "DNA a ribóza"
+      ],
+      "answer": 1,
+      "explanation": "Arginin se v popsaném kroku hydrolyticky štěpí na močovinu a ornithin. Obnovený ornithin umožňuje další průběh cyklu.",
+      "source_refs": [
+        {
+          "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
+          "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "atp-pocet",
+      "prompt": "Který zobrazený nukleotid obsahuje tři fosfátové zbytky?",
+      "options": [
+        "AMP",
+        "ADP",
+        "ATP"
+      ],
+      "answer": 2,
+      "explanation": "ATP je adenosintrifosfát; obrázek vedle něj rozlišuje AMP s jedním a ADP se dvěma fosfátovými zbytky.",
+      "source_refs": [
+        {
+          "id": "4f1345bbb36c1d5f979cebc55530e1a822c5d04bae62cde97d73cb7a3102ec6e",
+          "sha256": "914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d"
+        }
+      ]
+    }
+  ]
+}

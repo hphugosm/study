@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "sha256": "5824eb62016bed182602f4f777f3b85e5a7f29b47e0b176e7587c39f4cfb7460",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Biochemické metody\n\nů\n",
+      "text": "Biochemické metody\u000b\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "text": "Z biologických objektů dokážou izolovat jednotlivé chemické složky.\nK nejvýznamnějším patří např. chromatografie, elektroforéza, centrifugace, NMR spektroskopie, polymerázová řetězová reakce (PCR)\n\nVyužití: složení neznámého vzorku, kvalita olejů, složení DNA, oddělení řetězců DNA, odstranění sraženin, kontrola potravin, hodnocení a analýza potravin, kvalita jogurtů aj.\n\nBiochemické metody"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "text": "je separace částic pomocí odstředivé síly\nPoužívá se k separaci buněčných organel, proteinů nebo jiných biomolekul na základě jejich hustoty a velikosti.\nCentrifugace \u000b"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Typy centrifug\n\nMalé stolní centrifugy\nobjemy do 30 - 50ml, 3 000 — 7 000 g,\nmikrocentrifugy — 10 000 g\n\nVelkoobjemové centrifugy\n6 500 g, 61,\n\nVysokootáčkové centrifugy\n25 000 rpm, 60 000 g\n\nUltracentrifugy\n90 000 rpm, 500 000 — 600 000 g\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "text": "Gelová elektroforéza \u000b\nSeparační metoda, využívaná pro separaci a analýzu molekul DNA, RNA a proteinů.  \n\nK dělení se využívá velikost a rozdílná pohyblivost nabitých částic ve stejnosměrném elektrickém poli.\n\nJe provedena na gelu o různé velikosti pórů, skrze které se fragmenty makromolekul pohybují.\n\nBěžně se používají dva typy gelů, agarózový a polyakrylamidový, na které je nanesen vzorek. Celý gel je poté ponořen do pufru, který zde funguje jako vodivostní médium.\n\nElektroforéza: Molekuly jsou umístěny do gelu a na oba konce gelu je připojeno elektrické pole. Protože molekuly DNA a RNA mají záporný náboj (díky fosfátovým skupinám v jejich páteři), pohybují se směrem ke kladně nabité anodě.\n\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "text": "Na gel je aplikováno elektrické napětí, které nutí molekuly pohybovat se skrz gel. Molekuly se pohybují podle svého náboje a velikosti."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "text": "Poloha pásů na gelu odpovídá velikosti molekul. Menší molekuly se pohybují rychleji a skončí dále od startovacího bodu, zatímco větší molekuly se pohybují pomaleji a zůstanou blíže.\nMolekuly vizualizujeme pomocí různých barviv.\nVýsledky porovnáváme se standardy (markery). Tyto standardy se nanášejí vedle vzorků a slouží jako srovnání pro odhad velikosti molekul ve vzorcích. Pásy vzorků se porovnávají s pásy markeru."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "text": "Chromatografie\u000b\nUmožňuje analyzovat složité směsi biologických molekul.\n\nPrincipem je mnohonásobné opakované rozdělování látek mezi nepohyblivou (stacionární) a pohyblivou (mobilní) fázi na základě různé afinity k fázím.\n\nStacionární fáze\n chromatografický papír (filtrační papír)\n deska s tenkou vrstvou adsorpčního materiálu (silikagel, Al2O3)  \n gel\n\nMobilní fáze\nsměs organických rozpouštědel (lékařský benzín, ethanol, methanol, acetonitril - CH3CN)\nInertní plyn, dusík, vodík, helium \n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Chromatograf — přístroj sloužící k chromatografické separaci\nsložek vzorku\n\nII\n\n—\n\nKapalinový chromatograf Plynový chromatograf\n",
+      "text": "Chromatograf – přístroj sloužící k chromatografické separaci složek vzorku\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "text": "Chromatogram – záznam z chromatografu znázorňující jednotlivé analyty nejčastěji ve formě tzv. chromatografických píků (zón) oddělených navzájem základní linií\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "* Gelová chormatografie\n\n' ' ! '\n\npřívod\nmobilní fáze\nne ne „ ]\nvzorek — BD\nsloupec\nchromatografická - chromatografické\nkolona z| náplně\n\n]\nY Y postupná eluce\n— — frakcí vzorku\n'\nň\n\npostupně jímané frakce\n\n",
+      "text": "\nGelová chormatografie"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "text": "Ionexová chromatografie \n\nJe separace látek nesoucích kladný nebo záporný náboj.\nJedná se o určitou afinitu iontů k ionexu.\nPoužití: analýzy AMK, čištění peptidů a proteinů.\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Princip ionexové chromatografie\n\n1. START 2. NAVÁZÁNÍ 3. GRADIENTOVÁ | 4.KONEC | 5. REGENERACE\nVZORKU ELUCE ELUCE KOLONY\nma m |e o © o © © © ©\nAA |©0 © © oje o s |) ooo\n(0] A\n© © A e\no A A 19]\n....... AháAA j ntmmuuje o o o\nAAAAA |O © © ©\n\niontové síle\n\n© | pufr o zvyšující se A látka s menším záporným nábojenm]\n_; Ix m látka s větším záporným nábojem\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Plynová chromatografie\n\nkolona chromatografu\n\n",
+      "text": "Plynová chromatografie\n\n kolona chromatografu"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Schema chromatogafické separace\n\nmobilní\níz [=+2 stacionární fáze\n\n= g vzorek chromatogram\n=> jensněíí\n\n„ A\ns r|\n\n\\\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Klasifikace chromatografických metod\n\nE \" l 'I a l' r\n\nSolrent\n* plošná 1\n— všechny druhy TLC\n(papírová, tenkovrstvá) m\n...\n* sloupcová ...\n— kolonová chromatografie - - p m p]\n„Solvent „Solvent\nTime Zero After Ten Minutes\n\n(\"Black\") Elute 1 Elute 2 Elute 3\nh h pamy\n\n. Note: Biue can\nbe oluted with\nIPA/water\n* * *\n\nOne cartndge can separate all three dyes\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": ":(a) Vzeostupná papírová (b) Sestupná papírová\nchromatografie chromatografie\n\nvozpouš\\bčdlo\npro udržování\nvlhkostí\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "text": "nedestruktivní fyzikální metoda využívaná pro identifikaci látek.\nfunguje na základě interakce mezi jádry atomů a silným magnetickým polem. \n\nV silném magnetickém poli jsou jádra atomů s nenulovým spinem (např. 13C ) schopna absorbovat energii, když jsou vystavena specifickému typu elektromagnetického záření\n\nNMR využívá rádiové vlny (elektromagnetické záření s nízkou frekvencí) k excitaci jader atomů v silném magnetickém poli, což umožňuje jejich detekci a analýzu.\n\nNa základě NMR spektroskopie lze určit složení a strukturu molekul zkoumané látky i jejich množství. \nNukleární magnetická rezonance (NMR) "
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "NMR spektrometr\n\nĚ\ng »\noo q\n] B e š\n\n4\n1H chemical shift (ppm)\n\n\\\n",
+      "text": "NMR spektrometr"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "text": "laboratorní metoda používaná k rychlému zmnožení specifických úseků DNA založená na principu replikace nukleových kyselin.\n\nz malého množství DNA se vyrobí velké množství kopií specifické sekvence DNA. \n\nPCR využívá přirozené schopnosti enzymu DNA polymerázy syntetizovat nová vlákna DNA. Celý proces probíhá v cyklech, kde se střídá zahřívání a ochlazování vzorku, což umožňuje selektivní amplifikaci cílové DNA.\n\nDetekce genetických mutací a chorob\nDiagnostika infekčních nemocí\nSekvenování DNA, forenzní analýza\nPolymerázová řetězová reakce (PCR)"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "M (mg) 250 50 10 2\n\nKAPA2G Fast\n64 min\n",
+      "text": "Termocyklér\n\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 23",
+      "number": 23,
+      "text": "Závěrem\n\n  Využití: složení neznámého vzorku, kvalita olejů, složení DNA, oddělení řetězců DNA, odstranění sraženin, kontrola potravin, hodnocení a analýza potravin, kvalita jogurtů, forenzní analýza aj.\n\n"
+    }
+  ]
+}

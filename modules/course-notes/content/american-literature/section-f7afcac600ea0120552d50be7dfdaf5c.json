@@ -1,0 +1,497 @@
+{
+  "schema": 1,
+  "subject": "american-literature",
+  "topic": "section-f7afcac600ea0120552d50be7dfdaf5c",
+  "title": "Modernism: The Lost Generation",
+  "language": "en",
+  "intro": "Krebs returns from war to a town that has already finished celebrating its soldiers. Read how that mismatch affects his speech, relationships and choices. Interpret the signs of alienation without turning a fictional character into a medical diagnosis.",
+  "sources": [
+    {
+      "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+      "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+      "title": "Soliders Home - Full Text.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba.docx",
+      "extraction_url": "./extracted/f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "late-return",
+      "title": "A return without a welcome",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 1"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Krebs enlists in 1917 and returns from Germany in the summer of 1919. The account first places him in a college fraternity photograph, then in a photograph on the Rhine. These paired images introduce a before-and-after structure without claiming that a photograph can explain his inner life.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 1"
+            },
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "His town’s elaborate welcomes have already happened. People treat his late arrival as almost ridiculous. The difference between his experience and the town’s timetable makes “home” a place where he no longer fits easily.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 5"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "label": "1917",
+          "text": "Krebs enlists in the Marines.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 1"
+            }
+          ]
+        },
+        {
+          "label": "Summer 1919",
+          "text": "He returns to the United States after service in Germany.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 1"
+            }
+          ]
+        },
+        {
+          "label": "Homecoming",
+          "text": "The town has already welcomed other returning soldiers.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 5"
+            }
+          ]
+        },
+        {
+          "label": "About a month at home",
+          "text": "His mother begins a conversation about his future.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lies-and-silence",
+      "title": "Why telling the war becomes difficult",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 7"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Krebs first does not want to speak about the war. When he later needs to speak, the town is no longer interested in ordinary facts: people have heard sensational atrocity stories. He exaggerates in order to be heard, then feels disgust at the resulting falseness.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 7"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "His lies borrow experiences and familiar soldiers’ stories rather than simply inventing a heroic identity from nothing. This distinction matters: the pressure to satisfy an audience damages the value of memories that had once felt clear to him.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 9"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "A strong interpretation follows the sequence: need to communicate → pressure to exaggerate → distaste and further isolation. “He is quiet” describes a behaviour but does not explain the conflict.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 11"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Initial silence",
+          "text": "He does not wish to talk about the war.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 7"
+            }
+          ]
+        },
+        {
+          "title": "A changed need",
+          "text": "He wants to tell his experiences but finds no willing audience.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 7"
+            }
+          ]
+        },
+        {
+          "title": "Stories shaped for listeners",
+          "text": "He borrows or exaggerates incidents.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 9"
+            }
+          ]
+        },
+        {
+          "title": "Communication costs him",
+          "text": "Untruth produces nausea and a loss of value in the experience.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "routine",
+      "title": "Routine and the wish to avoid consequences",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 13"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sleeping late, reading, playing pool and practising the clarinet organize Krebs’s days. These routines give him a way to live without making the commitments expected of him. The narrator’s repeated attention to patterns and complications makes this avoidance visible.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 13"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "He finds the social world of local young women complicated and does not want the work of courtship. His attraction does not remove his reluctance to enter relationships with consequences. Separate what he notices from what he chooses to do.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 21"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "His interest in a detailed war history complicates the idea that he simply wants to forget everything. He wants maps and an ordered account of battles he experienced. The story can show withdrawal from conversation alongside a continuing desire to understand the war.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 31"
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Town and family expectations",
+          "Krebs’s expressed wishes"
+        ],
+        "rows": [
+          {
+            "label": "War stories",
+            "values": [
+              "A sensational story that holds listeners’ attention.",
+              "To tell something of his experience without more lies."
+            ]
+          },
+          {
+            "label": "Adult life",
+            "values": [
+              "Work, ambition and settling down.",
+              "A life without complications or consequences."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-ending",
+      "title": "Family pressure and an unresolved ending",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 117"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "His mother measures progress through work, marriage and community approval, using Charley Simmons as a comparison. Her concern is sincere, yet the standards she offers do not resolve Krebs’s sense of distance.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 117"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "When he says he does not love anybody, his mother cries. He then reassures her and takes part in prayer, although he says he cannot pray himself. The scene returns to the difficulty of truthful communication: a statement of his feeling hurts someone, and restoring peace requires words he experiences as another lie.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 125"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "At the end he plans to seek work in Kansas City, avoids a visit to his father’s office, and decides to watch Helen play indoor baseball. These are different kinds of action, not a clear announcement that every difficulty has ended. The last choice leaves room for connection with his sister.",
+          "source_refs": [
+            {
+              "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+              "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+              "locator": "odstavec 148"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "arrival",
+      "front": "When does Krebs return to the United States?",
+      "back": "In the summer of 1919, after enlisting in 1917.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 1"
+        }
+      ]
+    },
+    {
+      "id": "audience",
+      "front": "Why does Krebs begin to exaggerate his war stories?",
+      "back": "He finds that listeners are no longer interested in actual experience and expects exaggeration to make them listen.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 7"
+        }
+      ]
+    },
+    {
+      "id": "card-routine",
+      "front": "Name two activities in Krebs’s home routine.",
+      "back": "Reading and playing pool; the story also mentions clarinet practice and walks.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 13"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "front": "Why is the war-history book important to interpretation?",
+      "back": "It shows continued interest in understanding the war, despite his difficulty talking about it.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 31"
+        }
+      ]
+    },
+    {
+      "id": "mother",
+      "front": "What does his mother use as signs of progress?",
+      "back": "Work, ambition, marriage and becoming a credit to the community.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 117"
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "front": "What does Krebs decide to do at the end?",
+      "back": "He plans work in Kansas City and decides to watch Helen play, while avoiding his father’s office.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 148"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "return",
+      "prompt": "Why is Krebs’s homecoming out of step with his town?",
+      "options": [
+        "He arrives before any other soldier.",
+        "The town has already finished its hero welcomes.",
+        "The town has never heard about the war."
+      ],
+      "answer": 1,
+      "explanation": "The earlier welcomes are over; the problem is timing and reception, not that the town knows nothing of war.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 5"
+        }
+      ]
+    },
+    {
+      "id": "stories",
+      "prompt": "What changes between Krebs’s initial silence and his later attempts to speak?",
+      "options": [
+        "He needs to talk, but people no longer want to hear actualities.",
+        "The town asks him never to speak again by law.",
+        "He has forgotten that he served."
+      ],
+      "answer": 0,
+      "explanation": "The passage contrasts his changing need with the audience’s loss of interest.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 7"
+        }
+      ]
+    },
+    {
+      "id": "lies",
+      "prompt": "What are the lies mainly composed of?",
+      "options": [
+        "Predictions about a future war",
+        "Stories about civilian jobs",
+        "Experiences borrowed from other soldiers and familiar incidents"
+      ],
+      "answer": 2,
+      "explanation": "The narrator specifies borrowed experiences and apocryphal incidents.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 9"
+        }
+      ]
+    },
+    {
+      "id": "forget",
+      "prompt": "Which detail challenges the claim that Krebs wants to forget all of the war?",
+      "options": [
+        "He wants detailed maps in war histories.",
+        "He has a family car.",
+        "He sleeps late."
+      ],
+      "answer": 0,
+      "explanation": "His enthusiasm for detailed history shows an ongoing wish to understand, rather than total erasure.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 31"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "prompt": "Which expectation most clearly comes from his mother’s conversation?",
+      "options": [
+        "He should go back into the army immediately.",
+        "He should begin work and establish a direction in life.",
+        "He should become a professional musician."
+      ],
+      "answer": 1,
+      "explanation": "Her comparison with another young man centres on work, marriage and ambition.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 117"
+        }
+      ]
+    },
+    {
+      "id": "last-action",
+      "prompt": "Which action closes the story’s final plan?",
+      "options": [
+        "Attending a victory parade",
+        "Visiting his father’s office",
+        "Watching Helen play indoor baseball"
+      ],
+      "answer": 2,
+      "explanation": "He chooses Helen’s game and explicitly intends to avoid his father’s office.",
+      "source_refs": [
+        {
+          "id": "4eef296462214a220f669345cb41560afabc96758872351b614b99d518f6656a",
+          "sha256": "f1fca1ca4758cb31d829c170d2ce6396329ac80581147bbfe7cd6e61201413ba",
+          "locator": "odstavec 148"
+        }
+      ]
+    }
+  ]
+}

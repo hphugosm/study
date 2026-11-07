@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "sha256": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "1. Překreslete v ruce a zapište do sešitu vzorce všech 8 aminokyselin ve formě amfiontu."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "(Glycin, Alanin, Fenylalanin, Cystein, Serin, Leucin, Isoleucin, Valin."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": "2. Proč říkáme aminokyselinám, kódované aminokyseliny? Kolik je známo kódovaných"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": "aminokyselin."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": "pro jejich zabudování do bílkovin existuje genetický kód, proto kódované aminokyseliny"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": "V bílkovinách se pravidelně vyskytuje pouze 20 různých aminokyselin"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 8",
+      "number": 8,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": "3. Napište rovnici chemické reakce: aminokyseliny cysteinu s alaninem – výsledný produkt"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": "pojmenujte. Určete, o jaký peptid se jedná a zaškrtněte charakteristickou vazbu"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": "v peptidech."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "1. Překreslete v ruce a zapište do sešitu vzorce všech 8 aminokyselin ve formě amfiontu.\n(Glycin, Alanin, Fenylalanin, Cystein, Serin, Leucin, Isoleucin, Valin.\n2. Proč říkáme aminokyselinám, kódované aminokyseliny? Kolik je známo kódovaných\naminokyselin.\n- pro jejich zabudování do bílkovin existuje genetický kód, proto kódované \naminokyseliny\n- V bílkovinách se pravidelně vyskytuje pouze 20 různých aminokyselin\n3. Napište rovnici chemické reakce: aminokyseliny cysteinu s alaninem – výsledný produkt\npojmenujte. Určete, o jaký peptid se jedná a zaškrtněte charakteristickou vazbu\nv peptidech.\n"
+    }
+  ]
+}

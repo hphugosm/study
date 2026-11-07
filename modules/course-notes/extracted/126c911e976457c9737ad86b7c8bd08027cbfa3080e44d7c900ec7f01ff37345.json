@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "sha256": "126c911e976457c9737ad86b7c8bd08027cbfa3080e44d7c900ec7f01ff37345",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": "   \n  \n  \n"
+    }
+  ]
+}

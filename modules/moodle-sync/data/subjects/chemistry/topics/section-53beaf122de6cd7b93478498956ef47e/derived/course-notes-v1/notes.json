@@ -1,0 +1,1016 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-53beaf122de6cd7b93478498956ef47e",
+  "title": "Nukleové kyseliny",
+  "language": "cs",
+  "intro": "Stavba DNA a RNA, uložení informace a její přenos od nukleotidové sekvence k bílkovině. Při práci s obrázky sleduj směr vláken a rozliš bázi, nukleosid a nukleotid.",
+  "sources": [
+    {
+      "id": "0ba39b0fb0f3fe109f0bfaee1286833233e14acd0d7a73a7b10db5ccafbcbf1e",
+      "sha256": "c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83",
+      "title": "Nukleové kyseliny - obrázky, vzorce 2023.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83.pdf",
+      "extraction_url": "./extracted/c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83.zip"
+    },
+    {
+      "id": "4f833ef00e36819b48f5c138a8ba5bddd24079d75723db7114e64a5f4ad12df6",
+      "sha256": "5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39",
+      "title": "samostatná práce - nukleové kyseliny.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39.docx",
+      "extraction_url": "./extracted/5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39.zip"
+    },
+    {
+      "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+      "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+      "title": "Nukleové kyseliny 2026.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2.pdf",
+      "extraction_url": "./extracted/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2.zip"
+    },
+    {
+      "id": "990ada058e2a09594e0bfc004291ce44fe12715a7bc7e1f0450c965f41bd8d53",
+      "sha256": "fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495",
+      "title": "historie DNA.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495.pdf",
+      "extraction_url": "./extracted/fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495.zip"
+    },
+    {
+      "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+      "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+      "title": "Nukleové kyseliny 2021 1. část -.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331.pdf",
+      "extraction_url": "./extracted/cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331.zip"
+    },
+    {
+      "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+      "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+      "title": "samostatná práce - nukleové kyseliny řešení.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f.docx",
+      "extraction_url": "./extracted/4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f.zip"
+    },
+    {
+      "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+      "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+      "title": "Nukleové kyseliny 2021 2. část.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2.pdf",
+      "extraction_url": "./extracted/e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "nukleotid",
+      "title": "Jednotka informace: nukleotid",
+      "source_refs": [
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+          "page": 1
+        },
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+          "page": 2
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 4
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 7
+        },
+        {
+          "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+          "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+          "locator": "otázky 1–3"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nukleové kyseliny jsou makromolekuly důležité pro uchování a přenos genetické informace. Jejich základní stavební jednotkou je nukleotid: dusíkatá báze, pentóza a fosfátová složka. Nukleosid obsahuje bázi a cukr bez fosfátu.",
+          "source_refs": [
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 1
+            },
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 4
+            },
+            {
+              "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+              "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+              "locator": "otázka 2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "DNA obsahuje deoxyribózu a báze adenin, guanin, cytosin a thymin. RNA obsahuje ribózu a místo thyminu používá uracil. A a G patří mezi purinové báze, C, T a U mezi pyrimidinové.",
+          "source_refs": [
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 1
+            },
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 2
+            },
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 7
+            },
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "text": "V řešení pracovního listu je v jedné odpovědi k DNA uveden také uracil. Hlavní přehled správně rozlišuje DNA: A/G/C/T a RNA: A/G/C/U; tyto dvě sady nezaměňuj.",
+          "source_refs": [
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 1
+            },
+            {
+              "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+              "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+              "locator": "odpověď na otázku k bázím DNA"
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "DNA",
+          "RNA"
+        ],
+        "rows": [
+          {
+            "label": "Cukr",
+            "values": [
+              "Deoxyribóza.",
+              "Ribóza."
+            ]
+          },
+          {
+            "label": "Soubor bází",
+            "values": [
+              "A, G, C, T.",
+              "A, G, C, U."
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/196ff68da7bd8c35a625cfb204d6aa70734c020befaa8f877dab068ffc23e6d7.webp",
+          "alt": "Porovnání nukleotidu a nukleosidu: fosfát odlišuje nukleotid. Strana 4.",
+          "caption": "Porovnání nukleotidu a nukleosidu: fosfát odlišuje nukleotid. Strana 4.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 4
+            }
+          ],
+          "source_media": "extracted/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2/media/page-004-preview.png",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/44a4a5a96344f8c1955839629ce07652d3b1060d523bf6ede8c76930356eeda1.webp",
+          "alt": "Ribóza a deoxyribóza se liší skupinou na druhém uhlíku. Strana 7.",
+          "caption": "Ribóza a deoxyribóza se liší skupinou na druhém uhlíku. Strana 7.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 7
+            }
+          ],
+          "source_media": "extracted/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2/media/page-007-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "dna-struktura",
+      "title": "Od sekvence ke dvoušroubovici a chromozomu",
+      "source_refs": [
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+          "page": 3
+        },
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+          "page": 5
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 3
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 16
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 17
+        },
+        {
+          "id": "0ba39b0fb0f3fe109f0bfaee1286833233e14acd0d7a73a7b10db5ccafbcbf1e",
+          "sha256": "c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83",
+          "page": 3
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Primární struktura je pořadí nukleotidů. Sekundární strukturu DNA představuje dvoušroubovice tvořená dvěma řetězci. Cukr a fosfát tvoří vnější kostru; uvnitř se komplementární báze spojují vodíkovými můstky.",
+          "source_refs": [
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 3
+            },
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 3
+            },
+            {
+              "id": "0ba39b0fb0f3fe109f0bfaee1286833233e14acd0d7a73a7b10db5ccafbcbf1e",
+              "sha256": "c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Řetězce mají opačnou orientaci: proti konci 5′ jednoho vlákna leží konec 3′ druhého. V obrázku je konec 5′ spojen s fosfátovou částí a konec 3′ s OH skupinou cukru. Párování A–T a G–C umožňuje doplnění komplementárního vlákna.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 3
+            },
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "DNA se váže na histonové bílkoviny a vytváří nukleosomy. Další uspořádání chromatinu umožňuje sbalit dlouhou molekulu do chromozomu. Nezaměňuj molekulu DNA s celým chromozomem obsahujícím i bílkoviny.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 16
+            },
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 17
+            },
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 5
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e5ffbdf246458a96c3ddaf1ddc14007522251252f26635b98d2ff02b25fc7135.webp",
+          "alt": "Opačný směr řetězců a vodíkové můstky ve dvoušroubovici. Strana 3.",
+          "caption": "Opačný směr řetězců a vodíkové můstky ve dvoušroubovici. Strana 3.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 3
+            }
+          ],
+          "source_media": "extracted/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2/media/page-003-preview.png",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/047c98a22bbab2537de29865d6b8cba6b2049db3f5e35b910cf6fdef57503c58.webp",
+          "alt": "Nukleosom: DNA je namotaná na histonovém jádře. Strana 16.",
+          "caption": "Nukleosom: DNA je namotaná na histonovém jádře. Strana 16.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 16
+            }
+          ],
+          "source_media": "extracted/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2/media/page-016-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "replikace",
+      "title": "Replikace zachovává informaci při kopírování DNA",
+      "source_refs": [
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 21
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 23
+        },
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 1
+        },
+        {
+          "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+          "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+          "locator": "závěrečná úloha k replikaci"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Replikace je zdvojení DNA. Původní řetězce se oddělují a každý slouží jako předloha pro komplementární nové vlákno. Vzniknou dvě dvoušroubovice, z nichž každá obsahuje jeden původní a jeden nový řetězec.",
+          "source_refs": [
+            {
+              "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+              "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+              "locator": "odpověď k replikaci"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Replikační vidlička označuje oblast otevřené dvoušroubovice, kde probíhá syntéza nových řetězců. Obrázek současně ukazuje opačnou polaritu vláken a směr pohybu vidličky.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Párování bází je pravidlo pro doplnění předlohy: k A patří T, ke G patří C. Přitom vždy zkontroluj, zda zadání pracuje s DNA nebo s RNA.",
+          "source_refs": [
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 2
+            },
+            {
+              "id": "4f833ef00e36819b48f5c138a8ba5bddd24079d75723db7114e64a5f4ad12df6",
+              "sha256": "5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39",
+              "locator": "úlohy doplňování bází"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Otevři dvoušroubovici",
+          "text": "Původní vlákna se zpřístupní jako předlohy pro novou syntézu.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "title": "Doplň komplementární báze",
+          "text": "Podle původního řetězce se vytvoří odpovídající nové vlákno.",
+          "source_refs": [
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 2
+            },
+            {
+              "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+              "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+              "locator": "replikace"
+            }
+          ]
+        },
+        {
+          "title": "Rozliš obě výsledné molekuly",
+          "text": "Každá obsahuje jeden původní a jeden nově vytvořený řetězec.",
+          "source_refs": [
+            {
+              "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+              "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+              "locator": "replikace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rna-transkripce",
+      "title": "Transkripce: přepis do RNA",
+      "source_refs": [
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 2
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 24
+        },
+        {
+          "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+          "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+          "locator": "odpověď k transkripci"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Při transkripci se informace z DNA přepisuje do RNA. Školní přehled popisuje eukaryotní buňku, v níž tento děj probíhá v jádře. RNA-polymeráza vytváří RNA podle předlohy DNA; při přepisu do RNA se používá uracil.",
+          "source_refs": [
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 2
+            },
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "mRNA: přenáší informaci o pořadí aminokyselin k místu tvorby bílkoviny.",
+            "tRNA: přenáší konkrétní aminokyselinu a má antikodon.",
+            "rRNA: je součástí ribozomů."
+          ],
+          "source_refs": [
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 2
+            },
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Transkripce nevytváří novou bílkovinu. Výsledkem je RNA; překlad informace do bílkoviny následuje při translaci.",
+          "source_refs": [
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 2
+            },
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/479a69572b095ac12dbb4b40501920bbe15e29c17d3f2a82244c3a48124cec83.webp",
+          "alt": "Transkripce v obrázku: sleduj DNA předlohu a vznikající RNA. Strana 24.",
+          "caption": "Transkripce v obrázku: sleduj DNA předlohu a vznikající RNA. Strana 24.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 24
+            }
+          ],
+          "source_media": "extracted/d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2/media/page-024-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "translace",
+      "title": "Translace: jak se trojice bází promění v pořadí aminokyselin",
+      "source_refs": [
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 3
+        },
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 4
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 25
+        },
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 26
+        },
+        {
+          "id": "4f833ef00e36819b48f5c138a8ba5bddd24079d75723db7114e64a5f4ad12df6",
+          "sha256": "5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39",
+          "locator": "úlohy kodon a antikodon"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Translace probíhá na ribozomu. Trojice bází v mRNA je kodon; k němu se komplementárně váže antikodon tRNA nesoucí příslušnou aminokyselinu. Pořadí kodonů se tak převádí na pořadí aminokyselin v bílkovině.",
+          "source_refs": [
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tabulka genetického kódu se čte podle kodonů mRNA ve směru 5′→3′. První, druhá a třetí pozice se hledají v příslušných osách tabulky. Podklad rozlišuje také stop kodony; ty neurčují další aminokyselinu.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 25
+            },
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Kodon a antikodon jsou oba trojice nukleotidů, ale leží na odlišných molekulách. Kodon je na mRNA, antikodon na tRNA.",
+          "source_refs": [
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Přečti kodon mRNA",
+          "text": "Pracuj s trojicí bází mRNA, nikoli s náhodně zvoleným vláknem DNA.",
+          "source_refs": [
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "title": "Spoj kodon s antikodonem",
+          "text": "tRNA přináší aminokyselinu a její antikodon se páruje s kodonem.",
+          "source_refs": [
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "title": "Sleduj vznikající řetězec",
+          "text": "Pořadí trojic určuje pořadí aminokyselin, z nichž se vytváří bílkovina.",
+          "source_refs": [
+            {
+              "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+              "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+              "page": 3
+            },
+            {
+              "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+              "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+              "page": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dna-historie",
+      "title": "Historické milníky a práce s pracovními listy",
+      "source_refs": [
+        {
+          "id": "990ada058e2a09594e0bfc004291ce44fe12715a7bc7e1f0450c965f41bd8d53",
+          "sha256": "fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495",
+          "page": 1
+        },
+        {
+          "id": "4f833ef00e36819b48f5c138a8ba5bddd24079d75723db7114e64a5f4ad12df6",
+          "sha256": "5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39",
+          "locator": "celý pracovní list"
+        },
+        {
+          "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+          "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+          "locator": "řešení pracovního listu"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Samostatný historický list sleduje přechod od objevu nukleových kyselin k určování sekvencí a mapování genomů. Je to historický přehled; formulace o dokončení projektu lidského genomu v roce 2003 čti jako dobový milník uvedený v podkladu.",
+          "source_refs": [
+            {
+              "id": "990ada058e2a09594e0bfc004291ce44fe12715a7bc7e1f0450c965f41bd8d53",
+              "sha256": "fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pracovní list chce nejen definice, ale také rozpoznání dějů z obrázku: replikaci, transkripci a translaci. Při odpovědi vždy uveď předlohu, výsledek a místo děje v popisované eukaryotní buňce.",
+          "source_refs": [
+            {
+              "id": "4f833ef00e36819b48f5c138a8ba5bddd24079d75723db7114e64a5f4ad12df6",
+              "sha256": "5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39",
+              "locator": "úlohy k přenosu informace"
+            },
+            {
+              "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+              "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+              "locator": "řešení přenosu informace"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "label": "1869–1871: první objevy nukleových kyselin",
+          "text": "Historický přehled zde začíná zkoumáním látkové složky buněk.",
+          "source_refs": [
+            {
+              "id": "990ada058e2a09594e0bfc004291ce44fe12715a7bc7e1f0450c965f41bd8d53",
+              "sha256": "fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "label": "1944: DNA jako nositelka dědičné informace",
+          "text": "Podklad uvádí práci Oswalda Averyho a jeho spolupracovníků.",
+          "source_refs": [
+            {
+              "id": "990ada058e2a09594e0bfc004291ce44fe12715a7bc7e1f0450c965f41bd8d53",
+              "sha256": "fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "label": "1953: struktura DNA",
+          "text": "Dvoušroubovice propojuje chemickou stavbu s možností uchování a kopírování informace.",
+          "source_refs": [
+            {
+              "id": "990ada058e2a09594e0bfc004291ce44fe12715a7bc7e1f0450c965f41bd8d53",
+              "sha256": "fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495",
+              "page": 1
+            },
+            {
+              "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+              "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "label": "2003: milník projektu lidského genomu",
+          "text": "Závěr historického listu uvádí oznámení výsledků projektu HGP.",
+          "source_refs": [
+            {
+              "id": "990ada058e2a09594e0bfc004291ce44fe12715a7bc7e1f0450c965f41bd8d53",
+              "sha256": "fbe305c125617cfa5e1e0b31bd6b9186268ff4b767e54315e65e9601b1167495",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "c-nukleosid",
+      "front": "Jak se liší nukleosid a nukleotid?",
+      "back": "Nukleosid = cukr + báze. Nukleotid má navíc fosfátovou složku.",
+      "source_refs": [
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "c-baze",
+      "front": "Která báze odlišuje základní sadu DNA od RNA?",
+      "back": "DNA používá thymin, RNA uracil; A, G a C mají společné.",
+      "source_refs": [
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "c-polarita",
+      "front": "Co znamenají opačné směry vláken DNA?",
+      "back": "Proti směru 5′→3′ jednoho řetězce leží směr 3′→5′ druhého.",
+      "source_refs": [
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "c-nukleosom",
+      "front": "Co je nukleosom?",
+      "back": "Úsek DNA namotaný na histonovém jádře; je součástí uspořádání chromatinu.",
+      "source_refs": [
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "c-transkripce",
+      "front": "Jaký je výsledek transkripce?",
+      "back": "RNA vytvořená podle předlohy DNA.",
+      "source_refs": [
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "c-antikodon",
+      "front": "Kde najdeš kodon a antikodon?",
+      "back": "Kodon na mRNA, antikodon na tRNA.",
+      "source_refs": [
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 3
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-nukleotid",
+      "prompt": "Která trojice tvoří nukleotid?",
+      "options": [
+        "Pentóza, dusíkatá báze a fosfát",
+        "Aminokyselina, mastná kyselina a glycerol",
+        "Pouze tři dusíkaté báze"
+      ],
+      "answer": 0,
+      "explanation": "Nukleotid obsahuje cukr, bázi a fosfátovou složku. Samotný cukr s bází je nukleosid.",
+      "source_refs": [
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "q-rna",
+      "prompt": "Která kombinace odpovídá RNA?",
+      "options": [
+        "Deoxyribóza a báze A, G, C, T",
+        "Ribóza a pouze thymin",
+        "Ribóza a báze A, G, C, U"
+      ],
+      "answer": 2,
+      "explanation": "RNA obsahuje ribózu a uracil. DNA obsahuje deoxyribózu a thymin.",
+      "source_refs": [
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "q-doplneni",
+      "prompt": "Jaké báze tvoří komplementární řetězec DNA k A–G–T–C, zapíšeme-li jej přímo proti předloze?",
+      "options": [
+        "A–G–T–C",
+        "T–C–A–G",
+        "U–C–A–G"
+      ],
+      "answer": 1,
+      "explanation": "V DNA se páruje A s T a G s C. Uracil se používá při práci s RNA, ne jako standardní báze DNA.",
+      "source_refs": [
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "q-primarni",
+      "prompt": "Co vyjadřuje primární struktura DNA?",
+      "options": [
+        "Pořadí nukleotidů",
+        "Počet ribozomů v cytoplazmě",
+        "Počet aminokyselin v enzymu"
+      ],
+      "answer": 0,
+      "explanation": "Primární struktura je sekvence nukleotidů, v níž je uložená informace.",
+      "source_refs": [
+        {
+          "id": "b9474ec61d1b5869649c231c68b34974c0cb3050bec48172d7cdbe2e270fb95e",
+          "sha256": "cefc9cf9af1001f4247059da4348e766cfda50fc91903e72354fa4f934ae2331",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "q-replikace",
+      "prompt": "Co je typické pro výsledné molekuly po popsané replikaci?",
+      "options": [
+        "Jedna má oba staré řetězce a druhá oba nové",
+        "Vzniká pouze jedno vlákno RNA",
+        "Každá má jeden původní a jeden nový řetězec"
+      ],
+      "answer": 2,
+      "explanation": "Řešení pracovního listu popisuje zachování jednoho mateřského řetězce v každé nové dvoušroubovici.",
+      "source_refs": [
+        {
+          "id": "de84c0518f25a5b1fbf3bb8eb2f85b23cb744f1e40a5b48839b7ef24ae0b5229",
+          "sha256": "4913e4a63c677ff1536f55fdba23888632de9daa3c5c783114b8557eef81965f",
+          "locator": "replikace"
+        }
+      ]
+    },
+    {
+      "id": "q-prepis",
+      "prompt": "Jaký vztah správně popisuje transkripci?",
+      "options": [
+        "Glukóza → pyruvát",
+        "DNA → RNA",
+        "RNA → bílkovina"
+      ],
+      "answer": 1,
+      "explanation": "Transkripce je přepis informace do RNA; RNA → bílkovina označuje translaci.",
+      "source_refs": [
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "q-trna",
+      "prompt": "Jaká je úloha tRNA při translaci?",
+      "options": [
+        "Přináší aminokyselinu a má antikodon",
+        "Tvoří obal buněčného jádra",
+        "Je totožná s chromozomem"
+      ],
+      "answer": 0,
+      "explanation": "tRNA spojuje rozpoznání kodonu s přenosem příslušné aminokyseliny.",
+      "source_refs": [
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "q-kodon",
+      "prompt": "Kde se nachází kodon?",
+      "options": [
+        "Pouze na histonu",
+        "Na mastné kyselině",
+        "Na mRNA"
+      ],
+      "answer": 2,
+      "explanation": "Kodon je trojice bází mRNA. Antikodon je komplementární trojice tRNA.",
+      "source_refs": [
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "q-ribozom",
+      "prompt": "Který děj probíhá na ribozomu?",
+      "options": [
+        "Tvorba glykogenu",
+        "Translace",
+        "Replikace chromozomové DNA"
+      ],
+      "answer": 1,
+      "explanation": "Ribozom je místem překladu informace mRNA do pořadí aminokyselin.",
+      "source_refs": [
+        {
+          "id": "f5309f2f63ffe18544c83cec1b738da0a24778040057f64bcca754d7fad5c3d0",
+          "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "q-chromatin",
+      "prompt": "Co ukazuje schéma nukleosomu?",
+      "options": [
+        "DNA namotanou na histonových bílkovinách",
+        "Glykogen rozštěpený na glukózu",
+        "Dva ribozomy spojené fosfátem"
+      ],
+      "answer": 0,
+      "explanation": "Nukleosom je základní organizační jednotka chromatinu s DNA na histonovém jádře.",
+      "source_refs": [
+        {
+          "id": "6dd33d1ddeba4bbf7c40af4425a9a508b4e9950a9e9788db78c83b28b734fbd7",
+          "sha256": "d06c69f081c86e5ae9730242827ed6f68707df25d68407b6307566aa255776e2",
+          "page": 16
+        }
+      ]
+    }
+  ]
+}

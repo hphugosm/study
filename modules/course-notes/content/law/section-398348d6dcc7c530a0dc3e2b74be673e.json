@@ -1,0 +1,378 @@
+{
+  "schema": 1,
+  "subject": "law",
+  "topic": "section-398348d6dcc7c530a0dc3e2b74be673e",
+  "title": "Unit 1 - Introduction to Law",
+  "language": "en",
+  "intro": "Learn to separate legal rules, moral arguments, criminal punishment and civil remedies through the two supplied classroom case studies.",
+  "sources": [
+    {
+      "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+      "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+      "title": "The Shipwrecked Sailors.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c.docx",
+      "extraction_url": "./extracted/fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c.zip"
+    },
+    {
+      "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+      "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443",
+      "title": "1 accident 2 trials.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443.docx",
+      "extraction_url": "./extracted/e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443.zip"
+    },
+    {
+      "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+      "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+      "title": "Intro to Junior Law.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688.pdf",
+      "extraction_url": "./extracted/448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "law-and-values",
+      "title": "What makes a rule legal?",
+      "source_refs": [
+        {
+          "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+          "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+          "page": 4
+        },
+        {
+          "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+          "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The introductory slides define law as rules made and enforced by government to regulate conduct in society. Law also expresses values: a legal system is expected to protect rights, promote fairness, resolve conflict and provide order. These purposes can pull in different directions.",
+          "source_refs": [
+            {
+              "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+              "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+              "page": 4
+            },
+            {
+              "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+              "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A moral judgement asks whether conduct is right or wrong. A legal judgement asks how a legal rule applies. The slides explicitly invite examples of legal but immoral conduct and morally defensible but unlawful conduct; they do not treat the two categories as identical.",
+          "source_refs": [
+            {
+              "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+              "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "State the rule, identify the conduct, and explain the reasoning. Moral approval alone does not demonstrate legality.",
+          "source_refs": [
+            {
+              "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+              "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+              "page": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sailors",
+      "title": "The shipwreck case: facts, rule and argument",
+      "source_refs": [
+        {
+          "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+          "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+          "locator": "The Shipwrecked Sailors, factual account and questions"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In the supplied hypothetical, three survivors have no food or equipment. They draw lots after prolonged starvation; the selected sailor withdraws consent, but the other two deliberately kill him. They are later rescued and tried under a rule making deliberate killing murder. Treat this as the classroom scenario as written, rather than a verified account of a historical judgment.",
+          "source_refs": [
+            {
+              "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+              "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+              "locator": "The Shipwrecked Sailors, factual account and questions"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The prosecution can connect the deliberate killing to the stated rule. A defence argument can emphasise extreme necessity and the conditions of survival. The worksheet then asks separately about conviction, punishment, the purposes of punishment and morality. It supplies questions, not an authoritative verdict or a necessity defence.",
+          "source_refs": [
+            {
+              "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+              "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+              "locator": "The Shipwrecked Sailors, factual account and questions"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Identify the rule",
+          "text": "The scenario states a rule against deliberately taking another person’s life.",
+          "source_refs": [
+            {
+              "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+              "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+              "locator": "The Shipwrecked Sailors, factual account and questions"
+            }
+          ]
+        },
+        {
+          "title": "Identify the disputed conduct",
+          "text": "The survivors intentionally kill after the selected sailor objects.",
+          "source_refs": [
+            {
+              "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+              "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+              "locator": "The Shipwrecked Sailors, factual account and questions"
+            }
+          ]
+        },
+        {
+          "title": "Present both arguments",
+          "text": "Explain the rule-based prosecution argument and the survival-based defence argument without confusing argument with an established legal exception.",
+          "source_refs": [
+            {
+              "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+              "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+              "locator": "The Shipwrecked Sailors, factual account and questions"
+            }
+          ]
+        },
+        {
+          "title": "Separate the conclusions",
+          "text": "Consider legal responsibility, punishment and moral assessment as related but distinct questions.",
+          "source_refs": [
+            {
+              "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+              "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+              "locator": "The Shipwrecked Sailors, factual account and questions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-trials",
+      "title": "One event can lead to two legal proceedings",
+      "source_refs": [
+        {
+          "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+          "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443",
+          "locator": "One Accident – Two Trials diagram"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In the accident worksheet, the state prosecutes the driver for drunk driving. Separately, the injured driver sues for repair costs, medical bills and lost work. The first proceeding concerns a crime; the second concerns a private claim for compensation. The same event supplies facts for both.",
+          "source_refs": [
+            {
+              "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+              "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443",
+              "locator": "One Accident – Two Trials diagram"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The worksheet distinguishes guilty/not guilty in the criminal case from liable/not liable in the civil case. Its criminal branch ends in a sentence, while its civil branch ends in a remedy. The exact penalties in the story are scenario details, not universal sentencing rules.",
+          "source_refs": [
+            {
+              "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+              "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443",
+              "locator": "One Accident – Two Trials diagram"
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Criminal/public branch",
+          "Civil/private branch"
+        ],
+        "rows": [
+          {
+            "label": "Parties",
+            "values": [
+              "State prosecutes the driver",
+              "Injured driver sues the other driver"
+            ]
+          },
+          {
+            "label": "Main question",
+            "values": [
+              "Was a criminal law violated?",
+              "Is the defendant liable for the claimed harm?"
+            ]
+          },
+          {
+            "label": "Outcome in this worksheet",
+            "values": [
+              "Sentence following a guilty verdict",
+              "Money covering repairs and medical costs"
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c5b727c21ec720f5a6c9fd97ea36e55e0f1ac71aa047920903d7aa2d250546b5.webp",
+          "alt": "Diagram following the same car crash into a criminal trial and a civil trial",
+          "caption": "Trace each branch independently; shared facts do not make the two proceedings identical.",
+          "source_refs": [
+            {
+              "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+              "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443"
+            }
+          ],
+          "source_media": "extracted/e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443/media/page-001-preview.png",
+          "width": 1082,
+          "height": 1400
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Law versus morality?",
+      "back": "Law concerns government-made and enforced rules; morality concerns judgements of right and wrong. The slides explain why they overlap without being identical.",
+      "source_refs": [
+        {
+          "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+          "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Who brings the criminal case in the accident story?",
+      "back": "The state prosecutes the driver for violating the drunk-driving law.",
+      "source_refs": [
+        {
+          "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+          "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443",
+          "locator": "One Accident – Two Trials diagram"
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "What is the civil remedy in the accident story?",
+      "back": "Money to compensate the injured driver for medical bills and repairs.",
+      "source_refs": [
+        {
+          "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+          "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443",
+          "locator": "One Accident – Two Trials diagram"
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "What does the sailors worksheet actually establish?",
+      "back": "It supplies a hypothetical rule and disputed facts, then asks for arguments. It does not supply an official verdict.",
+      "source_refs": [
+        {
+          "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+          "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+          "locator": "The Shipwrecked Sailors, factual account and questions"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Which claim belongs to the civil branch of the accident story?",
+      "options": [
+        "The state seeks punishment for drunk driving",
+        "The injured driver seeks reimbursement for repairs",
+        "The legislature votes on a new offence"
+      ],
+      "answer": 1,
+      "explanation": "The private claimant asks for compensation. The state prosecution is the criminal branch.",
+      "source_refs": [
+        {
+          "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+          "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443",
+          "locator": "One Accident – Two Trials diagram"
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "Why must the sailors’ survival argument be distinguished from a legal conclusion?",
+      "options": [
+        "Any moral argument changes the written rule",
+        "The worksheet asks for arguments but supplies no authoritative decision",
+        "The worksheet states an automatic acquittal"
+      ],
+      "answer": 1,
+      "explanation": "Necessity is an argument to analyse here; the handout does not announce a legal exception or judgment.",
+      "source_refs": [
+        {
+          "id": "762939d93ead55ce1ed82f8f3e768985d11a55b1bda473ef39113b6aab5d6baf",
+          "sha256": "fb136308999c342381e1061e540c95d7900b2309a9f6bd0258f9701d0a83769c",
+          "locator": "The Shipwrecked Sailors, factual account and questions"
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "Which distinction is made by the introduction?",
+      "options": [
+        "Only criminal rules count as law",
+        "Legal and moral are always identical",
+        "An act may be legal yet judged immoral"
+      ],
+      "answer": 2,
+      "explanation": "The values slide explicitly separates legal and moral judgements.",
+      "source_refs": [
+        {
+          "id": "b3f5028f96380d4481879535d237602ab3895e0bdda7e18e76556addc9230a60",
+          "sha256": "448f99d23b987b99b96a15039efe5e314e619a01b24a36399e4cf5a4ec1bb688",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Can the same accident produce both criminal and civil proceedings in the worksheet?",
+      "options": [
+        "Yes, because punishment and compensation address different questions",
+        "No, one proceeding automatically replaces the other",
+        "Only if neither person was injured"
+      ],
+      "answer": 0,
+      "explanation": "The diagram deliberately follows one event into two distinct cases.",
+      "source_refs": [
+        {
+          "id": "7a20c0060ae1f92fee5d3af1afe66724c6fb096f4a536d8304d92819409c1e21",
+          "sha256": "e73e458811f3d1737f8fb4807d061e63ce5e55f129e5c4cf7edf731d260e4443",
+          "locator": "One Accident – Two Trials diagram"
+        }
+      ]
+    }
+  ]
+}

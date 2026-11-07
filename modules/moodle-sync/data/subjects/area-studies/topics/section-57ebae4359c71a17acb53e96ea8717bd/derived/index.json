@@ -2,5 +2,20 @@
   "schema": 1,
   "subject_id": "area-studies",
   "topic_id": "section-57ebae4359c71a17acb53e96ea8717bd",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Northeast",
+      "kind": "notes",
+      "path": "data/subjects/area-studies/topics/section-57ebae4359c71a17acb53e96ea8717bd/derived/course-notes-v1/notes.json",
+      "sha256": "d9c36183f1cdd2db65c2679ede52564a23f566292bd27ad49e19eecb0f5669ab",
+      "source_refs": [
+        {
+          "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+          "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

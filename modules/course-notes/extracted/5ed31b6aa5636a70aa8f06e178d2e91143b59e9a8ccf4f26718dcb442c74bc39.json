@@ -1,0 +1,462 @@
+{
+  "schema": 1,
+  "sha256": "5ed31b6aa5636a70aa8f06e178d2e91143b59e9a8ccf4f26718dcb442c74bc39",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Pracovní list – nukleové kyseliny"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "                   "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": "Co jsou to nukleové kyseliny? Jaké druhy rozeznáváme?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": "Co je to nukleotid a z jakých částí je složen? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 8",
+      "number": 8,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": "Vypište názvy všech bází vyskytujících se v DNA, jak se nazývá báze, kterou vidíte na obrázku?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": " "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 14",
+      "number": 14,
+      "text": "Popište primární strukturu DNA. Od jakého konce ji můžeme přečíst? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 15",
+      "number": 15,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 16",
+      "number": 16,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 17",
+      "number": 17,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 18",
+      "number": 18,
+      "text": "Popište sekundární strukturu DNA (tvar, počet řetězců, spojení)."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 19",
+      "number": 19,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 20",
+      "number": 20,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 21",
+      "number": 21,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 22",
+      "number": 22,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 23",
+      "number": 23,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 24",
+      "number": 24,
+      "text": "Co je to nukleozom, z čeho se skládá? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 25",
+      "number": 25,
+      "text": "Z čeho jsou tvořeny chromozomy? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 26",
+      "number": 26,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 27",
+      "number": 27,
+      "text": "Zapište schématem přenos genetické informace. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 28",
+      "number": 28,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 29",
+      "number": 29,
+      "text": "                          "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 30",
+      "number": 30,
+      "text": "K čemu dochází při transkripci a kde v buňce probíhá? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 31",
+      "number": 31,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 32",
+      "number": 32,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 33",
+      "number": 33,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 34",
+      "number": 34,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 35",
+      "number": 35,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 36",
+      "number": 36,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 37",
+      "number": 37,
+      "text": "Popište následující obrázek. Jak se nazývá tato fáze přenosu? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 38",
+      "number": 38,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 39",
+      "number": 39,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 40",
+      "number": 40,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 41",
+      "number": 41,
+      "text": "K čemu dochází při translaci a kde v buňce probíhá?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 42",
+      "number": 42,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 43",
+      "number": 43,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 44",
+      "number": 44,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 45",
+      "number": 45,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 46",
+      "number": 46,
+      "text": "Vysvětlete pojmy kodon, antikodon a triplet."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 47",
+      "number": 47,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 48",
+      "number": 48,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 49",
+      "number": 49,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 50",
+      "number": 50,
+      "text": "Jaké báze se párují na obrázku?"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 51",
+      "number": 51,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 52",
+      "number": 52,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 53",
+      "number": 53,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 54",
+      "number": 54,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 55",
+      "number": 55,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 56",
+      "number": 56,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 57",
+      "number": 57,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 58",
+      "number": 58,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 59",
+      "number": 59,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 60",
+      "number": 60,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 61",
+      "number": 61,
+      "text": " Doplňte báze do nově vznikajícího vlákna DNA. 2b."
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 62",
+      "number": 62,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 63",
+      "number": 63,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 64",
+      "number": 64,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 65",
+      "number": 65,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 66",
+      "number": 66,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 67",
+      "number": 67,
+      "text": "Popište následující obrázek. 2) Doplňte báze 3) Jak se nazývá tato fáze přenosu? "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 68",
+      "number": 68,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 69",
+      "number": 69,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 70",
+      "number": 70,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 71",
+      "number": 71,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 72",
+      "number": 72,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 73",
+      "number": 73,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 74",
+      "number": 74,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Pracovní list – nukleové kyseliny\n  \n1. Co jsou to nukleové kyseliny? Jaké druhy rozeznáváme?\n2. Co je to nukleotid a z jakých částí je složen? \n3. Vypište názvy všech bází vyskytujících se v DNA, jak se nazývá báze, kterou vidíte \nna obrázku?\n \n4. Popište primární strukturu DNA. Od jakého konce ji můžeme přečíst? \n5. Popište sekundární strukturu DNA (tvar, počet řetězců, spojení).\n6. Co je to nukleozom, z čeho se skládá? \n7. Z čeho jsou tvořeny chromozomy? \n8. Zapište schématem přenos genetické informace. \n  \n9. K čemu dochází při transkripci a kde v buňce probíhá? \n10. Popište následující obrázek. Jak se nazývá tato fáze přenosu? \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "11. K čemu dochází při translaci a kde v buňce probíhá?\n12. Vysvětlete pojmy kodon, antikodon a triplet.\n13. Jaké báze se párují na obrázku?\n14.  Doplňte báze do nově vznikajícího vlákna DNA. 2b.\n15. Popište následující obrázek. 2) Doplňte báze 3) Jak se nazývá tato fáze přenosu? \n"
+    }
+  ]
+}

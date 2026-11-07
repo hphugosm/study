@@ -5,10 +5,10 @@ const path = require('node:path');
 
 const expected = ['trig-functions', 'trig-equations'];
 
-test('Mathematics registers precisely two interactive categories and keeps its existing test destination', async () => {
+test('Mathematics preserves its two original interactive categories and existing test destination', async () => {
   const { units, events, getUnit, moduleLoaders } = await import('../src/data.js');
   const mathematics = units.filter(unit => unit.subjectId === 'mathematics');
-  const categories = mathematics.filter(unit => unit.module);
+  const categories = mathematics.filter(unit => unit.module && unit.origin !== 'moodle');
   assert.deepEqual(categories.map(unit => unit.id).sort(), [...expected].sort());
   assert.equal(categories.find(unit => unit.id === 'trig-functions').title, 'Trigonometrie a goniometrické funkce');
   assert.equal(categories.find(unit => unit.id === 'trig-equations').title, 'Goniometrické vzorce, rovnice a nerovnice');

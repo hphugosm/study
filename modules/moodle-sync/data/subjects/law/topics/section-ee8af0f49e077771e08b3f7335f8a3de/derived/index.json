@@ -2,5 +2,36 @@
   "schema": 1,
   "subject_id": "law",
   "topic_id": "section-ee8af0f49e077771e08b3f7335f8a3de",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Unit 1.1 - The Rule of Law/Public and Private Law",
+      "kind": "notes",
+      "path": "data/subjects/law/topics/section-ee8af0f49e077771e08b3f7335f8a3de/derived/course-notes-v1/notes.json",
+      "sha256": "449d4cfa2e84e87ad9157b9d04a9e57a7172d26f65eb4190a81b3da86eaacff4",
+      "source_refs": [
+        {
+          "id": "17f4ff05c5cd1dfe6dfbb59f8581c8be836f747ec7882ed197aca35f74a34402",
+          "sha256": "01f689cc4a253909e0706ca73ca97ac47ddf699572f9516106ba08d9fb71ae26"
+        },
+        {
+          "id": "7cc458b8d0abbda7de995bd8ac03f59e8161320ab88f5f35a54e11c860b91798",
+          "sha256": "cdc6dac19e9cfb9178a0868d2e7b0fca7d3eec1878626cf8a7fec8c67886f2e8"
+        },
+        {
+          "id": "832357bdb0425dcdf43d14b70cf05950b3dc763f7b5d2cec1b17659990787300",
+          "sha256": "3c67cab79f25f4ac4766d9413240e88e77195a9bfcb6e30d97d31dc5adc611fb"
+        },
+        {
+          "id": "bb9547a36aab772cb52b7ee50ea56f62ef53c0df1d31bf853f6b7be439c4eeac",
+          "sha256": "94effb19a74eadbc9044182d2f4f60c24710b859ee98edb7a22aff664afac8a4"
+        },
+        {
+          "id": "e3a361f55771a9eb85c9673dc8213c7b8c85e6600bdd28e1f1ef3e576aaa3208",
+          "sha256": "5c7d40a0f807c0c8f244125b6cb0857ff044b78249d6beaeb3a5613afd288055"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

@@ -2,5 +2,36 @@
   "schema": 1,
   "subject_id": "informatics",
   "topic_id": "section-588cd5ee5179c25883c65e0170e6009f",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Kódování informace a komprese",
+      "kind": "notes",
+      "path": "data/subjects/informatics/topics/section-588cd5ee5179c25883c65e0170e6009f/derived/course-notes-v1/notes.json",
+      "sha256": "ea0c379579de74c19aad68b3dfc3a58f2c25ba40088ba7ec8f99f8080443ea99",
+      "source_refs": [
+        {
+          "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
+          "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a"
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881"
+        },
+        {
+          "id": "74ed2d82e5e13350476b05eec445a7f383773ee1b012a0f49bd4b1f312241c7e",
+          "sha256": "eb72c53bad5077494157c314f9d65595d6afd48e65df16b29ca1508da9fcad06"
+        },
+        {
+          "id": "9d7a47ee620dc9a4ef38339d0c881ae98df4d9f89b4921d27b0f4ef72f097fe1",
+          "sha256": "08b10f005be54e911dd360483f142a2ed4e5ab32ec822af9f30a1096bfb85e9d"
+        },
+        {
+          "id": "f1bd5d0acef7e1d5e7d0bc75fdbec8a0e6f24cf34c9f4a9ddac6a53214a81715",
+          "sha256": "053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

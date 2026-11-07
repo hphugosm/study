@@ -1,0 +1,907 @@
+{
+  "schema": 1,
+  "subject": "geography",
+  "topic": "section-730ba0baf632efb68e5a3dd83f571103",
+  "title": "Afrika",
+  "language": "cs",
+  "intro": "Afriku studuj jako propojení přírodních podmínek, osídlení a hospodářství. Pět přiložených materiálů se doplňuje: seznam názvů pro mapu, doplňovací přehled přírody, biomy, obyvatelstvo a ekonomika. Číselné údaje ve slajdech jsou údaji konkrétního podkladu, nikoli průběžně ověřovanou statistikou.",
+  "sources": [
+    {
+      "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+      "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+      "title": "Afrika_pojmy do slepé mapy.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4.docx",
+      "extraction_url": "./extracted/f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4.zip"
+    },
+    {
+      "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+      "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+      "title": "Afrika_hospodářství.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1.pdf",
+      "extraction_url": "./extracted/bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1.zip"
+    },
+    {
+      "id": "6e7933f609b37a0551662f29b8afdaf24ebbee35d13d67eac61a82fc5a088811",
+      "sha256": "20ebbd167587cf35eeeb99a30a1b372dcae5cb0bbb493abfcb576c609539b4b5",
+      "title": "Afrika - přírodní podmínky_verze žáci.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/20ebbd167587cf35eeeb99a30a1b372dcae5cb0bbb493abfcb576c609539b4b5.pdf",
+      "extraction_url": "./extracted/20ebbd167587cf35eeeb99a30a1b372dcae5cb0bbb493abfcb576c609539b4b5.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/20ebbd167587cf35eeeb99a30a1b372dcae5cb0bbb493abfcb576c609539b4b5.zip"
+    },
+    {
+      "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+      "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+      "title": "Afrika_obyvatelstvo.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060.pdf",
+      "extraction_url": "./extracted/c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060.zip"
+    },
+    {
+      "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+      "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+      "title": "Afrika - biomy.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1.pdf",
+      "extraction_url": "./extracted/b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "map-order",
+      "title": "Mapa jako kostra souvislostí",
+      "source_refs": [
+        {
+          "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+          "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+          "locator": "odstavec 5"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nejdříve rozliš moře a oceány, které pevninu obklopují, od útvarů uvnitř kontinentu. Seznam uvádí Atlantský a Indický oceán, Rudé a Středozemní moře; zvlášť řadí zálivy, průlivy a Suezský průplav. Tato kategorizace pomáhá předejít záměně přírodního průlivu a průplavu.",
+          "source_refs": [
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 5"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Povrch: Atlas, Dračí hory, Etiopská a Východoafrická vysočina.",
+            "Pánve a pouště: Čadská a Konžská pánev; Sahara, Namib a Kalahari.",
+            "Vodstvo: Nil, Kongo, Niger, Zambezi, Orange; samostatně jezera a přehradní nádrže."
+          ],
+          "source_refs": [
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 10"
+            },
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 11"
+            },
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 12"
+            },
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 13"
+            },
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 14"
+            },
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 15"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Přírodopisný přehled spojuje velkou část východoafrických jezer s příkopovou propadlinou a tektonickým původem. Nestačí tedy znát jen název jezera: sleduj i spojení s reliéfem.",
+          "source_refs": [
+            {
+              "id": "6e7933f609b37a0551662f29b8afdaf24ebbee35d13d67eac61a82fc5a088811",
+              "sha256": "20ebbd167587cf35eeeb99a30a1b372dcae5cb0bbb493abfcb576c609539b4b5",
+              "page": 11
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Obrys a oceány",
+          "text": "Najdi pevninu mezi Atlantským a Indickým oceánem.",
+          "source_refs": [
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 5"
+            }
+          ]
+        },
+        {
+          "title": "Povrch",
+          "text": "Rozliš pohoří, pánve a pouště.",
+          "source_refs": [
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 10"
+            }
+          ]
+        },
+        {
+          "title": "Vodstvo",
+          "text": "Ke každé řece přiřaď samostatnou říční značku; nezaměň ji s jezerem nebo nádrží.",
+          "source_refs": [
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 13"
+            }
+          ]
+        },
+        {
+          "title": "Opakování kategorií",
+          "text": "Viktoriino, Tanganika a Malawi patří do seznamu jezer; Volta, Asuánská a Kariba do seznamu nádrží.",
+          "source_refs": [
+            {
+              "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+              "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+              "locator": "odstavec 14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "climate-biomes",
+      "title": "Od podnebí k vegetaci",
+      "source_refs": [
+        {
+          "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+          "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rozmístění biomů podklad vysvětluje zeměpisnou šířkou, nadmořskou výškou, vlivem oceánu, oceánskými proudy a cirkulací atmosféry. Podnebná mapa a mapa vegetace se proto čtou společně: srážky a teplotní podmínky pomáhají vysvětlit typ krajiny.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vlhké tropy jsou v podkladu spojeny s deštnými lesy v okolí Konga. Střídavě vlhké tropy se savanami a suché tropy s pouštěmi. U Sahary materiál zdůrazňuje pasáty; u Namibu a Kalahari vliv studených proudů.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "V horách přistupuje výškový rozdíl: zdroj uvádí pokles teploty s rostoucí nadmořskou výškou. Dvě místa na podobné zeměpisné šířce proto nemusí mít stejnou vegetaci.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/343273098eb4a0cf64bdb07abf601d49e1af008df4a8abfc524812d5521843ba.webp",
+          "alt": "Dvě mapy Afriky porovnávající podnebí a rozmístění biomů",
+          "caption": "Porovnej legendy: kde se shodují vlhké tropy a lesy, kde suché tropy a pouště?",
+          "source_refs": [
+            {
+              "id": "6e7933f609b37a0551662f29b8afdaf24ebbee35d13d67eac61a82fc5a088811",
+              "sha256": "20ebbd167587cf35eeeb99a30a1b372dcae5cb0bbb493abfcb576c609539b4b5",
+              "page": 16
+            }
+          ],
+          "source_media": "extracted/20ebbd167587cf35eeeb99a30a1b372dcae5cb0bbb493abfcb576c609539b4b5/media/page-016-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Suché tropy",
+          "Střídavě vlhké tropy",
+          "Vlhké tropy"
+        ],
+        "rows": [
+          {
+            "label": "Typická krajina ve zdroji",
+            "values": [
+              "Pouště a polopouště",
+              "Savany",
+              "Tropické deštné lesy"
+            ]
+          },
+          {
+            "label": "Dostupnost srážek",
+            "values": [
+              "Malé množství srážek",
+              "Střídání dešťů a sucha",
+              "Bohaté srážky"
+            ]
+          },
+          {
+            "label": "Příklad",
+            "values": [
+              "Sahara, Namib, Kalahari",
+              "Keňa a Tanzanie",
+              "Konžská pánev"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "biome-processes",
+      "title": "Jak poznat biom a jeho problém",
+      "source_refs": [
+        {
+          "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+          "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+          "page": 5
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pouště a polopouště podklad charakterizuje malými srážkami a velkými rozdíly mezi denní a noční teplotou. Oáza je místo s vodou, vegetací a osídlením; vádí je občasný vodní tok. Nejsou to dvě označení téhož.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 5
+            },
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Savany spojují traviny, akácie a baobaby se střídáním období sucha a dešťů. Deštné lesy Konžské pánve mají naopak vysoké srážky, liány a dřeviny jako mahagon či eben. Při poznávání krajiny používej soubor znaků, nikoli jen jedno zvíře na fotografii.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 7
+            },
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Subtropické lesy a křoviny podklad umísťuje do Středomoří. Uvádí například korkový dub, vavřín a pinii; letní sucho spojuje s požáry.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Odlesňování deštných lesů je jiný proces než rozšiřování pouští. V obou případech se mění prostředí, ale při odpovědi pojmenuj konkrétní zásah: kácení a vypalování lesa, nebo ztrátu půdy a vegetace v suchých oblastech.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/54070a60759245b1fdebd5dd01dc03846aca0c47dd5ce233d34629dd22e0149a.webp",
+          "alt": "Savany: sezónnost srážek, vegetace a mapa požárů",
+          "caption": "Příklad propojení podnebí, vegetace a rizika požárů, strana 7.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 7
+            }
+          ],
+          "source_media": "extracted/b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1/media/page-007-preview.png",
+          "width": 1400,
+          "height": 788
+        }
+      ]
+    },
+    {
+      "id": "settlement",
+      "title": "Kde žijí lidé a proč se stěhují",
+      "source_refs": [
+        {
+          "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+          "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+          "page": 5
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Obyvatelstvo není rozloženo rovnoměrně. Podklad spojuje hustší osídlení s pobřežím a okolím velkých řek, zatímco pouště a vysoká pohoří popisuje jako málo osídlené. Přírodní podmínky tak pomáhají vysvětlit sídelní mapu.",
+          "source_refs": [
+            {
+              "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+              "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Urbanizaci materiál spojuje s cestou do měst za prací a výdělkem. Zároveň popisuje nedostatek odpovídajících pracovních příležitostí a vznik chudinských čtvrtí, například Kibery v Nairobi. Rozliš motiv stěhování a skutečný výsledek: očekávání zaměstnání samo o sobě práci nezaručuje.",
+          "source_refs": [
+            {
+              "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+              "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jazyková mapa nese stopy kolonialismu: angličtina a francouzština jsou úředními jazyky v řadě států. Podklad dále uvádí arabštinu zejména na severu a svahilštinu jako dorozumívací jazyk východní Afriky.",
+          "source_refs": [
+            {
+              "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+              "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Některá široká statistická a zdravotní tvrzení v podkladu nemají uvedený časový rámec ani zdroj. Tyto poznámky z nich nedělají ověřené současné údaje ani otázky na zapamatování.",
+          "source_refs": [
+            {
+              "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+              "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+              "page": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "title": "Samozásobitelství a plantáže",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 5
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Samozásobitelské zemědělství slouží především vlastní spotřebě. Plantážní způsob podklad popisuje jako intenzivní pěstování jedné plodiny na rozsáhlých plochách. Jde o rozdíl účelu a organizace výroby, nikoli jen o jiný seznam plodin.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ve střední Africe materiál uvádí maniok, jam, čirok, taro a batáty v samozásobitelské produkci. S plantážemi spojuje kakao, kávu, ananas, banány, palmu olejnou a kaučukovník. Na severu zase zmiňuje obilniny a středomořské plodiny včetně oliv a révy.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 4
+            },
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "U pastevectví na savanách zdroj sleduje řetězec následků nadměrného spásání: nedostatek potravy, eroze půdy a desertifikace. Popis problému musí zahrnout intenzitu zatížení, nikoli automaticky prohlásit každé pastevectví za škodlivé.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Samozásobitelská výroba",
+          "Plantážní výroba"
+        ],
+        "rows": [
+          {
+            "label": "Hlavní charakteristika podle podkladu",
+            "values": [
+              "Produkce pro vlastní spotřebu",
+              "Intenzivní pěstování jedné plodiny na velkých plochách"
+            ]
+          },
+          {
+            "label": "Příklady pro střední Afriku",
+            "values": [
+              "Maniok, jam, čirok",
+              "Kakao, káva, palma olejná"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "resources-transport",
+      "title": "Suroviny, zpracování a doprava",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 11
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tabulka surovin propojuje ropu a zemní plyn například s Alžírskem, Libyí, Nigérií či Angolou; měď a kobalt se Zambií a DR Kongo. Zdroj zdůrazňuje exportní orientaci těžby. Nerostné bohatství a životní úroveň však nejsou totožná informace.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Průmysl podklad soustřeďuje především k pobřeží a hlavním městům a jako překážky uvádí infrastrukturu a kapitál. Doprava tedy není dodatečný detail: propojuje naleziště, zpracování, města a přístavy.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Přehled dopravy popisuje silnice jako hlavní prostředek osobní i nákladní přepravy, železniční tratě často jako spojení vnitrozemí s přístavy a lodní dopravu jako zásadní pro zahraniční obchod. Důležité jsou rozdíly mezi regiony a uzly; nejde o jednotnou úroveň celého kontinentu.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Služby ilustruje turismus v severní Africe a národních parcích. Další strana přidává příklady mobilních plateb, telemedicíny a univerzitního výzkumu. Hospodářský přehled proto nemá skončit jen u surovin a zemědělství.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 18
+            },
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 19
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Těžba",
+          "text": "Najdi surovinu a konkrétní stát v tabulce.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "title": "Zpracování",
+          "text": "Rozliš samotnou těžbu od průmyslového zpracování.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "title": "Přeprava",
+          "text": "Sleduj propojení vnitrozemí a přístavu.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "title": "Obchod",
+          "text": "Přístavy jako Alexandria, Casablanca a Kapské město slouží exportu.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment-links",
+      "title": "Změna krajiny má i společenské důsledky",
+      "source_refs": [
+        {
+          "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+          "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+          "page": 13
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Desertifikaci zdroj propojuje s klimatickými změnami, nadměrným spásáním a odlesňováním. Mezi důsledky řadí nedostatek potravin, chudobu a migraci. Vysvětlení proto může postupovat od změny půdy přes obživu až k pohybu obyvatel.",
+          "source_refs": [
+            {
+              "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+              "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Těžba vzácného dřeva se v hospodářském materiálu váže na tropické lesy při Guinejském zálivu. Srovnej ji s biomech uvedenou deforestací: stejná oblast je zároveň přírodním prostředím i zdrojem hospodářských surovin.",
+          "source_refs": [
+            {
+              "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+              "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Při ochraně přírody rozlišuj názvy parků, ohrožené druhy a místní endemity. Údaje o pořadí parků a jejich založení v přiložených slajdech nejsou základem tohoto kvízu.",
+          "source_refs": [
+            {
+              "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+              "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+              "page": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "oasis",
+      "front": "Jaký je rozdíl mezi oázou a vádím?",
+      "back": "Oáza má vodu, vegetaci a osídlení; vádí je občasný vodní tok v suché oblasti.",
+      "source_refs": [
+        {
+          "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+          "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "biomes",
+      "front": "Které tři typy tropického prostředí zdroj rozlišuje?",
+      "back": "Vlhké tropy s deštnými lesy, střídavě vlhké tropy se savanami a suché tropy s pouštěmi.",
+      "source_refs": [
+        {
+          "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+          "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "savanna",
+      "front": "Jaká sezónnost charakterizuje savanu?",
+      "back": "Střídání období dešťů a období sucha.",
+      "source_refs": [
+        {
+          "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+          "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "card-settlement",
+      "front": "Která místa zdroj spojuje s hustším osídlením?",
+      "back": "Pobřeží a okolí velkých řek.",
+      "source_refs": [
+        {
+          "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+          "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "front": "Co znamená samozásobitelství?",
+      "back": "Pěstování především pro vlastní spotřebu.",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "plantation",
+      "front": "Jaké plantážní plodiny uvádí zdroj ve střední Africe?",
+      "back": "Například kakao, kávu, banány, palmu olejnou a kaučukovník.",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "copper",
+      "front": "Se kterými státy spojuje tabulka měď a kobalt?",
+      "back": "Se Zambií a DR Kongo.",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "erosion",
+      "front": "Jaký řetězec spojuje podklad s nadměrným spásáním?",
+      "back": "Nedostatek potravy, eroze půdy a desertifikace.",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "front": "Jakou funkci přisuzuje zdroj svahilštině?",
+      "back": "Dorozumívací jazyk, lingua franca, ve východní Africe.",
+      "source_refs": [
+        {
+          "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+          "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "maps",
+      "front": "Jsou Volta, Asuánská a Kariba v seznamu jezera, nebo nádrže?",
+      "back": "Přehradní nádrže.",
+      "source_refs": [
+        {
+          "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+          "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+          "locator": "odstavec 15"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-savanna",
+      "prompt": "Které podmínky nejlépe odpovídají savaně podle zdroje?",
+      "options": [
+        "Trvalý mráz a mech",
+        "Střídání období dešťů a sucha, traviny a akácie",
+        "Celoroční srážky bez sezónnosti a souvislý prales"
+      ],
+      "answer": 1,
+      "explanation": "Savany zdroj spojuje se sezónností srážek a travinami s rozptýlenými stromy.",
+      "source_refs": [
+        {
+          "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+          "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "wadi",
+      "prompt": "Co je vádí?",
+      "options": [
+        "Občasný vodní tok v suché oblasti",
+        "Trvale zatopená nádrž",
+        "Horské pásmo v jižní Africe"
+      ],
+      "answer": 0,
+      "explanation": "Vádí není oáza ani nádrž; jde o epizodický tok.",
+      "source_refs": [
+        {
+          "id": "a0b1bc6e2ea39d049e414ff34e5756630ad2e5db3d0a93c2f621fe4bdbaec1d2",
+          "sha256": "b7d654d34596d08bcd4a8b1243b5f71694b2f3c63883de6677c063bbc4dbd3b1",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "prompt": "Která trojice patří v seznamu do přehradních nádrží?",
+      "options": [
+        "Nil, Kongo, Niger",
+        "Atlas, Namib, Sahara",
+        "Volta, Asuánská, Kariba"
+      ],
+      "answer": 2,
+      "explanation": "Seznam je odlišuje od řek, jezer i pohoří.",
+      "source_refs": [
+        {
+          "id": "2849ebd85f49c3687af735a9ecbddd2a020e6c73fa627e17d9fee111b1570155",
+          "sha256": "f3580eb4904c66e0398b5190b463a595719477f2999b823e0a7e18e9c10918b4",
+          "locator": "odstavec 15"
+        }
+      ]
+    },
+    {
+      "id": "population",
+      "prompt": "Jakou souvislost zdroj uvádí u rozmístění obyvatel?",
+      "options": [
+        "Pouště a pobřeží mají vždy stejnou hustotu.",
+        "Pobřeží a okolí velkých řek bývají hustěji osídlené.",
+        "Přírodní podmínky nehrají žádnou roli."
+      ],
+      "answer": 1,
+      "explanation": "Text výslovně spojuje nerovnoměrnost osídlení s přírodními podmínkami.",
+      "source_refs": [
+        {
+          "id": "9edee2ee20d3756845a5608b30a414f14f32a569ee3b11fd317bcd1b8e0e6690",
+          "sha256": "c9f1c120ab82270dbc4e331d4b729e004b7c31825e01515c3077af5755a71060",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "quiz-subsistence",
+      "prompt": "Který popis odpovídá samozásobitelství?",
+      "options": [
+        "Produkce především pro vlastní spotřebu",
+        "Výhradně těžba mědi",
+        "Intenzivní pěstování jediné plodiny na velkém lánu"
+      ],
+      "answer": 0,
+      "explanation": "Třetí možnost odpovídá plantážnímu způsobu popsanému ve zdroji.",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "ore",
+      "prompt": "Se kterými státy tabulka spojuje měď a kobalt?",
+      "options": [
+        "Maroko a Tunisko",
+        "Zambie a DR Kongo",
+        "Egypt a Libye"
+      ],
+      "answer": 1,
+      "explanation": "Měď a kobalt jsou v této tabulce uvedeny u Zambie a DR Kongo.",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "pasture",
+      "prompt": "Co může podle podkladu následovat po nadměrném spásání savan?",
+      "options": [
+        "Automatický růst lesní plochy",
+        "Zánik veškeré eroze",
+        "Eroze půdy a desertifikace"
+      ],
+      "answer": 2,
+      "explanation": "Zdroj popisuje ztrátu potravy a poškozování půdy; podstatné je nadměrné zatížení.",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "prompt": "Které dvě překážky rozvoje průmyslu uvádí zdroj?",
+      "options": [
+        "Nedostatečnou infrastrukturu a chybějící kapitál",
+        "Příliš mnoho přístavů a vodních toků",
+        "Úplnou absenci všech nerostných surovin"
+      ],
+      "answer": 0,
+      "explanation": "Podklad odlišuje bohatství surovin od podmínek potřebných pro průmyslové zpracování.",
+      "source_refs": [
+        {
+          "id": "2a7d675e44aa7437e452438ea40d4ef25ce4bbe1dc3627aa1bef2cead9a28599",
+          "sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
+          "page": 16
+        }
+      ]
+    }
+  ]
+}

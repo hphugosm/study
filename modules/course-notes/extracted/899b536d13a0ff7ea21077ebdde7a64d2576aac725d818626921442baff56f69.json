@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "sha256": "899b536d13a0ff7ea21077ebdde7a64d2576aac725d818626921442baff56f69",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Organická chemie\n\nLéčiva, pesticidy, detergenty\n",
+      "text": "Organická chemie\nLéčiva, pesticidy, detergenty"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Léčiva\n• látky užívané k prevenci, diagnostice a léčení chorob a k ovlivňování \nfyziologických funkcí\n• léčivé látky se mohou izolovat z rostlin, nebo jsou vyráběny synteticky\n• léčivý přípravek – účinná látka zlepšující stav = léčivá látka + pomocné \nlátky, upraveno do lékové formy (tablety, injekce, masti, čípky…)\n• lék  = léčivá látka a léčivý přípravek upravený do definitivní podoby, ve \nkteré se podávají pacientovi"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "*\n\nléčivá látka léčivý přípravek lék - Aspirin\nkyselina léčivá látka +\nacetylsalicylová pomocné látky,\n\nv lékové formě\n(zde tablety)\n",
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Dělení léčiv\n• dělení dle výroby (přírodní a syntetická)\n• dělení dle funkce\no profylaktika – slouží k prevenci před onemocněním (zamezující nákaze)\no terapeutika – jsou vlastní léčebné prostředky\no diagnostika – slouží k určení diagnózy\n• dělení dle druhu\no Anestetika\no Analgetika\no hypnotika a sedativa\no Psychofarmaka\no Chemoterapeutika\no Cytostatika\no Antihistaminika\no Anabolika\no antikoncepce"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "Analgetika\nLátky na zmírnění bolesti, často mají antipyretické \na protizánětlivé účinky\nPříklady:\n• kyselina acetylsalicylová – acylpyrin, aspirin, anopyrin\n• Paracetamol – paralen, panadol\n• Ibuprofen – Ibagin Brufen, Dolgit\n• morfium – k tišení silné bolesti\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": "Anestetika\nJsou znecitlivující látky\n1. Celková –dočasně tlumí činnost CNS\nPříklady:\nDiethylether CH3 – CH2 – O – CH2 – CH3\nChloroform CHCl3, Rajský plyn N2O\nHalotan CF3-CHClBr\nIzofuran CF3-CHCl-O-CHF2\n2.    Lokální – znecitlivění v místě\n• Příklady: chlorethan (Kelen)  - lokální znecitlivění poraněných tkání\n• Prokain (aminoester kyseliny p-aminobenzoové)\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "Hypnotika  a sedativa\nUklidňují, navozují až spánek, tlumí činnost CNS\nPříklady:\n• Dříve barbituráty – odvozené od kyseliny barbiturové\n• Benzodiazepiny \n– Rohypnol, Rivotril, Neurol, Diazepam, Stilnox\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 8",
+      "number": 8,
+      "text": "Chemoterapeutika\nlátky, které jsou toxické vůči zdroji infekce – bakteriím,virům, plísním.. \n• Arsphenamine – lék Salvarsan – léčba syfilitidy\n• sulfonamidy – podobné účinky jako antibiotika\n• Nitrofurany – k léčbě močových infekcí\n• antibiotika – zabíjí, nebo brání množení bakterií\n• penicilin – brání budování stěny bakterie\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 9",
+      "number": 9,
+      "text": "Cytostatika\nLéčiva brzdící nádorové bujení\nMnoho látek rozdílného chemického složení i účinku\nPříklady: \n• 5-fluorouracil – odvozen od pyrimidinu\n• Azacytidin\n• Methotrexát\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 10",
+      "number": 10,
+      "text": "Antihistaminika\nSnižují, až potlačují uvolňování histaminu \n– histamin  je biogenní amin, vzniká dekarboxylací histidinu (AMK)\nPříklady:\n• Dimetinden – lék Fenistil\n• Cetirizin dihydrochlorid – lék Zyrtec\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Pesticidy\n",
+      "text": "Pesticidy"
+    },
+    {
+      "kind": "page",
+      "label": "page 12",
+      "number": 12,
+      "text": "Pesticidy\nJsou prostředky pro hubení přírodních a živočišných škůdců\nInsekticidy – prostředky k hubení hmyzu\n• DDT\n• organofosfáty – estery kyseliny fosforečné (H3PO4) \n• Karbamáty (organické sloučeninyodvozené od kyseliny karbamové (NH2COOH)\n• chlororganické sloučeniny\n• syntetické pyretroidy – allethrin ( např. Raid)\n• fenoly\n• Aniliny\n• sloučeniny arsenu\n• sloučeniny na bázi nikotinamidu\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 13",
+      "number": 13,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Detergenty\n",
+      "text": "Detergenty"
+    },
+    {
+      "kind": "page",
+      "label": "page 14",
+      "number": 14,
+      "text": "Detergenty\n• chemické látky, které snižují povrchové napětí vody, tím usnadňují \nsmáčení povrchů různých materiálů. Dochází k rozptýlení nečistot a \njejich snadnějšímu odstranění z povrchu materiálu.\n• mající prací a čistící účinky\n• součástí detergentů bývají tenzidy –látky odlučující mastnotu\n• jejich čistící účinek spočívá v tom, že hydrofobní část jeho molekuly \npřilne k částečce nečistoty, kdežto hydrofilní část vtahuje částečku \nnečistoty do vodního prostředí\n• Tenzidy jsou buď přírodní – deriváty z kokosového  nebo palmového \noleje, nebo syntetické. \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 15",
+      "number": 15,
+      "text": "Mýdla\n• nejdéle známé tenzidy \n• Jsou sodné nebo draselné soli mastných kyselin\n• sodná mýdla jsou tuhá,  draselná jsou mazlavá\n• vznikají zásaditou hydrolýzou tuků nebo olejů (tuky jsou chemicky \ntriacylglyceroly)\n• mýdla mají odmašťovací účinky\n• V tvrdé vodě se snižují účinky mýdla, protože obsahuje vápenaté a \nhořečnaté soli "
+    },
+    {
+      "kind": "page",
+      "label": "page 16",
+      "number": 16,
+      "text": "Zmýdelňování\n• Mýdlo se vyrábí procesem zvaným zmýdelňování z přírodních nebo \nchemicky upravených tuků působením NaOH nebo KOH.\n• Suroviny se vaří, po skončení procesu se přidá NaCl a vyloučí \nse jádrové mýdlo. To se zchladí, suší a změklé tvaruje.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 17",
+      "number": 17,
+      "text": "Syntetické tenzidy\n• prací prostředky, prášky na mytí nádobí, šampony, sprchové gely\n• nejrozšířenější obsahují soli sulfonových kyselin\n• V kosmetice se nejčastěji používá: Sodium Lauryl Sulfate (SLS) a Sodium\nLaureth Sulfate (SLES). V obou případech jde o povrchově aktivní látky, \nkteré zbavují pokožku mastnoty. \n• sulfáty/sírany (zlepšují rozpustnost ve vodě a uchovávají prášek v sypké \nformě)\n• fosforečnany (sloužící ke změkčování vody)\n• Způsobují eutrofizace vod – znečištění vody čistícími prostředky a jejich \nsložkami (hlavně fosfáty)\n• opticky rozjasňující látky (absorbují část UV paprsků, za vzniku optického \ndojmu, že osvětlený barevný předmět je jasnější)"
+    },
+    {
+      "kind": "page",
+      "label": "page 18",
+      "number": 18,
+      "text": "Sodium Laureth Sulfate\nneboli  Laurylethersulfátsodný\nje tenzid používaný v mnoha výrobcích (mýdlech, šamponech, zubních \npastách apod.) Je to levné a velmi účinné pěnidlo.\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 19",
+      "number": 19,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Děkuji za pozornost\n",
+      "text": "Děkuji za pozornost"
+    }
+  ]
+}

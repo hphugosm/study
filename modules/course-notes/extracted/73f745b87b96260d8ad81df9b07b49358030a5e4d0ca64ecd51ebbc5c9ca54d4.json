@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "sha256": "73f745b87b96260d8ad81df9b07b49358030a5e4d0ca64ecd51ebbc5c9ca54d4",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Historický vývoj práva\n\nOd starověkých zvyků po dnešní právní řád\n",
+      "text": "Historický vývoj práva\nOd starověkých zvyků po dnešní právní řád"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "Mezopotámie\nNejstarší doložené kodiﬁkované právo pochází z období \n3. tisíciletí před naším letopočtem.\n● Hliněné destičky (úlomky z města Lagaš)\n● Ur-Nammuovy zákony \nChampurapiho zákoník (1792-1750 př. n. l.)\n● Princip vendety (oko za oko, zub za zub)\n● Nerovnost dle společenského postavení\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "Starý zákon\nT voří základ křesťansko-židovské tradice (knihy proroka Mojžíše - 1393-1273 př.n.l.)\n● Kulturní základ Evropy v oblasti etiky, mezilidských vztahů, morálky a víry.\n6. Nezesmilníš\n7. Nepokradeš\n8. Nepromluvíš křivého svědectví\n9. Nepožádáš manželky bližního svého \n10. Nepožádáš statku bližního svého\n1. V jednoho Boha věřit budeš\n2. Nevezmeš jméno Boží nadarmo\n3. Pomni abys den sváteční světil\n4. Cti otce svého a matku svou\n5. Nezabiješ\nDesatero Božích přikázání"
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "text": "Římské právo\nZvykové právo\n● Nepsané obyčeje, ústní\n● Snadná manipulovatelnost\nKodiﬁkované právo\n● Psané, vycházející ze zvykového práva\n● Pravidla soudního procesu, právo trestní, správní, rodinné…\n● Zákon 12 desek (449-450 př.n.l.), Justiánův zákoník (482-565 n.l.)\n● Co není zakázáno, je dovoleno\n● Presumpce neviny podezřelého\n● V pochybnostech ve prospěch \nobžalovaného"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "text": "Středověk\nPrávní partikularismus\n● odlišné právní soustavy pro různé skupiny obyvatel\n○ šlechtické zemské právo, církevní, městské, cechy…\n● různé soudní postupy v závislosti na stavovské příslušnosti\n● soudní moc v rukou vrchosti\nPrávní autority\n● Panovník\n● Šlechta\n● Církev\nInkvizice\n● Instituce katolické církve pro potírání kacířství\n● Útrpné právo (přiznání vynucené mučením)\n○ Čarodějnické procesy…"
+    },
+    {
+      "kind": "page",
+      "label": "page 6",
+      "number": 6,
+      "text": "Novověk\nVliv osvícenství, humanismu, kapitalismu a změny feudálního řádu\n● Přirozené právo (svoboda člověka)\n○ Thommas Hobbes, John Locke (“otec liberalismu”) \n● Rovnost, volnost, bratrství (francouzská revoluce)\n○ Jean-Jacques Rousseau\n● Rozdělení státní moci (legislativa, exekutiva, justice)\n○ Charles Montesquieu\n● Soukromý majetek (rozvoj podnikání)"
+    },
+    {
+      "kind": "page",
+      "label": "page 7",
+      "number": 7,
+      "text": "ČSR / ČR\nPřed 1. sv. válkou na našem území platil právní řád Rakouska-uherska. \nVznik samostatného Československého státu (28. října 1918)\n○ Prozatímní ústava -> Ústavní listina ČSR (1920)\n● Mnichovská dohoda a vznik protektorátu (1938)\n○ Přímá správa Německa, norimberské zákony\n● Komunistický převrat (únor 1948)\n○ Přechod od demokracie k totalitě\n● Sametová revoluce (1989)\n○ Návrat k demokratickému právnímu státu"
+    }
+  ]
+}

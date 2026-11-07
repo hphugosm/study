@@ -1,0 +1,268 @@
+{
+  "schema": 1,
+  "sha256": "f4cfed62588a13fc3d66142003694d22bc684ded9e1b9e0f37abe4f3432b72f8",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vzorce\ngoniometrických funkcí\n",
+      "text": "Vzorce goniometrických funkcí"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "sin%(x) + cos2(x) =\nsin(x)=cos( )\ncos(x)=sin( )\n\nSind sy\nCos 0=x\n\n/\n\n(0, 1)\n\n(x, y)\n\n0\n\n(01\n\nj(ll 0)\n\n",
+      "text": "sin2(x) + cos2(x) =\nsin(x) = cos(____) \ncos(x) = sin(____) \n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "sin(x) + cos(x) = 1\nsin(x) = cos(x - %)\n\ncos(x) = sin(x + g)\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vzorce pro sin/cos o\nargumentu 2x\n\nsin(2x) = 2sin(x)cos(x)\ncos(2x) = cos2(x) - sin%(x)\n",
+      "text": "Vzorce pro sin/cos o argumentu 2x\n\nsin(2x) = 2sin(x)cos(x)\ncos(2x) = cos2(x) - sin2(x)\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vypočítejte:\na) 2 sin 22%30/ - cos 22%30!\n\nb)sin 15 - cos 15“\nc) cos* 15% — sin? 159\n\nd) cos“* 759 — sin? 759\n",
+      "text": "Vypočítejte:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "text": "Součtové vzorce:\nDůkaz: https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:angle-addition/v/proof-angle-addition-sine"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Určete přesné hodnoty za pomocí tabulkových hodnot a součtových vzorců:\n\nsin 15 = cos 15 = sin 75 =\n\ncos 75 = sin 105 = cos 105 =\nsin 165 = cos 165 = sin 195 =\ncos 195 = sin 255 = cos 255 =\nsin 285 — cos 285 = sin 345 =\ncos 3459 = sin 135 = cos 135 =\nsin 225 = cos 225? = sin 315 =\n\ncos 315 = sin 150\" = cos 150 =\n",
+      "text": "Určete přesné hodnoty za pomocí tabulkových hodnot a součtových vzorců:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Goniometrické rovnice - příklad\n\nsin(x) =Š\n",
+      "text": "Goniometrické rovnice - příklad"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Goniometrické rovnice - příklad\n\nsin x z\n\nsin(x) =Š\n\n",
+      "text": "Goniometrické rovnice - příklad"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Goniometrické rovnice - příklad\n\nsin x z\n2\n\n",
+      "text": "Goniometrické rovnice - příklad"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Goniometrické rovnice - příklad\n\n; 1\nsin(x) = —\n? HOTOVO?\n137 257x\nCo prox= ——, —\nTT 57\nX=—,—\n6 6\n",
+      "text": "Goniometrické rovnice - příklad"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Goniometrické rovnice - příklad\n\nsin(x) =Š\n\nx € E+2nk, %+2nk],ke Z\n",
+      "text": "Goniometrické rovnice - příklad"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Řešte (pozor na podmínky):\n\n1\ncos(x) = ;\n\nsinx = —\n\nSS l\n\n: 2\nsinT = —\n\n2\nt m—É\nm z\n\n1\nsin'z= —\n\nkbo\n",
+      "text": "Řešte (pozor na podmínky):"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Řešte:\n\ncos(x)-(cos(2x) + 2sin?(x)) = Š\n",
+      "text": "Řešte:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Substituce:\n\nsin(2x) =Š\n",
+      "text": "Substituce:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Substituce:\n: 1\nsin(3x) = ;\n\ns = 3x a řeším sin(s) =%\ns€ (Z+2mk Z+ 2mk|,ke Z\n\n2r7k 5 2177k\nxeí\"+l, 7T+l],kez\n3x6 3 3*6 3\n\n",
+      "text": "Substituce:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Řešte:\n\ncos(5x) = Š cos(0.5x) = Š\nsin(7x) = -g sin(%x) = -g\nsin(2x) = -Š sin(0.1x) = -Š\ncos(3x) = g cos(0.5x) = ?3\n",
+      "text": "Řešte:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Substituce po druhé:\n2 + cos(2x) = - 5sin(x)\n",
+      "text": "Substituce po druhé:\n2 + cos(2x) = - 5sin(x)"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Substituce po druhé:\n2 + cos(2x) = - 5sin(x)\n2 + cos?(x) - sin?(x) = -5sin(x)\n",
+      "text": "Substituce po druhé:\n2 + cos(2x) = - 5sin(x)\n2 + cos2(x) - sin2(x) = -5sin(x) \n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "text": "Substituce po druhé:\n2 + cos(2x) = - 5sin(x)\n2 + cos2(x) - sin2(x) = -5sin(x) \n2 + (1 - sin2(x) ) - sin2(x) = -5sin(x) \n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "text": "Substituce po druhé:\n2 + cos(2x) = - 5sin(x)\n2 + cos2(x) - sin2(x) = -5sin(x) \n2 + (1 - sin2(x) ) - sin2(x) = -5sin(x)\n2 + 1 - 2sin2(x) = -5sin(x) \n \n\n 2sin2(x) -5sin(x) – 3 = 0\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Substituce po druhé:\n2sin*(x) -5sin(x) - 3=0\n\nSubstituce?\n",
+      "text": "2sin2(x) -5sin(x) – 3 = 0\nSubstituce po druhé:\nSubstituce?"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 23",
+      "number": 23,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Substituce po druhé:\n2sin*(x) -5sin(x) - 3\n\nSubstituce?\n\nsin(x) = t\n\n0\n",
+      "text": "2sin2(x) -5sin(x) – 3 = 0\nSubstituce po druhé:\nSubstituce?\nsin(x) = t"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 24",
+      "number": 24,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Substituce po druhé:\n2sin*(x) -5sin(x) - 3=0\n2 -5t- 3=0\n\nSubstituce?\n\nsin(x) = t\n",
+      "text": "2sin2(x) -5sin(x) – 3 = 0\n2t2 -5t – 3 = 0\n\nSubstituce po druhé:\nSubstituce?\nsin(x) = t"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 25",
+      "number": 25,
+      "text": "2sin2(x) -5sin(x) – 3 = 0\n2t2 -5t – 3 = 0\n\nt = -0.5, 3\nŘešíme tedy\nsin(x) = -0.5 a sin(x) = 3\n\nSubstituce po druhé:\nSubstituce?\nsin(x) = t"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 26",
+      "number": 26,
+      "text": "2sin2(x) -5sin(x) – 3 = 0\n2t2 -5t – 3 = 0\n\nt = -0.5, 3\nŘešíme tedy\nsin(x) = -0.5 a sin(x) = 3\n\nSubstituce po druhé:\nSubstituce?\nsin(x) = t"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 27",
+      "number": 27,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Goniometrické nerovnice\n",
+      "text": "Goniometrické nerovnice"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 28",
+      "number": 28,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "sin (x) > 0.5\n",
+      "text": "sin (x) > 0.5"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 29",
+      "number": 29,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "sin (x) > 0.5\n\n",
+      "text": "sin (x) > 0.5"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 30",
+      "number": 30,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": "sin (x) > 0.5\n1) sin (x) = 0.5\n\n\n\n\n\n\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 31",
+      "number": 31,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "— + 27k, — + 27k\n\n1) sin (x) = 0.5 z 57\n2) sin(x)>0.5 * - ,(LEJÁ<6 6 )\n",
+      "text": "sin (x) > 0.5\nsin (x) = 0.5\nsin (x) > 0.5 \n\n\n\n\n\n\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 32",
+      "number": 32,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "sin (x) < 0.5\n",
+      "text": "sin (x) < 0.5"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 33",
+      "number": 33,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": "sin (x) < 0.5\nsin (x) = 0.5\nsin (x) < 0.5 \n\n\n\n\n\n\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 34",
+      "number": 34,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "cos(x) > Š cos(x)+2 > 0\n\n: 2\nsin(x) < -g sin(x) > —\nsin(x) < —% 0.5cos(x) < %\n\n> —\ncos(x) ;\n",
+      "text": ""
+    }
+  ]
+}

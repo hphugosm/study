@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "sha256": "271265b365a5cd1d499dbdd71c1a4d87f0e07b61e2ec168da18233b5a324e761",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Opakování goniometrických funkcí\n1. Načrtněte grafy funkcí, určete jejichperioduaobor hodnot.\n•y= 2 sin(x)\n•y=−cos(x)\n•y= sin(2x)\n•y= cos( x\n2 )\n•y= 1\n2 sin(x)\n•y= 3 cos(x)\n•y= sin(x) + 1\n•y= cos(x)−2\n•y=−2 sin(x)\n•y=−3 cos(x)\n•y= 2 sin(2x)\n•y=−3 cos( x\n2 )\n•y= sin\n(︁\nx− π\n2\n)︁\n•y= cos\n(︁\nx+ π\n4\n)︁\n•y= 2 sin(x)−1\n•y=−2 cos(x) + 2\n•y= 3 sin\n(︁\nx− π\n2\n)︁\n•y=−cos (2x) + 1\n•y= 1\n2 sin(2x) + 1\n•y= 2 cos( x\n2 )−1\n•y= 2 sin (2x−π) + 1\n•y=−2 cos\n(︁x\n2 + π\n8\n)︁\n−1\n•y= 3 sin\n(︁\n2x+ π\n2\n)︁\n−2\n•y=−cos\n(︁x\n2 − π\n4\n)︁\n+ 2\n•y= 1\n2 sin\n(︁\n2x− π\n2\n)︁\n−1\n•y=−3 cos (2x+π) + 1\n•y= 2 sin\n(︁x\n2 + π\n4\n)︁\n−2\n•y=−2 cos\n(︁\n2x− π\n2\n)︁\n+ 1\n•y= 3 sin\n(︁x\n2 − π\n8\n)︁\n+ 2\n•y= 1\n2 cos\n(︁\n2x+ π\n2\n)︁\n−2\n2. Určeteperiodufunkcí a rovnice jejichvertikálních asymptot.\nVzorec asymptot:\ntan:x=c+\nπ\n2 +kπ\nb , k∈Z\ncot:x=c+ kπ\nb , k∈Z\n•y= 2 tan\n(︁\n2x− π\n2\n)︁\n•y=−cot\n(︁x\n2 + π\n4\n)︁\n•y= tan\n(︁\nx− π\n4\n)︁\n+ 1\n•y=−2 cot\n(︁\nx+ π\n2\n)︁\n•y= 3 tan\n(︁\n2x− π\n2\n)︁\n+ 1\n•y= 2 cot\n(︁x\n2 + π\n8\n)︁\n−1\n•y=−tan (2x+π) + 2\n•y=−3 cot\n(︁\n2x− π\n2\n)︁\n−1\n•y= 2 tan\n(︁x\n2 + π\n4\n)︁\n+ 1\n•y= cot\n(︁\n2x+ π\n2\n)︁\n−2\n•y=−2 tan\n(︁\nx− π\n4\n)︁\n+ 1\n•y= 3 cot\n(︁\nx+ π\n2\n)︁\n−1\n•y= 1\n2 tan (2x−π) + 2\n•y=− 1\n2 cot\n(︁x\n2 − π\n8\n)︁\n+ 1\n•y= 2 tan\n(︁\n2x+ π\n2\n)︁\n−2\n•y=−2 cot (2x+π) + 2\n•y= 3 tan\n(︁x\n2 − π\n4\n)︁\n−1\n•y=−3 cot\n(︁x\n2 + π\n8\n)︁\n+ 2\n•y= tan\n(︁\n2x− π\n2\n)︁\n−1\n•y= cot\n(︁x\n2 − π\n4\n)︁\n+ 1\n•y=−2 tan (2x+π)−2\n•y= 2 cot\n(︁x\n2 + π\n4\n)︁\n−1\n•y=−3 tan\n(︁\nx+ π\n4\n)︁\n+ 2\n•y= 3 cot (2x−π) + 1\n•y= 1\n2 tan\n(︁x\n2 − π\n8\n)︁\n−2\n•y=− 1\n2 cot\n(︁\n2x+ π\n2\n)︁\n+ 2\n•y= 2 tan\n(︁\nx− π\n2\n)︁\n−1\n•y=−2 cot\n(︁\nx+ π\n4\n)︁\n+ 1\n•y= 3 tan\n(︁\n2x+ π\n2\n)︁\n−1\n•y=−3 cot\n(︁x\n2 − π\n4\n)︁\n−2\n1"
+    }
+  ]
+}

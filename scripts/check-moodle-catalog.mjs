@@ -35,5 +35,5 @@ for(const subject of catalog.subjects){
  }
 }
 for(const subject of subjects)assert.ok(catalog.subjects.some(item=>item.id===subject.id),'Existing public subject missing from source catalog');
-for(const unit of units)assert.ok(catalog.subjects.find(item=>item.id===unit.subjectId)?.topics.some(item=>item.id===unit.id),'Existing public topic missing from source catalog');
+for(const unit of units)assert.ok(catalog.subjects.find(item=>item.id===unit.subjectId)?.topics.some(item=>item.id===(unit.topicId||unit.id)),'Existing public topic missing from source catalog');
 console.log(`Moodle source catalog: ${catalog.subjects.length} subjects, ${topicCount} topics, ${sourceCount} approved sources, ${derivedCount} reviewed derived outputs.`);

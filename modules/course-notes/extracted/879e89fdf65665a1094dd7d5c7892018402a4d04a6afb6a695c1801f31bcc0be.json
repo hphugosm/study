@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Objemy a povrchy\nmnohostěnů a rotačních\ntěles\n",
+      "text": "Objemy a povrchy mnohostěnů a rotačních těles"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Kvádr\n\nV = abc\n\nS =2-(ab+ac+bc)\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Kužel\n\n1\nV= š7|'7'2'l)\n\nS = nr(r+s)\n\nKužel\n\nw\n\nv\n\npoloměr\nprůměr\n\nvýška\n\npoloměr pláště\nobvod\n\nstřed\n\nvrchol\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Koule\n\nVálec\nV = zr'vy\nS=2-nrr(r+v)\n\nJehlan\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Komolý kužel\n\nObjem komolého rotačního kuželu\n\n= %h(rf +nr+r)\n\nPovrch pláště komolého rotačního kuželu\nS,= z( +7n)h;\n\n",
+      "text": "Komolý kužel"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "CERMAT-příklady z maturitních\ntestů:\n",
+      "text": "CERMAT-příklady z maturitních testů:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Papírový klobouk se skládá ze tří částí — střechy, koruny a krempy.\nStřechu tvoří kruh, který je horní podstavou rotačního válce.\n\nKoruna je pláštěm tohoto válce a jejím rozvinutím střecha\nby vznikl obdélník o rozměrech 60 cm a 30 cm,\ndruhý rozměr je výškou válce.\n\nKrempa má tvar mezikruží o šířce 5 cm.\n\nKlobouk byl vyroben z papíru, který je\n\nz jedné strany modrý a z druhé bílý. Sděřň —\n\nkoruna\n\nJednotlivé části klobouku k sobě\npřiléhají svými okraji a jsou sešity nití.\n\nkrempa\n\n(CZVW)\n2body\n19 Jaký je obsah všech modrých ploch klobouku?\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "VÝCHOZÍ TEXT K ÚLOZE 18\n\nVnitřní prostor konvičky na mléko má tvar rotačního válce s podstavou o průměru 6 cm.\n\nVnitřní prostor kalíšku, který je zcela zaplněn mlékem do kávy, má tvar rotačního válce\ns podstavou o průměru 2,4 cm a výškou 1,5 cm.\nVšechno mléko z kalíšku jsme přilili do konvičky s mlékem.\n(Konvička nebyla nakloněna, mléko nepřeteklo.)\n(CZVV)\n\n2body\n18 O kolik stoupla hladina v konvičce po přilití mléka z kalíšku?\n\nA) oméně než 0,24cm\nB) o0o0,24cm\nC) o0,68cm\nD) 00,72cm\n\nE) ovíce než0,72cm\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Dřevěný rotační kužel s podstavou o poloměru 12 cm a výškou 16 cm jsme osovým řezem\nrozdělili na dva shodné půlkužele.\n\n(CZWW)\n\n2body\n19 Jakýje povrch jednoho půlkužele?\n\nVýsledek je zaokrouhlen na celé cm?.\n\nA) 603cm?\nB) 720cm?\nC) 795cm?\nD) 1206cm?\n\nE) jiný povrch\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Z krychle s hranou délky 4 cm byl dvěma úhlopříčnými svislými řezy oddělen trojboký\nhranol, který tvoří čtvrtinu krychle. Oddělený hranol se přemístil tak, aby jeho čtvercová\nstěna splynula s protější stěnou krychle. Vzniklo tak nové těleso.\n\n.\n\n(czww)\n2body\n20 Jakýje povrch nového tělesa?\n\nVýsledek je zaokrouhlen na celé cm?.\nA) 109cm?\nB) 128cm?\n\nC) 135cm?\nD) 155cm?\n\nE) jiný povrch\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Model domku se skládá z kvádru a jehlanu.\n\nObě tělesa mají stejnou čtvercovou podstavu. m\nvýška\nVýška jehlanu je 6 dm. modelu\n\nObjem kvádru je polovinou objemu celého modelu.\n\n(Czvv)\n2body\n20  Jakáje výška modelu?\nA) 7,5dm\nB) 8dm\nC) 9dm\nD) 105dm\n\nE) 12dm\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Plechová pečicí forma má při pohledu shora tvar obdélníku o rozměrech 20 cm a 29cm.\nForma má šest shodných dutin (resp. vypouklin) tvaru polokoule, každou o poloměru 3,5 cm.\nPlochy pečicí formy jsou z jedné strany světlé a z opačné strany tmavé.\n\nTloušťku plechu zanedbáváme.\n\nCZ2 Z2 —\nZ- CD E2\nw w\n\n(Czvv)\n\n2 body\n21 Jaký je celkový obsah tmavých ploch pečicí formy?\n\nVýsledek je zaokrouhlen na celé cm?.\nA) 811cm?\n\nB) 888cm?*\n\nC) 910cm?\n\nD) 1042cm?\n\nE) 1273cm?\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "V krychli ABCDEFGH je umístěn čtyřboký jehlan ABCDE, který má objem 243 cm?.\n\nH G\n\nA 0\n\nA B A B\n\n(CZVV)\n1 bod\n\n10 Vypočtěte v cm? obsah podstavy A4B8CD.\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Molitanová balanční podložka je těleso složené ze tří půlválců (částí rotačních válců).\n\nPodstavou největšího půlválce je půlkruh s průměrem 20 cm a podstavami dvou\nstejných menších půlválců jsou půlkruhy s průměrem 10 cm.\nVýšky všech půlválců jsou 80 cm.\n\nPodstava podložky\n20cm\n\nd-\nMAÁ nA\n\n10cm  10cm\n\n(czvv)\n2body\n20 Jaký je objem balanční podložky?\nA) 4m dm*\nB) 5mdm?\nC) 60 dm*\nD) 8mdm*\n\nE) jiný objem\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Stupně vítězů představují těleso, které vzniklo připojením dvou kvádrů ke krychli.\nStěna krychle má obsah 25 dm?. Pokud by se oba postranní kvádry postavily na sebe,\nvytvořily by stejnou krychli, jako je ta mezi nimi.\n\n(CZvv)\n\nVypočtěte v dm* objem tělesa (stupňů vítězů).\n\nČtvercová lepicí fólie má stejný obsah jako jedna stěna krychle. Lepicími fóliemi\nse má pokrýt celé těleso (stupně vítězů) s výjimkou stěny ležící na zemi. Fólie je\nmožné stříhat.\n\nUrčete minimální počet lepicích fólií potřebných k pokrytí.\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Z kvádru ABCDEFGH se vyřízne jehlan ABCDV. Vrchol V je středem stěny EFGH.\n\nH G\n\n10 Určete, kolikrát je objem kvádru větší než objem jehlanu.\n\n11 - Platí: |BD| = 447 cm, |BV| = 8 cm.\n\nVypočtěte v cm výšku v jehlanu.\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Podél travnatého hřiště je natažena zahradní hadice. V libovolné části hadice řez\nvedený kolmo k ose hadice vytvoří mezikruží s vnitřním průměrem d = 26,3 mm.\n\n(Deformaci hadice neuvažujeme.)\n\n(CZVV)\n2 body\n20 Jaké největší množství vody může obsahovat natažená hadice délky 50 m?\nVýsledek v litrech je zaokrouhlen na celé číslo.\n\nA) 11litrů\nB) 27 litrů\nC) 86litrů\nD) 272 litrů\n\nE) jiné množství vody\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "V rovnostranném válci je vytvořena dutina tvaru polokoule.\nPoloměr podstavy válce i poloměr polokoule je r = 10 cm, výška válce je 2r.\n\n(CZV)\n2body\n21 Jaký je povrch vytvořeného tělesa (tj. válce s dutinou)?\n\nA) větší než 900 n cm?\nB) 9007cm?\nC) 8007cm?\nD) 7007cm?\n\nE) menší než 700 n cm?\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Kapka rtuti tvaru koule o průměru 3 mm se rozdělila na dvě stejně velké kapičky tvaru\nkoule.\n\n(CZVW)\n\n2body\n23 Jaký je poloměr nově vytvořené kapičky rtuti?\nVýsledek je zaokrouhlen na setiny mm.\n\nA) 075mm\nB)  1,04mm\nC)  1,19mm\nD) 1,25mm\n\nE) | 1,44mm\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Cvičební pomůcka z šedé tvrzené pěny je rotační těleso, které lze popsat jako dutý válec.\nDutý válec má výšku 70 cm, vnější průměr 180 cm a vnitřní průměr (tj. průměr dutiny)\n120 cm. BR ň e MeSnMm\n24 Jaký je povrch tělesa (včetně plochy uvnitř dutiny)?\n\nVýsledek je zaokrouhlen na desetiny m?.\n\nA) 41m?\nB) 68m?\nC) 72m?*\nD)  94m?\n\nE)  116m?\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "VÝCHOZÍ TEXT A OBRÁZEK K ÚLOZE 20\n\nDélky podstavných hran dvou kvádrů (I a Il) kvádr | kvádr II\njsou v poměru:\na;:a;»=2:1\nb,: by=3:4 v\nVýšky obou kvádrů jsou shodné.\n\nKvádr | má objem V,;, kvádr II objem V>.\n\nbo\na a\n(CZVW)\n2body\n20 ' Jakýje poměrV,; : V;?\nA) 3:2\nB) 4:3\nC) 6:5\nD) 1:1\n\nE) Poměr nelze určit.\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Voda o objemu 40,57 cm* vyplňuje ve sklenici prostor\ntvaru rotačního kužele. Voda nesahá až po okraj sklenice,\nale pouze do výšky 6 cm od vrcholu kužele.\n\n23 Jaký je obsah plochy sklenice smáčené vodou?\n\nVýsledek je zaokrouhlen na desetiny cm?.\n\nA)  51,9cm?\nB)  54,3cm?*?\nC)  106,0cm?\nD) 169,5cm?\n\nE) 211,9 cm?\n\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 23",
+      "number": 23,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "VÝCHOZÍ TEXT A OBRÁZEK K ÚLOZE 19\n\nDvě nádoby mají tvar válce. První z nádob je třikrát vyšší než druhá, ale průměr dna má\n\ndvakrát menší než druhá.\n\nPrvní nádobu naplníme po okraj vodou a potom všechnu vodu přelijeme do druhé\n\nnádoby, která byla prázdná.\n\n19\n\nJakou část objemu druhé nádoby voda zaplní?\n\n3v\nB) š\n0) Š\nDž\n\nE) | Voda přeteče, objem druhé nádoby je menší než objem první nádoby.\n",
+      "text": ""
+    }
+  ]
+}

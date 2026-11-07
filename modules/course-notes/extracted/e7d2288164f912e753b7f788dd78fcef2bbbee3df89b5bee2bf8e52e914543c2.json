@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Přenos genetické informace \n \nzákladní dogma molekulové genetiky \n \n \n \n \n \n \n1) Replikace \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nhttps://www.youtube.com/watch?v=UnLoIZSi9c0 \n \nTady je k replikaci video – je divné, ale účinné       \n \n \n \n \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "text": "2) Transkripce \n \nDalší proces je transkripce: probíhá v jádře \n- přepis, informace z DNA se přenáší do RNA \n \n \n \nTypy RNA – ribonukleových kyselin. \n \n \n \n \nRozlišujeme tři základní typy RNA: \n \nrRNA: ribozomální RNA. najdeme ji v ribosomech, základní stavební materiál \nribosomů  \n \ntRNA: přenosová: transferová RNA. struktura má tvar L, je v cytoplazmě, nosič \naktivované aminokyseliny \nmRNA: mediátorová: messenger RNA neboli informační,  je v  jádře, Přenáší \ninformaci o pořadí aminokyselin z jádra k místu tvorby bílkoviny \n  \n \n \n \n \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 3",
+      "number": 3,
+      "text": "3) Translace \nPoslední proces je translace, probíhá na povrchu ribozomu. Translace: \nneboli překlad. Přeloží se informace do bílkoviny. \n \nhttps://www.youtube.com/watch?v=gG7uCskUOrA video: Od DNA k proteinu \n \n \nInformace o každé aminokyselině je v molekule DNA zakódována trojicí bází = \ntripletem \nV mRNA je také trojice bází – nazvaná kodon \n \nPři všech těchto dějích se informace přenáší prostřednictvím párování bází \nKodony všech aminokyselin vyskytující se v bílkovinách jsou dnes známy – \nkódované aminokyseliny \n \nAminokyselina se nejdříve váže na svou specifickou tRNA. Nese trojici \nnukleotidů – antikodon, který je doplňkový ke kodonu na mRNA.  \n \nPro každou aminokyselinu musí existovat v cytoplazmě specifická tRNA \n \n \n \n \n \n \n \n \n \n \n \n "
+    },
+    {
+      "kind": "page",
+      "label": "page 4",
+      "number": 4,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "SECOND POSITION\n\nU C A G\nuvu Be 7 Ua uc U\n| ro |a ] o\ne o wc -) | uc c\nU p\nUÁ cA UAA - Stp | U65 - Stop | A\ne p\n— e e UG S | 96 | G\ng m] Eume AU n] U\ne] |n\nA cue ccc các cec c|2\n2) leu Po Ag | o\novA cA cA — 0A A|\nz Gr ó\n[c] ove cce — cc — cA — «|8\nj) u u u GU |a\n2] ] asn | ser 5\nje] AUC |we | AcD AA AB0 cz\nů A ní\nj) A0a AC AAA ABA AlS\n5 ]s |a )\nk Av6 | wei | A08 Aaa AB - c|o\nE 3\n[ 0u] 600 — AT aU v]\n] 82\ne cee Gac ccc c\nval Ha ch\nGUA Gea Ga J c6A |a\n2\ncua cca — GAG cGe G\nad 2 UEh penetic d dřetkomary, Codom are riém im Ih $Y 9 3Y sensé, Stop desipnátos a erninanion cexlon\n\nGenetický kód, tři nemají smysl — stop\n",
+      "text": " \n \n \nGenetický kód, tři nemají smysl – stop \n \n \n"
+    },
+    {
+      "kind": "page",
+      "label": "page 5",
+      "number": 5,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "The Central Dogma of Molecular Biology\n\nReplication\nDNA duplicates\ní InrommionX\nDNA\n\nPODODOVOOUOYY\n\nilnlbnmtion\nv Transcription\nA RNA synthesis\nNuclear membrane\nCytoplasm\nrr PHNNTHEVTITNHTNITTNý\nHt nn ||||||I|\\IIIIII\"„IIIIIIIIÍIÍI!IIIII'I'I\\R:\\.A Tisáádátin\nribosome Protein synthesis\nProtein\n\nprotein\n\n(Andy Vicnarocte 1999\n",
+      "text": " \n \n \n \n \n \n"
+    }
+  ]
+}

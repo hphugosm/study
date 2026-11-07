@@ -2,5 +2,20 @@
   "schema": 1,
   "subject_id": "chemistry",
   "topic_id": "section-5da518105a26daa01c8076dfbc674505",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Závěrečné opakování učiva",
+      "kind": "notes",
+      "path": "data/subjects/chemistry/topics/section-5da518105a26daa01c8076dfbc674505/derived/course-notes-v1/notes.json",
+      "sha256": "39c3d04eba931804f690e306c24add7f9a67d90d7cdea23089b3972d3dbccf5b",
+      "source_refs": [
+        {
+          "id": "a6b048b3db9ee7ab27bde22c64a88aea55eb2066f0affe4f9650421aefa4378e",
+          "sha256": "556009e3ff4fef4d94b3c6e4ec51a598775a9bc6edd3bee502d540e0dd7e92ae"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

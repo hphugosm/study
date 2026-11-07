@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Nukleotid ATP"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "ATP: je přenašeč chemické energie. Při rozkladu ATP na ADP dojde k uvolnění značného množství energie. Tato energie se využije pro buněčné pochody, jako je membránový transport, různé biosyntetické dráhy, výroba bílkovin, syntéza RNA apod. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 3",
+      "number": 3,
+      "text": "ATP – adenosintrifosfát (skládá se z purinové báze, cukru ribosy a zbytku kyseliny trihydrogenfosforečné"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": "ADP – adenosindifosfát"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 5",
+      "number": 5,
+      "text": "AMP – adenosinmonofosát"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 6",
+      "number": 6,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 7",
+      "number": 7,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 8",
+      "number": 8,
+      "text": "Koenzymy oxidačně-redukčních reakcí"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 9",
+      "number": 9,
+      "text": "KOENZYM – složka enzymu - umí dočasně vázat atomy (třeba H) a převést je. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 10",
+      "number": 10,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 11",
+      "number": 11,
+      "text": "NADH a NADPH (redukovaná forma) přenašeče atomů vodíku včetně elektronů. "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 12",
+      "number": 12,
+      "text": "NAD+ a NADP+ (oxidovaná forma) přijmou hydridový anion H- a předávají ho jiné molekule za vzniku uvolnění energie.  Jedná se o koenzymy oxidoreduktáz"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 13",
+      "number": 13,
+      "text": "          "
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 14",
+      "number": 14,
+      "text": "NADPH – nikotinamidadenindinukleotidfosfát"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 15",
+      "number": 15,
+      "text": ""
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 16",
+      "number": 16,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Nukleotid ATP\nATP: je přenašeč chemické energie. Při rozkladu \nATP na ADP dojde k uvolnění značného množství \nenergie. Tato energie se využije pro buněčné \npochody, jako je membránový transport, různé \nbiosyntetické dráhy, výroba bílkovin, syntéza RNA \napod. \n• ATP – adenosintrifosfát (skládá se z \npurinové báze, cukru ribosy a zbytku \nkyseliny trihydrogenfosforečné\n• ADP – adenosindifosfát\n• AMP – adenosinmonofosát\nKoenzymy oxidačně-redukčních reakcí\nKOENZYM – složka enzymu - umí dočasně vázat atomy (třeba H) a převést je. \nNADH a NADPH (redukovaná forma) přenašeče atomů vodíku včetně elektronů. \nNAD+ a NADP+ (oxidovaná forma) přijmou hydridový anion H- a předávají ho jiné molekule za \nvzniku uvolnění energie.  Jedná se o koenzymy oxidoreduktáz\n          \nNADPH – nikotinamidadenindinukleotidfosfát\n"
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "m Mitochondrie\n\ndh řatene\n\ngiukogenese, citrátový cyklus,\nlaktátdehydrogenasa Boxidace mast. kys.\n\npentosový cyklus,\npyruvát-malátový\n\nNADP NADPH fotoredukce (světiá\n„Jáze fotosynthesy)\nbiosynthesa mast. kys.\nbiosynthesa isoprenoidů\n\n\" přenos [H] z cytosolu do mitochondrie\n\n",
+      "text": ""
+    }
+  ]
+}

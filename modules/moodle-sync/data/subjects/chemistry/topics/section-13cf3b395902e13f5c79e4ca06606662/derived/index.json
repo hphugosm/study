@@ -2,5 +2,24 @@
   "schema": 1,
   "subject_id": "chemistry",
   "topic_id": "section-13cf3b395902e13f5c79e4ca06606662",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Enzymy biokatalyzátory",
+      "kind": "notes",
+      "path": "data/subjects/chemistry/topics/section-13cf3b395902e13f5c79e4ca06606662/derived/course-notes-v1/notes.json",
+      "sha256": "b0242309f2ca14b2420a0da5dc6b0ccd58816cf5727811bed1372d13c6565029",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2"
+        },
+        {
+          "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+          "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

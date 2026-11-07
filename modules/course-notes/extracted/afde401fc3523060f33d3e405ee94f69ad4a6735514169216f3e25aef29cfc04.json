@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "sha256": "afde401fc3523060f33d3e405ee94f69ad4a6735514169216f3e25aef29cfc04",
+  "units": [
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Přehled aminokyselin\n\nGlycin - Gly\n\nNH;*— cH— cCoc\n\nAlanin - Ala\nNH— CH—coo\n|\n\nFenylalanin - Phe\nNH — cH— coc“\n|\n\nCystein - Cys\n\nNH— CcH—coo“\n|\n\nNH— CH—coor\n|\n\nNH— CH—Coo“\n|\n\nNHi— CH —coo“\nU\n\ncH CH,\nH CHs o\nSH\nSerin - Ser Leucin: Leu Tsoleucin - Te Valin- Val\n\nNH — CH —COo\n\nNH,*—cH—-coo“\n\nNH — oH— coo“\n\nNH — cCH—coor\n\nCH p CH\n2 CH, n-\n: MA c H/ Čen, á H\\\nol „H I cCH; | CHs\n[6) - čA CH; CH\nProlin - Pro Tyrosin - Tyr Tryptofan - Tip Histidin - His\n\nNH— CH=-Ccoo“\n|\n\nA ! :\nCH, \\('H: cH, CH cH,\nOoH\nThreonin - Th Methionin Met Lysin - Lys Arginin - Arg\nt — t o - * A aa m\nNHS CIH coo NH;s ICH cogo NHs ICH coo NH; — ICH —cCcog\nŮ c M Ď\ne |4H3 (cH), (51-[2)3\noH CH; e (.H HH\ns +\nČm, NHž parom\nAsparagin - Asn Asparagová kyselina: Asp Glutamin Gln Glutamová kyselina : Glu\n* AL — t H — * AL —\nNH; (IZH coo NH;— cH—-coor | NHs ICH coo)) NH ?H cooa\nCH2 I CH2 CH\nÍ CHa l Í\nr0 čoo * l\nNHs (0 coo“\n\n",
+      "text": " \n \nPřehled aminokyselin \n \n   \n \n \n \n \n \n \n  \n \n \n \n  \n  \n \n \n  \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n "
+    },
+    {
+      "kind": "page",
+      "label": "page 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "",
+      "text": " \n \n \n \n \n \n "
+    }
+  ]
+}

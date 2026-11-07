@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "sha256": "8f7b5affc16561023dc65c945bea14b501ea9cbd036c7999e3ea64b673be2f75",
+  "units": [
+    {
+      "kind": "image",
+      "label": "image 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "FLI\n\nní\nA\n\na\n\nNE IIIIIII\nb\n\nEE EN<\n\n\"MA AREEN m\n\nn-gt n-gt\n\nH NENN EN M\nIIIIQII á\n“g c /nm\n\n",
+      "text": ""
+    }
+  ]
+}

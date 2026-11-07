@@ -1,0 +1,337 @@
+{
+  "schema": 1,
+  "subject": "social-sciences",
+  "topic": "section-463f497ccb9579d1e6a90113069af240",
+  "title": "Lidská práva",
+  "language": "cs",
+  "intro": "Na modelu ukradeného kola rozliš ochranu majetku, soukromí a rozsah zveřejnění. Jde o rozbor dodaného školního případu a jeho historických právních podkladů, nikoli o návod podle aktuální právní úpravy.",
+  "sources": [
+    {
+      "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+      "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+      "title": "Vybraná ustanovení.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce.pdf",
+      "extraction_url": "./extracted/9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce.zip"
+    },
+    {
+      "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+      "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+      "title": "Ukradené kolo + kritéria.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38.pdf",
+      "extraction_url": "./extracted/8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "konflikt",
+      "title": "Jedna legitimní potřeba může zasáhnout jiné právo",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 1
+        },
+        {
+          "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+          "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Majitel obchodu předá policii kamerový záznam krádeže. Poté zveřejní rozpoznatelný obličej na sociální síti a požádá ostatní o identifikaci. Pracovní případ ukazuje rozdíl mezi předáním důkazu orgánu vyšetřování a rozšířením údaje mezi velký počet lidí.",
+          "source_refs": [
+            {
+              "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+              "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Podklad vedle sebe staví soukromí osoby a ochranu majetku. Záměr vypátrat pachatele nevypovídá sám o sobě o přiměřenosti každého použitého prostředku. Je třeba rozlišovat účel, rozsah zásahu a možné alternativy.",
+          "source_refs": [
+            {
+              "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+              "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+              "page": 1
+            },
+            {
+              "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+              "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Dodaný výňatek pracuje se zákonem 101/2000 Sb. a slouží jako historický školní podklad. Jeho ustanovení zde nejsou vydávána za úplný aktuální právní režim.",
+          "source_refs": [
+            {
+              "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+              "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "udaje",
+      "title": "Účel a rozsah práce s osobními údaji",
+      "source_refs": [
+        {
+          "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+          "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ve výňatku je osobní údaj spojen s určenou nebo určitelnou osobou. Zpracováním není jen uložení do databáze: text zahrnuje i zpřístupňování, předávání a zveřejňování. Rozpoznatelný obličej může být ve scénáři prostředkem identifikace.",
+          "source_refs": [
+            {
+              "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+              "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Podklad zdůrazňuje vazbu mezi stanoveným účelem a nezbytným rozsahem. Pro rozbor tedy ptej se nejen „chci chránit majetek?“, ale i „jaké informace, komu, proč a jak široce zpřístupňuji?“. Zvláštní výjimky a konkrétní výsledek nelze odvozovat jen z jedné vytržené věty.",
+          "source_refs": [
+            {
+              "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+              "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pomerovani",
+      "title": "Tři otázky pro odůvodněné poměřování",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Strana s kritérii je výběrová diskusní úloha: obsahuje různé navržené argumenty, nikoli šest bezchybných právních pouček. Pro rozbor zde používáme její otázky vhodnosti, potřebnosti a přiměřenosti. Číslo článku v Listině nebo samotná veřejnost projevu nejsou z tohoto zadání důkazem automatické převahy práva.",
+          "source_refs": [
+            {
+              "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+              "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Vhodnost",
+          "text": "Může daný prostředek vůbec přispět ke stanovenému cíli?",
+          "source_refs": [
+            {
+              "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+              "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "title": "Potřebnost",
+          "text": "Lze stejného cíle dosáhnout způsobem, který do druhého práva zasáhne méně?",
+          "source_refs": [
+            {
+              "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+              "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "title": "Přiměřenost",
+          "text": "Jak silný je zásah do druhého práva ve vztahu k očekávanému přínosu?",
+          "source_refs": [
+            {
+              "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+              "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Jaká dvě práva případ staví do napětí?",
+      "back": "Ochranu majetku a ochranu soukromí.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 1
+        },
+        {
+          "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+          "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Proč rozlišovat policii a veřejnou sociální síť?",
+      "back": "Liší se příjemci, rozsah šíření a dopad zveřejnění.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Vhodnost?",
+      "back": "Zda prostředek umožňuje sledovat daný cíl.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Potřebnost?",
+      "back": "Zda existuje méně zasahující alternativa.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Přiměřenost?",
+      "back": "Posouzení intenzity zásahu vzhledem k přínosu.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Je zveřejnění ve výňatku zpracováním?",
+      "back": "Ano, patří mezi výslovně vyjmenované operace; jde o pojem v dodaném historickém textu.",
+      "source_refs": [
+        {
+          "id": "02f90686f8202a00e86a5f94990fffc0a765936e81b7451e2f220afe268504a9",
+          "sha256": "9b9d0827f25fced271ace85c9c5a9e4940c77df3b234ba2e87e6fed077a445ce",
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Která otázka zkoumá potřebnost?",
+      "options": [
+        "Existuje méně zasahující způsob dosažení cíle?",
+        "Které právo má v Listině nižší číslo?",
+        "Kolik slov má článek?"
+      ],
+      "answer": 0,
+      "explanation": "Potřebnost hledá šetrnější alternativu.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "Co v případu mění zveřejnění na sociální síti?",
+      "options": [
+        "Rozsah dostupnosti a šíření identifikační informace",
+        "Automaticky mění soukromí na majetek",
+        "Pouze formát souboru"
+      ],
+      "answer": 0,
+      "explanation": "Důkaz předaný policii a zveřejněný snímek mají odlišný okruh příjemců.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "Jak číst nabídku kritérií na druhé straně?",
+      "options": [
+        "Jako konečný rozsudek případu",
+        "Jako všechny automaticky pravdivé právní normy",
+        "Jako úlohu vyžadující výběr a odůvodnění"
+      ],
+      "answer": 2,
+      "explanation": "Zadání žádá výběr tří kritérií; neprohlašuje každou nabídnutou tezi za správnou.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Stačí dobrý účel k obhájení libovolného prostředku?",
+      "options": [
+        "Ano, vždy",
+        "Ne, je třeba zkoumat také zásah a alternativy",
+        "Ano, pokud byl příspěvek hodně sdílen"
+      ],
+      "answer": 1,
+      "explanation": "Poměřování hodnotí i prostředek a dopad, nejen cíl.",
+      "source_refs": [
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 1
+        },
+        {
+          "id": "0923347926f4c9ce7642fe5a0a95500a58e486a4e619f240d14df281af53a9cd",
+          "sha256": "8f1e5cdaad7ac8262cfa4e90f03007b5d3c81e0231c709ab3ee3a3b59a1b1f38",
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

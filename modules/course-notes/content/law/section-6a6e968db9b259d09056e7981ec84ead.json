@@ -1,0 +1,468 @@
+{
+  "schema": 1,
+  "subject": "law",
+  "topic": "section-6a6e968db9b259d09056e7981ec84ead",
+  "title": "Unit 2.1 - American Law and the Bill of Rights",
+  "language": "en",
+  "intro": "Distinguish the four sources of American law and the principles used to assess legal power. The supplied slides contain simplified and internally inconsistent descriptions, identified below rather than turned into false quiz answers.",
+  "sources": [
+    {
+      "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+      "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+      "title": "Sources of AmLaw - Year I Moodle.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f.pptx",
+      "extraction_url": "./extracted/35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "four-sources",
+      "title": "Four categories with different legal jobs",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 2
+        },
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 3
+        },
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 6
+        },
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 10
+        },
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 11
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Constitutional law concerns the constitutional framework, the limits of government and individual rights. Statutory law consists of legislation. Administrative law concerns the powers, procedures and acts of public agencies. Case law develops through judicial decisions and their use as precedent.",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 2
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 3
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 6
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 10
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 11
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Category",
+          "Main focus in the slides"
+        ],
+        "rows": [
+          {
+            "label": "Constitutional",
+            "values": [
+              "Constitutional law",
+              "Government structure, powers and individual rights"
+            ]
+          },
+          {
+            "label": "Statutory",
+            "values": [
+              "Statutes",
+              "Rules enacted by a legislative branch"
+            ]
+          },
+          {
+            "label": "Administrative",
+            "values": [
+              "Agency authority",
+              "Powers and procedures within jurisdiction"
+            ]
+          },
+          {
+            "label": "Case law",
+            "values": [
+              "Judicial decisions",
+              "Reasoning that can guide later cases"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "constitution-and-jurisdiction",
+      "title": "Rights, hierarchy and jurisdiction",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 3
+        },
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 5
+        },
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 6
+        },
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 8
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The deck calls the first ten constitutional amendments the Bill of Rights. It links constitutional interpretation to the relationship between government power and individual freedom. It also distinguishes federal, state and local law and uses animal regulation to illustrate that different levels may address different aspects of a subject.",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 3
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 5
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 6
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Do not reduce jurisdiction to “federal always decides everything”. The animal example explicitly retains state authority over matters within state borders.",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Slide 7 gives an internally inconsistent sequence by treating Congress and the House of Representatives as separate successive institutions. It is not used here as a reliable bill-making flowchart. The supported distinction is that statutes are enacted legislation, unlike agency rules or judicial precedent.",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 6
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fair-process",
+      "title": "Fair laws and fair enforcement",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 12
+        },
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 13
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The slides distinguish substantive due process, concerned with the fairness of laws themselves, from procedural due process, concerned with non-arbitrary enforcement through proper procedures. Their equity discussion focuses on fairness in resolving disputes.",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 12
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The adversarial system is described as opposing lawyers presenting their strongest arguments. Presumption of innocence and the prosecution’s burden of proof are taught in the context of an accused person. Do not apply that criminal-law description to every civil claim without further material.",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 12
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 13
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Examine the rule",
+          "text": "What rights or restrictions does the rule create?",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 12
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "title": "Examine the procedure",
+          "text": "How is the rule enforced and can the person respond?",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 12
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "title": "Identify the parties’ roles",
+          "text": "Who presents the accusation or claim and who contests it?",
+          "source_refs": [
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 12
+            },
+            {
+              "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+              "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+              "page": 13
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Bill of Rights?",
+      "back": "The first ten amendments to the U.S. Constitution.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Statutory law?",
+      "back": "Law written by a legislative branch.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Administrative law?",
+      "back": "Law concerning authority, procedures and acts of public administration.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Case law?",
+      "back": "Law developed through decisions that can serve as precedent.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Substantive versus procedural due process?",
+      "back": "The slides contrast fairness of the law itself with fairness of the procedure used to enforce it.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Adversarial system?",
+      "back": "Opposing sides present arguments before the court.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 13
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Which category most directly concerns an agency’s powers and procedures?",
+      "options": [
+        "Administrative law",
+        "Only case law",
+        "Only constitutional amendments"
+      ],
+      "answer": 0,
+      "explanation": "The agency category concerns the legal limits and procedures of administration.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "The first ten amendments are called…",
+      "options": [
+        "the administrative code",
+        "the jury instructions",
+        "the Bill of Rights"
+      ],
+      "answer": 2,
+      "explanation": "The presentation explicitly uses this term.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "A court decision used in a later similar dispute is an example of…",
+      "options": [
+        "a local election",
+        "statutory enactment",
+        "case-law precedent"
+      ],
+      "answer": 2,
+      "explanation": "A precedent is drawn from adjudication rather than a legislative vote.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Which question is procedural in the deck’s distinction?",
+      "options": [
+        "Was the law enforced through fair and non-arbitrary steps?",
+        "Is every law morally perfect?",
+        "How old is the constitution?"
+      ],
+      "answer": 0,
+      "explanation": "Procedural due process concerns how the rule is enforced.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "question-5",
+      "prompt": "Why should slide 7 not become a memorised law-making sequence?",
+      "options": [
+        "It gives no names",
+        "It separates Congress and the House in an internally inconsistent way",
+        "It concerns only medieval courts"
+      ],
+      "answer": 1,
+      "explanation": "The notes flag the source limitation rather than teaching its sequence as authoritative.",
+      "source_refs": [
+        {
+          "id": "996f2e3185d44f9a8474efb66c214055c8063b91b4b44233432877755a545bfb",
+          "sha256": "35ea7ce930c9d65b360807b966ffa78c4a0c2d647ac5909ebe24015a0f61b88f",
+          "page": 7
+        }
+      ]
+    }
+  ]
+}

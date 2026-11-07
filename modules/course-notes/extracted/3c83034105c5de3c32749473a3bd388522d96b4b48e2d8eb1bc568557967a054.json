@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "sha256": "3c83034105c5de3c32749473a3bd388522d96b4b48e2d8eb1bc568557967a054",
+  "units": [
+    {
+      "kind": "slide",
+      "label": "slide 1",
+      "number": 1,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Opakování\n\nIrigonometrie\n",
+      "text": "Trigonometrie\nOpakování"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 2",
+      "number": 2,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Zavedení sinus, cosinus, tangens, kotangens\n\nB\nč\na\nA *\nb\nAlternativně:\nsin a\n« É tana =\nŇ protilehlá odvěsna a přilehlá odvěsna b os a\nt= \"-mm\"\"—\"—\"= td =s*—-————\"=\npřepona ( přepona jd\nů protilehlá odvěsna a p přilehlá odvěsna b\nBR = m — cot a = === = — G\npřilehlá odvěsna b protilehlá odvě a „ cosa\nd = —\nsmo\n\n",
+      "text": "Zavedení sinus, cosinus, tangens, kotangens\nAlternativně:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 3",
+      "number": 3,
+      "text": "Stupně (D) vs radiány (R)\nMáme jednotkovou kružnici, jak umíme říct, že jsem kolem středu prošli kolem dokola."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 4",
+      "number": 4,
+      "text": "Stupně (D) vs radiány (R)\nOtočení o 360ᵒ\n\nCo v kontextu jak velkou část jsme ušli (obvod)?\nMáme jednotkovou kružnici, jak umíme říct, že jsem kolem středu prošli kolem dokola."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 5",
+      "number": 5,
+      "text": "Stupně (D) vs radiány (R)\n360ᵒ = 2π rad\nMáme jednotkovou kružnici, jak umíme říct, že jsem kolem středu prošli kolem dokola."
+    },
+    {
+      "kind": "slide",
+      "label": "slide 6",
+      "number": 6,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Oblouková míra (Stupně vs.\n\nH\n\nm/i2 rad\n\nm/8 rad\n\n300\n\n360\n\nn/4rad\n\n57.30\n\nn/3rad\n\n720\n\n/2 rad\n\n120\n\n1449\n\nTrrad\n\n270%\n\n",
+      "text": "\nOblouková míra (Stupně vs. Radiány)\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 7",
+      "number": 7,
+      "text": "Kalkulačka\nD/Deg = degree přepnuto na stupně (zadáváme v úhlech)\t\tsin(30) = sinus 30 stupňů = sinus π/6 radiánů\n\nR/Rad = radians přepnuto na radiány (zadáváme v radiánech)\t\tsin(π) = sinus π radiánů = sinus 180 stupňů\n\n\nVždy si zkontrolujte co máte nastaveného a případně si to přepněte.\n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 8",
+      "number": 8,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Jednotková kružnice (důležité)\n\n, protilehlá odvěsna a přilehlá odvěsna b\nsina = cosa =\n\npřepona ( přepona\n\no\n\ncoSs a =\n\ne| ml|S\n\ny\n\n1\n\nv sina =\nJ |\n\n",
+      "text": "Jednotková kružnice (důležité)"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 9",
+      "number": 9,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Jednotková kružnice (důležité)\n\n",
+      "text": "Jednotková kružnice (důležité)"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 10",
+      "number": 10,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Jednotková kružnice\n\nUrčete:\n\ncos(m)\n\nsin (n/4)\ncos (771/6)\nsin(60“)\ncos(225“)\n\n",
+      "text": "Jednotková kružnice\nUrčete:\n\ncos(π)\nsin (π/4)\ncos (7π/6)\nsin(60ᵒ)\ncos(225ᵒ)"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 11",
+      "number": 11,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Nutno umět\n\nIT<S,EINE\n\nL\n\nEV ERYTHINGZ1S EUNE\n\n",
+      "text": "Nutno umět"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 12",
+      "number": 12,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Jak si to zapamatovat?\n\n1) Každý bod na jednotkové kružnici má souřadnice [cos a, sin a\n\n2) Zapamatovatsi základní úhly (ostatní pak symetricky)\n\nUU SU S\n\n0, 30, 45, 60, 90 respektive v radiánech 0, PArí\n\n3) Zapamatovatsi “postupku“:\n\nv0 v1 V2 V3 v4\n\nV2 V3\n2* 2?2'?2'2 EŽENŮ\n\n2 2\n\n1\n\n, M 1\npo úpravě: 0, PŮ\n",
+      "text": "Jak si to zapamatovat? "
+    },
+    {
+      "kind": "slide",
+      "label": "slide 13",
+      "number": 13,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Zkusme si ji sestavit od nuly\n",
+      "text": "Zkusme si ji sestavit od nuly"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 14",
+      "number": 14,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Vyplňte si podle jednot\n\ncos a\nsinm a\ntan a\n\ncotan a\n\nkové kružnice tabulku základních\n\nhodnot.\n\n00\n\n3045\n\n60?90“\n\n1208\n\n1355\n\n150\n\n180\n\n210\n\n225\n\n240\n\n270\n\n300?\n\nal55\n\n330\n\n360\n\no|a\n\nAJA\n\nwla\n\nto|a\n\nZT\n\n2T\n\n117\n\n27\n\n",
+      "text": "Vyplňte si podle jednotkové kružnice tabulku základních hodnot. \n"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 15",
+      "number": 15,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "(alternativa k zapamatování místo jednotkové\n\nkružnice)\no z z z z z 3T 2\nx 6 4 3 2 2\n0* 30 45? 60* 90% 180* 270% 360\n| /2 J3\nsin 0 1 0 l 0\nin(x) 2 2 2\nJ3 | 2 |\ncos(x) l 0 1 0 l\n4 2 2 2\ntg) | 0 Š I 3 - 0 - 0\n3\ncotg(x) a 3 l \\'3 0 - 0 -\n\n",
+      "text": "(alternativa k zapamatování místo jednotkové kružnice)"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 16",
+      "number": 16,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "A. Znám úhel a jednu stranu v pravoúhlém trojúhelníku\n\nV každém příkladu dopočítejte obě zbývající strany a druhý ostrý úhel. Délky stran zaokrouhlujte na jedno\ndesetinné místo.\n\n1. a= 32 5. a = 36 9. a = 410\na=6,4 b=T73 c=10,4\n2. a=A7 6. a = 54 10. a = 57\nb=8,2 c=15,8 a=11,2\n3. a = 28 T. a = 23 11. a = 39?\nc=12,5 a=4,7 b=94\n4. a=61 8. a = 689 12. a = 649\n\na=9,1 b=5,6 c = 18,6\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 17",
+      "number": 17,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "B. Znám dvě strany v pravoúhlém trojúhelníku\n\nV každém příkladu dopočítejte chybějící stranu a oba ostré úhly a a S Délky stran zaokrouhlujte na jedno\ndesetinné místo. Vypočítané úhly zaokrouhlujte na celé minuty..\n\n13. a = 6,8 17. a=9,8 21. a=6,3\nb=9,3 b=141 c=8,1\n14. a = 12,4 18. a =4,9 2. b=74\nb=5,7 c=9,6 c= 13,5\n15. a= 7,5 19. b=12,7 23. a=8,4\nc=13,2 c= 16,3 b= 13,7\n16. b = 8,6 20. a = 15,2 24. a = 10,6\n\nc=11,9 b=11,6 c=17,4A\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 18",
+      "number": 18,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "1) Jak velký úhel musí svírat pětimetrový žebřík se zemí, aby dosáhl do výšky 4,5 m?\n\n2) Kolik km ujdeme, budeme-li od hladiny moře stoupat na kopec vysoký 1500 m třicetistupňovým stoupáním?\n\n3) Pod jakým úhlem stoupá schodiště, jehož schody jsou 30 cm dlouhé a 14 cm vysoké?\n\n4) Kolik cm bude vyvýšený okraj 40centimetrového podhlavníku nad úrovní lehátka, zvedneme-li jej pod úhlem 30'.\n\n5) Šikmá věž v italském městě Pisa má výšku 56 m. V roce 1990 byla její špička vychýlená o 5m. Jaký uhel svírala v této době věž se zemí? Jak vysoko od země byla její\nšpička?\n\n6) Dva fotony vyletěly ze stejného zdroje světla. Jejich dráhy svíraly úhel 1'. Jak byly od sebe vzdáleny po uražení 1 000 000 km?\n\n7) Rozbitý kompas byl vychýlený o 10\". Jak daleko se ocitla loď od přepokládaného cíle po uplutí 1000 km, pokud se řídila podle tohoto kompasu.\n\n8) Silnice stoupá pod úhlem 5\". Jaký výškový rozdíl překoná auto, které po této silnici ujede 2 Km?\n\n9) Lanovka stoupá pod úhlem 40'. Výškový rozdíl mezi horní a dolní stanicí lanovky je 950 m. Jak dlouhá je trať lanovky?\n\n10) — Měsíc, jehož poloměr je 1 740 km, vidíme v době úplňku pod zorným úhlem o velikosti 30' (0,5). Vypočítejte přibližnou vzdálenost Měsíce od Země.\n11) Slunce je 50\" nad obzorem. Jak dlouhý stín vrhá 180 cm vysoký člověk?\n\n12) — Arciděkanský kostel v Ústí nad Labem má odkloněnou věž o 186 cm. Výška věže je 65 m. Vypočítejte velikost úhlu, o který je věž vychýlena.\n\nZdro\n\n",
+      "text": "Zdroj"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 19",
+      "number": 19,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Obecný trojúhelník\n\nSinová věta:\n\na\n\nsin a\n\n",
+      "text": "Sinová věta:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 20",
+      "number": 20,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Obecný trojúhelník\n\nKosinová věta:\n\n- ? — 2bccos a\nW =d+c - accos B\n\nČ =d+V - 2abcosy\n\n2\nDS]\n|\nJe je\n(S]\n|\n\n",
+      "text": "Kosinová věta:"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 21",
+      "number": 21,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Za pomoci sinové a kosinové věty doplňte chybějící údaje trojúhelníka ABC.\n\na b c a B Y\n1) 10cm 72% 410\n2) 17 cm 94 39\n3) 4,5cm 50% 69%\n4) 8cm 37% 76“\n5) 2,75 cm 125 a0\n6) 9,2 cm 141 22%\n7) 32cm 27 cm 49?\n8) 11cm 7cm 110\n9) 5,6 cm 6,2 cm 95%\n10) 8cm 10cm 42%\n1) 3,74cm | 2,09cm 189\n12) — 107cm 74cm 45%\n13) 45 cm 54cm 82“\n14)) 119cm | 120cm 90“\n15) 27 cm 29cm 53cm\n16) 19cm 40cm 85%\n17) 77 cm 36cm 85cm\n\nZdro\n\n",
+      "text": "Zdroj"
+    },
+    {
+      "kind": "slide",
+      "label": "slide 22",
+      "number": 22,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Svisle rostoucí strom je vysoký 39:m. Místo pozorování P je od paty kmene vzdáleno 101 m a od vr-\ncholu stromu 128m. Určete velikost zorného úhlu g, pod kterým je strom z místa P vidět. Výsledek\nzaokrouhlete na celé stupně.\n\n\"Trojúhelník ABC má délky stran\na= 3cm, b= 5cm, c=T7cm.\n\nUrčete součet velikostí dvou nejmenších vnitřních úhlů.\n\nV trojúhelníku ABC platí\n|A4B] = 7cm, |C BAC] = 30\", |LABC] = 70'.\n\nUrčete délku strany AC s přesností na desetiny centimetru.\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 23",
+      "number": 23,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Určete délku strany x. Určete délku strany x.\n\no\n\n5cm 6cm 7cm\n\nSSA — (00/\n",
+      "text": ""
+    },
+    {
+      "kind": "slide",
+      "label": "slide 24",
+      "number": 24,
+      "ocr_requires_visual_verification": true,
+      "ocr_text": "Pravoúhlý trojúhelník\n\nB\n\nObecný trojúhelník\n\no\n\nn\n\nPytha;\n\ngorova věta\n\nGoniometrické funkce\n\nsina =\n\nprotilehlá odvěsna\n\npřepona\n\ncosa =\n\npřilehlá odvěsna\npřepona\n\nSinová věta\na b\n\nsina | sinf - siny\n\nKosinová věta\n\nd=slt+c — Aecosa\n\nPv =d+d-accosB\n\nd =d+bV- abcosy\n\ntana =\n\nprotilehlá odvěsna\npřilehlá odvěsna\n\n",
+      "text": ""
+    }
+  ]
+}

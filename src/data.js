@@ -1,3 +1,4 @@
+import {courseSubjects,courseUnits} from './course-catalog.js';
 /** @typedef {{id:string,name:string,color:string,tint:string,icon:string,description:string}} Subject */
 /** @typedef {{id:string,subjectId:string,title:string,label?:string,description:string,module?:string,kind?:'collection',relatedUnitIds?:string[],materials:Array<{title:string,description:string,url:string}>,notes?:string[]}} StudyUnit */
 /** @typedef {{id:string,unitId?:string,date:string,type:'test'|'homework'|'review'|'excursion',allDay?:boolean,title:string,description:string}} StudyEvent */
@@ -10,6 +11,8 @@ export const subjects = [
   {id:'literature',name:'Literatura',color:'#a56c7b',tint:'#f8eff2',icon:'book',description:'Příběhy, které stojí za pochopení.'},
   {id:'history',name:'Dějepis',color:'#94704e',tint:'#f5efe8',icon:'clock',description:'Historická období a jejich souvislosti.'},
 ];
+
+subjects.push(...courseSubjects.filter(subject=>!subjects.some(existing=>existing.id===subject.id)));
 
 /** @type {StudyUnit[]} */
 export const units = [
@@ -39,6 +42,7 @@ export const units = [
   ]},
   {id:'miser',subjectId:'literature',title:'Rozbor Lakomce',label:'DOMÁCÍ ÚKOL',description:'Odevzdání rozboru Molièrova Lakomce. Zadání a materiály zatím nebyly přidány.',materials:[]},
   {id:'baroque',subjectId:'history',title:'Baroko',label:'PŘÍPRAVA NA TEST',description:'Test z baroka. Přesné zadání a studijní podklady zatím nebyly přidány.',materials:[]},
+  ...courseUnits,
 ];
 
 /** @type {StudyEvent[]} */
@@ -52,6 +56,7 @@ export const events = [
 ];
 
 export const moduleLoaders = {
+  'course-notes': () => import('../modules/course-notes/index.js'),
   biology: () => import('../modules/biology/index.js'),
   law: () => import('../modules/law/index.js'),
   'math-trig': () => import('../modules/math-trig/index.js'),

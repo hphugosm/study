@@ -1,0 +1,872 @@
+{
+  "schema": 1,
+  "subject": "chemistry",
+  "topic": "section-13cf3b395902e13f5c79e4ca06606662",
+  "title": "Enzymy biokatalyzátory",
+  "language": "cs",
+  "intro": "Enzym chápej jako konkrétní katalyzátor s aktivním místem, nikoli jen jako název končící na -áza. Propoj stavbu, specifitu, podmínky reakce a možnosti regulace.",
+  "sources": [
+    {
+      "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+      "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+      "title": "Enzymy 2025.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2.pptx",
+      "extraction_url": "./extracted/96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2.zip"
+    },
+    {
+      "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+      "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65",
+      "title": "Enzymy - řešení 2020.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65.pdf",
+      "extraction_url": "./extracted/9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "enzym-aktivni-misto",
+      "title": "Katalýza začíná aktivním místem",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 4
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 5
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 6
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 7
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 10
+        },
+        {
+          "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+          "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Enzymy urychlují přeměnu substrátů na produkty a snižují aktivační energii dané reakce. Substrát se váže do aktivního místa. Enzym má specifitu k substrátu i k typu přeměny, proto jedna molekula substrátu nemusí procházet všemi možnými reakcemi stejnou rychlostí.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 4
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 5
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 6
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Většina probíraných enzymů jsou bílkoviny. Prezentace výslovně zmiňuje i ribozymy, tedy katalyticky působící RNA. Aktivní místo je oblast umožňující vhodné navázání substrátu pomocí slabších interakcí.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Aktivační energie je bariéra přeměny. Enzym tuto bariéru snižuje; z tohoto tvrzení nevyplývá, že by určoval nový libovolný produkt.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 5
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/5160f216d302400397b34fb570873ad8eb7e98d956203c6a57331db69331cc46.webp",
+          "alt": "Schéma aktivační energie pomáhá porovnat průběh reakce s katalyzátorem a bez něj. Snímek 5.",
+          "caption": "Schéma aktivační energie pomáhá porovnat průběh reakce s katalyzátorem a bez něj. Snímek 5.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 5
+            }
+          ],
+          "source_media": "extracted/96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2/media/slide-005-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "komplex-enzym-substrat",
+      "title": "Navázání, přeměna a uvolnění produktu",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 10
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 11
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 29
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Starší model zámku a klíče zdůrazňuje vzájemnou vhodnost enzymu a substrátu. Model indukovaného přizpůsobení navíc popisuje změnu uspořádání aktivního místa při navázání substrátu.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Základní sled je enzym + substrát → komplex enzym–substrát → enzym + produkty. Produkty opustí aktivní místo a enzym může vstoupit do dalšího cyklu.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 11
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 29
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Rozpoznání substrátu",
+          "text": "Substrát se setká s aktivním místem, jehož vlastnosti umožní navázání.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "title": "Přizpůsobení a přeměna",
+          "text": "Při indukovaném přizpůsobení se enzym substrátu přizpůsobí a katalyzuje určitou reakci.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "title": "Uvolnění produktů",
+          "text": "Produkty opustí aktivní místo; katalyzátor se může znovu účastnit další přeměny.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 11
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/672f632912a8b22851b55cfe1549dbf1de0660888707524fef3518d31fce362c.webp",
+          "alt": "Zámek a klíč a indukované přizpůsobení: sleduj, co se mění při navázání substrátu. Snímek 11.",
+          "caption": "Zámek a klíč a indukované přizpůsobení: sleduj, co se mění při navázání substrátu. Snímek 11.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 11
+            }
+          ],
+          "source_media": "extracted/96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2/media/slide-011-preview.png",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "id": "holoenzym",
+      "title": "Bílkovinná část a potřebný kofaktor",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 13
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 14
+        },
+        {
+          "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+          "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "U složeného enzymu se rozlišuje apoenzym, tedy bílkovinná složka, a kofaktor, nebílkovinná součást potřebná pro danou funkci. Jejich funkční celek se označuje jako holoenzym.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 13
+            },
+            {
+              "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+              "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Podklad rozlišuje kofaktory pevněji vázané a koenzymy, které mohou přenášet skupiny nebo atomy mezi reakcemi. Uvádí například koenzym A související s přenosem acetylových zbytků.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Apoenzym a kofaktor nejsou dvě různá jména celého enzymu: jsou to jeho odlišné součásti.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 13
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Apoenzym",
+          "Kofaktor"
+        ],
+        "rows": [
+          {
+            "label": "Povaha",
+            "values": [
+              "Bílkovinná složka složeného enzymu.",
+              "Nebílkovinná složka."
+            ]
+          },
+          {
+            "label": "Vztah k celku",
+            "values": [
+              "Spolu s potřebným kofaktorem tvoří funkční holoenzym.",
+              "Doplňuje bílkovinnou složku při konkrétní funkci."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "aktivita-inhibice",
+      "title": "Aktivita závisí na prostředí i regulátorech",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 15
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 30
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Koncentrace substrátu ovlivňuje dostupnost látky pro reakci.",
+            "pH a teplota patří mezi podmínky, které mění enzymovou aktivitu.",
+            "V přehledu je uvedena také iontová síla prostředí.",
+            "Aktivátory aktivitu zvyšují; inhibitory ji snižují."
+          ],
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 15
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 30
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Při vratné inhibici může po uvolnění inhibitoru enzym znovu fungovat. Při nevratné inhibici je enzym trvale inaktivován v rámci popisovaného modelu.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 30
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Z věty „teplota ovlivňuje aktivitu“ nelze odvodit „čím vyšší teplota, tím vždy lepší funkce“. V testové odpovědi rozlišuj podmínku reakce a regulátor aktivity.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 15
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Aktivátor",
+          "Inhibitor"
+        ],
+        "rows": [
+          {
+            "label": "Vliv podle přehledu",
+            "values": [
+              "Zvyšuje aktivitu enzymu.",
+              "Snižuje aktivitu enzymu."
+            ]
+          },
+          {
+            "label": "Doplňující rozlišení",
+            "values": [
+              "Posuzujeme účinek na činnost enzymu.",
+              "Podklad rozlišuje vratnou a nevratnou inhibici."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "enzymove-tridy",
+      "title": "Šest tradičních tříd v dodaném učivu",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 18
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 19
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 20
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 21
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 22
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 23
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 24
+        },
+        {
+          "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+          "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Prezentace a řešení pracovního listu používají tradiční rozdělení do šesti tříd podle typu katalyzované reakce. U názvu vždy přiřaď děj, který popisuje.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 18
+            },
+            {
+              "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+              "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Oxidoreduktázy: oxidačně-redukční děje.",
+            "Transferázy: přenos funkčních skupin.",
+            "Hydrolázy: hydrolytické štěpení vazeb.",
+            "Lyázy: nehydrolytické štěpení či adice/eliminace na dvojné vazbě.",
+            "Izomerázy: přesuny vedoucí ke vzniku izomerů.",
+            "Ligázy: vznik vazeb spojený se spotřebou energie."
+          ],
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 19
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 20
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 21
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 22
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 23
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travici-enzymy",
+      "title": "Přiřaď trávicí enzym ke štěpené látce",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 16
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 17
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 34
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 35
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 36
+        },
+        {
+          "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+          "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Trávicí enzymy rozkládají velké molekuly na menší produkty. Mnohé probírané trávicí enzymy patří mezi hydrolázy; název často odkazuje na substrát nebo typ vazby.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 16
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pepsin, trypsin a chymotrypsin souvisejí se štěpením bílkovin a peptidových vazeb.",
+            "Lipázy štěpí tuky.",
+            "Amylázy štěpí škrob na jednodušší sacharidy.",
+            "Laktáza štěpí laktózu; sacharáza sacharózu; maltáza maltózu."
+          ],
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 17
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 36
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Pracovní zadání dovoluje započítat také proenzym pepsinogen. Při vyjmenování ho označ jako předstupeň enzymu, ne jako další nezávislou katalytickou třídu.",
+          "source_refs": [
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 33
+            },
+            {
+              "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+              "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+              "page": 34
+            },
+            {
+              "id": "3dfc9d5be4460cf4864d21b540b5bd896cc4dbe328a6dbd131abdf621ee7b970",
+              "sha256": "9ca7bf2a4550c6bda473abf592740d1f69783848c6eb8ad96d44bd1158951d65",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "c-aktivni-misto",
+      "front": "Co je aktivní místo?",
+      "back": "Oblast enzymu, kde se váže substrát a probíhá katalyzovaná přeměna.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "c-specifita",
+      "front": "Jak se liší substrátová specifita a specifita účinku?",
+      "back": "První popisuje upřednostnění substrátu, druhá určitého typu jeho přeměny.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 6
+        },
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "c-holoenzym",
+      "front": "Z čeho se skládá holoenzym?",
+      "back": "Z apoenzymu a potřebného kofaktoru.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "c-inhibitor",
+      "front": "Jak působí inhibitor?",
+      "back": "Snižuje aktivitu enzymu; podklad rozlišuje vratnou a nevratnou inhibici.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 30
+        }
+      ]
+    },
+    {
+      "id": "c-hydrolazy",
+      "front": "Která třída enzymů katalyzuje hydrolytické štěpení?",
+      "back": "Hydrolázy; příklady jsou peptidázy a lipázy.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "c-laktaza",
+      "front": "Co štěpí laktáza?",
+      "back": "Laktózu na glukózu a galaktózu.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 17
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-bariery",
+      "prompt": "Co enzym podle prezentace dělá s aktivační energií?",
+      "options": [
+        "Snižuje ji",
+        "Vždy ji zvyšuje",
+        "Nahrazuje ji změnou genetického kódu"
+      ],
+      "answer": 0,
+      "explanation": "Enzym usnadňuje danou přeměnu snížením aktivační bariéry.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "q-ribozym",
+      "prompt": "Který příklad v prezentaci ukazuje, že katalyzátor nemusí být bílkovina?",
+      "options": [
+        "Glykogen",
+        "Molekula cholesterolu",
+        "Ribozym tvořený RNA"
+      ],
+      "answer": 2,
+      "explanation": "Snímek 10 výslovně uvádí také enzymy tvořené ribonukleovou kyselinou – ribozymy.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "q-substrat",
+      "prompt": "Co zdůrazňuje substrátová specifita?",
+      "options": [
+        "Žádný enzym nemá aktivní místo",
+        "Enzym upřednostňuje určitý substrát",
+        "Každý enzym přijímá libovolný substrát"
+      ],
+      "answer": 1,
+      "explanation": "Specifita je vlastnost konkrétního enzymu; výběr substrátu je jiná otázka než typ katalyzované reakce.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "q-prizpusobeni",
+      "prompt": "Co vystihuje indukované přizpůsobení?",
+      "options": [
+        "Uspořádání enzymu se při navázání substrátu přizpůsobuje",
+        "Substrát se mění na buněčné jádro",
+        "Každý enzym se po reakci musí změnit na vitamín"
+      ],
+      "answer": 0,
+      "explanation": "Model rukavice a ruky vysvětluje přizpůsobení aktivního místa lépe než představa zcela nehybného zámku.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "q-apoenzym",
+      "prompt": "Co je apoenzym?",
+      "options": [
+        "Každý produkt enzymové reakce",
+        "Pouze volný fosfát v roztoku",
+        "Bílkovinná část složeného enzymu"
+      ],
+      "answer": 2,
+      "explanation": "Apoenzym se spolu s kofaktorem podílí na tvorbě funkčního holoenzymu.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "q-vratna",
+      "prompt": "Čím se v podkladu liší vratná inhibice?",
+      "options": [
+        "Nikdy nezávisí na vazbě inhibitoru",
+        "Po uvolnění inhibitoru je možná opětovná funkce",
+        "Enzym je vždy úplně zničen"
+      ],
+      "answer": 1,
+      "explanation": "Vratnost popisuje možnost obnovení funkce; nevratná inhibice enzym inaktivuje trvale v popsaném modelu.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 30
+        }
+      ]
+    },
+    {
+      "id": "q-transferaza",
+      "prompt": "Která třída katalyzuje přenos skupin?",
+      "options": [
+        "Transferázy",
+        "Hydrolázy",
+        "Izomerázy"
+      ],
+      "answer": 0,
+      "explanation": "Transferázy přenášejí skupiny. Hydrolázy vazby hydrolyticky štěpí a izomerázy mění uspořádání uvnitř molekuly.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "id": "q-lipaza",
+      "prompt": "Který enzym přiřadíš ke štěpení tuků?",
+      "options": [
+        "DNA-polymerázu",
+        "Laktázu",
+        "Lipázu"
+      ],
+      "answer": 2,
+      "explanation": "Lipázy štěpí lipidy; laktáza se vztahuje k mléčnému cukru a DNA-polymeráza k tvorbě DNA.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "q-ligaza",
+      "prompt": "Který popis odpovídá ligázám v přehledu?",
+      "options": [
+        "Jen odbourávání ribozomů",
+        "Tvorba vazeb za současného využití energie",
+        "Výhradně přenos světla do chlorofylu"
+      ],
+      "answer": 1,
+      "explanation": "Ligázy katalyzují energeticky náročný vznik vazeb, jak popisuje snímek 24.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "id": "q-laktoza",
+      "prompt": "Na jaké jednotky rozkládá laktáza laktózu?",
+      "options": [
+        "Glukózu a galaktózu",
+        "Dvě fruktózy",
+        "Glycerol a tři mastné kyseliny"
+      ],
+      "answer": 0,
+      "explanation": "Prezentace uvádí štěpení mléčného cukru na glukózu a galaktózu.",
+      "source_refs": [
+        {
+          "id": "13d7974cc18751a7a5d9582c81345c5bfe82e41dbf861070c397a926e05d71c3",
+          "sha256": "96ad81d2b9a1093bf7d47ad6b2cb36faf5543853086d633e657d8bb0aca09dd2",
+          "page": 17
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "sha256": "e1a6f96304e65eb5684bd6030dee9759ea4d97bfdb37e2452fa440d88d3f5948",
+  "units": [
+    {
+      "kind": "sheet",
+      "label": "List1",
+      "number": 1,
+      "text": "Známka čtvrtletky:\tZnámka test:\tZnámka DP:\tZnámka aktivita:\tCelkový průměr:\n=(4*B5+3*D5+2*K5+O5)/10\nPrůměr:\tPrůměr:\tPrůměr:\tPrůměr:\n=AVERAGE(B3:C3)\t=AVERAGE(D3:J3)\t=AVERAGE(K3:N3)\t=O3"
+    }
+  ]
+}

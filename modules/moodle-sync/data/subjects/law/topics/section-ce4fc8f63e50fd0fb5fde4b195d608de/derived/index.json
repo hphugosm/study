@@ -2,5 +2,24 @@
   "schema": 1,
   "subject_id": "law",
   "topic_id": "section-ce4fc8f63e50fd0fb5fde4b195d608de",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Unit 1.2 - History of Common Law and Punishment",
+      "kind": "notes",
+      "path": "data/subjects/law/topics/section-ce4fc8f63e50fd0fb5fde4b195d608de/derived/course-notes-v1/notes.json",
+      "sha256": "9654a97c5045f4c4d8d1faec80a1c9e2524ab9b91b2e16ebd245d135d3d553ba",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370"
+        },
+        {
+          "id": "e0f9c3f64511c0ea8f72be846fd06b97c86c60fe861638e8239cef546ddc235c",
+          "sha256": "28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

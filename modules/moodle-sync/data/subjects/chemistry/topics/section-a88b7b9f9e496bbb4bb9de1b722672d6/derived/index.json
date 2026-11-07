@@ -2,5 +2,32 @@
   "schema": 1,
   "subject_id": "chemistry",
   "topic_id": "section-a88b7b9f9e496bbb4bb9de1b722672d6",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Dopnění učiva z 1. a 2. ročníku, pro maturanty z chemie",
+      "kind": "notes",
+      "path": "data/subjects/chemistry/topics/section-a88b7b9f9e496bbb4bb9de1b722672d6/derived/course-notes-v1/notes.json",
+      "sha256": "ac604b256e3b4562a480a7e4a240ca8a3b31b7a26881aad3542a8c10886b3ea9",
+      "source_refs": [
+        {
+          "id": "3c6ede12fb0a7b919acfa2f2017022485fff25b1a511f82af89f7ca6177db674",
+          "sha256": "e902ff942ef480b1f2e3b8738c448633c633a87294c6e7d0426035a5a585976b"
+        },
+        {
+          "id": "b176a1f1b3bfff8ac3a808b23804e4cc96f9f4e031b07f9e05a2da194aba496c",
+          "sha256": "29c0c56d9779ac43af2b0ccd24c6e0c97dc60db56053859d39a16a8134eb528b"
+        },
+        {
+          "id": "dc4b3b0397e4a85787269460025c0502dc4488ae9f3e1ba887230b261c4e560e",
+          "sha256": "e2e8d767d3c93bc0e51fab432602c8985c77fab53b96568f4990e64b82f2cbae"
+        },
+        {
+          "id": "e33408b0f738b29196ae5bfb406be1f82fc4d18dd07d1f7bb7d215ce0e1daa9e",
+          "sha256": "4f84f8b6b6d77afc14f465ac8fda6334cd6006c7dd35649684d4617314445693"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

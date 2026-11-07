@@ -1,0 +1,833 @@
+{
+  "schema": 1,
+  "subject": "american-literature",
+  "topic": "section-a9d166e490df453c42d14ac8c07c087c",
+  "title": "Modernism: The Harlem Renaissance",
+  "language": "en",
+  "intro": "Read the Harlem Renaissance through three connected lenses: the historical setting, a poem’s speaking voice and a short story’s changing relationships. Context helps interpretation, but each claim about a character or speaker still needs evidence from the work.",
+  "sources": [
+    {
+      "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+      "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+      "title": "Harlem Renaissance.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc.pdf",
+      "extraction_url": "./extracted/9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc.zip"
+    },
+    {
+      "id": "53cbfe7f2e9d7c59740661c4edf96ab22c874c70077e7f9bead8a634029f3afa",
+      "sha256": "2776be4e696f634ce94d5be61da1fd55f434239cf75c3b035b4f740753e125ce",
+      "title": "Thank You, M_am Characterisation Worksheet.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/2776be4e696f634ce94d5be61da1fd55f434239cf75c3b035b4f740753e125ce.docx",
+      "extraction_url": "./extracted/2776be4e696f634ce94d5be61da1fd55f434239cf75c3b035b4f740753e125ce.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/2776be4e696f634ce94d5be61da1fd55f434239cf75c3b035b4f740753e125ce.zip"
+    },
+    {
+      "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+      "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+      "title": "Let America Be America Again (story only).pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95.pdf",
+      "extraction_url": "./extracted/a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95.zip"
+    },
+    {
+      "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+      "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+      "title": "Thank You Mam.doc",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0.doc",
+      "extraction_url": "./extracted/084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0.zip"
+    },
+    {
+      "id": "fda7da217706b38f1c9ccbd64d591567df52b11c353fb38e2398bf25e6312ab3",
+      "sha256": "c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747",
+      "title": "LABAG Student Worksheet.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747.pdf",
+      "extraction_url": "./extracted/c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "migration",
+      "title": "Migration and the setting of Harlem",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The presentation connects movement north with the difficult conditions facing Black people in the South, including sharecropping and institutionalized racism. It also mentions immigration from the Caribbean. Harlem’s cultural setting therefore emerges from several journeys, not a single uniform experience.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "During the First World War, European labour migration slowed while demand for industrial workers grew. The presentation links these conditions with the Great Migration into cities. Returning Black soldiers nevertheless encountered unequal treatment and the racial violence of the Red Summer of 1919. Cultural achievement and racial exclusion coexist in this account.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "label": "After the Civil War",
+          "text": "The source describes difficult conditions in the South and movement north.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "label": "First World War",
+          "text": "Industrial labour demand grows while European labour migration slows.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "label": "1919",
+          "text": "The presentation connects returning veterans with unequal treatment and the Red Summer.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "label": "1920s",
+          "text": "Harlem, New York, is the presentation’s focus for the Renaissance.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/038a56f72e050d4af1f4bebcfb6118bca8cc5c14b79d8a55ec03ec9a63466bfb.webp",
+          "alt": "Presentation page linking wartime labour demand, migration and returning soldiers",
+          "caption": "Historical setting, source page 3.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 3
+            }
+          ],
+          "source_media": "extracted/9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc/media/page-003-preview.png",
+          "width": 1400,
+          "height": 789
+        }
+      ]
+    },
+    {
+      "id": "mckay-form",
+      "title": "McKay: form gives resistance a structure",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In “If We Must Die,” the speaker addresses a threatened group and insists on dignity under attack. The animal imagery initially presents people as hunted and confined; the closing movement insists on human courage. This is a reading of the poem’s rhetoric, not an invitation to treat its violent imagery as literal advice.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The presentation identifies a Shakespearean sonnet with the rhyme scheme ABAB CDCD EFEF GG. Its divisions move from the danger, through the wish not to die in vain, to a direct call to the group and a final couplet of resistance. Form and argument work together: the concluding pair of lines concentrates the response.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 7
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Lines 1–4: name the threat",
+          "text": "The speaker and allies are under attack.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Lines 5–8: insist on dignity",
+          "text": "The argument shifts toward the meaning of their resistance.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Lines 9–12: address the group",
+          "text": "The speaker calls on allies despite being outnumbered.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Lines 13–14: close forcefully",
+          "text": "The final couplet condenses the stance of fighting back.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hughes-dreams",
+      "title": "Hughes: a dream as a condition of life",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 11
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“Dreams” uses two concrete images to explain an abstract need. Without dreams, life becomes first a bird unable to fly and then a field made barren by cold. The images differ, but both remove a living thing’s possibility of movement or growth. The repeated instruction makes the poem direct and urgent.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "An effective analysis names the image and explains what it does. “The poem uses nature” is less precise than explaining how lost flight and frozen growth represent a life without aspiration.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roger-trust",
+      "title": "Thank You, M’am: from attempted theft to trust",
+      "source_refs": [
+        {
+          "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+          "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+          "locator": "odstavec 3"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Roger’s attempt to steal Mrs. Jones’s purse fails. At first she physically restrains him, and he admits he would run if released. The story begins with conflict and mistrust rather than an instantly friendly encounter.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The relationship changes when she lets him wash his face. He looks at the open door but goes to the sink. Later, although she leaves her purse unwatched, he chooses to sit where she can see him. His actions provide stronger evidence of change than simply labelling him “good” at the end.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 26"
+            },
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 39"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Roger says he wanted blue suede shoes. Mrs. Jones initially assumes hunger, but the narrative supplies his stated reason. Distinguish a character’s inference from the information another character actually gives.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 31"
+            },
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 32"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. Jones admits that she too has done things she would not wish to reveal. She offers food, conversation and money while still telling Roger not to steal. Kindness in this story does not mean declaring the theft acceptable.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 38"
+            },
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 43"
+            },
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 45"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Fear of restraint",
+          "text": "Roger says he would run if let go.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 11"
+            }
+          ]
+        },
+        {
+          "title": "A choice at the open door",
+          "text": "He goes to the sink rather than escaping.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 26"
+            }
+          ]
+        },
+        {
+          "title": "A wish to deserve trust",
+          "text": "He stays visible and no longer wants to be mistrusted.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 39"
+            }
+          ]
+        },
+        {
+          "title": "Gratitude beyond words",
+          "text": "At departure he struggles to express more than thanks.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 47"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character-evidence",
+      "title": "Turn character evidence into an argument",
+      "source_refs": [
+        {
+          "id": "53cbfe7f2e9d7c59740661c4edf96ab22c874c70077e7f9bead8a634029f3afa",
+          "sha256": "2776be4e696f634ce94d5be61da1fd55f434239cf75c3b035b4f740753e125ce",
+          "locator": "tabulka 5"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The characterisation worksheet separates inference, action, motive and evidence. Begin with a specific action, propose a motive, and explain how a detail supports that motive. A possible motive is an interpretation; do not present it as the narrator’s statement unless the story actually says it.",
+          "source_refs": [
+            {
+              "id": "53cbfe7f2e9d7c59740661c4edf96ab22c874c70077e7f9bead8a634029f3afa",
+              "sha256": "2776be4e696f634ce94d5be61da1fd55f434239cf75c3b035b4f740753e125ce",
+              "locator": "tabulka 5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The presentation calls Roger dynamic because he changes during the encounter. It calls Mrs. Jones static within the story, while noting that she has changed since her youth. Static does not mean unimportant or without a past: it describes the character’s development during the narrated episode.",
+          "source_refs": [
+            {
+              "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+              "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. Jones avoids questions about Roger’s home that would embarrass him and instead describes her own work. Alongside feeding him, this supports an interpretation of her as considerate as well as firm.",
+          "source_refs": [
+            {
+              "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+              "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+              "locator": "odstavec 43"
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Roger",
+          "Mrs. Jones"
+        ],
+        "rows": [
+          {
+            "label": "Development in this encounter",
+            "values": [
+              "Moves from attempted theft and escape toward wanting trust.",
+              "Maintains her firm and generous approach."
+            ]
+          },
+          {
+            "label": "Evidence to examine",
+            "values": [
+              "The open door, the unwatched purse and his offer to help.",
+              "Her account of her youth, the meal and the ten dollars."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "america-voices",
+      "title": "The American ideal and the excluded speaker",
+      "source_refs": [
+        {
+          "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+          "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“Let America Be America Again” repeatedly invokes an ideal of liberty and opportunity, then interrupts it with a voice saying that the ideal has not been experienced equally. The parentheses are not decorative: they bring a personal objection into the larger public promise.",
+          "source_refs": [
+            {
+              "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+              "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The speaker expands through repeated statements of identity: poor workers, farmers, immigrants, Black people and Indigenous people are among the groups named. This creates a collective voice from experiences of exclusion. The poem criticizes domination and greed while also insisting that the promise can still be made real.",
+          "source_refs": [
+            {
+              "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+              "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The worksheet asks how the tone changes. A supported answer should follow the movement: an appeal to the dream, interruption and challenge, the naming of excluded groups, and a closing insistence on change. The ending is not simple satisfaction with the present, nor a complete abandonment of hope.",
+          "source_refs": [
+            {
+              "id": "fda7da217706b38f1c9ccbd64d591567df52b11c353fb38e2398bf25e6312ab3",
+              "sha256": "c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747",
+              "page": 1
+            },
+            {
+              "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+              "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "The vocabulary sheet distinguishes liberty, equality, exploitation and hope. In analysis, explain how an ideal is contradicted by the situation described. Historical racial terms in the poem should be discussed as source language, not adopted as present-day labels.",
+          "source_refs": [
+            {
+              "id": "fda7da217706b38f1c9ccbd64d591567df52b11c353fb38e2398bf25e6312ab3",
+              "sha256": "c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Hear the promise",
+          "text": "The opening invokes a free and loving America.",
+          "source_refs": [
+            {
+              "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+              "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Hear the interruption",
+          "text": "Parenthetical statements challenge who has experienced that promise.",
+          "source_refs": [
+            {
+              "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+              "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Trace the widening voice",
+          "text": "Repeated identities connect several excluded groups.",
+          "source_refs": [
+            {
+              "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+              "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Read the ending",
+          "text": "The speaker demands a future in which the ideal becomes real.",
+          "source_refs": [
+            {
+              "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+              "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/3f06eb2cd54efcaed3e61f6c27bc45a80f7fb1203406e4cddf76e03ae69cddf3.webp",
+          "alt": "Vocabulary table for the poem’s ideals, oppression and hope",
+          "caption": "Use the worksheet’s vocabulary to distinguish the promise from the conditions described.",
+          "source_refs": [
+            {
+              "id": "fda7da217706b38f1c9ccbd64d591567df52b11c353fb38e2398bf25e6312ab3",
+              "sha256": "c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747",
+              "page": 2
+            }
+          ],
+          "source_media": "extracted/c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747/media/page-002-preview.png",
+          "width": 991,
+          "height": 1400
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "great-migration",
+      "front": "Which wartime labour conditions does the presentation connect with the Great Migration?",
+      "back": "Reduced European labour migration and increased industrial demand.",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "sonnet",
+      "front": "What form and rhyme scheme does the presentation give for “If We Must Die”?",
+      "back": "A Shakespearean sonnet: ABAB CDCD EFEF GG.",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "dream-images",
+      "front": "What two images show life without dreams?",
+      "back": "A bird unable to fly and a barren, frozen field.",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "dynamic",
+      "front": "Why is Roger described as dynamic?",
+      "back": "His behaviour and attitude change during the encounter: he comes to want trust rather than escape.",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "motive",
+      "front": "What reason does Roger give for trying to steal?",
+      "back": "He wanted blue suede shoes.",
+      "source_refs": [
+        {
+          "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+          "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+          "locator": "odstavec 32"
+        }
+      ]
+    },
+    {
+      "id": "parentheses",
+      "front": "What do the poem’s parenthetical interruptions contribute?",
+      "back": "They challenge the public ideal with the experience of a speaker excluded from it.",
+      "source_refs": [
+        {
+          "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+          "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "front": "How does the worksheet connect a character action to a motive?",
+      "back": "State the action, suggest a motive and support the inference with evidence.",
+      "source_refs": [
+        {
+          "id": "53cbfe7f2e9d7c59740661c4edf96ab22c874c70077e7f9bead8a634029f3afa",
+          "sha256": "2776be4e696f634ce94d5be61da1fd55f434239cf75c3b035b4f740753e125ce",
+          "locator": "tabulka 5"
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "front": "Does the poem’s criticism eliminate all hope?",
+      "back": "No. The ending insists that a free and equal America must still be made real.",
+      "source_refs": [
+        {
+          "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+          "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-migration",
+      "prompt": "Which combination explains the wartime labour demand described in the presentation?",
+      "options": [
+        "More European workers and fewer industrial jobs",
+        "Reduced European migration and growing industrial demand",
+        "An end to all movement into cities"
+      ],
+      "answer": 1,
+      "explanation": "The source links labour shortages and industrial demand with the Great Migration; it does not describe migration as ending.",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "prompt": "Which rhyme scheme does the presentation assign to McKay’s sonnet?",
+      "options": [
+        "ABAB CDCD EFEF GG",
+        "AABB throughout without a final couplet",
+        "No patterned rhyme is identified"
+      ],
+      "answer": 0,
+      "explanation": "Page 7 explicitly identifies a Shakespearean sonnet and this rhyme scheme.",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "dreams",
+      "prompt": "What connects the bird and field images in “Dreams”?",
+      "options": [
+        "Both show life flourishing without hope.",
+        "Both remove a capacity for movement or growth.",
+        "Both describe the speaker travelling to Harlem."
+      ],
+      "answer": 1,
+      "explanation": "The bird cannot fly and the field cannot grow; the paired images make the loss of aspiration concrete.",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "shoes",
+      "prompt": "What does Roger say he wanted?",
+      "options": [
+        "A train ticket",
+        "Food for a family member",
+        "Blue suede shoes"
+      ],
+      "answer": 2,
+      "explanation": "Hunger is Mrs. Jones’s initial inference. Roger explicitly names the shoes.",
+      "source_refs": [
+        {
+          "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+          "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+          "locator": "odstavec 32"
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "prompt": "Which action best supports the claim that Roger now wants to be trusted?",
+      "options": [
+        "He sits where Mrs. Jones can see him although the door is open.",
+        "He successfully runs away with the purse.",
+        "He asks Mrs. Jones to lock the door."
+      ],
+      "answer": 0,
+      "explanation": "He voluntarily stays visible. The story gives him an opportunity to run but shows a different choice.",
+      "source_refs": [
+        {
+          "id": "bef49436affec32be1f8ec0384c3d8421757d36cdfe51e3c77aa66f8503f6db2",
+          "sha256": "084b7dd12cd661dd3981a1087a78984458da8869191358afe861b997a6e020e0",
+          "locator": "odstavec 39"
+        }
+      ]
+    },
+    {
+      "id": "static",
+      "prompt": "What does “static” mean for Mrs. Jones in the presentation?",
+      "options": [
+        "She has never changed at any point in her life.",
+        "Her character does not substantially change during this encounter.",
+        "She does not affect the plot."
+      ],
+      "answer": 1,
+      "explanation": "The presentation distinguishes stability during the story from the changes she describes since her youth.",
+      "source_refs": [
+        {
+          "id": "108035eb637f67f21be4e6e05de8ac9ed901ca3eb19e4d31870af73b2d100b04",
+          "sha256": "9fff36a7d37a025e2e5dc8dddd3b194ba7e4ecafb117ba17ff41b8e20476b6bc",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "parenthesis",
+      "prompt": "What is the strongest reading of the parenthetical lines in Hughes’s poem?",
+      "options": [
+        "They supply unrelated publication details.",
+        "They confirm that everyone already enjoys equality.",
+        "They interrupt the ideal with an excluded speaker’s experience."
+      ],
+      "answer": 2,
+      "explanation": "The interruption challenges the promise of universal freedom, which is central to the worksheet’s questions.",
+      "source_refs": [
+        {
+          "id": "fda7da217706b38f1c9ccbd64d591567df52b11c353fb38e2398bf25e6312ab3",
+          "sha256": "c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747",
+          "page": 1
+        },
+        {
+          "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+          "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "poem-ending",
+      "prompt": "Which statement best describes the poem’s ending?",
+      "options": [
+        "America’s promise is already fully achieved.",
+        "The speaker calls for the unrealized promise to become real.",
+        "The speaker no longer cares about freedom."
+      ],
+      "answer": 1,
+      "explanation": "Criticism of exclusion leads to a demand for change rather than satisfaction with the present or abandonment of the ideal.",
+      "source_refs": [
+        {
+          "id": "8f41bd15a43a5f0aa5e8df8f97ff15a501521f4b52255483dfa3b1b27fd5a5c8",
+          "sha256": "a928e619e0913b18e21e3733bef3b52487bcec99af7393969e69c15c3126cf95",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}

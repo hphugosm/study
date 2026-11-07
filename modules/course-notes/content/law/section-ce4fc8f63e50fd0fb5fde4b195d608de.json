@@ -1,0 +1,522 @@
+{
+  "schema": 1,
+  "subject": "law",
+  "topic": "section-ce4fc8f63e50fd0fb5fde4b195d608de",
+  "title": "Unit 1.2 - History of Common Law and Punishment",
+  "language": "en",
+  "intro": "Follow the course presentation’s account of English common-law institutions and practise its core vocabulary. The historical overview is selective and contains broad simplifications; it is not a complete chronology of English justice.",
+  "sources": [
+    {
+      "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+      "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+      "title": "1. History of English Common Law.pptx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370.pptx",
+      "extraction_url": "./extracted/48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370.zip"
+    },
+    {
+      "id": "e0f9c3f64511c0ea8f72be846fd06b97c86c60fe861638e8239cef546ddc235c",
+      "sha256": "28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca",
+      "title": "1. HW History of English Common Law.docx",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca.docx",
+      "extraction_url": "./extracted/28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "two-sources",
+      "title": "Common law and statute law",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 2
+        },
+        {
+          "id": "e0f9c3f64511c0ea8f72be846fd06b97c86c60fe861638e8239cef546ddc235c",
+          "sha256": "28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca",
+          "locator": "Ancient Rules and Laws questions"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The presentation distinguishes law shaped by customs and judicial precedent from statutes passed by a legislature. Precedent connects a later dispute to the treatment of a similar earlier case; the relevant link is the legal reasoning, not merely that both disputes happened in court.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Use “statute law”. The final vocabulary slide misspells it “Statue Law”; the legal category is already correctly named on slide 2.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Common law",
+          "Statute law"
+        ],
+        "rows": [
+          {
+            "label": "Basis in this presentation",
+            "values": [
+              "Custom and judicial precedent",
+              "Enactment by a legislature"
+            ]
+          },
+          {
+            "label": "Study question",
+            "values": [
+              "How was a comparable dispute decided?",
+              "What rule did the legislature enact?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "institutions",
+      "title": "From community responsibility to officials and courts",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 4
+        },
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 5
+        },
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 8
+        },
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 10
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The slides describe community peace pledges, the reeve and shire reeve, royal administration, local courts and travelling justiciars. Their organising theme is the movement from local custom toward institutions able to hear disputes across territories.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 4
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 5
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 8
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In the presentation’s account, travelling judges encounter repeated disputes. Similar treatment over time helps explain how precedent can produce a body of law common across places. The homework asks you to connect this institutional development to today’s terms.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 4
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 5
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 8
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 10
+            },
+            {
+              "id": "e0f9c3f64511c0ea8f72be846fd06b97c86c60fe861638e8239cef546ddc235c",
+              "sha256": "28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca",
+              "locator": "Ancient Rules and Laws questions"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Community responsibility",
+          "text": "Neighbours take responsibility for behaviour and bringing offenders before authority.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 4
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 5
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 8
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "title": "Named officials",
+          "text": "The reeve/shire reeve gives community duties an institutional role.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 4
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 5
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 8
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "title": "Courts and travelling judges",
+          "text": "Officials hear disputes in different localities.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 4
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 5
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 8
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "title": "Repeated decisions",
+          "text": "Similar disputes receive similar treatment, illustrating precedent.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 4
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 5
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 8
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "punishment",
+      "title": "Ordeal, feud and compensation",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 11
+        },
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 12
+        },
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 13
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Trial by ordeal is presented as a physical test interpreted as revealing guilt or innocence. It contrasts with reasoning from evidence. Wergild is compensation paid to the deceased person’s family, discussed against the background of blood feuds.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 11
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 12
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The homework asks whether wergild is a good way to respond to killing. That is an evaluative question: explain what compensation may achieve and what the approach may fail to address. The presentation’s broad statements about the absence of juries or prisons should not be converted into universal historical rules.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 11
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 12
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 13
+            },
+            {
+              "id": "e0f9c3f64511c0ea8f72be846fd06b97c86c60fe861638e8239cef546ddc235c",
+              "sha256": "28c8fc5e36cc9c545dcbfa61b12abf89f48f29f66271f3593a544b8545fd3cca",
+              "locator": "Ancient Rules and Laws questions"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Learn the concepts and the source’s comparison. Avoid treating the slide sequence as proof that every institution began at one simple moment.",
+          "source_refs": [
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 11
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 12
+            },
+            {
+              "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+              "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+              "page": 13
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Judicial precedent?",
+      "back": "A previous decision used when reasoning about a similar later dispute.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Statute law?",
+      "back": "Law passed by the legislature.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Shire reeve?",
+      "back": "The historical role connected by the slides to the term sheriff.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Trial by ordeal?",
+      "back": "A physical test interpreted as determining innocence or guilt.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Wergild?",
+      "back": "Compensation paid to the family of a person killed, contrasted with blood feud.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Justiciar?",
+      "back": "A judge described as travelling to hear cases and settle disputes.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 10
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Which basis does the presentation assign to common law?",
+      "options": [
+        "Only executive orders",
+        "Customs and judicial precedent",
+        "Only a written constitution"
+      ],
+      "answer": 1,
+      "explanation": "Common law is contrasted with legislative enactment.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "A judge treats a later similar dispute in light of an earlier decision. This illustrates…",
+      "options": [
+        "wergild",
+        "trial by ordeal",
+        "precedent"
+      ],
+      "answer": 2,
+      "explanation": "Precedent connects decisions across cases.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "Which concept concerns compensation to a deceased person’s family?",
+      "options": [
+        "Statute",
+        "Shire reeve",
+        "Wergild"
+      ],
+      "answer": 2,
+      "explanation": "Wergild is presented as an alternative to continuing a blood feud.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "What makes ordeal different from an evidence-based explanation?",
+      "options": [
+        "It uses a physical test interpreted as revealing guilt",
+        "It is a vote by the legislature",
+        "It automatically creates a statute"
+      ],
+      "answer": 0,
+      "explanation": "The slides describe tests involving water, fire and healing.",
+      "source_refs": [
+        {
+          "id": "83e63af86527c461e899099a2f48de3efedc3e480521ef210010a1c1922e6792",
+          "sha256": "48c98de26d06ad13cd76c3d8d1df74f93e2208b0d5dd1597bb5575580a0b1370",
+          "page": 11
+        }
+      ]
+    }
+  ]
+}

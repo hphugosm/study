@@ -1,4 +1,10 @@
 const paths = {
+  earth:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18ZM5 7h14M5 17h14"/>',
+  flask:'<path d="M9 3h6m-5 0v6l-6 10a1.4 1.4 0 0 0 1.2 2h13.6A1.4 1.4 0 0 0 20 19L14 9V3M7 15h10M9 18h.01M14 17h.01"/>',
+  physics:'<ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1"/>',
+  monitor:'<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4M8 8l-2 2 2 2m8-4 2 2-2 2"/>',
+  users:'<circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3m1-16a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 5v1"/>',
+
   settings:'<path d="m9 3-.7 2.5-2 .9L4 5.7 2 9l1.8 1.8v2.4L2 15l2 3.3 2.3-.7 2 .9L9 21h6l.7-2.5 2-.9 2.3.7 2-3.3-1.8-1.8v-2.4L22 9l-2-3.3-2.3.7-2-.9L15 3H9Z"/><circle cx="12" cy="12" r="3"/>',
   download:'<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',
   share:'<path d="M12 15V2m-4 4 4-4 4 4M8 9H4v13h16V9h-4"/>',

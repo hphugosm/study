@@ -1,0 +1,462 @@
+{
+  "schema": 1,
+  "subject": "law",
+  "topic": "section-351de56f1f651c9b8f01c1e0af451c4a",
+  "title": "Unit 2.3 - Supreme Court Landmark Decisions",
+  "language": "en",
+  "intro": "Compare how Plessy and Brown reasoned about equality. Use the readings for facts and arguments, and the vocabulary worksheet to practise explaining the change in precedent.",
+  "sources": [
+    {
+      "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+      "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+      "title": "Reading 1 - Brown v. Board of Education.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4.pdf",
+      "extraction_url": "./extracted/2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4.zip"
+    },
+    {
+      "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+      "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+      "title": "Plessy v. Ferguson - Reading and Response.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609.pdf",
+      "extraction_url": "./extracted/854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609.zip"
+    },
+    {
+      "id": "e4ae83cbce6ec3b55d9fe5d0a998b504f535ca5a93b2b2d955f767ce42fdfa25",
+      "sha256": "bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5",
+      "title": "HW - Vocabulary and Concepts.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5.pdf",
+      "extraction_url": "./extracted/bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "plessy",
+      "title": "Plessy: the accepted distinction",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The reading describes a challenge to Louisiana’s Separate Car Act. Plessy deliberately sat in a railway car reserved for white passengers, refused to move and was arrested. His argument connected enforced racial separation to unequal treatment under the Fourteenth Amendment.",
+          "source_refs": [
+            {
+              "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+              "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The majority treated separation as a matter of social equality distinct from civil and political rights. It accepted separate facilities if supposedly equal. Harlan dissented. This describes the historical majority’s reasoning, not an endorsement of it.",
+          "source_refs": [
+            {
+              "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+              "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Do not infer a vote count just from nine seats or from the worksheet’s wording about a sole dissenter. The source is not sufficient for that arithmetic.",
+          "source_refs": [
+            {
+              "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+              "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brown",
+      "title": "Brown: why separation itself mattered",
+      "source_refs": [
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Brown reading describes parents challenging segregated public education. The argument was not only that buildings or resources differed: enforced separation itself communicated inferiority and damaged equal educational opportunity.",
+          "source_refs": [
+            {
+              "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+              "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The Supreme Court agreed that segregation in public schools denied equal protection. The later conflict over university enrolment in the reading illustrates that a legal decision and its practical implementation are different stages.",
+          "source_refs": [
+            {
+              "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+              "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "title": "Same constitutional language, changed precedent",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        },
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        },
+        {
+          "id": "e4ae83cbce6ec3b55d9fe5d0a998b504f535ca5a93b2b2d955f767ce42fdfa25",
+          "sha256": "bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plessy and Brown both concern equality, but they concern different settings: railway cars and public schools. Brown rejected the separate-but-equal approach in education; it was not an appeal by the Brown families within Plessy’s original lawsuit.",
+          "source_refs": [
+            {
+              "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+              "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+              "page": 1
+            },
+            {
+              "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+              "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+              "page": 1
+            },
+            {
+              "id": "e4ae83cbce6ec3b55d9fe5d0a998b504f535ca5a93b2b2d955f767ce42fdfa25",
+              "sha256": "bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The vocabulary task asks you to define segregation, facilities, precedent, suing and appealing in sentences tied to the cases. A strong explanation connects facts to the constitutional question, the court’s reasoning and the consequence for future cases.",
+          "source_refs": [
+            {
+              "id": "e4ae83cbce6ec3b55d9fe5d0a998b504f535ca5a93b2b2d955f767ce42fdfa25",
+              "sha256": "bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Plessy (1896)",
+          "Brown (1954)"
+        ],
+        "rows": [
+          {
+            "label": "Setting",
+            "values": [
+              "Racially separated railway cars",
+              "Racially separated public schools"
+            ]
+          },
+          {
+            "label": "Equality reasoning",
+            "values": [
+              "Majority accepted separation with supposedly equal facilities",
+              "Separation itself sends an unequal message in public education"
+            ]
+          },
+          {
+            "label": "Relationship",
+            "values": [
+              "Earlier separate-but-equal precedent",
+              "Rejection of that approach in public schools"
+            ]
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "label": "1896",
+          "text": "Plessy upholds the challenged racial separation.",
+          "source_refs": [
+            {
+              "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+              "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "label": "1954",
+          "text": "Brown rejects separate-but-equal in public education.",
+          "source_refs": [
+            {
+              "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+              "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/631a7e886ae13ae03d53d3cdac44fbfeb7131689e941fc3281f0788f89556cae.webp",
+          "alt": "Vocabulary and reasoning questions connecting Plessy and Brown",
+          "caption": "Use the reflection prompts to explain the relationship between the two cases.",
+          "source_refs": [
+            {
+              "id": "e4ae83cbce6ec3b55d9fe5d0a998b504f535ca5a93b2b2d955f767ce42fdfa25",
+              "sha256": "bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5",
+              "page": 1
+            }
+          ],
+          "source_media": "extracted/bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5/media/page-001-preview.png",
+          "width": 990,
+          "height": 1400
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Segregation in these readings?",
+      "back": "Enforced separation of people on racial grounds.",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        },
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Plessy’s setting?",
+      "back": "Railway cars under Louisiana’s Separate Car Act.",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Brown’s setting?",
+      "back": "Racial segregation in public schools.",
+      "source_refs": [
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Equal-protection question?",
+      "back": "Whether state-enforced separation treats people unequally under the Fourteenth Amendment.",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        },
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Why were equal facilities not enough in Brown’s reasoning?",
+      "back": "The separation itself sent a message of inferiority in education.",
+      "source_refs": [
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Precedent?",
+      "back": "A previous judicial decision used to guide reasoning in later cases; these readings show that an approach can later be rejected.",
+      "source_refs": [
+        {
+          "id": "e4ae83cbce6ec3b55d9fe5d0a998b504f535ca5a93b2b2d955f767ce42fdfa25",
+          "sha256": "bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5",
+          "page": 1
+        },
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        },
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Which setting belongs to Plessy?",
+      "options": [
+        "Public-school enrolment",
+        "Railway accommodations",
+        "A trademark agency"
+      ],
+      "answer": 1,
+      "explanation": "The Separate Car Act concerned railway cars.",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "What was central to Brown’s equality reasoning?",
+      "options": [
+        "Only the colour of a school building matters",
+        "Education has no relation to later opportunity",
+        "Separation itself communicates inferiority"
+      ],
+      "answer": 2,
+      "explanation": "The reading explains the harm caused by enforced separation itself.",
+      "source_refs": [
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "How are the cases connected?",
+      "options": [
+        "The cases involve the same railway company",
+        "Brown is a new lawsuit rejecting an earlier approach in education",
+        "Brown is a rehearing of Plessy’s own arrest"
+      ],
+      "answer": 1,
+      "explanation": "A change in precedent is different from an appeal in one individual’s case.",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        },
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Which amendment’s equality protection appears in both readings?",
+      "options": [
+        "First",
+        "Fourteenth",
+        "Twenty-first"
+      ],
+      "answer": 1,
+      "explanation": "Both readings discuss equal protection under the Fourteenth Amendment.",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        },
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-5",
+      "prompt": "What is a dissent?",
+      "options": [
+        "A judge’s disagreement with the majority",
+        "A new statute",
+        "The majority rule"
+      ],
+      "answer": 0,
+      "explanation": "The Plessy reading identifies Harlan as disagreeing with the majority.",
+      "source_refs": [
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-6",
+      "prompt": "Which statement avoids overstating Brown?",
+      "options": [
+        "It concerned railway tickets rather than schools",
+        "It instantly resolved every dispute about segregation everywhere",
+        "The supplied reading rejects segregation in public education"
+      ],
+      "answer": 2,
+      "explanation": "The readings explicitly distinguish the school setting from other facilities.",
+      "source_refs": [
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4",
+          "page": 1
+        },
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609",
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

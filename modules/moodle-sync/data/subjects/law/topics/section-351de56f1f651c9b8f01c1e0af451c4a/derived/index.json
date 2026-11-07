@@ -2,5 +2,28 @@
   "schema": 1,
   "subject_id": "law",
   "topic_id": "section-351de56f1f651c9b8f01c1e0af451c4a",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "Unit 2.3 - Supreme Court Landmark Decisions",
+      "kind": "notes",
+      "path": "data/subjects/law/topics/section-351de56f1f651c9b8f01c1e0af451c4a/derived/course-notes-v1/notes.json",
+      "sha256": "37cf2cb5090d359c0cc7000f0db187e2178102022de4fd1c5656242ff5535055",
+      "source_refs": [
+        {
+          "id": "066033f6cb64bd8f48d8713732f2714a6cb44dedb818643054af79791ae1c476",
+          "sha256": "2f6241b263607a327a100be465435cd6dca2786901ffc87d2e20cb814461f6f4"
+        },
+        {
+          "id": "664046fcbd801f304e27f84ab8ed891a16054af8e767ccb527de0ff73e882a1e",
+          "sha256": "854f8f624947bf0a09091cafb5cdf1126cb20f840a68051d7746d7600966c609"
+        },
+        {
+          "id": "e4ae83cbce6ec3b55d9fe5d0a998b504f535ca5a93b2b2d955f767ce42fdfa25",
+          "sha256": "bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

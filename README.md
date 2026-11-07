@@ -1,10 +1,12 @@
 # study lo
 
-Minimalistická studijní aplikace: školní kalendář, Law, Biologie a Matematika ve společném prostředí. Statický web bez backendu, přihlášení a runtime závislostí. Původní repozitáře zůstaly beze změn.
+Studijní aplikace se školním kalendářem, jedenácti aktuálními předměty JU3 a zachovanými původními moduly. Statický web bez backendu, přihlášení a placeného AI API při používání nebo denní synchronizaci.
 
-[Novinky ze školy](modules/moodle-sync/index.html) zobrazují samostatný přehled schválených školních materiálů a termínů. Zatím je prázdný. Synchronizační klient, přihlašovací údaje i neveřejné přehledy patří do odděleného soukromého repozitáře; zde jsou pouze veřejně schválené výstupy. Přílohy tohoto přehledu se nestahují automaticky do offline balíčku.
+[Novinky ze školy](modules/moodle-sync/index.html) zobrazují 125 schválených položek se 123 různými soubory v Releases. Synchronizační klient, přihlašovací údaje i neveřejné přehledy patří do odděleného soukromého repozitáře; zde jsou pouze veřejně schválené výstupy. Nové původní přílohy se nestahují automaticky do offline balíčku.
 
-[Veřejný katalog podkladů](modules/moodle-sync/data/catalog.json) má připravených jedenáct potvrzených předmětů JU3, zachovává starší veřejné předměty a odděluje každé skutečně přidané téma, původní zdroje v `sources/` a budoucí výtahy či procvičování v `derived/`. Obsahuje šest již veřejných původních prezentací a pracovních listů, fyzicky zařazených do odpovídajících témat; soukromá data Moodlu nepřebírá. [Kontrakt a postup pro další práci](docs/moodle-source-catalog.md).
+[Předměty](https://studilo.xyz/#/subjects) obsahují všech 184 běžných témat ve skutečném pořadí školních kurzů. Pro 42 témat s dostupnými schválenými podklady vzniklo 189 výukových oddílů, 260 kartiček, 273 vysvětlených otázek a 73 vybraných ilustrací. Součástí jsou postupy krok za krokem, porovnávání, časové osy, ovladatelný lom světla a kontrola parity. Témata bez podkladů mají vlastní místo s pravdivým stavem. Původní atlas, právní modul i matematické nástroje zůstávají dostupné.
+
+[Veřejný katalog podkladů](modules/moodle-sync/data/catalog.json) odděluje původní zdroje v `sources/` a výpisky s přesnými referencemi v `derived/`. Pro všech 123 souborů jsou připravené úplné texty a stahovatelné textové/obrazové balíčky. [Výukové poznámky a jejich příprava](docs/course-notes.md), [kontrakt katalogu](docs/moodle-source-catalog.md).
 
 - **Demo:** https://studilo.xyz/
 - **Repozitář:** https://github.com/hphugosm/study
@@ -20,7 +22,7 @@ V patičce najdeš **Nastavení**: instalaci na plochu iPhonu, skutečný offlin
 
 Otevři [Nastavení](https://studilo.xyz/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study lo potom otevírá vlastní okno aplikace.
 
-Po prvním otevření s připojením se automaticky uloží všechny části webu, všechny studijní předměty, obrázky, PDF i tři původní matematické prezentace. V nastavení počkej na **Připraveno offline**. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. K procvičování pak není potřeba internet ani předchozí návštěva konkrétního předmětu. Nová verze se připraví na pozadí a v kalendáři se sama načte s krátkou informační hláškou. Rozehrané procvičování zůstane zachované; přepnutí počká na návrat do kalendáře i v ostatních otevřených panelech. Shodné ověřené podklady se při aktualizaci nestahují znovu.
+Po prvním otevření s připojením se automaticky uloží rozhraní, výpisky a procvičování včetně původních obrázků atlasu, starších PDF a tří matematických prezentací. V nastavení počkej na **Připraveno offline**. Nové původní Moodle přílohy, nové obrázky z Releases, úplné přepisy a ZIP balíčky vyžadují připojení; stovky MB podkladů se automaticky nestahují. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. Nová verze se připraví na pozadí a v kalendáři se sama načte s krátkou informační hláškou. Rozehrané procvičování zůstane zachované; přepnutí počká na návrat do kalendáře i v ostatních otevřených panelech. Shodné ověřené podklady se při aktualizaci nestahují znovu.
 
 Podrobnosti, aktualizace a provozní omezení jsou v [návodu k PWA](docs/pwa.md). Zálohy a nastavení jsou místní, bez účtu a cloudového přenosu.
 
@@ -72,7 +74,7 @@ Zadání vycházejí ze dvou původních PDF a postupy z dodaného souboru 164 �
 - Datový kalendář s přepínáním měsíců, dneškem, více událostmi denně, detailem dne, typy událostí a nejbližšími termíny. Aktuální datum používá časové pásmo Europe/Prague.
 - **Biologie:** všech 64 položek, atlas a filtry, poznávačka, obrázkové/textové kartičky, slepá mapa (pojmenované i nepojmenované režimy), detail/zoom, řešení, opakování chyb, výpisky, původní PDF a uložený postup. Nově se ukládají i výsledky mapy.
 - **Law / UNIT 2 / U.S. Courts & Civil Liberties:** čtyři případy, hierarchie soudů a odvolání, 55 slovíček, 145 flashcards, 95 otázek, mixed a tematické testy, výběr odpovědi, true/false, psané odpovědi, řazení, spojování, vysvětlení, výsledky, oprava chyb, postup a oba PDF. Obsah zůstává anglicky.
-- **Matematika:** právě dvě kategorie: Trigonometrie a goniometrické funkce; Goniometrické vzorce, rovnice a nerovnice. Český obsah z 81 snímků, ovladatelná kružnice, proměny grafů, trojúhelníkové věty, postupná řešení, nerovnice, kartičky a kvízy. Původní termín čtvrtletní práce otevírá rozcestník obou kategorií. Přesný rozsah práce není zadán.
+- **Matematika:** dvě původní interaktivní kategorie zůstávají zachované: Trigonometrie a goniometrické funkce; Goniometrické vzorce, rovnice a nerovnice. Český obsah z 81 snímků, ovladatelná kružnice, proměny grafů, trojúhelníkové věty, postupná řešení, nerovnice, kartičky a kvízy. Vedle nich jsou skutečná témata aktuálního kurzu. Původní termín čtvrtletní práce otevírá rozcestník obou původních kategorií. Přesný rozsah práce není zadán.
 - Literatura má skutečný termín a připravenou jednotku; chybějící podklady jsou označené.
 
 Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. Jeho osm původních vstupních učebních souborů je pouze citováno ve zdrojové aplikaci; převzaty jsou všechny skutečně dostupné soubory, včetně dvou PDF. Matematické podklady a opravy: [audit Matematiky](docs/mathematics.md).
@@ -101,6 +103,8 @@ modules/law/            izolovaný úplný Law modul, data, PDF
 modules/biology/        izolovaný úplný biology modul, obrázky, PDF, upstream testy
 modules/math-trig/      kružnice, grafy, trojúhelníky, zdrojové prezentace
 modules/math-equations/ vzorce, rovnice, nerovnice, zdrojová prezentace
+modules/course-notes/   společný výklad, kartičky, otázky a interaktivní vysvětlení
+src/course-catalog.js   generovaný registr skutečných témat a dostupných výpisků
 templates/              příklad přidání předmětu / jednotky / testu
 scripts/                lokální server, validace, statický build
 tests/                  kalendářové a browser testy
@@ -115,6 +119,8 @@ Přidání předmětu a testu je popsáno v [návodu k rozšíření](docs/exten
 Law používá `study:law:progress:v1`; Biologie prefix `study:biology:`. Při prvním použití se čtou a kopírují rozpoznané původní klíče ze stejného originu. Původní klíče se nikdy nepřepisují ani nemažou. localStorage se mezi doménami ani zařízeními automaticky nepřenáší; více GitHub Pages projektů pod `hphugosm.github.io` origin sdílí. Při blokovaném úložišti je možné studovat, výsledky však nemusí přežít zavření stránky.
 
 V nastavení lze stáhnout JSON zálohu postupu Law, Biologie a obou matematických jednotek, také pro přenos mezi doménami. Import nejprve ověří formát a ukáže počty záznamů; teprve po potvrzení sloučí kartičky a výsledky. Neznámé klíče se odmítnou, starší data se nemažou a rozpracovaná mapa se nepřepisuje. Vzhled používá samostatný klíč `study:preferences:v1`.
+
+Nové kurzové výpisky používají oddělený klíč `study:course-notes:<předmět>:<téma>:v1`. Postup je místní pro konkrétní téma; stávající export záloh je zatím určen pouze původním modulům uvedeným výše.
 
 Zdrojové aplikace: [us-law-casebook](https://github.com/hphugosm/us-law-casebook), [kostra-procvicovani](https://github.com/hphugosm/kostra-procvicovani). Úplné dostupné materiály a jejich označení původu jsou zachované.
 

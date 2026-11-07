@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "subject": "law",
+  "topic": "section-f55fcdfd8a43f9a5a5ee7cdfb285309f",
+  "title": "Unit 2.2 - The American Court System",
+  "language": "en",
+  "intro": "Trace the roles and review vocabulary in the supplied federal-court classroom exercise. Its trademark dispute is a historical teaching scenario, not a statement of current trademark law or a universal route for challenging an agency.",
+  "sources": [
+    {
+      "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+      "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+      "title": "So, Youre Going to Court Worksheet.pdf",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b.pdf",
+      "extraction_url": "./extracted/b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "roles",
+      "title": "A person’s procedural label can change",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "At the first stage of the worksheet, the person bringing the claim is the plaintiff and the opposing party is the defendant. When a losing party seeks appellate review, that party becomes the appellant and the opposing party becomes the appellee. The labels describe roles at a stage of the dispute; they are not permanent personal characteristics.",
+          "source_refs": [
+            {
+              "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+              "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Initial claim",
+          "Appeal"
+        ],
+        "rows": [
+          {
+            "label": "Person seeking action",
+            "values": [
+              "Plaintiff",
+              "Appellant"
+            ]
+          },
+          {
+            "label": "Opposing party",
+            "values": [
+              "Defendant",
+              "Appellee"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "path",
+      "title": "Follow the worksheet’s review path",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The exercise models a path from a District Court to a Court of Appeals, followed by a petition asking the Supreme Court to accept the case. The worksheet names a writ of certiorari at that final request stage. A request for review and the court’s decision to hear the case are distinct events.",
+          "source_refs": [
+            {
+              "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+              "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Initial claim",
+          "text": "Identify plaintiff and defendant in the model District Court proceeding.",
+          "source_refs": [
+            {
+              "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+              "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Unfavourable decision",
+          "text": "Separate disagreement with the result from the action needed to seek review.",
+          "source_refs": [
+            {
+              "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+              "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Appeal",
+          "text": "Track appellant and appellee before the Court of Appeals.",
+          "source_refs": [
+            {
+              "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+              "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "title": "Petition for further review",
+          "text": "The scenario asks the Supreme Court to accept review through a certiorari petition.",
+          "source_refs": [
+            {
+              "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+              "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outcomes",
+      "title": "Affirm, reverse and remand",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To affirm is to leave the lower court’s decision standing. To reverse is to reject or overturn that decision. To remand is to send the case back for further proceedings. A return to a lower court and a change in the decision are separate ideas; use the verbs precisely when following the worksheet.",
+          "source_refs": [
+            {
+              "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+              "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "The handout mixes patent and trademark wording and assumes a dated legal background. Practise the procedural vocabulary without treating those scenario assumptions as current legal advice.",
+          "source_refs": [
+            {
+              "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+              "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "front": "Plaintiff",
+      "back": "Party bringing the initial claim.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "front": "Defendant",
+      "back": "Party against whom the initial claim is brought.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "front": "Appellant",
+      "back": "Party asking an appellate court to review a decision.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "front": "Appellee",
+      "back": "Party opposing that appeal.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "front": "Affirm / reverse / remand",
+      "back": "Uphold / overturn / send back for further proceedings.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "front": "Certiorari petition",
+      "back": "Request for the Supreme Court to accept review in the worksheet’s model.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt": "Who is the appellant?",
+      "options": [
+        "The party seeking appellate review",
+        "Always the original defendant",
+        "Always the judge"
+      ],
+      "answer": 0,
+      "explanation": "Either original party may be the one seeking review; the label follows that role.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "prompt": "A court sends a case back for further proceedings. Which term fits?",
+      "options": [
+        "Remand",
+        "Enact",
+        "Affirm"
+      ],
+      "answer": 0,
+      "explanation": "Remand concerns sending back, not simply agreeing or disagreeing.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "prompt": "An appellate court leaves the lower decision standing. It…",
+      "options": [
+        "passes a statute",
+        "affirms",
+        "remands automatically"
+      ],
+      "answer": 1,
+      "explanation": "Affirm means uphold the decision.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "prompt": "Which pair distinguishes overturning a result from sending the case back?",
+      "options": [
+        "Reverse / remand",
+        "Plaintiff / defendant",
+        "Statute / bill"
+      ],
+      "answer": 0,
+      "explanation": "These are different procedural actions.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "question-5",
+      "prompt": "Does filing a certiorari petition mean review has already been granted?",
+      "options": [
+        "No, requesting and granting review are different",
+        "Only if the petitioner was the plaintiff",
+        "Yes, automatically"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet separately describes a petition and its approval.",
+      "source_refs": [
+        {
+          "id": "c35d0c2e74b2600f2dfc5cfcb156e77455e7dcc967f573cee7dd9c611a5aeba2",
+          "sha256": "b978f877ae368dbee23a70fc8326eb89beb23609fa557751631d394988c22c2b",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}
