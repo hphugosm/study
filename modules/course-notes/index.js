@@ -67,7 +67,7 @@ export function validateContent(data) {
     for(const image of lesson.images||[]){safeAsset(image.src);assert(textOK(image.alt)&&(!image.caption||textOK(image.caption)),'invalid_image');refs(image);}
     for(const step of lesson.steps||[]){assert(textOK(step.title)&&textOK(step.text),'invalid_step');refs(step);}
     if(lesson.comparison){const comparison=lesson.comparison;assert(Array.isArray(comparison.columns)&&comparison.columns.length>=2&&comparison.columns.every(textOK),'invalid_comparison');for(const row of comparison.rows||[])assert(textOK(row.label)&&row.values?.length===comparison.columns.length&&row.values.every(textOK),'invalid_comparison');}
-    if(lesson.interactive!==undefined){assert(lesson.interactive&&['refraction','parity'].includes(lesson.interactive.kind)&&textOK(lesson.interactive.title),'invalid_interaction');refs(lesson.interactive);validateInteraction(lesson.interactive);}
+    if(lesson.interactive!==undefined){assert(lesson.interactive&&['refraction','parity','stereometry'].includes(lesson.interactive.kind)&&textOK(lesson.interactive.title),'invalid_interaction');refs(lesson.interactive);validateInteraction(lesson.interactive);}
     for(const event of lesson.timeline||[]){assert(textOK(event.label)&&textOK(event.text),'invalid_timeline');refs(event);}
   }
   for(const card of data.flashcards||[]){identify(card);assert(textOK(card.front)&&textOK(card.back),'invalid_flashcard');refs(card);}
@@ -90,6 +90,7 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
   const shell=document.createElement('section');shell.className='course-notes';root.append(shell);
   const el=(tag,value,className)=>{const item=document.createElement(tag);if(value!==undefined)item.textContent=value;if(className)item.className=className;return item;};
   const button=(label,action)=>{const item=el('button',label);item.type='button';item.onclick=action;return item;};
+  const flipSymbol=()=>{const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('aria-hidden','true');const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d','M20 7v5h-5M4 17v-5h5M5.3 8a7 7 0 0 1 11.5-2L20 9M4 15l3.2 3A7 7 0 0 0 18.7 16');path.setAttribute('fill','none');path.setAttribute('stroke','currentColor');path.setAttribute('stroke-width','1.7');path.setAttribute('stroke-linecap','round');path.setAttribute('stroke-linejoin','round');svg.append(path);return svg;};
   shell.append(el('p','Načítám ověřené podklady…','muted'));
   let data;
   try{
@@ -115,22 +116,45 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
     const zoom=button('Zvětšit obrázek',()=>{const dialog=el('dialog');const full=img.cloneNode();full.loading='eager';const close=button('Zavřít',()=>dialog.close());dialog.append(close,full,el('p',image.caption||image.alt),references(image));shell.append(dialog);dialog.addEventListener('close',()=>{dialog.remove();zoom.focus();},{once:true});dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();});dialog.showModal();});
     figure.append(img,zoom);if(image.caption)figure.append(el('figcaption',image.caption));figure.append(references(image));return figure;
   }
+  function appendInteraction(card,lesson){
+    const inspector=el('section',undefined,'interactive-inspector');inspector.append(el('h3',lesson.interactive.title));const widget=el('div');inspector.append(widget,references(lesson.interactive));card.append(inspector);const cleanup=mountInteraction(widget,lesson.interactive);if(typeof cleanup==='function')interactionCleanups.push(cleanup);
+  }
   function renderStudy(){
     if(!data.lessons.length)panel.append(el('p','Pro toto téma jsou zatím připravené původní zdroje.'));
     for(const lesson of data.lessons){
-      const card=el('article',undefined,'lesson');card.append(el('h2',lesson.title));
+      const card=el('article',undefined,'lesson');card.append(el('h2',lesson.title));if(lesson.interactive?.kind==='stereometry')card.classList.add('has-stereometry');
+      if(lesson.interactive?.kind==='stereometry')appendInteraction(card,lesson);
       for(const block of lesson.blocks||[]){const node=el(block.type==='list'?'ul':block.type==='callout'?'aside':'p',block.type==='list'?undefined:block.text,block.type);if(block.type==='list')for(const item of block.items)node.append(el('li',item));if(block.tone)node.classList.add(block.tone);card.append(node,references(block));}
       for(const image of lesson.images||[])card.append(gallery(image));
       if(lesson.steps?.length){let index=0;const box=el('section',undefined,'steps'),title=el('h3'),body=el('p'),refs=el('div'),position=el('p',undefined,'muted');const previous=button('Předchozí',()=>{index--;draw();}),next=button('Další krok',()=>{index++;draw();});function draw(){const step=lesson.steps[index];title.textContent=step.title;body.textContent=step.text;refs.replaceChildren(references(step));position.textContent=`Krok ${index+1} z ${lesson.steps.length}`;previous.disabled=index===0;next.disabled=index===lesson.steps.length-1;}box.append(position,title,body,refs,previous,next);draw();card.append(box);}
       if(lesson.comparison){const comparison=lesson.comparison,box=el('section',undefined,'comparison'),label=el('label','Porovnat pohled: '),select=el('select'),rows=el('div');for(const [i,title]of comparison.columns.entries()){const option=el('option',title);option.value=i;select.append(option);}label.append(select);const draw=()=>{rows.replaceChildren();for(const row of comparison.rows){rows.append(el('h4',row.label),el('p',row.values[Number(select.value)]));}};select.onchange=draw;box.append(label,rows);draw();card.append(box);}
       if(lesson.timeline?.length){const list=el('ol',undefined,'timeline');for(const event of lesson.timeline){const item=el('li'),details=el('details');details.append(el('summary',event.label),el('p',event.text),references(event));item.append(details);list.append(item);}card.append(list);}
-      if(lesson.interactive){const inspector=el('section',undefined,'interactive-inspector');inspector.append(el('h3',lesson.interactive.title));const widget=el('div');inspector.append(widget,references(lesson.interactive));card.append(inspector);const cleanup=mountInteraction(widget,lesson.interactive);if(typeof cleanup==='function')interactionCleanups.push(cleanup);}
+      if(lesson.interactive&&lesson.interactive.kind!=='stereometry')appendInteraction(card,lesson);
       card.append(references(lesson),button(progress.readLessons.includes(lesson.id)?'✓ Přečteno':'Označit jako přečtené',()=>markRead(lesson)));panel.append(card);
     }
   }
   function renderPractice(){
     const status=el('p',`Známé kartičky: ${progress.knownCards.length} · odpovědi: ${progress.attempts.length}`,'muted');panel.append(status);
-    for(const card of data.flashcards||[]){const box=el('article',undefined,'lesson'),answer=el('div');answer.hidden=true;answer.append(el('p',card.back),references(card));const reveal=button('Otočit kartičku',()=>{answer.hidden=!answer.hidden;reveal.setAttribute('aria-expanded',String(!answer.hidden));});reveal.setAttribute('aria-expanded','false');box.append(el('h3',card.front),reveal,answer,button(progress.knownCards.includes(card.id)?'✓ Umím':'Tohle umím',()=>{if(!progress.knownCards.includes(card.id))progress.knownCards.push(card.id);save();render();}));panel.append(box);}
+    const updateStatus=()=>{status.textContent=`Známé kartičky: ${progress.knownCards.length} · odpovědi: ${progress.attempts.length}`;};
+    if(data.flashcards?.length){
+      panel.append(el('h2','Kartičky'));
+      panel.append(el('p','Zkus si odpovědět, pak kartičku otoč symbolem ↻. Fajfkou si označ, co už umíš.','muted'));
+      const grid=el('div',undefined,'recall-grid');
+      for(const [index,card] of data.flashcards.entries()){
+        const box=el('article',undefined,'recall-card'),head=el('div',undefined,'recall-head'),face=el('div',undefined,'recall-face'),side=el('p','Otázka','eyebrow'),front=el('h3',card.front),back=el('div',undefined,'recall-back'),footer=el('div',undefined,'recall-footer');
+        face.id=`recall-${data.topic}-${card.id}`;
+        back.hidden=true;back.append(el('p',card.back),references(card));
+        const learned=el('label',undefined,'recall-known'),check=el('input'),checkmark=el('span','✓');
+        check.type='checkbox';check.checked=progress.knownCards.includes(card.id);check.setAttribute('aria-label',`Kartička ${index+1}: tohle umím`);learned.title='Tohle umím';checkmark.setAttribute('aria-hidden','true');learned.append(check,checkmark);
+        check.onchange=()=>{progress.knownCards=check.checked?[...new Set([...progress.knownCards,card.id])]:progress.knownCards.filter(id=>id!==card.id);save();updateStatus();};
+        let flipped=false;
+        const reveal=button('',()=>{flipped=!flipped;front.hidden=flipped;back.hidden=!flipped;side.textContent=flipped?'Odpověď':'Otázka';box.classList.toggle('is-flipped',flipped);reveal.setAttribute('aria-expanded',String(flipped));reveal.setAttribute('aria-label',`${flipped?'Zobrazit otázku':'Zobrazit odpověď'} na kartičce ${index+1}`);reveal.title=flipped?'Zobrazit otázku':'Zobrazit odpověď';});
+        reveal.className='recall-flip';reveal.setAttribute('aria-expanded','false');reveal.setAttribute('aria-controls',face.id);reveal.setAttribute('aria-label',`Zobrazit odpověď na kartičce ${index+1}`);reveal.title='Zobrazit odpověď';reveal.append(flipSymbol());
+        head.append(el('p',`${index+1} / ${data.flashcards.length}`,'recall-counter'),learned);face.append(side,front,back);footer.append(reveal);box.append(head,face,footer);grid.append(box);
+      }
+      panel.append(grid);
+    }
+    if(data.questions?.length)panel.append(el('h2','Ověř si porozumění'));
     for(const question of data.questions||[]){const box=el('fieldset',undefined,'lesson'),feedback=el('div');feedback.setAttribute('aria-live','polite');box.append(el('legend',question.prompt));const choices=[];for(const [i,option]of question.options.entries()){const choice=button(option,()=>{for(const item of choices)item.disabled=true;const {correct}=gradeQuestion(question,i);choice.classList.add(correct?'correct':'incorrect');feedback.replaceChildren(el('strong',correct?'Správně.':`Správná odpověď: ${question.options[question.answer]}`),el('p',question.explanation),references(question));progress.attempts.push({id:question.id,correct});progress.attempts=progress.attempts.slice(-500);save();status.textContent=`Známé kartičky: ${progress.knownCards.length} · odpovědi: ${progress.attempts.length}`;});choices.push(choice);box.append(choice);}box.append(feedback);panel.append(box);}
     if(!(data.flashcards?.length||data.questions?.length))panel.append(el('p','Toto téma používá otevřené úlohy nebo přehled podkladů. Najdeš je v části Studium.'));
   }

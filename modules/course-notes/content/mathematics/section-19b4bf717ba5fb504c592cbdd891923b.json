@@ -177,6 +177,36 @@
             ]
           }
         ]
+      },
+      "interactive": {
+        "kind": "stereometry",
+        "title": "Vzorec, který vidíš: měň rozměry tělesa",
+        "defaults": {
+          "shape": "cube",
+          "mode": "volume"
+        },
+        "source_refs": [
+          {
+            "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+            "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+            "page": 2
+          },
+          {
+            "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+            "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+            "page": 3
+          },
+          {
+            "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+            "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+            "page": 4
+          },
+          {
+            "id": "f57cdbdb34c3496c9e59070248de1527c1e121724a325e1f5297130cddb09868",
+            "sha256": "879e89fdf65665a1094dd7d5c7892018402a4d04a6afb6a695c1801f31bcc0be",
+            "page": 5
+          }
+        ]
       }
     },
     {

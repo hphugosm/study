@@ -8,6 +8,8 @@ Studijní aplikace se školním kalendářem, jedenácti aktuálními předměty
 
 [Veřejný katalog podkladů](modules/moodle-sync/data/catalog.json) odděluje původní zdroje v `sources/` a výpisky s přesnými referencemi v `derived/`. Pro všech 123 souborů jsou připravené úplné texty a stahovatelné textové/obrazové balíčky. [Výukové poznámky a jejich příprava](docs/course-notes.md), [kontrakt katalogu](docs/moodle-source-catalog.md).
 
+[Stereometrie](https://studilo.xyz/#/units/moodle-mathematics-19b4bf717ba5fb504c592cbdd891923b) má sedm ovladatelných těles: rozměry mění náčrt i dosazení do barevného vzorce. Přepínání povrchu a objemu, rozklad na podstavy a plášť a společné měřítko pomáhají vztahy pochopit. Kartičky ve všech předmětech mají kompaktní téměř čtvercový tvar, větší písmo a symbol pro otočení; původní postup zůstává zachovaný.
+
 - **Demo:** https://studilo.xyz/
 - **Repozitář:** https://github.com/hphugosm/study
 - **Biologie:** https://studilo.xyz/#/events/biology-test

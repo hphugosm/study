@@ -2,3 +2,15 @@
 
 /* Match the shared Study module frame spacing. */
 :host{padding:24px}@media(max-width:760px){:host{padding:16px}}@media(max-width:400px){:host{padding:12px}}
+
+/* Focused, single-face flashcards; content can grow beyond the square. */
+.flashcard { box-sizing:border-box; width:100%; max-width:480px; min-height:min(480px,calc(100vw - 48px)); margin:22px auto 0; padding:28px 24px 80px; position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; text-align:center; overflow-wrap:anywhere; }
+.flashcard h3,.flashcard .answer { font-size:clamp(20px,3vw,26px); line-height:1.5; margin:0; letter-spacing:-.02em; }
+.flashcard .source { font-size:11px; line-height:1.6; }
+.card-flip-icon { position:absolute; bottom:18px; left:calc(50% - 24px); width:48px; height:48px; min-height:48px; padding:0; font-size:29px; border-radius:50%; }
+.card-navigation { display:flex; align-items:center; justify-content:center; gap:18px; max-width:480px; margin:14px auto; }
+.card-navigation button { width:48px; min-width:48px; height:48px; min-height:48px; padding:0; font-size:23px; }
+.card-flip-icon:focus-visible,.card-navigation button:focus-visible { outline:3px solid var(--blue,var(--study-accent,#526d43)); outline-offset:4px; }
+@media(prefers-reduced-motion:reduce){.card-flip-icon,.card-navigation button{transition:none;animation:none;}}
+
+.card-navigation button { flex:0 0 48px; }

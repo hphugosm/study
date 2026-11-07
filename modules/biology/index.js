@@ -350,6 +350,25 @@ export async function mount(container, {mode='atlas', onProgress}={}) {
     .detail-source,.answer-content .answer-source,.notes-topic .slides-ref{font-size:calc(12px * var(--bio-scale))}
     @media(max-width:760px), (pointer:coarse){:host{--bio-reading-size:calc(16px * var(--bio-scale))}}
   `;
+  style.textContent+=`
+    #cards-page .study-layout{grid-template-columns:minmax(0,200px) minmax(0,480px);gap:32px}
+    #cards-page .flashcard-zone{width:100%;max-width:480px;margin-inline:auto}
+    #cards-page .flashcard{width:100%;min-height:clamp(340px,70vw,480px);padding:24px;aspect-ratio:auto}
+    #cards-page .flashcard .question{position:static;max-width:none;align-self:stretch;font-size:calc(22px * var(--bio-scale));line-height:1.45}
+    #cards-page .flashcard .card-image{height:clamp(210px,48vw,300px);max-height:none;margin:16px 0 12px;object-fit:contain}
+    #cards-page .answer-content h2{font-size:calc(28px * var(--bio-scale));line-height:1.25}
+    #cards-page .answer-content .answer-detail{font-size:calc(22px * var(--bio-scale));line-height:1.5}
+    #cards-page .answer-content .latin{font-size:calc(22px * var(--bio-scale))}
+    #cards-page .answer-content{width:100%;overflow-wrap:anywhere}
+    #cards-page .flip-hint{position:static;align-self:stretch;margin-top:14px;font-size:13px}
+    #cards-page .flip-hint>span:last-child{display:none}
+    #cards-page .card-actions{align-items:center;gap:16px}
+    #cards-page #flip-card,#cards-page .arrow-button,#cards-page .assessment button{flex:none;width:48px;height:48px;min-height:48px;padding:0;display:inline-grid;place-items:center;font-size:25px;border-radius:50%}
+    #cards-page .assessment{gap:18px}
+    #cards-page #card-image-zoom{font-size:23px;min-width:44px;min-height:44px}
+    @media(max-width:800px){#cards-page .study-layout{grid-template-columns:minmax(0,480px)}}
+    @media(prefers-reduced-motion:reduce){#cards-page .flashcard,#cards-page .deck-progress>div{transition:none;transform:none}}
+  `;
   root.append(style);
   root.querySelectorAll('[src],[href]').forEach(el=>{
     for(const attr of ['src','href']) {const value=el.getAttribute(attr);if(value?.startsWith('assets/'))el.setAttribute(attr,new URL(value,base).href);}
@@ -398,7 +417,16 @@ export async function mount(container, {mode='atlas', onProgress}={}) {
   if(!host.isConnected)return ()=>{};
   run({document,window,location,localStorage,asset:value=>new URL(value,base).href,
     requestAnimationFrame(fn){const id=globalThis.requestAnimationFrame(()=>{rafs.delete(id);if(active)fn();});rafs.add(id);return id;}});
-  const cleanup=()=>{active=false;controller.abort();rafs.forEach(id=>globalThis.cancelAnimationFrame(id));host.remove();};
+  const updateCardControls=()=>{
+    const card=root.querySelector('#flashcard'),flipped=card?.classList.contains('answer');
+    const controls=[['#flip-card','↻',flipped?'Zobrazit obrázek':'Otočit kartičku a zobrazit odpověď'],['#repeat-card','↺','Ještě zopakovat'],['#know-card','✓','Tohle umím'],['#card-image-zoom','⤢','Zvětšit obrázek zadání']];
+    for(const [selector,symbol,label] of controls){const button=root.querySelector(selector);if(!button)continue;if(button.textContent!==symbol)button.textContent=symbol;if(button.getAttribute('aria-label')!==label)button.setAttribute('aria-label',label);button.title=label;}
+    root.querySelector('#flip-card')?.setAttribute('aria-pressed',String(!!flipped));
+  };
+  const cardObserver=new MutationObserver(updateCardControls);
+  cardObserver.observe(wrapper,{subtree:true,childList:true,attributes:true,attributeFilter:['class']});
+  updateCardControls();
+  const cleanup=()=>{cardObserver.disconnect();active=false;controller.abort();rafs.forEach(id=>globalThis.cancelAnimationFrame(id));host.remove();};
   cleanup.navigate=next=>{location.hash=modes[next]||next;};
   cleanup.root=root;
   return cleanup;

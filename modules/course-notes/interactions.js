@@ -1,3 +1,4 @@
+import {mountStereometry,normalizeStereometryOptions} from './stereometry.js';
 /** Source-backed, local-only teaching controls. No HTML injection or network access. */
 const INDEX_MIN = 0.1;
 const INDEX_MAX = 5;
@@ -33,9 +34,10 @@ export function evaluateParity(bits, parity = 'even') {
 }
 
 export function validateInteraction(descriptor) {
-  if (!record(descriptor) || !['refraction', 'parity'].includes(descriptor.kind)) fail('Neznámá interaktivní ukázka.');
+  if (!record(descriptor) || !['refraction', 'parity', 'stereometry'].includes(descriptor.kind)) fail('Neznámá interaktivní ukázka.');
   if (typeof descriptor.title !== 'string' || !descriptor.title.trim() || descriptor.title.length > 200 || /[<>\u0000]/.test(descriptor.title)) fail('Neplatný název interaktivní ukázky.');
   if (descriptor.defaults !== undefined && !record(descriptor.defaults)) fail('Neplatné výchozí hodnoty.');
+  if (descriptor.kind === 'stereometry') return {...descriptor, defaults: normalizeStereometryOptions(descriptor.defaults)};
   const defaults = descriptor.defaults || {};
   const allowed = descriptor.kind === 'refraction' ? ['n1', 'n2', 'incidence'] : ['bits', 'parity'];
   if (Object.keys(defaults).some(key => !allowed.includes(key))) fail('Neznámá výchozí hodnota.');
@@ -52,6 +54,7 @@ let widgetCount = 0;
 
 export function mountInteraction(container, descriptor) {
   const config = validateInteraction(descriptor);
+  if (config.kind === 'stereometry') return mountStereometry(container,config.defaults);
   if (!container?.ownerDocument || typeof container.append !== 'function') fail('Chybí místo pro interaktivní ukázku.');
   const doc = container.ownerDocument;
   const root = doc.createElement('div');

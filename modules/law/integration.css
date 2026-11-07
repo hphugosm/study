@@ -367,3 +367,17 @@ input::placeholder, textarea::placeholder { color: var(--muted); opacity: 1; }
 .toast { background: var(--ink); color: var(--surface); box-shadow: none; }
 /* These upstream progress annotations have inline colours. */
 .stat-value > span, .mini-panel > span { color: var(--muted) !important; }
+
+/* Compact single-face deck. The whole card is the accessible flip button. */
+.pr-flashcard { box-sizing:border-box; max-width:480px; min-height:min(480px,calc(100vw - 48px)); margin:20px auto 0; padding:28px 24px 80px; align-items:center; justify-content:center; text-align:center; gap:18px; overflow-wrap:anywhere; }
+.pr-card-question,.pr-card-answer { font-size:calc(clamp(20px,3vw,26px) * var(--study-text-scale,1)); line-height:1.5; }
+.pr-card-options { grid-template-columns:1fr; font-size:15px; text-align:left; }
+.pr-card-label,.pr-source { font-size:11px; }
+.pr-card-explanation,.pr-example { font-size:16px; line-height:1.65; }
+.pr-flip-hint { position:absolute; left:calc(50% - 24px); bottom:18px; margin:0; padding:0; display:grid; place-items:center; width:48px; height:48px; border:1px solid var(--line); border-radius:50%; font-size:29px; }
+.pr-deck-meta,.pr-card-navigation { max-width:480px; margin:14px auto; }
+.pr-card-navigation { justify-content:center; gap:28px; }
+.pr-confidence { display:flex; justify-content:center; gap:18px; max-width:480px; }
+.pr-card-navigation .pr-button,.pr-confidence .pr-button { width:48px; height:48px; min-width:48px; min-height:48px; padding:0; font-size:23px; }
+.pr-flashcard:focus-visible,.pr-card-navigation button:focus-visible,.pr-confidence button:focus-visible { outline:3px solid var(--accent,#286d56); outline-offset:4px; }
+@media(prefers-reduced-motion:reduce){.pr-flashcard,.pr-card-navigation button,.pr-confidence button{transition:none;animation:none;}}

@@ -9,6 +9,14 @@ Původní interaktivní část tvoří dvě kategorie popsané níže. V hlavní
 
 Celkem bylo přečteno 81 snímků: text, OOXML rovnice i vzorce vložené jako obrázky. Původní soubory PPTX jsou ke stažení v Materiálech obou témat a v přípravě na test. Všechny moduly a podklady automaticky vstupují do offline balíčku bez externích knihoven či fontů.
 
+## Interaktivní stereometrie
+
+Samostatná Stereometrie rozšiřuje přehled na snímcích 2–5 původní prezentace o lokální pomůcku `modules/course-notes/stereometry.js`. Krychle, kvádr, válec, kužel, koule, pravidelný čtyřboký jehlan a komolý kužel mají barevně propojené rozměry, ovladatelný náčrt, povrch/objem, dosazení a vysvětlení částí povrchu. Příloha s prázdnými náčrty krychle není vydávána za zdroj vyřešených konstrukcí.
+
+Rozměry ovládání jsou 0,5–10 cm. Stupnice náčrtu je pro dané těleso stálá; jde o schematickou projekci, nikoli přesný měřický výkres. Rozvinuté části jsou označené jako schéma. Jehlan má vrchol kolmo nad středem čtvercové podstavy. Strana kužele a výška boční stěny jehlanu se dopočítávají z kolmé výšky. Celkový povrch zahrnuje všechny podstavy. Společné měřítko ukazuje zákony S × k² a V × k³; nejde o tvrzení pro změnu jediné délky. Neplatný vstup schová starý výsledek a zobrazí opravitelnou chybu.
+
+Pomůcka pracuje bez síťových služeb a placených API a je součástí offline sestavení. Původní kategorie, 164 příkladů, adresy a klíče postupu se nemění. Kartičky zobrazují jednu stranu a otáčejí se přístupným ikonovým ovládáním; delší text se může rozšířit do výšky.
+
 ## Věrnost podkladům
 
 Poznámky vycházejí z uvedených prezentací. Řešení úloh jsou dopočtená a ověřená; nejsou vydávána za výsledky vytištěné ve zdroji. Ve vzorcích nejsou doplněny nepodložené půlúhlové ani součinové identity.
