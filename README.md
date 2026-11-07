@@ -82,7 +82,7 @@ Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. J
 
 Podrobnosti: [audit Law](docs/law-audit.md), [audit Biologie](docs/biology-audit.md), [ověření](docs/verification.md).
 
-Při dalším rozšiřování jsou závazným vzorem původní moduly a [pravidla projektu](AGENTS.md). Matematika zachovává dvě původní hlavní kategorie; nové související školní výpisky se otevírají uvnitř nich jako doplněk. Úplná osnova kurzu zůstává ve vedlejším rozbalovacím přehledu, bez odsunutí původních cvičení.
+Při dalším rozšiřování jsou závazným vzorem původní moduly a [pravidla projektu](AGENTS.md). Matematika zachovává první dvě původní kategorie; související školní výpisky se otevírají uvnitř nich jako doplněk. Stereometrie je viditelná samostatně jako třetí hlavní kategorie. Úplná osnova kurzu zůstává ve vedlejším rozbalovacím přehledu, bez odsunutí původních cvičení nebo skrytí Stereometrie.
 
 Biologické výpisky, slovníček (28 pojmů) a jejich PDF byly zkontrolovány
 výhradně podle původní 63snímkové prezentace. U obsahu jsou čísla snímků;

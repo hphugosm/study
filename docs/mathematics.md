@@ -1,6 +1,6 @@
 # Matematika ve study lo
 
-Dvě kategorie rozšiřují stávající předmět Matematika. Původní `math-quarter` zůstává cílem kalendářové události a slouží jako rozcestník, není třetí kategorií. Přesný rozsah školní čtvrtletní práce není doložen.
+Původní interaktivní část tvoří dvě kategorie popsané níže. V hlavním přehledu následuje samostatná [Stereometrie](https://studilo.xyz/#/units/moodle-mathematics-19b4bf717ba5fb504c592cbdd891923b), dostupná bez rozbalování vedlejší osnovy. Původní `math-quarter` zůstává cílem kalendářové události a slouží jako rozcestník, není samostatnou kategorií. Přesný rozsah školní čtvrtletní práce není doložen.
 
 | Kategorie | Route | Zdroj |
 |---|---|---|

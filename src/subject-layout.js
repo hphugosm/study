@@ -1,5 +1,5 @@
 /** Keep established interactive categories canonical; Moodle sources enrich them. */
-const primaryIds={mathematics:['trig-functions','trig-equations'],biology:['skeleton','muscles'],law:['law-unit-2']};
+const primaryIds={mathematics:['trig-functions','trig-equations','moodle-mathematics-19b4bf717ba5fb504c592cbdd891923b'],biology:['skeleton','muscles'],law:['law-unit-2']};
 const supplementParents={
  'moodle-mathematics-9b3237cc2327dfc9a3353506fef752b3':['trig-functions','trig-equations'],
  'moodle-biology-03eb3f66a6da14c362750a3968ba2881':['skeleton'],
@@ -15,7 +15,7 @@ export function subjectLayout(subjectId,units){
  const primarySet=new Set(primary.map(unit=>unit.id));
  const course=selected.filter(unit=>unit.origin==='moodle');
  const legacy=selected.filter(unit=>unit.origin!=='moodle'&&!primarySet.has(unit.id));
- return {primary,course,secondary:course.filter(unit=>!parentsForSupplement(unit,units).length),legacy};
+ return {primary,course,secondary:course.filter(unit=>!primarySet.has(unit.id)&&!parentsForSupplement(unit,units).length),legacy};
 }
 export function canonicalUnitHref(unit,units){
  const parent=parentsForSupplement(unit,units)[0];
