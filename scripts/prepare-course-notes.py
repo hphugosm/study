@@ -37,21 +37,37 @@ def main():
     parser.add_argument('--extractions', type=Path, required=True)
     args = parser.parse_args()
     prepared = args.prepared.resolve()
-    feed = read(ROOT/'modules/moodle-sync/feed.json')['entries']
+    # Announcements and assignments may also appear in the approved feed;
+    # only file entries can have document extraction or source-backed notes.
+    feed = [entry for entry in read(ROOT/'modules/moodle-sync/feed.json')['entries'] if entry.get('kind') == 'file']
     approved = {entry['id']:entry for entry in feed}
     approved_hashes = {entry['sha256'] for entry in feed}
     expected = {(entry['subject'],entry['topic']) for entry in feed}
     files = sorted((ENGINE/'content').glob('*/*.json'))
     actual = {(path.parent.name,path.stem) for path in files}
-    assert actual == expected, 'Every source-bearing topic must have reviewed content; no invented topics'
+    assert actual <= expected, 'Reviewed content must belong to an approved source-bearing topic'
     raw = read(prepared/'manifest.json')
     assert raw['approved_source_set_verified'] and raw['held_sources_included'] == 0
-    assert {item['source_sha256'] for item in raw['sources']} == approved_hashes
+    prepared_hashes = {item['source_sha256'] for item in raw['sources']}
+    assert len(prepared_hashes) == len(raw['sources']), 'Duplicate extraction source'
+    assert prepared_hashes <= approved_hashes, 'Extraction includes an unapproved or stale source'
+    # A newly approved topic may remain source-only while editorial work is
+    # pending. Existing authored topics still require their complete exact set.
+    for path in files:
+        data = read(path)
+        assert (data['subject'], data['topic']) == (path.parent.name, path.stem)
+        ids = {entry['id'] for entry in feed if (entry['subject'], entry['topic']) == (data['subject'], data['topic'])}
+        assert {source['id'] for source in data['sources']} == ids, 'Missing or extra source in reviewed topic'
+        for source in data['sources']:
+            original = approved[source['id']]
+            assert source['sha256'] == original['sha256'] and source['url'] == original['url'], 'Stale reviewed source'
+            assert source['sha256'] in prepared_hashes, 'Reviewed notes require complete source extraction'
     images = read(prepared/'imagemap.json')
     assets = {}
     texts = []
     for item in raw['sources']:
         source_hash = item['source_sha256']
+        assert item['name'] == source_hash+'.zip', 'Noncanonical extraction archive name'
         bundle = prepared/'bundles'/item['name']
         assert not bundle.is_symlink() and bundle.stat().st_size == item['bytes']
         assert digest(bundle.read_bytes()) == item['sha256']
@@ -128,6 +144,9 @@ def main():
     write(ENGINE/'learning-assets.json',{'schema':1,'release':'studylo-learning-v1','assets':ordered,
         'source_texts':sorted(texts,key=lambda item:item['source_sha256']),'counts':totals,
         'extraction':{'approved_unique_sources':len(approved_hashes),'approved_entries':len(feed),
+                      'prepared_unique_sources':len(prepared_hashes),
+                      'pending_unique_sources':len(approved_hashes-prepared_hashes),
+                      'pending_topics':len(expected-actual),
                       'privacy_scope':'approved_public_sources_only','ocr':'fallible_transcription'}})
     print(json.dumps({**totals,'release_assets':len(ordered),'release_bytes':sum(asset['size'] for asset in ordered)}))
 

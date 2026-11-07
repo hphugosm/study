@@ -65,6 +65,8 @@ Příprava sváže obrázky s přesnými zdroji, nastaví kanonické odkazy do R
 
 Denní synchronizace načítá změny podkladů a ukládá nové verze ke kontrole; sama negeneruje nové poznámky ani neaktualizuje jejich odpovědi. Změna zdrojové verze vyžaduje nové schválení a redakční kontrolu výkladu. Kontrola přesných referencí odmítne nesoulad; staré poznámky se nepřevážou potichu na nové bajty.
 
+Na denní synchronizaci může navázat samostatný místní plánovaný úkol Codexu, který připraví obsah a nechá jej nezávisle zkontrolovat. AI neběží uvnitř Actions. Nově schválené téma může před dokončením výpisků zůstat pouze se zdroji; nesmí se vydávat za hotovou lekci. U již zpracovaného tématu nová nebo změněná příloha vyžaduje aktualizaci přesných referencí a odpovídajícího výkladu v téže změně. Publikované texty a ZIPy tvoří shodnou schválenou sadu a každý zdroj použitý v hotové lekci musí mít úplnou extrakci.
+
 ## Používání a offline režim
 
 Studium obsahuje výklad, barevná upozornění, obrázky se zvětšením, kroky a porovnávání. Procvičování nabízí kartičky a vysvětlené odpovědi. Ve Fyzice lze měnit indexy a úhel dopadu v jednoduchém izotropním modelu; v Informatice měnit bity a sudou/lichou paritu. Modely vysvětlují uvedený vztah a jeho podmínky, nepočítají nevyznačené jevy, například Fresnelovy intenzity.
