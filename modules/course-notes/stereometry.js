@@ -116,7 +116,8 @@ function explain(host,shape,d,mode){
  const largest=Math.max(d.r1,d.r2);circle(35,57,27*d.r1/largest);circle(104,57,27*d.r2/largest);const net=evaluateNet(shape,d);add('polygon',{points:net.points.map(([x,y])=>`${190+x*85},${12+y*85}`).join(' '),fill:'#ede9fe',stroke:'#7c3aed','stroke-width':1.5});text(35,112,'πr₁²');text(105,112,'πr₂²');text(265,112,net.kind==='rectangle'?'obdélník · 2πr × v':`výseč · ${fmt(net.angle*180/Math.PI)}°`);
  explanation='Dvě různé kruhové podstavy a plášť. Plášť se rozvine do mezikruhové výseče; při stejných poloměrech do obdélníku. Jeho obsah π(r₁ + r₂)s musíme přičíst k OBĚMA podstavám. Objem: πv(r₁² + r₁r₂ + r₂²) / 3.';
  }
- host.append(node('p',explanation),node('p','Jednotlivé části jsou pro čitelnost zmenšené samostatně; úhel výseče odpovídá rozměrům. Při téměř stejných poloměrech zobrazujeme limitní obdélník. Modrý náčrt výše používá stálou délkovou stupnici.','stereo-schema-note'));
+ const schemaNote=shape==='cone'?'Části jsou zmenšené samostatně; úhel výseče odpovídá rozměrům.':shape==='frustum'?'Části jsou zmenšené samostatně; úhel výseče odpovídá rozměrům. Při téměř stejných poloměrech ukazujeme limitní obdélník.':'Schéma částí není v měřítku.';
+ host.append(node('p',explanation),node('p',`${schemaNote} Modrý náčrt výše používá stálou délkovou stupnici.`,'stereo-schema-note'));
 }
 
 export function mountStereometry(container,defaults={}){
