@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "muscles",
+  "sources": [
+    {
+      "id": "516ac6c9295df69d08e529466cd1829563a0f9dc07262e2d0ec29e24a0848a37",
+      "title": "Svalová soustava — studijní kopie (PDF)",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/e0f832a29f806e231d03a6a1688fabebde715da831d859c62664dae8851810fd.pdf",
+      "sha256": "e0f832a29f806e231d03a6a1688fabebde715da831d859c62664dae8851810fd",
+      "size": 1566085,
+      "source_kind": "manual",
+      "review_status": "approved"
+    },
+    {
+      "id": "d09075698ff08c9c3ae2a10b7e8bb8c5c8983c8e2ac6a1dfe5c54b512b3012b8",
+      "title": "Svalová soustava — studijní kopie (PPTX)",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/36747ed96a59b5954589fca60153c462f97c00fa7493d8894644faf3dea5cbe1.pptx",
+      "sha256": "36747ed96a59b5954589fca60153c462f97c00fa7493d8894644faf3dea5cbe1",
+      "size": 5035496,
+      "source_kind": "manual",
+      "review_status": "approved"
+    }
+  ]
+}

@@ -54,7 +54,7 @@
           },
           "url": {
             "type": "string",
-            "pattern": "^https://github\\.com/hphugosm/study/releases/download/studylo-materials-v1/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$"
+            "pattern": "^https://github\\.com/hphugosm/study/releases/download/(?:studylo-materials-v1|studylo-biology-v1)/[a-f0-9]{64}\\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$"
           }
         },
         "required": [

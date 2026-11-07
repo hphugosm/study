@@ -1,0 +1,614 @@
+{
+  "schema": 1,
+  "system": "muscles",
+  "title": "Svalová soustava",
+  "source": {
+    "title": "SVALY — školní prezentace",
+    "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/e0f832a29f806e231d03a6a1688fabebde715da831d859c62664dae8851810fd.pdf",
+    "sha256": "e0f832a29f806e231d03a6a1688fabebde715da831d859c62664dae8851810fd",
+    "size": 1566085,
+    "pptx_url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/36747ed96a59b5954589fca60153c462f97c00fa7493d8894644faf3dea5cbe1.pptx",
+    "pptx_sha256": "36747ed96a59b5954589fca60153c462f97c00fa7493d8894644faf3dea5cbe1"
+  },
+  "views": [
+    {
+      "id": "body",
+      "name": "Tělo zepředu",
+      "image": "image12.png"
+    },
+    {
+      "id": "face",
+      "name": "Hlava a krk",
+      "image": "image11.jpg"
+    },
+    {
+      "id": "labelled",
+      "name": "Detail bérce",
+      "image": "image10.jpg"
+    },
+    {
+      "id": "arm",
+      "name": "Paže při natažení",
+      "image": "image1.jpg"
+    }
+  ],
+  "structures": [
+    {
+      "id": "zdvihac",
+      "name": "Zdvihač hlavy",
+      "latin": "m. sternocleidomastoideus",
+      "region": "krk",
+      "view": "face",
+      "polygon": [
+        47,
+        70,
+        56,
+        62,
+        63,
+        58,
+        58,
+        73,
+        50,
+        90,
+        47,
+        87
+      ],
+      "slide": 9,
+      "summary": "Na bočním obrázku hlavy sleduj šikmo probíhající svalový pruh na krku.",
+      "note": ""
+    },
+    {
+      "id": "deltovy",
+      "name": "Deltový sval",
+      "latin": "m. deltoideus",
+      "region": "trup",
+      "view": "body",
+      "polygon": [
+        34,
+        21,
+        36,
+        19,
+        39,
+        19,
+        37,
+        24,
+        34,
+        28,
+        33,
+        26
+      ],
+      "slide": 9,
+      "summary": "Na předním pohledu tvoří nápadný svalový kryt ramene, nad svaly paže.",
+      "note": ""
+    },
+    {
+      "id": "prsni",
+      "name": "Velký prsní sval",
+      "latin": "m. pectoralis major",
+      "region": "trup",
+      "view": "body",
+      "polygon": [
+        38,
+        20,
+        49,
+        20,
+        49,
+        30,
+        45,
+        33,
+        38,
+        29
+      ],
+      "slide": 9,
+      "summary": "Na povrchové polovině předního pohledu pokrývá horní část hrudníku.",
+      "note": ""
+    },
+    {
+      "id": "biceps",
+      "name": "Dvojhlavý sval pažní",
+      "latin": "m. biceps brachii",
+      "region": "paze",
+      "view": "body",
+      "polygon": [
+        34,
+        28,
+        37,
+        27,
+        35,
+        33,
+        32,
+        36,
+        31,
+        35
+      ],
+      "slide": 9,
+      "summary": "Na přední straně paže je mezi ramenem a loktem; na snímku 5 je ukázán při ohýbání.",
+      "note": "Dvojhlavý sval je v ukázce ohýbač; jeho protějškem je trojhlavý sval pažní, natahovač.",
+      "slides": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "triceps",
+      "name": "Trojhlavý sval pažní",
+      "latin": "m. triceps brachii",
+      "region": "paze",
+      "slide": 5,
+      "summary": "Na ukázce natažené paže ze snímku 5 je zvýrazněno svalové bříško na opačné straně než dvojhlavý sval.",
+      "note": "Na snímku 5 je při natahování trojhlavý sval pažní zkrácený a dvojhlavý sval uvolněný.",
+      "view": "arm",
+      "polygon": [
+        60,
+        31,
+        66,
+        34,
+        69,
+        42,
+        67,
+        50,
+        61,
+        59,
+        57,
+        61,
+        55,
+        55,
+        57,
+        43
+      ]
+    },
+    {
+      "id": "sikmy",
+      "name": "Zevní šikmý sval břišní",
+      "latin": "m. obliquus externus abdominis",
+      "region": "trup",
+      "view": "body",
+      "polygon": [
+        41,
+        34,
+        44,
+        35,
+        44,
+        44,
+        42,
+        47,
+        40,
+        44
+      ],
+      "slide": 9,
+      "summary": "Na předním pohledu sleduj boční část břišní stěny vedle přímého svalu břišního.",
+      "note": ""
+    },
+    {
+      "id": "primy",
+      "name": "Přímý sval břišní",
+      "latin": "m. rectus abdominis",
+      "region": "trup",
+      "view": "body",
+      "polygon": [
+        45,
+        34,
+        55,
+        34,
+        56,
+        43,
+        52,
+        50,
+        47,
+        50,
+        44,
+        43
+      ],
+      "slide": 9,
+      "summary": "Na obrázku tvoří párové členěné pruhy uprostřed přední břišní stěny.",
+      "note": ""
+    },
+    {
+      "id": "quadriceps",
+      "name": "Čtyřhlavý sval stehenní",
+      "latin": "m. quadriceps femoris",
+      "region": "nohy",
+      "view": "body",
+      "polygon": [
+        42,
+        49,
+        44,
+        51,
+        47,
+        58,
+        46,
+        66,
+        44,
+        67,
+        41,
+        61,
+        40,
+        54
+      ],
+      "slide": 9,
+      "summary": "Na předním pohledu zabírá velkou část přední strany stehna nad kolenem.",
+      "note": ""
+    },
+    {
+      "id": "lytko",
+      "name": "Trojhlavý sval lýtkový",
+      "latin": "m. triceps surae",
+      "region": "nohy",
+      "view": "labelled",
+      "polygon": [
+        53,
+        71,
+        55,
+        69,
+        57,
+        70,
+        57,
+        77,
+        54,
+        81,
+        52,
+        78
+      ],
+      "slide": 9,
+      "summary": "Ve výřezu původního atlasu sleduj společně označené oblasti m. gastrocnemius a m. soleus na lýtku.",
+      "note": "",
+      "slides": [
+        9,
+        1
+      ]
+    },
+    {
+      "id": "pilovity",
+      "name": "Přední sval pilovitý",
+      "latin": "m. serratus anterior",
+      "region": "trup",
+      "view": "body",
+      "polygon": [
+        59,
+        27,
+        62,
+        28,
+        62,
+        32,
+        59,
+        34,
+        57,
+        33
+      ],
+      "slide": 9,
+      "summary": "Na odkryté polovině hrudníku sleduj pilovitě členěnou oblast při bočním okraji žeber.",
+      "note": ""
+    },
+    {
+      "id": "krejcovsky",
+      "name": "Krejčovský sval",
+      "latin": "m. sartorius",
+      "region": "nohy",
+      "view": "body",
+      "polygon": [
+        60,
+        48,
+        62,
+        49,
+        59,
+        56,
+        56,
+        61,
+        54,
+        66,
+        53,
+        65,
+        55,
+        58
+      ],
+      "slide": 9,
+      "summary": "Na přední straně stehna tvoří úzký šikmý pruh, který přechází přes větší svalové oblasti.",
+      "note": ""
+    },
+    {
+      "id": "mezizeberni",
+      "name": "Mezižeberní svaly",
+      "latin": "mm. intercostales",
+      "region": "trup",
+      "slide": 9,
+      "summary": "Na snímku 9 jsou označeny svaly v prostorech mezi žebry odkryté poloviny hrudníku.",
+      "note": " Na dostupném předním obrázku není tato struktura jednoznačně oddělitelná. Proto ji procvičujeme slovně, bez zavádějícího cíle v mapě.",
+      "cardOnly": true
+    },
+    {
+      "id": "holenni",
+      "name": "Přední sval holenní",
+      "latin": "m. tibialis anterior",
+      "region": "nohy",
+      "view": "labelled",
+      "polygon": [
+        36,
+        72,
+        38,
+        72,
+        37,
+        80,
+        36,
+        83,
+        35,
+        80
+      ],
+      "slide": 9,
+      "summary": "V původním popsaném atlasu je označen m. tibialis anterior na přední straně bérce, vedle holenní kosti.",
+      "note": "Prezentace používá nepřesné označení „přední sval lýtkový“. Popisek m. tibialis anterior na přiloženém anatomickém obrázku upřesňuje, že jde o přední sval holenní.",
+      "slides": [
+        9,
+        1
+      ]
+    },
+    {
+      "id": "zvykaci",
+      "name": "Žvýkací sval",
+      "latin": "m. masseter",
+      "region": "hlava",
+      "view": "face",
+      "polygon": [
+        33,
+        54,
+        39,
+        56,
+        44,
+        64,
+        42,
+        71,
+        36,
+        72,
+        31,
+        65
+      ],
+      "slide": 9,
+      "summary": "Na bočním obrázku hlavy je to výrazná svalová oblast v zadní části tváře nad dolní čelistí.",
+      "note": ""
+    },
+    {
+      "id": "spankovy",
+      "name": "Spánkový sval",
+      "latin": "m. temporalis",
+      "region": "hlava",
+      "view": "face",
+      "polygon": [
+        26,
+        25,
+        43,
+        18,
+        65,
+        24,
+        78,
+        34,
+        73,
+        41,
+        49,
+        45,
+        31,
+        39
+      ],
+      "slide": 9,
+      "summary": "Na bočním obrázku pokrývá širokou vějířovitou oblast nad uchem.",
+      "note": ""
+    },
+    {
+      "id": "celni",
+      "name": "Čelní sval",
+      "latin": "m. frontalis",
+      "region": "hlava",
+      "view": "face",
+      "polygon": [
+        17,
+        12,
+        30,
+        7,
+        46,
+        6,
+        48,
+        14,
+        36,
+        20,
+        23,
+        28,
+        15,
+        26
+      ],
+      "slide": 9,
+      "summary": "Na bočním obrázku je svalová plocha na čele, před spánkovým svalem.",
+      "note": ""
+    },
+    {
+      "id": "kozni",
+      "name": "Kožní sval krční",
+      "latin": "m. platysma",
+      "region": "krk",
+      "slide": 9,
+      "summary": "Na snímku 9 je tento název uveden mezi svaly hlavy a krku; dostupný obrázek pro něj není použit jako samostatný mapový cíl.",
+      "note": "Pojem je uveden na snímku 9. Z dostupného obrázku nelze bezpečně vymezit samostatný cíl; proto se procvičuje slovně.",
+      "cardOnly": true
+    },
+    {
+      "id": "mimicke",
+      "name": "Mimické svaly",
+      "latin": "svalová skupina",
+      "region": "hlava",
+      "view": "face",
+      "polygon": [
+        15,
+        36,
+        25,
+        37,
+        24,
+        44,
+        18,
+        49,
+        11,
+        47
+      ],
+      "slide": 9,
+      "summary": "Prezentace označuje více svalů obličeje jako skupinu. V poznávačce ji zastupuje oblast kolem oka.",
+      "note": "Skupina mimických svalů je zde zastoupena oblastí kolem oka; nejde o jeden samostatný sval."
+    }
+  ],
+  "notes": [
+    {
+      "id": "tkane",
+      "title": "Tři druhy svalové tkáně",
+      "slide": 2,
+      "paragraphs": [
+        "Hladká svalovina tvoří například stěny trávicí trubice, cév a močového měchýře. Pracuje nezávisle na naší vůli; její buňky jsou protáhlé a jednojaderné.",
+        "Příčně pruhovaná kosterní svalovina je ovladatelná vůlí. Má mnohojaderná vlákna se střídajícími se světlými a tmavými úseky.",
+        "Srdeční svalovina tvoří stěnu srdce a pracuje nezávisle na naší vůli. Její rozvětvená vlákna jsou příčně pruhovaná."
+      ],
+      "images": [
+        "image4.png",
+        "image5.png",
+        "image6.png"
+      ],
+      "slides": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "stavba",
+      "title": "Od svalu ke svalovému vláknu",
+      "slide": 4,
+      "paragraphs": [
+        "Na obrázku rozlišuj svalové bříško, šlachu a kost. Šlacha propojuje sval s kostí.",
+        "Sval obsahuje snopce a snopečky svalových vláken. Na schématu jsou také cévy a vazivová blána – povázka."
+      ],
+      "images": [
+        "image2.jpg"
+      ]
+    },
+    {
+      "id": "stah",
+      "title": "Sval táhne: ohýbač a natahovač",
+      "slide": 5,
+      "paragraphs": [
+        "Při kontrakci se sval zkracuje a pohybuje připojenými kostmi. Sval aktivně táhne.",
+        "Dvojhlavý a trojhlavý sval pažní tvoří v ukázce protichůdnou dvojici: při ohýbání se dvojhlavý sval zkracuje, při natahování se zkracuje trojhlavý sval.",
+        "Ovladač níže střídá oba stavy. Jde o výukové schéma, nikoli o měření skutečného pohybu."
+      ],
+      "images": [
+        "image1.jpg",
+        "image3.jpg"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "hladka",
+      "question": "Která svalovina je ve stěně trávicí trubice?",
+      "answer": "Hladká svalovina; pracuje nezávisle na vůli.",
+      "slide": 2
+    },
+    {
+      "id": "srdecni",
+      "question": "Jakou tkání je tvořena svalovina srdce?",
+      "answer": "Srdeční svalovinou: je příčně pruhovaná, rozvětvená a pracuje nezávisle na vůli.",
+      "slide": 3
+    },
+    {
+      "id": "kosterni",
+      "question": "Čím je charakteristická kosterní svalovina?",
+      "answer": "Je příčně pruhovaná a ovladatelná vůlí; vlákna jsou mnohojaderná.",
+      "slide": 3
+    },
+    {
+      "id": "slacha",
+      "question": "Které části jsou označeny na schématu stavby svalu?",
+      "answer": "Kost, šlacha, svalové bříško, snopce, snopečky, svalová vlákna, cévy a povázka.",
+      "slide": 4
+    },
+    {
+      "id": "kontrakce",
+      "question": "Co znamená kontrakce?",
+      "answer": "Sval se aktivně zkracuje. V ukázce protichůdných svalů je jeho partner pasivně napínán.",
+      "slide": 5
+    }
+  ],
+  "assets": {
+    "image3.jpg": {
+      "name": "dffb431c5dc2109121e17a6da3f3f788f8df38a54411f454d928046f6671de32.jpg",
+      "sha256": "dffb431c5dc2109121e17a6da3f3f788f8df38a54411f454d928046f6671de32",
+      "size": 6064,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/dffb431c5dc2109121e17a6da3f3f788f8df38a54411f454d928046f6671de32.jpg",
+      "width": 162,
+      "height": 252
+    },
+    "image4.png": {
+      "name": "94dc5ee4af51e12bb5a2607c5cc226acff6b346435131166b24f3f8b5ae8780c.png",
+      "sha256": "94dc5ee4af51e12bb5a2607c5cc226acff6b346435131166b24f3f8b5ae8780c",
+      "size": 48964,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/94dc5ee4af51e12bb5a2607c5cc226acff6b346435131166b24f3f8b5ae8780c.png",
+      "width": 184,
+      "height": 130
+    },
+    "image13.png": {
+      "name": "b9a92f72e792590eb2ab69c4c0ebe29aba7d1c927d604cdb2cc1999ab5899008.png",
+      "sha256": "b9a92f72e792590eb2ab69c4c0ebe29aba7d1c927d604cdb2cc1999ab5899008",
+      "size": 395710,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/b9a92f72e792590eb2ab69c4c0ebe29aba7d1c927d604cdb2cc1999ab5899008.png",
+      "width": 674,
+      "height": 829
+    },
+    "image6.png": {
+      "name": "beccb9bd53c8ff5123070265e38bcdbf4ee2a1d0920d6bb1bffceb54b4ca1b01.png",
+      "sha256": "beccb9bd53c8ff5123070265e38bcdbf4ee2a1d0920d6bb1bffceb54b4ca1b01",
+      "size": 1315863,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/beccb9bd53c8ff5123070265e38bcdbf4ee2a1d0920d6bb1bffceb54b4ca1b01.png",
+      "width": 750,
+      "height": 600
+    },
+    "image10.jpg": {
+      "name": "521948f800a01d5b3cebb3ebd138951b83fe50edd69d378b29245a5d3f0f6415.jpg",
+      "sha256": "521948f800a01d5b3cebb3ebd138951b83fe50edd69d378b29245a5d3f0f6415",
+      "size": 3002934,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/521948f800a01d5b3cebb3ebd138951b83fe50edd69d378b29245a5d3f0f6415.jpg",
+      "width": 1648,
+      "height": 2307
+    },
+    "image2.jpg": {
+      "name": "c3201d5c7a47b2303627aa04b2547d441a57ace5615c91a37b297754e543d88a.jpg",
+      "sha256": "c3201d5c7a47b2303627aa04b2547d441a57ace5615c91a37b297754e543d88a",
+      "size": 24902,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/c3201d5c7a47b2303627aa04b2547d441a57ace5615c91a37b297754e543d88a.jpg",
+      "width": 483,
+      "height": 286
+    },
+    "image11.jpg": {
+      "name": "a594c55c561248640b9beab959dc526072eac50df3536f0f40e4c993cb204997.jpg",
+      "sha256": "a594c55c561248640b9beab959dc526072eac50df3536f0f40e4c993cb204997",
+      "size": 49673,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/a594c55c561248640b9beab959dc526072eac50df3536f0f40e4c993cb204997.jpg",
+      "width": 313,
+      "height": 370
+    },
+    "image5.png": {
+      "name": "600fadefec26f5b8f427b85027d7092851d8f500d475adbd2696083f613113ff.png",
+      "sha256": "600fadefec26f5b8f427b85027d7092851d8f500d475adbd2696083f613113ff",
+      "size": 41836,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/600fadefec26f5b8f427b85027d7092851d8f500d475adbd2696083f613113ff.png",
+      "width": 175,
+      "height": 130
+    },
+    "image12.png": {
+      "name": "bddede8fe68ceb164c0a996d6efff5ca41c1ff0ce50ae65dd229bd65ea61d503.png",
+      "sha256": "bddede8fe68ceb164c0a996d6efff5ca41c1ff0ce50ae65dd229bd65ea61d503",
+      "size": 199997,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/bddede8fe68ceb164c0a996d6efff5ca41c1ff0ce50ae65dd229bd65ea61d503.png",
+      "width": 516,
+      "height": 599
+    },
+    "image1.jpg": {
+      "name": "29878a34046a4db6917ff343e2d7dec4b9ffcaf95d411104fe4e962c5ae87350.jpg",
+      "sha256": "29878a34046a4db6917ff343e2d7dec4b9ffcaf95d411104fe4e962c5ae87350",
+      "size": 6171,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/29878a34046a4db6917ff343e2d7dec4b9ffcaf95d411104fe4e962c5ae87350.jpg",
+      "width": 163,
+      "height": 321
+    }
+  }
+}

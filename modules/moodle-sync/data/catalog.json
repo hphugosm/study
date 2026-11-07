@@ -216,6 +216,12 @@
           "title": "Kosterní soustava člověka – lidské kosti",
           "index": "subjects/biology/topics/skeleton/index.json",
           "origin": "study"
+        },
+        {
+          "id": "muscles",
+          "title": "Svalová soustava člověka",
+          "index": "subjects/biology/topics/muscles/index.json",
+          "origin": "study"
         }
       ]
     },

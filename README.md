@@ -73,6 +73,7 @@ Zadání vycházejí ze dvou původních PDF a postupy z dodaného souboru 164 �
 
 - Datový kalendář s přepínáním měsíců, dneškem, více událostmi denně, detailem dne, typy událostí a nejbližšími termíny. Aktuální datum používá časové pásmo Europe/Prague.
 - **Biologie:** všech 64 položek, atlas a filtry, poznávačka, obrázkové/textové kartičky, slepá mapa (pojmenované i nepojmenované režimy), detail/zoom, řešení, opakování chyb, výpisky, původní PDF a uložený postup. Nově se ukládají i výsledky mapy.
+- **Svalová soustava:** samostatná hlavní biologická kategorie ve stejném způsobu učení jako kosterní atlas. 18 svalů a skupin, 16 ověřených obrazových cílů, poznávačka, mapa podle názvu i předlohy, kartičky, výpisky, zvětšení a opakování chyb. [Rozsah a kontrola podkladů](docs/biology-muscles.md).
 - **Law / UNIT 2 / U.S. Courts & Civil Liberties:** čtyři případy, hierarchie soudů a odvolání, 55 slovíček, 145 flashcards, 95 otázek, mixed a tematické testy, výběr odpovědi, true/false, psané odpovědi, řazení, spojování, vysvětlení, výsledky, oprava chyb, postup a oba PDF. Obsah zůstává anglicky.
 - **Matematika:** dvě původní interaktivní kategorie zůstávají zachované: Trigonometrie a goniometrické funkce; Goniometrické vzorce, rovnice a nerovnice. Český obsah z 81 snímků, ovladatelná kružnice, proměny grafů, trojúhelníkové věty, postupná řešení, nerovnice, kartičky a kvízy. Vedle nich jsou skutečná témata aktuálního kurzu. Původní termín čtvrtletní práce otevírá rozcestník obou původních kategorií. Přesný rozsah práce není zadán.
 - Literatura má skutečný termín a připravenou jednotku; chybějící podklady jsou označené.
@@ -80,6 +81,8 @@ Zadání vycházejí ze dvou původních PDF a postupy z dodaného souboru 164 �
 Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. Jeho osm původních vstupních učebních souborů je pouze citováno ve zdrojové aplikaci; převzaty jsou všechny skutečně dostupné soubory, včetně dvou PDF. Matematické podklady a opravy: [audit Matematiky](docs/mathematics.md).
 
 Podrobnosti: [audit Law](docs/law-audit.md), [audit Biologie](docs/biology-audit.md), [ověření](docs/verification.md).
+
+Při dalším rozšiřování jsou závazným vzorem původní moduly a [pravidla projektu](AGENTS.md). Matematika zachovává dvě původní hlavní kategorie; nové související školní výpisky se otevírají uvnitř nich jako doplněk. Úplná osnova kurzu zůstává ve vedlejším rozbalovacím přehledu, bez odsunutí původních cvičení.
 
 Biologické výpisky, slovníček (28 pojmů) a jejich PDF byly zkontrolovány
 výhradně podle původní 63snímkové prezentace. U obsahu jsou čísla snímků;

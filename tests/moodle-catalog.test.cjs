@@ -93,3 +93,15 @@ test('ordinary DOC JPG PNG WMV release sources remain digest-bound and schema-co
   assert.throws(()=>validateSources(index([{...common,url:url+'?token=bad'}])));
  }
 });
+
+test('reviewed manual biology copies use a separate immutable release without admitting raw Moodle files',async()=>{
+ const {validateSources,approvedReleaseURL,BIOLOGY_ASSET_PREFIX}=await validators();
+ const {path:ignored,...common}=source;
+ const url=BIOLOGY_ASSET_PREFIX+digest+'.pdf';
+ const schema=read('modules/moodle-sync/data/schemas/sources.schema.json');
+ assert.ok(new RegExp(schema.properties.sources.items.properties.url.pattern).test(url));
+ assert.ok(approvedReleaseURL(url,digest));
+ assert.equal(validateSources(index([{...common,source_kind:'manual',url}])).sources[0].url,url);
+ assert.throws(()=>validateSources(index([{...common,source_kind:'moodle',url}])));
+ for(const bad of [url+'?token=x',url.replace(digest,other),url.replace('studylo-biology-v1','studylo-biology-v2'),url.replace('hphugosm/study','other/study')])assert.equal(approvedReleaseURL(bad,digest),false);
+});

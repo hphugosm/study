@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {questions,shuffled,readProgress,validate,STORAGE_KEY,mistakeQuestions,safeWrite,questionCaption} from '../engine.js';
+const data=JSON.parse(await readFile(new URL('../data.json',import.meta.url)));
+test('all muscle structures and visual targets have verified identities',()=>{assert.deepEqual(validate(data),[]);assert.equal(data.structures.length,18);assert.equal(data.structures.filter(s=>!s.cardOnly).length,16);});
+test('a whole round covers every selected visual item exactly once',()=>{for(const region of ['all',...new Set(data.structures.map(s=>s.region))]){const source=questions(data,region).filter(s=>!s.cardOnly);const round=shuffled(source,()=>.4);assert.equal(round.length,source.length);assert.deepEqual(new Set(round.map(s=>s.id)),new Set(source.map(s=>s.id)));}});
+test('muscle persistence is isolated and malformed state is safe',()=>{let requested;assert.deepEqual(readProgress({getItem:k=>{requested=k;return '{bad';}}),{known:[],results:[]});assert.equal(requested,STORAGE_KEY);assert.notEqual(STORAGE_KEY,'study:biology:kostra-progress-v2');});
+test('source-backed notes omit held health images and unsupported treatment advice',()=>{const body=JSON.stringify(data);assert.ok(!body.includes('image14'));assert.ok(!body.includes('image7.'));assert.ok(data.notes.every(n=>n.slide>=2&&n.slide<=5));assert.ok(data.source.url.includes('e0f832a29f806e231d03a6a1688fabebde715da831d859c62664dae8851810fd'));});
+
+test('repeat mistakes uses exact structure IDs once, excludes unavailable visual targets',()=>{const result=mistakeQuestions(data,['biceps','biceps','triceps','not-a-muscle','mezizeberni']);assert.deepEqual(new Set(result.map(s=>s.id)),new Set(['biceps','triceps']));assert.equal(result.length,2);});
+test('blocked storage does not interrupt a learning session',()=>{assert.equal(safeWrite({setItem(){throw Error('quota');}},{known:['biceps']}),false);let key;assert.equal(safeWrite({setItem(k){key=k;}},{known:[]}),true);assert.equal(key,STORAGE_KEY);});
+test('citation and fixed source URLs are validated before mount',()=>{const d=structuredClone(data);d.notes[0].slides=[13];assert.ok(validate(d).some(e=>e.includes('citation')));d.source.url='https://example.com/source.pdf';assert.ok(validate(d).includes('Invalid source URL'));d.assets['image1.jpg'].width=0;assert.ok(validate(d).some(e=>e.includes('asset')));});
+
+test('zoom caption conceals recognition and map answers until their reveal state',()=>{assert.equal(questionCaption('Dvojhlavý sval',{mode:'cards'}),'Anatomický podklad');assert.equal(questionCaption('Dvojhlavý sval',{mode:'map',revealed:true}),'Anatomický podklad');assert.equal(questionCaption('Dvojhlavý sval',{mode:'cards',revealed:true}),'Dvojhlavý sval');assert.equal(questionCaption('Dvojhlavý sval',{mode:'map',answered:true}),'Dvojhlavý sval');assert.equal(questionCaption('Dvojhlavý sval',{mode:'atlas'}),'Dvojhlavý sval');});

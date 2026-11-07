@@ -51,10 +51,12 @@ export function validateTopic(topic) {
   return topic;
 }
 export const RELEASE_ASSET_PREFIX='https://github.com/hphugosm/study/releases/download/studylo-materials-v1/';
+export const BIOLOGY_ASSET_PREFIX='https://github.com/hphugosm/study/releases/download/studylo-biology-v1/';
 export function approvedReleaseURL(url,sha256){
   if(typeof url!=='string'||!sha.test(sha256))return false;
-  const match=/^https:\/\/github\.com\/hphugosm\/study\/releases\/download\/studylo-materials-v1\/([a-f0-9]{64})\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$/.exec(url);
-  return !!match&&match[1]===sha256&&url===RELEASE_ASSET_PREFIX+sha256+'.'+match[2];
+  const match=/^https:\/\/github\.com\/hphugosm\/study\/releases\/download\/(studylo-materials-v1|studylo-biology-v1)\/([a-f0-9]{64})\.(pdf|pptx|ppt|docx|odt|odp|xlsx|txt|doc|jpg|png|wmv)$/.exec(url);
+  const prefix=match?.[1]==='studylo-biology-v1'?BIOLOGY_ASSET_PREFIX:RELEASE_ASSET_PREFIX;
+  return !!match&&match[2]===sha256&&url===prefix+sha256+'.'+match[3];
 }
 export function validateSources(index) {
   const prefix=identity(index);
@@ -66,6 +68,7 @@ export function validateSources(index) {
     if(hasPath===hasURL)throw new Error('source_requires_exactly_one_location');
     if(hasURL){
       if(!approvedReleaseURL(source.url,source.sha256))throw new Error('unsafe_source_release_url');
+      if(source.url.startsWith(BIOLOGY_ASSET_PREFIX)&&source.source_kind!=='manual')throw new Error('reviewed_biology_derivative_must_be_manual');
     }else{
       const extension=typeof source.path==='string'?source.path.slice(source.path.lastIndexOf('.')+1):'';
       if(!['pdf','pptx','ppt','docx','odt','odp','xlsx','txt','doc','jpg','png','wmv'].includes(extension) || source.path!==`${prefix}sources/${source.sha256}.${extension}`) throw new Error('unsafe_source_path');
