@@ -1,4 +1,4 @@
-# study lo
+# Studilo
 
 Studijní aplikace se školním kalendářem, jedenácti aktuálními předměty JU3 a zachovanými původními moduly. Statický web bez backendu, přihlášení a placeného AI API při používání nebo denní synchronizaci.
 
@@ -22,7 +22,7 @@ V patičce najdeš **Nastavení**: instalaci na plochu iPhonu, skutečný offlin
 
 ## Na ploše iPhonu a bez internetu
 
-Otevři [Nastavení](https://studilo.xyz/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona study lo potom otevírá vlastní okno aplikace.
+Otevři [Nastavení](https://studilo.xyz/#/settings) a zvol **Přidat na plochu**. V Safari použij **Sdílet → Přidat na plochu** a případně ponech zapnuté **Otevřít jako webovou aplikaci**. Ikona Studilo potom otevírá vlastní okno aplikace.
 
 Po prvním otevření s připojením se automaticky uloží rozhraní, výpisky a procvičování včetně původních obrázků atlasu, starších PDF a tří matematických prezentací. V nastavení počkej na **Připraveno offline**. Nové původní Moodle přílohy, nové obrázky z Releases, úplné přepisy a ZIP balíčky vyžadují připojení; stovky MB podkladů se automaticky nestahují. Po přidání na plochu ověř stav přímo v nově otevřené aplikaci. Nová verze se připraví na pozadí a v kalendáři se sama načte s krátkou informační hláškou. Rozehrané procvičování zůstane zachované; přepnutí počká na návrat do kalendáře i v ostatních otevřených panelech. Shodné ověřené podklady se při aktualizaci nestahují znovu.
 
@@ -79,7 +79,7 @@ Zadání vycházejí ze dvou původních PDF a postupy z dodaného souboru 164 �
 - **Law / UNIT 2 / U.S. Courts & Civil Liberties:** čtyři případy, hierarchie soudů a odvolání, 55 slovíček, 145 flashcards, 95 otázek, mixed a tematické testy, výběr odpovědi, true/false, psané odpovědi, řazení, spojování, vysvětlení, výsledky, oprava chyb, postup a oba PDF. Obsah zůstává anglicky.
 - **Matematika:** dvě původní interaktivní kategorie zůstávají zachované: Trigonometrie a goniometrické funkce; Goniometrické vzorce, rovnice a nerovnice. Český obsah z 81 snímků, ovladatelná kružnice, proměny grafů, trojúhelníkové věty, postupná řešení, nerovnice, kartičky a kvízy. Vedle nich jsou skutečná témata aktuálního kurzu. Původní termín čtvrtletní práce otevírá rozcestník obou původních kategorií. Přesný rozsah práce není zadán.
 - Literatura má skutečný termín a připravenou jednotku; chybějící podklady jsou označené.
-- **Dějepis / Baroko:** test 9. listopadu 2026 je propojený s dodaným devítistránkovým obrazovým atlasem. Výpisky s odkazy na strany pokrývají znaky baroka, 5 náboženských a 5 světských staveb, malířství, sochařství a hudbu. Původní PDF včetně fotografií a licencí je dostupné přímo u výpisků i v Materiálech a je součástí offline balíčku.
+- **Dějepis / Baroko:** test 9. listopadu 2026 otevírá 8 textových kartiček s otázkou a odpovědí: poznávací znaky, tři umělci, tři hudebníci, pět světských a pět náboženských staveb, období, sochaři a srovnání s renesancí. Kartičky se ovládají i klávesnicí a ukládají známé odpovědi. Původní devítistránkový atlas zůstává v Materiálech, kartičky i PDF jsou dostupné offline.
 
 Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. Jeho osm původních vstupních učebních souborů je pouze citováno ve zdrojové aplikaci; převzaty jsou všechny skutečně dostupné soubory, včetně dvou PDF. Matematické podklady a opravy: [audit Matematiky](docs/mathematics.md).
 

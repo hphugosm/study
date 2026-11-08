@@ -72,7 +72,7 @@ async function prepareActivation({ automatic, sourceId } = {}) {
     const readiness = await Promise.all(reloadClients.map(client => clientReadiness(client, true)));
     if (!appClients.length || readiness.some(result => !result.ready)) {
       for (const client of reloadClients) notifyClient(client, 'STUDY_UPDATE_POSTPONED');
-      return { accepted: false, reason: 'Aktualizace počká na dokončení učení. Vrať ostatní panely study lo do kalendáře nebo je zavři.' };
+      return { accepted: false, reason: 'Aktualizace počká na dokončení učení. Vrať ostatní panely Studilo do kalendáře nebo je zavři.' };
     }
     const clientIds = reloadClients.map(client => client.id);
     const cache = await caches.open(CACHE_NAME);
@@ -163,7 +163,7 @@ async function documentResponse(request, cache) {
     if (expected && await hash(await result.clone().arrayBuffer()) !== expected) return fallback || result;
     return result;
   } catch {
-    return fallback || new Response('study lo zatím není připravené offline. Připoj se a otevři aplikaci znovu.', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+    return fallback || new Response('Studilo zatím není připravené offline. Připoj se a otevři aplikaci znovu.', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
   } finally { clearTimeout(timeout); }
 }
 

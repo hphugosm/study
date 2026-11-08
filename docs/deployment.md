@@ -61,7 +61,7 @@ domény zůstává v GitHub Pages a u registrátora. Tento postup byl při
 připojení 5. listopadu ověřen: systém nejprve vrátil starou zápornou
 odpověď a poté si načetl všechny čtyři správné adresy.
 
-Nezávislé ověření na čistém počítači GitHubu: Actions → **Verify live study lo**
+Nezávislé ověření na čistém počítači GitHubu: Actions → **Verify live Studilo**
 → **Run workflow**, nebo `gh workflow run verify-live.yml --repo hphugosm/study`.
 Ručně spouštěná kontrola používá běžné DNS, Chromium a Safari WebKit proti
 `https://studilo.xyz/`; HTML report a diagnostiku uchovává 14 dnů. Nic

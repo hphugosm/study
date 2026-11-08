@@ -98,7 +98,7 @@ def main():
     document = BaseDocTemplate(
         str(args.output), pagesize=A4, leftMargin=margin, rightMargin=margin,
         topMargin=56, bottomMargin=53, title='Kosterní soustava - výpisky z prezentace',
-        author='study lo', invariant=1,
+        author='Studilo', invariant=1,
     )
     document.addPageTemplates(PageTemplate(
         id='notes', frames=Frame(margin, 53, width - 2 * margin, height - 109,

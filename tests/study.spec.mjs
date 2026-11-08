@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { questions } from '../modules/law/data/questions.js';
 import { vocabulary } from '../modules/law/data/vocabulary.js';
+import { cards as baroqueCards } from '../modules/baroque/content.js';
 
 test.beforeEach(async ({ page }) => {
   await page.clock.setFixedTime(new Date('2026-11-04T12:00:00+01:00'));
@@ -64,17 +65,36 @@ test('calendar navigates months and returns to current date', async ({ page }) =
   await expect(page.locator('[data-date="2026-11-04"]')).toBeVisible();
 });
 
-test('history test opens its Baroque study atlas and a standalone all-day excursion returns directly to calendar', async ({ page }) => {
+test('history test offers text-only recall cards and its source atlas; excursion returns to calendar', async ({ page }) => {
   await page.goto('./');
   await page.locator('[data-date="2026-11-09"]').click();
   await page.locator('a[href="#/events/history-test"]').first().click();
   await expect(page.locator('h1')).toContainText('Baroko');
   await expect(page.locator('.event-banner')).toContainText(/9.*listopad.*2026/);
-  await expect(page.locator('.unit-description')).toContainText('5 náboženských a 5 světských staveb');
-  await expect(page.getByRole('heading', {name:'Co si připravit k testu'})).toBeVisible();
-  await expect(page.locator('#unit-panel')).toContainText('Johann Sebastian Bach');
+  await expect(page).toHaveTitle('Test – Baroko — Studilo');
+  await expect(page.locator('.wordmark')).toHaveText('Studilo');
+  await expect(page.locator('.footer-brand')).toHaveText('Studilo');
+  const cards=moduleFor(page,'baroque');
+  await expect(cards).toBeVisible();
+  await expect(cards.locator('img, svg')).toHaveCount(0);
+  for(const card of baroqueCards){
+    await expect(cards.locator('.question')).toHaveText(card.question);
+    await expect(cards.locator('.answer')).toHaveCount(0);
+    await expect(cards.locator('#know-card')).toBeDisabled();
+    await cards.locator('#flip-card').click();
+    await expect(cards.locator('.question')).toHaveCount(0);
+    await expect(cards.locator('.answer li')).toHaveText(card.answer);
+    await expect(cards.locator('.source')).toHaveAttribute('href',new RegExp(`baroko-studijni-atlas.pdf#page=${card.page}$`));
+    await cards.locator('#know-card').click();
+    await cards.locator('#next-card').press('Space');
+  }
+  await expect(cards.locator('.question')).toHaveText(baroqueCards[0].question);
+  await cards.locator('#flip-card').focus();
+  await page.keyboard.press('ArrowRight');
+  await expect(cards.locator('.question')).toHaveText(baroqueCards[1].question);
+  await page.reload();
+  await expect(cards.locator('.counter')).toContainText('Znáš 8 / 8');
   const atlasURL = 'assets/history/baroko-studijni-atlas.pdf';
-  await expect(page.locator('#unit-panel').getByRole('link', {name:/Baroko — obrazový studijní atlas/})).toHaveAttribute('href', atlasURL);
   await page.getByRole('tab', {name:'Materiály', exact:true}).click();
   const atlas = page.locator('.material-card');
   await expect(atlas).toContainText('9 stran');
@@ -83,11 +103,11 @@ test('history test opens its Baroque study atlas and a standalone all-day excurs
   expect(response.headers()['content-type']).toContain('application/pdf');
   expect((await response.body()).subarray(0, 5).toString()).toBe('%PDF-');
   await page.getByRole('tab', {name:'Můj postup'}).click();
-  await expect(page.locator('#unit-panel')).toContainText('U tohoto tématu se postup neukládá');
+  await expect(page.locator('.progress-card').filter({hasText:'známých kartiček'}).locator('strong')).toHaveText('8');
   await page.getByRole('tab', {name:'Podklady a procvičování'}).click();
-  await expect(page.getByRole('heading', {name:'Jak poznat baroko · strana 2'})).toBeVisible();
+  await expect(cards.locator('.question')).toHaveText(baroqueCards[0].question);
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
-  await expect(page.locator('[data-study-module]')).toHaveCount(0);
+  await expect(page.locator('.generic-notes')).toHaveCount(0);
   await page.goto('./#/subjects');
   await expect(page.locator('a[href="#/subjects/history"]')).not.toContainText('Materiály zatím nepřidány');
   await page.locator('header a[href="#/"]').first().click();

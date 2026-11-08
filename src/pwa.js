@@ -32,11 +32,11 @@ function renderUpdateNotice() {
   const notice = document.querySelector('#app-update-status');
   if (!notice) return;
   let message = '';
-  if (state.updating) message = 'Načítám novou verzi study lo…';
+  if (state.updating) message = 'Načítám novou verzi Studilo…';
   else if (state.installing && state.version) message = 'Stahuji aktualizaci. Za chvíli se načte automaticky.';
   else if (state.updateDeferred) message = 'Nová verze je připravená. Počká na návrat ostatních panelů do kalendáře.';
   else if (state.updateAvailable) message = 'Nová verze je připravená. Za chvíli ji načtu automaticky.';
-  else if (state.updated) message = 'Hotovo, study lo je aktuální.';
+  else if (state.updated) message = 'Hotovo, Studilo je aktuální.';
   else if (state.updateFailed) message = 'Aktualizaci se zatím nepodařilo stáhnout. Automaticky ji zkusím znovu.';
   notice.hidden = !isCalendar() || !message;
   if (notice.textContent !== message) notice.textContent = message;

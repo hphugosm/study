@@ -35,6 +35,9 @@ test('manifest and iPhone metadata support standalone installation under the dep
   const response = await request.get(resolved.href);
   expect(response.status()).toBe(200);
   const manifest = await response.json();
+  expect(manifest.name).toBe('Studilo');
+  expect(manifest.short_name).toBe('Studilo');
+  await expect(page.locator('meta[name="apple-mobile-web-app-title"]')).toHaveAttribute('content', 'Studilo');
   expect(manifest.display).toBe('standalone');
   const start = new URL(manifest.start_url, resolved);
   const scope = new URL(manifest.scope, resolved);

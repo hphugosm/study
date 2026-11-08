@@ -59,5 +59,5 @@ test('study events resolve their units, school excursions stand alone and all da
   assert.equal(history.subject.id, 'history');
   assert.equal(history.unit.id, 'baroque');
   assert.equal(history.unit.materials.length, 1);
-  assert.ok(history.unit.notes.length > 0);
+  assert.equal(history.unit.module, 'baroque');
 });

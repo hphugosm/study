@@ -11,7 +11,7 @@ const CARD_PROGRESS = [LAW, MATH_FUNCTIONS, MATH_EQUATIONS];
 const KEYS = [...CARD_PROGRESS, BIO_V1, BIO_V2, MAP_RESULTS, MAP_PROGRESS];
 const LEGACY = { [LAW]: 'casebook-us-law-progress-v1', [BIO_V1]: 'kostra-progress-v1', [BIO_V2]: 'kostra-progress-v2' };
 
-function fail(message = 'Soubor neobsahuje platnou zálohu postupu study lo.') { throw new Error(message); }
+function fail(message = 'Soubor neobsahuje platnou zálohu postupu Studilo.') { throw new Error(message); }
 function record(value, allowed) {
   if (!value || typeof value !== 'object' || Array.isArray(value) || Object.keys(value).some(key => !allowed.includes(key))) fail();
 }
@@ -117,7 +117,7 @@ export function buildBackup(storage = globalThis.localStorage) {
 export function parseBackup(text) {
   if (typeof text !== 'string' || new TextEncoder().encode(text).byteLength > MAX_BYTES) fail('Záloha musí být JSON soubor menší než 2 MB.');
   let value;
-  try { value = JSON.parse(text); } catch { fail('Soubor není platný JSON. Vyber zálohu staženou ze study lo.'); }
+  try { value = JSON.parse(text); } catch { fail('Soubor není platný JSON. Vyber zálohu staženou ze Studilo.'); }
   const backup = validateBackup(value);
   return { backup, summary: summarize(backup.data) };
 }

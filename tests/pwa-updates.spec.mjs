@@ -62,7 +62,7 @@ test('calendar updates itself on return, reuses verified assets, repairs a corru
   await focusCheck(page);
   await ready(page, rollout.newVersion);
   await expect(page.locator('[data-date="2026-11-19"]')).toHaveAccessibleName(/Law/);
-  await expect(page.locator('#app-update-status')).toContainText('study lo je aktuální');
+  await expect(page.locator('#app-update-status')).toContainText('Studilo je aktuální');
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'paper');
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem('study:law:progress:v1')).knownCards)).toEqual(['q001']);
   expect(await page.evaluate(() => caches.keys())).toContain('unrelated-app-sentinel');

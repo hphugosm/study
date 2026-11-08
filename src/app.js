@@ -91,7 +91,7 @@ function renderSubject(subject) {
     ${layout.course.length?`<section aria-label="Školní podklady"><div class="section-heading"><h2>${layout.primary.length?'Další podklady ze školního kurzu':'Témata a příprava'}</h2><span>${counted(layout.course.length,'téma','témata','témat')}</span></div><label class="topic-search-label" for="topic-search">Najít téma</label><input class="topic-search" id="topic-search" type="search" placeholder="Název tématu" autocomplete="off"><p id="topic-search-status" class="topic-availability" aria-live="polite"></p>${layout.primary.length?`<details id="course-outline"><summary>Zobrazit témata a podklady v pořadí kurzu</summary>${courseGroups}</details>`:courseGroups}</section>`:''}
     ${subjectEvents.length?`<section class="upcoming-section"><div class="section-heading"><h2>Termíny předmětu</h2></div><div class="upcoming-grid">${subjectEvents.map(event=>eventCard(event)).join('')}</div></section>`:''}`;
   const search=main.querySelector('#topic-search');if(search)search.oninput=()=>{let count=0;const query=search.value.trim().toLocaleLowerCase('cs-CZ');if(query&&main.querySelector('#course-outline'))main.querySelector('#course-outline').open=true;for(const card of main.querySelectorAll('[data-topic-search]')){card.hidden=!card.dataset.topicSearch.includes(query);if(!card.hidden)count++;}for(const group of main.querySelectorAll('.course-topic-group'))group.hidden=![...group.querySelectorAll('[data-topic-search]')].some(card=>!card.hidden);main.querySelector('#topic-search-status').textContent=query?`Nalezeno témat: ${count}`:'';};
-  document.title=`${subject.name} — study lo`;
+  document.title=`${subject.name} — Studilo`;
 }
 function renderPractice() {
   const options=[
@@ -113,6 +113,7 @@ function renderPractice() {
     {unit:'muscles',mode:'cards',icon:'layers',title:'Svaly: poznávačka a kartičky',copy:'Procvič názvy a funkce svalů.'},
     {unit:'muscles',mode:'map',icon:'grid',title:'Svaly: slepá mapa',copy:'Najdi sval na připraveném schématu.'},
   );
+  options.push({unit:'baroque',mode:'cards',icon:'layers',title:'Baroko — kartičky',copy:'Znaky, umělci, hudebníci a stavby. Otázka a odpověď.'});
   options.push(...units.filter(unit=>unit.module==='course-notes'&&unit.questionCount>0&&unit.available!==false&&!parentsForSupplement(unit,units).length).map(unit=>({unit:unit.id,mode:'practice',icon:'check',title:unit.title,copy:`${unit.questionCount} otázek s vysvětlením ze schválených podkladů.`})));
   main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">KROK ZA KROKEM</p><h1>Co si dnes procvičíš?</h1><p>Vyber si způsob učení, který ti právě sedí.</p></div></section><div class="practice-grid">${options.map(o=>{const s=getSubject(getUnit(o.unit).subjectId);return `<a class="practice-card" href="#/units/${o.unit}?mode=${o.mode}" style="${subjectStyle(s)}"><div class="practice-card-top"><span class="subject-icon">${icon(o.icon)}</span><span class="subject-pill">${s.name}</span></div><h2>${o.title}</h2><p>${o.copy}</p><span class="text-link">Začít procvičování ${icon('arrow')}</span></a>`;}).join('')}</div>`;
 }
@@ -123,7 +124,7 @@ async function renderUnit(unit,event,params,version) {
   const unitEvents=events.filter(e=>e.unitId===unit.id);
   const supplements=supplementsForUnit(unit.id,units),supplement=selectedSupplement(unit,params,units);
   const materials=categoryMaterials(unit,units);
-  document.title=`${event?event.title:unit.title} — study lo`;
+  document.title=`${event?event.title:unit.title} — Studilo`;
   main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><a href="#/subjects/${s.id}">${s.name}</a></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${fullDate(e.date)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
     <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="Materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">Materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Můj postup" data-tab="progress" id="unit-tab-progress" aria-controls="unit-panel">${icon('check')}<span class="tab-label-long">Můj postup</span><span class="tab-label-short" aria-hidden="true">Postup</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
   for(const b of main.querySelectorAll('[data-tab]')) b.onclick=()=>{
@@ -176,7 +177,7 @@ async function renderUnit(unit,event,params,version) {
     if(activeTab==='progress') {
       const progress=module.getProgress(unit);
       const isBio=isBiology(unit);
-      const counts=isBio?[[progress.mastered||0,'zvládnutých položek'],[progress.total??(unit.module==='biology'?64:0),'položek v atlasu'],[(progress.results||[]).length,'uložených výsledků']]:[[(progress.knownCards||[]).length,'známých kartiček'],[(progress.readLessons||[]).length,'přečtených lekcí'],[(progress.attempts||[]).length,unit.module==='course-notes'?'zodpovězených otázek':'dokončených testů']];
+      const counts=unit.module==='baroque'?[[progress.knownCards.length,'známých kartiček'],[progress.total,'kartiček celkem'],[progress.total-progress.knownCards.length,'zbývá zopakovat']]:isBio?[[progress.mastered||0,'zvládnutých položek'],[progress.total??(unit.module==='biology'?64:0),'položek v atlasu'],[(progress.results||[]).length,'uložených výsledků']]:[[(progress.knownCards||[]).length,'známých kartiček'],[(progress.readLessons||[]).length,'přečtených lekcí'],[(progress.attempts||[]).length,unit.module==='course-notes'?'zodpovězených otázek':'dokončených testů']];
       panel.innerHTML=`<div class="panel-intro"><h2>Každé opakování se počítá.</h2><p>Tvůj postup v tomto tématu se ukládá automaticky v tomto prohlížeči.</p></div><div class="progress-grid">${counts.map(([n,l])=>`<div class="progress-card"><strong>${n}</strong><span>${l}</span></div>`).join('')}</div><a class="button primary" href="#/units/${unit.id}">Pokračovat v učení ${icon('arrow')}</a><p class="storage-note">Ukládání je oddělené podle předmětu. Původní uložená data zůstávají zachovaná. Na jiném zařízení či jiné doméně se postup automaticky nepřenáší.</p>`;
       return;
     }
@@ -193,7 +194,7 @@ async function renderUnit(unit,event,params,version) {
   }
 }
 function renderSchoolEvent(event) {
-  document.title=`${event.title} — study lo`;
+  document.title=`${event.title} — Studilo`;
   main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><span>Školní akce</span></div><section class="unit-hero" style="${subjectStyle(schoolEventStyle)}"><div class="unit-subject"><span class="subject-icon">${icon('calendar')}</span><span>Školní akce</span></div><p class="eyebrow">${eventTypes[event.type]}</p><h1>${esc(event.title)}</h1><p class="unit-description">${esc(event.description)}</p><div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong>${event.allDay?'<span>Celý den</span>':''}</div></section><a class="text-link" href="#/">Zpět do kalendáře ${icon('arrow')}</a>`;
 }
 const isBiology = unit => ['biology','biology-muscles'].includes(unit.module);
@@ -205,14 +206,14 @@ async function route({scroll=0,restore=false}={}) {
   const [path,search='']=(location.hash.slice(1)||'/').split('?');
   const segments=path.split('/').filter(Boolean);
   const params=new URLSearchParams(search);
-  document.title='study lo — Studuj v klidu.';
+  document.title='Studilo — Studuj v klidu.';
   const section=segments[0];
   const schoolEvent=section==='events'?events.find(event=>event.id===segments[1]&&!event.unitId):null;
   document.querySelectorAll('[data-nav]').forEach(a=>{const active=section!=='settings'&&a.dataset.nav===(section==='practice'?'practice':section&&!schoolEvent?'subjects':'calendar');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
   if(!section)renderCalendar();
   else if(section==='subjects'&&!segments[1])renderSubjects();
   else if(section==='practice')renderPractice();
-  else if(section==='settings') {document.title='Nastavení — study lo';cleanupModule=mountSettings(main);}
+  else if(section==='settings') {document.title='Nastavení — Studilo';cleanupModule=mountSettings(main);}
   else if(section==='events'||section==='units'||section==='subjects') {
     const event=section==='events'?events.find(e=>e.id===segments[1]):null;
     const subjectUnits=section==='subjects'?units.filter(u=>u.subjectId===segments[1]):[];

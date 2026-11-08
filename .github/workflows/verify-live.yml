@@ -1,4 +1,4 @@
-name: Verify live study lo
+name: Verify live Studilo
 
 on:
   workflow_dispatch:

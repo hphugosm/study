@@ -15,4 +15,4 @@ const server=http.createServer(async(req,res)=>{
     res.writeHead(200,{'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':'no-cache'});res.end(content);
   }catch{res.writeHead(404,{'Content-Type':'text/plain'});res.end('Not found');}
 });
-server.listen(port,'127.0.0.1',()=>console.log(`study lo preview: http://localhost:${port}`));
+server.listen(port,'127.0.0.1',()=>console.log(`Studilo preview: http://localhost:${port}`));

@@ -1,4 +1,4 @@
-# Ověření dema study lo
+# Ověření dema Studilo
 
 ## Automatické aktualizace — 6. listopadu 2026
 
@@ -72,7 +72,7 @@ Používal běžné DNS a platné HTTPS, bez přepisování adres ani vypnutí
 ověření certifikátu. Offline scénáře začínaly prázdným úložištěm na novém
 originu a ověřily i čtyři PDF včetně původní biologické prezentace.
 
-Tuto kontrolu lze znovu spustit v Actions → **Verify live study lo** →
+Tuto kontrolu lze znovu spustit v Actions → **Verify live Studilo** →
 **Run workflow**. Neprovádí nasazení ani změny společného obsahu; testovací
 postup vzniká v oddělených kontextech prohlížeče. HTML report a diagnostika
 se uloží jako artifact běhu na 14 dnů.

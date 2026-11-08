@@ -1,6 +1,6 @@
 # Instalace a offline režim
 
-study lo má manifest se samostatným zobrazením, vlastní ikony 192/512 px a Apple touch ikonu 180 px. `start_url`, `id` i `scope` jsou relativní, takže funguje i nasazení pod `/study/` na GitHub Pages. Na iPhonu je instalace dostupná přes systémovou nabídku Safari: Sdílet → Přidat na plochu; pokud systém nabízí „Otevřít jako webovou aplikaci“, ponechat zapnuté. Web sám nemůže tuto systémovou akci provést. Návod je schovaný v nastavení, bez vyskakovacího instalačního banneru.
+Studilo má manifest se samostatným zobrazením, vlastní ikony 192/512 px a Apple touch ikonu 180 px. `start_url`, `id` i `scope` jsou relativní, takže funguje i nasazení pod `/study/` na GitHub Pages. Na iPhonu je instalace dostupná přes systémovou nabídku Safari: Sdílet → Přidat na plochu; pokud systém nabízí „Otevřít jako webovou aplikaci“, ponechat zapnuté. Web sám nemůže tuto systémovou akci provést. Návod je schovaný v nastavení, bez vyskakovacího instalačního banneru.
 
 Prohlížeče, které poskytují `beforeinstallprompt`, mohou zobrazit skutečný instalační dialog z tlačítka v nastavení. Safari dostává postup přes svoji systémovou nabídku. Samostatný režim se rozpoznává pomocí `display-mode: standalone` a `navigator.standalone`.
 
@@ -35,7 +35,7 @@ Service worker používá jen svůj prefix `study-offline:<scope>:`. Při aktiva
 
 ## Omezení
 
-První příprava potřebuje připojení a volné místo. iOS/prohlížeč může při nedostatku místa nebo po vymazání dat webu offline cache odstranit; stav v nastavení pak není „připraveno“ a tlačítko umožní obsah znovu stáhnout. Při změně verze je nejprve nutné dokončit aktualizaci. Instalovaná aplikace a Safari mohou mít podle verze iOS samostatné úložiště; po instalaci je vhodné otevřít study lo jednou s připojením a ověřit přípravu přímo v této aplikaci. Offline podklady neznamenají automatickou synchronizaci postupu mezi zařízeními.
+První příprava potřebuje připojení a volné místo. iOS/prohlížeč může při nedostatku místa nebo po vymazání dat webu offline cache odstranit; stav v nastavení pak není „připraveno“ a tlačítko umožní obsah znovu stáhnout. Při změně verze je nejprve nutné dokončit aktualizaci. Instalovaná aplikace a Safari mohou mít podle verze iOS samostatné úložiště; po instalaci je vhodné otevřít Studilo jednou s připojením a ověřit přípravu přímo v této aplikaci. Offline podklady neznamenají automatickou synchronizaci postupu mezi zařízeními.
 
 Ověřeno podle primárních podkladů: [Apple — webová aplikace na ploše iPhonu](https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios), [MDN — životní cyklus a cache service workerů](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers).
 
