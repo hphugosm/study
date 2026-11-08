@@ -79,6 +79,7 @@ Zadání vycházejí ze dvou původních PDF a postupy z dodaného souboru 164 �
 - **Law / UNIT 2 / U.S. Courts & Civil Liberties:** čtyři případy, hierarchie soudů a odvolání, 55 slovíček, 145 flashcards, 95 otázek, mixed a tematické testy, výběr odpovědi, true/false, psané odpovědi, řazení, spojování, vysvětlení, výsledky, oprava chyb, postup a oba PDF. Obsah zůstává anglicky.
 - **Matematika:** dvě původní interaktivní kategorie zůstávají zachované: Trigonometrie a goniometrické funkce; Goniometrické vzorce, rovnice a nerovnice. Český obsah z 81 snímků, ovladatelná kružnice, proměny grafů, trojúhelníkové věty, postupná řešení, nerovnice, kartičky a kvízy. Vedle nich jsou skutečná témata aktuálního kurzu. Původní termín čtvrtletní práce otevírá rozcestník obou původních kategorií. Přesný rozsah práce není zadán.
 - Literatura má skutečný termín a připravenou jednotku; chybějící podklady jsou označené.
+- **Dějepis / Baroko:** test 9. listopadu 2026 je propojený s dodaným devítistránkovým obrazovým atlasem. Výpisky s odkazy na strany pokrývají znaky baroka, 5 náboženských a 5 světských staveb, malířství, sochařství a hudbu. Původní PDF včetně fotografií a licencí je dostupné přímo u výpisků i v Materiálech a je součástí offline balíčku.
 
 Law repozitář neobsahuje oficiální název Unit 2. Název zde je pracovní. Jeho osm původních vstupních učebních souborů je pouze citováno ve zdrojové aplikaci; převzaty jsou všechny skutečně dostupné soubory, včetně dvou PDF. Matematické podklady a opravy: [audit Matematiky](docs/mathematics.md).
 

@@ -58,5 +58,6 @@ test('study events resolve their units, school excursions stand alone and all da
   const history = eventContext(events.find(event => event.id === 'history-test'));
   assert.equal(history.subject.id, 'history');
   assert.equal(history.unit.id, 'baroque');
-  assert.deepEqual(history.unit.materials, []);
+  assert.equal(history.unit.materials.length, 1);
+  assert.ok(history.unit.notes.length > 0);
 });

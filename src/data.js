@@ -1,6 +1,6 @@
 import {courseSubjects,courseUnits} from './course-catalog.js';
 /** @typedef {{id:string,name:string,color:string,tint:string,icon:string,description:string}} Subject */
-/** @typedef {{id:string,subjectId:string,title:string,label?:string,description:string,module?:string,kind?:'collection',relatedUnitIds?:string[],materials:Array<{title:string,description:string,url:string}>,notes?:string[]}} StudyUnit */
+/** @typedef {{id:string,subjectId:string,title:string,label?:string,description:string,module?:string,kind?:'collection',relatedUnitIds?:string[],materials:Array<{title:string,description:string,url:string}>,notes?:Array<string|{title:string,text:string}>}} StudyUnit */
 /** @typedef {{id:string,unitId?:string,date:string,type:'test'|'homework'|'review'|'excursion',allDay?:boolean,title:string,description:string}} StudyEvent */
 
 /** @type {Subject[]} */
@@ -42,7 +42,22 @@ export const units = [
     {title:'Goniometrické rovnice a nerovnice — pracovní list',description:'104 příkladů · původní zadání PDF',url:'modules/math-worksheets/assets/Opakovani_gonio__ne_rovnice.pdf',sha256:'c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1'},
   ]},
   {id:'miser',subjectId:'literature',title:'Rozbor Lakomce',label:'DOMÁCÍ ÚKOL',description:'Odevzdání rozboru Molièrova Lakomce. Zadání a materiály zatím nebyly přidány.',materials:[]},
-  {id:'baroque',subjectId:'history',title:'Baroko',label:'PŘÍPRAVA NA TEST',description:'Test z baroka. Přesné zadání a studijní podklady zatím nebyly přidány.',materials:[]},
+  {id:'baroque',subjectId:'history',title:'Baroko',label:'PŘÍPRAVA NA TEST',description:'K testu: znaky baroka, 5 náboženských a 5 světských staveb, malířství, sochařství a hudba podle dodaného obrazového atlasu.',materials:[
+    {title:'Baroko — obrazový studijní atlas',description:'Podklad k testu · 9 stran · stavby, výtvarné umění a hudba · PDF',url:'assets/history/baroko-studijni-atlas.pdf'},
+  ],notes:[
+    {title:'Co si připravit k testu',text:'Vycházej z přiloženého devítistránkového atlasu. Poznej ukázky staveb a děl, přiřaď autora a vysvětli, který znak baroka na nich vidíš. Přehled níže shrnuje strany 2–8; fotografie a reprodukce najdeš v původním PDF.'},
+    {title:'Jak poznat baroko · strana 2',text:'Baroko 17.–18. století oslovuje smysly a emoce. Po Tridentském koncilu umění slouží také k vyjádření moci církve a panovníků. Sleduj šest znaků: pohyb a křivky, kontrast světla a stínu (šerosvit), emoce a gesta, velkolepost, propojení architektury se sochou a malbou a symboliku. Renesanční rovnováhu, klid a harmonii porovnej s barokním pohybem, kontrastem a emocionálním účinkem.'},
+    {title:'Náboženské stavby v Česku · strana 3',text:'Kostel sv. Mikuláše v Praze — Kryštof a Kilián Ignác Dientzenhofer: kupole, štíhlá věž a zvlněná fasáda. Zelená hora u Žďáru nad Sázavou — Jan Blažej Santini-Aichel: hvězdicový plán, symbolika čísla pět a barokní gotika.'},
+    {title:'Náboženské stavby v Evropě · strana 3',text:'Karlskirche ve Vídni — J. B. Fischer von Erlach a syn: velká kupole a dvojice monumentálních sloupů. San Carlo v Římě — Francesco Borromini: konkávní a konvexní, tedy dovnitř a ven prohnutá fasáda. Sant’Andrea al Quirinale v Římě — Gian Lorenzo Bernini: oválný interiér, zlacení a směrované světlo.'},
+    {title:'Světské stavby v Česku · strana 4',text:'Zámek Troja v Praze — Jean-Baptiste Mathey: slavnostní schodiště, středová osa a zahradní kompozice. Clam-Gallasův palác v Praze — J. B. Fischer von Erlach: plasticky členěná fasáda a bohaté portály. Zámky a paláce reprezentují moc, bohatství a společenské postavení.'},
+    {title:'Světské stavby v Evropě · strana 4',text:'Versailles ve Francii — Le Vau a Hardouin-Mansart: dlouhá osa zahrady a monumentální průčelí. Schönbrunn ve Vídni — Fischer von Erlach a Pacassi: dlouhá symetrická fasáda a císařská reprezentace. Palác Caserta v Itálii — Luigi Vanvitelli: obrovské měřítko a slavnostní osa.'},
+    {title:'Malířství: světlo a diagonála · strana 5',text:'Caravaggio — Povolání sv. Matouše: šerosvit, paprsek světla a Kristovo gesto vedou pozornost k hlavnímu ději. Peter Paul Rubens — Vztyčení kříže: šikmý směr kříže a těl, napjaté svaly, drapérie a výrazná gesta vytvářejí pohyb a drama.'},
+    {title:'Malířství: pohyb a prostor · strana 6',text:'Rembrandt van Rijn — Noční hlídka: skupinový portrét v akci, světlo zdůrazňuje důležité postavy. Diego Velázquez — Dvorní dámy (Las Meninas): zrcadlo, otevřené dveře a pohledy postav vtahují diváka do prostoru obrazu. Baroko zahrnuje i světská témata.'},
+    {title:'Malířství: pomíjivost a reprezentace · strana 7',text:'Nicolas Poussin — Et in Arcadia ego: pastýři u hrobu, připomínka smrti (memento mori) a klidná, klasicizující kompozice. Anthony van Dyck — Karel I. na lovu: uvolněný postoj, pohled zespodu a luxusní oděv vyjadřují královskou autoritu.'},
+    {title:'Sochařství · strana 7',text:'Gian Lorenzo Bernini — Extáze sv. Terezie: expresivní tváře, vlnící se oděv a zlaté paprsky vytvářejí náboženský výjev jako na jevišti. Matyáš Bernard Braun a dílna — Víra z cyklu Ctnosti a neřesti v Kuksu: alegorie lidských vlastností, které rozpoznáváme podle gest a atributů.'},
+    {title:'Hudba · strana 8',text:'Rozvíjí se orchestr, opera, kantáta a koncert; typickým doprovodem je basso continuo. Zapamatuj si dvojice autor–dílo: Johann Sebastian Bach — Braniborské koncerty (1721, polyfonie a kontrapunkt); Antonio Vivaldi — Čtvero ročních dob (1725, koncert a hudební obrazy); Georg Friedrich Händel — Mesiáš (1741, oratorium); Jan Dismas Zelenka — Missa votiva (1739, duchovní hudba).'},
+    {title:'Rychlé opakování · strana 8',text:'Zkus bez nápovědy odpovědět na čtyři otázky z atlasu: Jaký znak poznáš u Caravaggia? Čím je výjimečná Zelená hora? Co je typické pro Borrominiho fasádu? K čemu slouží Versailles a Schönbrunn? Odpovědi si ověř na straně 8 PDF nebo v přehledu výše.'},
+  ]},
   ...courseUnits,
 ];
 
@@ -50,7 +65,7 @@ export const units = [
 export const events = [
   {id:'biology-test',unitId:'skeleton',date:'2026-11-05',type:'test',title:'Test – Kosterní soustava člověka',description:'Připrav se s atlasem, kartičkami a slepou mapou lidské kostry.'},
   {id:'math-test',unitId:'math-quarter',date:'2026-11-05',type:'test',title:'Čtvrtletní práce',description:'Opakování trigonometrie, funkcí, vzorců, rovnic a nerovnic ze tří dodaných prezentací.'},
-  {id:'history-test',unitId:'baroque',date:'2026-11-09',type:'test',title:'Test – Baroko',description:'Test z dějepisu na téma baroko.'},
+  {id:'history-test',unitId:'baroque',date:'2026-11-09',type:'test',title:'Test – Baroko',description:'Znaky baroka, náboženské a světské stavby, malířství, sochařství a hudba podle obrazového studijního atlasu.'},
   {id:'power-plants-excursion',date:'2026-11-12',type:'excursion',allDay:true,title:'Exkurze elektráren',description:'Celodenní školní exkurze. Podrobnosti k místu, programu a odjezdu zatím nejsou přidané.'},
   {id:'literature-assignment',unitId:'miser',date:'2026-11-18',type:'homework',title:'Odevzdání rozboru Lakomce',description:'Termín pro odevzdání rozboru. Přesné zadání zatím nebylo přidáno.'},
   {id:'law-test',unitId:'law-unit-2',date:'2026-11-19',type:'test',title:'Unit 2 – Test',description:'Review the landmark cases, court hierarchy and legal vocabulary.'},

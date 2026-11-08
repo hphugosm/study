@@ -214,6 +214,7 @@ main:focus-visible { outline-color: var(--study-accent); }
 :root[data-large-text="true"] .practice-card p,
 :root[data-large-text="true"] .subject-card p,
 :root[data-large-text="true"] .generic-notes > p,
+:root[data-large-text="true"] .note-section p,
 :root[data-large-text="true"] .material-card p,
 :root[data-large-text="true"] .quiet-empty p,
 :root[data-large-text="true"] .panel-intro p,

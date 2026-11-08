@@ -162,7 +162,11 @@ async function renderUnit(unit,event,params,version) {
     return;
   }
   if(!unit.module) {
-    panel.innerHTML=unit.notes?.length?`<div class="generic-notes"><div class="panel-intro"><h2>Podklady a výpisky</h2></div>${unit.notes.map(note=>`<p>${esc(note)}</p>`).join('')}${unit.materials.length?'<p>Další podklady najdeš v záložce Materiály.</p>':''}</div>`:emptyMaterials();
+    if(activeTab==='progress') {
+      panel.innerHTML='<div class="panel-intro"><h2>Studuj vlastním tempem.</h2><p>U tohoto tématu se postup neukládá. K výpiskům se vrátíš v záložce Studovat.</p></div>';
+      return;
+    }
+    panel.innerHTML=unit.notes?.length?`<div class="generic-notes"><div class="panel-intro"><h2>Podklady a výpisky</h2>${unit.materials.map(m=>`<p><a class="text-link" href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)} ${icon('arrow')}</a></p>`).join('')}</div>${unit.notes.map(note=>typeof note==='string'?`<p>${esc(note)}</p>`:`<section class="note-section"><h3>${esc(note.title)}</h3><p>${esc(note.text)}</p></section>`).join('')}</div>`:emptyMaterials();
     return;
   }
   panel.innerHTML='<p class="loading-copy">Připravuji tvůj studijní prostor…</p>';

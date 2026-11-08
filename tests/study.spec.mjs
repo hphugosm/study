@@ -64,14 +64,32 @@ test('calendar navigates months and returns to current date', async ({ page }) =
   await expect(page.locator('[data-date="2026-11-04"]')).toBeVisible();
 });
 
-test('history test opens its unsupplied Baroque materials and a standalone all-day excursion returns directly to calendar', async ({ page }) => {
+test('history test opens its Baroque study atlas and a standalone all-day excursion returns directly to calendar', async ({ page }) => {
   await page.goto('./');
   await page.locator('[data-date="2026-11-09"]').click();
   await page.locator('a[href="#/events/history-test"]').first().click();
   await expect(page.locator('h1')).toContainText('Baroko');
   await expect(page.locator('.event-banner')).toContainText(/9.*listopad.*2026/);
-  await expect(page.locator('#unit-panel')).toContainText('Materiály zatím nebyly přidány');
+  await expect(page.locator('.unit-description')).toContainText('5 náboženských a 5 světských staveb');
+  await expect(page.getByRole('heading', {name:'Co si připravit k testu'})).toBeVisible();
+  await expect(page.locator('#unit-panel')).toContainText('Johann Sebastian Bach');
+  const atlasURL = 'assets/history/baroko-studijni-atlas.pdf';
+  await expect(page.locator('#unit-panel').getByRole('link', {name:/Baroko — obrazový studijní atlas/})).toHaveAttribute('href', atlasURL);
+  await page.getByRole('tab', {name:'Materiály', exact:true}).click();
+  const atlas = page.locator('.material-card');
+  await expect(atlas).toContainText('9 stran');
+  const response = await page.request.get(await atlas.getAttribute('href'));
+  expect(response.ok()).toBe(true);
+  expect(response.headers()['content-type']).toContain('application/pdf');
+  expect((await response.body()).subarray(0, 5).toString()).toBe('%PDF-');
+  await page.getByRole('tab', {name:'Můj postup'}).click();
+  await expect(page.locator('#unit-panel')).toContainText('U tohoto tématu se postup neukládá');
+  await page.getByRole('tab', {name:'Podklady a procvičování'}).click();
+  await expect(page.getByRole('heading', {name:'Jak poznat baroko · strana 2'})).toBeVisible();
+  await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
   await expect(page.locator('[data-study-module]')).toHaveCount(0);
+  await page.goto('./#/subjects');
+  await expect(page.locator('a[href="#/subjects/history"]')).not.toContainText('Materiály zatím nepřidány');
   await page.locator('header a[href="#/"]').first().click();
   await page.locator('[data-date="2026-11-12"]').click();
   await page.locator('a[href="#/events/power-plants-excursion"]').first().click();
