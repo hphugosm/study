@@ -67,7 +67,7 @@ export function validateContent(data) {
     for(const image of lesson.images||[]){safeAsset(image.src);assert(textOK(image.alt)&&(!image.caption||textOK(image.caption)),'invalid_image');refs(image);}
     for(const step of lesson.steps||[]){assert(textOK(step.title)&&textOK(step.text),'invalid_step');refs(step);}
     if(lesson.comparison){const comparison=lesson.comparison;assert(Array.isArray(comparison.columns)&&comparison.columns.length>=2&&comparison.columns.every(textOK),'invalid_comparison');for(const row of comparison.rows||[])assert(textOK(row.label)&&row.values?.length===comparison.columns.length&&row.values.every(textOK),'invalid_comparison');}
-    if(lesson.interactive!==undefined){assert(lesson.interactive&&['refraction','parity','stereometry'].includes(lesson.interactive.kind)&&textOK(lesson.interactive.title),'invalid_interaction');refs(lesson.interactive);validateInteraction(lesson.interactive);}
+    if(lesson.interactive!==undefined){assert(lesson.interactive&&['refraction','parity','stereometry','pixels'].includes(lesson.interactive.kind)&&textOK(lesson.interactive.title),'invalid_interaction');refs(lesson.interactive);validateInteraction(lesson.interactive);}
     for(const event of lesson.timeline||[]){assert(textOK(event.label)&&textOK(event.text),'invalid_timeline');refs(event);}
   }
   for(const card of data.flashcards||[]){identify(card);assert(textOK(card.front)&&textOK(card.back),'invalid_flashcard');refs(card);}
@@ -102,7 +102,7 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
   const sourceMap=new Map(data.sources.map((source,index)=>[source.id,{...source,number:index+1}]));
   const references=item=>{
     const row=el('p',undefined,'references');
-    for(const ref of item.source_refs||[]){const source=sourceMap.get(ref.id),page=ref.page?`${/\.pptx?(?:$|[?#])/i.test(source.url)?'snímek':'str.'} ${ref.page}`:'';const description=[source.title,page,ref.locator].filter(Boolean).join(' · ');const link=el('a',`[${source.number}${page?` · ${page}`:''}]`);link.title=description;link.setAttribute('aria-label',description);link.href=sourceURL(source.url);link.target='_blank';link.rel='noopener noreferrer';row.append(link);}
+    for(const ref of item.source_refs||[]){const source=sourceMap.get(ref.id),page=ref.page?`${/\.pptx?(?:$|[?#])/i.test(source.url)?'snímek':/\.xlsx(?:$|[?#])/i.test(source.url)?'list':'str.'} ${ref.page}`:'';const description=[source.title,page,ref.locator].filter(Boolean).join(' · ');const link=el('a',`[${source.number}${page?` · ${page}`:''}]`);link.title=description;link.setAttribute('aria-label',description);link.href=sourceURL(source.url);link.target='_blank';link.rel='noopener noreferrer';row.append(link);}
     return row;
   };
   const counted=(n,one,few,many)=>`${n} ${n===1?one:n>=2&&n<=4?few:many}`;

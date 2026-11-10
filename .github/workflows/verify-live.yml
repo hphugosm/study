@@ -2,12 +2,21 @@ name: Verify live Studilo
 
 on:
   workflow_dispatch:
+    inputs:
+      suite:
+        description: Browser checks to run
+        type: choice
+        default: full
+        options:
+          - full
+          - pixels
 
 permissions:
   contents: read
 
 jobs:
   verify:
+    if: github.ref == 'refs/heads/main'
     name: Test studilo.xyz in Chromium and WebKit
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -34,7 +43,12 @@ jobs:
         run: npx --no-install playwright install --with-deps chromium webkit
 
       - name: Run complete live browser suite
+        if: inputs.suite != 'pixels'
         run: npm run test:e2e
+
+      - name: Run focused live pixel checks
+        if: inputs.suite == 'pixels'
+        run: npx --no-install playwright test tests/pixels.spec.mjs --project=desktop --project=mobile --project=pixels-safari
 
       - name: Upload browser reports and failure evidence
         if: always()

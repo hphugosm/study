@@ -4,7 +4,9 @@ Studijní aplikace se školním kalendářem, jedenácti aktuálními předměty
 
 [Novinky ze školy](modules/moodle-sync/index.html) zobrazují 125 schválených položek se 123 různými soubory v Releases. Synchronizační klient, přihlašovací údaje i neveřejné přehledy patří do odděleného soukromého repozitáře; zde jsou pouze veřejně schválené výstupy. Nové původní přílohy se nestahují automaticky do offline balíčku.
 
-[Předměty](https://studilo.xyz/#/subjects) obsahují všech 184 běžných témat ve skutečném pořadí školních kurzů. Pro 42 témat s dostupnými schválenými podklady vzniklo 189 výukových oddílů, 260 kartiček, 273 vysvětlených otázek a 73 vybraných ilustrací. Součástí jsou postupy krok za krokem, porovnávání, časové osy, ovladatelný lom světla a kontrola parity. Témata bez podkladů mají vlastní místo s pravdivým stavem. Původní atlas, právní modul i matematické nástroje zůstávají dostupné.
+[Předměty](https://studilo.xyz/#/subjects) obsahují všech 184 běžných témat ve skutečném pořadí školních kurzů. Pro 42 témat s dostupnými schválenými podklady vzniklo 190 výukových oddílů, 263 kartiček, 277 vysvětlených otázek a 73 vybraných ilustrací. Součástí jsou postupy krok za krokem, porovnávání, časové osy, ovladatelný lom světla a kontrola parity. Témata bez podkladů mají vlastní místo s pravdivým stavem. Původní atlas, právní modul i matematické nástroje zůstávají dostupné.
+
+V informatice přibyla pixelová laboratoř se dvěma skutečnými maticemi 50 × 50: výběr buňky, rozklad HEX na RGB, zvětšení a samostatný barevný experiment. Navazuje na téma „Kódování informace a komprese“. Ke stažení jsou samostatně zkontrolované kopie XLSX a jejich přepisy; původní soubory s osobními metadaty zůstávají soukromé.
 
 [Veřejný katalog podkladů](modules/moodle-sync/data/catalog.json) odděluje původní zdroje v `sources/` a výpisky s přesnými referencemi v `derived/`. Pro všech 123 souborů jsou připravené úplné texty a stahovatelné textové/obrazové balíčky. [Výukové poznámky a jejich příprava](docs/course-notes.md), [kontrakt katalogu](docs/moodle-source-catalog.md).
 

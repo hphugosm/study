@@ -45,6 +45,22 @@
       "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c.pptx",
       "extraction_url": "./extracted/053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c.json",
       "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/053ab72d210825540e1098a6942570813da1df667642deb95c7c39eb989e2d5c.zip"
+    },
+    {
+      "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+      "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+      "title": "Barevný rastr — západ slunce (studijní kopie)",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d.xlsx",
+      "extraction_url": "./extracted/bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d.zip"
+    },
+    {
+      "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+      "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+      "title": "Barevný rastr — horské jezero (studijní kopie)",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d.xlsx",
+      "extraction_url": "./extracted/4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d.zip"
     }
   ],
   "lessons": [
@@ -1173,6 +1189,248 @@
           "height": 788
         }
       ]
+    },
+    {
+      "id": "hexove-matice",
+      "title": "Barevná matice: od buňky k pixelu",
+      "source_refs": [
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 1,
+          "locator": "List „50x50 Hex Matrix“, A1:AX50"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 1,
+          "locator": "List „Mountain Lake 50x50“, A1:AX50"
+        },
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 2,
+          "locator": "List „Palette“, A1:C19"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 2,
+          "locator": "List „Palette“, A1:B15"
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 7
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 15
+        }
+      ],
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Studijní průvodce hotovými ukázkovými daty: oba sešity obsahují barevnou matici a paletu. Neobsahují zadání úkolu. Následující postup a výpočty slouží k procvičení, nejsou oficiálním klíčem k odevzdání.",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1:AX50"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "List „Mountain Lake 50x50“, A1:AX50"
+            },
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 2,
+              "locator": "List „Palette“, A1:C19"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 2,
+              "locator": "List „Palette“, A1:B15"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Každou buňku matice čteme jako jeden pixel. Obě ukázky vyplňují oblast A1:AX50: 50 sloupců a 50 řádků, tedy 50 × 50 = 2 500 pixelů. A1 je levý horní pixel, AX50 pravý dolní. Řádek a sloupec určují polohu; hodnota HEX určuje barvu.",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1:AX50"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "List „Mountain Lake 50x50“, A1:AX50"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Paleta prvního vzorku obsahuje 18 různých barev, druhého 14; všechny jsou v příslušné matici použité. Oba obrázky přitom mají stejné rozlišení 50 × 50. Počet použitých barev proto nezaměňuj s počtem pixelů.",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1:AX50"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "List „Mountain Lake 50x50“, A1:AX50"
+            },
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 2,
+              "locator": "List „Palette“, A1:C19"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 2,
+              "locator": "List „Palette“, A1:B15"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Odvozený výpočet: při nekomprimovaném 24bitovém RGB zápisu se třemi bajty na pixel by samotná obrazová data každé ukázky zabrala 2 500 × 3 = 7 500 bajtů. Jde o zvolený způsob uložení pixelů bez dalších údajů, nikoli o velikost souboru XLSX.",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1:AX50"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "List „Mountain Lake 50x50“, A1:AX50"
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 15
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 17
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Vyber polohu",
+          "text": "Ve vzorku 1 najdi A1 na listu „50x50 Hex Matrix“. Buňka obsahuje #1B1F3B; sloupec A a řádek 1 určují její místo v obrázku.",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1"
+            }
+          ]
+        },
+        {
+          "title": "Rozděl HEX na tři složky",
+          "text": "Po znaku # čti dvojice RR, GG, BB: 1B, 1F, 3B. Šestnáctkově je 1B = 1 × 16 + 11 = 27, 1F = 31 a 3B = 59. Paleta B2:C2 potvrzuje RGB (27, 31, 59).",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1"
+            },
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 2,
+              "locator": "List „Palette“, B2:C2"
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Ověř druhý vzorek",
+          "text": "Ve vzorku 2 má stejná poloha A1 hodnotu #88C9DF. Dvojice 88, C9, DF odpovídají RGB (136, 201, 223), jak uvádí Palette A11:B11. Stejná souřadnice tedy nemusí v jiném obrázku nést stejnou barvu.",
+          "source_refs": [
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "List „Mountain Lake 50x50“, A1"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 2,
+              "locator": "List „Palette“, A11:B11"
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 7
+            }
+          ]
+        }
+      ],
+      "interactive": {
+        "kind": "pixels",
+        "title": "Prozkoumej původní mřížku a RGB složky",
+        "defaults": {
+          "sample": 0
+        },
+        "source_refs": [
+          {
+            "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+            "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+            "page": 1,
+            "locator": "List „50x50 Hex Matrix“, A1:AX50"
+          },
+          {
+            "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+            "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+            "page": 1,
+            "locator": "List „Mountain Lake 50x50“, A1:AX50"
+          },
+          {
+            "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+            "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+            "page": 2,
+            "locator": "List „Palette“, A1:C19"
+          },
+          {
+            "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+            "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+            "page": 2,
+            "locator": "List „Palette“, A1:B15"
+          }
+        ]
+      }
     }
   ],
   "flashcards": [
@@ -1303,6 +1561,80 @@
           "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
           "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
           "page": 20
+        }
+      ]
+    },
+    {
+      "id": "card-pixel-poloha",
+      "front": "Co znamená buňka AX50 v těchto dvou maticích?",
+      "back": "Sloupec 50 a řádek 50: pravý dolní pixel mřížky 50 × 50. Celá mřížka má 2 500 pixelů.",
+      "source_refs": [
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 1,
+          "locator": "List „50x50 Hex Matrix“, A1:AX50"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 1,
+          "locator": "List „Mountain Lake 50x50“, A1:AX50"
+        }
+      ]
+    },
+    {
+      "id": "card-pixel-hex",
+      "front": "Jaké RGB složky má #1B1F3B v A1 prvního vzorku?",
+      "back": "R = 27, G = 31, B = 59. HEX dvojice jsou 1B, 1F a 3B; převod potvrzuje Palette B2:C2.",
+      "source_refs": [
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 1,
+          "locator": "List „50x50 Hex Matrix“, A1"
+        },
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 2,
+          "locator": "List „Palette“, B2:C2"
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "card-pixel-paleta",
+      "front": "Mají oba vzorky stejné rozlišení i stejnou paletu?",
+      "back": "Rozlišení je u obou 50 × 50 pixelů. První vzorek používá 18 různých barev, druhý 14.",
+      "source_refs": [
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 1,
+          "locator": "List „50x50 Hex Matrix“, A1:AX50"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 1,
+          "locator": "List „Mountain Lake 50x50“, A1:AX50"
+        },
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 2,
+          "locator": "List „Palette“, A1:C19"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 2,
+          "locator": "List „Palette“, A1:B15"
         }
       ]
     }
@@ -1551,6 +1883,133 @@
           "id": "575d365fadc9e05109ba6523f88363e236c2482d3a853d4f21a1da34e6ac2030",
           "sha256": "8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a",
           "page": 20
+        }
+      ]
+    },
+    {
+      "id": "quiz-pixel-pocet",
+      "prompt": "Kolik pixelů představuje jedna úplná matice A1:AX50 při jednom pixelu na buňku?",
+      "options": [
+        "100",
+        "2 500",
+        "7 500"
+      ],
+      "answer": 1,
+      "explanation": "AX je 50. sloupec a oblast má 50 řádků. Počet pixelů je 50 × 50 = 2 500.",
+      "source_refs": [
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 1,
+          "locator": "List „50x50 Hex Matrix“, A1:AX50"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 1,
+          "locator": "List „Mountain Lake 50x50“, A1:AX50"
+        }
+      ]
+    },
+    {
+      "id": "quiz-pixel-rgb",
+      "prompt": "Jaký RGB zápis odpovídá hodnotě #1B1F3B z A1 prvního vzorku?",
+      "options": [
+        "(31, 27, 59)",
+        "(27, 31, 59)",
+        "(1, 1, 3)"
+      ],
+      "answer": 1,
+      "explanation": "Dvojice RR = 1B znamená 27, GG = 1F znamená 31 a BB = 3B znamená 59. Stejné hodnoty obsahuje paleta.",
+      "source_refs": [
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 1,
+          "locator": "List „50x50 Hex Matrix“, A1"
+        },
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 2,
+          "locator": "List „Palette“, B2:C2"
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "quiz-pixel-palety",
+      "prompt": "První vzorek používá 18 barev a druhý 14. Co platí pro jejich rozlišení?",
+      "options": [
+        "První má více pixelů, protože má více barev.",
+        "Druhý má pouze 14 pixelů.",
+        "Oba mají 50 × 50 pixelů."
+      ],
+      "answer": 2,
+      "explanation": "Počet barev v paletě a rozměry mřížky jsou různé údaje. Obě zdrojové matice mají oblast A1:AX50.",
+      "source_refs": [
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 1,
+          "locator": "List „50x50 Hex Matrix“, A1:AX50"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 1,
+          "locator": "List „Mountain Lake 50x50“, A1:AX50"
+        },
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 2,
+          "locator": "List „Palette“, A1:C19"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 2,
+          "locator": "List „Palette“, A1:B15"
+        }
+      ]
+    },
+    {
+      "id": "quiz-pixel-raw",
+      "prompt": "Uvažuj samotná nekomprimovaná RGB data: 50 × 50 pixelů, tři bajty na pixel. Jaký je odvozený objem?",
+      "options": [
+        "7 500 bajtů",
+        "2 500 bajtů",
+        "Přesně velikost zdrojového XLSX"
+      ],
+      "answer": 0,
+      "explanation": "50 × 50 × 3 = 7 500 bajtů. Výpočet se týká zvoleného RGB zápisu pixelů; sešit XLSX ukládá i jiné údaje a má vlastní způsob uložení.",
+      "source_refs": [
+        {
+          "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+          "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+          "page": 1,
+          "locator": "List „50x50 Hex Matrix“, A1:AX50"
+        },
+        {
+          "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+          "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+          "page": 1,
+          "locator": "List „Mountain Lake 50x50“, A1:AX50"
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 15
+        },
+        {
+          "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+          "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+          "page": 17
         }
       ]
     }

@@ -1945,14 +1945,14 @@ export const courseUnits = [
     "origin": "moodle",
     "course_variant": "JU3ABE",
     "section_order": 6,
-    "available": false,
+    "available": true,
     "listed_current": true,
-    "title": "Nová sekce",
+    "title": "Kvantová fyzika",
     "label": "JU3ABE",
     "sourceCount": 0,
     "lessonCount": 0,
     "questionCount": 0,
-    "description": "Téma nyní není zpřístupněné.",
+    "description": "Téma je v kurzu; zveřejněné podklady ani výpisky zatím nejsou k dispozici.",
     "materials": []
   },
   {
@@ -2153,11 +2153,18 @@ export const courseUnits = [
     "listed_current": true,
     "title": "Kódování informace a komprese",
     "label": "JU3AB",
-    "sourceCount": 5,
-    "lessonCount": 7,
-    "questionCount": 12,
+    "sourceCount": 7,
+    "lessonCount": 8,
+    "questionCount": 16,
     "description": "Jak se z textu, obrazu a zvuku stávají bity, kdy data komprimujeme a kdy k nim naopak přidáváme kontrolní informace. Přehled propojuje všech pět prezentací a odděluje kódování od šifrování.",
     "materials": [
+      {
+        "title": "Barevný rastr — západ slunce (studijní kopie)",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d.xlsx",
+        "sourceId": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+        "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d"
+      },
       {
         "title": "8_Encoding_sound_video.pptx",
         "description": "Původní schválený zdroj",
@@ -2171,6 +2178,13 @@ export const courseUnits = [
         "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881.pptx",
         "sourceId": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
         "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881"
+      },
+      {
+        "title": "Barevný rastr — horské jezero (studijní kopie)",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d.xlsx",
+        "sourceId": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+        "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d"
       },
       {
         "title": "5_6_Efficient_and_reliable_encoding_5_Huff_6.pptx",

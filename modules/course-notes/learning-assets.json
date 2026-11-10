@@ -456,6 +456,13 @@
       ]
     },
     {
+      "name": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d.zip",
+      "sha256": "bbebab9d0ba28f3462392b5bfc88bdf1d0f602213a712dfe2bf9379549c69c78",
+      "size": 8808,
+      "kind": "extraction",
+      "source_sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d"
+    },
+    {
       "name": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2.zip",
       "sha256": "fd93b810bf1ea016e8e8f35ad9cff84c9900516b8ee498613e29ffb509616f43",
       "size": 239005,
@@ -1285,6 +1292,13 @@
       "source_sha256": "bb2abf6257b0b955958b5cd99596ae1ff9bd524e90459c129dc96a2a01d75fb5"
     },
     {
+      "name": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d.zip",
+      "sha256": "d49286531c83b6ef092ef6ac1ed000d8661d33a7d821b3df3dbe8c8d341b011a",
+      "size": 9291,
+      "kind": "extraction",
+      "source_sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d"
+    },
+    {
       "name": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1.zip",
       "sha256": "006f2a5676723664948bc8a6f510f886cf441acacca2580e11732ae908691c38",
       "size": 5999527,
@@ -1935,6 +1949,13 @@
       "units": 73
     },
     {
+      "source_sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+      "path": "extracted/4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d.json",
+      "sha256": "59868588961d5ab8541e88c496afb58d192de7f6b269fc9fb1883da565d6a8c3",
+      "size": 23081,
+      "units": 2
+    },
+    {
       "source_sha256": "4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2",
       "path": "extracted/4b99061ff6f8eb845406bebb5e4bf3009dba27ee43c06909d031e77a803654c2.json",
       "sha256": "5747594b09299464ad49766d3f60e3924131a30d8c28ec3b7e1a06c91473f738",
@@ -2313,6 +2334,13 @@
       "units": 1
     },
     {
+      "source_sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+      "path": "extracted/bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d.json",
+      "sha256": "75cc7beb15dade167869bf98be564ead909b349321b1ca8409f1dfeec0535b0f",
+      "size": 23202,
+      "units": 2
+    },
+    {
       "source_sha256": "bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1",
       "path": "extracted/bc7edca6ac735a71f55af02600d3414ca96c674fdf539d8357a686d32de2a3e1.json",
       "sha256": "ddfe75f88fa9c8ca868a5258296383cc9566935dc83640fe2243518a40e3210d",
@@ -2532,15 +2560,15 @@
   ],
   "counts": {
     "topics": 42,
-    "lessons": 189,
-    "questions": 273,
-    "flashcards": 260,
+    "lessons": 190,
+    "questions": 277,
+    "flashcards": 263,
     "figures": 73,
     "steps": 200
   },
   "extraction": {
-    "approved_unique_sources": 123,
-    "approved_entries": 125,
+    "approved_unique_sources": 125,
+    "approved_entries": 127,
     "privacy_scope": "approved_public_sources_only",
     "ocr": "fallible_transcription"
   }

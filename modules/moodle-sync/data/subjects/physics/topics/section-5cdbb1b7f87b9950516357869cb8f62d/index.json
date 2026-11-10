@@ -2,12 +2,12 @@
   "schema": 1,
   "subject_id": "physics",
   "topic_id": "section-5cdbb1b7f87b9950516357869cb8f62d",
-  "title": "Nová sekce",
+  "title": "Kvantová fyzika",
   "sources_index": "sources/index.json",
   "derived_index": "derived/index.json",
   "origin": "moodle",
   "course_variant": "JU3ABE",
   "section_order": 6,
-  "available": false,
+  "available": true,
   "listed_current": true
 }

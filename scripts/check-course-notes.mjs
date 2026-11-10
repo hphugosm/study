@@ -6,6 +6,7 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {validateContent} from '../modules/course-notes/index.js';
 import {courseUnits} from '../src/course-catalog.js';
+import {validateSources} from '../modules/moodle-sync/catalog.js';
 const root=fileURLToPath(new URL('../',import.meta.url));
 export async function checkCourseNotes(directory=root,{units=courseUnits,log=true}={}){
 const root=directory;
@@ -14,9 +15,23 @@ const read=async name=>JSON.parse(await readFile(path.join(folder,name),'utf8'))
 const manifest=await read('learning-assets.json');
 assert.equal(manifest.schema,1);assert.equal(manifest.release,'studylo-learning-v1');
 const feed=JSON.parse(await readFile(path.join(root,'modules/moodle-sync/feed.json'),'utf8')).entries.filter(entry=>entry.kind==='file');
+// Reviewed manual copies keep their own IDs and hashes. They never replace or
+// relabel a held Moodle original, and must belong to this exact topic index.
+const sourceRecords=[...feed];
 const original=new Map(feed.map(entry=>[entry.id,entry]));
-const hashes=new Set(feed.map(entry=>entry.sha256));
-const expected=new Set(feed.map(entry=>entry.subject+'/'+entry.topic));
+for(const unit of units){
+ const indexPath=`modules/moodle-sync/data/subjects/${unit.subjectId}/topics/${unit.topicId}/sources/index.json`;
+ const index=validateSources(JSON.parse(await readFile(path.join(root,indexPath),'utf8')));
+ assert.equal(index.subject_id,unit.subjectId);assert.equal(index.topic_id,unit.topicId);
+ for(const source of index.sources.filter(item=>item.source_kind==='manual')){
+  const entry={...source,subject:unit.subjectId,topic:unit.topicId,url:source.url||`modules/moodle-sync/${source.path}`};
+  const previous=original.get(source.id);
+  assert.ok(!previous||(previous.sha256===source.sha256&&previous.url===entry.url),'Conflicting manual source identity');
+  original.set(source.id,entry);sourceRecords.push(entry);
+ }
+}
+const hashes=new Set(sourceRecords.map(entry=>entry.sha256));
+const expected=new Set(sourceRecords.map(entry=>entry.subject+'/'+entry.topic));
 const assets=new Map(manifest.assets.map(asset=>[asset.name,asset]));
 assert.equal(assets.size,manifest.assets.length,'Duplicate learning asset');
 assert.ok(assets.size<=1000);assert.ok(manifest.assets.reduce((sum,asset)=>sum+asset.size,0)<=500000000);
@@ -52,7 +67,7 @@ function checkRefs(value,ids){
 for(const unit of units){
  const key=unit.subjectId+'/'+unit.topicId;
  if(!expected.has(key)){assert.ok(!unit.module,'Source-empty topic must not advertise invented notes');continue;}
- const ids=new Set(feed.filter(entry=>entry.subject===unit.subjectId&&entry.topic===unit.topicId).map(entry=>entry.id));
+ const ids=new Set(sourceRecords.filter(entry=>entry.subject===unit.subjectId&&entry.topic===unit.topicId).map(entry=>entry.id));
  const file=`content/${key}.json`;
  let content;
  try{content=validateContent(await read(file));}catch(error){

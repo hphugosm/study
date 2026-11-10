@@ -21,6 +21,7 @@ export default defineConfig({
     { name: 'pwa-desktop', testMatch: ['**/pwa-settings.spec.mjs','**/pwa-updates.spec.mjs'], grepInvert: /Safari offers/, use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 1000 }, serviceWorkers: 'allow' } },
     { name: 'pwa-mobile', testMatch: ['**/pwa-settings.spec.mjs','**/pwa-updates.spec.mjs'], grepInvert: /Safari offers/, use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium', serviceWorkers: 'allow' } },
     { name: 'pwa-safari', testMatch: ['**/pwa-settings.spec.mjs','**/pwa-updates.spec.mjs'], use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
+    { name: 'pixels-safari', testMatch: '**/pixels.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
     { name: 'worksheet-safari', testMatch: ['**/worksheets.spec.mjs','**/worksheet-gestures.spec.mjs'], use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
     ...[
       ['iphone-small-320', 'iPhone SE', { width: 320, height: 568 }],

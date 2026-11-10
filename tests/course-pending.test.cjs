@@ -104,3 +104,25 @@ test('preparation stages new source-only topics but requires full exact extracti
   const invented=prepare(f);assert.notEqual(invented.status,0);assert.match(invented.stderr,/must belong to an approved/);
  }finally{await f.cleanup();}
 });
+
+test('a separately reviewed manual copy needs exact topic admission and complete extraction',async()=>{
+ const f=await fixture();try{
+  const {generateCourseCatalog,checkCourseNotes}=await api();
+  const manual={id:digest('separately reviewed copy'),sha256:'c'.repeat(64),title:'Reviewed teaching copy',subject:'physics',topic:f.oldTopic,size:100,url:prefix+'studylo-materials-v1/'+'c'.repeat(64)+'.xlsx'};
+  const index=f.sourceIndex(f.oldTopic,[f.old,manual]);index.sources[1].source_kind='manual';
+  await put(path.join(f.topicDirectory(f.oldTopic),'sources/index.json'),index);
+  const content=f.content(f.old);content.sources.push({...f.content(manual).sources[0],title:manual.title});content.lessons.push({id:'manual-copy',title:'Data from the reviewed copy',source_refs:[{id:manual.id,sha256:manual.sha256,page:1}],blocks:[{type:'paragraph',text:'Reference to the actual reviewed cells.',source_refs:[{id:manual.id,sha256:manual.sha256,page:1}]}]});
+  await put(f.contentFile(f.oldTopic),content);
+  const {courseUnits}=await generateCourseCatalog(f.root,{write:false});
+  await assert.rejects(checkCourseNotes(f.root,{units:courseUnits,log:false}),/complete source extraction/);
+  const extraction=Buffer.from(JSON.stringify({sha256:manual.sha256,units:[{kind:'sheet',number:1,text:'Reviewed cells'}]})+'\n');
+  await fs.writeFile(path.join(f.root,'modules/course-notes/extracted',manual.sha256+'.json'),extraction);
+  const manifest={...f.manifest,assets:[...f.manifest.assets,{name:manual.sha256+'.zip',sha256:'d'.repeat(64),size:100,kind:'extraction',source_sha256:manual.sha256}],source_texts:[...f.manifest.source_texts,{source_sha256:manual.sha256,path:'extracted/'+manual.sha256+'.json',sha256:digest(extraction),size:extraction.length,units:1}]};
+  await put(f.manifestFile,manifest);
+  const result=await checkCourseNotes(f.root,{units:courseUnits,log:false});assert.equal(result.extractedFiles,2);assert.equal(result.approvedFiles,3);
+  index.sources[1].source_kind='moodle';await put(path.join(f.topicDirectory(f.oldTopic),'sources/index.json'),index);
+  await assert.rejects(checkCourseNotes(f.root,{units:courseUnits,log:false}));
+  index.sources[1].source_kind='manual';index.sources[1].id=f.old.id;await put(path.join(f.topicDirectory(f.oldTopic),'sources/index.json'),index);
+  await assert.rejects(checkCourseNotes(f.root,{units:courseUnits,log:false}),/invalid_source|Conflicting manual source/);
+ }finally{await f.cleanup();}
+});
