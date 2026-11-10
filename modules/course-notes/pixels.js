@@ -31,7 +31,7 @@ export function mountPixels(container,defaults={}){
  const host=el('section',undefined,'pixels-lab');host.setAttribute('aria-label','Pixelová laboratoř');
  const stylesheet=el('link');stylesheet.rel='stylesheet';stylesheet.href=new URL('./pixels.css',import.meta.url).href;host.append(stylesheet);
  const header=el('div',undefined,'pixels-toolbar'),select=el('select');select.setAttribute('aria-label','Zdrojový vzorek');pixelSamples.forEach((s,i)=>{const o=el('option',s.label);o.value=i;select.append(o);});select.value=sample;header.append(el('h3','Obrázek jako čísla'),select);host.append(header);
- host.append(el('p','Vyber pixel v původní matici. Každá buňka určuje jednu barvu #RRGGBB; experiment vedle mění jen vlastní barvu. Jde o studijní pomůcku, nikoli oficiální řešení zadání.','pixels-intro'));
+ host.append(el('p','Toto je rekonstruovaný obrázek z matice HEX. Vyber pixel a ověř jeho barvu a souřadnici. Hotovou vybarvenou tabulku i obrázek stáhneš v části Hotové vybarvení; RGB experiment mění jen vlastní barevný vzorek.','pixels-intro'));
  const layout=el('div',undefined,'pixels-layout'),left=el('div'),viewport=el('div',undefined,'pixels-viewport'),canvas=el('canvas');canvas.width=500;canvas.height=500;canvas.tabIndex=0;canvas.setAttribute('role','img');canvas.setAttribute('aria-label','Barevná matice. Kliknutím nebo šipkami vyber pixel; Home a End přesunou na kraj řádku.');viewport.append(canvas);left.append(viewport);
  const controls=el('div',undefined,'pixels-coordinate-controls');
  const coordinate=(title,max)=>{const l=el('label',title),input=el('input');input.type='number';input.min='1';input.max=max;input.step='1';input.value='1';input.setAttribute('aria-label',title+' v matici');l.append(input);controls.append(l);return input;};

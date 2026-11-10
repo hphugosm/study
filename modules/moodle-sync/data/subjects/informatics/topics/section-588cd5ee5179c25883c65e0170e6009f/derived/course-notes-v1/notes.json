@@ -1192,7 +1192,7 @@
     },
     {
       "id": "hexove-matice",
-      "title": "Barevná matice: od buňky k pixelu",
+      "title": "Rekonstrukce obrázku z matice HEX",
       "source_refs": [
         {
           "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
@@ -1233,7 +1233,7 @@
         {
           "type": "callout",
           "tone": "tip",
-          "text": "Studijní průvodce hotovými ukázkovými daty: oba sešity obsahují barevnou matici a paletu. Neobsahují zadání úkolu. Následující postup a výpočty slouží k procvičení, nejsou oficiálním klíčem k odevzdání.",
+          "text": "Vzorové studijní řešení: zadání požaduje nastavit každé buňce matice 50 × 50 barvu pozadí podle jejího HEX kódu. Každý obrázek má 2 500 buněk; níže jsou hotová řešení obou dostupných vzorků.",
           "source_refs": [
             {
               "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
@@ -1263,7 +1263,25 @@
         },
         {
           "type": "paragraph",
-          "text": "Každou buňku matice čteme jako jeden pixel. Obě ukázky vyplňují oblast A1:AX50: 50 sloupců a 50 řádků, tedy 50 × 50 = 2 500 pixelů. A1 je levý horní pixel, AX50 pravý dolní. Řádek a sloupec určují polohu; hodnota HEX určuje barvu.",
+          "text": "Stáhni si níže hotové vybarvené tabulky a výsledné obrázky. V tabulkách zůstaly všechny původní HEX kódy i list Palette. Aby text nerušil obrázek, má stejnou barvu jako výplň; po označení buňky přečteš její HEX v řádku vzorců.",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "50x50 Hex Matrix!A1:AX50"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "Mountain Lake 50x50!A1:AX50"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jedna buňka představuje jeden pixel. Oblast A1:AX50 má 50 sloupců a 50 řádků: 50 × 50 = 2 500 pixelů. A1 je levý horní pixel, AX50 pravý dolní. Barva výplně musí přesně odpovídat kódu v téže buňce; polohu buněk ani hodnoty HEX neměň.",
           "source_refs": [
             {
               "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
@@ -1281,7 +1299,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Paleta prvního vzorku obsahuje 18 různých barev, druhého 14; všechny jsou v příslušné matici použité. Oba obrázky přitom mají stejné rozlišení 50 × 50. Počet použitých barev proto nezaměňuj s počtem pixelů.",
+          "text": "Po vybarvení prvního vzorku vznikne západ slunce s palmou a vodou, ve druhém horské jezero. První matice používá 18 různých barev, druhá 14; všechny najdeš na listu Palette. Obě mají stejné rozlišení 50 × 50 pixelů.",
           "source_refs": [
             {
               "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
@@ -1340,20 +1358,26 @@
       ],
       "steps": [
         {
-          "title": "Vyber polohu",
-          "text": "Ve vzorku 1 najdi A1 na listu „50x50 Hex Matrix“. Buňka obsahuje #1B1F3B; sloupec A a řádek 1 určují její místo v obrázku.",
+          "title": "Připrav celou mřížku",
+          "text": "Otevři list „50x50 Hex Matrix“ nebo „Mountain Lake 50x50“ a označ A1:AX50. Pro přehledný obrázek uprav šířku sloupců a výšku řádků tak, aby buňky vypadaly čtvercově. Kódy v buňkách ponech.",
           "source_refs": [
             {
               "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
               "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
               "page": 1,
-              "locator": "List „50x50 Hex Matrix“, A1"
+              "locator": "List „50x50 Hex Matrix“, A1:AX50"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "List „Mountain Lake 50x50“, A1:AX50"
             }
           ]
         },
         {
-          "title": "Rozděl HEX na tři složky",
-          "text": "Po znaku # čti dvojice RR, GG, BB: 1B, 1F, 3B. Šestnáctkově je 1B = 1 × 16 + 11 = 27, 1F = 31 a 3B = 59. Paleta B2:C2 potvrzuje RGB (27, 31, 59).",
+          "title": "Přečti barvu první buňky",
+          "text": "V prvním vzorku obsahuje A1 kód #1B1F3B. Dvojice RR, GG, BB jsou 1B, 1F, 3B, tedy RGB (27, 31, 59). Převod potvrzuje list Palette, buňky B2:C2.",
           "source_refs": [
             {
               "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
@@ -1375,14 +1399,73 @@
           ]
         },
         {
-          "title": "Ověř druhý vzorek",
-          "text": "Ve vzorku 2 má stejná poloha A1 hodnotu #88C9DF. Dvojice 88, C9, DF odpovídají RGB (136, 201, 223), jak uvádí Palette A11:B11. Stejná souřadnice tedy nemusí v jiném obrázku nést stejnou barvu.",
+          "title": "Nastav výplň v Excelu",
+          "text": "Vyber A1 a na kartě Domů otevři Barvu výplně a Další barvy. Zadej #1B1F3B do pole pro HEX; pokud ho dialog nenabízí, nastav složky RGB na 27, 31 a 59. Potvrď barvu pozadí buňky, nikoli jen barvu písma.",
           "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1"
+            },
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 2,
+              "locator": "List „Palette“, B2:C2"
+            },
+            {
+              "id": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
+              "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "title": "Vybarvi všech 2 500 buněk",
+          "text": "Stejný postup použij pro každou hodnotu v oblasti A1:AX50. Buňky se stejným HEX kódem můžeš vybrat společně a nastavit jim jednu přesnou výplň. V prvním vzorku tak pracuješ s 18 barvami, ve druhém se 14; nevybarvuj celou oblast jednou barvou.",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1:AX50"
+            },
             {
               "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
               "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
               "page": 1,
-              "locator": "List „Mountain Lake 50x50“, A1"
+              "locator": "List „Mountain Lake 50x50“, A1:AX50"
+            },
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 2,
+              "locator": "List „Palette“, A1:C19"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 2,
+              "locator": "List „Palette“, A1:B15"
+            }
+          ]
+        },
+        {
+          "title": "Ověř oba hotové obrázky",
+          "text": "Zkontroluj celou matici bez nevybarvených míst. V prvním vzorku musí mít A1 výplň #1B1F3B a AX50 #1A3556. Ve druhém má A1 #88C9DF, tedy RGB (136, 201, 223), a AX50 #367C97. Výsledkem je v obou případech celý obrázek, nejen barevná paleta.",
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "List „50x50 Hex Matrix“, A1:AX50"
+            },
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "List „Mountain Lake 50x50“, A1:AX50"
             },
             {
               "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
@@ -1430,7 +1513,77 @@
             "locator": "List „Palette“, A1:B15"
           }
         ]
-      }
+      },
+      "solutions": [
+        {
+          "id": "hex-zapad-slunce-xlsx",
+          "title": "Vzorek 1: západ slunce — vybarvená tabulka",
+          "format": "xlsx",
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/7dc3e067286dd70b49c8d5bb81b84559f36a84b31dd64a6b045fcc07c0d716c6.xlsx",
+          "sha256": "7dc3e067286dd70b49c8d5bb81b84559f36a84b31dd64a6b045fcc07c0d716c6",
+          "size": 12996,
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "50x50 Hex Matrix!A1:AX50"
+            }
+          ]
+        },
+        {
+          "id": "hex-zapad-slunce-png",
+          "title": "Vzorek 1: západ slunce — výsledný obrázek",
+          "format": "png",
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/7778787b232a997e4c797e9ee349bc4af311b4adefb906e6e450da0868637dd8.png",
+          "sha256": "7778787b232a997e4c797e9ee349bc4af311b4adefb906e6e450da0868637dd8",
+          "size": 948,
+          "source_refs": [
+            {
+              "id": "3b9b13387e5a0285846b0d34f66bd6c081f38ac8d1a8957423277e27d7451fca",
+              "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d",
+              "page": 1,
+              "locator": "50x50 Hex Matrix!A1:AX50"
+            }
+          ],
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "hex-horske-jezero-xlsx",
+          "title": "Vzorek 2: horské jezero — vybarvená tabulka",
+          "format": "xlsx",
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/464ec4aa8e7b40793def8ae26b167efaca77f6458bafaced7d4c8e77ee47f667.xlsx",
+          "sha256": "464ec4aa8e7b40793def8ae26b167efaca77f6458bafaced7d4c8e77ee47f667",
+          "size": 12655,
+          "source_refs": [
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "Mountain Lake 50x50!A1:AX50"
+            }
+          ]
+        },
+        {
+          "id": "hex-horske-jezero-png",
+          "title": "Vzorek 2: horské jezero — výsledný obrázek",
+          "format": "png",
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c82d2a86bc1f537756ab8e8a1d0f89bf5ec031d5de58e4ef6d376913a65780bb.png",
+          "sha256": "c82d2a86bc1f537756ab8e8a1d0f89bf5ec031d5de58e4ef6d376913a65780bb",
+          "size": 776,
+          "source_refs": [
+            {
+              "id": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+              "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d",
+              "page": 1,
+              "locator": "Mountain Lake 50x50!A1:AX50"
+            }
+          ],
+          "width": 50,
+          "height": 50
+        }
+      ]
     }
   ],
   "flashcards": [

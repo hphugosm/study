@@ -31,6 +31,59 @@ def refs(value):
         for child in value:
             yield from refs(child)
 
+def preserve_solutions(files, approved, prepared_hashes):
+    """Retain only exact, previously reviewed derivatives; never infer approval."""
+    manifest_path = ENGINE/'learning-assets.json'
+    previous = read(manifest_path) if manifest_path.exists() else {'schema': 1, 'release': 'studylo-learning-v1', 'assets': []}
+    assert previous.get('schema') == 1 and previous.get('release') == 'studylo-learning-v1'
+    assert isinstance(previous.get('assets'), list), 'Invalid previous learning assets'
+    old = {}
+    for asset in previous['assets']:
+        if asset.get('kind') != 'solution':
+            continue
+        assert isinstance(asset.get('sha256'), str) and re.fullmatch(r'[a-f0-9]{64}', asset['sha256']), 'Invalid solution hash'
+        assert asset.get('format') in {'xlsx', 'png'}, 'Invalid solution format'
+        keys = {'kind', 'format', 'name', 'sha256', 'size', 'source_sha256s'}
+        if asset['format'] == 'png':
+            keys |= {'width', 'height'}
+        assert set(asset) == keys, 'Unexpected solution asset metadata'
+        assert asset.get('name') == asset['sha256']+'.'+asset['format'], 'Noncanonical solution name'
+        assert type(asset.get('size')) is int and 1 <= asset['size'] <= 25000000, 'Invalid solution size'
+        hashes = asset.get('source_sha256s')
+        assert isinstance(hashes, list) and hashes and all(isinstance(h, str) and h in prepared_hashes for h in hashes), 'Solution requires approved full source extraction'
+        assert len(set(hashes)) == len(hashes), 'Duplicate solution provenance'
+        if asset['format'] == 'png':
+            assert all(type(asset.get(key)) is int and 1 <= asset[key] <= 4096 for key in ('width', 'height')), 'Invalid solution dimensions'
+        assert asset['name'] not in old, 'Duplicate solution asset'
+        old[asset['name']] = asset
+    kept, count = {}, 0
+    for path in files:
+        content = read(path)
+        ids = {source['id'] for source in content['sources']}
+        for lesson in content['lessons']:
+            solutions = lesson.get('solutions', [])
+            assert isinstance(solutions, list), 'Invalid lesson solutions'
+            for solution in solutions:
+                assert isinstance(solution, dict) and solution.get('format') in {'xlsx', 'png'}, 'Invalid solution format'
+                sha = solution.get('sha256')
+                assert isinstance(sha, str) and re.fullmatch(r'[a-f0-9]{64}', sha), 'Invalid solution hash'
+                name = sha+'.'+solution['format']
+                assert solution.get('url') == PREFIX+name, 'Noncanonical solution URL'
+                assert name in old, 'Solution lacks previous reviewed manifest approval'
+                asset = old[name]
+                assert type(solution.get('size')) is int and solution['size'] == asset['size'], 'Solution size differs'
+                refs_ = solution.get('source_refs')
+                assert isinstance(refs_, list) and refs_ and all(isinstance(ref, dict) and ref.get('id') in ids
+                    and approved[ref['id']]['sha256'] == ref.get('sha256') and ref['sha256'] in prepared_hashes for ref in refs_), 'Solution provenance not approved in this topic'
+                assert {ref['sha256'] for ref in refs_} == set(asset['source_sha256s']), 'Solution provenance differs'
+                if solution['format'] == 'png':
+                    assert solution.get('width') == asset['width'] and solution.get('height') == asset['height'], 'Solution dimensions differ'
+                kept[name] = asset
+                count += 1
+    assert set(old) == set(kept), 'Orphan solution asset'
+    assert previous.get('counts', {}).get('solutions', 0) == count, 'Solution count differs'
+    return kept, count
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--prepared', type=Path, required=True)
@@ -62,8 +115,10 @@ def main():
             original = approved[source['id']]
             assert source['sha256'] == original['sha256'] and source['url'] == original['url'], 'Stale reviewed source'
             assert source['sha256'] in prepared_hashes, 'Reviewed notes require complete source extraction'
+    # Preflight all existing solutions before any extracted text or notes are written.
+    preserved_solutions, solution_count = preserve_solutions(files, approved, prepared_hashes)
     images = read(prepared/'imagemap.json')
-    assets = {}
+    assets = dict(preserved_solutions)
     texts = []
     for item in raw['sources']:
         source_hash = item['source_sha256']
@@ -81,7 +136,7 @@ def main():
         data = target.read_bytes()
         texts.append({'source_sha256':source_hash,'path':f'extracted/{source_hash}.json',
                       'sha256':digest(data),'size':len(data),'units':len(text_data['units'])})
-    totals = {'topics':0,'lessons':0,'questions':0,'flashcards':0,'figures':0,'steps':0}
+    totals = {'topics':0,'lessons':0,'questions':0,'flashcards':0,'figures':0,'steps':0,'solutions':solution_count}
     for path in files:
         data = read(path)
         assert (data['subject'],data['topic']) == (path.parent.name,path.stem)

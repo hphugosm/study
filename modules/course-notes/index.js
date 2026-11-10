@@ -16,6 +16,12 @@ export function gradeQuestion(question,index) {
   assert(Number.isInteger(index)&&index>=0&&index<question.options.length,'invalid_answer');
   return {correct:index===question.answer,answer:question.answer,explanation:question.explanation};
 }
+export function safeSolutionURL(solution) {
+  assert(solution&&['xlsx','png'].includes(solution.format)&&typeof solution.sha256==='string'&&hash.test(solution.sha256),'invalid_solution');
+  const expected=`https://github.com/hphugosm/study/releases/download/studylo-learning-v1/${solution.sha256}.${solution.format}`;
+  assert(solution.url===expected,'unsafe_solution_url');
+  return expected;
+}
 export async function loadContent(unit,{fetcher=globalThis.fetch,signal}={}) {
   const location=unit.content_url||unit.contentUrl;
   assert(typeof location==='string'&&!location.includes('..')&&!/[\\?#]/.test(location),'missing_content_url');
@@ -65,6 +71,14 @@ export function validateContent(data) {
     identify(lesson);assert(textOK(lesson.title),'invalid_lesson');refs(lesson);
     for(const block of lesson.blocks||[]){assert(['paragraph','callout','list'].includes(block.type),'invalid_block');if(block.type==='list')assert(Array.isArray(block.items)&&block.items.length>0&&block.items.every(textOK),'invalid_list');else assert(textOK(block.text),'invalid_block');if(block.type==='callout'&&block.tone!==undefined)assert(['key','tip','warning'].includes(block.tone),'invalid_tone');refs(block);}
     for(const image of lesson.images||[]){safeAsset(image.src);assert(textOK(image.alt)&&(!image.caption||textOK(image.caption)),'invalid_image');refs(image);}
+    if(lesson.solutions!==undefined){
+      assert(Array.isArray(lesson.solutions)&&lesson.solutions.length>0&&lesson.solutions.length<=12,'invalid_solutions');
+      for(const solution of lesson.solutions){
+        identify(solution);safeSolutionURL(solution);refs(solution);
+        assert(textOK(solution.title)&&Number.isSafeInteger(solution.size)&&solution.size>0&&solution.size<=25000000,'invalid_solution');
+        if(solution.format==='png')assert(Number.isInteger(solution.width)&&solution.width>0&&solution.width<=4096&&Number.isInteger(solution.height)&&solution.height>0&&solution.height<=4096,'invalid_solution_dimensions');
+      }
+    }
     for(const step of lesson.steps||[]){assert(textOK(step.title)&&textOK(step.text),'invalid_step');refs(step);}
     if(lesson.comparison){const comparison=lesson.comparison;assert(Array.isArray(comparison.columns)&&comparison.columns.length>=2&&comparison.columns.every(textOK),'invalid_comparison');for(const row of comparison.rows||[])assert(textOK(row.label)&&row.values?.length===comparison.columns.length&&row.values.every(textOK),'invalid_comparison');}
     if(lesson.interactive!==undefined){assert(lesson.interactive&&['refraction','parity','stereometry','pixels'].includes(lesson.interactive.kind)&&textOK(lesson.interactive.title),'invalid_interaction');refs(lesson.interactive);validateInteraction(lesson.interactive);}
@@ -119,6 +133,21 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
   function appendInteraction(card,lesson){
     const inspector=el('section',undefined,'interactive-inspector');inspector.append(el('h3',lesson.interactive.title));const widget=el('div');inspector.append(widget,references(lesson.interactive));card.append(inspector);const cleanup=mountInteraction(widget,lesson.interactive);if(typeof cleanup==='function')interactionCleanups.push(cleanup);
   }
+  function solutionDownloads(lesson){
+    const section=el('section',undefined,'lesson-solutions');section.setAttribute('aria-label','Hotové řešení');section.append(el('h3','Hotové vybarvení'));
+    const list=el('div',undefined,'solution-files');
+    for(const solution of lesson.solutions){
+      const box=el('article',undefined,'solution-file'),url=safeSolutionURL(solution),link=el('a',`Stáhnout ${solution.format.toUpperCase()} · ${Math.ceil(solution.size/1000)} kB`,'solution-download');
+      link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.download=`${solution.id}.${solution.format}`;link.setAttribute('aria-label',`Stáhnout: ${solution.title} (${solution.format.toUpperCase()})`);
+      box.append(el('h4',solution.title),link);
+      if(solution.format==='png'){
+        const details=el('details'),summary=el('summary','Zobrazit výsledný obrázek'),img=el('img');img.alt=solution.title;img.width=solution.width;img.height=solution.height;img.referrerPolicy='no-referrer';
+        details.append(summary,img);details.addEventListener('toggle',()=>{if(details.open&&!img.hasAttribute('src'))img.src=url;});box.append(details);
+      }
+      box.append(references(solution));list.append(box);
+    }
+    section.append(list);return section;
+  }
   function renderStudy(){
     if(!data.lessons.length)panel.append(el('p','Pro toto téma jsou zatím připravené původní zdroje.'));
     for(const lesson of data.lessons){
@@ -129,6 +158,7 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
       if(lesson.steps?.length){let index=0;const box=el('section',undefined,'steps'),title=el('h3'),body=el('p'),refs=el('div'),position=el('p',undefined,'muted');const previous=button('Předchozí',()=>{index--;draw();}),next=button('Další krok',()=>{index++;draw();});function draw(){const step=lesson.steps[index];title.textContent=step.title;body.textContent=step.text;refs.replaceChildren(references(step));position.textContent=`Krok ${index+1} z ${lesson.steps.length}`;previous.disabled=index===0;next.disabled=index===lesson.steps.length-1;}box.append(position,title,body,refs,previous,next);draw();card.append(box);}
       if(lesson.comparison){const comparison=lesson.comparison,box=el('section',undefined,'comparison'),label=el('label','Porovnat pohled: '),select=el('select'),rows=el('div');for(const [i,title]of comparison.columns.entries()){const option=el('option',title);option.value=i;select.append(option);}label.append(select);const draw=()=>{rows.replaceChildren();for(const row of comparison.rows){rows.append(el('h4',row.label),el('p',row.values[Number(select.value)]));}};select.onchange=draw;box.append(label,rows);draw();card.append(box);}
       if(lesson.timeline?.length){const list=el('ol',undefined,'timeline');for(const event of lesson.timeline){const item=el('li'),details=el('details');details.append(el('summary',event.label),el('p',event.text),references(event));item.append(details);list.append(item);}card.append(list);}
+      if(lesson.solutions?.length)card.append(solutionDownloads(lesson));
       if(lesson.interactive&&lesson.interactive.kind!=='stereometry')appendInteraction(card,lesson);
       card.append(references(lesson),button(progress.readLessons.includes(lesson.id)?'✓ Přečteno':'Označit jako přečtené',()=>markRead(lesson)));panel.append(card);
     }

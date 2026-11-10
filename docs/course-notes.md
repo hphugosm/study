@@ -11,7 +11,7 @@ Aktualizováno 10. 11. 2026. Všech 11 vybraných předmětů JU3 má na webu m�
 | Kartičky | 263 |
 | Otázky s odpovědí a vysvětlením | 277 |
 | Vybrané obrázky ve výkladu | 73 |
-| Kroky vysvětlení | 200 |
+| Kroky vysvětlení | 205 |
 | Ovladatelné modely | 3 |
 
 Členění je v běžné navigaci Předměty → předmět → téma. Lze hledat název tématu; dostupnost podkladů a výpisků je uvedená přímo na kartě. Otevřené úlohy, prázdné šablony a historická klasifikační pravidla nevydáváme za vyřešenou odbornou přednášku. Témata bez zdrojů neobsahují vymyšlené výpisky.
@@ -41,7 +41,7 @@ src/course-catalog.js
 
 `content` obsahuje hotové výklady, kartičky a kvízy. Tematický `derived` uchovává shodnou kopii a otisk s vazbou na zdroje. `extracted` nabízí úplný text po původních jednotkách, načtený až na žádost. Všechny zobrazené texty se vkládají přes `textContent`, bez generovaného HTML nebo spouštění dokumentového kódu.
 
-[Release s texty a obrázky](https://github.com/hphugosm/study/releases/tag/studylo-learning-v1) má 125 ZIP balíčků a 73 vybraných WebP obrázků, celkem 304 607 828 B. Název ZIPu označuje původní zdrojový SHA; jeho vlastní přesný otisk je v `learning-assets.json` a v GitHub digestu. Jméno WebP odpovídá přímo SHA obrazových bajtů. Binární soubory nejsou v Git historii.
+[Release s texty a obrázky](https://github.com/hphugosm/study/releases/tag/studylo-learning-v1) má 125 ZIP balíčků, 73 vybraných WebP obrázků a čtyři soubory vzorového řešení, celkem 304 635 203 B. Název ZIPu označuje původní zdrojový SHA; jeho vlastní přesný otisk je v `learning-assets.json` a v GitHub digestu. Jméno WebP odpovídá přímo SHA obrazových bajtů. Binární soubory nejsou v Git historii.
 
 ZIP uchovává úplný text, původní vložené obrazy a optimalizované stránkové náhledy. Jeden nepodporovaný WDP zůstal zachovaný v původních bajtech; není nahrazený vymyšlenou ilustrací. Některé vektorové obrazy používají výslovně označený náhled celé původní strany/snímku. Ručně vybrané ilustrace ve výkladu byly prohlédnuté; automatický import všech obrázků do hotové lekce se nedělá.
 
@@ -78,3 +78,9 @@ Výklady a kvízy jsou součástí malého offline balíčku společně s původ
 Informatika v tématu Kódování informace a komprese nabízí dva původní rastry 50 × 50 buněk: výběr pixelu, přesnou souřadnici listu, HEX a RGB, zvětšení a oddělené míchání vlastní barvy. Matice pocházejí z úplných přepisů dvou samostatně zkontrolovaných studijních kopií XLSX. Kopie zachovávají hodnoty a styly buněk; identifikační metadata byla odstraněna. Obě mají vlastní SHA, veřejný zdrojový záznam `source_kind:manual`, úplný přepis a ZIP. Pozastavené originály tím nebyly schváleny. Denní import ruční zdroje zachovává.
 
 Validace připouští jen schválené ruční zdroje stejného tématu s přesným ID, SHA a URL; rovněž pro ně vyžaduje úplný přepis a ZIP. Test porovnává všech 5 000 barev s nezávisle extrahovaným textem listů. Ruční workflow Verify live Studilo má volbu `pixels` pro cílené ověření veřejného webu v počítačovém a mobilním Chromiu a ve WebKitu.
+
+### Vzorové řešení úkolu s maticí
+
+Po doplnění skutečného zadání jsou v lekci Rekonstrukce obrázku z matice HEX k dispozici dva vybarvené XLSX a dvě PNG 50 × 50. Všech 5 000 výplní odpovídá HEX ve stejné zdrojové buňce; pozice, hodnoty a palety zůstaly zachované. Barva písma odpovídá výplni pro čisté zobrazení obrázku, HEX lze přečíst po označení buňky v řádku vzorců. Výsledné soubory prošly nezávislou kontrolou všech buněk, pixelů a soukromých metadat. Postup vybarvení používá standardní [Barvu výplně v Excelu](https://support.microsoft.com/en-gb/excel/add-or-change-the-background-color-of-cells-in-excel?nochrome=true).
+
+`lesson.solutions` a druh assetu `solution` uchovávají přesné otisky výsledků a odkazy na schválené zdroje. Nejde o nové originální podklady. Validace vyžaduje shodu velikosti, formátu, PNG rozměrů a provenience s manifestem; nepřipustí cizí adresu ani osiřelý výsledek. Příprava zachovává již schválená řešení a odmítne nesoulad před zápisem. Úplná příprava nad syrovým Moodle feedem dosud nepřijímá ručně schválené kopie; u těch se zachovává přírůstkový postup s kontrolou přesných zdrojů, derivátů a celé extrakce.

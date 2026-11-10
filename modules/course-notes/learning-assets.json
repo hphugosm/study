@@ -395,6 +395,16 @@
       ]
     },
     {
+      "kind": "solution",
+      "format": "xlsx",
+      "name": "464ec4aa8e7b40793def8ae26b167efaca77f6458bafaced7d4c8e77ee47f667.xlsx",
+      "sha256": "464ec4aa8e7b40793def8ae26b167efaca77f6458bafaced7d4c8e77ee47f667",
+      "size": 12655,
+      "source_sha256s": [
+        "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d"
+      ]
+    },
+    {
       "name": "479a69572b095ac12dbb4b40501920bbe15e29c17d3f2a82244c3a48124cec83.webp",
       "sha256": "479a69572b095ac12dbb4b40501920bbe15e29c17d3f2a82244c3a48124cec83",
       "size": 60482,
@@ -779,6 +789,18 @@
       ]
     },
     {
+      "kind": "solution",
+      "format": "png",
+      "name": "7778787b232a997e4c797e9ee349bc4af311b4adefb906e6e450da0868637dd8.png",
+      "sha256": "7778787b232a997e4c797e9ee349bc4af311b4adefb906e6e450da0868637dd8",
+      "size": 948,
+      "source_sha256s": [
+        "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d"
+      ],
+      "width": 50,
+      "height": 50
+    },
+    {
       "name": "77e0ce74fb2daff9e49b7e8fe6e2fb125514936ce979fee9b32e560e6317536f.zip",
       "sha256": "f713fb570b40c859aaafaaa8e3ef16330f5324e7dfe3da0ef80f649a32b8ec0d",
       "size": 118210,
@@ -815,6 +837,16 @@
       "height": 640,
       "source_sha256s": [
         "10088f18bf7835dfcf8a152b5d46004a8f17ae67ca29719ff855169d95dc1f03"
+      ]
+    },
+    {
+      "kind": "solution",
+      "format": "xlsx",
+      "name": "7dc3e067286dd70b49c8d5bb81b84559f36a84b31dd64a6b045fcc07c0d716c6.xlsx",
+      "sha256": "7dc3e067286dd70b49c8d5bb81b84559f36a84b31dd64a6b045fcc07c0d716c6",
+      "size": 12996,
+      "source_sha256s": [
+        "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d"
       ]
     },
     {
@@ -1357,6 +1389,18 @@
       "size": 23811606,
       "kind": "extraction",
       "source_sha256": "c7f7911ec47050fe1c17f307d7e52bedca4e4ceb5f5d670feb60d018c3083635"
+    },
+    {
+      "kind": "solution",
+      "format": "png",
+      "name": "c82d2a86bc1f537756ab8e8a1d0f89bf5ec031d5de58e4ef6d376913a65780bb.png",
+      "sha256": "c82d2a86bc1f537756ab8e8a1d0f89bf5ec031d5de58e4ef6d376913a65780bb",
+      "size": 776,
+      "source_sha256s": [
+        "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d"
+      ],
+      "width": 50,
+      "height": 50
     },
     {
       "name": "c8b291c3e30ce56994b61b08fe44e4e98094cc4baa0ac1fa46ad5fc1a29280c1.zip",
@@ -2564,7 +2608,8 @@
     "questions": 277,
     "flashcards": 263,
     "figures": 73,
-    "steps": 200
+    "steps": 205,
+    "solutions": 4
   },
   "extraction": {
     "approved_unique_sources": 125,

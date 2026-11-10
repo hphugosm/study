@@ -1,9 +1,11 @@
 import {test,expect} from '@playwright/test';
 import {createHash} from 'node:crypto';
+import {readFileSync} from 'node:fs';
 import {pixelSamples} from '../modules/course-notes/pixel-data.js';
 // Pixel UI checks need no offline install; avoid prefetching the whole app in every fresh context.
 test.use({serviceWorkers:'block'});
 const unit='moodle-informatics-588cd5ee5179c25883c65e0170e6009f';
+const workedSolutions=JSON.parse(readFileSync(new URL('../modules/course-notes/content/informatics/section-588cd5ee5179c25883c65e0170e6009f.json',import.meta.url),'utf8')).lessons.find(item=>item.id==='hexove-matice').solutions;
 async function open(page){await page.goto(`./#/units/${unit}`);const lab=page.locator('.pixels-lab');await expect(lab).toBeVisible();await expect(lab.locator('.pixels-hex')).toHaveText('#1B1F3B');await expect(lab.locator('.pixels-viewport canvas')).toHaveCSS('image-rendering',/pixelated|crisp-edges/);return lab;}
 const row=lab=>lab.getByRole('spinbutton',{name:'Řádek v matici',exact:true});
 const col=lab=>lab.getByRole('spinbutton',{name:'Sloupec v matici',exact:true});
@@ -47,4 +49,18 @@ test('new HEX recall card flips one side at a time and saves public card proof',
 test('both reviewed public XLSX downloads have ZIP headers and exact derivative SHA',async({request},info)=>{
  test.skip(info.project.name!=='desktop','Download each bounded source once, not for every browser.');test.setTimeout(90_000);
  for(const source of pixelSamples){const url=`https://github.com/hphugosm/study/releases/download/studylo-materials-v1/${source.sha256}.xlsx`;const response=await request.get(url);expect(response.status()).toBe(200);const type=response.headers()['content-type']||'';expect(type).toMatch(/octet-stream|spreadsheetml|zip/i);const size=Number(response.headers()['content-length']||0);expect(size).toBeLessThan(1_000_000);const body=await response.body();expect(body.length).toBeGreaterThan(100);expect(body.length).toBeLessThan(1_000_000);expect(body.subarray(0,2).toString()).toBe('PK');expect(createHash('sha256').update(body).digest('hex')).toBe(source.sha256);}
+});
+
+test('assignment includes actual worked downloads and reveals both exact image results',async({page},info)=>{
+ await open(page);const section=page.locator('.lesson-solutions');await expect(section.getByRole('heading',{name:'Hotové vybarvení'})).toBeVisible();await expect(section.locator('.solution-download')).toHaveCount(4);
+ for(const solution of workedSolutions){const link=section.getByRole('link',{name:`Stáhnout: ${solution.title} (${solution.format.toUpperCase()})`,exact:true});await expect(link).toHaveAttribute('href',solution.url);}
+ const previews=section.locator('details');await expect(previews).toHaveCount(2);
+ for(let i=0;i<2;i++){const preview=previews.nth(i),img=preview.locator('img');await expect(img).not.toHaveAttribute('src');await preview.locator('summary').click();await expect(img).toBeVisible();await expect.poll(()=>img.evaluate(n=>[n.naturalWidth,n.naturalHeight])).toEqual([50,50]);await expect(img).toHaveCSS('image-rendering',/pixelated|crisp-edges/);}
+ await fits(page);await section.screenshot({path:info.outputPath('pixel-worked-solutions.png')});
+});
+
+test('four worked solution downloads match reviewed bytes, workbook signatures and PNG dimensions',async({request},info)=>{
+ test.skip(info.project.name!=='desktop','Fetch each small worked result once.');test.setTimeout(90_000);
+ expect(workedSolutions).toHaveLength(4);
+ for(const solution of workedSolutions){const response=await request.get(solution.url);expect(response.status()).toBe(200);const body=await response.body();expect(body.length).toBe(solution.size);expect(body.length).toBeLessThan(1_000_000);expect(createHash('sha256').update(body).digest('hex')).toBe(solution.sha256);if(solution.format==='xlsx')expect(body.subarray(0,2).toString()).toBe('PK');else{expect([...body.subarray(0,8)]).toEqual([137,80,78,71,13,10,26,10]);expect(body.readUInt32BE(16)).toBe(50);expect(body.readUInt32BE(20)).toBe(50);}}
 });

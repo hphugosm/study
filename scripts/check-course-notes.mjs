@@ -37,7 +37,15 @@ assert.equal(assets.size,manifest.assets.length,'Duplicate learning asset');
 assert.ok(assets.size<=1000);assert.ok(manifest.assets.reduce((sum,asset)=>sum+asset.size,0)<=500000000);
 for(const asset of assets.values()){
  assert.match(asset.sha256,/^[a-f0-9]{64}$/);assert.ok(Number.isSafeInteger(asset.size)&&asset.size>0);
- if(asset.kind==='figure'){assert.equal(asset.name,asset.sha256+'.webp');assert.ok(asset.source_sha256s.length&&asset.source_sha256s.every(hash=>hashes.has(hash)));}
+ if(asset.kind==='solution'){
+  const keys=['kind','format','name','sha256','size','source_sha256s',...(asset.format==='png'?['width','height']:[])];
+  assert.deepEqual(new Set(Object.keys(asset)),new Set(keys),'Unexpected solution asset metadata');
+  assert.ok(['xlsx','png'].includes(asset.format),'Invalid solution format');assert.equal(asset.name,asset.sha256+'.'+asset.format,'Noncanonical solution asset name');
+  assert.ok(asset.size<=25000000,'Oversize solution asset');
+  assert.ok(Array.isArray(asset.source_sha256s)&&asset.source_sha256s.length>0&&asset.source_sha256s.every(hash=>hashes.has(hash)),'Unapproved solution source');
+  assert.equal(new Set(asset.source_sha256s).size,asset.source_sha256s.length,'Duplicate solution provenance');
+  if(asset.format==='png')for(const dimension of [asset.width,asset.height])assert.ok(Number.isSafeInteger(dimension)&&dimension>=1&&dimension<=4096,'Invalid solution dimensions');
+ }else if(asset.kind==='figure'){assert.equal(asset.name,asset.sha256+'.webp');assert.ok(asset.source_sha256s.length&&asset.source_sha256s.every(hash=>hashes.has(hash)));}
  else{assert.equal(asset.kind,'extraction');assert.ok(hashes.has(asset.source_sha256));assert.equal(asset.name,asset.source_sha256+'.zip');}
 }
 const extractedHashes=new Set(manifest.assets.filter(asset=>asset.kind==='extraction').map(asset=>asset.source_sha256));
@@ -47,7 +55,7 @@ assert.equal(extractedHashes.size,manifest.assets.filter(asset=>asset.kind==='ex
 assert.deepEqual(textHashes,extractedHashes,'Full text set differs from published extraction archives');
 assert.equal(manifest.extraction?.privacy_scope,'approved_public_sources_only');
 if(manifest.extraction.prepared_unique_sources!==undefined)assert.equal(manifest.extraction.prepared_unique_sources,extractedHashes.size);
-for(const asset of assets.values())if(asset.kind==='figure')assert.ok(asset.source_sha256s.every(hash=>extractedHashes.has(hash)),'Teaching figure requires complete source extraction');
+for(const asset of assets.values())if(['figure','solution'].includes(asset.kind))assert.ok(asset.source_sha256s.every(hash=>extractedHashes.has(hash)),'Teaching figure or solution requires complete source extraction');
 const extraction=new Map();
 for(const text of manifest.source_texts){
  assert.equal(text.path,`extracted/${text.source_sha256}.json`);
@@ -57,7 +65,7 @@ for(const text of manifest.source_texts){
  assert.ok(data.units.every(unit=>Number.isSafeInteger(unit.number)&&unit.number>0&&typeof unit.text==='string'));
  extraction.set(text.source_sha256,data);
 }
-const found=new Set(),pending=new Set();let lessons=0,questions=0,cards=0,figures=0;
+const found=new Set(),pending=new Set();let lessons=0,questions=0,cards=0,figures=0,solutions=0;const usedSolutions=new Set();
 function checkRefs(value,ids){
  if(Array.isArray(value)){for(const item of value)checkRefs(item,ids);return;}
  if(!value||typeof value!=='object')return;
@@ -84,13 +92,23 @@ for(const unit of units){
   const asset=assets.get(image.src.split('/').at(-1));assert.equal(asset?.kind,'figure');
   assert.ok(image.source_refs.some(ref=>asset.source_sha256s.includes(ref.sha256)),'Teaching image source differs');figures++;
  }
+ for(const lesson of content.lessons)for(const solution of lesson.solutions||[]){
+  const asset=assets.get(solution.sha256+'.'+solution.format);assert.equal(asset?.kind,'solution','Solution is missing reviewed manifest asset');
+  assert.equal(solution.url,`https://github.com/hphugosm/study/releases/download/studylo-learning-v1/${asset.name}`,'Noncanonical solution URL');
+  assert.equal(solution.sha256,asset.sha256);assert.equal(solution.size,asset.size);assert.equal(solution.format,asset.format);
+  assert.deepEqual(new Set(solution.source_refs.map(ref=>ref.sha256)),new Set(asset.source_sha256s),'Solution provenance differs');
+  if(solution.format==='png'){assert.equal(solution.width,asset.width);assert.equal(solution.height,asset.height);}
+  usedSolutions.add(asset.name);solutions++;
+ }
  assert.equal(unit.lessonCount,content.lessons.length);assert.equal(unit.questionCount,content.questions.length);
  assert.equal(unit.sourceCount,ids.size);if(content.lessons.length&&unit.available!==false)assert.equal(unit.module,'course-notes');
  found.add(key);lessons+=content.lessons.length;questions+=content.questions.length;cards+=content.flashcards.length;
 }
 assert.deepEqual(new Set([...found,...pending]),expected,'Approved source-bearing topic is missing from the catalog');
 assert.equal(manifest.counts.topics,found.size,'Prepared topic count differs from reviewed content');
-const result={topics:found.size,lessons,cards,questions,figures,extractedFiles:extractedHashes.size,approvedFiles:hashes.size,pendingTopics:pending.size,pendingFiles:hashes.size-extractedHashes.size};
+assert.deepEqual(usedSolutions,new Set(manifest.assets.filter(asset=>asset.kind==='solution').map(asset=>asset.name)),'Orphan solution asset');
+assert.equal(manifest.counts.solutions??0,solutions,'Solution count differs from reviewed content');
+const result={topics:found.size,lessons,cards,questions,figures,solutions,extractedFiles:extractedHashes.size,approvedFiles:hashes.size,pendingTopics:pending.size,pendingFiles:hashes.size-extractedHashes.size};
 if(log)console.log(`Course notes: ${found.size} source-backed topics, ${lessons} lessons, ${cards} cards, ${questions} questions, ${figures} sourced figures; full extraction for ${extractedHashes.size}/${hashes.size} approved files; ${pending.size} source-only topics await reviewed notes.`);
 return result;
 }

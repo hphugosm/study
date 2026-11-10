@@ -126,3 +126,55 @@ test('a separately reviewed manual copy needs exact topic admission and complete
   await assert.rejects(checkCourseNotes(f.root,{units:courseUnits,log:false}),/invalid_source|Conflicting manual source/);
  }finally{await f.cleanup();}
 });
+
+async function reviewedSolution(f,format='xlsx'){
+ const sha=digest('Reviewed solution '+format),refs=[{id:f.old.id,sha256:f.old.sha256,page:1}];
+ const solution={id:'solution-example-'+format,title:'Hotové vybarvení',format,url:prefix+'studylo-learning-v1/'+sha+'.'+format,sha256:sha,size:1234,source_refs:refs};
+ const asset={kind:'solution',format,name:sha+'.'+format,sha256:sha,size:1234,source_sha256s:[f.old.sha256]};
+ if(format==='png'){Object.assign(solution,{width:50,height:50});Object.assign(asset,{width:50,height:50});}
+ const content=f.content(f.old);content.lessons[0].solutions=[solution];f.manifest.assets.push(asset);f.manifest.counts.solutions=1;
+ await put(f.contentFile(f.oldTopic),content);await put(f.manifestFile,f.manifest);return {solution,asset,content};
+}
+
+test('reviewed XLSX and PNG solutions retain exact metadata through preparation and source checks',async()=>{
+ for(const format of ['xlsx','png']){const f=await fixture();try{
+  const {asset,solution}=await reviewedSolution(f,format);const {generateCourseCatalog,checkCourseNotes}=await api();const {courseUnits}=await generateCourseCatalog(f.root,{write:false});
+  assert.equal((await checkCourseNotes(f.root,{units:courseUnits,log:false})).solutions,1);
+  const result=prepare(f);assert.equal(result.status,0,result.stderr);
+  const manifest=JSON.parse(await fs.readFile(f.manifestFile,'utf8'));assert.equal(manifest.counts.solutions,1);assert.deepEqual(manifest.assets.find(x=>x.kind==='solution'),asset);
+  const content=JSON.parse(await fs.readFile(f.contentFile(f.oldTopic),'utf8'));assert.deepEqual(content.lessons[0].solutions,[solution]);
+  assert.equal((await checkCourseNotes(f.root,{units:courseUnits,log:false})).solutions,1);
+ }finally{await f.cleanup();}}
+});
+
+test('solution SHA, provenance, size and canonical URL mismatches reject without dropping reviewed assets',async()=>{
+ const {generateCourseCatalog,checkCourseNotes}=await api();
+ for(const defect of ['sha','foreign-ref','url','size','unreviewed']){const f=await fixture();try{
+  const {content,solution}=await reviewedSolution(f);const {courseUnits}=await generateCourseCatalog(f.root,{write:false});
+  if(defect==='sha')solution.sha256='e'.repeat(64);
+  if(defect==='foreign-ref')solution.source_refs=[{id:f.pending.id,sha256:f.pending.sha256,page:1}];
+  if(defect==='url')solution.url='https://example.invalid/'+solution.sha256+'.xlsx';
+  if(defect==='size')solution.size++;
+  if(defect==='unreviewed'){f.manifest.assets=f.manifest.assets.filter(a=>a.kind!=='solution');await put(f.manifestFile,f.manifest);}
+  await put(f.contentFile(f.oldTopic),content);const before=await fs.readFile(f.manifestFile,'utf8');
+  await assert.rejects(checkCourseNotes(f.root,{units:courseUnits,log:false}));const result=prepare(f);assert.notEqual(result.status,0,defect);assert.equal(await fs.readFile(f.manifestFile,'utf8'),before,defect+' modified reviewed manifest');
+ }finally{await f.cleanup();}}
+});
+
+test('solutions require full extraction, exact manifest source set and authored reference with no orphans',async()=>{
+ const {generateCourseCatalog,checkCourseNotes}=await api();
+ for(const defect of ['missing-extraction','foreign-manifest-ref','orphan','count','dimensions','dimension-zero','dimension-max','dimension-fraction','dimension-bool']){const f=await fixture();try{
+  const {content,asset}=await reviewedSolution(f,'png');const {courseUnits}=await generateCourseCatalog(f.root,{write:false});
+  if(defect==='missing-extraction'){f.manifest.assets=f.manifest.assets.filter(a=>a.kind!=='extraction');f.manifest.source_texts=[];await put(path.join(f.prepared,'manifest.json'),{approved_source_set_verified:true,held_sources_included:0,sources:[]});}
+  if(defect==='foreign-manifest-ref')asset.source_sha256s=[f.pending.sha256];
+  if(defect==='orphan'){content.lessons[0].solutions=[];await put(f.contentFile(f.oldTopic),content);}
+  if(defect==='count')f.manifest.counts.solutions=2;
+  if(defect==='dimensions')asset.width=51;
+  if(defect==='dimension-zero')asset.width=0;
+  if(defect==='dimension-max')asset.height=4097;
+  if(defect==='dimension-fraction')asset.width=50.5;
+  if(defect==='dimension-bool')asset.height=true;
+  await put(f.manifestFile,f.manifest);await assert.rejects(checkCourseNotes(f.root,{units:courseUnits,log:false}));
+  const before=await fs.readFile(f.manifestFile,'utf8');const result=prepare(f);assert.notEqual(result.status,0,defect);assert.equal(await fs.readFile(f.manifestFile,'utf8'),before,defect+' modified reviewed manifest');
+ }finally{await f.cleanup();}}
+});
