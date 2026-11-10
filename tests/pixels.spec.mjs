@@ -1,6 +1,8 @@
 import {test,expect} from '@playwright/test';
 import {createHash} from 'node:crypto';
 import {pixelSamples} from '../modules/course-notes/pixel-data.js';
+// Pixel UI checks need no offline install; avoid prefetching the whole app in every fresh context.
+test.use({serviceWorkers:'block'});
 const unit='moodle-informatics-588cd5ee5179c25883c65e0170e6009f';
 async function open(page){await page.goto(`./#/units/${unit}`);const lab=page.locator('.pixels-lab');await expect(lab).toBeVisible();await expect(lab.locator('.pixels-hex')).toHaveText('#1B1F3B');await expect(lab.locator('.pixels-viewport canvas')).toHaveCSS('image-rendering',/pixelated|crisp-edges/);return lab;}
 const row=lab=>lab.getByRole('spinbutton',{name:'Řádek v matici',exact:true});
