@@ -3,3 +3,5 @@
 .pixels-hex{overflow-wrap:anywhere}@media(max-width:440px){.pixels-details{grid-template-columns:minmax(0,1fr)}.pixels-details>canvas{width:180px;height:180px;justify-self:center}.pixels-experiment{min-width:0}}
 .pixels-lab.pixels-lab :is(select,button,input){min-height:44px}
 .pixels-lab.pixels-lab input[type=range]{min-height:44px}.pixels-lab.pixels-lab :is(input,select,button){font-size:max(16px,1em)}
+/* A zoomed canvas must overflow its own scrollport, never a grid item's automatic minimum. */
+.pixels-layout>div{min-width:0;max-width:100%}.pixels-viewport{min-width:0;width:100%;max-width:100%}@media(max-width:650px){.pixels-layout{grid-template-columns:minmax(0,1fr)}}
