@@ -1,7 +1,7 @@
 import {courseSubjects,courseUnits} from './course-catalog.js';
 /** @typedef {{id:string,name:string,color:string,tint:string,icon:string,description:string}} Subject */
 /** @typedef {{id:string,subjectId:string,title:string,label?:string,description:string,module?:string,kind?:'collection',relatedUnitIds?:string[],materials:Array<{title:string,description:string,url:string}>,notes?:Array<string|{title:string,text:string}>}} StudyUnit */
-/** @typedef {{id:string,unitId?:string,date:string,type:'test'|'homework'|'review'|'excursion',allDay?:boolean,title:string,description:string}} StudyEvent */
+/** @typedef {{id:string,unitId?:string,date:string,type:'test'|'homework'|'review'|'excursion',allDay?:boolean,title:string,description:string,starts?:number,duration?:number,origin?:'moodle',sourceKind?:'assignment'|'event',sourceAssignmentId?:string,sourceVersion?:string,isDeadline?:boolean,due?:number}} StudyEvent */
 
 /** @type {Subject[]} */
 export const subjects = [

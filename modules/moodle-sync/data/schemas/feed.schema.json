@@ -97,6 +97,28 @@
             "type": "integer",
             "minimum": 0,
             "maximum": 4102444800
+          },
+          "version": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "calendar_type": {
+            "enum": [
+              "test",
+              "homework"
+            ]
+          },
+          "calendar_role": {
+            "enum": [
+              "deadline",
+              "scheduled",
+              "opens",
+              "closes"
+            ]
+          },
+          "related_assignment": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
           }
         },
         "required": [
@@ -142,6 +164,74 @@
                   }
                 }
               ]
+            }
+          },
+          {
+            "if": {
+              "required": [
+                "version"
+              ]
+            },
+            "then": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "assignment",
+                    "event"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "required": [
+                "calendar_type"
+              ]
+            },
+            "then": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "assignment",
+                    "event"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "required": [
+                "calendar_role"
+              ]
+            },
+            "then": {
+              "properties": {
+                "kind": {
+                  "const": "event"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "required": [
+                "related_assignment"
+              ]
+            },
+            "then": {
+              "required": [
+                "calendar_role"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "event"
+                },
+                "calendar_role": {
+                  "const": "deadline"
+                }
+              }
             }
           }
         ]

@@ -69,7 +69,8 @@ export function createNavigation(onChange) {
     const target = routeInfo(hash);
     const current = routeInfo(entries[index].hash);
     const additions = [];
-    if (target.unit && target.parent !== entries[index].hash && target.unit.id !== current.unit?.id) {
+    const calendarEvent = entries[index].hash === '#/' && hash.startsWith('#/events/');
+    if (target.unit && !calendarEvent && target.parent !== entries[index].hash && target.unit.id !== current.unit?.id) {
       additions.push(target.parent);
     }
     additions.push(hash);

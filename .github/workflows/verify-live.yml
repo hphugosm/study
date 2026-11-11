@@ -12,6 +12,7 @@ on:
           - pixels
           - notes
           - assignments
+          - calendar
 
 permissions:
   contents: read
@@ -45,7 +46,7 @@ jobs:
         run: npx --no-install playwright install --with-deps chromium webkit
 
       - name: Run complete live browser suite
-        if: inputs.suite != 'pixels' && inputs.suite != 'notes' && inputs.suite != 'assignments'
+        if: inputs.suite != 'pixels' && inputs.suite != 'notes' && inputs.suite != 'assignments' && inputs.suite != 'calendar'
         run: npm run test:e2e
 
       - name: Run focused live pixel checks
@@ -59,6 +60,10 @@ jobs:
       - name: Run focused live assignment checks
         if: inputs.suite == 'assignments'
         run: npx --no-install playwright test tests/assignments.spec.mjs --project=desktop --project=mobile --project=assignments-safari
+
+      - name: Run focused live Moodle calendar checks
+        if: inputs.suite == 'calendar'
+        run: npx --no-install playwright test tests/moodle-calendar.spec.mjs --project=desktop --project=mobile --project=calendar-safari
 
       - name: Upload browser reports and failure evidence
         if: always()

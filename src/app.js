@@ -7,10 +7,28 @@ import {initPreferences} from './preferences.js';
 import {mountSettings} from './settings.js';
 import {initPwa,notifyPwaRoute} from './pwa.js';
 import {mountAssignments} from './assignments.js';
+import {moodleCalendarEvents,mergeCalendarEvents} from './moodle-calendar.js';
 
 const main = document.querySelector('main');
+const manualEvents=events.slice();
+let calendarLoadFailed=false;
+let calendarLoading=false;
+async function loadMoodleCalendar(){
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),5000);
+  try{
+    const response=await fetch(new URL('../modules/moodle-sync/feed.json',import.meta.url),{credentials:'omit',signal:controller.signal});
+    if(!response.ok)throw new Error('calendar_feed_unavailable');
+    const imported=moodleCalendarEvents(await response.json(),{units});
+    events.splice(0,events.length,...mergeCalendarEvents(manualEvents,imported));
+    calendarLoadFailed=false;
+  }catch{calendarLoadFailed=true;}
+  finally{clearTimeout(timeout);}
+}
+main.innerHTML='<p class="loading-copy" role="status">Načítám školní kalendář…</p>';
+await loadMoodleCalendar();
 const today = pragueToday();
-const upcomingEvents = () => events.filter(event=>event.date>=today).sort((a,b)=>a.date.localeCompare(b.date));
+const upcomingEvents = () => events.filter(event=>event.date>=today).sort((a,b)=>a.date.localeCompare(b.date)||(a.starts||0)-(b.starts||0));
 let cursor = parseDate(today);
 let selectedDay = upcomingEvents()[0]?.date || today;
 let cleanupModule = null;
@@ -26,13 +44,25 @@ const subjectStyle = s => `--subject:${s.color};--tint:${s.tint}`;
 const schoolEventStyle = {name:'Školní akce',color:'#527c8a',tint:'#edf4f6',icon:'calendar'};
 const eventSubject = event => eventContext(event).subject || schoolEventStyle;
 const dateParts = key => ({day:parseDate(key).getDate(),month:new Intl.DateTimeFormat('cs-CZ',{month:'short'}).format(parseDate(key))});
+const eventTime=event=>Number.isSafeInteger(event.starts)&&event.starts>0?new Intl.DateTimeFormat('cs-CZ',{timeZone:'Europe/Prague',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(event.starts*1000)):null;
+const eventDateLabel=event=>fullDate(event.date)+(eventTime(event)?` · ${eventTime(event)} (Praha)`:event.allDay?' · celý den':'');
+async function retryCalendar(){
+  if(calendarLoading)return;
+  calendarLoading=true;
+  const scroll=window.scrollY;
+  await loadMoodleCalendar();
+  calendarLoading=false;
+  await route({scroll,restore:true});
+}
+function calendarWarning(){return calendarLoadFailed?'<div class="calendar-sync-warning" role="status"><p>Termíny z Moodlu se nepodařilo načíst. Zobrazuji ručně přidané události.</p><button class="button" data-retry-calendar>Zkusit znovu</button></div>':'';}
+
 
 document.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=icon(el.dataset.icon));
 
 function eventCard(event,compact=false) {
   const {unit} = eventContext(event);
   const subject = eventSubject(event);
-  const subtitle = [compact?null:unit?.title,event.allDay?'Celý den':null].filter(Boolean).join(' · ');
+  const subtitle = [compact?null:unit?.title,event.allDay?'Celý den':eventTime(event)?`${eventTime(event)} · Praha`:null].filter(Boolean).join(' · ');
   const date = dateParts(event.date);
   return `<a class="event-card ${compact?'compact':''}" href="#/events/${event.id}" style="${subjectStyle(subject)}">
     ${compact?'':`<div class="event-date"><strong>${date.day}</strong><span>${date.month}</span></div>`}
@@ -46,17 +76,18 @@ function renderCalendar() {
   const selectedEvents = events.filter(e=>e.date===selectedDay);
   const upcoming = upcomingEvents();
   main.innerHTML = `<section class="page-intro"><div><p class="eyebrow">TVŮJ STUDIJNÍ PŘEHLED</p><h1>Všechno má svůj čas<span class="muted-period">.</span></h1><p>Termíny na očích. Učení na jednom místě.</p></div><div class="today-label">${icon('calendar')}<span>Dnes je ${fullDate(today)}</span></div></section>
-    <section class="calendar-layout" aria-label="Školní kalendář">
+    ${calendarWarning()}<section class="calendar-layout" aria-label="Školní kalendář">
       <div class="calendar-panel"><div class="calendar-toolbar"><div><h2 id="month-heading">${monthFormat.format(cursor)}</h2><span class="month-count">${monthEvents.length} ${monthEvents.length===1?'událost':monthEvents.length>=2&&monthEvents.length<=4?'události':'událostí'}</span></div><div class="calendar-controls"><button class="today-button" data-action="today" aria-label="Dnes">Dnes</button><div class="month-arrows"><button class="icon-button" data-action="previous" aria-label="Předchozí měsíc">${icon('left')}</button><button class="icon-button" data-action="next" aria-label="Další měsíc">${icon('right')}</button></div></div></div>
       <div class="weekdays" aria-hidden="true">${['Po','Út','St','Čt','Pá','So','Ne'].map(d=>`<span>${d}</span>`).join('')}</div>
       <div class="calendar-grid" aria-labelledby="month-heading">${calendarDays(year,month).map((d,index)=>{
         const dayEvents = events.filter(e=>e.date===d.key);
-        return `<button class="calendar-day ${d.inMonth?'':'outside'} ${d.key===today?'is-today':''} ${d.key===selectedDay?'selected':''} ${index%7>=5?'weekend':''}" data-date="${d.key}" aria-pressed="${d.key===selectedDay}" aria-label="${fullDate(d.key)}${dayEvents.length?`, ${dayEvents.map(e=>`${eventSubject(e).name}: ${e.title}${e.allDay?" (celý den)":""}`).join(', ')}`:', bez událostí'}"><span class="day-number">${d.day}</span><span class="day-events">${dayEvents.map(event=>{const s=eventSubject(event);return `<span class="calendar-chip ${event.type}" style="${subjectStyle(s)}"><span class="chip-dot"></span><span>${s.name}</span><span class="chip-title">${esc(event.type==='homework'?'Rozbor Lakomce':event.id==='biology-test'?'Kosterní soustava':event.title)}</span></span>`;}).join('')}</span><span class="mobile-event-dots" aria-hidden="true">${dayEvents.map(e=>`<i class="${e.type}" style="--subject:${eventSubject(e).color}"></i>`).join('')}</span></button>`;
+        return `<button class="calendar-day ${d.inMonth?'':'outside'} ${d.key===today?'is-today':''} ${d.key===selectedDay?'selected':''} ${index%7>=5?'weekend':''}" data-date="${d.key}" aria-pressed="${d.key===selectedDay}" aria-label="${fullDate(d.key)}${dayEvents.length?`, ${dayEvents.map(e=>`${eventSubject(e).name}: ${esc(e.title)}${e.allDay?" (celý den)":""}`).join(', ')}`:', bez událostí'}"><span class="day-number">${d.day}</span><span class="day-events">${dayEvents.map(event=>{const s=eventSubject(event);return `<span class="calendar-chip ${event.type}" style="${subjectStyle(s)}"><span class="chip-dot"></span><span>${s.name}</span><span class="chip-title">${esc(event.id==='literature-assignment'?'Rozbor Lakomce':event.id==='biology-test'?'Kosterní soustava':event.title)}</span></span>`;}).join('')}</span><span class="mobile-event-dots" aria-hidden="true">${dayEvents.map(e=>`<i class="${e.type}" style="--subject:${eventSubject(e).color}"></i>`).join('')}</span></button>`;
       }).join('')}</div><div class="calendar-legend"><span><i class="test"></i>Test / písemná práce</span><span><i class="homework"></i>Domácí úkol</span><span><i class="excursion"></i>Exkurze</span></div></div>
       <aside class="day-panel" aria-live="polite"><p class="eyebrow">VYBRANÝ DEN</p><h2>${new Intl.DateTimeFormat('cs-CZ',{day:'numeric',month:'long'}).format(parseDate(selectedDay))}</h2><p class="day-subtitle">${dayName(selectedDay)} <span>·</span> ${selectedEvents.length?`${selectedEvents.length} ${selectedEvents.length===1?'událost':'události'}`:'volný den'}</p><div class="selected-events">${selectedEvents.length?selectedEvents.map(e=>eventCard(e,true)).join(''):`<div class="quiet-empty">${icon('spark')}<h3>Prostor pro vlastní tempo.</h3><p>Na tento den nemáš žádný termín. Můžeš se vrátit k tomu, co chceš procvičit.</p><a class="text-link" href="#/practice">Vybrat procvičování ${icon('arrow')}</a></div>`}</div><div class="day-footnote">${icon('check')}<span>Klikni na událost a zobraz její podrobnosti.</span></div></aside>
     </section>
-    <section class="upcoming-section"><div class="section-heading"><h2>Nejbližší termíny</h2><span>${upcoming.length} ${upcoming.length===1?"nadcházející událost":upcoming.length>=2&&upcoming.length<=4?"nadcházející události":"nadcházejících událostí"}</span></div><div class="upcoming-grid">${upcoming.length?upcoming.map(e=>eventCard(e)).join(''):'<p class="empty-copy">Všechny zadané termíny už proběhly. Najdeš je v listopadu 2026.</p>'}</div></section>
+    <section class="upcoming-section"><div class="section-heading"><h2>Nejbližší termíny</h2><span>${upcoming.length} ${upcoming.length===1?"nadcházející událost":upcoming.length>=2&&upcoming.length<=4?"nadcházející události":"nadcházejících událostí"}</span></div><div class="upcoming-grid">${upcoming.length?upcoming.map(e=>eventCard(e)).join(''):'<p class="empty-copy">Všechny zveřejněné termíny už proběhly. Starší najdeš v předchozích měsících.</p>'}</div></section>
     <section class="subject-section"><div class="section-heading"><h2>Tvoje předměty</h2><a class="text-link" href="#/subjects">Zobrazit všechny ${icon('arrow')}</a></div><div class="subject-strip">${subjects.map(s=>`<a class="subject-shortcut" href="#/subjects/${s.id}" style="${subjectStyle(s)}"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span>${icon('arrow')}</a>`).join('')}</div></section>`;
+  main.querySelector('[data-retry-calendar]')?.addEventListener('click',retryCalendar);
   main.querySelectorAll('[data-date]').forEach(button=>button.addEventListener('click',()=>{
     selectedDay=button.dataset.date;
     renderCalendar();
@@ -122,13 +153,13 @@ function renderPractice() {
 
 async function renderUnit(unit,event,params,version) {
   const s=getSubject(unit.subjectId);
-  const requestedTab=params.get('tab')||(event?.type==='homework'?'tasks':'tools');
+  const requestedTab=params.get('tab')||(event?.type==='homework'||event?.sourceAssignmentId?'tasks':'tools');
   activeTab=requestedTab==='progress'?'tasks':['tools','materials','tasks'].includes(requestedTab)?requestedTab:'tools';
   const unitEvents=events.filter(e=>e.unitId===unit.id);
   const supplements=supplementsForUnit(unit.id,units),supplement=selectedSupplement(unit,params,units);
   const materials=categoryMaterials(unit,units);
   document.title=`${event?event.title:unit.title} — Studilo`;
-  main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><a href="#/subjects/${s.id}">${s.name}</a></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${fullDate(e.date)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
+  main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><a href="#/subjects/${s.id}">${s.name}</a></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${eventDateLabel(event)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${eventDateLabel(e)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
     <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="Materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">Materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Úkoly" data-tab="tasks" id="unit-tab-tasks" aria-controls="unit-panel">${icon('calendar')}<span>Úkoly</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
   for(const b of main.querySelectorAll('[data-tab]')) b.onclick=()=>{
     const path=location.hash.split('?')[0];
@@ -154,7 +185,7 @@ async function renderUnit(unit,event,params,version) {
     const host=panel.firstElementChild;
     host.style.setProperty('--subject',s.color);host.style.setProperty('--tint',s.tint);
     try {
-      const cleanup=await mountAssignments(host,{unit,units,events,signal:abort.signal});
+      const cleanup=await mountAssignments(host,{unit,units,events,assignmentId:event?.sourceAssignmentId||params.get('assignment'),signal:abort.signal});
       if(version!==routeVersion||abort.signal.aborted)cleanup?.();
       else cleanupModule=()=>{abort.abort();cleanup?.();};
     } catch(error) {
@@ -204,7 +235,7 @@ async function renderUnit(unit,event,params,version) {
 }
 function renderSchoolEvent(event) {
   document.title=`${event.title} — Studilo`;
-  main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><span>Školní akce</span></div><section class="unit-hero" style="${subjectStyle(schoolEventStyle)}"><div class="unit-subject"><span class="subject-icon">${icon('calendar')}</span><span>Školní akce</span></div><p class="eyebrow">${eventTypes[event.type]}</p><h1>${esc(event.title)}</h1><p class="unit-description">${esc(event.description)}</p><div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong>${event.allDay?'<span>Celý den</span>':''}</div></section><a class="text-link" href="#/">Zpět do kalendáře ${icon('arrow')}</a>`;
+  main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><span>Školní akce</span></div><section class="unit-hero" style="${subjectStyle(schoolEventStyle)}"><div class="unit-subject"><span class="subject-icon">${icon('calendar')}</span><span>Školní akce</span></div><p class="eyebrow">${eventTypes[event.type]}</p><h1>${esc(event.title)}</h1><p class="unit-description">${esc(event.description)}</p><div class="event-banner ${event.type}">${icon('calendar')}<strong>${eventDateLabel(event)}</strong>${event.allDay?'<span>Celý den</span>':''}</div></section><a class="text-link" href="#/">Zpět do kalendáře ${icon('arrow')}</a>`;
 }
 const isBiology = unit => ['biology','biology-muscles'].includes(unit.module);
 function emptyMaterials(){return `<div class="empty-state">${icon('book')}<h2>Materiály zatím nebyly přidány.</h2><p>Termín je připravený. Až budou k dispozici skutečné podklady, objeví se na tomto místě.</p><a class="text-link" href="#/">Zpět do kalendáře ${icon('arrow')}</a></div>`;}
@@ -238,7 +269,7 @@ async function route({scroll=0,restore=false}={}) {
     notifyPwaRoute();
   }
 }
-function renderNotFound(){main.innerHTML='<div class="empty-state"><h1>Tahle stránka tu zatím není.</h1><a class="button primary" href="#/">Zpět do kalendáře</a></div>';}
+function renderNotFound(){if(calendarLoadFailed&&/^#\/events\/moodle-/.test(location.hash)){main.innerHTML='<div class="empty-state"><h1>Termín teď není dostupný.</h1><p>Termíny z Moodlu se nepodařilo načíst.</p><button class="button" data-retry-calendar>Zkusit znovu</button></div>';main.querySelector('[data-retry-calendar]').onclick=retryCalendar;return;}main.innerHTML='<div class="empty-state"><h1>Tahle stránka tu zatím není.</h1><a class="button primary" href="#/">Zpět do kalendáře</a></div>';}
 document.querySelector('.skip-link').onclick=e=>{e.preventDefault();main.focus();};
 const backButton=document.querySelector('#page-back');
 const forwardButton=document.querySelector('#page-forward');

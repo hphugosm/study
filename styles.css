@@ -306,5 +306,9 @@ button, a, input, select, summary { touch-action: manipulation; }
 .task-card .task-status.ready{background:var(--study-accent-soft);color:var(--study-accent)}
 .tasks-empty,.tasks-warning{border:1px dashed var(--study-line);border-radius:12px;padding:24px;font-size:15px;line-height:1.7;color:var(--study-muted);background:var(--study-soft)}
 .tasks-warning{margin-bottom:18px}
+.task-card.is-target{border-color:var(--study-accent);box-shadow:0 0 0 1px var(--study-accent)}
+.calendar-sync-warning{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;border:1px solid var(--study-line);border-radius:12px;background:var(--study-soft);padding:16px 20px;margin-bottom:20px;color:var(--study-muted)}
+.calendar-sync-warning p{font-size:14px;line-height:1.7;margin:0}
+.calendar-sync-warning .button{min-height:44px;color:var(--study-text);font-size:14px}
 .assignments-panel summary:focus-visible,.assignments-panel a:focus-visible{outline:3px solid var(--study-accent);outline-offset:4px}
 @media(max-width:650px){.task-card{padding:18px 16px}.task-card h3{font-size:20px}.task-card p,.task-card li{font-size:14px}.task-files a{font-size:13px;padding:12px}.task-deadline{font-size:13px}.tasks-empty,.tasks-warning{padding:20px 16px}}
