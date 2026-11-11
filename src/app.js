@@ -75,7 +75,7 @@ function renderCalendar() {
   const monthEvents = events.filter(e=>e.date.startsWith(monthKey));
   const selectedEvents = events.filter(e=>e.date===selectedDay);
   const upcoming = upcomingEvents();
-  main.innerHTML = `<section class="page-intro"><div><p class="eyebrow">TVŮJ STUDIJNÍ PŘEHLED</p><h1>Všechno má svůj čas<span class="muted-period">.</span></h1><p>Termíny na očích. Učení na jednom místě.</p></div><div class="today-label">${icon('calendar')}<span>Dnes je ${fullDate(today)}</span></div></section>
+  main.innerHTML = `<h1 class="sr-only">Kalendář</h1><div class="today-label calendar-today">${icon('calendar')}<span>Dnes je ${fullDate(today)}</span></div>
     ${calendarWarning()}<section class="calendar-layout" aria-label="Školní kalendář">
       <div class="calendar-panel"><div class="calendar-toolbar"><div><h2 id="month-heading">${monthFormat.format(cursor)}</h2><span class="month-count">${monthEvents.length} ${monthEvents.length===1?'událost':monthEvents.length>=2&&monthEvents.length<=4?'události':'událostí'}</span></div><div class="calendar-controls"><button class="today-button" data-action="today" aria-label="Dnes">Dnes</button><div class="month-arrows"><button class="icon-button" data-action="previous" aria-label="Předchozí měsíc">${icon('left')}</button><button class="icon-button" data-action="next" aria-label="Další měsíc">${icon('right')}</button></div></div></div>
       <div class="weekdays" aria-hidden="true">${['Po','Út','St','Čt','Pá','So','Ne'].map(d=>`<span>${d}</span>`).join('')}</div>
@@ -107,7 +107,7 @@ function subjectCard(subject) {
   return `<a class="subject-card" href="#/subjects/${subject.id}" style="${subjectStyle(subject)}"><span class="subject-icon">${icon(subject.icon)}</span><div class="subject-card-top"><span>${primary.length?counted(primary.length,'kategorie','kategorie','kategorií'):counted(subjectUnits.length,'téma','témata','témat')}</span>${icon('arrow')}</div><h2>${subject.name}</h2><p>${subject.description}</p><div class="subject-card-foot"><span class="subject-dot"></span>${subjectUnits.some(u=>u.module)?'Materiály a procvičování':subjectUnits.some(u=>u.materials.length)?'Původní podklady':'Materiály zatím nepřidány'}<span>${counted(count,'termín','termíny','termínů')}</span></div></a>`;
 }
 function renderSubjects() {
-  main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">TVŮJ STUDIJNÍ PROSTOR</p><h1>Každý předmět má své místo.</h1><p>Od prvních poznámek až po poslední opakování.</p></div></section><div class="subjects-grid">${subjects.map(subjectCard).join('')}</div><div class="subtle-note">${icon('layers')}<div><h3>Prostor pro další témata</h3><p>Každý předmět může obsahovat více jednotek, materiálů i termínů.</p></div></div>`;
+  main.innerHTML=`<h1 class="sr-only">Předměty</h1><div class="subjects-grid">${subjects.map(subjectCard).join('')}</div>`;
 }
 
 function renderSubject(subject) {
