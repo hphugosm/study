@@ -20,6 +20,8 @@ Soukromý synchronizační projekt schvaluje přesnou verzi každého zveřejnit
 
 Po přečtení celého zadání a nezávislé obsahové i soukromé kontrole přidej záznam do `src/assignment-content.js`. Použij aktuální veřejné `assignmentId`, `version`, `subject`, `topic`, `reviewed: true`, datum `reviewed_on`, přesné veřejné `prompt` a volitelně `steps`. Vysvětlené textové řešení patří do `solution: {paragraphs, steps}`; hotové soubory do `solutions`.
 
+Samostatně zkontrolované záznamy uchovávej také jako čitelný JSON v `modules/course-notes/assignments/`. `src/assignment-content.js` obsahuje stejná `records` jako běžný JavaScript pro prohlížeč. Oba soubory generuj z jednoho schváleného výsledku a před publikací ověř jejich shodu i načtení přes `assignmentsForUnit` se skutečným feedem a materiály tématu. Změna zdrojové verze musí staré řešení skrýt, dokud nová verze neprojde kontrolou.
+
 Textové zadání bez přílohy může mít `source_refs: []`: jeho zdrojem je přesná zkontrolovaná verze zadání. Soubory řešení potřebují skutečné reference na schválené podklady příslušného tématu (`id`, `sha256`, případně `page` a `locator`), správný SHA, velikost, formát a kanonický odkaz do `studylo-learning-v1` v GitHub Releases. Nepoužívej otisk popisu jako falešný SHA souboru. Publikační doklady a citlivé podklady zůstávají v soukromém projektu.
 
 Obsah se připojí pouze při shodě všech čtyř identifikátorů. Starší řešení se nepřeváže na jiné zadání; chybějící či změněná verze zobrazí čekající stav. Nic nevydávej za uživatelovo odevzdání ani za oficiální učitelský klíč.

@@ -10,4 +10,84 @@
  * A changed feed version requires a fresh review. References must belong to the
  * exact topic's published materials. An assignment version is not a file SHA.
  */
-export const reviewedAssignmentContent=Object.freeze([]);
+// Reviewed JSON source: modules/course-notes/assignments/chemistry-peptides.json.
+// Keep the browser registry equal to its records; update/review exact versions together.
+export const reviewedAssignmentContent=Object.freeze([
+  {
+    "assignmentId": "46ff78e508d382da32b50287e51e16fb3e7220b49bca233ec81f0615c4dd86e9",
+    "version": "0240a8a1a25621ff573719ebe4b0fafed9a5bc7b3e5e73be6538e496b82754f6",
+    "subject": "chemistry",
+    "topic": "section-edb6d4d4a4196dfa9657c0a8a0e93029",
+    "reviewed": true,
+    "reviewed_on": "2026-11-11",
+    "prompt": "Zopakujte si chemickou reakci aminokyselin - vznik peptidové vazby.\n\n1) Do sešitu zapište reakci fenylalaninu s alaninem, glycinem, valinem a cysteinem. Výsledkem je peptid Phe-Ala-Gly-Val-Cys. Zapište celou rovnici, určete druh peptidu, pojmenujte jej. Označte N a C konec a peptidovou vazbu.\n\n2) Do sešitu zapište reakci serinu s alaninem a glycinem. Výsledkem je peptid Ser-Ala-Gly. Zapište celou rovnici, určete druh peptidu, pojmenujte jej. Označte N a C konec a peptidovou vazbu.\n\n3) Vysvětlete amfion, izoelektrický bod, podobu peptidové vazby a mezi jakými skupinami vzniká.",
+    "solution": {
+      "paragraphs": [
+        "Vzorové studijní řešení. Pořadí aminokyselin čteme od N-konce k C-konci zleva doprava. Ve vzorcích je C₆H₅ fenylový kruh, C(=O) karbonylová skupina; hranaté závorky [C(=O)–NH] pouze vyznačují peptidovou skupinu, nejsou další částí molekuly.",
+        "1) Phe–Ala–Gly–Val–Cys: úplná školní kondenzační rovnice v neiontové formě: H₂N–CH(CH₂–C₆H₅)–C(=O)–OH + H₂N–CH(CH₃)–C(=O)–OH + H₂N–CH₂–C(=O)–OH + H₂N–CH[CH(CH₃)₂]–C(=O)–OH + H₂N–CH(CH₂–SH)–C(=O)–OH → H₂N–CH(CH₂–C₆H₅)–[C(=O)–NH]–CH(CH₃)–[C(=O)–NH]–CH₂–[C(=O)–NH]–CH[CH(CH₃)₂]–[C(=O)–NH]–CH(CH₂–SH)–C(=O)–OH + 4 H₂O.",
+        "Postranní řetězce v daném pořadí jsou Phe: –CH₂–C₆H₅; Ala: –CH₃; Gly: –H, proto je v páteři –CH₂–; Val: –CH(CH₃)₂; Cys: –CH₂–SH. Při tvorbě peptidu je zachováme. Cysteinová skupina –SH zde nevytváří peptidovou vazbu.",
+        "Výsledkem je lineární pentapeptid, tedy oligopeptid z pěti aminokyselinových zbytků. Název: fenylalanylalanylglycylvalylcystein. Pro čitelnost rozděleno: fenylalanyl–alanyl–glycyl–valyl–cystein. První čtyři zbytky mají zakončení -yl, poslední zůstává cystein.",
+        "N-konec pentapeptidu je vlevo: volná aminová skupina H₂N– u fenylalaninového zbytku. C-konec je vpravo: volná karboxylová skupina –C(=O)–OH cysteinového zbytku. Čtyři peptidové vazby jsou mezi Phe/Ala, Ala/Gly, Gly/Val a Val/Cys. U každé vyznačené skupiny [C(=O)–NH] je vlastní peptidovou vazbou spojení karbonylového uhlíku s dusíkem, C–N.",
+        "2) Ser–Ala–Gly: úplná školní kondenzační rovnice v neiontové formě: H₂N–CH(CH₂–OH)–C(=O)–OH + H₂N–CH(CH₃)–C(=O)–OH + H₂N–CH₂–C(=O)–OH → H₂N–CH(CH₂–OH)–[C(=O)–NH]–CH(CH₃)–[C(=O)–NH]–CH₂–C(=O)–OH + 2 H₂O.",
+        "Postranní řetězce jsou Ser: –CH₂–OH; Ala: –CH₃; Gly: –H. Hydroxyl postranního řetězce serinu zůstává zachován; spojení v zadaném peptidu vznikají mezi hlavními aminovými a karboxylovými skupinami.",
+        "Výsledkem je lineární tripeptid, tedy oligopeptid ze tří aminokyselinových zbytků. Název: serylalanylglycin, pro čitelnost seryl–alanyl–glycin. N-konec je volná H₂N– skupina serinového zbytku vlevo, C-konec volná –C(=O)–OH glycinového zbytku vpravo. Dvě peptidové vazby leží mezi Ser/Ala a Ala/Gly; v obou [C(=O)–NH] označ spojení C–N.",
+        "Kontrola vody: otevřený řetězec z n aminokyselinových zbytků obsahuje n − 1 spojení. Pět zbytků proto dává čtyři peptidové vazby a 4 H₂O, tři zbytky dvě vazby a 2 H₂O. V neiontovém školním zápisu se na každém spojení formálně odebere OH z karboxylu a H z aminové skupiny.",
+        "Připojené řešení používá amfiontové zápisy. Stejné produkty tedy můžeš zapsat jako H₃N⁺–CH(CH₂–C₆H₅)–[C(=O)–NH]–CH(CH₃)–[C(=O)–NH]–CH₂–[C(=O)–NH]–CH[CH(CH₃)₂]–[C(=O)–NH]–CH(CH₂–SH)–COO⁻ a H₃N⁺–CH(CH₂–OH)–[C(=O)–NH]–CH(CH₃)–[C(=O)–NH]–CH₂–COO⁻. Označení N- a C-konce ani počet peptidových vazeb se tím nemění. Protonace závisí na pH; tento zápis nepředstavuje jedinou formu za všech podmínek.",
+        "3) Amfion neboli zwitterion je částice nesoucí současně kladný a záporný náboj, které dávají celkově nulový náboj. Jednoduchý zápis aminokyseliny bez další nabité postranní skupiny je H₃N⁺–CH(R)–COO⁻. Není to molekula bez nábojů: NH₃⁺ a COO⁻ jsou nabité současně.",
+        "Izoelektrický bod pI je hodnota pH, při níž má daná aminokyselina nebo peptid nulový průměrný výsledný elektrický náboj. Neznamená to nepřítomnost lokálních nábojů ani univerzálně pH 7. Různé aminokyseliny a peptidy mají různé pI. V zadání se pI nevypočítává a nepřebíráme jednu číselnou hodnotu pro všechny látky.",
+        "Peptidová skupina má podobu –C(=O)–NH–. V tomto úkolu vzniká mezi karboxylovou skupinou jedné α-aminokyseliny a aminovou skupinou následující α-aminokyseliny. Vlastní peptidová vazba je amidové spojení C–N, nikoli vodíková vazba nebo spojení dvou postranních řetězců.",
+        "Rovnice vyjadřují školní formální kondenzační model. Neznamenají, že pouhé smíchání volných aminokyselin ve vodě samo vytvoří právě zadanou sekvenci. Pro tento úkol zapisujeme předepsané pořadí a bilanci odštěpené vody."
+      ],
+      "steps": [
+        "Zapiš aminokyseliny v pořadí od N-konce k C-konci a doplň všechny postranní řetězce.",
+        "Spoj sousední hlavní karboxylové a aminové skupiny; každé nové –C(=O)–NH– vyznač a zachovej volné koncové skupiny.",
+        "Doplň 4 H₂O u pentapeptidu a 2 H₂O u tripeptidu. Urči počet zbytků, přesný název a N- i C-konec.",
+        "Vysvětli současné náboje amfiontu, význam pI a rozdíl mezi celou peptidovou skupinou a vlastní vazbou C–N."
+      ]
+    },
+    "source_refs": [
+      {
+        "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+        "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83",
+        "locator": "horní příklad Phe–Ala–Gly–Val–Cys a dolní příklad Ser–Ala–Gly"
+      },
+      {
+        "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+        "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+        "page": 3
+      },
+      {
+        "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+        "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+        "page": 6
+      }
+    ],
+    "solutions": [
+      {
+        "id": "aminokyseliny-peptidy-reseni",
+        "title": "Aminokyseliny: vypracované rovnice a vysvětlení",
+        "format": "pdf",
+        "sha256": "c6af08874f14c5079caae58c7c131366cf1cfcf675d1fc6b4eba4e745b106266",
+        "size": 89247,
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c6af08874f14c5079caae58c7c131366cf1cfcf675d1fc6b4eba4e745b106266.pdf",
+        "source_refs": [
+          {
+            "id": "ae8ed6e348e68c331ae6bb7377c5adeef235c196d553a335407f417cb98df546",
+            "sha256": "9ecc12b5eb5ae76fa4f3993bd7777c975cb561da68bbedff36434c386f2c9a83",
+            "locator": "horní příklad Phe–Ala–Gly–Val–Cys a dolní příklad Ser–Ala–Gly"
+          },
+          {
+            "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+            "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+            "page": 3
+          },
+          {
+            "id": "f83a97b0a6a7b497852373f9cbdea73a56cd9829712d676fb748ef8009f70696",
+            "sha256": "2cc2c6e39cccf9b5b828a4314fe5841fb3882890949ebee54440c80dfe0aa467",
+            "page": 6
+          }
+        ]
+      }
+    ]
+  }
+]);
