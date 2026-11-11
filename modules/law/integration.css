@@ -369,6 +369,15 @@ input::placeholder, textarea::placeholder { color: var(--muted); opacity: 1; }
 .stat-value > span, .mini-panel > span { color: var(--muted) !important; }
 
 /* Compact single-face deck. The whole card is the accessible flip button. */
+.law-note { padding:0; margin-block:12px; overflow-wrap:anywhere; }
+.law-note > summary { box-sizing:border-box; min-height:44px; padding:16px 18px; cursor:pointer; color:var(--ink); }
+.law-note > summary::marker { color:var(--accent); }
+.law-note-title { font-size:calc(17px * var(--study-text-scale,1)); font-weight:600; line-height:1.45; }
+.law-note-preview { display:block; margin-top:6px; color:var(--muted); font-size:calc(14px * var(--study-text-scale,1)); line-height:1.6; }
+.law-note > summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px; border-radius:var(--radius); }
+.law-note[open] > summary { border-bottom:1px solid var(--line); }
+.law-note-body { padding:0 18px 16px; }
+.law-note-body > p { margin-top:16px; }
 .pr-flashcard { box-sizing:border-box; max-width:480px; min-height:min(480px,calc(100vw - 48px)); margin:20px auto 0; padding:28px 24px 80px; align-items:center; justify-content:center; text-align:center; gap:18px; overflow-wrap:anywhere; }
 .pr-card-question,.pr-card-answer { font-size:calc(clamp(20px,3vw,26px) * var(--study-text-scale,1)); line-height:1.5; }
 .pr-card-options { grid-template-columns:1fr; font-size:15px; text-align:left; }
@@ -381,3 +390,5 @@ input::placeholder, textarea::placeholder { color: var(--muted); opacity: 1; }
 .pr-card-navigation .pr-button,.pr-confidence .pr-button { width:48px; height:48px; min-width:48px; min-height:48px; padding:0; font-size:23px; }
 .pr-flashcard:focus-visible,.pr-card-navigation button:focus-visible,.pr-confidence button:focus-visible { outline:3px solid var(--accent,#286d56); outline-offset:4px; }
 @media(prefers-reduced-motion:reduce){.pr-flashcard,.pr-card-navigation button,.pr-confidence button{transition:none;animation:none;}}
+
+@media(max-width:650px){.law-note:not([open]) .law-note-preview{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}}

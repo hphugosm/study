@@ -110,7 +110,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Rozlišíš schopnost mít práva a povinnosti od schopnosti nabývat je vlastním právním jednáním podle dodaného výňatku."
     },
     {
       "id": "nezletili",
@@ -196,7 +197,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Dodaný výňatek spojuje jednání nezletilých s jejich vyspělostí a souhlasem zástupce, nikoli s úplným zákazem jednat."
     },
     {
       "id": "dedicke-pojmy",
@@ -241,7 +243,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "V podkladech odlišíš zůstavitele, dědice a pozůstalost a porovnáš závěť, dědickou smlouvu a nepominutelné dědice."
     },
     {
       "id": "tridy",
@@ -322,7 +325,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Při práci s uvedenými dědickými třídami nejprve ověříš podmínky jejich nástupu a teprve potom určíš podíly."
     }
   ],
   "flashcards": [

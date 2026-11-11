@@ -97,7 +97,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Rozlišíš paprsek a vlnoplochu a propojíš index lomu s rychlostí světla v daném prostředí."
     },
     {
       "id": "odraz-a-lom",
@@ -282,7 +283,8 @@
             "page": 1
           }
         ]
-      }
+      },
+      "summary": "Použiješ zákon odrazu a Snellův zákon s úhly měřenými od kolmice dopadu k rozhraní."
     },
     {
       "id": "mezni-uhel",
@@ -400,7 +402,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Určíš podmínky úplného odrazu a rozlišíš mezní úhel od běžného lomu na rozhraní."
     }
   ],
   "flashcards": [

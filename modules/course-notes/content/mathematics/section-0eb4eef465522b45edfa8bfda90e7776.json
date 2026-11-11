@@ -65,7 +65,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Šablona nejprve průměruje čtyři kategorie hodnocení a jejich výsledky kombinuje pomocí vah 4, 3, 2 a 1."
     }
   ],
   "flashcards": [],

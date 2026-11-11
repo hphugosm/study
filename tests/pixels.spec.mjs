@@ -6,7 +6,7 @@ import {pixelSamples} from '../modules/course-notes/pixel-data.js';
 test.use({serviceWorkers:'block'});
 const unit='moodle-informatics-588cd5ee5179c25883c65e0170e6009f';
 const workedSolutions=JSON.parse(readFileSync(new URL('../modules/course-notes/content/informatics/section-588cd5ee5179c25883c65e0170e6009f.json',import.meta.url),'utf8')).lessons.find(item=>item.id==='hexove-matice').solutions;
-async function open(page){await page.goto(`./#/units/${unit}`);const lab=page.locator('.pixels-lab');await expect(lab).toBeVisible();await expect(lab.locator('.pixels-hex')).toHaveText('#1B1F3B');await expect(lab.locator('.pixels-viewport canvas')).toHaveCSS('image-rendering',/pixelated|crisp-edges/);return lab;}
+async function open(page){await page.goto(`./#/units/${unit}`);const lesson=page.locator('.lesson-disclosure[data-lesson-id="hexove-matice"]');await expect(lesson).toBeVisible();await lesson.locator('.lesson-summary').click();const lab=page.locator('.pixels-lab');await expect(lab).toBeVisible();await expect(lab.locator('.pixels-hex')).toHaveText('#1B1F3B');await expect(lab.locator('.pixels-viewport canvas')).toHaveCSS('image-rendering',/pixelated|crisp-edges/);return lab;}
 const row=lab=>lab.getByRole('spinbutton',{name:'Řádek v matici',exact:true});
 const col=lab=>lab.getByRole('spinbutton',{name:'Sloupec v matici',exact:true});
 async function cell(lab,r,c){await row(lab).fill(String(r));await col(lab).fill(String(c));await expect(lab.locator('.pixels-coordinate')).toHaveText(`Řádek ${r} · sloupec ${c}`);}

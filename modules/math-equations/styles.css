@@ -14,3 +14,19 @@
 @media(prefers-reduced-motion:reduce){.card-flip-icon,.card-navigation button{transition:none;animation:none;}}
 
 .card-navigation button { flex:0 0 48px; }
+
+/* Explanatory notes stay compact; live tools and short formulas stay visible. */
+.notes-fold{min-width:0;border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:0;margin-top:14px;overflow-wrap:anywhere}
+.notes-fold>summary{display:list-item;min-height:44px;padding:12px 15px;cursor:pointer;color:var(--ink);line-height:1.45;list-style-position:inside}
+.notes-fold>summary::marker{color:var(--muted)}
+.notes-fold>summary strong{font-size:15px;font-weight:600}
+.notes-preview{display:block;margin:5px 0 0 18px;font-size:12px;font-weight:400;color:var(--muted)}
+.notes-fold>summary:focus-visible{outline:3px solid var(--study-accent,#926632);outline-offset:3px}
+.notes-fold[open]>summary{border-bottom:1px solid var(--line)}
+.notes-body{padding:14px 16px;min-width:0}
+.notes-body>:first-child{margin-top:0}.notes-body>:last-child{margin-bottom:0}
+.notes-grid{align-items:start}.notes-grid>.notes-fold{margin-top:0}
+.notes-fold.checklist,.notes-fold.note{padding:0;border-left:3px solid var(--orange,var(--amber));background:var(--soft)}
+@media(max-width:650px){.notes-fold>summary{padding:12px}.notes-body{padding:12px}.notes-preview{font-size:13px}}
+
+@media(max-width:650px){.notes-fold:not([open]) .notes-preview{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}}

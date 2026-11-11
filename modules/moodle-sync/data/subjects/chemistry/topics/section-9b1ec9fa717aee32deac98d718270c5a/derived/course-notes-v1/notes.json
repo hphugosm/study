@@ -154,7 +154,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš statický a dynamický pohled biochemie na složení živých soustav a jejich přeměny."
     },
     {
       "id": "bunka-a-organely",
@@ -249,7 +250,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Přiřadíš buněčným strukturám jejich biochemické úlohy a odlišíš prokaryotní a eukaryotní buňku."
     },
     {
       "id": "energie-a-metabolismus",
@@ -357,7 +359,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Propojíš glykolýzu, citrátový cyklus a dýchací řetězec se získáváním energie a tvorbou ATP."
     },
     {
       "id": "separace-castic",
@@ -470,7 +473,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš centrifugaci a elektroforézu podle principu oddělování částic a čtení výsledku."
     },
     {
       "id": "chromatografie",
@@ -569,7 +573,8 @@
           "width": 850,
           "height": 827
         }
-      ]
+      ],
+      "summary": "Rozlišíš mobilní a stacionární fázi a propojíš jejich působení s chromatografickým záznamem."
     },
     {
       "id": "nmr-a-pcr",
@@ -663,7 +668,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Odlišíš určování struktury pomocí NMR od zmnožení vybraného úseku DNA metodou PCR."
     },
     {
       "id": "opakovani-a-pracovni-listy",
@@ -719,7 +725,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Zorientuješ se v přípravných listech propojujících biochemii, organickou chemii a laboratorní metody."
     }
   ],
   "flashcards": [

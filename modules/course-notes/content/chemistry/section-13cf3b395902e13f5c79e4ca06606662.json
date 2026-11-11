@@ -131,7 +131,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Vysvětlíš úlohu aktivního místa, substrátové specifity a snížení aktivační energie."
     },
     {
       "id": "komplex-enzym-substrat",
@@ -233,7 +234,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Projdeš navázání substrátu, vznik komplexu a uvolnění produktů podle dvou modelů enzymové katalýzy."
     },
     {
       "id": "holoenzym",
@@ -317,7 +319,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Odlišíš apoenzym, kofaktor a holoenzym a přiřadíš koenzymům jejich úlohu při reakcích."
     },
     {
       "id": "aktivita-inhibice",
@@ -401,7 +404,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Porovnáš vliv prostředí, aktivátorů a inhibitorů na enzymovou aktivitu i vratnost inhibice."
     },
     {
       "id": "enzymove-tridy",
@@ -508,7 +512,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Přiřadíš šest tradičních tříd enzymů k typům reakcí, které podle dodaného učiva katalyzují."
     },
     {
       "id": "travici-enzymy",
@@ -605,7 +610,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Spojíš názvy trávicích enzymů s látkami a vazbami, které v probíraných příkladech štěpí."
     }
   ],
   "flashcards": [

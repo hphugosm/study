@@ -69,6 +69,7 @@ export function validateContent(data) {
   assert(Array.isArray(data.lessons),'invalid_lessons');
   for(const lesson of data.lessons){
     identify(lesson);assert(textOK(lesson.title),'invalid_lesson');refs(lesson);
+    if(lesson.summary!==undefined)assert(textOK(lesson.summary)&&lesson.summary.length<=220,'invalid_lesson_summary');
     for(const block of lesson.blocks||[]){assert(['paragraph','callout','list'].includes(block.type),'invalid_block');if(block.type==='list')assert(Array.isArray(block.items)&&block.items.length>0&&block.items.every(textOK),'invalid_list');else assert(textOK(block.text),'invalid_block');if(block.type==='callout'&&block.tone!==undefined)assert(['key','tip','warning'].includes(block.tone),'invalid_tone');refs(block);}
     for(const image of lesson.images||[]){safeAsset(image.src);assert(textOK(image.alt)&&(!image.caption||textOK(image.caption)),'invalid_image');refs(image);}
     if(lesson.solutions!==undefined){
@@ -87,6 +88,31 @@ export function validateContent(data) {
   for(const card of data.flashcards||[]){identify(card);assert(textOK(card.front)&&textOK(card.back),'invalid_flashcard');refs(card);}
   for(const question of data.questions||[]){identify(question);assert(textOK(question.prompt)&&Array.isArray(question.options)&&question.options.length>=2&&question.options.every(textOK)&&Number.isInteger(question.answer)&&question.answer>=0&&question.answer<question.options.length&&textOK(question.explanation),'invalid_question');refs(question);}
   return data;
+}
+/** A preview uses only existing authored text, never inferred subject facts. */
+export function lessonOverview(lesson,limit=180){
+  assert(Number.isInteger(limit)&&limit>=40&&limit<=500,'invalid_overview_limit');
+  const first=(lesson.blocks||[]).find(block=>typeof block.text==='string'&&block.text.trim()||block.type==='list'&&block.items?.some(item=>typeof item==='string'&&item.trim()));
+  const authored=typeof lesson.summary==='string'&&lesson.summary.trim();
+  const original=authored?lesson.summary:first?.text||first?.items?.find(item=>typeof item==='string'&&item.trim())||'Otevři vysvětlení, podklady a příklady k tomuto tématu.';
+  const text=original.replace(/\s+/g,' ').trim();
+  const budget=authored?220:limit;
+  if(text.length<=budget)return text;
+  const cut=text.slice(0,budget-1),space=cut.lastIndexOf(' ');
+  return cut.slice(0,space>=budget-40?space:cut.length).trimEnd()+'…';
+}
+/** Native details preserves its mounted controls while closed; nothing mounts early. */
+export function createLessonDisclosure(lesson,renderBody,{document:doc=globalThis.document,read=false,isCurrent=()=>true}={}){
+  const make=(tag,text,cls)=>{const item=doc.createElement(tag);if(text!==undefined)item.textContent=text;if(cls)item.className=cls;return item;};
+  const details=make('details',undefined,'lesson lesson-disclosure'),summary=make('summary',undefined,'lesson-summary'),overview=make('span',undefined,'lesson-overview'),title=make('span',lesson.title,'lesson-title'),description=make('span',lessonOverview(lesson),'lesson-description'),state=make('span',read?'✓ Přečteno':'Rozbalit','lesson-read-state'),symbol=make('span',undefined,'lesson-toggle-symbol');
+  details.id='lesson-'+lesson.id;details.dataset.lessonId=lesson.id;details.dataset.read=String(read);title.setAttribute('role','heading');title.setAttribute('aria-level','2');symbol.setAttribute('aria-hidden','true');overview.append(title,description,state);summary.append(overview,symbol);details.append(summary);
+  let mounted=false;
+  details.addEventListener('toggle',()=>{
+    state.textContent=details.dataset.read==='true'?'✓ Přečteno':details.open?'Sbalit':'Rozbalit';
+    if(!details.open||mounted||!isCurrent())return;
+    const body=make('div',undefined,'lesson-body');renderBody(body);details.append(body);mounted=true;
+  });
+  return details;
 }
 const keyFor=unit=>`study:course-notes:${unit.subject||unit.subjectId}:${unit.topic||unit.topicId}:v1`;
 export function getProgress(unit={}) {
@@ -124,7 +150,7 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
   const nav=el('nav');nav.setAttribute('aria-label','Režim studia');const panel=el('div');shell.append(nav,panel);
   let active=['practice','cards'].includes(mode)?'practice':mode==='materials'?'sources':'study';
   const tabs=new Map();
-  const markRead=lesson=>{if(!progress.readLessons.includes(lesson.id)){progress.readLessons.push(lesson.id);save();}render();};
+  const markRead=lesson=>{if(!progress.readLessons.includes(lesson.id)){progress.readLessons.push(lesson.id);save();}const disclosure=panel.querySelector(`[data-lesson-id="${lesson.id}"]`);if(disclosure){disclosure.dataset.read='true';disclosure.querySelector('.lesson-read-state').textContent='✓ Přečteno';}};
   function gallery(image){
     const figure=el('figure'),img=el('img');img.src=safeAsset(image.src);img.alt=image.alt;img.referrerPolicy='no-referrer';img.loading='lazy';if(Number.isInteger(image.width)&&image.width>0)img.width=image.width;if(Number.isInteger(image.height)&&image.height>0)img.height=image.height;
     const zoom=button('Zvětšit obrázek',()=>{const dialog=el('dialog');const full=img.cloneNode();full.loading='eager';const close=button('Zavřít',()=>dialog.close());dialog.append(close,full,el('p',image.caption||image.alt),references(image));shell.append(dialog);dialog.addEventListener('close',()=>{dialog.remove();zoom.focus();},{once:true});dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();});dialog.showModal();});
@@ -150,8 +176,10 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
   }
   function renderStudy(){
     if(!data.lessons.length)panel.append(el('p','Pro toto téma jsou zatím připravené původní zdroje.'));
+    if(data.lessons.length){const toolbar=el('div',undefined,'lesson-disclosure-tools');toolbar.append(el('p','Vyber podtéma a rozbal podrobnosti.','muted'),button('Rozbalit vše',()=>{for(const item of panel.querySelectorAll('.lesson-disclosure'))item.open=true;}),button('Sbalit vše',()=>{for(const item of panel.querySelectorAll('.lesson-disclosure'))item.open=false;}));panel.append(toolbar);}
     for(const lesson of data.lessons){
-      const card=el('article',undefined,'lesson');card.append(el('h2',lesson.title));if(lesson.interactive?.kind==='stereometry')card.classList.add('has-stereometry');
+      const disclosure=createLessonDisclosure(lesson,card=>{
+      if(lesson.interactive?.kind==='stereometry')card.classList.add('has-stereometry');
       if(lesson.interactive?.kind==='stereometry')appendInteraction(card,lesson);
       for(const block of lesson.blocks||[]){const node=el(block.type==='list'?'ul':block.type==='callout'?'aside':'p',block.type==='list'?undefined:block.text,block.type);if(block.type==='list')for(const item of block.items)node.append(el('li',item));if(block.tone)node.classList.add(block.tone);card.append(node,references(block));}
       for(const image of lesson.images||[])card.append(gallery(image));
@@ -160,7 +188,8 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
       if(lesson.timeline?.length){const list=el('ol',undefined,'timeline');for(const event of lesson.timeline){const item=el('li'),details=el('details');details.append(el('summary',event.label),el('p',event.text),references(event));item.append(details);list.append(item);}card.append(list);}
       if(lesson.solutions?.length)card.append(solutionDownloads(lesson));
       if(lesson.interactive&&lesson.interactive.kind!=='stereometry')appendInteraction(card,lesson);
-      card.append(references(lesson),button(progress.readLessons.includes(lesson.id)?'✓ Přečteno':'Označit jako přečtené',()=>markRead(lesson)));panel.append(card);
+      const read=button(progress.readLessons.includes(lesson.id)?'✓ Přečteno':'Označit jako přečtené',()=>{markRead(lesson);read.textContent='✓ Přečteno';});read.className='lesson-mark-read';card.append(references(lesson),read);
+      },{read:progress.readLessons.includes(lesson.id),isCurrent:()=>!abort.signal.aborted&&panel.contains(disclosure)});panel.append(disclosure);
     }
   }
   function renderPractice(){

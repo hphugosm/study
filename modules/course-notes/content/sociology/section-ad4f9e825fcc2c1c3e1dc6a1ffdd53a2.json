@@ -77,7 +77,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Sociology connects individual behaviour and experience with social influences, groups, institutions and wider society."
     },
     {
       "id": "vocabulary",
@@ -173,7 +174,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Distinguish norms, values, beliefs and traditions by asking whether a term describes expectations, standards, truth or continuity."
     },
     {
       "id": "institutions",
@@ -223,7 +225,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Family, government, economy, education and religion organise social roles and expectations rather than merely occupying buildings."
     },
     {
       "id": "common-sense",
@@ -354,7 +357,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Treat familiar impressions as claims to test with evidence and alternative explanations, rather than accepting them as obvious truths."
     },
     {
       "id": "imagination",
@@ -419,7 +423,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Sociological imagination connects personal experience with wider structures, while socialisation explains how expectations are learned."
     },
     {
       "id": "perspectives",
@@ -575,7 +580,8 @@
           "width": 1536,
           "height": 1024
         }
-      ]
+      ],
+      "summary": "Compare how structuralist, functionalist and social-action perspectives ask different questions about the same behaviour."
     }
   ],
   "flashcards": [

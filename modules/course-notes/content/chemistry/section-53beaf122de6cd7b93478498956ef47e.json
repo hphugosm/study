@@ -213,7 +213,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Rozlišíš nukleotid od nukleosidu a porovnáš cukry i dusíkaté báze v DNA a RNA."
     },
     {
       "id": "dna-struktura",
@@ -341,7 +342,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Propojíš pořadí nukleotidů s dvoušroubovicí, komplementaritou bází a opačnou orientací vláken."
     },
     {
       "id": "replikace",
@@ -448,7 +450,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Vysvětlíš kopírování DNA podle komplementární předlohy a vznik dvou nových dvoušroubovic."
     },
     {
       "id": "rna-transkripce",
@@ -541,7 +544,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Odlišíš přepis DNA do RNA od tvorby bílkoviny a přiřadíš úlohy třem hlavním typům RNA."
     },
     {
       "id": "translace",
@@ -653,7 +657,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Propojíš kodon, antikodon a aminokyselinu při převodu informace z mRNA do bílkoviny."
     },
     {
       "id": "dna-historie",
@@ -754,7 +759,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Projdeš milníky poznávání DNA a propojíš historické souvislosti s úlohami z pracovních listů."
     }
   ],
   "flashcards": [

@@ -167,7 +167,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Roztřídíš africké názvy v mapě na vodstvo, povrch a pobřežní útvary a propojíš jejich polohu."
     },
     {
       "id": "climate-biomes",
@@ -263,7 +264,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Propojíš africké podnebné oblasti s vegetací a vlivem zeměpisné šířky, výšky a mořských proudů."
     },
     {
       "id": "biome-processes",
@@ -347,7 +349,8 @@
           "width": 1400,
           "height": 788
         }
-      ]
+      ],
+      "summary": "Porovnáš znaky pouští, savan a deštných lesů a odlišíš oázu od občasného vodního toku."
     },
     {
       "id": "settlement",
@@ -405,7 +408,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Propojíš rozložení afrického obyvatelstva s přírodními podmínkami, urbanizací a pracovními možnostmi."
     },
     {
       "id": "agriculture",
@@ -478,7 +482,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Porovnáš samozásobitelské a plantážní zemědělství podle účelu, organizace a příkladů plodin."
     },
     {
       "id": "resources-transport",
@@ -586,7 +591,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Propojíš africké suroviny, průmysl a dopravu a odlišíš nerostné bohatství od životní úrovně."
     },
     {
       "id": "environment-links",
@@ -633,7 +639,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Sleduješ souvislosti desertifikace a odlesňování s obživou obyvatel, chudobou a migrací."
     }
   ],
   "flashcards": [

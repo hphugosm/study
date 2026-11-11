@@ -79,7 +79,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Na případu kamerového záznamu odlišíš předání důkazu policii od veřejného šíření identifikovatelného obličeje."
     },
     {
       "id": "udaje",
@@ -114,7 +115,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "V dodaném výňatku zkoumáš, koho lze z údajů určit, co je jejich zpracováním a jak souvisí účel s nezbytným rozsahem."
     },
     {
       "id": "pomerovani",
@@ -173,7 +175,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Diskusní případ posuzuješ pomocí vhodnosti, potřebnosti a přiměřenosti, aniž bys navržené argumenty zaměnil za právní poučky."
     }
   ],
   "flashcards": [

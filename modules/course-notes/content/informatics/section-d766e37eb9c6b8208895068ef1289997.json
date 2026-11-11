@@ -103,7 +103,8 @@
           "width": 1800,
           "height": 742
         }
-      ]
+      ],
+      "summary": "Při plánování mise sleduješ polohu i natočení roveru a rozlišuješ pohybové povely od sběru dat a obsluhy stanic."
     },
     {
       "id": "omezeni-mise",
@@ -225,7 +226,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Trasu ověřuješ proti dvěma samostatným limitům: energii pro pohyb a kapacitě úložiště pro fotografie a vzorky."
     },
     {
       "id": "od-trasy-ke-kodu",
@@ -318,7 +320,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Z platné mise odvodíš četnosti všech povelů, sestavíš vlastní Huffmanův strom a spočítáš délku zakódované zprávy."
     }
   ],
   "flashcards": [

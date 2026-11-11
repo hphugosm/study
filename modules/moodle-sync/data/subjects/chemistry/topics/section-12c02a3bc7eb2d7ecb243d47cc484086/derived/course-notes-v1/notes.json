@@ -94,7 +94,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Propojíš chemickou rozmanitost vitamínů s jejich významem pro metabolismus a enzymové děje."
     },
     {
       "id": "rozpustnost-vitaminy",
@@ -240,7 +241,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Porovnáš vitamíny rozpustné ve vodě a v tucích a spojíš jejich chování s chemickou stavbou."
     },
     {
       "id": "konkretni-vitaminy",
@@ -332,7 +334,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Přiřadíš vybrané vitamíny k jejich názvům a biochemickým souvislostem uvedeným v přehledu."
     },
     {
       "id": "hormony-stavba",
@@ -445,7 +448,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Rozlišíš peptidické, aminokyselinové a steroidní hormony podle chemického původu."
     },
     {
       "id": "hormonalni-regulace",
@@ -582,7 +586,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Propojíš žlázu, hormon a cílový účinek a odlišíš řízení dalších žláz od přímého působení na tkáň."
     },
     {
       "id": "fytohormony",
@@ -623,7 +628,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Přiřadíš skupiny rostlinných hormonů ke konkrétním projevům růstu, klíčení a zrání."
     }
   ],
   "flashcards": [

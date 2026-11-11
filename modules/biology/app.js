@@ -131,7 +131,7 @@ function renderNotes(){
     target.innerHTML=list.length?`<dl class="glossary">${list.map(t=>`<div class="glossary-item"><dt>${esc(t.term)}</dt><dd>${esc(t.definition)}</dd><small class="slides-ref">SNÍMKY ${esc(t.slides.join(", "))}</small></div>`).join('')}</dl>`:'<p class="empty-state">Tento pojem se ve slovníčku nenašel.</p>';
   }else{
     const list=data.notes.sections.filter(s=>normalize(s.title+' '+s.summary+' '+s.items.join(' ')).includes(query));
-    target.innerHTML=list.length?`<div class="notes-grid">${list.map(s=>`<article class="notes-topic"><div class="topic-head"><h2>${esc(s.title)}</h2><span class="topic-number">${String(data.notes.sections.indexOf(s)+1).padStart(2,'0')}</span></div><p>${esc(s.summary)}</p><ul>${s.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul><span class="slides-ref">SNÍMKY ${esc(s.slideRange)}</span></article>`).join('')}</div>`:'<p class="empty-state">Zkus hledat jiné slovo. Pro rychlé definice přepni na slovníček.</p>';
+    target.innerHTML=list.length?`<div class="notes-grid">${list.map(s=>`<details class="notes-topic"${query?' open':''}><summary><div class="topic-head"><h2>${esc(s.title)}</h2><span class="topic-number">${String(data.notes.sections.indexOf(s)+1).padStart(2,'0')}</span></div><p class="notes-summary">${esc(s.summary)}</p><span class="notes-disclosure" aria-hidden="true">＋</span></summary><div class="notes-body"><ul>${s.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul><span class="slides-ref">SNÍMKY ${esc(s.slideRange)}</span></div></details>`).join('')}</div>`:'<p class="empty-state">Zkus hledat jiné slovo. Pro rychlé definice přepni na slovníček.</p>';
   }
 }
 function route(){

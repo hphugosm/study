@@ -209,7 +209,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Rozlišíš sacharidy podle stavby a funkčních skupin a porovnáš jejich základní zástupce."
     },
     {
       "id": "cyklizace-vazba",
@@ -348,7 +349,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Propojíš řetězcovou a cyklickou podobu sacharidu a rozpoznáš vznik glykosidové vazby."
     },
     {
       "id": "disacharidy",
@@ -445,7 +447,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Porovnáš sacharózu, maltózu a laktózu podle jejich stavebních jednotek a vlastností."
     },
     {
       "id": "polysacharidy",
@@ -586,7 +589,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Spojíš stavbu škrobu, glykogenu a celulózy s jejich odlišnou zásobní nebo stavební úlohou."
     },
     {
       "id": "metabolismus-cukru",
@@ -704,7 +708,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Projdeš hlavní cesty využití přijaté glukózy a jejich propojení v metabolismu sacharidů."
     },
     {
       "id": "fotosynteza-faze",
@@ -961,7 +966,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Odlišíš světelnou fázi fotosyntézy od Calvinova cyklu a sleduješ předávání energie mezi nimi."
     }
   ],
   "flashcards": [

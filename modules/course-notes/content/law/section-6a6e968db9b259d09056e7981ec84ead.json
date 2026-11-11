@@ -114,7 +114,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Constitutional, statutory, administrative and case law describe different sources and functions within the legal system."
     },
     {
       "id": "constitution-and-jurisdiction",
@@ -196,7 +197,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Connect constitutional rights and limits on government with the distinct roles of federal, state and local law."
     },
     {
       "id": "fair-process",
@@ -296,7 +298,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Distinguish fairness in the content of laws from fairness in enforcement, then relate both to dispute resolution."
     }
   ],
   "flashcards": [

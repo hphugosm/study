@@ -122,7 +122,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš hlavní funkce bílkovin a způsoby jejich rozdělení podle dodaného přehledu."
     },
     {
       "id": "ctyri-urovne",
@@ -283,7 +284,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Rozlišíš čtyři úrovně struktury bílkovin od pořadí aminokyselin po uspořádání podjednotek."
     },
     {
       "id": "interakce-a-tvar",
@@ -370,7 +372,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Propojíš prostorový tvar bílkoviny s interakcemi, které jej udržují, a se změnami při denaturaci."
     },
     {
       "id": "traveni-bilkovin",
@@ -467,7 +470,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Projdeš štěpení bílkovin v trávicí soustavě a přiřadíš enzymy k jednotlivým fázím."
     },
     {
       "id": "mocovinovy-cyklus",
@@ -619,7 +623,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Zorientuješ se v přeměnách dusíku při odbourávání aminokyselin a ve významu močovinového cyklu."
     },
     {
       "id": "atp-a-cteni-schemat",
@@ -692,7 +697,8 @@
           "width": 663,
           "height": 586
         }
-      ]
+      ],
+      "summary": "Rozlišíš ATP, ADP a AMP a při čtení schémat propojíš jejich stavbu s přenosem energie."
     }
   ],
   "flashcards": [

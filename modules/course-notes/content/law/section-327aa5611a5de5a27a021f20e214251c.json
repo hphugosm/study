@@ -61,7 +61,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Separate historical evidence, interpretation and personal evaluation when answering the Supreme Court viewing questions."
     },
     {
       "id": "viewing-method",
@@ -131,7 +132,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Build a case note by distinguishing evidence of the Court’s decision from possible justifications and your own evaluation."
     }
   ],
   "flashcards": [

@@ -77,7 +77,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "The Plessy reading links enforced railway segregation to the Fourteenth Amendment and the majority’s treatment of separation."
     },
     {
       "id": "brown",
@@ -112,7 +113,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Brown challenges segregation in public education by explaining why enforced separation itself denies equal opportunity."
     },
     {
       "id": "comparison",
@@ -237,7 +239,8 @@
           "width": 990,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "Compare Plessy and Brown through their settings, constitutional reasoning and treatment of separate-but-equal precedent."
     }
   ],
   "flashcards": [

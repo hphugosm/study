@@ -10,6 +10,7 @@ on:
         options:
           - full
           - pixels
+          - notes
 
 permissions:
   contents: read
@@ -43,12 +44,16 @@ jobs:
         run: npx --no-install playwright install --with-deps chromium webkit
 
       - name: Run complete live browser suite
-        if: inputs.suite != 'pixels'
+        if: inputs.suite != 'pixels' && inputs.suite != 'notes'
         run: npm run test:e2e
 
       - name: Run focused live pixel checks
         if: inputs.suite == 'pixels'
         run: npx --no-install playwright test tests/pixels.spec.mjs --project=desktop --project=mobile --project=pixels-safari
+
+      - name: Run focused live notes checks
+        if: inputs.suite == 'notes'
+        run: npx --no-install playwright test tests/notes.spec.mjs --project=desktop --project=mobile --project=notes-safari
 
       - name: Upload browser reports and failure evidence
         if: always()

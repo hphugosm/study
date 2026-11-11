@@ -87,7 +87,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Distinguish government-enforced legal rules from moral judgements while considering rights, fairness, conflict and order."
     },
     {
       "id": "sailors",
@@ -168,7 +169,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Analyse the supplied shipwreck scenario by separating the stated facts, the rule on deliberate killing and competing arguments."
     },
     {
       "id": "two-trials",
@@ -248,7 +250,8 @@
           "width": 1082,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "A single accident can produce a state prosecution and a private claim for compensation, with different parties and outcomes."
     }
   ],
   "flashcards": [

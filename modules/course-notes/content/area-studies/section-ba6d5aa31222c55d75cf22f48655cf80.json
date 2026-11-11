@@ -83,7 +83,8 @@
           "width": 800,
           "height": 540
         }
-      ]
+      ],
+      "summary": "Match each landmark clue to a listed place, then check its location on the map while distinguishing cities from states."
     }
   ],
   "flashcards": [

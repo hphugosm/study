@@ -161,7 +161,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Rozlišíš jádro, chromozom a chromatidu a propojíš jejich stavbu s vyobrazením DNA."
     },
     {
       "id": "mitochondrie",
@@ -214,7 +215,8 @@
           "width": 436,
           "height": 460
         }
-      ]
+      ],
+      "summary": "Spojíš mitochondrii s buněčným dýcháním a poznáš její membrány, kristy a matrix."
     },
     {
       "id": "er-golgi-lysozomy",
@@ -300,7 +302,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš úlohy endoplazmatického retikula, Golgiho systému a lysozomů při práci s látkami."
     },
     {
       "id": "plastidy-a-vakuola",
@@ -399,7 +402,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Odlišíš tři typy plastidů a přiřadíš tonoplast i buněčnou šťávu k rostlinné vakuole."
     },
     {
       "id": "cytoskelet-a-srovnani",
@@ -553,7 +557,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Poznáš složky cytoskeletu a srovnáš zobrazené struktury rostlinné a živočišné buňky."
     },
     {
       "id": "historicka-klasifikace",
@@ -596,7 +601,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Zorientuješ se v historickém přehledu hodnocení pro rok 2020/2021 a odlišíš jej od aktuálních podmínek."
     }
   ],
   "flashcards": [

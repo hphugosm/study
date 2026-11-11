@@ -90,7 +90,8 @@
           "width": 990,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "Propojíš rozklad bílého světla s odlišnými indexy lomu a směry lomu jeho barevných složek."
     },
     {
       "id": "faze-a-interference",
@@ -226,7 +227,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš skládání vln ve fázi a v protifázi a vysvětlíš podmínky stálého interferenčního obrazce."
     },
     {
       "id": "ohyb-a-polarizace",
@@ -310,7 +312,8 @@
           "width": 990,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "Odlišíš difrakci od polarizace a propojíš oba jevy s vlnovými vlastnostmi světla."
     }
   ],
   "flashcards": [

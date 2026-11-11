@@ -184,7 +184,8 @@
           "width": 1400,
           "height": 788
         }
-      ]
+      ],
+      "summary": "Převádíš stupně a radiány a z jednotkové kružnice odečítáš sinus, kosinus i jejich znaménka v kvadrantech."
     },
     {
       "id": "grafy-a-promeny",
@@ -379,7 +380,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "V předpisu goniometrické funkce oddělíš svislé změny, vodorovný posun a změnu periody podle jednotlivých parametrů."
     },
     {
       "id": "vzorce-a-rovnice",
@@ -591,7 +593,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Goniometrické vztahy používáš s rozlišením mocniny a násobného argumentu a v rovnicích zachováváš všechny větve i periody."
     },
     {
       "id": "trojuhelnik-a-pracovni-listy",
@@ -715,7 +718,8 @@
           "width": 990,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "Podle zadání volíš sinovou či kosinovou větu a odlišuješ úlohy na vlastnosti funkcí od řešení goniometrických rovnic."
     }
   ],
   "flashcards": [

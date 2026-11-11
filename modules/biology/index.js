@@ -368,6 +368,21 @@ export async function mount(container, {mode='atlas', onProgress}={}) {
     #cards-page #card-image-zoom{font-size:23px;min-width:44px;min-height:44px}
     @media(max-width:800px){#cards-page .study-layout{grid-template-columns:minmax(0,480px)}}
     @media(prefers-reduced-motion:reduce){#cards-page .flashcard,#cards-page .deck-progress>div{transition:none;transform:none}}
+
+/* Notes disclose detail without changing atlas, search or practice modes. */
+.notes-grid{align-items:start}
+details.notes-topic{padding:0;overflow:hidden}
+.notes-topic>summary{position:relative;display:block;min-height:44px;padding:18px 48px 18px 18px;cursor:pointer;list-style:none;touch-action:manipulation;color:inherit}
+.notes-topic>summary::-webkit-details-marker{display:none}
+.notes-topic>summary:focus-visible{outline:3px solid var(--bio-accent,#52734d);outline-offset:-4px;border-radius:inherit}
+.notes-topic>summary h2{margin:0;font-size:21px;line-height:1.35;color:inherit}
+.notes-topic .topic-head{align-items:start;gap:10px}
+.notes-topic .notes-summary{margin:8px 0 0;font-size:16px;line-height:1.5;color:inherit}
+.notes-topic .notes-disclosure{position:absolute;right:16px;top:18px;font-size:24px;line-height:1;transition:transform .15s}
+.notes-topic[open] .notes-disclosure{transform:rotate(45deg)}
+.notes-topic>.notes-body{padding:0 18px 18px;border-top:1px solid var(--bio-line,#dce4d6)}
+.notes-topic>.notes-body ul{margin-top:16px}
+@media(prefers-reduced-motion:reduce){.notes-topic .notes-disclosure{transition:none}}
   `;
   root.append(style);
   root.querySelectorAll('[src],[href]').forEach(el=>{

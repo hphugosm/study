@@ -103,7 +103,8 @@
           "width": 402,
           "height": 640
         }
-      ]
+      ],
+      "summary": "Propojíš opěrnou a ochrannou funkci kostry s tvary kostí a částmi dlouhé kosti."
     },
     {
       "id": "rust-a-tkan",
@@ -257,7 +258,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Rozlišíš osifikaci, růst kosti do délky a šířky i hlavní složky její vnitřní stavby."
     },
     {
       "id": "spojeni-kosti",
@@ -326,7 +328,8 @@
           "width": 400,
           "height": 392
         }
-      ]
+      ],
+      "summary": "Porovnáš pevná spojení kostí s kloubem a přiřadíš kloubním částem jejich úlohu."
     },
     {
       "id": "pater",
@@ -473,7 +476,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Zorientuješ se v oddílech páteře, stavbě obratle a rozdílu mezi lordózou a kyfózou."
     },
     {
       "id": "hrudnik",
@@ -529,7 +533,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Poznáš části hrudníku a odlišíš pravá, nepravá a volná žebra podle jejich připojení."
     },
     {
       "id": "horni-koncetina",
@@ -716,7 +721,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Projdeš kosti horní končetiny od pletence po prsty a rozlišíš palcovou a malíkovou stranu předloktí."
     },
     {
       "id": "dolni-koncetina",
@@ -871,7 +877,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Propojíš pánev, stehno, bérec a nohu se stavbou kolena, kotníků a klenby nohy."
     },
     {
       "id": "lebka",
@@ -985,7 +992,8 @@
           "width": 1360,
           "height": 880
         }
-      ]
+      ],
+      "summary": "Rozlišíš mozkovou a obličejovou část lebky a najdeš základní kosti i jazylku."
     },
     {
       "id": "onemocneni-pojmy",
@@ -1055,7 +1063,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Zorientuješ se ve školním přehledu názvů onemocnění kostí a kloubů bez určování diagnózy."
     }
   ],
   "flashcards": [

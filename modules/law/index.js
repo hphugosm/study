@@ -3,6 +3,61 @@ import { questions } from './data/questions.js';
 import { vocabulary } from './data/vocabulary.js';
 import { renderFlashcards, renderQuiz } from './practice.js';
 
+const notePreviews = {
+  plessy: [
+    'Plessy deliberately challenged Louisiana’s state-enforced separation of railway passengers.',
+    'The case asked whether enforced racial separation violated equal protection.',
+    'The majority upheld the law through the doctrine of separate but equal.',
+    'Harlan challenged the state’s division of citizens into racial classes.',
+    'Distinguish the law, arrest and decision dates, and the verified 7–1 vote.',
+    'Brown later rejected separate but equal in public education, changing precedent.'
+  ],
+  gobitis: [
+    'The Gobitas children refused a compulsory flag salute; Gobitis is the official case spelling.',
+    'The case asked whether religious freedom required an exception to the flag salute.',
+    'The 8–1 majority accepted national unity and deferred to elected school authorities.',
+    'Stone dissented, while the Supreme Court reversed the protection given by lower courts.',
+    'The supplied presentation describes pressure and violence against Jehovah’s Witnesses.',
+    'Barnette overruled Gobitis three years later, protecting freedom from compelled affirmation.'
+  ],
+  barnette: [
+    'This researched brief supplies an explanation absent from the eight original teaching files.',
+    'West Virginia’s compulsory salute led families to obtain an injunction against enforcement.',
+    'The issue was whether government could force pupils to express an official belief.',
+    'The 6–3 majority treated the compulsory salute as compelled speech.',
+    'The Court affirmed the injunction and overruled Gobitis despite three dissenting justices.',
+    'Affirming the judgment in one dispute can coincide with overruling an earlier precedent.'
+  ],
+  brown: [
+    'Black families challenged their exclusion from nearby white public schools.',
+    'The case asked whether separation itself denied equal protection despite equal facilities.',
+    'The Court held that segregated public education is inherently unequal.',
+    'The unanimous decision preceded Brown II’s implementation ruling and actual desegregation.',
+    'Brown changed Plessy’s precedent in public education through a separate dispute.'
+  ],
+  courts: [
+    'Federal cases move from trial courts to appellate review and potentially the Supreme Court.',
+    'State court structures vary and do not form a third nationwide hierarchy with local courts.',
+    'Trial courts establish facts; appellate courts generally review the existing record.',
+    'Federal jurisdiction can depend on federal law or qualifying diversity of citizenship.',
+    'Ordinary diversity requires different citizenship across opposing parties and over $75,000.',
+    'State courts have their own appeals, with qualifying federal issues reviewable by the Supreme Court.'
+  ],
+  appeals: [
+    'The plaintiff brings a civil claim and the defendant answers it at the trial stage.',
+    'The appellant seeks review and the appellee opposes the appeal before the appellate court.',
+    'Affirm, reverse and remand describe distinct outcomes for a reviewed decision or case.',
+    'A remand follows appellate instructions and does not automatically restart the entire case.',
+    'A certiorari petition requests Supreme Court review, which is generally discretionary.',
+    'A petition requests review, a writ calls for the record, and a denial leaves the judgment in place.'
+  ]
+};
+const notePreview=(topic,index,section)=>{
+  const text=(notePreviews[topic]?.[index]||section.text).replace(/\s+/g,' ').trim();
+  if(text.length<=180)return text;
+  const cut=text.slice(0,177),space=cut.lastIndexOf(' ');
+  return cut.slice(0,space>140?space:cut.length)+'…';
+};
 
 export async function mount(container, options = {}) {
   const host = globalThis.document.createElement('section');
@@ -123,7 +178,7 @@ function renderLearn(topic) {
   <div class="lesson-tabs" aria-label="Choose study topic">${topics.filter(t=>t.id!=='vocabulary').map(t=>`<a class="pill ${t.id===id?'active':''}" href="#learn/${t.id}" ${t.id===id?'aria-current="true"':''}>${esc(t.short)}</a>`).join('')}</div>
   <div class="lesson-main"><article><div class="case-heading" style="--case-color:${esc(t.color)}"><span class="eyebrow">${item.year?'LANDMARK DECISION':'THE LEGAL SYSTEM'}</span><h2>${esc(item.title)}${item.year?` <span style="color:#909a8c">(${item.year})</span>`:''}</h2>${item.year?`<div class="case-meta"><span>Vote: ${esc(item.vote)}${['plessy','brown'].includes(id)?' · added/verified':''}</span><span>${esc(item.author)}</span></div>`:''}<p>${esc(item.tagline || item.intro)}</p>${item.provenance==='added'?`<div class="source-line">${badge('added')}<span>Researched explanation beyond the supplied files</span></div>`:''}</div>
   ${id==='courts'?courtMap():''}
-  ${item.sections.map(s=>`<section class="lesson-section"><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p>${sourceLine(s)}</section>`).join('')}
+  ${item.sections.map((s, index)=>`<details class="lesson-section law-note"><summary><span class="law-note-title" role="heading" aria-level="3">${esc(s.title)}</span><span class="law-note-preview">${esc(notePreview(id,index,s))}</span></summary><div class="law-note-body"><p>${esc(s.text)}</p>${sourceLine(s)}</div></details>`).join('')}
   ${item.takeaway?`<div class="takeaway"><span class="eyebrow">THE ONE-LINE TAKEAWAY</span><p>${esc(item.takeaway)}</p></div>`:''}
   <button class="btn ${progress.readLessons.includes(id)?'btn-secondary':'btn-primary'}" id="mark-read">${progress.readLessons.includes(id)?'✓ Topic explored':'Mark this topic as explored'}</button></article>
   <aside class="lesson-aside"><section class="aside-panel"><h3>Make it stick.</h3><p>Close the notes for a moment. Try recalling the rule in your own words.</p><a class="btn btn-primary" href="#flashcards?topic=${id}">Practice these flashcards ↗</a><a class="btn btn-secondary" href="#practice?topic=${id}">Test this topic</a></section><section class="aside-panel"><h3>Know where it comes from.</h3><p><span class="badge badge-added">Added</span> means a fact goes beyond the eight supplied files.<br><span class="badge badge-corrected">Correction</span> fixes a source error or oversimplification.</p><a class="text-link" href="#resources">View all sources ↗</a></section></aside></div>`;

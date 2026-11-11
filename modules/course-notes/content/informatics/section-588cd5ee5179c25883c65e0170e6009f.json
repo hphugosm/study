@@ -165,7 +165,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Rozlišíš číselné označení znaku v Unicode od jeho uložení v UTF-8 a porovnáš je se základním kódem ASCII."
     },
     {
       "id": "sifrovani",
@@ -308,7 +309,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš reprezentaci informace s utajením zprávy a na Caesarově šifře uvidíš posun písmen i význam jejich četností."
     },
     {
       "id": "entropie-a-huffman",
@@ -515,7 +517,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Na četnostech povelů porovnáš pevně dlouhý a Huffmanův kód a vypočítáš průměrný počet bitů na povel."
     },
     {
       "id": "chyby",
@@ -718,7 +721,8 @@
             "page": 20
           }
         ]
-      }
+      },
+      "summary": "Paritní bit, opakování a Hammingův kód ukazují, proč pro odhalování a opravu chyb záměrně přidáváme redundanci."
     },
     {
       "id": "obraz",
@@ -883,7 +887,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Propojíš rozlišení rastru, počet barev a velikost nekomprimovaných RGB dat a odlišíš je od skutečné velikosti souboru."
     },
     {
       "id": "zvuk",
@@ -1062,7 +1067,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Vzorkovací frekvence, bitová hloubka a počet kanálů společně určují datový tok nekomprimovaného digitálního zvuku."
     },
     {
       "id": "video",
@@ -1188,7 +1194,8 @@
           "width": 1400,
           "height": 788
         }
-      ]
+      ],
+      "summary": "Rozlišíš snímkovou frekvenci, rozlišení videa, kodek a kontejner a vysvětlíš princip zpomaleného přehrávání."
     },
     {
       "id": "hexove-matice",
@@ -1583,7 +1590,8 @@
           "width": 50,
           "height": 50
         }
-      ]
+      ],
+      "summary": "Z HEX kódů obnovíš dva obrázky o 50 × 50 buňkách; hotové vybarvené tabulky zachovávají původní hodnoty i palety."
     }
   ],
   "flashcards": [

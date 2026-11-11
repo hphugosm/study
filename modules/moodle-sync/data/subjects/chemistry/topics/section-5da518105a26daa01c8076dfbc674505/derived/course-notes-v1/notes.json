@@ -59,7 +59,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Procvičíš otevřené otázky ke složení organismů, základům biochemie a funkcím buněčných struktur."
     },
     {
       "id": "bilkoviny-opakovani",
@@ -123,7 +124,8 @@
           "width": 1084,
           "height": 254
         }
-      ]
+      ],
+      "summary": "Zopakuješ si otevřené úlohy o aminokyselinách, peptidových vazbách a vlastnostech bílkovin."
     },
     {
       "id": "lipidy-opakovani",
@@ -175,7 +177,8 @@
           "width": 649,
           "height": 218
         }
-      ]
+      ],
+      "summary": "Procvičíš otázky ke složení lipidů, mastným kyselinám, mýdlovým micelám a biomembránám."
     },
     {
       "id": "sacharidy-opakovani",
@@ -209,7 +212,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Zopakuješ si třídění sacharidů, jejich vzorce a důležité pojmy prostřednictvím otevřených úloh."
     },
     {
       "id": "nk-opakovani",
@@ -244,7 +248,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Procvičíš stavbu nukleotidů, párování bází, strukturu DNA a přenos genetické informace."
     },
     {
       "id": "metabolismus-opakovani",
@@ -276,7 +281,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Zopakuješ si otázky ke katabolismu, anabolismu, ATP, citrátovému cyklu a dýchacímu řetězci."
     },
     {
       "id": "regulatory-opakovani",
@@ -317,7 +323,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Procvičíš otevřené otázky ke stavbě a funkci enzymů, vitamínů a hormonů v dodaném zadání."
     }
   ],
   "flashcards": [],

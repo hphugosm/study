@@ -101,7 +101,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš hlavní skupiny lipidů a spojíš jejich rozpustnost se zásobní, strukturní a ochrannou funkcí."
     },
     {
       "id": "triacylglyceroly-a-mastne-kyseliny",
@@ -199,7 +200,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Odlišíš mastnou kyselinu od triacylglycerolu a při čtení vzorce sleduješ řetězec i dvojné vazby."
     },
     {
       "id": "vznik-a-stepeni-tuku",
@@ -297,7 +299,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Rozlišíš esterifikaci, hydrolýzu a hydrogenaci tuků podle výchozích látek a směru přeměny."
     },
     {
       "id": "mydlo-a-vosky",
@@ -423,7 +426,8 @@
           "width": 990,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "Propojíš zásaditou hydrolýzu tuků s mýdlem a porovnáš stavbu i funkce přírodních vosků."
     },
     {
       "id": "biomembrany-a-transport",
@@ -556,7 +560,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Spojíš polární stavbu lipidů s membránovou dvojvrstvou a porovnáš uvedené způsoby transportu."
     },
     {
       "id": "metabolismus-lipidu",
@@ -676,7 +681,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Projdeš trávení a přenos tuků i energetické využití mastných kyselin prostřednictvím β-oxidace."
     },
     {
       "id": "atp-koenzymy-a-vzorce",
@@ -800,7 +806,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš ATP, ADP a AMP a odlišíš oxidované a redukované formy koenzymů v uvedených vzorcích."
     }
   ],
   "flashcards": [

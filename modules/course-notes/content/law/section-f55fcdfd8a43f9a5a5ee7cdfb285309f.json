@@ -60,7 +60,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Plaintiff and defendant describe trial roles, while appellant and appellee describe the parties at the appeal stage."
     },
     {
       "id": "path",
@@ -130,7 +131,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Follow the worksheet’s route from District Court to appeal, distinguishing a Supreme Court petition from acceptance of review."
     },
     {
       "id": "outcomes",
@@ -166,7 +168,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Use affirm, reverse and remand precisely to distinguish leaving a decision standing, overturning it and sending a case back."
     }
   ],
   "flashcards": [

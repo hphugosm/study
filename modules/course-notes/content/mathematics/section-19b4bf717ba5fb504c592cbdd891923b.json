@@ -207,7 +207,8 @@
             "page": 5
           }
         ]
-      }
+      },
+      "summary": "Při výběru vzorce rozlišíš délku, plochu a objem i poloměr, kolmou výšku a stranu pláště jednotlivých těles."
     },
     {
       "id": "rezane-teleso",
@@ -368,7 +369,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Po řezu nebo vytvoření dutiny určíš, které původní plochy zmizely a které nové musíš započítat do povrchu."
     },
     {
       "id": "objemove-pomery",
@@ -512,7 +514,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Při přelévání a dělení materiálu zachováváš součet objemů; nové rozměry proto neurčuješ prostým půlením."
     },
     {
       "id": "prazdny-nacrt",
@@ -589,7 +592,8 @@
           "width": 1082,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "Prázdné náčrty krychle slouží pro vlastní konstrukci řezů; nejprve do nich doplníš vrcholy a body dané úlohou."
     }
   ],
   "flashcards": [

@@ -144,7 +144,8 @@
           "width": 990,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "Rozlišíš funkční skupiny a postranní řetězec aminokyseliny a vysvětlíš označení kódované aminokyseliny."
     },
     {
       "id": "typy-aminokyselin",
@@ -219,7 +220,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Porovnáš chemické znaky postranních řetězců a odlišíš toto třídění od esenciálnosti aminokyselin."
     },
     {
       "id": "amfion-a-ph",
@@ -316,7 +318,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Sleduješ změny protonace aminokyseliny v kyselém a zásaditém prostředí a vysvětlíš podobu amfiontu."
     },
     {
       "id": "peptidova-vazba",
@@ -426,7 +429,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Propojíš vznik peptidové vazby s odštěpením vody a počtem aminokyselinových zbytků v řetězci."
     },
     {
       "id": "dukazove-reakce",
@@ -504,7 +508,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Rozlišíš důkaz aminokyselin ninhydrinem od důkazu peptidových vazeb Biuretovou reakcí."
     }
   ],
   "flashcards": [

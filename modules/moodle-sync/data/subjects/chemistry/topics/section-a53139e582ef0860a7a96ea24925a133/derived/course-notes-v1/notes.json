@@ -154,7 +154,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Porovnáš katabolické, anabolické a amfibolické dráhy podle látkových přeměn a práce s energií."
     },
     {
       "id": "energeticke-prenasece",
@@ -231,7 +232,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Odlišíš energetickou úlohu ATP od přenosu elektronů pomocí NADH, FADH₂ a NADPH."
     },
     {
       "id": "ziviny-acetylcoa",
@@ -297,7 +299,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Sleduješ, jak se produkty trávení sacharidů, tuků a bílkovin napojují na společné metabolické dráhy."
     },
     {
       "id": "citratovy-cyklus",
@@ -401,7 +404,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Propojíš zpracování acetyl-CoA s tvorbou CO₂, redukovaných přenašečů a metabolických meziproduktů."
     },
     {
       "id": "dychaci-retezec",
@@ -551,7 +555,8 @@
           "width": 1400,
           "height": 1050
         }
-      ]
+      ],
+      "summary": "Vysvětlíš propojení toku elektronů, protonového gradientu a syntézy ATP v dýchacím řetězci."
     },
     {
       "id": "organicka-praxe",
@@ -667,7 +672,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Roztřídíš léčiva, pesticidy a tenzidy podle účelu a odlišíš účinnou látku od léčivého přípravku."
     }
   ],
   "flashcards": [

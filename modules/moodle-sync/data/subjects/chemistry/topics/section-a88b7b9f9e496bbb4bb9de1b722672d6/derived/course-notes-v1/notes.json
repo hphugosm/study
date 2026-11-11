@@ -125,7 +125,8 @@
             ]
           }
         ]
-      }
+      },
+      "summary": "Odlišíš kvalitativní a kvantitativní analýzu a porovnáš chemické a instrumentální metody."
     },
     {
       "id": "vzorek",
@@ -207,7 +208,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Propojíš reprezentativní odběr a přípravu vzorku se spolehlivostí následného měření."
     },
     {
       "id": "dukazove-reakce",
@@ -314,7 +316,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Porovnáš projevy důkazových reakcí a posoudíš jejich citlivost i charakterističnost pro hledanou látku."
     },
     {
       "id": "gravimetrie",
@@ -394,7 +397,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Projdeš převod analytu na váženou formu a rozlišíš původní vzorek, sraženinu a konečný produkt."
     },
     {
       "id": "titrace",
@@ -549,7 +553,8 @@
           "width": 1400,
           "height": 788
         }
-      ]
+      ],
+      "summary": "Propojíš známou koncentraci a odměřený objem s bodem ekvivalence a pozorovaným signálem."
     },
     {
       "id": "instrumentalni-metody",
@@ -603,7 +608,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Přiřadíš přístrojové metody k měřeným elektrochemickým, optickým nebo tepelným vlastnostem."
     },
     {
       "id": "komplexy-nazvoslovi",
@@ -754,7 +760,8 @@
           "width": 990,
           "height": 1400
         }
-      ]
+      ],
+      "summary": "Propojíš centrální částici, ligandy a náboj komplexu při výpočtu oxidačního čísla a tvorbě názvu."
     }
   ],
   "flashcards": [
