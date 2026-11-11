@@ -29,11 +29,6 @@ async function lawPage(page, mode) {
   return module;
 }
 
-async function expectSavedCount(page, label, count) {
-  await page.getByRole('tab', { name: 'Můj postup' }).click();
-  await expect(page.locator('.progress-card').filter({ hasText: label }).locator('strong')).toHaveText(String(count));
-}
-
 test('calendar displays two November 5 events and opens both real units', async ({ page }) => {
   await page.goto('./');
   await page.locator('[data-date="2026-11-05"]').click();
@@ -102,8 +97,7 @@ test('history test offers text-only recall cards and its source atlas; excursion
   expect(response.ok()).toBe(true);
   expect(response.headers()['content-type']).toContain('application/pdf');
   expect((await response.body()).subarray(0, 5).toString()).toBe('%PDF-');
-  await page.getByRole('tab', {name:'Můj postup'}).click();
-  await expect(page.locator('.progress-card').filter({hasText:'známých kartiček'}).locator('strong')).toHaveText('8');
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('study:history:baroque:progress:v1')).knownCards.length)).toBe(8);
   await page.getByRole('tab', {name:'Podklady a procvičování'}).click();
   await expect(cards.locator('.question')).toHaveText(baroqueCards[0].question);
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
@@ -153,7 +147,7 @@ test('biology atlas has 64 entries, working search, images, cards, zoom and pers
   await page.reload();
   await biologyPage(page, 'cards');
   await expect(module.locator('#mastered-total')).toHaveText('1');
-  await expectSavedCount(page, 'zvládnutých položek', 1);
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('study:biology:kostra-progress-v2')).length)).toBe(1);
 });
 
 test('biology blank map has both modes, real targets and corrective feedback', async ({ page }) => {
@@ -193,7 +187,7 @@ test('biology map saves a completed result and offers retry of the mistaken set'
   await expect(module.locator('#map-position')).toContainText('10');
   await page.reload();
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem('study:biology:map-results'))[0])).toEqual(result);
-  await expectSavedCount(page, 'uložených výsledků', 1);
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('study:biology:map-results')).length)).toBe(1);
 });
 
 test('Law flashcards retain answers, explanations and saved learning progress', async ({ page }) => {
@@ -206,7 +200,7 @@ test('Law flashcards retain answers, explanations and saved learning progress', 
   await page.reload();
   module = await lawPage(page, 'flashcards');
   await expect(module.locator('.pr-count')).toContainText('1 /');
-  await expectSavedCount(page, 'známých kartiček', 1);
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('study:law:progress:v1')).knownCards.length)).toBe(1);
 });
 
 test('Law offers every question format, explains answers and saves session results', async ({ page }) => {
@@ -226,7 +220,7 @@ test('Law offers every question format, explains answers and saves session resul
   await expect.poll(() => page.evaluate(() => Object.keys(localStorage).filter(key => key.startsWith('study:law:')).some(key => {
     try { return JSON.parse(localStorage.getItem(key)).attempts?.length > 0; } catch { return false; }
   }))).toBe(true);
-  await expectSavedCount(page, 'dokončených testů', 1);
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('study:law:progress:v1')).attempts.length)).toBe(1);
 });
 
 for (const mode of ['boolean', 'text', 'order', 'matching']) {

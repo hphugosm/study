@@ -6,6 +6,7 @@ import {createNavigation,routeInfo} from './navigation.js';
 import {initPreferences} from './preferences.js';
 import {mountSettings} from './settings.js';
 import {initPwa,notifyPwaRoute} from './pwa.js';
+import {mountAssignments} from './assignments.js';
 
 const main = document.querySelector('main');
 const today = pragueToday();
@@ -15,6 +16,7 @@ let selectedDay = upcomingEvents()[0]?.date || today;
 let cleanupModule = null;
 let routeVersion = 0;
 let activeTab = 'tools';
+let requestedTabFocus = null;
 const monthFormat = new Intl.DateTimeFormat('cs-CZ',{month:'long',year:'numeric'});
 const fullDate = key => new Intl.DateTimeFormat('cs-CZ',{day:'numeric',month:'long',year:'numeric'}).format(parseDate(key));
 const dayName = key => new Intl.DateTimeFormat('cs-CZ',{weekday:'long'}).format(parseDate(key));
@@ -120,18 +122,19 @@ function renderPractice() {
 
 async function renderUnit(unit,event,params,version) {
   const s=getSubject(unit.subjectId);
-  activeTab=params.get('tab')||'tools';
+  const requestedTab=params.get('tab')||(event?.type==='homework'?'tasks':'tools');
+  activeTab=requestedTab==='progress'?'tasks':['tools','materials','tasks'].includes(requestedTab)?requestedTab:'tools';
   const unitEvents=events.filter(e=>e.unitId===unit.id);
   const supplements=supplementsForUnit(unit.id,units),supplement=selectedSupplement(unit,params,units);
   const materials=categoryMaterials(unit,units);
   document.title=`${event?event.title:unit.title} — Studilo`;
   main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><a href="#/subjects/${s.id}">${s.name}</a></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${fullDate(event.date)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${fullDate(e.date)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
-    <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="Materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">Materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Můj postup" data-tab="progress" id="unit-tab-progress" aria-controls="unit-panel">${icon('check')}<span class="tab-label-long">Můj postup</span><span class="tab-label-short" aria-hidden="true">Postup</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
+    <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="Materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">Materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Úkoly" data-tab="tasks" id="unit-tab-tasks" aria-controls="unit-panel">${icon('calendar')}<span>Úkoly</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
   for(const b of main.querySelectorAll('[data-tab]')) b.onclick=()=>{
     const path=location.hash.split('?')[0];
     const next=new URLSearchParams(params);next.set('tab',b.dataset.tab);navigation.navigate(`${path}?${next}`);
   };
-  main.querySelectorAll('[data-tab]').forEach(b=>{b.setAttribute('aria-selected',b.dataset.tab===activeTab);b.tabIndex=b.dataset.tab===activeTab?0:-1;b.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const all=[...main.querySelectorAll('[data-tab]')],index=all.indexOf(b);const target=e.key==='Home'?all[0]:e.key==='End'?all.at(-1):all[(index+(e.key==='ArrowRight'?1:all.length-1))%all.length];target.click();setTimeout(()=>main.querySelector(`[data-tab="${target.dataset.tab}"]`)?.focus(),0);});});
+  main.querySelectorAll('[data-tab]').forEach(b=>{b.setAttribute('aria-selected',b.dataset.tab===activeTab);b.tabIndex=b.dataset.tab===activeTab?0:-1;b.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const all=[...main.querySelectorAll('[data-tab]')],index=all.indexOf(b);const target=e.key==='Home'?all[0]:e.key==='End'?all.at(-1):all[(index+(e.key==='ArrowRight'?1:all.length-1))%all.length];const tab=target.dataset.tab;requestedTabFocus=tab;target.click();requestedTabFocus=null;main.querySelector(`[data-tab="${tab}"]`)?.focus({preventScroll:true});});});
   const related=unit.origin==='moodle'?(unit.legacyUnitIds||[]).map(getUnit).filter(Boolean):units.filter(item=>item.legacyUnitIds?.includes(unit.id));
   const relatedOutsideSupplements=related.filter(item=>!supplements.some(supplement=>supplement.id===item.id));
   if(relatedOutsideSupplements.length){const nav=document.createElement('nav');nav.className='related-course-topics';nav.setAttribute('aria-label','Související témata');nav.innerHTML='<span>Související témata:</span>'+relatedOutsideSupplements.map(item=>`<a href="#/units/${item.id}">${esc(item.title)}</a>`).join('');main.querySelector('.unit-hero').append(nav);}
@@ -144,9 +147,26 @@ async function renderUnit(unit,event,params,version) {
     panel.innerHTML=`<div class="panel-intro"><h2>Materiály po ruce.</h2><p>Původní studijní podklady, připravené ke čtení i stažení.</p></div>${materials.length?`<div class="materials-grid">${materials.map(m=>`<a class="material-card" href="${esc(m.url)}" target="_blank" rel="noopener">${icon('file')}<div><h3>${esc(m.title)}</h3><p>${esc(m.description)}</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div>`:emptyMaterials()}`;
     return;
   }
+  if(activeTab==='tasks') {
+    const abort=new AbortController();
+    cleanupModule=()=>abort.abort();
+    panel.innerHTML='<div class="tasks-host"></div>';
+    const host=panel.firstElementChild;
+    host.style.setProperty('--subject',s.color);host.style.setProperty('--tint',s.tint);
+    try {
+      const cleanup=await mountAssignments(host,{unit,units,events,signal:abort.signal});
+      if(version!==routeVersion||abort.signal.aborted)cleanup?.();
+      else cleanupModule=()=>{abort.abort();cleanup?.();};
+    } catch(error) {
+      if(version!==routeVersion||abort.signal.aborted)return;
+      panel.innerHTML='<div class="empty-state"><h2>Úkoly se nepodařilo načíst.</h2><p>Zkus je načíst znovu.</p><button class="button" id="retry-tasks">Zkusit znovu</button></div>';
+      panel.querySelector('#retry-tasks').onclick=()=>route();
+    }
+    return;
+  }
   if(unit.kind==='collection') {
     const related=(unit.relatedUnitIds||[]).map(getUnit).filter(Boolean);
-    panel.innerHTML=`<div class="panel-intro"><h2>${activeTab==='progress'?'Tvůj postup v tématech':'Vyber si téma k opakování.'}</h2><p>Stručné poznámky, ovladatelné vizualizace a procvičování ze tří dodaných prezentací.</p></div><div class="unit-list">${related.map(item=>`<a class="unit-card" href="#/units/${item.id}${activeTab==='progress'?'?tab=progress':''}" style="${subjectStyle(s)}"><div><p class="eyebrow">${esc(item.label)}</p><h2>${esc(item.title)}</h2><p>${esc(item.description)}</p><span class="text-link">${activeTab==='progress'?'Zobrazit postup':'Otevřít téma'} ${icon('arrow')}</span></div><span class="unit-card-icon">${icon('function')}</span></a>`).join('')}</div>`;
+    panel.innerHTML=`<div class="panel-intro"><h2>Vyber si téma k opakování.</h2><p>Stručné poznámky, ovladatelné vizualizace a procvičování ze tří dodaných prezentací.</p></div><div class="unit-list">${related.map(item=>`<a class="unit-card" href="#/units/${item.id}" style="${subjectStyle(s)}"><div><p class="eyebrow">${esc(item.label)}</p><h2>${esc(item.title)}</h2><p>${esc(item.description)}</p><span class="text-link">Otevřít téma ${icon('arrow')}</span></div><span class="unit-card-icon">${icon('function')}</span></a>`).join('')}</div>`;
     return;
   }
   if(supplement&&activeTab==='tools'){
@@ -163,10 +183,6 @@ async function renderUnit(unit,event,params,version) {
     return;
   }
   if(!unit.module) {
-    if(activeTab==='progress') {
-      panel.innerHTML='<div class="panel-intro"><h2>Studuj vlastním tempem.</h2><p>U tohoto tématu se postup neukládá. K výpiskům se vrátíš v záložce Studovat.</p></div>';
-      return;
-    }
     panel.innerHTML=unit.notes?.length?`<div class="generic-notes"><div class="panel-intro"><h2>Podklady a výpisky</h2>${unit.materials.map(m=>`<p><a class="text-link" href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)} ${icon('arrow')}</a></p>`).join('')}</div>${unit.notes.map(note=>typeof note==='string'?`<p>${esc(note)}</p>`:`<section class="note-section"><h3>${esc(note.title)}</h3><p>${esc(note.text)}</p></section>`).join('')}</div>`:emptyMaterials();
     return;
   }
@@ -174,13 +190,6 @@ async function renderUnit(unit,event,params,version) {
   try {
     const module=await moduleLoaders[unit.module]();
     if(version!==routeVersion)return;
-    if(activeTab==='progress') {
-      const progress=module.getProgress(unit);
-      const isBio=isBiology(unit);
-      const counts=unit.module==='baroque'?[[progress.knownCards.length,'známých kartiček'],[progress.total,'kartiček celkem'],[progress.total-progress.knownCards.length,'zbývá zopakovat']]:isBio?[[progress.mastered||0,'zvládnutých položek'],[progress.total??(unit.module==='biology'?64:0),'položek v atlasu'],[(progress.results||[]).length,'uložených výsledků']]:[[(progress.knownCards||[]).length,'známých kartiček'],[(progress.readLessons||[]).length,'přečtených lekcí'],[(progress.attempts||[]).length,unit.module==='course-notes'?'zodpovězených otázek':'dokončených testů']];
-      panel.innerHTML=`<div class="panel-intro"><h2>Každé opakování se počítá.</h2><p>Tvůj postup v tomto tématu se ukládá automaticky v tomto prohlížeči.</p></div><div class="progress-grid">${counts.map(([n,l])=>`<div class="progress-card"><strong>${n}</strong><span>${l}</span></div>`).join('')}</div><a class="button primary" href="#/units/${unit.id}">Pokračovat v učení ${icon('arrow')}</a><p class="storage-note">Ukládání je oddělené podle předmětu. Původní uložená data zůstávají zachovaná. Na jiném zařízení či jiné doméně se postup automaticky nepřenáší.</p>`;
-      return;
-    }
     panel.innerHTML=`<div class="module-frame" data-study-module="${unit.module}"></div>`;
     const host=panel.firstElementChild;
     host.style.setProperty('--subject',s.color);host.style.setProperty('--tint',s.tint);
@@ -202,6 +211,7 @@ function emptyMaterials(){return `<div class="empty-state">${icon('book')}<h2>Ma
 
 async function route({scroll=0,restore=false}={}) {
   const version=++routeVersion;
+  const focusTab=requestedTabFocus;requestedTabFocus=null;
   cleanupModule?.();cleanupModule=null;
   const [path,search='']=(location.hash.slice(1)||'/').split('?');
   const segments=path.split('/').filter(Boolean);
@@ -224,7 +234,7 @@ async function route({scroll=0,restore=false}={}) {
   } else renderNotFound();
   if(version===routeVersion){
     window.scrollTo({top:scroll,behavior:'instant'});
-    if(!restore)main.focus({preventScroll:true});
+    if(!restore)(focusTab?main.querySelector(`[data-tab="${focusTab}"]`)||main:main).focus({preventScroll:true});
     notifyPwaRoute();
   }
 }

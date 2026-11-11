@@ -141,7 +141,9 @@ Biologie obsahuje 64 položek, funkční vyhledávání a detail kosti s načten
 
 Law flashcards odkrývají odpovědi a ukládají známé karty. Procvičování nabízí multiple choice, true/false, textové odpovědi, řazení, párování i mixed režim. Browser testy skutečně odpovídají v jednotlivých formátech, u řazení uspořádají kroky a u párování spojí všech pět dvojic. Ověřeno zobrazení vysvětlení, výsledku a uloženého pokusu. Mixed režim je kontrolován jako dostupná volba; jeho jednotlivé typy otázek se prověřují samostatně.
 
-Společná záložka **Můj postup** po skutečném uložení ukáže 1 zvládnutou biologickou položku, 1 výsledek slepé mapy, 1 známou Law kartičku a 1 dokončený Law test. Ukládání obou předmětů přežije obnovení stránky. Legacy klíče jsou převzaty do oddělených klíčů `study:biology:*` a `study:law:*`; původní záznamy zůstávají beze změny. Toto převzetí funguje jen pro data dostupná na stejném originu prohlížeče.
+Historická kontrola původní společné záložky **Můj postup** po skutečném uložení ukázala 1 zvládnutou biologickou položku, 1 výsledek slepé mapy, 1 známou Law kartičku a 1 dokončený Law test. Ukládání obou předmětů přežije obnovení stránky. Legacy klíče jsou převzaty do oddělených klíčů `study:biology:*` a `study:law:*`; původní záznamy zůstávají beze změny. Toto převzetí funguje jen pro data dostupná na stejném originu prohlížeče.
+
+Od 11. 11. 2026 byla tato společná záložka na přání uživatele nahrazena záložkou **Úkoly** se zadáním, termínem a studijním řešením. Ukládání znalostí uvnitř cvičení zůstává zachované; současné kontroly jsou popsány v [assignments.md](assignments.md).
 
 Přepínání Biologie → Law → Biologie nevyvolalo žádnou chybu stránky. Kontrola nenašla iframe ani biologické globální proměnné v hlavním `window`. Kalendář i obě studijní stránky se vejdou do desktopové i mobilní šířky bez vodorovného přetékání. Matematika a Literatura výslovně oznamují dosud nepřidané podklady.
 

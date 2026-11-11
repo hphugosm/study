@@ -20,10 +20,14 @@ async function fitsViewport(page) {
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
 }
 
-test('Mathematics shows exactly two new categories and the calendar preparation opens both', async ({ page, request, baseURL }) => {
+test('Mathematics keeps its two original categories first and stereometry third; the calendar opens both original units', async ({ page, request, baseURL }) => {
   await page.goto('./#/subjects/mathematics');
-  const cards = page.locator('.unit-list > .unit-card');
-  await expect(cards).toHaveCount(2);
+  const cards = page.locator('section[aria-label="Hlavní studijní kategorie"] .unit-list > .unit-card');
+  await expect(cards).toHaveCount(3);
+  await expect(cards.nth(0)).toHaveAttribute('href', '#/units/trig-functions');
+  await expect(cards.nth(1)).toHaveAttribute('href', '#/units/trig-equations');
+  await expect(cards.nth(2)).toContainText('Stereometrie');
+  await expect(cards.nth(2)).toBeVisible();
   await expect(cards.filter({ hasText: 'Trigonometrie a goniometrické funkce' })).toBeVisible();
   await expect(cards.filter({ hasText: 'Goniometrické vzorce, rovnice a nerovnice' })).toBeVisible();
   await page.goto('./#/events/math-test');
@@ -97,8 +101,10 @@ test('trigonometry cards and completed quiz persist independently of the existin
   expect(progress.attempts).toHaveLength(1);
   expect(progress.attempts[0].score).toBe(trigQuestions.length);
   expect(progress.attempts[0].total).toBe(trigQuestions.length);
-  await page.getByRole('tab', { name: 'Můj postup' }).click();
-  await expect(page.locator('.progress-card').filter({ hasText: 'dokončených testů' }).locator('strong')).toHaveText('1');
+  await page.reload();
+  await openView(math(page), 'cards');
+  await expect(math(page).locator('#card-count')).toContainText('1');
+  expect(await page.evaluate(key => JSON.parse(localStorage.getItem(key)).attempts.length, trigKey)).toBe(1);
 });
 
 test('all mathematics views inherit themes, fit small screens and coexist with Law and Biology', async ({ page }, testInfo) => {

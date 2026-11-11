@@ -21,6 +21,7 @@ export default defineConfig({
     { name: 'pwa-desktop', testMatch: ['**/pwa-settings.spec.mjs','**/pwa-updates.spec.mjs'], grepInvert: /Safari offers/, use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 1000 }, serviceWorkers: 'allow' } },
     { name: 'pwa-mobile', testMatch: ['**/pwa-settings.spec.mjs','**/pwa-updates.spec.mjs'], grepInvert: /Safari offers/, use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium', serviceWorkers: 'allow' } },
     { name: 'pwa-safari', testMatch: ['**/pwa-settings.spec.mjs','**/pwa-updates.spec.mjs'], use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
+    { name: 'assignments-safari', testMatch: '**/assignments.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'notes-safari', testMatch: '**/notes.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'pixels-safari', testMatch: '**/pixels.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
     { name: 'worksheet-safari', testMatch: ['**/worksheets.spec.mjs','**/worksheet-gestures.spec.mjs'], use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
