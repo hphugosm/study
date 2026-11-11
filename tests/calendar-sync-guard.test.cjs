@@ -43,6 +43,18 @@ test('explicit same-topic linked deadline collapses and conflicting category fai
  assert.ok(codes(await check([row('a'),{...event,calendar_type:'test'}])).includes('linked_calendar_category_conflict'));
 });
 
+test('one scoped assignment cannot publish conflicting deadline instants',async()=>{
+ const otherTime=1795159800;
+ const event=row('b',{kind:'event',starts:otherTime,duration:0,calendar_role:'deadline',related_assignment:'a'.repeat(64)});
+ assert.ok(codes(await check([row('a'),event])).includes('conflicting_assignment_deadlines'));
+ assert.equal((await check([row('a'),{...event,related_assignment:'c'.repeat(64)}])).ok,true);
+ assert.equal((await check([row('a'),{...event,calendar_role:'scheduled'}])).ok,true);
+ assert.equal((await check([row('a'),{...event,calendar_role:'scheduled',starts:1795073400}])).ok,true);
+ const orphan={...event,starts:1795073400};
+ assert.ok(codes(await check([orphan,{...orphan,id:'c'.repeat(64)}])).includes('duplicate_assignment_instant'));
+ assert.equal((await check([orphan,{...orphan,id:'c'.repeat(64),topic:'section-other'}],{units:[unit,{...unit,id:'other-unit',topicId:'section-other'}]})).ok,true);
+});
+
 test('manual source association retains preparation and old alias when deadline moves',async()=>{
  const manual={id:'law-test',unitId:'original-tools',date:'2026-11-19',type:'test',title:'Preparation',sourceAssignmentId:'a'.repeat(64),sourceAssignmentUnitId:unit.id};
  const config={schema:1,manual_event_ids:['law-test'],associations:[{id:'law-test',assignment_id:'a'.repeat(64),subject:'law',topic:'section-one'}]};

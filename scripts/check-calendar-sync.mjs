@@ -61,9 +61,15 @@ export function checkCalendarSync(feed,{units=trustedUnits,manualEvents=trustedM
   if(event.origin!=='moodle')continue;
   if(!seconds(event.starts)||event.date!==day(event.starts)||event.allDay!==false)issue('effective_event_precision_changed');
  }
+ const deadlineInstants=new Map();
+ for(const event of effective.filter(event=>event.origin==='moodle'&&event.sourceAssignmentId&&event.isDeadline===true)){
+  const key=event.sourceAssignmentId+':'+(event.assignmentUnitId||event.unitId);
+  const instants=deadlineInstants.get(key)||new Set();instants.add(event.starts);deadlineInstants.set(key,instants);
+  if(instants.size===2)issue('conflicting_assignment_deadlines',event.sourceAssignmentId);
+ }
  const assignmentInstants=new Set();
- for(const event of effective.filter(event=>event.origin==='moodle'&&event.sourceAssignmentId)){
-  const key=event.sourceAssignmentId+':'+event.starts;
+ for(const event of effective.filter(event=>event.origin==='moodle'&&event.sourceAssignmentId&&event.isDeadline===true)){
+  const key=event.sourceAssignmentId+':'+(event.assignmentUnitId||event.unitId)+':'+event.starts;
   if(assignmentInstants.has(key))issue('duplicate_assignment_instant',event.sourceAssignmentId);assignmentInstants.add(key);
  }
  for(const previous of manualEvents){
