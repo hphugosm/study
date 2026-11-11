@@ -31,4 +31,10 @@ Pokud datum není oficiální kalendářovou položkou, přidej po kontrole dolo
 
 ## Ověření
 
+Kontroly jsou povinnou součástí každé synchronizace, včetně přehledu bez nových změn. Soukromý export po kontrole přesných schválení automaticky určí správné `calendar_type`. Oba publikační postupy přehled znovu prověří ještě před uploadem nebo veřejným commitem; chybu zastaví pevným chybovým kódem. Sdílenou mapu `src/calendar-associations.json` čtou jako data z konkrétního Git stromu, bez spouštění veřejného JavaScriptu v úloze s přihlašovacími údaji. Mapa musí odpovídat skutečným ručním vazbám v `src/data.js`.
+
+Před každým nasazením spustí `npm run check` také `npm run check:calendar`. Tato další kontrola používá skutečný výukový katalog a stejný převod kalendáře jako web: správné typy Quiz, jednotlivé zdrojové identity, český čas, jednoznačné aliasy a sloučení potvrzených ručních záznamů. Samostatně lze ověřit navržený přehled příkazem `node scripts/check-calendar-sync.mjs --feed /cesta/ke/feed.json` nebo předat JSON na standardním vstupu pomocí `--feed -`. Vstup je omezený JSON, nikoli spustitelný kód. Výstup používá pouze souhrnné počty a pevné chybové kódy; nevypisuje texty zadání.
+
+Quiz/Quizzes včetně názvů `Quiz2` a `QuizReminder` se vždy klasifikuje jako Test; `Quizlet` není název testu. Typ aktivity nesmí vytvořit chybějící datum nebo čas. Dva různé testy se neslučují jen podle podobného názvu či stejného dne. Nová doložená ruční vazba se přidává do datové mapy i původního záznamu a musí projít stejnou kontrolou.
+
 Spusť `npm run check`, `npm test` a `npm run build`. `tests/moodle-calendar.test.cjs` kontroluje časové posuny, verze, sloučení, změnu data a zachování ručních událostí. Prohlížečová sada `tests/moodle-calendar.spec.mjs` prochází skutečné měsíce a termíny ze schváleného feedu, odkaz z kalendáře do Úkolů a mobilní ovládání. Ve workflow Verify live Studilo vyber `calendar` pro desktop, mobilní Chromium a mobilní WebKit.

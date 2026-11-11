@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "manual_event_ids": ["biology-test", "math-test", "history-test", "power-plants-excursion", "literature-assignment", "law-test"],
+  "associations": [{
+    "id": "law-test",
+    "assignment_id": "4a1dfc8941791503106e8a3354cfb70f061bc2b5713825f53f08edb0cb5c25ed",
+    "subject": "law",
+    "topic": "section-e34a26cc76ae3e441e97436d2360a95f"
+  }]
+}

@@ -29,3 +29,7 @@ console.log(`Checked ${checked} JavaScript files, registry relationships, dates,
 
 await import('./check-moodle-catalog.mjs');
 await import('./check-course-notes.mjs');
+
+const calendar=spawnSync(process.execPath,['scripts/check-calendar-sync.mjs'],{encoding:'utf8'});
+assert.equal(calendar.status,0,'Calendar synchronization guard failed. '+calendar.stderr+calendar.stdout);
+process.stdout.write(calendar.stdout);

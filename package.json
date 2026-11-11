@@ -9,6 +9,7 @@
     "start": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
+    "check:calendar": "node scripts/check-calendar-sync.mjs",
     "test": "node --test tests/*.test.cjs modules/biology/tests/*.test.cjs modules/course-notes/tests/*.test.cjs modules/biology-muscles/tests/*.test.mjs",
     "prepare:courses": "node scripts/generate-course-catalog.mjs",
     "test:e2e": "playwright test"
