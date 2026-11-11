@@ -61,3 +61,16 @@ test('study events resolve their units, school excursions stand alone and all da
   assert.equal(history.unit.materials.length, 1);
   assert.equal(history.unit.module, 'baroque');
 });
+
+test('confirmed Law test resolves its original and source aliases without deleting fallback preparation',async()=>{
+ const {getEvent,events}=await import('../src/data.js');
+ const original=getEvent('law-test');
+ const source='4a1dfc8941791503106e8a3354cfb70f061bc2b5713825f53f08edb0cb5c25ed';
+ assert.equal(getEvent('moodle-deadline-'+source),original);
+ assert.equal(original.sourceAssignmentUnitId,'moodle-law-e34a26cc76ae3e441e97436d2360a95f');
+ assert.equal(original.unitId,'law-unit-2');
+ assert.equal(original.date,'2026-11-19');
+ assert.equal(original.starts,undefined);
+ assert.equal(events.length,6);
+ assert.equal(getEvent('moodle-deadline-'+'f'.repeat(64)),undefined);
+});

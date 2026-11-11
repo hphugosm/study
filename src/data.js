@@ -1,7 +1,7 @@
 import {courseSubjects,courseUnits} from './course-catalog.js';
 /** @typedef {{id:string,name:string,color:string,tint:string,icon:string,description:string}} Subject */
 /** @typedef {{id:string,subjectId:string,title:string,label?:string,description:string,module?:string,kind?:'collection',relatedUnitIds?:string[],materials:Array<{title:string,description:string,url:string}>,notes?:Array<string|{title:string,text:string}>}} StudyUnit */
-/** @typedef {{id:string,unitId?:string,date:string,type:'test'|'homework'|'review'|'excursion',allDay?:boolean,title:string,description:string,starts?:number,duration?:number,origin?:'moodle',sourceKind?:'assignment'|'event',sourceAssignmentId?:string,sourceVersion?:string,isDeadline?:boolean,due?:number}} StudyEvent */
+/** @typedef {{id:string,unitId?:string,date:string,type:'test'|'homework'|'review'|'excursion',allDay?:boolean,title:string,description:string,starts?:number,duration?:number,origin?:'moodle',sourceKind?:'assignment'|'event',sourceAssignmentId?:string,sourceAssignmentUnitId?:string,assignmentUnitId?:string,preparationUnitId?:string,aliasIds?:string[],sourceVersion?:string,isDeadline?:boolean,due?:number}} StudyEvent */
 
 /** @type {Subject[]} */
 export const subjects = [
@@ -55,7 +55,7 @@ export const events = [
   {id:'history-test',unitId:'baroque',date:'2026-11-09',type:'test',title:'Test – Baroko',description:'Znaky baroka, náboženské a světské stavby, malířství, sochařství a hudba podle obrazového studijního atlasu.'},
   {id:'power-plants-excursion',date:'2026-11-12',type:'excursion',allDay:true,title:'Exkurze elektráren',description:'Celodenní školní exkurze. Podrobnosti k místu, programu a odjezdu zatím nejsou přidané.'},
   {id:'literature-assignment',unitId:'miser',date:'2026-11-18',type:'homework',title:'Odevzdání rozboru Lakomce',description:'Termín pro odevzdání rozboru. Přesné zadání zatím nebylo přidáno.'},
-  {id:'law-test',unitId:'law-unit-2',date:'2026-11-19',type:'test',title:'Unit 2 – Test',description:'Review the landmark cases, court hierarchy and legal vocabulary.'},
+  {id:'law-test',unitId:'law-unit-2',date:'2026-11-19',type:'test',title:'Unit 2 – Test',description:'Review the landmark cases, court hierarchy and legal vocabulary.',sourceAssignmentId:'4a1dfc8941791503106e8a3354cfb70f061bc2b5713825f53f08edb0cb5c25ed',sourceAssignmentUnitId:'moodle-law-e34a26cc76ae3e441e97436d2360a95f'},
 ];
 
 export const moduleLoaders = {
@@ -70,6 +70,7 @@ export const moduleLoaders = {
 
 export const getSubject = id => subjects.find(subject => subject.id === id);
 export const getUnit = id => units.find(unit => unit.id === id);
+export const getEvent = id => events.find(event => event.id === id || event.aliasIds?.includes(id) || event.sourceAssignmentId && id === `moodle-deadline-${event.sourceAssignmentId}`);
 export const eventContext = event => {
   const unit = getUnit(event.unitId);
   return {event,unit,subject:unit?getSubject(unit.subjectId):undefined};

@@ -12,7 +12,9 @@ function pragueDay(seconds){
 // Derive the fixture from approved positive deadlines; never infer dates from titles or hashes.
 const deadlines=[...new Map(feed.entries.filter(entry=>entry.kind==='assignment'&&entry.available!==false&&entry.policy_excluded!==true&&Number.isSafeInteger(entry.due)&&entry.due>0).map(entry=>[entry.id,entry])).values()];
 const months=[...new Set(deadlines.map(entry=>pragueDay(entry.due).slice(0,7)))].sort();
-const deadlineId=entry=>'moodle-deadline-'+entry.id;
+const linkedManual=entry=>manualEvents.find(event=>event.sourceAssignmentId===entry.id);
+const deadlineId=entry=>linkedManual(entry)?.id||'moodle-deadline-'+entry.id;
+const calendarTitle=entry=>entry.title;
 const selectedLink=(page,id)=>page.locator(`.selected-events a[href="#/events/${id}"]`);
 async function openMonth(page,month){
  await page.clock.setFixedTime(new Date(month+'-15T12:00:00+01:00'));
@@ -26,19 +28,23 @@ for(const month of months){
   await openMonth(page,month);
   const entries=deadlines.filter(entry=>pragueDay(entry.due).startsWith(month));
   expect(entries.length).toBeGreaterThan(0);
+  const unlinkedManual=manualEvents.filter(event=>!deadlines.some(entry=>entry.id===event.sourceAssignmentId));
+  const expectedMonthCount=entries.length+unlinkedManual.filter(event=>event.date.startsWith(month)).length;
+  await expect(page.locator('.month-count')).toContainText(new RegExp(`^${expectedMonthCount} `));
   for(const date of [...new Set(entries.map(entry=>pragueDay(entry.due)))]){
    const day=page.locator(`[data-date="${date}"]`);
    await day.click();
    await expect(day).toHaveAttribute('aria-pressed','true');
    // Related school-calendar rows must not create a second event for the same due date.
-   await expect(page.locator('.selected-events a.event-card[href^="#/events/moodle-"]')).toHaveCount(entries.filter(entry=>pragueDay(entry.due)===date).length);
+   await expect(page.locator('.selected-events a.event-card[href^="#/events/moodle-"]')).toHaveCount(entries.filter(entry=>pragueDay(entry.due)===date&&deadlineId(entry).startsWith('moodle-')).length);
    for(const entry of entries.filter(entry=>pragueDay(entry.due)===date)){
-    await expect.poll(()=>day.getAttribute('aria-label')).toContain(entry.title);
+    await expect.poll(()=>day.getAttribute('aria-label')).toContain(calendarTitle(entry));
     const link=selectedLink(page,deadlineId(entry));
     await expect(link).toHaveCount(1);
-    await expect(link.locator('h3')).toHaveText(entry.title);
+    await expect(link.locator('h3')).toHaveText(calendarTitle(entry));
+    await expect(link.locator('.event-type')).toHaveText(entry.calendar_type==='test'?'Test':'Domácí úkol');
     const chips=await day.locator('.calendar-chip .chip-title').allTextContents();
-    expect(chips).toContain(entry.title);
+    expect(chips).toContain(calendarTitle(entry));
    }
   }
   await expect(page.locator('[data-study-module]')).toHaveCount(0);
@@ -75,9 +81,11 @@ test('manual events survive the Moodle merge and keyboard day/month selection fi
  await page.setViewportSize({width:320,height:700});
  await openMonth(page,'2026-11');
  for(const event of manualEvents){
-  await page.locator(`[data-date="${event.date}"]`).click();
+  const source=deadlines.find(entry=>entry.id===event.sourceAssignmentId);
+  const date=source?pragueDay(source.due):event.date;
+  await page.locator(`[data-date="${date}"]`).click();
   await expect(selectedLink(page,event.id)).toHaveCount(1);
-  await expect(selectedLink(page,event.id).locator('h3')).toHaveText(event.title);
+  await expect(selectedLink(page,event.id).locator('h3')).toHaveText(source?source.title:event.title);
  }
  const day=page.locator('[data-date="2026-11-05"]');
  await day.focus();
@@ -121,7 +129,7 @@ test('unavailable Moodle metadata keeps manual events and retry preserves the ch
  await page.locator('[data-date="2026-11-05"]').click();
  await expect(selectedLink(page,'biology-test')).toBeVisible();
  await expect(selectedLink(page,'math-test')).toBeVisible();
- const entry=deadlines.find(item=>pragueDay(item.due).startsWith('2026-11'));
+ const entry=deadlines.find(item=>pragueDay(item.due).startsWith('2026-11')&&!linkedManual(item));
  expect(entry).toBeTruthy();
  const date=pragueDay(entry.due);
  await page.locator(`[data-date="${date}"]`).click();
@@ -132,4 +140,40 @@ test('unavailable Moodle metadata keeps manual events and retry preserves the ch
  await expect(page.locator(`[data-date="${date}"]`)).toHaveAttribute('aria-pressed','true');
  await expect(selectedLink(page,deadlineId(entry))).toBeVisible();
  await expect(page.locator('.calendar-layout')).toBeVisible();
+});
+
+test('November 19 has one Test at 08:30; canonical and old Moodle links retain Law practice and select the actual task',async({page})=>{
+ const id='4a1dfc8941791503106e8a3354cfb70f061bc2b5713825f53f08edb0cb5c25ed';
+ const source=deadlines.find(entry=>entry.id===id);
+ expect(source).toBeTruthy();
+ expect(source.calendar_type).toBe('test');
+ expect(deadlineId(source)).toBe('law-test');
+ await openMonth(page,'2026-11');
+ const day=page.locator('[data-date="2026-11-19"]');
+ await day.click();
+ await expect(day.locator('.calendar-chip')).toHaveCount(1);
+ await expect(day.locator('.calendar-chip.test')).toHaveCount(1);
+ await expect(day.locator('.mobile-event-dots .test')).toHaveCount(1);
+ await expect(page.locator('.selected-events .event-card')).toHaveCount(1);
+ await expect(selectedLink(page,'law-test').locator('.event-type')).toHaveText('Test');
+ await expect(selectedLink(page,'law-test')).toContainText('08:30');
+ for(const eventId of ['law-test','moodle-deadline-'+id]){
+  await page.goto(`./#/events/${eventId}`);
+  await expect(page.locator('.event-banner.test')).toHaveCount(1);
+  await expect(page.locator('.event-banner strong')).toContainText('08:30');
+  await expect(page.locator('.event-banner strong')).toContainText('Praha');
+  await expect(page.locator('.event-banner .banner-title')).toHaveText(source.title);
+  await expect(page.getByRole('tab',{name:'Podklady a procvičování',exact:true})).toHaveAttribute('aria-selected','true');
+  await expect(page.locator('[data-study-module="law"]')).toBeVisible();
+  const assignment=page.getByRole('link',{name:'Zadání testu',exact:true});
+  await expect(assignment).toHaveAttribute('href',`#/units/moodle-law-e34a26cc76ae3e441e97436d2360a95f?tab=tasks&assignment=${id}`);
+  await assignment.click();
+  await expect(page.getByRole('tab',{name:'Úkoly',exact:true})).toHaveAttribute('aria-selected','true');
+  const selected=page.locator('.task-card[data-selected-assignment="true"]');
+  await expect(selected).toHaveCount(1);
+  await expect(selected).toHaveAttribute('data-assignment-id','moodle-'+id);
+  await expect(selected.getByRole('heading',{name:source.title,exact:true})).toBeVisible();
+  await expect(selected.locator('.task-deadline time')).toHaveAttribute('datetime','2026-11-19T07:30:00.000Z');
+ }
+ await fits(page);
 });

@@ -1,5 +1,5 @@
 import {subjectLayout,supplementsForUnit,canonicalUnitHref,categoryMaterials,selectedSupplement,parentsForSupplement} from './subject-layout.js';
-import {subjects,units,events,getSubject,getUnit,eventContext,eventTypes,moduleLoaders} from './data.js';
+import {subjects,units,events,getSubject,getUnit,getEvent,eventContext,eventTypes,moduleLoaders} from './data.js';
 import {calendarDays,pragueToday,parseDate} from './calendar.js';
 import {icon} from './icons.js';
 import {createNavigation,routeInfo} from './navigation.js';
@@ -153,7 +153,7 @@ function renderPractice() {
 
 async function renderUnit(unit,event,params,version) {
   const s=getSubject(unit.subjectId);
-  const requestedTab=params.get('tab')||(event?.type==='homework'||event?.sourceAssignmentId?'tasks':'tools');
+  const requestedTab=params.get('tab')||(event?.type==='homework'||event?.origin==='moodle'&&event?.sourceAssignmentId&&!event?.preparationUnitId?'tasks':'tools');
   activeTab=requestedTab==='progress'?'tasks':['tools','materials','tasks'].includes(requestedTab)?requestedTab:'tools';
   const unitEvents=events.filter(e=>e.unitId===unit.id);
   const supplements=supplementsForUnit(unit.id,units),supplement=selectedSupplement(unit,params,units);
@@ -161,6 +161,15 @@ async function renderUnit(unit,event,params,version) {
   document.title=`${event?event.title:unit.title} — Studilo`;
   main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><a href="#/subjects">Předměty</a><span>/</span><a href="#/subjects/${s.id}">${s.name}</a></div><section class="unit-hero" style="${subjectStyle(s)}"><div class="unit-subject"><span class="subject-icon">${icon(s.icon)}</span><span>${s.name}</span></div><p class="eyebrow">${unit.label==='UNIT 2'?'LAW · VÝUKOVÁ JEDNOTKA':unit.label||'STUDIJNÍ JEDNOTKA'}</p>${unit.label==='UNIT 2'?`<h1 class="law-unit-heading">UNIT 2</h1><h2 class="unit-topic">${esc(unit.title)}</h2>`:`<h1>${esc(unit.title)}</h1>`}${unit.module?`<details class="unit-about" ${matchMedia('(min-width: 901px)').matches?'open':''}><summary>O tématu</summary><p class="unit-description">${esc(unit.description)}</p></details>`:`<p class="unit-description">${esc(unit.description)}</p>`}${event?`<div class="event-banner ${event.type}">${icon('calendar')}<strong>${eventDateLabel(event)}</strong><span>${eventTypes[event.type]}</span><span class="banner-title">${esc(event.title)}</span></div>`:unitEvents.length?`<div class="unit-event-links">${unitEvents.map(e=>`<a href="#/events/${e.id}">${icon('calendar')}${eventDateLabel(e)} <span>· ${esc(e.title)}</span>${icon('arrow')}</a>`).join('')}</div>`:''}</section>
     <div class="unit-tabs" role="tablist" aria-label="Obsah tématu"><button role="tab" aria-label="Podklady a procvičování" data-tab="tools" id="unit-tab-tools" aria-controls="unit-panel">${icon('layers')}<span class="tab-label-long">Podklady a procvičování</span><span class="tab-label-short" aria-hidden="true">Studovat</span></button><button role="tab" aria-label="Materiály" data-tab="materials" id="unit-tab-materials" aria-controls="unit-panel">${icon('file')}<span class="tab-label-long">Materiály</span><span class="tab-label-short" aria-hidden="true">Materiály</span></button><button role="tab" aria-label="Úkoly" data-tab="tasks" id="unit-tab-tasks" aria-controls="unit-panel">${icon('calendar')}<span>Úkoly</span></button></div><section class="unit-content" id="unit-panel" role="tabpanel" aria-labelledby="unit-tab-${activeTab}"></section>`;
+  if(event?.assignmentUnitId&&event.sourceAssignmentId){
+    const assignmentUnit=getUnit(event.assignmentUnitId);
+    if(assignmentUnit?.subjectId===unit.subjectId){
+      const [path,query='']=canonicalUnitHref(assignmentUnit,units).split('?');
+      const targetParams=new URLSearchParams(query);targetParams.set('tab','tasks');targetParams.set('assignment',event.sourceAssignmentId);
+      const link=document.createElement('a');link.className='button event-assignment-link';link.href=`${path}?${targetParams}`;link.textContent=event.type==='test'?'Zadání testu':'Zadání úkolu';
+      main.querySelector('.unit-hero').append(link);
+    }
+  }
   for(const b of main.querySelectorAll('[data-tab]')) b.onclick=()=>{
     const path=location.hash.split('?')[0];
     const next=new URLSearchParams(params);next.set('tab',b.dataset.tab);navigation.navigate(`${path}?${next}`);
@@ -185,7 +194,8 @@ async function renderUnit(unit,event,params,version) {
     const host=panel.firstElementChild;
     host.style.setProperty('--subject',s.color);host.style.setProperty('--tint',s.tint);
     try {
-      const cleanup=await mountAssignments(host,{unit,units,events,assignmentId:event?.sourceAssignmentId||params.get('assignment'),signal:abort.signal});
+      const tasksUnit=event?.assignmentUnitId?getUnit(event.assignmentUnitId)||unit:unit;
+      const cleanup=await mountAssignments(host,{unit:tasksUnit,units,events,assignmentId:event?.sourceAssignmentId||params.get('assignment'),signal:abort.signal});
       if(version!==routeVersion||abort.signal.aborted)cleanup?.();
       else cleanupModule=()=>{abort.abort();cleanup?.();};
     } catch(error) {
@@ -249,14 +259,15 @@ async function route({scroll=0,restore=false}={}) {
   const params=new URLSearchParams(search);
   document.title='Studilo — Studuj v klidu.';
   const section=segments[0];
-  const schoolEvent=section==='events'?events.find(event=>event.id===segments[1]&&!event.unitId):null;
+  const matchedEvent=section==='events'?getEvent(segments[1]):null;
+  const schoolEvent=matchedEvent&&!matchedEvent.unitId?matchedEvent:null;
   document.querySelectorAll('[data-nav]').forEach(a=>{const active=section!=='settings'&&a.dataset.nav===(section==='practice'?'practice':section&&!schoolEvent?'subjects':'calendar');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
   if(!section)renderCalendar();
   else if(section==='subjects'&&!segments[1])renderSubjects();
   else if(section==='practice')renderPractice();
   else if(section==='settings') {document.title='Nastavení — Studilo';cleanupModule=mountSettings(main);}
   else if(section==='events'||section==='units'||section==='subjects') {
-    const event=section==='events'?events.find(e=>e.id===segments[1]):null;
+    const event=matchedEvent;
     const subjectUnits=section==='subjects'?units.filter(u=>u.subjectId===segments[1]):[];
     const unit=event?getUnit(event.unitId):section==='units'?getUnit(segments[1]):subjectUnits[0];
     if(section==='subjects'&&getSubject(segments[1]))renderSubject(getSubject(segments[1]));

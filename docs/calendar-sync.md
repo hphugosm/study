@@ -4,16 +4,24 @@ Kalendář načítá při spuštění veřejný `modules/moodle-sync/feed.json`,
 
 ## Přiřazení a druh termínu
 
-`src/moodle-calendar.js` vybírá jen schválené aktuální veřejné položky přiřazené k jediné přesné dvojici předmět/téma. Výstup doplňuje původních šest ručně zadaných událostí; nezasahuje do jejich dat ani identifikátorů.
+`src/moodle-calendar.js` vybírá jen schválené aktuální veřejné položky přiřazené k jediné přesné dvojici předmět/téma. Původních šest ručních záznamů zůstává jako záložní data. Výslovně potvrzená duplicita se zobrazí jednou s přesným termínem z Moodlu a původním odkazem na přípravu.
 
 - `assignment.due` je přesný deadline, nikoli čas začátku testu. Položka bez termínu se do kalendáře nevkládá.
-- Kalendářový `event` potřebuje výslovně zkontrolované `calendar_type` (`homework` nebo `test`) a `calendar_role` (`deadline` nebo `scheduled`). Test má roli `scheduled`. Okna `opens` a `closes` se do kalendáře termínů nezahrnují.
+- Kalendářový `event` potřebuje výslovně zkontrolované `calendar_type` (`homework` nebo `test`) a `calendar_role` (`deadline` nebo `scheduled`). Test může mít i zveřejněný deadline; samotné označení Test nedomýšlí čas zahájení. Okna `opens` a `closes` se do kalendáře termínů nezahrnují.
 - Identifikátor termínu úkolu je `moodle-deadline-<veřejné ID úkolu>`. Kalendářová událost používá `moodle-event-<veřejné ID události>`. Názvy nefungují jako identifikátory a neodvozují se z nich data.
 - Událost s ověřeným `related_assignment`, shodným tématem a stejným okamžikem se sloučí s deadlinem úkolu. Shodný den či podobný název sám nestačí. Změna času zachová stejné ID a nahradí původní termín.
 
-První přehled má 24 doložených deadlinů. Dalších 24 školních kalendářových záznamů popisuje stejné okamžiky, proto se zobrazí stále jen 24 událostí. Celkem 45 časů otevření nebo uzavření zůstalo nepublikovaných. Tyto časy nejsou důkazem dalších 45 testů.
+Po opravě uživatelem potvrzené duplicity je v kalendáři 29 událostí: 24 termínů z Moodlu a pět dalších ručních akcí. Ruční `law-test` se se svým zdrojovým Quizem sloučí do jednoho z těchto 24 termínů. První přehled má 24 doložených deadlinů. Dalších 24 školních kalendářových záznamů popisuje stejné okamžiky, proto se zobrazí stále jen 24 událostí. Celkem 45 časů otevření nebo uzavření zůstalo nepublikovaných. Tyto časy nejsou důkazem dalších 45 testů.
 
 UTC sekundy se převádějí do `Europe/Prague` včetně letního času a případného posunu na sousední kalendářní den. Kalendář i detail ukazují skutečný český čas. Historické termíny zůstávají v původním měsíci a neznamenají, že uživatel něco neodevzdal. Úkol z kalendáře otevře záložku Úkoly s odpovídající kartou na prvním místě a zvýrazněnou. Původní moduly zůstávají dostupné v záložce Studovat.
+
+## Oprava typu a ruční duplicity
+
+Uživatel výslovně potvrdil, že původní `law-test` a „Quiz 2 - American System, Court, and Precedent“ dne 19. 11. 2026 jsou stejná událost. Záznam v `src/data.js` má proto přesné `sourceAssignmentId` a `sourceAssignmentUnitId`. Spojení se nepřenáší na jiný úkol stejného dne nebo podobného názvu.
+
+Sloučená událost přebírá přesný název, typ Test a termín 08:30 z Moodlu, ponechá kanonické `law-test` a původní výukový modul. Původní importovaný odkaz funguje jako alias. Odkaz „Zadání testu“ vede na konkrétní školní zadání; záložka Úkoly ve sloučeném detailu používá stejné zadání. Při změně času zůstane jedna událost. Při chybějícím zdroji funguje původní ruční záznam bez domyšlené hodiny.
+
+Všechny publikované úkoly mají výslovně zkontrolované `calendar_type`. Sedm položek Quiz/Test včetně připomínek testů je označeno jako Test; zbývajících 25 jsou domácí úkoly. „Procvičování na test“, běžné čtení ani práce na známku samy o sobě nejsou oznámením testu. Nový zdroj klasifikuj už při kontrole a publikaci; nenechávej Quiz implicitně jako domácí úkol. Název rozhoduje o druhu aktivity, nikdy se z něj neodvozuje chybějící datum nebo hodina.
 
 ## Termín uvedený pouze v textu
 

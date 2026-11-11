@@ -1,9 +1,9 @@
-import { events, getSubject, getUnit } from './data.js';
+import { getEvent, getSubject, getUnit } from './data.js';
 
 export function routeInfo(hash = '#/') {
   const [path] = hash.replace(/^#/, '').split('?');
   const [section, id] = path.split('/').filter(Boolean);
-  const event = section === 'events' ? events.find(item => item.id === id) : null;
+  const event = section === 'events' ? getEvent(id) : null;
   const unit = event ? getUnit(event.unitId) : section === 'units' ? getUnit(id) : null;
   const subject = getSubject(unit?.subjectId || (section === 'subjects' ? id : ''));
   return {
