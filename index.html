@@ -34,6 +34,7 @@
   <header class="site-header">
     <div class="header-inner">
       <div class="brand-block"><a class="wordmark" href="#/" aria-label="Studilo — Kalendář">Studi<span>lo</span></a><span id="page-context" class="header-context">Kalendář</span></div>
+      <a id="notification-bell" class="notification-bell" href="#/notifications" aria-label="Novinky"><span data-icon="bell"></span><span data-unread hidden></span></a>
       <div class="history-controls" role="group" aria-label="Přecházení mezi stránkami">
         <button id="page-back" class="history-button" type="button" aria-label="Zpět" disabled><span data-icon="left"></span></button>
         <button id="page-forward" class="history-button" type="button" aria-label="Vpřed" disabled><span data-icon="right"></span></button>
@@ -48,7 +49,7 @@
   </header>
   <div id="app-update-status" class="app-update-status" role="status" aria-live="polite" hidden></div>
   <main id="main" tabindex="-1"></main>
-  <footer class="site-footer"><a href="#/" class="footer-brand">Studilo</a><a class="settings-link" href="./modules/moodle-sync/index.html">Novinky ze školy</a><a class="settings-link" href="#/settings"><span data-icon="settings"></span>Nastavení</a></footer>
+  <footer class="site-footer"><a href="#/" class="footer-brand">Studilo</a><a class="settings-link" href="./modules/moodle-sync/index.html">Novinky ze školy</a><a class="settings-link" href="#/settings"><span data-icon="settings"></span>Nastavení</a><button class="settings-link" id="send-feedback" type="button"><span data-icon="message"></span>Zpětná vazba</button></footer>
   <noscript>Pro zobrazení kalendáře a procvičování zapni JavaScript.</noscript>
 </body>
 </html>

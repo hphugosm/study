@@ -186,7 +186,8 @@ async function rangedResponse(request, response) {
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   if (event.request.method !== 'GET' || url.origin !== self.location.origin || !url.href.startsWith(BASE)) return;
-  if (url.href === MANIFEST_URL || url.pathname === new URL('sw.js', BASE).pathname) return;
+  // News must see the latest approved deployment even while the app uses an older offline package.
+  if (url.href === MANIFEST_URL || ['sw.js','notifications.json'].some(file=>url.pathname===new URL(file,BASE).pathname)) return;
   event.respondWith((async () => {
     const cache = await caches.open(CACHE_NAME);
     if (event.request.mode === 'navigate' && [new URL(BASE).pathname, new URL(INDEX_URL).pathname].includes(url.pathname)) {
@@ -196,6 +197,35 @@ self.addEventListener('fetch', event => {
     const cached = await cache.match(url.href);
     if (cached) return rangedResponse(event.request, cached);
     return fetch(event.request);
+  })());
+});
+
+function notificationTarget(hash) {
+  if(typeof hash!=='string'||hash.length>1000||!/^#\/(?:units|events)\/[a-zA-Z0-9_-]+(?:\?[^\s<>]*)?$/.test(hash))return null;
+  const params=new URLSearchParams(hash.split('?')[1]||'');
+  const keys=new Set();
+  for(const [key,value] of params){if(keys.has(key)||!['tab','mode','supplement','assignment'].includes(key)||!/^[a-zA-Z0-9_-]{1,200}$/.test(value))return null;keys.add(key);}
+  return new URL(hash,BASE).href;
+}
+self.addEventListener('push',event=>{
+  event.waitUntil((async()=>{
+    let payload;try{payload=event.data?.json();}catch{return;}
+    const clean=value=>typeof value==='string'&&value.length>0&&value.length<=500&&!/[<>\u0000-\u001f]/.test(value);
+    if(payload?.schema!==1||!/^[a-f0-9]{64}$/.test(payload.id)||!clean(payload.title)||!clean(payload.body)||!Number.isSafeInteger(payload.expiresAt)||payload.expiresAt<=Date.now())return;
+    const url=notificationTarget(payload.url);if(!url)return;
+    await self.registration.showNotification(payload.title,{body:payload.body,tag:`study:${payload.id}`,icon:new URL('assets/icons/icon-192.png',BASE).href,badge:new URL('assets/icons/icon-192.png',BASE).href,data:{hash:payload.url,expiresAt:payload.expiresAt},renotify:false});
+  })());
+});
+self.addEventListener('notificationclick',event=>{
+  event.notification.close();
+  event.waitUntil((async()=>{
+    const data=event.notification.data;
+    if(!Number.isSafeInteger(data?.expiresAt)||data.expiresAt<=Date.now())return;
+    const url=notificationTarget(data.hash);if(!url)return;
+    const windows=await self.clients.matchAll({type:'window',includeUncontrolled:true});
+    const existing=windows.find(client=>client.url.startsWith(BASE));
+    if(existing){try{await existing.navigate(url);await existing.focus();existing.postMessage({type:'STUDY_NEWS_CHANGED'});return;}catch{/* A window can close between discovery and focus. */}}
+    await self.clients.openWindow(url);
   })());
 });
 

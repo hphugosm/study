@@ -124,3 +124,33 @@
   .settings-toggle > span { gap: 8px; }
   .settings-toggle .setting-help { font-size: 12px; }
 }
+/* News uses the same device-local choices and theme as the study tools. */
+.notification-bell{position:relative;display:grid;place-items:center;flex-shrink:0;min-width:44px;min-height:44px;border:1px solid var(--study-line);border-radius:12px;color:var(--study-muted);background:var(--study-surface)}
+.notification-bell.active,.notification-bell:hover{color:var(--study-accent);background:var(--study-accent-soft)}
+.notification-bell [data-unread]{position:absolute;top:-5px;right:-5px;min-width:20px;padding:1px 5px;border-radius:20px;background:var(--study-accent);color:var(--study-accent-ink);font-size:11px;text-align:center}
+.notification-bell [hidden]{display:none}
+.notification-center{max-width:860px;margin:0 auto 24px;font-size:16px;line-height:1.65}
+.notification-center h1{font-size:clamp(30px,5vw,42px);margin-bottom:10px}
+.notification-center>p{color:var(--study-muted);margin-bottom:20px}
+.notification-settings{padding:18px 22px;border:1px solid var(--study-line);border-radius:16px;background:var(--study-surface);margin:24px 0}
+.notification-settings summary{cursor:pointer;font-weight:600;min-height:32px}
+.notification-settings fieldset{border:0;border-top:1px solid var(--study-line);margin:18px 0 0;padding:14px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px}
+.notification-settings legend{font-weight:600;padding:0 8px 0 0}
+.notification-choice{display:flex;align-items:center;gap:12px;padding:9px 0;min-height:44px;cursor:pointer}
+.notification-choice input{width:20px;height:20px;flex-shrink:0;accent-color:var(--study-accent)}
+.notification-center button{min-height:44px;padding:10px 16px;border:1px solid var(--study-line);border-radius:10px;color:var(--study-text);background:var(--study-surface);font:inherit;cursor:pointer}
+.notifications-list{list-style:none;padding:0;display:grid;gap:12px;margin:20px 0}
+.notifications-list li{padding:18px 22px;border:1px solid var(--study-line);border-radius:14px;background:var(--study-surface);display:grid;gap:5px}
+.notifications-list li.notification-unread{border-left:4px solid var(--study-accent)}
+.notifications-list li>span,.notifications-list time{font-size:13px;color:var(--study-muted)}
+.notifications-list a{font-size:18px;line-height:1.45;color:var(--study-text);overflow-wrap:anywhere}
+.notifications-error,.notifications-storage-error{padding:14px;border:1px solid var(--study-line);border-radius:10px}
+.push-settings{max-width:860px;margin:24px auto}
+.push-settings .push-settings{margin:18px 0 0}
+.push-settings>summary{font-size:16px;font-weight:600;cursor:pointer;min-height:30px}
+.push-settings h2{font-size:22px;line-height:1.35;margin-bottom:14px}
+.push-settings p{font-size:15px;line-height:1.7;margin-bottom:15px;color:var(--study-muted)}
+.push-settings button{padding:10px 15px;margin:4px 8px 4px 0;border:1px solid var(--study-line);border-radius:10px;font:inherit;font-size:14px;background:var(--study-surface);color:var(--study-text);cursor:pointer}
+.push-settings button:disabled{opacity:.55;cursor:default}
+.site-footer button.settings-link{font:inherit;cursor:pointer;display:flex;align-items:center;gap:6px;color:var(--study-muted);min-height:44px}
+@media(max-width:540px){.notification-settings{padding:16px}.notification-settings fieldset{grid-template-columns:1fr}.notifications-list li{padding:16px}.header-inner{gap:7px}.history-button{width:36px}.header-context{max-width:95px}.notification-bell{min-width:40px;min-height:40px}}

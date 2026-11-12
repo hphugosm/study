@@ -9,8 +9,18 @@ import {mountSettings} from './settings.js';
 import {initPwa,notifyPwaRoute} from './pwa.js';
 import {mountAssignments} from './assignments.js';
 import {moodleCalendarEvents,mergeCalendarEvents} from './moodle-calendar.js';
+import {initNotificationCenter} from './notifications.js';
+import {openFeedbackDialog} from './feedback.js';
+import {mountPushSettings} from './push-settings.js';
+import {communityConfig} from './community-config.js';
 
 const main = document.querySelector('main');
+const notificationBell=document.querySelector('#notification-bell');
+let refreshPushSettings;
+const notificationCenter=initNotificationCenter({subjects,onPreferencesChange(){refreshPushSettings?.();},onChange(count){
+  notificationBell.setAttribute('aria-label',count?`Novinky, ${count} ${count===1?'nepřečtená':count<=4?'nepřečtené':'nepřečtených'}`:'Novinky');
+  const badge=notificationBell.querySelector('[data-unread]');badge.textContent=count>99?'99+':String(count);badge.hidden=!count;
+}});
 const manualEvents=events.slice();
 let calendarLoadFailed=false;
 let calendarLoading=false;
@@ -270,11 +280,21 @@ async function route({scroll=0,restore=false}={}) {
   const section=segments[0];
   const matchedEvent=section==='events'?getEvent(segments[1]):null;
   const schoolEvent=matchedEvent&&!matchedEvent.unitId?matchedEvent:null;
-  document.querySelectorAll('[data-nav]').forEach(a=>{const active=section!=='settings'&&a.dataset.nav===(section==='practice'?'practice':section&&!schoolEvent?'subjects':'calendar');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+  document.querySelectorAll('[data-nav]').forEach(a=>{const active=!['settings','notifications'].includes(section)&&a.dataset.nav===(section==='practice'?'practice':section&&!schoolEvent?'subjects':'calendar');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+  notificationBell.classList.toggle('active',section==='notifications');
+  if(section==='notifications')notificationBell.setAttribute('aria-current','page');else notificationBell.removeAttribute('aria-current');
   if(!section)renderCalendar();
   else if(section==='subjects'&&!segments[1])renderSubjects();
   else if(section==='practice')renderPractice();
   else if(section==='settings') {document.title='Nastavení — Studilo';cleanupModule=mountSettings(main);}
+  else if(section==='notifications') {
+    document.title='Novinky — Studilo';
+    main.innerHTML='<div data-inbox></div><details class="settings-card push-settings"><summary>Upozornění na telefon</summary><div data-push></div></details>';
+    const offInbox=notificationCenter.mount(main.querySelector('[data-inbox]'));
+    const offPush=mountPushSettings(main.querySelector('[data-push]'),{config:communityConfig,preferences:()=>notificationCenter.getPreferences()});
+    refreshPushSettings=offPush.refresh;
+    cleanupModule=()=>{offInbox();offPush?.();refreshPushSettings=null;};
+  }
   else if(section==='events'||section==='units'||section==='subjects') {
     const event=matchedEvent;
     const subjectUnits=section==='subjects'?units.filter(u=>u.subjectId===segments[1]):[];
@@ -302,6 +322,12 @@ const navigation=createNavigation(state=>{
 });
 backButton.onclick=()=>navigation.back();
 forwardButton.onclick=()=>navigation.forward();
+document.querySelector('#send-feedback').onclick=()=>{
+  const {subject,unit}=routeInfo(location.hash);
+  openFeedbackDialog({config:communityConfig,context:subject&&unit?.topicId?{subject:subject.id,topic:unit.topicId}:undefined});
+};
 initPreferences();
 navigation.start();
+void notificationCenter.refresh();
+navigator.serviceWorker?.addEventListener('message',event=>{if(event.data?.type==='STUDY_NEWS_CHANGED')void notificationCenter.refresh();});
 initPwa().catch(error=>console.info('Offline příprava zatím není dostupná.',error));

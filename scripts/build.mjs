@@ -2,6 +2,7 @@ import { cp, mkdir, rm, readdir, readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import {generateNotifications} from './generate-notifications.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const dist = path.join(root, 'dist');
@@ -15,6 +16,8 @@ for (const name of ['index.html', 'styles.css', 'themes.css', 'settings.css', 's
   });
 }
 await cp(path.join(root, '.nojekyll'), path.join(dist, '.nojekyll'));
+// Stable approved-data snapshot participates in the same verified offline build hash.
+await generateNotifications(root,{output:path.join(dist,'notifications.json')});
 
 async function walk(directory) {
   const files = [];
