@@ -712,7 +712,7 @@
           "origin": "moodle",
           "course_variant": "JU3AB",
           "section_order": 4,
-          "available": false,
+          "available": true,
           "listed_current": true
         },
         {

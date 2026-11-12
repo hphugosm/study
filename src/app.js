@@ -1,3 +1,4 @@
+import {validateExternalResources} from '../modules/moodle-sync/external.js';
 import {subjectLayout,supplementsForUnit,canonicalUnitHref,categoryMaterials,selectedSupplement,parentsForSupplement} from './subject-layout.js';
 import {subjects,units,events,getSubject,getUnit,getEvent,eventContext,eventTypes,moduleLoaders} from './data.js';
 import {calendarDays,pragueToday,parseDate} from './calendar.js';
@@ -59,6 +60,12 @@ function calendarWarning(){return calendarLoadFailed?'<div class="calendar-sync-
 
 document.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=icon(el.dataset.icon));
 
+function externalResources(unit){
+ const seen=new Set();return [unit,...supplementsForUnit(unit.id,units)].filter(item=>item.available!==false).flatMap(item=>{if(!item.externalResources)return [];return validateExternalResources({schema:1,subject_id:item.subjectId,topic_id:item.topicId,resources:item.externalResources},{subjectId:item.subjectId,topicId:item.topicId}).resources;}).filter(resource=>{if(seen.has(resource.id))return false;seen.add(resource.id);return true;});
+}
+function externalResourcesHTML(resources){
+ if(!resources.length)return '';return `<section class="external-resources"><h2>Přednáška na YouTube</h2><div class="materials-grid">${resources.map(resource=>`<a class="material-card external-video" href="${esc(resource.url)}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"><div><p class="eyebrow">YouTube · externí video</p><h3>${esc(resource.title)}</h3><p>Otevřít přednášku na YouTube</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div></section>`;
+}
 function eventCard(event,compact=false) {
   const {unit} = eventContext(event);
   const subject = eventSubject(event);
@@ -184,7 +191,8 @@ async function renderUnit(unit,event,params,version) {
   }
   const panel=main.querySelector('#unit-panel');
   if(activeTab==='materials') {
-    panel.innerHTML=`<div class="panel-intro"><h2>Materiály po ruce.</h2><p>Původní studijní podklady, připravené ke čtení i stažení.</p></div>${materials.length?`<div class="materials-grid">${materials.map(m=>`<a class="material-card" href="${esc(m.url)}" target="_blank" rel="noopener">${icon('file')}<div><h3>${esc(m.title)}</h3><p>${esc(m.description)}</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div>`:emptyMaterials()}`;
+    const external=externalResources(unit);
+    panel.innerHTML=`<div class="panel-intro"><h2>Materiály po ruce.</h2><p>${external.length?'Původní studijní podklady a ověřené externí odkazy.':'Původní studijní podklady, připravené ke čtení i stažení.'}</p></div>${materials.length?`<div class="materials-grid">${materials.map(m=>`<a class="material-card" href="${esc(m.url)}" target="_blank" rel="noopener">${icon('file')}<div><h3>${esc(m.title)}</h3><p>${esc(m.description)}</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div>`:external.length?'':emptyMaterials()}${externalResourcesHTML(external)}`;
     return;
   }
   if(activeTab==='tasks') {
@@ -219,8 +227,9 @@ async function renderUnit(unit,event,params,version) {
     return;
   }
   if(!unit.module&&unit.origin==='moodle') {
+    const external=externalResources(unit);
     const related=(unit.legacyUnitIds||[]).map(getUnit).filter(Boolean);
-    panel.innerHTML=`<div class="panel-intro"><h2>${unit.available===false?'Téma nyní není zpřístupněné.':unit.materials.length?'Původní podklady k tématu.':'Podklady zatím nejsou zveřejněné.'}</h2><p>${unit.available===false?'Zobrazuje se skutečná položka školního kurzu. Nové výpisky se zde nevytvářejí bez dostupných podkladů.':unit.materials.length?'Můžeš otevřít schválené původní zdroje. Redakčně ověřené výpisky a procvičování se přidávají samostatně.':'Název i pořadí odpovídají školnímu kurzu. K tomuto tématu zatím nejsou dostupné schválené zdroje ani výpisky.'}</p></div>${unit.materials.length?`<div class="materials-grid">${unit.materials.map(material=>`<a class="material-card" href="${esc(material.url)}" target="_blank" rel="noopener"><div><h3>${esc(material.title)}</h3><p>Původní schválený zdroj</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div>`:''}${related.length?`<section class="legacy-tools"><h3>Související interaktivní nástroje</h3>${related.map(item=>`<a class="button" href="#/units/${item.id}">${esc(item.title)} ${icon('arrow')}</a>`).join('')}</section>`:''}`;
+    panel.innerHTML=`<div class="panel-intro"><h2>${unit.available===false?'Téma nyní není zpřístupněné.':external.length?'Přednáška k tématu.':unit.materials.length?'Původní podklady k tématu.':'Podklady zatím nejsou zveřejněné.'}</h2><p>${unit.available===false?'Zobrazuje se skutečná položka školního kurzu. Nové výpisky se zde nevytvářejí bez dostupných podkladů.':external.length?'Otevři ověřený odkaz na přednášku. Výpisky ani přepis zatím nejsou připravené.':unit.materials.length?'Můžeš otevřít schválené původní zdroje. Redakčně ověřené výpisky a procvičování se přidávají samostatně.':'Název i pořadí odpovídají školnímu kurzu. K tomuto tématu zatím nejsou dostupné schválené zdroje ani výpisky.'}</p></div>${unit.materials.length?`<div class="materials-grid">${unit.materials.map(material=>`<a class="material-card" href="${esc(material.url)}" target="_blank" rel="noopener"><div><h3>${esc(material.title)}</h3><p>Původní schválený zdroj</p></div><span>Otevřít ${icon('arrow')}</span></a>`).join('')}</div>`:''}${externalResourcesHTML(external)}${related.length?`<section class="legacy-tools"><h3>Související interaktivní nástroje</h3>${related.map(item=>`<a class="button" href="#/units/${item.id}">${esc(item.title)} ${icon('arrow')}</a>`).join('')}</section>`:''}`;
     return;
   }
   if(!unit.module) {

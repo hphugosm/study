@@ -1,8 +1,9 @@
 /** Deterministic bridge from reviewed public topics/sources to the existing Study registry. */
-import {readFile,writeFile} from 'node:fs/promises';
+import {readFile,writeFile,lstat} from 'node:fs/promises';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import path from 'node:path';
 import {validateCatalog,validateSources,MOODLE_SUBJECTS} from '../modules/moodle-sync/catalog.js';
+import {validateExternalResources} from '../modules/moodle-sync/external.js';
 import {validateContent} from '../modules/course-notes/index.js';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const palettes=[['#657f8a','#edf3f5','earth'],['#4d7659','#edf3ec','leaf'],['#7d8c64','#f0f3e9','flask'],['#9c7386','#f7eff4','book'],['#6d83a3','#eff3f9','physics'],['#678c89','#edf5f3','monitor'],['#6976a1','#eff0f8','scale'],['#ac8350','#f7f1e7','function'],['#9a806d','#f6f0eb','users'],['#8c789c','#f3eff7','book'],['#758b67','#eff4eb','earth']];
@@ -28,10 +29,13 @@ export async function generateCourseCatalog(directory=root,{write=true}={}){
   for(const topic of subject.topics){if(topic.origin!=='moodle'||topic.listed_current!==true)continue;
    const sourceIndex=validateSources(JSON.parse(await readFile(path.join(dataRoot,path.dirname(topic.index),'sources/index.json'),'utf8')));
    const sources=sourceIndex.sources.filter(source=>source.review_status==='approved');
+   let external=[];const externalPath=path.join(dataRoot,path.dirname(topic.index),'external/index.json');
+   try{const stat=await lstat(externalPath);if(!stat.isFile()||stat.isSymbolicLink()||stat.size>65536)throw new Error('unsafe_external_index');external=validateExternalResources(JSON.parse(await readFile(externalPath,'utf8')),{subjectId:subject.id,topicId:topic.id}).resources;}catch(error){if(error.code!=='ENOENT')throw error;}
    const contentPath=`modules/course-notes/content/${subject.id}/${topic.id}.json`;
    let content;
    try{content=validateContent(JSON.parse(await readFile(path.join(directory,contentPath),'utf8')));if(content.subject!==subject.id||content.topic!==topic.id||content.title!==topic.title)throw new Error('content_topic_mismatch');if(content.sources.length!==sources.length)throw new Error('content_topic_sources_incomplete');for(const source of content.sources)if(!sources.some(original=>original.id===source.id&&original.sha256===source.sha256&&(original.url||`modules/moodle-sync/${original.path}`)===source.url))throw new Error('content_source_not_in_topic');}catch(error){if(error.code!=='ENOENT')throw error;}
    const unit={id:`moodle-${subject.id}-${topic.id.replace(/^section-/,'')}`,subjectId:subject.id,topicId:topic.id,origin:'moodle',course_variant:topic.course_variant,section_order:topic.section_order,available:topic.available,listed_current:true,title:topic.title,label:topic.course_variant,sourceCount:sources.length,lessonCount:content?.lessons.length||0,questionCount:content?.questions?.length||0,description:topic.available===false?'Téma nyní není zpřístupněné.':content?.intro||(sources.length?'Původní schválené podklady jsou dostupné. Výpisky vznikají po redakční kontrole.':'Téma je v kurzu; zveřejněné podklady ani výpisky zatím nejsou k dispozici.'),materials:sources.map(source=>({title:source.title,description:'Původní schválený zdroj',url:source.url||`modules/moodle-sync/${source.path}`,sourceId:source.id,sha256:source.sha256}))};
+   if(external.length){unit.externalResources=external;if(!sources.length&&!content&&topic.available!==false)unit.description='Externí přednáška je dostupná. Výpisky zatím nejsou připravené.';}
    if(content?.lessons.length&&topic.available!==false){unit.content_url=contentPath;unit.module='course-notes';}
    const normalized=topic.title.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
    if(subject.id==='biology'&&normalized.includes('kosterni'))unit.legacyUnitIds=['skeleton'];

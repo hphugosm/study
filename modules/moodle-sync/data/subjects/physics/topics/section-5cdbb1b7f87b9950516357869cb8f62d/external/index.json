@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "subject_id": "physics",
+  "topic_id": "section-5cdbb1b7f87b9950516357869cb8f62d",
+  "resources": [
+    {
+      "id": "youtube-4Mkg-RYdcXE",
+      "kind": "video",
+      "provider": "youtube",
+      "video_id": "4Mkg-RYdcXE",
+      "url": "https://www.youtube.com/watch?v=4Mkg-RYdcXE",
+      "title": "Pavel Cejnar: Sedm životů Schrödingerovy kočky [PMF15.10.2026]",
+      "reviewed_on": "2026-11-12",
+      "review_status": "approved"
+    }
+  ]
+}

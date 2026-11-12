@@ -1734,14 +1734,14 @@ export const courseUnits = [
     "origin": "moodle",
     "course_variant": "JU3AB",
     "section_order": 4,
-    "available": false,
+    "available": true,
     "listed_current": true,
     "title": "The Contemporary Period: Southern Gothic",
     "label": "JU3AB",
     "sourceCount": 0,
     "lessonCount": 0,
     "questionCount": 0,
-    "description": "Téma nyní není zpřístupněné.",
+    "description": "Téma je v kurzu; zveřejněné podklady ani výpisky zatím nejsou k dispozici.",
     "materials": []
   },
   {
@@ -1952,8 +1952,20 @@ export const courseUnits = [
     "sourceCount": 0,
     "lessonCount": 0,
     "questionCount": 0,
-    "description": "Téma je v kurzu; zveřejněné podklady ani výpisky zatím nejsou k dispozici.",
-    "materials": []
+    "description": "Externí přednáška je dostupná. Výpisky zatím nejsou připravené.",
+    "materials": [],
+    "externalResources": [
+      {
+        "id": "youtube-4Mkg-RYdcXE",
+        "kind": "video",
+        "provider": "youtube",
+        "video_id": "4Mkg-RYdcXE",
+        "url": "https://www.youtube.com/watch?v=4Mkg-RYdcXE",
+        "title": "Pavel Cejnar: Sedm životů Schrödingerovy kočky [PMF15.10.2026]",
+        "reviewed_on": "2026-11-12",
+        "review_status": "approved"
+      }
+    ]
   },
   {
     "id": "moodle-physics-1a9c5a51b3353f256b0286a3efaf5e77",
