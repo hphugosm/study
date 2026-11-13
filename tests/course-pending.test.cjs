@@ -136,8 +136,8 @@ async function reviewedSolution(f,format='xlsx'){
  await put(f.contentFile(f.oldTopic),content);await put(f.manifestFile,f.manifest);return {solution,asset,content};
 }
 
-test('reviewed XLSX and PNG solutions retain exact metadata through preparation and source checks',async()=>{
- for(const format of ['xlsx','png']){const f=await fixture();try{
+test('reviewed XLSX, PNG and DOCX solutions retain exact metadata through preparation and source checks',async()=>{
+ for(const format of ['xlsx','png','docx']){const f=await fixture();try{
   const {asset,solution}=await reviewedSolution(f,format);const {generateCourseCatalog,checkCourseNotes}=await api();const {courseUnits}=await generateCourseCatalog(f.root,{write:false});
   assert.equal((await checkCourseNotes(f.root,{units:courseUnits,log:false})).solutions,1);
   const result=prepare(f);assert.equal(result.status,0,result.stderr);

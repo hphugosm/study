@@ -688,8 +688,8 @@ export const courseUnits = [
     "title": "Lipidy a biomembrány",
     "label": "JU3",
     "sourceCount": 5,
-    "lessonCount": 7,
-    "questionCount": 10,
+    "lessonCount": 17,
+    "questionCount": 13,
     "description": "Propoj strukturní vzorce lipidů s jejich vlastnostmi, membránami a metabolismem. Procvičíš rozdíl mezi mastnou kyselinou a triacylglycerolem, vznik mýdla i rozlišení syntézy a odbourávání mastných kyselin.",
     "materials": [
       {
@@ -2178,6 +2178,13 @@ export const courseUnits = [
         "sha256": "bb79139007924ded95ed1e8425dc897bae0b4022dcb2cebab88ba6f6691e742d"
       },
       {
+        "title": "Barevný rastr — horské jezero (studijní kopie)",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d.xlsx",
+        "sourceId": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
+        "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d"
+      },
+      {
         "title": "8_Encoding_sound_video.pptx",
         "description": "Původní schválený zdroj",
         "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/8f0654790c2a25abb489dc5920787b2637d23631fd790a303d5bf503059f442a.pptx",
@@ -2190,13 +2197,6 @@ export const courseUnits = [
         "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881.pptx",
         "sourceId": "6ab23d16363114a0a7fd1cfb255f8c1bfa4f55108ee56fb00ce85ad40ac28c58",
         "sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881"
-      },
-      {
-        "title": "Barevný rastr — horské jezero (studijní kopie)",
-        "description": "Původní schválený zdroj",
-        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d.xlsx",
-        "sourceId": "6df3b47e7dc794966856992a82f83c36d116ffcda3017175fde22caf9ce55447",
-        "sha256": "4abf2b12a2e51ec495d3dce96bb50a831cdfba0e0f34d0f4db5a080c888b507d"
       },
       {
         "title": "5_6_Efficient_and_reliable_encoding_5_Huff_6.pptx",

@@ -17,7 +17,7 @@ export function gradeQuestion(question,index) {
   return {correct:index===question.answer,answer:question.answer,explanation:question.explanation};
 }
 export function safeSolutionURL(solution) {
-  assert(solution&&['xlsx','png'].includes(solution.format)&&typeof solution.sha256==='string'&&hash.test(solution.sha256),'invalid_solution');
+  assert(solution&&['xlsx','png','docx'].includes(solution.format)&&typeof solution.sha256==='string'&&hash.test(solution.sha256),'invalid_solution');
   const expected=`https://github.com/hphugosm/study/releases/download/studylo-learning-v1/${solution.sha256}.${solution.format}`;
   assert(solution.url===expected,'unsafe_solution_url');
   return expected;
@@ -160,7 +160,7 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
     const inspector=el('section',undefined,'interactive-inspector');inspector.append(el('h3',lesson.interactive.title));const widget=el('div');inspector.append(widget,references(lesson.interactive));card.append(inspector);const cleanup=mountInteraction(widget,lesson.interactive);if(typeof cleanup==='function')interactionCleanups.push(cleanup);
   }
   function solutionDownloads(lesson){
-    const section=el('section',undefined,'lesson-solutions');section.setAttribute('aria-label','Hotové řešení');section.append(el('h3','Hotové vybarvení'));
+    const section=el('section',undefined,'lesson-solutions');section.setAttribute('aria-label','Hotové řešení');section.append(el('h3','Hotové studijní řešení'));
     const list=el('div',undefined,'solution-files');
     for(const solution of lesson.solutions){
       const box=el('article',undefined,'solution-file'),url=safeSolutionURL(solution),link=el('a',`Stáhnout ${solution.format.toUpperCase()} · ${Math.ceil(solution.size/1000)} kB`,'solution-download');

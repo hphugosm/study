@@ -42,7 +42,7 @@ def preserve_solutions(files, approved, prepared_hashes):
         if asset.get('kind') != 'solution':
             continue
         assert isinstance(asset.get('sha256'), str) and re.fullmatch(r'[a-f0-9]{64}', asset['sha256']), 'Invalid solution hash'
-        assert asset.get('format') in {'xlsx', 'png'}, 'Invalid solution format'
+        assert asset.get('format') in {'xlsx', 'png', 'docx'}, 'Invalid solution format'
         keys = {'kind', 'format', 'name', 'sha256', 'size', 'source_sha256s'}
         if asset['format'] == 'png':
             keys |= {'width', 'height'}
@@ -64,7 +64,7 @@ def preserve_solutions(files, approved, prepared_hashes):
             solutions = lesson.get('solutions', [])
             assert isinstance(solutions, list), 'Invalid lesson solutions'
             for solution in solutions:
-                assert isinstance(solution, dict) and solution.get('format') in {'xlsx', 'png'}, 'Invalid solution format'
+                assert isinstance(solution, dict) and solution.get('format') in {'xlsx', 'png', 'docx'}, 'Invalid solution format'
                 sha = solution.get('sha256')
                 assert isinstance(sha, str) and re.fullmatch(r'[a-f0-9]{64}', sha), 'Invalid solution hash'
                 name = sha+'.'+solution['format']

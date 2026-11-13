@@ -808,6 +808,629 @@
         }
       ],
       "summary": "Porovnáš ATP, ADP a AMP a odlišíš oxidované a redukované formy koenzymů v uvedených vzorcích."
+    },
+    {
+      "id": "pracovni-list-lipidy-1",
+      "title": "Pracovní list 1 · Co jsou lipidy",
+      "summary": "Vysvětlíš společné vlastnosti lipidů a dvě odlišné části polárních lipidů.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 1"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 2
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 26
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Co jsou to lipidy?",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vzorové studijní řešení všech deseti otázek přiloženého pracovního listu Lipidy. Případné další pokyny uvedené přímo v Moodlu zbývají ověřit.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lipidy jsou chemicky rozmanitá skupina organických látek, které jsou převážně hydrofobní: ve vodě se nerozpouštějí nebo jen málo, zato se rozpouštějí v nepolárních rozpouštědlech. Nejde jen o tuky. Některé, například fosfolipidy, mají nepolární i polární část; tuto vlastnost využívají při stavbě membrán.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 1"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 2
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 26
+            }
+          ]
+        }
+      ],
+      "solutions": [
+        {
+          "id": "lipidy-vypracovane-otazky",
+          "title": "Lipidy — všech 10 odpovědí s vysvětlením",
+          "format": "docx",
+          "sha256": "e5dd1d0551a1298ee4db8478af9bdeb9a38a4172493af926b1db03014c4c89f8",
+          "size": 37918,
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e5dd1d0551a1298ee4db8478af9bdeb9a38a4172493af926b1db03014c4c89f8.docx",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "celý pracovní list, otázky 1–10"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 2,
+              "locator": "výklad a vzorce, strany 2–8, 14–16, 21, 24 a 26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-2",
+      "title": "Pracovní list 2 · Hlavní skupiny lipidů",
+      "summary": "Rozdělíš lipidy do hlavních skupin a odlišíš tuky od ostatních lipidů.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 2"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 2
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 21
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 24
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Na jaké podskupiny dělíme lipidy?",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ve školním přehledu rozlišujeme triacylglyceroly (tuky), vosky, polární lipidy (např. fosfolipidy) a isoprenoidy včetně steroidů (např. cholesterolu). Podskupiny mají různé stavby i funkce; tuky jsou jen jednou skupinou lipidů.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 2"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 2
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 21
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-3",
+      "title": "Pracovní list 3 · Složení triacylglycerolů",
+      "summary": "Propojíš glycerol, tři mastné kyseliny a tři esterové vazby v molekule tuku.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 3"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 4
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 8
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Co jsou to triacylglyceroly? - chemické složení.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Triacylglyceroly jsou triestery glycerolu a tří mastných kyselin. Každá ze tří hydroxylových skupin glycerolu je spojena esterovou vazbou s acylovým zbytkem mastné kyseliny. Zjednodušená struktura je CH₂[O-C(=O)-R₁]-CH[O-C(=O)-R₂]-CH₂[O-C(=O)-R₃]. R₁, R₂ a R₃ označují uhlovodíkové řetězce; mohou být stejné i různé. Formální bilance vzniku: glycerol + 3 mastné kyseliny → triacylglycerol + 3 H₂O.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 3"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 4
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-4",
+      "title": "Pracovní list 4 · Mastná kyselina a tuk",
+      "summary": "Rozlišíš samostatnou mastnou kyselinu od jejího zbytku zabudovaného v tuku.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 4"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 4
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 14
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Jaký je rozdíl mezi triacylglycerolem a mastnou kyselinou?",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 4"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mastná kyselina je karboxylová kyselina s uhlovodíkovým řetězcem, obecně R-COOH; má volnou karboxylovou skupinu. Triacylglycerol je naproti tomu ester obsahující glycerolovou část a tři zbytky mastných kyselin. Mastná kyselina tedy není totéž co tuk: při esterifikaci se stává součástí triacylglycerolu a její karboxyl již není volným -COOH.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 4"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 4
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-5",
+      "title": "Pracovní list 5 · Funkce lipidů",
+      "summary": "Přiřadíš lipidům zásobní, strukturní, ochrannou a tepelně izolační funkci.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 5"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 3
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Jaké znáte funkce lipidů v organismu?",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Hlavní funkce lipidů jsou zásobní (zásobárna energie), strukturní (složky biologických membrán), ochranná (mechanická ochrana orgánů) a tepelně izolační. Různé skupiny lipidů plní různé role; nemusí všechny současně plnit tutéž funkci.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 5"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-6",
+      "title": "Pracovní list 6 · Esenciální mastné kyseliny",
+      "summary": "Odlišíš skupiny omega-3 a omega-6 a opravíš nepřesnost podkladu o délce řetězce.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 6"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 7
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Vysvětlete pojem esenciální mastné kyseliny. Jaké znáte dvě hlavní skupiny esenc. MK?",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 6"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Esenciální mastné kyseliny si lidský organismus nedokáže vytvořit v potřebné podobě, a proto je musí získat potravou. Základními zástupci jsou kyselina linolová, 18:2 n-6 (omega-6), a kyselina alfa-linolenová, 18:3 n-3 (omega-3, ALA). Dvě požadované skupiny jsou tedy omega-6 a omega-3. Ne každá mastná kyselina z těchto řad je automaticky základní esenciální MK: další jsou odvozené; u některých se podle situace rozlišuje podmíněná esencialita.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 6"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Upřesnění podkladu: tvrzení na straně 7 prezentace o 20-24 uhlících není obecným pravidlem esenciality; základní LA a ALA mají 18 uhlíků. Primární ověření: NIH Office of Dietary Supplements, Omega-3 Fatty Acids - Health Professional Fact Sheet, https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/ .",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 6"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-7",
+      "title": "Pracovní list 7 · Vzorec kyseliny laurové",
+      "summary": "Zapíšeš vzorec kyseliny laurové a ověříš počet uhlíků v řetězci.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 7"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Zapište vzorec kyseliny laurové.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 7"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kyselina laurová: CH₃-(CH₂)₁₀-COOH. Sumární vzorec je C₁₂H₂₄O₂. Kontrola uhlíků: 1 v koncovém CH₃ + 10 ve skupinách CH₂ + 1 v COOH = 12. Jde o nasycenou mastnou kyselinu.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 7"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-8",
+      "title": "Pracovní list 8 · Zmýdelnění a mýdla",
+      "summary": "Vysvětlíš zmýdelnění tuku a rozdíl mezi zmýdelnitelnými a nezmýdelnitelnými lipidy.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 8"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 3
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 15
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 16
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 21
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Dají se ze všech lipidů vyrobit mýdla? Dělíme je na nějaké skupiny?",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 8"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne, mýdlo nelze tímto způsobem vyrobit ze všech lipidů. Zmýdelnitelné lipidy mají štěpitelné esterové vazby a při zásadité hydrolýze poskytují soli mastných kyselin (mýdla); patří sem triacylglyceroly, přírodní esterové vosky a fosfolipidy s esterovými vazbami. Nezmýdelnitelné lipidy takovou esterovou část nemají - příkladem je volný cholesterol a další isoprenoidy. U triacylglycerolu proběhne: triacylglycerol + 3 NaOH → glycerol + R₁COONa + R₂COONa + R₃COONa. Vznikají soli kyselin, nikoli samotné volné mastné kyseliny; to je rozdíl oproti kyselé hydrolýze.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 8"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 3
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 15
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 16
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-9",
+      "title": "Pracovní list 9 · Vzorec kyseliny stearové",
+      "summary": "Zapíšeš vzorec kyseliny stearové a porovnáš jeho řetězec s kyselinou laurovou.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 9"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 6
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Zapište vzorec kyseliny stearové.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 9"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kyselina stearová: CH₃-(CH₂)₁₆-COOH. Sumární vzorec je C₁₈H₃₆O₂. Kontrola uhlíků: 1 + 16 + 1 = 18. Je to nasycená mastná kyselina; oproti laurové má o šest skupin CH₂ delší řetězec.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 9"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pracovni-list-lipidy-10",
+      "title": "Pracovní list 10 · Vzorec glycerolu",
+      "summary": "Zapíšeš glycerol a propojíš jeho tři hydroxylové skupiny se vznikem tuku.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 10"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 4
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zadání: Zapište chemický vzorec glycerolu.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 10"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Glycerol: HO-CH₂-CH(OH)-CH₂-OH, sumární vzorec C₃H₈O₃. Má tři hydroxylové skupiny, po jedné na každém uhlíku, proto je to trojsytný alkohol (propan-1,2,3-triol). Ve schématu triacylglycerolu jsou právě tyto tři -OH skupiny esterifikované.",
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+              "page": 1,
+              "locator": "otázka 10"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+              "page": 4
+            }
+          ]
+        }
+      ]
     }
   ],
   "flashcards": [
@@ -941,6 +1564,60 @@
         {
           "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
           "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063"
+        }
+      ]
+    },
+    {
+      "id": "list-kyselina-laurova",
+      "front": "Zapište vzorec kyseliny laurové.",
+      "back": "CH₃–(CH₂)₁₀–COOH; C₁₂H₂₄O₂. Uhlíky: 1 + 10 + 1 = 12.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 7"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "list-kyselina-stearova",
+      "front": "Zapište vzorec kyseliny stearové.",
+      "back": "CH₃–(CH₂)₁₆–COOH; C₁₈H₃₆O₂. Uhlíky: 1 + 16 + 1 = 18.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 9"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "list-vzorec-glycerolu",
+      "front": "Zapište chemický vzorec glycerolu.",
+      "back": "HO–CH₂–CH(OH)–CH₂–OH; C₃H₈O₃. Tři uhlíky a tři hydroxylové skupiny.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 10"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 4
         }
       ]
     }
@@ -1142,6 +1819,81 @@
           "id": "1d187122cf9421feba401eac0150d1ce5c7927447f4c484b556161c033f112f1",
           "sha256": "47afcdd6444419143e82e719fff38da633f052097b604035e35a17f9902a3063",
           "locator": "část Koenzymy oxidačně-redukčních reakcí"
+        }
+      ]
+    },
+    {
+      "id": "list-kyselina-laurova-kontrola",
+      "prompt": "Který sumární vzorec patří kyselině laurové?",
+      "options": [
+        "C₁₂H₂₄O₂",
+        "C₁₈H₃₆O₂",
+        "C₃H₈O₃",
+        "C₁₂H₂₂O₂"
+      ],
+      "answer": 0,
+      "explanation": "CH₃–(CH₂)₁₀–COOH; C₁₂H₂₄O₂. Uhlíky: 1 + 10 + 1 = 12.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 7"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "list-kyselina-stearova-kontrola",
+      "prompt": "Který sumární vzorec patří kyselině stearové?",
+      "options": [
+        "C₁₈H₃₆O₂",
+        "C₁₂H₂₄O₂",
+        "C₁₈H₃₄O₂",
+        "C₃H₈O₃"
+      ],
+      "answer": 0,
+      "explanation": "CH₃–(CH₂)₁₆–COOH; C₁₈H₃₆O₂. Uhlíky: 1 + 16 + 1 = 18.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 9"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "list-vzorec-glycerolu-kontrola",
+      "prompt": "Který sumární vzorec patří glycerolu?",
+      "options": [
+        "C₃H₈O₃",
+        "C₃H₆O₃",
+        "C₃H₈O₂",
+        "C₃H₆O₂"
+      ],
+      "answer": 0,
+      "explanation": "HO–CH₂–CH(OH)–CH₂–OH; C₃H₈O₃. Tři uhlíky a tři hydroxylové skupiny.",
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431",
+          "page": 1,
+          "locator": "otázka 10"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+          "page": 4
         }
       ]
     }

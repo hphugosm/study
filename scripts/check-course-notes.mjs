@@ -40,7 +40,7 @@ for(const asset of assets.values()){
  if(asset.kind==='solution'){
   const keys=['kind','format','name','sha256','size','source_sha256s',...(asset.format==='png'?['width','height']:[])];
   assert.deepEqual(new Set(Object.keys(asset)),new Set(keys),'Unexpected solution asset metadata');
-  assert.ok(['xlsx','png'].includes(asset.format),'Invalid solution format');assert.equal(asset.name,asset.sha256+'.'+asset.format,'Noncanonical solution asset name');
+  assert.ok(['xlsx','png','docx'].includes(asset.format),'Invalid solution format');assert.equal(asset.name,asset.sha256+'.'+asset.format,'Noncanonical solution asset name');
   assert.ok(asset.size<=25000000,'Oversize solution asset');
   assert.ok(Array.isArray(asset.source_sha256s)&&asset.source_sha256s.length>0&&asset.source_sha256s.every(hash=>hashes.has(hash)),'Unapproved solution source');
   assert.equal(new Set(asset.source_sha256s).size,asset.source_sha256s.length,'Duplicate solution provenance');

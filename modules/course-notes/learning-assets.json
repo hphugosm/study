@@ -1557,6 +1557,17 @@
       "source_sha256": "e53f42f01a11ebf6598bd74351f2fb7201213bae17117d7dde3f576b44215ead"
     },
     {
+      "kind": "solution",
+      "format": "docx",
+      "name": "e5dd1d0551a1298ee4db8478af9bdeb9a38a4172493af926b1db03014c4c89f8.docx",
+      "sha256": "e5dd1d0551a1298ee4db8478af9bdeb9a38a4172493af926b1db03014c4c89f8",
+      "size": 37918,
+      "source_sha256s": [
+        "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912",
+        "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+      ]
+    },
+    {
       "name": "e5ffbdf246458a96c3ddaf1ddc14007522251252f26635b98d2ff02b25fc7135.webp",
       "sha256": "e5ffbdf246458a96c3ddaf1ddc14007522251252f26635b98d2ff02b25fc7135",
       "size": 84022,
@@ -2604,12 +2615,12 @@
   ],
   "counts": {
     "topics": 42,
-    "lessons": 190,
-    "questions": 277,
-    "flashcards": 263,
+    "lessons": 200,
+    "questions": 280,
+    "flashcards": 266,
     "figures": 73,
     "steps": 205,
-    "solutions": 4
+    "solutions": 5
   },
   "extraction": {
     "approved_unique_sources": 125,
