@@ -130,3 +130,13 @@ test('denaturation attachment preparation is downloadable while the full prompt 
  await expect(card.locator('.task-text-solution,.task-files')).toHaveCount(0);
  await fits(page);
 });
+
+test('the unfinished experiment protocol keeps its preparation label inside the study notes',async({page})=>{
+ await page.goto('./#/units/moodle-chemistry-7c81652c3859af6be5d57780191a659f');
+ await page.getByText('Pokus s bílkem · Zadání a postup',{exact:true}).click();
+ const preparation=page.getByRole('region',{name:'Studijní příprava',exact:true});
+ await expect(preparation).toBeVisible();
+ await expect(preparation.getByRole('heading',{name:'Studijní příprava ke stažení',exact:true})).toBeVisible();
+ await expect(preparation.getByRole('link',{name:/Stáhnout:/})).toHaveAttribute('href','https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c.docx');
+ await fits(page);
+});

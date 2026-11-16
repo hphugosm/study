@@ -75,7 +75,7 @@ export function validateContent(data) {
     if(lesson.solutions!==undefined){
       assert(Array.isArray(lesson.solutions)&&lesson.solutions.length>0&&lesson.solutions.length<=12,'invalid_solutions');
       for(const solution of lesson.solutions){
-        identify(solution);safeSolutionURL(solution);refs(solution);
+        identify(solution);safeSolutionURL(solution);refs(solution);if(solution.preparation!==undefined)assert(typeof solution.preparation==='boolean','invalid_preparation_flag');
         assert(textOK(solution.title)&&Number.isSafeInteger(solution.size)&&solution.size>0&&solution.size<=25000000,'invalid_solution');
         if(solution.format==='png')assert(Number.isInteger(solution.width)&&solution.width>0&&solution.width<=4096&&Number.isInteger(solution.height)&&solution.height>0&&solution.height<=4096,'invalid_solution_dimensions');
       }
@@ -160,7 +160,7 @@ export async function mount(container,{unit={},mode='learn',onProgress}={}) {
     const inspector=el('section',undefined,'interactive-inspector');inspector.append(el('h3',lesson.interactive.title));const widget=el('div');inspector.append(widget,references(lesson.interactive));card.append(inspector);const cleanup=mountInteraction(widget,lesson.interactive);if(typeof cleanup==='function')interactionCleanups.push(cleanup);
   }
   function solutionDownloads(lesson){
-    const section=el('section',undefined,'lesson-solutions');section.setAttribute('aria-label','Hotové řešení');section.append(el('h3','Hotové studijní řešení'));
+    const preparation=lesson.solutions.every(solution=>solution.preparation===true);const section=el('section',undefined,'lesson-solutions');section.setAttribute('aria-label',preparation?'Studijní příprava':'Hotové řešení');section.append(el('h3',preparation?'Studijní příprava ke stažení':'Hotové studijní řešení'));
     const list=el('div',undefined,'solution-files');
     for(const solution of lesson.solutions){
       const box=el('article',undefined,'solution-file'),url=safeSolutionURL(solution),link=el('a',`Stáhnout ${solution.format.toUpperCase()} · ${Math.ceil(solution.size/1000)} kB`,'solution-download');
