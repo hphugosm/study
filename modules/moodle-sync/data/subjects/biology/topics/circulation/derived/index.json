@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "circulation",
+  "artifacts": [
+    {
+      "id": "circulation-atlas-v1",
+      "title": "Tělní tekutiny a cévní soustava — atlas a procvičování",
+      "kind": "other",
+      "path": "data/subjects/biology/topics/circulation/derived/circulation-atlas-v1/data.json",
+      "sha256": "d88d262c2c368fe4bcb80ad4b050c253048d4d13c45af4b1a6362d66ffbe28e2",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
+}

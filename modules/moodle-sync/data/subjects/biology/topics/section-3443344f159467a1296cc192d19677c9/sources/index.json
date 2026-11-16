@@ -1,6 +1,16 @@
 {
   "schema": 1,
+  "sources": [
+    {
+      "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+      "review_status": "approved",
+      "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+      "size": 3873400,
+      "source_kind": "manual",
+      "title": "Tělní tekutiny a cévní soustava – očištěná prezentace",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe.pptx"
+    }
+  ],
   "subject_id": "biology",
-  "topic_id": "section-3443344f159467a1296cc192d19677c9",
-  "sources": []
+  "topic_id": "section-3443344f159467a1296cc192d19677c9"
 }

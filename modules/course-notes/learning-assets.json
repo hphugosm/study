@@ -1600,6 +1600,13 @@
       "source_sha256": "e7d2288164f912e753b7f788dd78fcef2bbbee3df89b5bee2bf8e52e914543c2"
     },
     {
+      "name": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe.zip",
+      "sha256": "eafe71700fa6ac2a0c9ce763ca9b4dafecb4063cfc6c7edb2be5f939c925bba2",
+      "size": 7970668,
+      "kind": "extraction",
+      "source_sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe"
+    },
+    {
       "name": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d.zip",
       "sha256": "b971e80e8eb70e77e942639909f626df0a63ae30e6f0d46890493183c27d2eb5",
       "size": 280305,
@@ -2543,6 +2550,13 @@
       "units": 5
     },
     {
+      "source_sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+      "path": "extracted/e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe.json",
+      "sha256": "6cdd9e24d40c4ec90287634d032fdc53764810a0e491302540d7863bd0efddcb",
+      "size": 10788,
+      "units": 31
+    },
+    {
       "source_sha256": "e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d",
       "path": "extracted/e8cef6a9681985f47c71f53eae63dda042d758d5e9196bbc0d6607daca2d8e9d.json",
       "sha256": "e8d1f8bb64dc42a824ad3a2ffa75fcd98befe6b064e0a252bb06044949ce857d",
@@ -2614,17 +2628,17 @@
     }
   ],
   "counts": {
-    "topics": 42,
-    "lessons": 200,
-    "questions": 280,
-    "flashcards": 266,
+    "topics": 43,
+    "lessons": 205,
+    "questions": 286,
+    "flashcards": 272,
     "figures": 73,
     "steps": 205,
     "solutions": 5
   },
   "extraction": {
-    "approved_unique_sources": 125,
-    "approved_entries": 127,
+    "approved_unique_sources": 126,
+    "approved_entries": 128,
     "privacy_scope": "approved_public_sources_only",
     "ocr": "fallible_transcription"
   }

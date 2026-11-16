@@ -1,0 +1,581 @@
+{
+  "schema": 1,
+  "subject": "biology",
+  "topic": "section-3443344f159467a1296cc192d19677c9",
+  "title": "TĚLNÍ TEKUTINY, CÉVNÍ SOUSTAVA",
+  "language": "cs",
+  "intro": "Textový doplněk atlasu propojuje tělní tekutiny, složení krve, cévy, srdeční oddíly a základní pojmy činnosti srdce.",
+  "sources": [
+    {
+      "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+      "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+      "title": "Tělní tekutiny a cévní soustava — schválená studijní kopie",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe.pptx",
+      "extraction_url": "./extracted/e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "tekutiny",
+      "title": "Tělní tekutiny a úlohy krve",
+      "summary": "Propojíš krev, tkáňový mok a stálost vnitřního prostředí s hlavními funkcemi krve.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 1
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 3
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 4
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Prezentace propojuje krev, tkáňový mok a mízu se stálostí vnitřního prostředí neboli homeostázou.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 1
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 3
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Krev rozvádí kyslík, živiny a další látky, odvádí zplodiny a podílí se na udržování tělesné teploty.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 1
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 3
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rozlišuj krevní plazmu a krevní tělíska; nejde o dvě označení stejné složky.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 1
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 3
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teliska",
+      "title": "Tři skupiny krevních tělísek",
+      "summary": "Odlišíš erytrocyty, leukocyty a krevní destičky podle jejich popisu v podkladu.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 7
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 9
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 12
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 14
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Erytrocyty se podílejí na přenosu kyslíku pomocí hemoglobinu. Leukocyty obsahují jádro a účastní se obranných reakcí.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 7
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 9
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 12
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Krevní destičky jsou buněčné úlomky a jsou důležité pro srážení krve. Podrobnosti imunity jsou samostatné téma.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 7
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 9
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 12
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cevy",
+      "title": "Cévy a jejich stěna",
+      "summary": "Porovnáš typy cév a prohlédneš si původní schéma vrstev cévní stěny.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 18
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 19
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 21
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Přehled rozlišuje tepny, vlásečnice a žíly. Aorta je v podkladu uvedena jako výstup z levé komory.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 18
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 19
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Plicnice a plicní žíly si pamatuj podle směru propojení srdce a plic, nikoli podle univerzálního pravidla o barvě cévy.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 18
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 19
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obeh",
+      "title": "Srdce, malý a velký krevní oběh",
+      "summary": "Propojíš čtyři srdeční oddíly s cévami a sleduješ cestu krve mezi srdcem, plícemi a tělem.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 20
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 21
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 22
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 23
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Prezentace rozlišuje malý neboli plicní a velký neboli tělní krevní oběh.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 20
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 21
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 22
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pravá síň přijímá krev z dutých žil. Pravá komora ji posílá plicnicí do plic. Plicní žíly ústí do levé síně a levá komora vypuzuje krev aortou do těla.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 20
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 21
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 22
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Na čelním schématu je anatomická pravá strana vlevo na obrázku; názvy síní a komor nepřehazuj podle své pravé ruky.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 20
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 21
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 22
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cyklus",
+      "title": "Systola, diastola a objem krve",
+      "summary": "Odlišíš stažení a ochabnutí srdeční svaloviny a propojíš tepový a minutový objem.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 25
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Systola označuje kontrakci srdeční svaloviny, diastola její ochabnutí.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Minutový objem je tepový objem násobený počtem tepů za minutu. Jde o školní vztah pro výpočet, nikoli o individuální zdravotní hodnocení.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-circulation-plazma",
+      "front": "Jaké dvě hlavní složky krve rozlišuje podklad?",
+      "back": "Krevní plazmu a krevní tělíska.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-circulation-erytrocyty",
+      "front": "S čím je spojena úloha erytrocytů?",
+      "back": "S přenosem kyslíku a krevním barvivem hemoglobinem.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "card-circulation-leukocyty",
+      "front": "Čím se v přehledu vyznačují leukocyty?",
+      "back": "Mají jádro a účastní se obranných reakcí organismu.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "card-circulation-desticky",
+      "front": "Jakou úlohu mají krevní destičky?",
+      "back": "Podílejí se na srážení krve a zástavě krvácení.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "card-circulation-systola",
+      "front": "Jak se liší systola a diastola?",
+      "back": "Systola je kontrakce srdeční svaloviny, diastola její ochabnutí.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "id": "card-circulation-minutovy",
+      "front": "Jak souvisí tepový a minutový objem?",
+      "back": "Minutový objem = tepový objem × počet tepů za minutu.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 25
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-circulation-plazma",
+      "prompt": "Které dvě hlavní složky krve rozlišuje podklad?",
+      "options": [
+        "Krevní plazmu a krevní tělíska",
+        "Pouze erytrocyty a leukocyty",
+        "Pouze hemoglobin a krevní destičky"
+      ],
+      "answer": 0,
+      "explanation": "Krevní plazmu a krevní tělíska.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "quiz-circulation-erytrocyty",
+      "prompt": "S čím je v podkladu spojena úloha erytrocytů?",
+      "options": [
+        "S minutovým objemem",
+        "S přenosem kyslíku a hemoglobinem",
+        "S ochabnutím srdeční svaloviny"
+      ],
+      "answer": 1,
+      "explanation": "S přenosem kyslíku a krevním barvivem hemoglobinem.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "quiz-circulation-leukocyty",
+      "prompt": "Který popis odpovídá leukocytům v přehledu?",
+      "options": [
+        "Jsou jen tekutou složkou krve",
+        "Označují kontrakci srdce",
+        "Mají jádro a účastní se obranných reakcí"
+      ],
+      "answer": 2,
+      "explanation": "Mají jádro a účastní se obranných reakcí organismu.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "quiz-circulation-desticky",
+      "prompt": "Jakou úlohu mají podle přehledu krevní destičky?",
+      "options": [
+        "Podílejí se na srážení krve a zástavě krvácení",
+        "Označují množství krve vypuzené za minutu",
+        "Představují jiný název pro krevní plazmu"
+      ],
+      "answer": 0,
+      "explanation": "Podílejí se na srážení krve a zástavě krvácení.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "quiz-circulation-cyklus",
+      "prompt": "Které přiřazení systoly a diastoly je správné?",
+      "options": [
+        "Systola je ochabnutí, diastola kontrakce",
+        "Systola je kontrakce, diastola ochabnutí",
+        "Oba pojmy označují pouze složení krve"
+      ],
+      "answer": 1,
+      "explanation": "Systola je kontrakce srdeční svaloviny, diastola její ochabnutí.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "id": "quiz-circulation-objem",
+      "prompt": "Jak podle uvedeného vztahu vypočítáš minutový objem?",
+      "options": [
+        "Tepový objem vydělíš počtem tepů za minutu",
+        "Sečteš tepový objem s počtem tepů za minutu",
+        "Tepový objem vynásobíš počtem tepů za minutu"
+      ],
+      "answer": 2,
+      "explanation": "Minutový objem = tepový objem × počet tepů za minutu.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 25
+        }
+      ]
+    }
+  ]
+}

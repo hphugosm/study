@@ -2,5 +2,20 @@
   "schema": 1,
   "subject_id": "biology",
   "topic_id": "section-3443344f159467a1296cc192d19677c9",
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "title": "TĚLNÍ TEKUTINY, CÉVNÍ SOUSTAVA",
+      "kind": "notes",
+      "path": "data/subjects/biology/topics/section-3443344f159467a1296cc192d19677c9/derived/course-notes-v1/notes.json",
+      "sha256": "c9530b2bdce80ffe8a8f1f1db733601dfb99b60e840019b7a95888ca1560bdb2",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
 }

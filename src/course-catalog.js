@@ -368,15 +368,25 @@ export const courseUnits = [
     "origin": "moodle",
     "course_variant": "JU3",
     "section_order": 3,
-    "available": false,
+    "available": true,
     "listed_current": true,
     "title": "TĚLNÍ TEKUTINY, CÉVNÍ SOUSTAVA",
     "label": "JU3",
-    "sourceCount": 0,
-    "lessonCount": 0,
-    "questionCount": 0,
-    "description": "Téma nyní není zpřístupněné.",
-    "materials": []
+    "sourceCount": 1,
+    "lessonCount": 5,
+    "questionCount": 6,
+    "description": "Textový doplněk atlasu propojuje tělní tekutiny, složení krve, cévy, srdeční oddíly a základní pojmy činnosti srdce.",
+    "materials": [
+      {
+        "title": "Tělní tekutiny a cévní soustava – očištěná prezentace",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe.pptx",
+        "sourceId": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+        "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe"
+      }
+    ],
+    "content_url": "modules/course-notes/content/biology/section-3443344f159467a1296cc192d19677c9.json",
+    "module": "course-notes"
   },
   {
     "id": "moodle-biology-8da128d294539a0dd31220a4daadbe5e",

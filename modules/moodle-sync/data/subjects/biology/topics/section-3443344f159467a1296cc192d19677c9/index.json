@@ -8,6 +8,6 @@
   "origin": "moodle",
   "course_variant": "JU3",
   "section_order": 3,
-  "available": false,
+  "available": true,
   "listed_current": true
 }

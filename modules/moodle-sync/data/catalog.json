@@ -148,7 +148,7 @@
           "origin": "moodle",
           "course_variant": "JU3",
           "section_order": 3,
-          "available": false,
+          "available": true,
           "listed_current": true
         },
         {
@@ -221,6 +221,12 @@
           "id": "muscles",
           "title": "Svalová soustava člověka",
           "index": "subjects/biology/topics/muscles/index.json",
+          "origin": "study"
+        },
+        {
+          "id": "circulation",
+          "title": "Tělní tekutiny a cévní soustava",
+          "index": "subjects/biology/topics/circulation/index.json",
           "origin": "study"
         }
       ]

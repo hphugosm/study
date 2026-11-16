@@ -24,6 +24,7 @@ export default defineConfig({
     { name: 'calendar-safari', testMatch: '**/moodle-calendar.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'assignments-safari', testMatch: '**/assignments.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'notes-safari', testMatch: '**/notes.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
+    { name: 'circulation-safari', testMatch: '**/circulation.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'pixels-safari', testMatch: '**/pixels.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
     { name: 'worksheet-safari', testMatch: ['**/worksheets.spec.mjs','**/worksheet-gestures.spec.mjs'], use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
     ...[
