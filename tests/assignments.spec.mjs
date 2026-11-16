@@ -114,3 +114,19 @@ test('a reviewed Moodle assignment shows its real Prague deadline while missing 
  await expect(task.locator('.task-files')).toHaveCount(0);
  await expect(page.locator('[data-study-module]')).toHaveCount(0);
 });
+
+test('denaturation attachment preparation is downloadable while the full prompt and personal observations remain missing',async({page})=>{
+ const id='df69549de7e2b1053fe7a8bf591c0dbbfd473f2237978b1c7794d0e3d0490fbb';
+ await page.goto(`./#/events/moodle-deadline-${id}`);
+ await expect(tasksTab(page)).toHaveAttribute('aria-selected','true');
+ const card=page.locator(`[data-assignment-id="moodle-${id}"]`);await expect(card).toHaveCount(1);
+ await expect(card.locator('time')).toHaveAttribute('datetime','2026-11-28T20:25:00.000Z');
+ await expect(card.locator('time')).toContainText('21:25');
+ const support=card.getByRole('region',{name:'Studijní příprava podle přílohy'});await expect(support).toBeVisible();
+ await expect(support).toContainText('pět skutečných pozorování');
+ await expect(support.getByRole('link')).toHaveAttribute('href','https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c.docx');
+ await expect(card.locator('.task-summary')).toContainText('Úplné zadání zatím není zveřejněné');
+ await expect(card.locator('.task-solution-missing')).toBeVisible();
+ await expect(card.locator('.task-text-solution,.task-files')).toHaveCount(0);
+ await fits(page);
+});

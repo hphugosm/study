@@ -7,6 +7,7 @@ async function open(page,mode='atlas'){
   await page.goto(`/#/units/circulation?mode=${mode}`);
   const module=moduleFor(page);
   await expect(module.locator('[data-mode="atlas"]')).toBeVisible();
+  await expect(module.locator('nav button').first()).toHaveCSS('border-radius','12px');
   return module;
 }
 test.beforeEach(async({context,page},info)=>{
@@ -18,7 +19,7 @@ test('body systems stay separate; exact source images load and notes start colla
   await page.goto('/#/subjects/biology');
   // The category section has an accessible label even when the browser exposes it as a section.
   const links=page.locator('section[aria-label="Hlavní studijní kategorie"] .unit-card');
-  await expect(links).toHaveCount(3);
+  await expect(links).toHaveCount(4);
   await expect(links.nth(0)).toHaveAttribute('href','#/units/skeleton');
   await expect(links.nth(1)).toHaveAttribute('href','#/units/muscles');
   await expect(links.nth(2)).toHaveAttribute('href','#/units/circulation');

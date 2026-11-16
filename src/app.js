@@ -168,6 +168,11 @@ function renderPractice() {
     {unit:'circulation',mode:'cards',icon:'layers',title:'Srdce: poznávačka',copy:'Jedenáct ověřených struktur na původním obrázku.'},
     {unit:'circulation',mode:'map',icon:'grid',title:'Srdce: slepá mapa',copy:'Najdi správné místo bez předem zobrazených názvů.'},
   );
+  options.push(
+    {unit:'lymphatic',mode:'atlas',icon:'leaf',title:'Malý atlas mízní soustavy',copy:'Čtyři ověřené orgány a skupiny uzlin podle původního schématu.'},
+    {unit:'lymphatic',mode:'cards',icon:'layers',title:'Mízní soustava: poznávačka',copy:'Rozliš slezinu, brzlík, krční a podpažní uzliny.'},
+    {unit:'lymphatic',mode:'map',icon:'grid',title:'Mízní soustava: slepá mapa',copy:'Najdi ověřené místo na schématu bez popisků.'},
+  );
   options.push({unit:'baroque',mode:'cards',icon:'layers',title:'Baroko — kartičky',copy:'Znaky, umělci, hudebníci a stavby. Otázka a odpověď.'});
   options.push(...units.filter(unit=>unit.module==='course-notes'&&unit.questionCount>0&&unit.available!==false&&!parentsForSupplement(unit,units).length).map(unit=>({unit:unit.id,mode:'practice',icon:'check',title:unit.title,copy:`${unit.questionCount} otázek s vysvětlením ze schválených podkladů.`})));
   main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">KROK ZA KROKEM</p><h1>Co si dnes procvičíš?</h1><p>Vyber si způsob učení, který ti právě sedí.</p></div></section><div class="practice-grid">${options.map(o=>{const s=getSubject(getUnit(o.unit).subjectId);return `<a class="practice-card" href="#/units/${o.unit}?mode=${o.mode}" style="${subjectStyle(s)}"><div class="practice-card-top"><span class="subject-icon">${icon(o.icon)}</span><span class="subject-pill">${s.name}</span></div><h2>${o.title}</h2><p>${o.copy}</p><span class="text-link">Začít procvičování ${icon('arrow')}</span></a>`;}).join('')}</div>`;
@@ -271,7 +276,7 @@ function renderSchoolEvent(event) {
   document.title=`${event.title} — Studilo`;
   main.innerHTML=`<div class="breadcrumbs"><a href="#/">Kalendář</a><span>/</span><span>Školní akce</span></div><section class="unit-hero" style="${subjectStyle(schoolEventStyle)}"><div class="unit-subject"><span class="subject-icon">${icon('calendar')}</span><span>Školní akce</span></div><p class="eyebrow">${eventTypes[event.type]}</p><h1>${esc(event.title)}</h1><p class="unit-description">${esc(event.description)}</p><div class="event-banner ${event.type}">${icon('calendar')}<strong>${eventDateLabel(event)}</strong>${event.allDay?'<span>Celý den</span>':''}</div></section><a class="text-link" href="#/">Zpět do kalendáře ${icon('arrow')}</a>`;
 }
-const isBiology = unit => ['biology','biology-muscles','biology-circulation'].includes(unit.module);
+const isBiology = unit => ['biology','biology-muscles','biology-circulation','biology-lymphatic'].includes(unit.module);
 function emptyMaterials(){return `<div class="empty-state">${icon('book')}<h2>Materiály zatím nebyly přidány.</h2><p>Termín je připravený. Až budou k dispozici skutečné podklady, objeví se na tomto místě.</p><a class="text-link" href="#/">Zpět do kalendáře ${icon('arrow')}</a></div>`;}
 
 async function route({scroll=0,restore=false}={}) {

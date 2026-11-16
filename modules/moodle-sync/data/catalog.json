@@ -228,6 +228,12 @@
           "title": "Tělní tekutiny a cévní soustava",
           "index": "subjects/biology/topics/circulation/index.json",
           "origin": "study"
+        },
+        {
+          "id": "lymphatic",
+          "title": "Mízní soustava — vybrané struktury",
+          "index": "subjects/biology/topics/lymphatic/index.json",
+          "origin": "study"
         }
       ]
     },

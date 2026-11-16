@@ -29,3 +29,9 @@ Obsah se připojí pouze při shodě všech čtyř identifikátorů. Starší ř
 ## Kontroly
 
 Spusť `npm run check`, `npm test` a `npm run build`. Zaměřené prohlížečové kontroly jsou `tests/assignments.spec.mjs`; ruční workflow **Verify live Studilo → assignments** ověřuje desktop, mobilní Chromium a mobilní WebKit. Ověř skutečný veřejný výsledek před záznamem dokončení.
+
+## Příprava z přílohy při neúplném zadání
+
+`reviewedAssignmentPreparations` v `src/assignment-content.js` zpřístupňuje samostatně ověřenou studijní přípravu, pokud bylo přečteno celé přiložené zadání, ale chybí původní popis úkolu v Moodlu nebo osobní pozorování. Nevyplňuje `prompt`, `solution` ani `solutions` skutečného úkolu. Záložka Úkoly ji označuje „Studijní příprava“ a nadále uvádí chybějící úplné zadání a hotové řešení.
+
+Záznam vyžaduje přesné `assignmentId`, `version`, předmět a téma, `scope: attachment-study-preparation`, výslovnou kontrolu, datum, popis rozsahu, konkrétní schválené `source_refs` a soubory s kanonickými adresami, SHA a velikostí. Změna verze zadání starou přípravu skryje. Soubory musí existovat a projít nezávislou kontrolou i ověřením Release; samotný záznam publikaci neprovádí. U domácího pokusu ponech vlastní předpoklad, pozorování a závěr uživateli, teoretická očekávání označ odděleně. Dokončení celého úkolu do redakční fronty nezapisuj.

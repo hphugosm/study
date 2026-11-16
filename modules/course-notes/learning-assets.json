@@ -3,6 +3,17 @@
   "release": "studylo-learning-v1",
   "assets": [
     {
+      "name": "0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c.docx",
+      "sha256": "0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c",
+      "size": 39437,
+      "kind": "solution",
+      "format": "docx",
+      "source_sha256s": [
+        "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+        "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c"
+      ]
+    },
+    {
       "name": "01ef068192614b2437100462c51de4ce7390bbff94c3f747a6eeeae2a3cedbef.webp",
       "sha256": "01ef068192614b2437100462c51de4ce7390bbff94c3f747a6eeeae2a3cedbef",
       "size": 34870,
@@ -734,6 +745,13 @@
       "size": 1827617,
       "kind": "extraction",
       "source_sha256": "6c5eb6c6db970985daf79544323528771103fa80fe08b22580fa0946d593e473"
+    },
+    {
+      "name": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c.zip",
+      "sha256": "4194e52ff72eddb2b841a2b5e3749be7a81f1e564d9168fe3d673cd52dc2f2c8",
+      "size": 1115437,
+      "kind": "extraction",
+      "source_sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c"
     },
     {
       "name": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881.zip",
@@ -2116,6 +2134,13 @@
       "units": 22
     },
     {
+      "source_sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+      "path": "extracted/6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c.json",
+      "sha256": "5181db4a98807ca8b8c371e8c27f5d9c6477c32568cdcb897eba1720da5fbe12",
+      "size": 1435,
+      "units": 3
+    },
+    {
       "source_sha256": "6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881",
       "path": "extracted/6e61e1be77493163b46a83c6f7f678ef3e634f5859fe94a45bc7fbce88f88881.json",
       "sha256": "c976bd180ab6c377fb83bb8708490c04d484a8eb00c5e2b6de6ccc354e29db29",
@@ -2629,16 +2654,16 @@
   ],
   "counts": {
     "topics": 43,
-    "lessons": 205,
-    "questions": 286,
-    "flashcards": 272,
+    "lessons": 208,
+    "questions": 288,
+    "flashcards": 275,
     "figures": 73,
     "steps": 205,
-    "solutions": 5
+    "solutions": 6
   },
   "extraction": {
-    "approved_unique_sources": 126,
-    "approved_entries": 128,
+    "approved_unique_sources": 127,
+    "approved_entries": 129,
     "privacy_scope": "approved_public_sources_only",
     "ocr": "fallible_transcription"
   }

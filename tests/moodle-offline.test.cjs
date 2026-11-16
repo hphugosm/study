@@ -20,7 +20,7 @@ test('build serves topic sources and derived payloads without eager offline down
   await fs.writeFile(path.join(temp,'package.json'),JSON.stringify({type:'module'}));
   const topic='section-'+'1'.repeat(32),unit={id:'moodle-mathematics-'+'1'.repeat(32),subjectId:'mathematics',topicId:topic,origin:'moodle',available:true,listed_current:true,title:'Fixture topic',materials:[]};
   await fs.writeFile(path.join(temp,'src/data.js'),'export const units='+JSON.stringify([unit])+'; export const events=[];');
-  await fs.writeFile(path.join(temp,'src/assignment-content.js'),'export const reviewedAssignmentContent=[];');
+  await fs.writeFile(path.join(temp,'src/assignment-content.js'),'export const reviewedAssignmentContent=[];export const reviewedAssignmentPreparations=[];');
   await fs.writeFile(path.join(temp,'src/calendar-associations.json'),JSON.stringify({schema:1,manual_event_ids:[],associations:[]}));
   await fs.mkdir(path.join(temp,'modules/moodle-sync'),{recursive:true});
   await fs.writeFile(path.join(temp,'modules/moodle-sync/feed.json'),JSON.stringify({schema:1,entries:[{id:'c'.repeat(64),version:'d'.repeat(64),kind:'assignment',title:'Fixture homework',subject:'mathematics',topic,due:1795073400,calendar_type:'homework'}]}));

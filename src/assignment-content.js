@@ -189,3 +189,74 @@ export const reviewedAssignmentContent=Object.freeze([
     ]
   }
 ]);
+
+// Source-reviewed attachment preparation does not claim the full Moodle prompt was read.
+export const reviewedAssignmentPreparations = [
+  {
+    "assignmentId": "df69549de7e2b1053fe7a8bf591c0dbbfd473f2237978b1c7794d0e3d0490fbb",
+    "version": "bd3182c2f790b3af6a9341e5b4bb3a7184147ca0e945ea1fd35c97dd9b2a7808",
+    "subject": "chemistry",
+    "topic": "section-7c81652c3859af6be5d57780191a659f",
+    "scope": "attachment-study-preparation",
+    "reviewed": true,
+    "reviewed_on": "2026-11-16",
+    "title": "Studijní příprava k pracovnímu listu",
+    "description": "Protokol obsahuje postup, vysvětlení kontroly a podmíněná teoretická očekávání. Vlastní předpoklad, pět skutečných pozorování a závěr doplň podle svého pokusu. Úplný popis úkolu v Moodlu ještě nebyl ověřen.",
+    "source_refs": [
+      {
+        "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+        "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+        "page": 1,
+        "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+      },
+      {
+        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+        "page": 9
+      },
+      {
+        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+        "page": 17
+      },
+      {
+        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+        "page": 24
+      }
+    ],
+    "downloads": [
+      {
+        "id": "denaturace-bilku-studijni-protokol",
+        "title": "Denaturace bílku — vysvětlení a protokol pro vlastní pozorování",
+        "format": "docx",
+        "sha256": "0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c",
+        "size": 39437,
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c.docx",
+        "source_refs": [
+          {
+            "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+            "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+            "page": 1,
+            "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+          },
+          {
+            "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+            "page": 9
+          },
+          {
+            "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+            "page": 17
+          },
+          {
+            "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+            "page": 24
+          }
+        ]
+      }
+    ]
+  }
+];

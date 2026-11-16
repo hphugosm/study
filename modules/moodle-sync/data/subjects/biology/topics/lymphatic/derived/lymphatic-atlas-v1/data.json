@@ -1,0 +1,238 @@
+{
+  "schema": 1,
+  "system": "lymphatic",
+  "title": "Mízní soustava — vybrané struktury",
+  "scope_note": "Vybrané orgány a skupiny uzlin v horní části těla.",
+  "source": {
+    "status": "approved",
+    "approved": true,
+    "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+    "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+    "size": 3873400,
+    "format": "pptx",
+    "slide_count": 31,
+    "title": "Tělní tekutiny a cévní soustava — schválená studijní kopie",
+    "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe.pptx"
+  },
+  "review": {
+    "anatomy_approved": true,
+    "status": "approved",
+    "reviewed_by": "chemistry_editor_a",
+    "reviewed_on": "2026-11-16"
+  },
+  "assets": {
+    "image20.jpg": {
+      "sha256": "b4437b468e6882d448904cd869041899f99010812079760748d812c5a614a88c",
+      "size": 108023,
+      "width": 960,
+      "height": 720,
+      "slide": 26,
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-biology-v1/b4437b468e6882d448904cd869041899f99010812079760748d812c5a614a88c.jpg"
+    }
+  },
+  "views": [
+    {
+      "id": "upper-body",
+      "name": "Vybrané orgány a skupiny uzlin — horní část postavy",
+      "image": "image20.jpg",
+      "atlas_crop": [
+        34,
+        7,
+        27,
+        48
+      ],
+      "quiz_crop": [
+        34,
+        7,
+        27,
+        48
+      ],
+      "always_masks": [
+        [
+          34,
+          12,
+          8.5,
+          4.5
+        ],
+        [
+          34,
+          16.4,
+          7,
+          3.8
+        ],
+        [
+          53,
+          7,
+          8,
+          5
+        ],
+        [
+          52,
+          12,
+          9,
+          5
+        ]
+      ],
+      "quiz_masks": []
+    }
+  ],
+  "structures": [
+    {
+      "id": "slezina",
+      "name": "Slezina",
+      "region": "orgány",
+      "view": "upper-body",
+      "polygon": [
+        50.4,
+        30.4,
+        51.3,
+        30.2,
+        52.1,
+        31.3,
+        52.6,
+        32.6,
+        52.4,
+        33.6,
+        51.6,
+        33.9,
+        50.8,
+        32.8
+      ],
+      "slide": 26,
+      "summary": "Slezina je největší mízní orgán v přehledu a podílí se na odstraňování zanikajících erytrocytů."
+    },
+    {
+      "id": "brzlik",
+      "name": "Brzlík",
+      "region": "orgány",
+      "view": "upper-body",
+      "polygon": [
+        47.1,
+        21.5,
+        47.8,
+        21.4,
+        48.2,
+        22.3,
+        48.0,
+        23.4,
+        47.2,
+        23.5,
+        46.9,
+        22.7
+      ],
+      "slide": 26,
+      "summary": "Brzlík je pod hrudní kostí; ve výřezu jej poznáš jako barevně odlišený útvar v horní části hrudníku."
+    },
+    {
+      "id": "uzliny-krcni",
+      "name": "Krční mízní uzliny",
+      "region": "skupiny uzlin",
+      "view": "upper-body",
+      "polygon": [
+        44.7,
+        12.3,
+        45.5,
+        12.4,
+        45.9,
+        14.1,
+        45.6,
+        16.1,
+        44.9,
+        16.0,
+        44.5,
+        14.0
+      ],
+      "slide": 26,
+      "summary": "Skupinu krčních mízních uzlin najdeš po straně krku.",
+      "note": "Zvýraznění zastupuje skupinu uzlin."
+    },
+    {
+      "id": "uzliny-podpazni",
+      "name": "Podpažní mízní uzliny",
+      "region": "skupiny uzlin",
+      "view": "upper-body",
+      "polygon": [
+        53.0,
+        23.5,
+        53.9,
+        23.7,
+        54.3,
+        25.4,
+        54.0,
+        27.3,
+        53.2,
+        27.4,
+        52.8,
+        25.8
+      ],
+      "slide": 26,
+      "summary": "Skupinu podpažních mízních uzlin najdeš v podpaží.",
+      "note": "Zvýraznění zastupuje skupinu uzlin."
+    }
+  ],
+  "notes": [
+    {
+      "id": "rozsah",
+      "title": "Vybrané orgány a skupiny uzlin",
+      "summary": "Najdeš slezinu, brzlík a krční i podpažní uzliny na horní části těla.",
+      "slides": [
+        26
+      ],
+      "paragraphs": [
+        "V atlasu poznáš slezinu, brzlík, krční a podpažní mízní uzliny.",
+        "U krčních a podpažních uzlin zvýrazněná oblast zastupuje skupinu uzlin.",
+        "Spodní část původního schématu má nesprávně vedený popisek tříselných uzlin; tento úsek zde není zobrazen ani zkoušen."
+      ]
+    },
+    {
+      "id": "tekutiny",
+      "title": "Krev, tkáňový mok a míza",
+      "summary": "Propojíš mízu s krví a tkáňovým mokem a připomeneš si pojem homeostáza.",
+      "slides": [
+        1
+      ],
+      "paragraphs": [
+        "Krev, tkáňový mok a míza patří mezi tělní tekutiny, které pomáhají udržovat stálost vnitřního prostředí neboli homeostázu."
+      ]
+    },
+    {
+      "id": "organy",
+      "title": "Slezina a brzlík",
+      "summary": "Přiřadíš slezině odstraňování zanikajících erytrocytů a určíš polohu brzlíku.",
+      "slides": [
+        7,
+        26
+      ],
+      "paragraphs": [
+        "Slezina je v přehledu největší mízní orgán a podílí se na odstraňování zanikajících červených krvinek.",
+        "Brzlík je pod hrudní kostí. Ve výřezu jej poznáš podle barevně odlišeného útvaru v horní části hrudníku."
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "slezina-funkce",
+      "question": "Který mízní orgán pomáhá odstraňovat zanikající červené krvinky?",
+      "answer": "Slezina, největší mízní orgán v uvedeném přehledu.",
+      "slide": 26
+    },
+    {
+      "id": "brzlik-poloha",
+      "question": "Kde je brzlík vůči hrudní kosti?",
+      "answer": "Pod hrudní kostí.",
+      "slide": 26
+    },
+    {
+      "id": "skupiny-uzlin",
+      "question": "Které dvě skupiny mízních uzlin zde poznáváš?",
+      "answer": "Krční a podpažní mízní uzliny.",
+      "slide": 26
+    },
+    {
+      "id": "homeostaza",
+      "question": "Jak se označuje stálost vnitřního prostředí?",
+      "answer": "Homeostáza; prezentace ji propojuje s tělními tekutinami.",
+      "slide": 1
+    }
+  ]
+}

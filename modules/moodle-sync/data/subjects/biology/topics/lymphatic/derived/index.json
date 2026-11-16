@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "subject_id": "biology",
+  "topic_id": "lymphatic",
+  "artifacts": [
+    {
+      "id": "lymphatic-atlas-v1",
+      "title": "Mízní soustava — vybrané struktury — atlas a procvičování",
+      "kind": "other",
+      "path": "data/subjects/biology/topics/lymphatic/derived/lymphatic-atlas-v1/data.json",
+      "sha256": "240c5ab8966f0f0c2600bb162d319b4ae931d78f5835c4fe7036457a43a04ba6",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
+}

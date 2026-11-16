@@ -45,6 +45,14 @@
       "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348.pdf",
       "extraction_url": "./extracted/e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348.json",
       "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348.zip"
+    },
+    {
+      "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+      "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+      "title": "Co se děje s vaječným bílkem — pracovní list (studijní kopie)",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c.docx",
+      "extraction_url": "./extracted/6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c.zip"
     }
   ],
   "lessons": [
@@ -699,6 +707,263 @@
         }
       ],
       "summary": "Rozlišíš ATP, ADP a AMP a při čtení schémat propojíš jejich stavbu s přenosem energie."
+    },
+    {
+      "id": "denaturace-pokus-postup",
+      "title": "Pokus s bílkem · Zadání a postup",
+      "summary": "Připravíš pět srovnatelných vzorků a oddělíš předpověď od vlastních pozorování po deseti minutách.",
+      "source_refs": [
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+          "page": 1,
+          "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Studijní příprava a protokol k doplnění vlastním pokusem. Přiložený list je celý přečtený; další pokyny přímo v Moodlu zbývají ověřit. Vlastní předpoklad, pět skutečných pozorování a osobní závěr zatím nejsou dodány. Nejde o potvrzení dokončení či odevzdání úkolu.",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Badatelská otázka: Jak se změní vzhled bílku po přidání různých látek? Před pokusem napiš, ve které skleničce očekáváš největší změnu a proč. Po pokusu zapiš skutečný vzhled a porovnej zjištění s původním předpokladem.",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Připrav šest skleniček (jednu pro přípravu a pět pro pokus), dvě vejce, vidličku, studenou a vřelou vodu, ocet, Citronek (Lemonku) a nasycený roztok soli.",
+            "Odděl bílky od žloutků a v přípravné sklenici je rozmíchej se stejným objemem vody.",
+            "Směs rozděl rovnoměrně do pěti označených skleniček.",
+            "Do každé přidej stejné množství jedné přísady: studenou vodu (kontrola), vřelou vodu, ocet, Citronek (Lemonku), nebo nasycený roztok soli.",
+            "Po 10 minutách porovnej směsi a zapiš vlastní pozorování. S vřelou vodou pracuj podle pokynů vyučujícího."
+          ],
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "List neurčuje konkrétní mililitry, výslednou teplotu ani pH směsí. Tyto hodnoty nevymýšlíme. V samotné příloze není požadavek na fotografie nebo číselná měření; další požadavky v neověřeném těle Moodlu nelze vyloučit.",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        }
+      ],
+      "solutions": [
+        {
+          "id": "denaturace-bilku-studijni-protokol",
+          "title": "Denaturace bílku — vysvětlení a protokol pro vlastní pozorování",
+          "format": "docx",
+          "sha256": "0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c",
+          "size": 39437,
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c.docx",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 9
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 17
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "denaturace-pokus-vysvetleni",
+      "title": "Pokus s bílkem · Co lze očekávat",
+      "summary": "Propojíš teplotu a pH s tvarem bílkovin; možné projevy odlišíš od dosud nedodaných výsledků pokusu.",
+      "source_refs": [
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+          "page": 1,
+          "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+        },
+        {
+          "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+          "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+          "page": 17
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podklad k bílkovinám rozlišuje pořadí aminokyselin a prostorové uspořádání a ukazuje svinování i denaturaci. Při vysvětlování změny nejprve urči, zda popisuješ tvar, nebo štěpení řetězce.",
+          "source_refs": [
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 17
+            },
+            {
+              "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+              "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Následují teoretická očekávání, nikoli skutečně provedený pokus. Pět pozorování a osobní závěr zůstávají k doplnění.",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Podmíněná teoretická očekávání a jejich doplňující odborné zdroje najdeš ve stažitelném protokolu. Porovnej je se skutečným vzhledem svých pěti vzorků; pracovní list vyžaduje vlastní pozorování.",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "denaturace-pokus-zaznam",
+      "title": "Pokus s bílkem · Kontrola a vlastní závěr",
+      "summary": "Vysvětlíš kontrolní skleničku a do protokolu doplníš skutečný vzhled pěti vzorků i vlastní závěr.",
+      "source_refs": [
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+          "page": 1,
+          "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vysvětlená odpověď: studená voda je kontrolní srovnání. Vzorek má stejnou výchozí směs a stejné množství přidané kapaliny, ale bez záměrného zahřátí, okyselení či přidání soli. Pomáhá odlišit účinek přísady od zředění, míchání a čekání.",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "V protokolu najdeš i model zdůvodnění hypotézy. Vlastní předpoklad napiš před pokusem a zpětně jej nepřepisuj; v závěru potom porovnej předpoklad se skutečným pozorováním.",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Do stažitelného protokolu doplň skutečný vzhled po 10 minutách u všech pěti přísad. Potom vlastními slovy odpověz, co bylo zjištěno a zda to odpovídalo původnímu předpokladu. Dokud tyto vlastní údaje chybí, zůstává tato část práce nedokončená.",
+          "source_refs": [
+            {
+              "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+              "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+              "page": 1,
+              "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Přidaná látka",
+          "Vlastní pozorování po 10 minutách"
+        ],
+        "rows": [
+          {
+            "label": "Studená voda (kontrola)",
+            "values": [
+              "Studená voda (kontrola)",
+              "Zatím nedodáno — doplň podle vlastního pokusu."
+            ]
+          },
+          {
+            "label": "Vřelá voda",
+            "values": [
+              "Vřelá voda",
+              "Zatím nedodáno — doplň podle vlastního pokusu."
+            ]
+          },
+          {
+            "label": "Ocet",
+            "values": [
+              "Ocet",
+              "Zatím nedodáno — doplň podle vlastního pokusu."
+            ]
+          },
+          {
+            "label": "Citronek (Lemonka)",
+            "values": [
+              "Citronek (Lemonka)",
+              "Zatím nedodáno — doplň podle vlastního pokusu."
+            ]
+          },
+          {
+            "label": "Nasycený roztok soli",
+            "values": [
+              "Nasycený roztok soli",
+              "Zatím nedodáno — doplň podle vlastního pokusu."
+            ]
+          }
+        ]
+      }
     }
   ],
   "flashcards": [
@@ -800,6 +1065,45 @@
           "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
           "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348",
           "page": 8
+        }
+      ]
+    },
+    {
+      "id": "denaturace-kontrolni-vzorek",
+      "front": "Proč je v pokusu také sklenička se studenou vodou?",
+      "back": "Poskytuje srovnání bez záměrného tepelného, kyselého či solného zásahu a pomáhá oddělit účinek přísady od zředění, míchání a čekání.",
+      "source_refs": [
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+          "page": 1,
+          "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+        }
+      ]
+    },
+    {
+      "id": "denaturace-srovnatelne-vzorky",
+      "front": "Které podmínky list u pěti vzorků udržuje stejné?",
+      "back": "Stejnou výchozí směs, rovnoměrné rozdělení, stejné množství přidané látky a porovnání po 10 minutách.",
+      "source_refs": [
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+          "page": 1,
+          "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+        }
+      ]
+    },
+    {
+      "id": "denaturace-vlastni-data",
+      "front": "Jak oddělit hypotézu od výsledku v protokolu?",
+      "back": "Hypotézu a její důvod napiš před pokusem. Výsledek popiš ze skutečného pozorování; nepotvrzenou hypotézu zpětně nepřepisuj.",
+      "source_refs": [
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+          "page": 1,
+          "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
         }
       ]
     }
@@ -1001,6 +1305,44 @@
         {
           "id": "4f1345bbb36c1d5f979cebc55530e1a822c5d04bae62cde97d73cb7a3102ec6e",
           "sha256": "914f11fe4f9d6ee3f4c915c27f3726026c8ac87b9486a9f7aa0109cd51503f4d"
+        }
+      ]
+    },
+    {
+      "id": "denaturace-kontrola-test",
+      "prompt": "Co nejlépe vysvětluje skleničku se studenou vodou?",
+      "options": [
+        "Umožňuje porovnat zásah s podobně zředěným vzorkem bez zahřátí, okyselení nebo přidání soli.",
+        "Zaručuje, že všechny bílkoviny budou zcela průhledné.",
+        "Nahrazuje všechna ostatní pozorování."
+      ],
+      "answer": 0,
+      "explanation": "Kontrola pomáhá oddělit účinek přísady od společného zředění, míchání a čekání. I její skutečný vzhled je třeba zaznamenat.",
+      "source_refs": [
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+          "page": 1,
+          "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+        }
+      ]
+    },
+    {
+      "id": "denaturace-pozorovani-test",
+      "prompt": "Pokus dopadl jinak než předpověď. Jak má vypadat poctivý záznam?",
+      "options": [
+        "Zachová původní předpověď a zapíše skutečný výsledek i jeho porovnání s předpokladem.",
+        "Přepíše původní předpověď tak, aby se vždy potvrdila.",
+        "Nahradí skutečné pozorování modelovým očekáváním."
+      ],
+      "answer": 0,
+      "explanation": "List odděluje předpoklad, pozorování a vlastní závěr. Odchylka je informace pro vysvětlení, nikoli důvod k vymyšlení výsledku.",
+      "source_refs": [
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+          "page": 1,
+          "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
         }
       ]
     }

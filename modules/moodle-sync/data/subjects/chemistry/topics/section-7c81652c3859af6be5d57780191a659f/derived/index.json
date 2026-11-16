@@ -8,7 +8,7 @@
       "title": "Bílkoviny a peptidy",
       "kind": "notes",
       "path": "data/subjects/chemistry/topics/section-7c81652c3859af6be5d57780191a659f/derived/course-notes-v1/notes.json",
-      "sha256": "9ace352860ba4fb72b9950539ad54c30adb5042171f5cca0dee02e591777a97b",
+      "sha256": "31bd20b3724ac6c0982e7290dbb89d49049b6aec31e5e97ee7b48ca95473a91f",
       "source_refs": [
         {
           "id": "017ca2a286d406ccd035aaebb6d47b670934cc0eb9622ece06543a137eb720c5",
@@ -29,6 +29,10 @@
         {
           "id": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
           "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348"
+        },
+        {
+          "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+          "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c"
         }
       ],
       "review_status": "approved"
