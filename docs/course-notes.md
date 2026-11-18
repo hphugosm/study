@@ -92,3 +92,9 @@ Všech 190 lekcí ve 42 tématech má věrný stručný `summary` nejvýše 220 
 Stejné členění používá 11 výpiskových částí kosterní soustavy, tři svalové části, 35 podkapitol původního práva a delší výklady původních matematických modulů. Atlas, poznávačky, mapy, krátké vzorce, živé výpočty a všech 164 matematických pracovních příkladů zůstávají přístupné v dosavadních kategoriích. Vyhledání v kosterních poznámkách otevře odpovídající části, aby se nalezený detail neschoval. Stručný slovníček a jednostránkové atlasové detaily již mají vlastní přehledné zobrazení. Barokní kartičky si ponechávají původní postup po jedné kartě.
 
 Pravidlo pro další obsah je v AGENTS.md. Nové domácí úkoly mají po získání úplného zadání nabídnout kompletní vysvětlené vzorové řešení a hotové soubory, jaké zadání požaduje. Stávající zdrojové verze a ověřené odpovědi byly při této úpravě zachovány; změnilo se členění a stručné orientační popisy.
+
+## Imunita jako doplněk atlasů (18. 11. 2026)
+
+Přehled tělních tekutin má čtyři další sbalená podtémata: dvě větve imunity, nespecifická obrana, B a T lymfocyty a zařazení leukocytů. Navazuje sedm kartiček, pět otázek s vysvětlením, dvě ovladatelná porovnání a tříkrokové vysvětlení. Každý nový výklad i odpověď byly nezávisle zkontrolovány podle snímků 9, 11 a 17 schválené studijní kopie `e8c641…ff1fe`. Původních pět lekcí, šest kartiček a šest otázek zůstalo zachovaných.
+
+Stejný doplněk je dostupný z kategorií Tělní tekutiny a cévní soustava i Mízní soustava přes odkaz Doplnění. Původní atlas mízní soustavy se čtyřmi cíli zůstává výchozí; nevznikla nová domnělá anatomická mapa. Původní mikrofotografie ze snímku 11 má vlastní bezeztrátovou kopii v Releases. Nelze ji použít k rozlišování B a T lymfocytů. Neověřené řádky původní prezentace o imunizaci a barvitelnosti se do nového výkladu ani testových odpovědí nepřebírají.

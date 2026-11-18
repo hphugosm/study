@@ -4,7 +4,7 @@
   "topic": "section-3443344f159467a1296cc192d19677c9",
   "title": "TĚLNÍ TEKUTINY, CÉVNÍ SOUSTAVA",
   "language": "cs",
-  "intro": "Textový doplněk atlasu propojuje tělní tekutiny, složení krve, cévy, srdeční oddíly a základní pojmy činnosti srdce.",
+  "intro": "Textový doplněk atlasu propojuje tělní tekutiny, složení krve, cévy, srdeční oddíly a základní pojmy činnosti srdce. Doplňující podtémata vysvětlují nespecifickou a specifickou imunitu i role B a T lymfocytů.",
   "sources": [
     {
       "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
@@ -392,6 +392,390 @@
           ]
         }
       ]
+    },
+    {
+      "id": "immunity-overview",
+      "title": "Imunita: dvě větve obrany",
+      "summary": "Rozlišíš nespecifickou obranu a specifickou imunitu podle příkladů z prezentace.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Imunita je schopnost organismu bránit se patogenům a cizorodým látkám. Školní přehled rozlišuje nespecifickou a specifickou imunitu.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Rozlišuj dva pohledy: kůže a další bariéry patří do nespecifické obrany; B a T lymfocyty se podílejí na specifické imunitě.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Nespecifická obrana",
+          "Specifická imunita"
+        ],
+        "rows": [
+          {
+            "label": "S čím ji propojit",
+            "values": [
+              "Kůže, lyzozym ve slinách, žaludeční HCl a fagocytující bílé krvinky.",
+              "B lymfocyty a T lymfocyty."
+            ],
+            "source_refs": [
+              {
+                "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+                "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+                "page": 17
+              }
+            ]
+          },
+          {
+            "label": "Co si vybavit",
+            "values": [
+              "Více různých obranných prostředků: bariéry, látky i buňky.",
+              "Dvě skupiny lymfocytů; obě patří do specifické imunity."
+            ],
+            "source_refs": [
+              {
+                "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+                "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+                "page": 17
+              }
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+            "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+            "page": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "immunity-innate",
+      "title": "Nespecifická obrana: bariéry, látky i buňky",
+      "summary": "Seskupíš příklady nespecifické obrany a nezaměníš ji pouze s bílými krvinkami.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nespecifická obrana není tvořena jen krvinkami. Prezentace mezi její příklady řadí také kůži a látky v tělních tekutinách.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kůže jako příklad tělesné bariéry.",
+            "Lyzozym ve slinách a HCl v žaludeční šťávě.",
+            "Fagocytující bílé krvinky.",
+            "Zvýšená tělesná teplota a interferony; podklad spojuje interferony s buňkami napadenými viry."
+          ],
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Najdi příklad bez krvinky",
+          "text": "Kůže, lyzozym ve slinách nebo žaludeční HCl ukazují, že se obrana neodehrává pouze v krvi.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "title": "Přidej buněčný příklad",
+          "text": "Fagocytující bílé krvinky patří v tomto přehledu do nespecifické obrany.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "title": "Odliš druhou větev",
+          "text": "B a T lymfocyty zařaď do specifické imunity. Samotné označení „bílá krvinka“ tedy ještě nerozlišuje obě větve.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 9
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immunity-bt",
+      "title": "B a T lymfocyty: stejná větev, různé role",
+      "summary": "Propojíš B lymfocyty s humorální a T lymfocyty s buněčnou imunitou.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 11
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B i T lymfocyty patří do specifické imunity. Uvnitř této větve však podklad ukazuje rozdílné role.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "B lymfocyty se podílejí na humorální neboli protilátkové imunitě. Snímek je propojuje s antigenem a imunoglobuliny, tedy protilátkami.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "T lymfocyty se podílejí na buněčné imunitě. Jako příklady jejího zaměření podklad uvádí nádorové buňky a buňky napadené viry.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Pomůcka pro tento úvodní přehled: B → protilátková; T → buněčná. Jde o základní rozlišení z prezentace, nikoli úplný výčet všech funkcí a podtypů lymfocytů.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 11
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "B lymfocyty",
+          "T lymfocyty"
+        ],
+        "rows": [
+          {
+            "label": "Větev imunity",
+            "values": [
+              "Specifická imunita.",
+              "Specifická imunita."
+            ],
+            "source_refs": [
+              {
+                "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+                "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+                "page": 11
+              },
+              {
+                "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+                "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+                "page": 17
+              }
+            ]
+          },
+          {
+            "label": "Základní přiřazení",
+            "values": [
+              "Humorální (protilátková) imunita; imunoglobuliny.",
+              "Buněčná imunita."
+            ],
+            "source_refs": [
+              {
+                "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+                "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+                "page": 11
+              },
+              {
+                "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+                "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+                "page": 17
+              }
+            ]
+          },
+          {
+            "label": "Co zdůrazňuje snímek 11",
+            "values": [
+              "Souvislost s antigenem a imunoglobuliny.",
+              "Nádorové buňky a buňky napadené viry."
+            ],
+            "source_refs": [
+              {
+                "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+                "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+                "page": 11
+              },
+              {
+                "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+                "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+                "page": 17
+              }
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+            "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+            "page": 11
+          },
+          {
+            "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+            "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+            "page": 17
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c295fe11bf05b718305646eb8a5400f1e18bfad4f3b4d4404f14c5a7b000ddca.webp",
+          "alt": "Původní mikrofotografie lymfocytu z prezentace.",
+          "caption": "Původní mikrofotografie lymfocytu ze snímku 11. Obrázek neslouží k rozlišení B a T lymfocytů.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 11
+            }
+          ],
+          "width": 150,
+          "height": 150
+        }
+      ]
+    },
+    {
+      "id": "immunity-leukocytes",
+      "title": "Leukocyty: kam patří lymfocyty?",
+      "summary": "Zařadíš lymfocyty mezi bílé krvinky a odlišíš dvě základní skupiny leukocytů v podkladu.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 9
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Leukocyty jsou bílé krvinky. Obsahují jádro a účastní se obranných reakcí organismu. Lymfocyty jsou jedna ze skupin leukocytů, nikoli jiné označení pro všechny bílé krvinky.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Granulocyty: neutrofilní, eozinofilní a bazofilní.",
+            "Agranulocyty: monocyty a lymfocyty."
+          ],
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "key",
+          "text": "Dvě členění nezaměňuj: granulocyty/agranulocyty jsou skupiny leukocytů; nespecifická/specifická imunita rozlišuje obranné mechanismy. B a T lymfocyty patří mezi lymfocyty a do specifické imunity.",
+          "source_refs": [
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 9
+            },
+            {
+              "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+              "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+              "page": 17
+            }
+          ]
+        }
+      ]
     }
   ],
   "flashcards": [
@@ -464,6 +848,100 @@
           "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
           "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
           "page": 25
+        }
+      ]
+    },
+    {
+      "id": "immunity-card-meaning",
+      "front": "Co znamená imunita?",
+      "back": "Schopnost organismu bránit se patogenům a cizorodým látkám.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "immunity-card-barriers",
+      "front": "Uveď tři příklady nespecifické obrany, které nejsou krvinkami.",
+      "back": "Například kůže, lyzozym ve slinách a HCl v žaludeční šťávě.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "immunity-card-phagocytes",
+      "front": "Do které větve zařazuje přehled fagocytující bílé krvinky?",
+      "back": "Do nespecifické obrany.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "immunity-card-b",
+      "front": "S jakou složkou specifické imunity spojuje podklad B lymfocyty?",
+      "back": "S humorální neboli protilátkovou imunitou; uvádí imunoglobuliny.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 11
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "immunity-card-t",
+      "front": "S jakou složkou specifické imunity spojuje podklad T lymfocyty?",
+      "back": "S buněčnou imunitou; uvádí nádorové buňky a buňky napadené viry.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 11
+        },
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "immunity-card-both",
+      "front": "Patří do specifické imunity pouze B lymfocyty?",
+      "back": "Ne. Přehled do ní řadí B i T lymfocyty.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "immunity-card-agranulocytes",
+      "front": "Které dvě skupiny agranulocytů uvádí podklad?",
+      "back": "Monocyty a lymfocyty.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 9
         }
       ]
     }
@@ -574,6 +1052,101 @@
           "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
           "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
           "page": 25
+        }
+      ]
+    },
+    {
+      "id": "immunity-question-barriers",
+      "prompt": "Která dvojice patří podle podkladu do nespecifické obrany?",
+      "options": [
+        "B lymfocyty a T lymfocyty",
+        "Kůže a lyzozym ve slinách",
+        "B lymfocyty a imunoglobuliny",
+        "T lymfocyty a jejich buněčná imunita"
+      ],
+      "answer": 1,
+      "explanation": "Kůže a lyzozym ve slinách jsou na snímku 17 uvedeny mezi příklady nespecifické obrany. B a T lymfocyty přehled řadí do specifické imunity.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "immunity-question-lymphocytes",
+      "prompt": "Které buňky přehled výslovně spojuje se specifickou imunitou?",
+      "options": [
+        "Erytrocyty a krevní destičky",
+        "Pouze monocyty",
+        "Pouze B lymfocyty",
+        "B lymfocyty i T lymfocyty"
+      ],
+      "answer": 3,
+      "explanation": "Specifickou imunitu snímek 17 spojuje s oběma skupinami lymfocytů: B i T.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "immunity-question-humoral",
+      "prompt": "Které přiřazení odpovídá snímku 11?",
+      "options": [
+        "B lymfocyty → humorální imunita",
+        "T lymfocyty → pouze žaludeční HCl",
+        "B lymfocyty → kůže jako bariéra",
+        "T lymfocyty → tvorba krevních destiček"
+      ],
+      "answer": 0,
+      "explanation": "Snímek 11 přiřazuje B lymfocyty k humorální imunitě a uvádí imunoglobuliny. T lymfocyty spojuje s buněčnou imunitou.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "immunity-question-cellular",
+      "prompt": "Jaké zaměření uvádí podklad u buněčné imunity spojené s T lymfocyty?",
+      "options": [
+        "Přenos kyslíku hemoglobinem",
+        "Tvorbu žaludeční HCl",
+        "Nádorové buňky a buňky napadené viry",
+        "Pouze mechanickou ochranu kůží"
+      ],
+      "answer": 2,
+      "explanation": "U T lymfocytů uvádí snímek 11 buněčnou imunitu a právě tyto dva příklady jejího zaměření.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "immunity-question-group",
+      "prompt": "Která dvojice patří v přehledu mezi agranulocyty?",
+      "options": [
+        "Neutrofilní a bazofilní granulocyty",
+        "Monocyty a lymfocyty",
+        "Eozinofilní a neutrofilní granulocyty",
+        "Bazofilní a eozinofilní granulocyty"
+      ],
+      "answer": 1,
+      "explanation": "Snímek 9 rozděluje leukocyty na granulocyty a agranulocyty. Mezi agranulocyty uvádí monocyty a lymfocyty.",
+      "source_refs": [
+        {
+          "id": "f8690ce77418fba30b74ac833248ca46fdef20cc91dcb64314949644a7d51a42",
+          "sha256": "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe",
+          "page": 9
         }
       ]
     }

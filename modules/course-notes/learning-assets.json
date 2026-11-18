@@ -1377,6 +1377,17 @@
       "source_sha256": "c18941ae059cd28e85bc183aef9e7c38f6930fd580ba9163387bd1807741ee83"
     },
     {
+      "kind": "figure",
+      "name": "c295fe11bf05b718305646eb8a5400f1e18bfad4f3b4d4404f14c5a7b000ddca.webp",
+      "sha256": "c295fe11bf05b718305646eb8a5400f1e18bfad4f3b4d4404f14c5a7b000ddca",
+      "size": 14982,
+      "source_sha256s": [
+        "e8c64158329cc67bbb9c5bdc6e3e872f7dc49ec26a0ddb47437f4d8ae88ff1fe"
+      ],
+      "width": 150,
+      "height": 150
+    },
+    {
       "name": "c4052c7219d8cf543e32b83ef4df7f258ec8fee31069e1e753dbbda93df9a747.zip",
       "sha256": "fffa1c0ffbed20c0cd60083370dde4e4721ae374d3400929c33b35b472f85870",
       "size": 115300,
@@ -2654,11 +2665,11 @@
   ],
   "counts": {
     "topics": 43,
-    "lessons": 208,
-    "questions": 288,
-    "flashcards": 275,
-    "figures": 73,
-    "steps": 205,
+    "lessons": 212,
+    "questions": 293,
+    "flashcards": 282,
+    "figures": 74,
+    "steps": 208,
     "solutions": 6
   },
   "extraction": {

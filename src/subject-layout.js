@@ -3,7 +3,7 @@ const primaryIds={mathematics:['trig-functions','trig-equations','moodle-mathema
 const supplementParents={
  'moodle-mathematics-9b3237cc2327dfc9a3353506fef752b3':['trig-functions','trig-equations'],
  'moodle-biology-03eb3f66a6da14c362750a3968ba2881':['skeleton'],
- 'moodle-biology-3443344f159467a1296cc192d19677c9':['circulation'],
+ 'moodle-biology-3443344f159467a1296cc192d19677c9':['circulation','lymphatic'],
 };
 export function parentsForSupplement(unit,units){
  const ids=supplementParents[unit.id]||(unit.subjectId==='law'&&unit.origin==='moodle'&&/^Unit 2\.[1-4]\b/.test(unit.title)?['law-unit-2']:[]);

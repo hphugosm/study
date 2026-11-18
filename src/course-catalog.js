@@ -373,9 +373,9 @@ export const courseUnits = [
     "title": "TĚLNÍ TEKUTINY, CÉVNÍ SOUSTAVA",
     "label": "JU3",
     "sourceCount": 1,
-    "lessonCount": 5,
-    "questionCount": 6,
-    "description": "Textový doplněk atlasu propojuje tělní tekutiny, složení krve, cévy, srdeční oddíly a základní pojmy činnosti srdce.",
+    "lessonCount": 9,
+    "questionCount": 11,
+    "description": "Textový doplněk atlasu propojuje tělní tekutiny, složení krve, cévy, srdeční oddíly a základní pojmy činnosti srdce. Doplňující podtémata vysvětlují nespecifickou a specifickou imunitu i role B a T lymfocytů.",
     "materials": [
       {
         "title": "Tělní tekutiny a cévní soustava – očištěná prezentace",
@@ -648,6 +648,13 @@ export const courseUnits = [
     "description": "Bílkoviny propojují pořadí aminokyselin s prostorovým tvarem a funkcí. Nejdřív rozliš čtyři úrovně struktury, potom sleduj trávení a zpracování dusíku v močovinovém cyklu.",
     "materials": [
       {
+        "title": "Denaturace — pokus (studijní kopie)",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c.docx",
+        "sourceId": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+        "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c"
+      },
+      {
         "title": "močovin cyklus.png",
         "description": "Původní schválený zdroj",
         "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/1da0085b933741dfab06eaa1dce882b2447ef1cc72e4e29c897e95f9fdff7488.png",
@@ -681,13 +688,6 @@ export const courseUnits = [
         "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348.pdf",
         "sourceId": "51c4f61a61a4b9efe351fd908502d9cbabfca3d2a64b19f076fd773b327ba9e6",
         "sha256": "e70bf0ff2a041ee2f3ce08db1799c3eccd9503e6469f5fe51f7e2d8e61a4f348"
-      },
-      {
-        "title": "Denaturace — pokus (studijní kopie)",
-        "description": "Původní schválený zdroj",
-        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c.docx",
-        "sourceId": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
-        "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c"
       }
     ],
     "content_url": "modules/course-notes/content/chemistry/section-7c81652c3859af6be5d57780191a659f.json",
