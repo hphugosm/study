@@ -8,6 +8,30 @@ const hexTitle='Rekonstrukce obrázku z matice HEX';
 const hexLesson=JSON.parse(readFileSync(new URL('../modules/course-notes/content/informatics/section-588cd5ee5179c25883c65e0170e6009f.json',import.meta.url),'utf8')).lessons.find(lesson=>lesson.id==='hexove-matice');
 const panel=page=>page.locator('.assignments-panel');
 const tasksTab=page=>page.getByRole('tab',{name:'Úkoly',exact:true});
+
+test('Southern Gothic reading keeps the exact deadline and exposes reviewed preparation without a story download',async({page})=>{
+ const id='39591decae9c518bee2de885978d533162b0a696dcff776cbff69a6747770d4f';
+ await page.goto(`./#/events/moodle-deadline-${id}`);
+ await expect(tasksTab(page)).toHaveAttribute('aria-selected','true');
+ const card=page.locator(`[data-assignment-id="moodle-${id}"]`);
+ await expect(card).toHaveCount(1);
+ await expect(card.locator('time')).toHaveAttribute('datetime','2026-11-27T09:20:00.000Z');
+ await expect(card.locator('time')).toContainText('10:20');
+ const prompt=card.locator('.task-summary');
+ await expect(prompt).not.toHaveAttribute('open');
+ await prompt.locator('summary').click();
+ await expect(prompt).toContainText('read the rest');
+ await expect(prompt).toContainText('May 5th');
+ const preparation=card.locator('.task-text-solution');
+ await expect(preparation).not.toHaveAttribute('open');
+ await preparation.locator('summary').click();
+ await expect(preparation).toContainText('Studijní příprava k četbě');
+ await expect(preparation).toContainText('bez roku');
+ await expect(preparation).toContainText('Bobby Lee and Hiram');
+ await expect(preparation.locator('ol>li')).toHaveCount(8);
+ await expect(card.locator('.task-files,.task-solution-missing')).toHaveCount(0);
+ await fits(page);
+});
 async function openTasks(page,unit=hexUnit,tab='tasks'){
  await page.goto(`./#/units/${unit}?tab=${tab}`);
  await expect(tasksTab(page)).toHaveAttribute('aria-selected','true');

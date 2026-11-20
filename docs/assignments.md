@@ -24,6 +24,8 @@ Samostatně zkontrolované záznamy uchovávej také jako čitelný JSON v `modu
 
 Textové zadání bez přílohy může mít `source_refs: []`: jeho zdrojem je přesná zkontrolovaná verze zadání. Soubory řešení potřebují skutečné reference na schválené podklady příslušného tématu (`id`, `sha256`, případně `page` a `locator`), správný SHA, velikost, formát a kanonický odkaz do `studylo-learning-v1` v GitHub Releases. Nepoužívej otisk popisu jako falešný SHA souboru. Publikační doklady a citlivé podklady zůstávají v soukromém projektu.
 
+U četby „A Good Man Is Hard to Find“ je zveřejněné celé ověřené zadání a samostatně zkontrolovaná příprava s původními cvičnými otázkami. Zadání požaduje vlastní četbu, nikoli písemný soubor; příprava proto nepotvrzuje, že uživatel četl, a není učitelským klíčem. Zmínka o 5. květnu bez roku nevytváří událost ani nemění samostatný metadatový deadline. Původní povídka se nezveřejňuje.
+
 Obsah se připojí pouze při shodě všech čtyř identifikátorů. Starší řešení se nepřeváže na jiné zadání; chybějící či změněná verze zobrazí čekající stav. Nic nevydávej za uživatelovo odevzdání ani za oficiální učitelský klíč.
 
 ## Kontroly

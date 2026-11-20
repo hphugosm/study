@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "assignmentId": "39591decae9c518bee2de885978d533162b0a696dcff776cbff69a6747770d4f",
+      "prompt": "Your homework is to read the rest of Flannery O'Conner's short story \"A Good Man Is Hard to Find\". We will have a basic reading check on the entire story in class on May 5th.",
+      "reviewed": true,
+      "reviewed_on": "2026-11-20",
+      "solution": {
+        "paragraphs": [
+          "Studijní příprava k četbě, nikoli oficiální klíč ke skutečným kontrolním otázkám. Zadání vyžaduje vlastní dočtení celé povídky; neobsahuje otázky ani soubor k vyplnění. Připravené kontrolní otázky jsou nově vytvořené procvičení. Odevzdání do Moodlu se neprovádí.",
+          "Termín kontroly četby: Původní popis uvádí kontrolu četby 5. května bez roku. Nelze z toho určit nový termín testu. Samostatně evidovaný deadline aktivity ponecháváme beze změny.",
+          "Od rodinné cesty k nehodě: Rodina jede z Atlanty na Floridu, přestože by babička raději navštívila Tennessee. Vezme s sebou tajně kočku. Později vyláká děti příběhem o ukrytém stříbře a přiměje Baileyho odbočit ke starému domu.",
+          "Od rodinné cesty k nehodě: Dům si však pamatuje z Tennessee, nikoli z Georgie. Při náhlém uvědomění pohne zavazadlem, kočka vyskočí Baileymu na rameno a auto havaruje. Odbočka je výsledkem její manipulace, bezprostředním spouštěčem nehody je kočka.",
+          "Pomoc se obrátí v ohrožení: Po havárii přijedou tři ozbrojení muži. Babička v jejich vůdci pozná Misfita, o němž četla v novinách. Jeho společníci odvádějí členy rodiny do lesa; výstřely a další dění ukazují jejich zabití. Babička nakonec zůstane s Misfitem sama.",
+          "Pomoc se obrátí v ohrožení: Snaží se ho přesvědčit poukazem na slušný původ, dobré vychování, modlitbu a peníze. Na konci ho osloví jako někoho z vlastních dětí a dotkne se jeho ramene; on ji zastřelí. Zdvořilé způsoby v této scéně ostře kontrastují s násilím.",
+          "Co znamená být dobrý?: Babička opakovaně spojuje dobro se společenskou úrovní a dávnými časy, ale sama lže a její nostalgie obsahuje rasové předsudky. Příběh tak vystavuje její sebehodnocení zkoušce; hezké vystupování není důkazem dobroty.",
+          "Co znamená být dobrý?: Misfit vysvětluje svou přezdívku nepoměrem mezi proviněním a trestem. Jeho sporný výklad vlastní minulosti však není nezávisle ověřeným vypravěčským faktem.",
+          "Co znamená být dobrý?: Babiččin poslední dotyk lze číst jako okamžik soucitu a rozpoznání společného lidství. Je to interpretace opřená o náhlou změnu jejího oslovení; nelze z ní vyvodit, že Misfit přijal náboženské obrácení. Jeho závěrečná odpověď společníkovi zpochybňuje dřívější představu, že krutost přináší potěšení."
+        ],
+        "steps": [
+          "Vlastní procvičení 1 — Where does the family intend to go, and where would the grandmother prefer to travel? Odpověď: The planned destination is Florida; the grandmother would prefer east Tennessee. Vysvětlení: Distinguish the family’s original plan from her preference and the later detour.",
+          "Vlastní procvičení 2 — How does the grandmother persuade the children to support the detour? Odpověď: She invents a secret-panel story suggesting that hidden family silver could still be in the old house. Vysvětlení: The narrator explicitly identifies this claim as untrue; the prospect of a discovery excites the children.",
+          "Vlastní procvičení 3 — What mistake does she realize just before the crash? Odpověď: The remembered house is in Tennessee, not Georgia. Vysvětlení: Her startled movement upsets the luggage; the concealed cat escapes and jumps on Bailey.",
+          "Vlastní procvičení 4 — Why is identifying the arriving driver as the Misfit dangerous? Odpověď: The grandmother reveals that she recognizes the escaped criminal, and he indicates that this recognition worsens the family’s position. Vysvětlení: Do not confuse the three armed men with ordinary rescuers.",
+          "Vlastní procvičení 5 — Which two companions act with the Misfit? Odpověď: Bobby Lee and Hiram. Vysvětlení: They take family members into the woods while the Misfit remains with the grandmother.",
+          "Vlastní procvičení 6 — Why does he call himself the Misfit? Odpověď: He believes that his wrongdoing and the punishment he has suffered do not correspond. Vysvětlení: This is his explanation of himself, not proof that he is innocent or that his account of the past is reliable.",
+          "Vlastní procvičení 7 — What happens when the grandmother touches his shoulder? Odpověď: He recoils and shoots her. Vysvětlení: The touch may suggest a sudden recognition of shared humanity, but the violent response is the stated event. Keep interpretation separate from action.",
+          "Vlastní procvičení 8 — Does the ending establish that the Misfit has become a good man? Odpověď: No. His final response complicates his earlier connection between cruelty and pleasure, but the story does not establish redemption or lasting reform. Vysvětlení: A change in tone is evidence for discussion, not proof of moral transformation."
+        ]
+      },
+      "source_refs": [],
+      "steps": [
+        "Dočti povídku v oprávněně dostupném školním zdroji.",
+        "Bez nahlížení si obnov pořadí hlavních událostí a příčiny odbočky i havárie.",
+        "U interpretace uveď konkrétní dějový důkaz a odliš ji od výroků postav."
+      ],
+      "subject": "american-literature",
+      "topic": "section-b1211e24ac753b629e528c0fc039f0ca",
+      "version": "ec8f1dc87bcccb1cf1af332fe3fb96a41e6e1d5c2a9c578ca26c754f27340cd1"
+    }
+  ]
+}
