@@ -10,12 +10,14 @@ export const subjects = [
   {id:'mathematics',name:'Matematika',color:'#ac8350',tint:'#f7f1e7',icon:'function',description:'Kružnice, grafy a rovnice. Souvislosti, které si můžeš vyzkoušet.'},
   {id:'literature',name:'Literatura',color:'#a56c7b',tint:'#f8eff2',icon:'book',description:'Příběhy, které stojí za pochopení.'},
   {id:'history',name:'Dějepis',color:'#94704e',tint:'#f5efe8',icon:'clock',description:'Historická období a jejich souvislosti.'},
+  {id:'spanish',origin:'editorial',notifications:false,name:'Španělština',color:'#a06d49',tint:'#f6ede4',icon:'book',description:'Slova, která použiješ. Pravidla, která si vyzkoušíš.'},
 ];
 
 subjects.push(...courseSubjects.filter(subject=>!subjects.some(existing=>existing.id===subject.id)));
 
 /** @type {StudyUnit[]} */
 export const units = [
+  {id:'spanish-de-tiendas',origin:'editorial',subjectId:'spanish',title:'Unidad 2 – De tiendas',label:'NUEVA AVENTURA 2',description:'Nakupování ve španělštině: 80 slovíček, rozkazy, zájmena, číslovky, psaní a modelová písemka s vlastními výsledky.',module:'spanish-shopping',materials:[]},
   {id:'skeleton',subjectId:'biology',title:'Kosterní soustava člověka – lidské kosti',label:'LIDSKÉ TĚLO',description:'64 studijních položek. Jeden přehledný atlas. Poznej lidskou kostru od hlavy až k patě.',module:'biology',materials:[
     {title:'Kosterní soustava — výpisky',description:'Pouze podle původní prezentace · PDF',url:'modules/biology/assets/kosterni-soustava-prehled.pdf',sha256:'ae29023e1b8a1c5fd8e59f29671061483577178600d3249613542c1a17897b17'},
     {title:'Kosterní soustava — původní prezentace',description:'63 snímků · PDF',url:'modules/biology/assets/kosterni-soustava-prezentace.pdf',sha256:'f11c58c90321af35edd54cc86b5d4e891253e6dfcd525a09ffb9f123e19390be'},
@@ -61,6 +63,7 @@ export const events = [
 ];
 
 export const moduleLoaders = {
+  'spanish-shopping': () => import('../modules/spanish-shopping/index.js'),
   baroque: () => import('../modules/baroque/index.js'),
   'course-notes': () => import('../modules/course-notes/index.js'),
   biology: () => import('../modules/biology/index.js'),

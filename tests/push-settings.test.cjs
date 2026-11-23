@@ -37,7 +37,7 @@ test('no selected subject or denied permission creates no subscription',async()=
 });
 test('all registered notification subjects, including literature and history, are valid push choices',async()=>{
  const {subjects}=await import('../src/data.js');const {pushPreferences}=await api;
- const registered=subjects.map(subject=>subject.id);assert.ok(registered.includes('literature'));assert.ok(registered.includes('history'));
+ const registered=subjects.filter(subject=>subject.notifications!==false).map(subject=>subject.id);assert.ok(registered.includes('literature'));assert.ok(registered.includes('history'));
  assert.deepEqual(pushPreferences({...prefs,subjects:registered}).subjects,registered.slice().sort());
  assert.deepEqual(pushPreferences({...prefs,subjects:['law','literature','history']}).subjects,['history','law','literature']);
 });

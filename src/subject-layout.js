@@ -1,5 +1,5 @@
 /** Keep established interactive categories canonical; Moodle sources enrich them. */
-const primaryIds={mathematics:['trig-functions','trig-equations','moodle-mathematics-19b4bf717ba5fb504c592cbdd891923b'],biology:['skeleton','muscles','circulation','lymphatic'],law:['law-unit-2']};
+const primaryIds={mathematics:['trig-functions','trig-equations','moodle-mathematics-19b4bf717ba5fb504c592cbdd891923b'],biology:['skeleton','muscles','circulation','lymphatic'],law:['law-unit-2'],spanish:['spanish-de-tiendas']};
 const supplementParents={
  'moodle-mathematics-9b3237cc2327dfc9a3353506fef752b3':['trig-functions','trig-equations'],
  'moodle-biology-03eb3f66a6da14c362750a3968ba2881':['skeleton'],

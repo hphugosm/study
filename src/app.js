@@ -17,7 +17,7 @@ import {communityConfig} from './community-config.js';
 const main = document.querySelector('main');
 const notificationBell=document.querySelector('#notification-bell');
 let refreshPushSettings;
-const notificationCenter=initNotificationCenter({subjects,onPreferencesChange(){refreshPushSettings?.();},onChange(count){
+const notificationCenter=initNotificationCenter({subjects:subjects.filter(subject=>subject.notifications!==false),onPreferencesChange(){refreshPushSettings?.();},onChange(count){
   notificationBell.setAttribute('aria-label',count?`Novinky, ${count} ${count===1?'nepřečtená':count<=4?'nepřečtené':'nepřečtených'}`:'Novinky');
   const badge=notificationBell.querySelector('[data-unread]');badge.textContent=count>99?'99+':String(count);badge.hidden=!count;
 }});
@@ -173,6 +173,7 @@ function renderPractice() {
     {unit:'lymphatic',mode:'cards',icon:'layers',title:'Mízní soustava: poznávačka',copy:'Rozliš slezinu, brzlík, krční a podpažní uzliny.'},
     {unit:'lymphatic',mode:'map',icon:'grid',title:'Mízní soustava: slepá mapa',copy:'Najdi ověřené místo na schématu bez popisků.'},
   );
+  options.push({unit:'spanish-de-tiendas',mode:'imperative',icon:'book',title:'Španělština – De tiendas',copy:'Rozkazy, zájmena, 80 slovíček a vlastní modelová písemka.'});
   options.push({unit:'baroque',mode:'cards',icon:'layers',title:'Baroko — kartičky',copy:'Znaky, umělci, hudebníci a stavby. Otázka a odpověď.'});
   options.push(...units.filter(unit=>unit.module==='course-notes'&&unit.questionCount>0&&unit.available!==false&&!parentsForSupplement(unit,units).length).map(unit=>({unit:unit.id,mode:'practice',icon:'check',title:unit.title,copy:`${unit.questionCount} otázek s vysvětlením ze schválených podkladů.`})));
   main.innerHTML=`<section class="page-intro"><div><p class="eyebrow">KROK ZA KROKEM</p><h1>Co si dnes procvičíš?</h1><p>Vyber si způsob učení, který ti právě sedí.</p></div></section><div class="practice-grid">${options.map(o=>{const s=getSubject(getUnit(o.unit).subjectId);return `<a class="practice-card" href="#/units/${o.unit}?mode=${o.mode}" style="${subjectStyle(s)}"><div class="practice-card-top"><span class="subject-icon">${icon(o.icon)}</span><span class="subject-pill">${s.name}</span></div><h2>${o.title}</h2><p>${o.copy}</p><span class="text-link">Začít procvičování ${icon('arrow')}</span></a>`;}).join('')}</div>`;

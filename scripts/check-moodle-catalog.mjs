@@ -38,6 +38,8 @@ for(const subject of catalog.subjects){
   topicCount++;sourceCount+=sources.sources.length;derivedCount+=derived.artifacts.length;
  }
 }
-for(const subject of subjects)assert.ok(catalog.subjects.some(item=>item.id===subject.id),'Existing public subject missing from source catalog');
-for(const unit of units)assert.ok(catalog.subjects.find(item=>item.id===unit.subjectId)?.topics.some(item=>item.id===(unit.topicId||unit.id)),'Existing public topic missing from source catalog');
+// Independently authored units are registered locally, outside the Moodle source catalog.
+for(const unit of units.filter(unit=>unit.origin==='editorial')){assert.ok(subjects.some(subject=>subject.id===unit.subjectId&&subject.origin==='editorial'));assert.ok(unit.module,'Editorial unit must have an actual local module');}
+for(const subject of subjects.filter(subject=>subject.origin!=='editorial'))assert.ok(catalog.subjects.some(item=>item.id===subject.id),'Existing public subject missing from source catalog');
+for(const unit of units.filter(unit=>unit.origin!=='editorial'))assert.ok(catalog.subjects.find(item=>item.id===unit.subjectId)?.topics.some(item=>item.id===(unit.topicId||unit.id)),'Existing public topic missing from source catalog');
 console.log(`Moodle source catalog: ${catalog.subjects.length} subjects, ${topicCount} topics, ${sourceCount} approved sources, ${derivedCount} reviewed derived outputs, ${externalCount} approved external links.`);

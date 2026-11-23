@@ -23,6 +23,7 @@ export default defineConfig({
     { name: 'pwa-safari', testMatch: ['**/pwa-settings.spec.mjs','**/pwa-updates.spec.mjs'], use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'allow' } },
     { name: 'calendar-safari', testMatch: '**/moodle-calendar.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'assignments-safari', testMatch: '**/assignments.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
+    { name: 'spanish-safari', testMatch: '**/spanish-shopping.spec.mjs', use: { ...devices['iPhone SE'], viewport: {width:320,height:700}, defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'notes-safari', testMatch: '**/notes.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'circulation-safari', testMatch: '**/circulation.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
     { name: 'lymphatic-safari', testMatch: '**/lymphatic.spec.mjs', use: { ...devices['iPhone 13'], defaultBrowserType: 'webkit', serviceWorkers: 'block' } },
