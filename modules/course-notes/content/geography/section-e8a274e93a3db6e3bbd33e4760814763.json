@@ -1,0 +1,1242 @@
+{
+  "schema": 1,
+  "subject": "geography",
+  "topic": "section-e8a274e93a3db6e3bbd33e4760814763",
+  "title": "Jihozápadní Asie",
+  "language": "cs",
+  "intro": "Přírodní podmínky jihozápadní Asie s úplným řešením pracovního listu, názorným srovnáním podnebí a otázkami k opakování.",
+  "sources": [
+    {
+      "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+      "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+      "title": "Přírodní podmínky JZ Asie - pracovní list",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582.pdf",
+      "extraction_url": "./extracted/c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582.zip"
+    },
+    {
+      "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+      "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+      "title": "Jihozápadní Asie - průvodce a úplné řešení pracovního listu",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e.pdf",
+      "extraction_url": "./extracted/84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e.zip"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "pracovni-list-jz-asie",
+      "title": "Vzorové řešení celého pracovního listu",
+      "summary": "Najdeš hotové řešení všech 48 mezer a vysvětlení školních zjednodušení v samostatném dokumentu.",
+      "source_refs": [
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        },
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 1
+        },
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 2
+        },
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        },
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Obě strany listu obsahují stejnou doplňovačku. Stažitelný dokument řeší všech 48 mezer v osmi oddílech a u citlivých položek odlišuje očekávané školní doplnění od širšího vysvětlení.",
+          "source_refs": [
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 1
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 2
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 3
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Poloha: 8 doplnění; státy: 9; geologie: 6; povrch: 7; jezera: 5; řeky: 4; přehrady: 2; podnebí: 7.",
+          "source_refs": [
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 1
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 2
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 3
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            }
+          ]
+        }
+      ],
+      "solutions": [
+        {
+          "id": "jz-asie-pracovni-list-vzor",
+          "title": "Úplné řešení 48 doplnění pracovního listu",
+          "format": "docx",
+          "sha256": "bd8d7152a4cab3983cfffbba708d8dfb9d531230b57f369969b0f57e9524d3df",
+          "size": 41061,
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/bd8d7152a4cab3983cfffbba708d8dfb9d531230b57f369969b0f57e9524d3df.docx",
+          "source_refs": [
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 1
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 2
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 3
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jz-poloha",
+      "title": "Vymezení regionu a strategické průlivy",
+      "summary": "Propojíš hlavní oblasti jihozápadní Asie s okolními moři a průlivy podle školního vymezení.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Školní přehled vymezuje region na styku Evropy, Asie a Afriky. Spojuje Malou Asii, Levantu, Arabský poloostrov, Mezopotámii a Íránskou vrchovinu. Přibližných 6 milionů km² čti jako údaj k tomuto vymezení.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rozhraní kontinentů: Evropy.",
+            "Oblast za Malou Asií: Levantu.",
+            "Oblast před Íránskou vrchovinou: Mezopotámii.",
+            "Přibližná rozloha ve školním vymezení: 6 milionů km².",
+            "Severní mořská hranice: Černým mořem.",
+            "Jihovýchodní záliv: Perským zálivem.",
+            "Průliv vedle Dardanel: Bospor.",
+            "Průliv u Perského zálivu: Hormuzský průliv."
+          ],
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jz-staty",
+      "title": "Státy a položky školní tabulky měst",
+      "summary": "Doplníš chybějící názvy států a měst a odlišíš školní tabulku od politického statusu Jeruzaléma.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 2
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Turecko - město: Ankara.",
+            "Izrael - položka podle podkladu: Jeruzalém.",
+            "Libanon - město: Bejrút.",
+            "Stát s Damaškem: Sýrie.",
+            "Irák - město: Bagdád.",
+            "Írán - město: Teherán.",
+            "Stát s Manámou: Bahrajn.",
+            "Spojené arabské emiráty - město: Abú Dhabí.",
+            "Omán - město: Maskat."
+          ],
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 2
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Ramalláh je v listu již předtištěn u Palestiny, nikoli určen k doplnění. UNdata uvádí pro Stát Palestina Východní Jeruzalém s příslušnou politickou poznámkou. U Izraele je Jeruzalém očekávaným doplněním podle podkladu; tabulka sama nevysvětluje mezinárodní status města.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 2
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            }
+          ],
+          "tone": "key"
+        }
+      ]
+    },
+    {
+      "id": "jz-geologie",
+      "title": "Desky, pohoří a zemětřesení",
+      "summary": "Rozlišíš tektonické desky, horská pásma a zlomy a vysvětlíš omezení zkratky o vzniku Araratu.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Oblast je tektonicky aktivní. Při doplňování rozliš konvergentní rozhraní Euroasijské a Arabské desky, Anatolskou desku, horská pásma a zlomy.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Charakter oblasti: tektonicky aktivní.",
+            "Typ rozhraní uvedený v listu: konvergentní.",
+            "Deska vedle Euroasijské: Arabská.",
+            "Vznikající pohoří: Zagros.",
+            "Deska mezi okolními deskami: Anatolská.",
+            "Sopečný útvar očekávaný podle podkladu: sopka Ararat."
+          ],
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "„Sopka Ararat“ je očekávané doplnění podle dodaného výkladu. Severoanatolský a Východoanatolský zlom souvisejí se zemětřeseními; školní zkratku nepřeváděj na tvrzení, že sopku přímo vytvořil jediný zlom.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 1
+            }
+          ],
+          "tone": "key"
+        }
+      ]
+    },
+    {
+      "id": "jz-povrch",
+      "title": "Pohoří, vysočiny a nížiny",
+      "summary": "Přiřadíš vrcholy k pohořím a rozlišíš horská pásma od vysočin a aluviálních nížin.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Vrásnění: alpínsko-himálajské.",
+            "Pohoří s Kačkarem: Pontské pohoří.",
+            "Íránské pohoří s Qash Mastanem: Zagros.",
+            "Sopka v Elborzu: Damávand.",
+            "Sopka v Arménské vysočině: Ararat.",
+            "Aluviální nížina mezi Eufratem a Tigridem: Mezopotámská nížina.",
+            "Pobřežní nížiny podél: Perského zálivu."
+          ],
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 3
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pontské pohoří a Kačkar, Zagros a Qash Mastan, Elborz a Damávand jsou dvojice pohoří a vrcholu. Ararat je v přehledu spojen s Arménskou vysočinou. Mezopotámská nížina leží mezi Eufratem a Tigridem.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Pohoří",
+          "Vysočiny a plošiny",
+          "Nížiny"
+        ],
+        "rows": [
+          {
+            "label": "Příklady z podkladu",
+            "values": [
+              "Pontské pohoří, Taurus, Zagros, Elborz",
+              "Arménská vysočina, Íránská vrchovina, Arabská plošina",
+              "Mezopotámská nížina a pobřeží Perského zálivu"
+            ]
+          },
+          {
+            "label": "Co při čtení rozlišit",
+            "values": [
+              "Název pohoří od názvu jednotlivého vrcholu",
+              "Vyvýšený celek od jednoho vrcholu",
+              "Rovinnou oblast od okolních horských pásem"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "jz-jezera",
+      "title": "Bezodtoká jezera a jejich přítoky",
+      "summary": "Poznáš Mrtvé, Urmijské a Vanské jezero a propojíš bezodtokost s významem přítoků.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Jezera podle odtoku: bezodtoká.",
+            "Jezero doplňované v textu: Mrtvé moře.",
+            "Řeka související s poklesem hladiny: Jordán.",
+            "Ohrožené slané jezero v Íránu: Urmijské jezero.",
+            "Stát s Vanským jezerem: Turecko."
+          ],
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 3
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bezodtoké jezero nemá povrchový odtok do moře. Změny přítoků a odběry vody mohou ovlivnit jeho hladinu. Proměnlivou současnou výšku hladiny ani přesnou salinitu Mrtvého moře zde neber jako neměnné číslo.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jz-reky",
+      "title": "Eufrat, Tigris, Karun a Jordán",
+      "summary": "Propojíš řeky Mezopotámie s jejich soutokem a odlišíš je od soustavy Jordánu a Mrtvého moře.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Řeka vedle Eufratu: Tigris.",
+            "Tok vznikající jejich soutokem: Šatt al-Arab.",
+            "Íránský přítok Šatt al-Arab: Karun.",
+            "Řeka napájející Mrtvé moře: Jordán."
+          ],
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Začni dvěma říčními osami",
+          "text": "Eufrat a Tigris jsou dvě hlavní řeky uvedené u Mezopotámie.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "title": "Spoj je se společným tokem",
+          "text": "Jejich soutok vytváří Šatt al-Arab; Karun je jeho íránský přítok.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "title": "Odděl jinou vodní soustavu",
+          "text": "Jordán je v přehledu spojen s přítokem vody do Mrtvého moře, ne se soutokem Eufratu a Tigridu.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jz-prehrady",
+      "title": "Přehrady a využití vody",
+      "summary": "Přiřadíš přehrady k řekám a vysvětlíš jejich význam pro elektřinu a zavlažování.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        },
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 5
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Turecká přehrada na Eufratu: Atatürkova přehrada.",
+            "Země zásobovaná Mosulskou přehradou podle listu: Irák."
+          ],
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Atatürkova přehrada je ve výkladu na Eufratu, Mosulská na Tigridu. Výroba elektřiny a zavlažování jsou důležité funkce přehrad; přehrazování ale může zároveň měnit říční prostředí.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 5
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jz-podnebi",
+      "title": "Pobřeží, suché vnitrozemí a hory",
+      "summary": "Porovnáš sezónnost středomořského pobřeží se suchým vnitrozemím a vyššími horskými polohami.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        },
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 5
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 1
+        },
+        {
+          "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+          "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+          "page": 2
+        }
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Převládající pás v přehledu: subtropický.",
+            "Pobřežní typ klimatu: středomořské.",
+            "Klima doplňující aridní: semiaridní.",
+            "Biomy suchého prostředí: pouště a polopouště.",
+            "Biom pobřeží Středozemního moře: středomořská macchie.",
+            "Biom vnitrozemí Turecka a Íránu: stepi.",
+            "Biom vyšších poloh Zagrosu a Elborzu: horské lesy."
+          ],
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 1
+            },
+            {
+              "id": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+              "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Středomořské klima má v přehledu suchá horká léta a mírnější vlhké zimy. Aridní a semiaridní vnitrozemí je suché. Horské oblasti se liší od nížin a ve vyšších polohách Zagrosu a Elborzu jsou uvedeny horské lesy.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Jde o názorné srovnání typů prostředí, nikoli o předpověď počasí nebo výpočet srážek pro každé místo regionu.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 4
+            },
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 5
+            }
+          ],
+          "tone": "tip"
+        }
+      ],
+      "interactive": {
+        "kind": "geography-climate",
+        "title": "Pobřeží, vnitrozemí a hory",
+        "defaults": {
+          "region": "coast"
+        },
+        "source_refs": [
+          {
+            "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+            "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+            "page": 4
+          },
+          {
+            "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+            "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+            "page": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "jz-prostredi",
+      "title": "Voda, půda a změny krajiny",
+      "summary": "Propojíš využití vody a půdy s desertifikací, zasolováním a změnami říčních ekosystémů.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 5
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Přehled propojuje nadměrnou pastvu a kácení s desertifikací. Nedostatek vody, intenzivní zavlažování a salinizace, tedy zasolování půd, spolu souvisejí.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Přehrady pomáhají hospodařit s vodou a vyrábět elektřinu, mohou však měnit říční ekosystémy. Při odpovědi proto pojmenuj přínos i možný dopad, ne pouze stavbu na mapě.",
+          "source_refs": [
+            {
+              "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+              "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+              "page": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-jz-pruliv",
+      "front": "Který průliv spojuje školní přehled s Perským zálivem?",
+      "back": "Hormuzský průliv.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-jz-rozhrani",
+      "front": "Které tři kontinenty se stýkají v poloze regionu?",
+      "back": "Evropa, Asie a Afrika.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "card-jz-zagros",
+      "front": "Která dvě íránská pohoří se doplňují v přehledu povrchu?",
+      "back": "Zagros a Elborz.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "card-jz-vrchol",
+      "front": "Která sopka patří v přehledu k Elborzu?",
+      "back": "Damávand; Ararat je spojen s Arménskou vysočinou.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "card-jz-nizina",
+      "front": "Mezi kterými řekami leží Mezopotámská nížina?",
+      "back": "Mezi Eufratem a Tigridem.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "card-jz-bezodtoke",
+      "front": "Co znamená bezodtoké jezero?",
+      "back": "Nemá povrchový odtok do moře.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "card-jz-van",
+      "front": "Ve kterém státě je Vanské jezero?",
+      "back": "V Turecku.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "card-jz-soutok",
+      "front": "Co vzniká soutokem Eufratu a Tigridu?",
+      "back": "Šatt al-Arab.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-jz-karun",
+      "front": "Který íránský přítok Šatt al-Arab se doplňuje do listu?",
+      "back": "Karun.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-jz-jordan",
+      "front": "Která řeka je v podkladu spojena s Mrtvým mořem?",
+      "back": "Jordán.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-jz-ataturk",
+      "front": "Na které řece je Atatürkova přehrada?",
+      "back": "Na Eufratu.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-jz-stredomori",
+      "front": "Jak se v přehledu liší léto a zima středomořského pobřeží?",
+      "back": "Léto je suché a horké, zima mírnější a vlhčí.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-jz-macchie",
+      "front": "K čemu přehled přiřazuje středomořskou macchii?",
+      "back": "K pobřeží Středozemního moře.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "card-jz-salinizace",
+      "front": "Co znamená salinizace půd?",
+      "back": "Zasolování půd; přehled ji spojuje se zavlažováním v suchých oblastech.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 5
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quiz-jz-pruliv",
+      "prompt": "Který průliv se v přehledu vztahuje k Perskému zálivu?",
+      "options": [
+        "Hormuzský průliv",
+        "Bospor",
+        "Dardanely"
+      ],
+      "answer": 0,
+      "explanation": "Hormuzský průliv je položka doplňovaná u Perského zálivu.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-desky",
+      "prompt": "Která deska doplňuje Euroasijskou u konvergentního rozhraní v listu?",
+      "options": [
+        "Arabská",
+        "Tichomořská",
+        "Jihoamerická"
+      ],
+      "answer": 0,
+      "explanation": "Podklad pracuje s konvergencí Arabské a Euroasijské desky.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-elborz",
+      "prompt": "Která dvojice pohoří a vrcholu odpovídá řešení?",
+      "options": [
+        "Elborz - Ararat",
+        "Elborz - Damávand",
+        "Pontské pohoří - Damávand"
+      ],
+      "answer": 1,
+      "explanation": "K Elborzu patří Damávand, zatímco Ararat je uveden u Arménské vysočiny.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-nizina",
+      "prompt": "Co v přehledu označuje Mezopotámská nížina?",
+      "options": [
+        "Vrchol v Elborzu",
+        "Aluviální rovinu mezi Eufratem a Tigridem",
+        "Průliv u Perského zálivu"
+      ],
+      "answer": 1,
+      "explanation": "Nížina je rovinná oblast, nikoli vrchol nebo průliv.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-bezodtoke",
+      "prompt": "Co je podstatné pro označení bezodtoké jezero?",
+      "options": [
+        "Nemá povrchový odtok do moře",
+        "Nemá žádný přítok",
+        "Leží vždy u mořského pobřeží"
+      ],
+      "answer": 0,
+      "explanation": "Bezodtokost se týká odtoku, ne tvrzení, že do jezera žádná voda nepřitéká.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-van",
+      "prompt": "Který stát se doplňuje k Vanskému jezeru?",
+      "options": [
+        "Írán",
+        "Jordánsko",
+        "Turecko"
+      ],
+      "answer": 2,
+      "explanation": "Vanské jezero patří v řešení k Turecku.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-soutok",
+      "prompt": "Který tok vzniká soutokem Eufratu a Tigridu?",
+      "options": [
+        "Jordán",
+        "Šatt al-Arab",
+        "Karun"
+      ],
+      "answer": 1,
+      "explanation": "Šatt al-Arab je společný tok; Karun je jeho přítok.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-karun",
+      "prompt": "Která řeka se do Šatt al-Arab připojuje z Íránu?",
+      "options": [
+        "Karun",
+        "Jordán",
+        "Eufrat jako samostatný íránský přítok"
+      ],
+      "answer": 0,
+      "explanation": "Do mezery je určen Karun; Eufrat je součástí původního soutoku.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-ataturk",
+      "prompt": "Která dvojice přehrady a řeky je správná?",
+      "options": [
+        "Atatürkova - Tigris",
+        "Mosulská - Eufrat",
+        "Atatürkova - Eufrat"
+      ],
+      "answer": 2,
+      "explanation": "Atatürkova přehrada je v podkladu spojena s Eufratem.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-sezona",
+      "prompt": "Jaký průběh charakterizuje středomořské klima v přehledu?",
+      "options": [
+        "Vlhké léto a suchá zima",
+        "Suché horké léto a mírnější vlhká zima",
+        "Stejné podmínky ve všech měsících"
+      ],
+      "answer": 1,
+      "explanation": "Důležité je střídání suchého léta a vlhčí zimy.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-macchie",
+      "prompt": "Který biom je v řešení přiřazen ke středomořskému pobřeží?",
+      "options": [
+        "Středomořská macchie",
+        "Horské lesy ve všech nížinách",
+        "Arktická tundra"
+      ],
+      "answer": 0,
+      "explanation": "Macchie je položka doplňovaná u pobřeží Středozemního moře.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "quiz-jz-salinizace",
+      "prompt": "Co v přehledu znamená salinizace?",
+      "options": [
+        "Vznik pohoří",
+        "Soutok dvou řek",
+        "Zasolování půdy"
+      ],
+      "answer": 2,
+      "explanation": "Pojem se týká půd a je uveden v souvislosti se zavlažováním v suchých oblastech.",
+      "source_refs": [
+        {
+          "id": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
+          "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e",
+          "page": 5
+        }
+      ]
+    }
+  ]
+}

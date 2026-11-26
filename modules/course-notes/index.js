@@ -82,7 +82,7 @@ export function validateContent(data) {
     }
     for(const step of lesson.steps||[]){assert(textOK(step.title)&&textOK(step.text),'invalid_step');refs(step);}
     if(lesson.comparison){const comparison=lesson.comparison;assert(Array.isArray(comparison.columns)&&comparison.columns.length>=2&&comparison.columns.every(textOK),'invalid_comparison');for(const row of comparison.rows||[])assert(textOK(row.label)&&row.values?.length===comparison.columns.length&&row.values.every(textOK),'invalid_comparison');}
-    if(lesson.interactive!==undefined){assert(lesson.interactive&&['refraction','parity','stereometry','pixels'].includes(lesson.interactive.kind)&&textOK(lesson.interactive.title),'invalid_interaction');refs(lesson.interactive);validateInteraction(lesson.interactive);}
+    if(lesson.interactive!==undefined){assert(lesson.interactive&&['refraction','parity','stereometry','pixels','geography-climate'].includes(lesson.interactive.kind)&&textOK(lesson.interactive.title),'invalid_interaction');refs(lesson.interactive);validateInteraction(lesson.interactive);}
     for(const event of lesson.timeline||[]){assert(textOK(event.label)&&textOK(event.text),'invalid_timeline');refs(event);}
   }
   for(const card of data.flashcards||[]){identify(card);assert(textOK(card.front)&&textOK(card.back),'invalid_flashcard');refs(card);}

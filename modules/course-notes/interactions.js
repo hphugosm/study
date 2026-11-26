@@ -1,3 +1,4 @@
+import {mountClimate,normalizeClimateOptions} from './geography-climate.js';
 import {mountStereometry,normalizeStereometryOptions} from './stereometry.js';
 import {mountPixels,normalizePixelsOptions,validatePixelSources} from './pixels.js';
 /** Source-backed, local-only teaching controls. No HTML injection or network access. */
@@ -35,9 +36,10 @@ export function evaluateParity(bits, parity = 'even') {
 }
 
 export function validateInteraction(descriptor) {
-  if (!record(descriptor) || !['refraction', 'parity', 'stereometry', 'pixels'].includes(descriptor.kind)) fail('Neznámá interaktivní ukázka.');
+  if (!record(descriptor) || !['refraction', 'parity', 'stereometry', 'pixels', 'geography-climate'].includes(descriptor.kind)) fail('Neznámá interaktivní ukázka.');
   if (typeof descriptor.title !== 'string' || !descriptor.title.trim() || descriptor.title.length > 200 || /[<>\u0000]/.test(descriptor.title)) fail('Neplatný název interaktivní ukázky.');
   if (descriptor.defaults !== undefined && !record(descriptor.defaults)) fail('Neplatné výchozí hodnoty.');
+  if (descriptor.kind === 'geography-climate') return {...descriptor, defaults: normalizeClimateOptions(descriptor.defaults)};
   if (descriptor.kind === 'stereometry') return {...descriptor, defaults: normalizeStereometryOptions(descriptor.defaults)};
   if (descriptor.kind === 'pixels') {validatePixelSources(descriptor.source_refs);return {...descriptor, defaults: normalizePixelsOptions(descriptor.defaults)};}
   const defaults = descriptor.defaults || {};
@@ -56,6 +58,7 @@ let widgetCount = 0;
 
 export function mountInteraction(container, descriptor) {
   const config = validateInteraction(descriptor);
+  if (config.kind === 'geography-climate') return mountClimate(container,config.defaults);
   if (config.kind === 'stereometry') return mountStereometry(container,config.defaults);
   if (config.kind === 'pixels') return mountPixels(container,config.defaults);
   if (!container?.ownerDocument || typeof container.append !== 'function') fail('Chybí místo pro interaktivní ukázku.');

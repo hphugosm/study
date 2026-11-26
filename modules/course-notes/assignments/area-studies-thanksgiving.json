@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "assignmentId": "388c23412e6d71ff7777c0e5c560c07bb8eed4b4f1b0f993b6ca6a01ea928f99",
+      "version": "11ad4ee7ac33de19f3cb52e2b1b56d0d7b4337b3e191ac3a39cea239cea94e90",
+      "subject": "area-studies",
+      "topic": "section-57ebae4359c71a17acb53e96ea8717bd",
+      "reviewed": true,
+      "reviewed_on": "2026-11-26",
+      "prompt": "As promised, please find the article attached that we started to read today during class on one native student's take on the history of Thanksgiving. Read it and answer the questions on the second attached document as well. Once finished, please bring the document with the answers to the questions to our next class so I can give you credit.\n\nAs usual, just let me know if you have any questions!\n\nAttached worksheet\n1) Why did the author feel uncomfortable during Thanksgiving celebrations at elementary school?\n2) What was the significance of the first Thanksgiving in 1621, according to the article?\n3) How did the Wampanoag people help the Pilgrims survive?\n4) Why did the relationship between Indigenous peoples and European settlers eventually deteriorate?\n5) What does the author suggest people should do to make Thanksgiving more meaningful?\n6) Do you think schools should change the way they teach children about Thanksgiving? Why or why not?\n7) How important is it for modern societies to acknowledge historical injustices, even when they happened hundreds of years ago?",
+      "solution": {
+        "paragraphs": [
+          "Explained model study answers to the complete seven-question worksheet. Questions 1–5 interpret Jeremy Harley’s guest opinion It’s Time to Move Past the Thanksgiving Myth (27 November 2024); this is not a separate historical fact check or an official teacher key. Read the article yourself. The positions in questions 6–7 are examples to adapt, not statements of your personal opinion. Article attribution and publisher link: https://nativenewsonline.net/opinion/it-s-time-to-move-past-the-thanksgiving-myth/ .",
+          "1) Why did the author feel uncomfortable during Thanksgiving celebrations at elementary school?",
+          "He felt excluded: classmates performed simplified Indigenous stereotypes, while the lesson presented peaceful cooperation and ignored his community’s suffering. Nobody asked for his perspective.",
+          "Explanation: Connect the classroom activities with the missing Indigenous voice; it was more than disliking a holiday.",
+          "2) What was the significance of the first Thanksgiving in 1621, according to the article?",
+          "The article presents the 1621 meal as a temporary accommodation between the Wampanoag and the Pilgrims, rather than evidence of lasting equality or harmony.",
+          "Explanation: This is the author’s interpretation. A shared meal should not be treated as proof that later colonial relationships were peaceful.",
+          "3) How did the Wampanoag people help the Pilgrims survive?",
+          "They shared practical knowledge about obtaining food and living in the local environment, including farming, hunting and finding their way around.",
+          "Explanation: Name the concrete help described, rather than merely saying that they were friendly.",
+          "4) Why did the relationship between Indigenous peoples and European settlers eventually deteriorate?",
+          "According to the author, settlers increasingly wanted Indigenous land and ignored agreements once Indigenous assistance was less useful to them. Dispossession and violence undermined cooperation.",
+          "Explanation: Explain the change from mutual dependence to unequal power; avoid presenting all Indigenous communities as one interchangeable group.",
+          "5) What does the author suggest people should do to make Thanksgiving more meaningful?",
+          "He recommends learning from Indigenous communities, investigating local history and reflecting on continuing harms. He still celebrates with his family, so his proposal is informed reflection rather than simply abolishing Thanksgiving.",
+          "Explanation: Include both historical learning and listening to living communities; notice the final paragraphs’ distinction between changing understanding and abandoning family traditions.",
+          "6) Do you think schools should change the way they teach children about Thanksgiving? Why or why not?",
+          "One possible response: yes. Lessons should include Indigenous accounts alongside familiar traditions, explain the later conflicts and avoid costume stereotypes. Children can discuss gratitude while also asking whose experiences a story leaves out.",
+          "Explanation: This is an example argument, not the learner’s personal opinion or a uniquely correct answer. Support your own view with a specific example from the article.",
+          "7) How important is it for modern societies to acknowledge historical injustices, even when they happened hundreds of years ago?",
+          "One possible response: acknowledging past injustice matters because it can explain present relationships and challenge misleading public stories. Recognition should involve listening to affected communities and examining evidence, rather than assuming that an apology alone resolves every harm.",
+          "Explanation: This is a model position open to reasoned disagreement. Distinguish historical responsibility from blaming every person alive today, and explain your reasoning."
+        ],
+        "steps": [
+          "Read the complete article, keeping track of the author’s perspective.",
+          "Answer all five comprehension questions using the article.",
+          "Review the two model discussion positions and develop your own supported answers.",
+          "Bring the document with your answers to the next class. Nothing has been submitted to Moodle."
+        ]
+      },
+      "source_refs": [
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 2"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 3"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 4"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
+        }
+      ],
+      "solutions": [
+        {
+          "id": "thanksgiving-article-study-answers",
+          "title": "Thanksgiving article — seven explained model answers",
+          "format": "docx",
+          "sha256": "e7b2812bb98049fe25f2aadea9fb56bdb326057e1e419b9a18a6a6b384d30e9b",
+          "size": 37768,
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e7b2812bb98049fe25f2aadea9fb56bdb326057e1e419b9a18a6a6b384d30e9b.docx",
+          "source_refs": [
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 2"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 3"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 4"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

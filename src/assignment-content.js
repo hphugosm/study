@@ -14,6 +14,131 @@
 // Keep the browser registry equal to their records, sorted by assignmentId.
 export const reviewedAssignmentContent=Object.freeze([
   {
+    "assignmentId": "388c23412e6d71ff7777c0e5c560c07bb8eed4b4f1b0f993b6ca6a01ea928f99",
+    "version": "11ad4ee7ac33de19f3cb52e2b1b56d0d7b4337b3e191ac3a39cea239cea94e90",
+    "subject": "area-studies",
+    "topic": "section-57ebae4359c71a17acb53e96ea8717bd",
+    "reviewed": true,
+    "reviewed_on": "2026-11-26",
+    "prompt": "As promised, please find the article attached that we started to read today during class on one native student's take on the history of Thanksgiving. Read it and answer the questions on the second attached document as well. Once finished, please bring the document with the answers to the questions to our next class so I can give you credit.\n\nAs usual, just let me know if you have any questions!\n\nAttached worksheet\n1) Why did the author feel uncomfortable during Thanksgiving celebrations at elementary school?\n2) What was the significance of the first Thanksgiving in 1621, according to the article?\n3) How did the Wampanoag people help the Pilgrims survive?\n4) Why did the relationship between Indigenous peoples and European settlers eventually deteriorate?\n5) What does the author suggest people should do to make Thanksgiving more meaningful?\n6) Do you think schools should change the way they teach children about Thanksgiving? Why or why not?\n7) How important is it for modern societies to acknowledge historical injustices, even when they happened hundreds of years ago?",
+    "solution": {
+      "paragraphs": [
+        "Explained model study answers to the complete seven-question worksheet. Questions 1–5 interpret Jeremy Harley’s guest opinion It’s Time to Move Past the Thanksgiving Myth (27 November 2024); this is not a separate historical fact check or an official teacher key. Read the article yourself. The positions in questions 6–7 are examples to adapt, not statements of your personal opinion. Article attribution and publisher link: https://nativenewsonline.net/opinion/it-s-time-to-move-past-the-thanksgiving-myth/ .",
+        "1) Why did the author feel uncomfortable during Thanksgiving celebrations at elementary school?",
+        "He felt excluded: classmates performed simplified Indigenous stereotypes, while the lesson presented peaceful cooperation and ignored his community’s suffering. Nobody asked for his perspective.",
+        "Explanation: Connect the classroom activities with the missing Indigenous voice; it was more than disliking a holiday.",
+        "2) What was the significance of the first Thanksgiving in 1621, according to the article?",
+        "The article presents the 1621 meal as a temporary accommodation between the Wampanoag and the Pilgrims, rather than evidence of lasting equality or harmony.",
+        "Explanation: This is the author’s interpretation. A shared meal should not be treated as proof that later colonial relationships were peaceful.",
+        "3) How did the Wampanoag people help the Pilgrims survive?",
+        "They shared practical knowledge about obtaining food and living in the local environment, including farming, hunting and finding their way around.",
+        "Explanation: Name the concrete help described, rather than merely saying that they were friendly.",
+        "4) Why did the relationship between Indigenous peoples and European settlers eventually deteriorate?",
+        "According to the author, settlers increasingly wanted Indigenous land and ignored agreements once Indigenous assistance was less useful to them. Dispossession and violence undermined cooperation.",
+        "Explanation: Explain the change from mutual dependence to unequal power; avoid presenting all Indigenous communities as one interchangeable group.",
+        "5) What does the author suggest people should do to make Thanksgiving more meaningful?",
+        "He recommends learning from Indigenous communities, investigating local history and reflecting on continuing harms. He still celebrates with his family, so his proposal is informed reflection rather than simply abolishing Thanksgiving.",
+        "Explanation: Include both historical learning and listening to living communities; notice the final paragraphs’ distinction between changing understanding and abandoning family traditions.",
+        "6) Do you think schools should change the way they teach children about Thanksgiving? Why or why not?",
+        "One possible response: yes. Lessons should include Indigenous accounts alongside familiar traditions, explain the later conflicts and avoid costume stereotypes. Children can discuss gratitude while also asking whose experiences a story leaves out.",
+        "Explanation: This is an example argument, not the learner’s personal opinion or a uniquely correct answer. Support your own view with a specific example from the article.",
+        "7) How important is it for modern societies to acknowledge historical injustices, even when they happened hundreds of years ago?",
+        "One possible response: acknowledging past injustice matters because it can explain present relationships and challenge misleading public stories. Recognition should involve listening to affected communities and examining evidence, rather than assuming that an apology alone resolves every harm.",
+        "Explanation: This is a model position open to reasoned disagreement. Distinguish historical responsibility from blaming every person alive today, and explain your reasoning."
+      ],
+      "steps": [
+        "Read the complete article, keeping track of the author’s perspective.",
+        "Answer all five comprehension questions using the article.",
+        "Review the two model discussion positions and develop your own supported answers.",
+        "Bring the document with your answers to the next class. Nothing has been submitted to Moodle."
+      ]
+    },
+    "source_refs": [
+      {
+        "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+        "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+        "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+      },
+      {
+        "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+        "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+        "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 2"
+      },
+      {
+        "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+        "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+        "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 3"
+      },
+      {
+        "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+        "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+        "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 4"
+      },
+      {
+        "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+        "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+        "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+      },
+      {
+        "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+        "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+        "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+      },
+      {
+        "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+        "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+        "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
+      }
+    ],
+    "solutions": [
+      {
+        "id": "thanksgiving-article-study-answers",
+        "title": "Thanksgiving article — seven explained model answers",
+        "format": "docx",
+        "sha256": "e7b2812bb98049fe25f2aadea9fb56bdb326057e1e419b9a18a6a6b384d30e9b",
+        "size": 37768,
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e7b2812bb98049fe25f2aadea9fb56bdb326057e1e419b9a18a6a6b384d30e9b.docx",
+        "source_refs": [
+          {
+            "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+            "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+            "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+          },
+          {
+            "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+            "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+            "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 2"
+          },
+          {
+            "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+            "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+            "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 3"
+          },
+          {
+            "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+            "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+            "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 4"
+          },
+          {
+            "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+            "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+            "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+          },
+          {
+            "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+            "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+            "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+          },
+          {
+            "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+            "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+            "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "assignmentId": "39591decae9c518bee2de885978d533162b0a696dcff776cbff69a6747770d4f",
     "prompt": "Your homework is to read the rest of Flannery O'Conner's short story \"A Good Man Is Hard to Find\". We will have a basic reading check on the entire story in class on May 5th.",
     "reviewed": true,
@@ -225,76 +350,165 @@ export const reviewedAssignmentContent=Object.freeze([
         "locator": "horní příklad Phe–Ala–Gly–Val–Cys a dolní příklad Ser–Ala–Gly"
       }
     ]
-  }
-]);
-
-// Source-reviewed attachment preparation does not claim the full Moodle prompt was read.
-export const reviewedAssignmentPreparations = [
+  },
+  {
+    "assignmentId": "bde17ada3c9306f502d6b405a2f70688ea7cd7249b9594436649d7412926c5e6",
+    "prompt": "Vypracujte odpovědi na otázky přiložené v příloze.\n\nPřiložený pracovní list Lipidy — otázky 1–10:\n1) Co jsou to lipidy?\n2) Na jaké podskupiny dělíme lipidy?\n3) Co jsou to triacylglyceroly? - chemické složení.\n4) Jaký je rozdíl mezi triacylglycerolem a mastnou kyselinou?\n5) Jaké znáte funkce lipidů v organismu?\n6) Vysvětlete pojem esenciální mastné kyseliny. Jaké znáte dvě hlavní skupiny esenc. MK?\n7) Zapište vzorec kyseliny laurové.\n8) Dají se ze všech lipidů vyrobit mýdla? Dělíme je na nějaké skupiny?\n9) Zapište vzorec kyseliny stearové.\n10) Zapište chemický vzorec glycerolu.",
+    "reviewed": true,
+    "reviewed_on": "2026-11-26",
+    "solution": {
+      "paragraphs": [
+        "Vzorové studijní řešení všech deseti otázek přiloženého pracovního listu. Úplný aktuálně přečtený popis v Moodlu žádné další požadavky neobsahuje. Nejde o oficiální učitelský klíč ani o potvrzení uživatelova odevzdání.",
+        "1) Lipidy jsou chemicky rozmanitá skupina organických látek, které jsou převážně hydrofobní: ve vodě se nerozpouštějí nebo jen málo, zato se rozpouštějí v nepolárních rozpouštědlech. Nejde jen o tuky. Některé, například fosfolipidy, mají nepolární i polární část; tuto vlastnost využívají při stavbě membrán.",
+        "2) Ve školním přehledu rozlišujeme triacylglyceroly (tuky), vosky, polární lipidy (např. fosfolipidy) a isoprenoidy včetně steroidů (např. cholesterolu). Podskupiny mají různé stavby i funkce; tuky jsou jen jednou skupinou lipidů.",
+        "3) Triacylglyceroly jsou triestery glycerolu a tří mastných kyselin. Každá ze tří hydroxylových skupin glycerolu je spojena esterovou vazbou s acylovým zbytkem mastné kyseliny. Zjednodušená struktura je CH₂[O-C(=O)-R₁]-CH[O-C(=O)-R₂]-CH₂[O-C(=O)-R₃]. R₁, R₂ a R₃ označují uhlovodíkové řetězce; mohou být stejné i různé. Formální bilance vzniku: glycerol + 3 mastné kyseliny → triacylglycerol + 3 H₂O.",
+        "4) Mastná kyselina je karboxylová kyselina s uhlovodíkovým řetězcem, obecně R-COOH; má volnou karboxylovou skupinu. Triacylglycerol je naproti tomu ester obsahující glycerolovou část a tři zbytky mastných kyselin. Mastná kyselina tedy není totéž co tuk: při esterifikaci se stává součástí triacylglycerolu a její karboxyl již není volným -COOH.",
+        "5) Hlavní funkce lipidů jsou zásobní (zásobárna energie), strukturní (složky biologických membrán), ochranná (mechanická ochrana orgánů) a tepelně izolační. Různé skupiny lipidů plní různé role; nemusí všechny současně plnit tutéž funkci.",
+        "6) Esenciální mastné kyseliny si lidský organismus nedokáže vytvořit v potřebné podobě, a proto je musí získat potravou. Základními zástupci jsou kyselina linolová, 18:2 n-6 (omega-6), a kyselina alfa-linolenová, 18:3 n-3 (omega-3, ALA). Dvě požadované skupiny jsou tedy omega-6 a omega-3. Ne každá mastná kyselina z těchto řad je automaticky základní esenciální MK: další jsou odvozené; u některých se podle situace rozlišuje podmíněná esencialita. Upřesnění podkladu: tvrzení na straně 7 prezentace o 20-24 uhlících není obecným pravidlem esenciality; základní LA a ALA mají 18 uhlíků. Primární ověření: NIH Office of Dietary Supplements, Omega-3 Fatty Acids - Health Professional Fact Sheet, https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/ .",
+        "7) Kyselina laurová: CH₃-(CH₂)₁₀-COOH. Sumární vzorec je C₁₂H₂₄O₂. Kontrola uhlíků: 1 v koncovém CH₃ + 10 ve skupinách CH₂ + 1 v COOH = 12. Jde o nasycenou mastnou kyselinu.",
+        "8) Ne, mýdlo nelze tímto způsobem vyrobit ze všech lipidů. Zmýdelnitelné lipidy mají štěpitelné esterové vazby a při zásadité hydrolýze poskytují soli mastných kyselin (mýdla); patří sem triacylglyceroly, přírodní esterové vosky a fosfolipidy s esterovými vazbami. Nezmýdelnitelné lipidy takovou esterovou část nemají - příkladem je volný cholesterol a další isoprenoidy. U triacylglycerolu proběhne: triacylglycerol + 3 NaOH → glycerol + R₁COONa + R₂COONa + R₃COONa. Vznikají soli kyselin, nikoli samotné volné mastné kyseliny; to je rozdíl oproti kyselé hydrolýze.",
+        "9) Kyselina stearová: CH₃-(CH₂)₁₆-COOH. Sumární vzorec je C₁₈H₃₆O₂. Kontrola uhlíků: 1 + 16 + 1 = 18. Je to nasycená mastná kyselina; oproti laurové má o šest skupin CH₂ delší řetězec.",
+        "10) Glycerol: HO-CH₂-CH(OH)-CH₂-OH, sumární vzorec C₃H₈O₃. Má tři hydroxylové skupiny, po jedné na každém uhlíku, proto je to trojsytný alkohol (propan-1,2,3-triol). Ve schématu triacylglycerolu jsou právě tyto tři -OH skupiny esterifikované."
+      ]
+    },
+    "solutions": [
+      {
+        "format": "docx",
+        "id": "lipidy-vypracovane-otazky",
+        "sha256": "e5dd1d0551a1298ee4db8478af9bdeb9a38a4172493af926b1db03014c4c89f8",
+        "size": 37918,
+        "source_refs": [
+          {
+            "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+            "locator": "celý pracovní list, otázky 1–10",
+            "page": 1,
+            "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+          },
+          {
+            "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+            "locator": "výklad a vzorce, strany 2–8, 14–16, 21, 24 a 26",
+            "page": 2,
+            "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912"
+          }
+        ],
+        "title": "Lipidy — všech 10 odpovědí s vysvětlením",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e5dd1d0551a1298ee4db8478af9bdeb9a38a4172493af926b1db03014c4c89f8.docx"
+      }
+    ],
+    "source_refs": [
+      {
+        "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+        "locator": "celý pracovní list, otázky 1–10",
+        "page": 1,
+        "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+      },
+      {
+        "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+        "locator": "výklad a vzorce, strany 2–8, 14–16, 21, 24 a 26",
+        "page": 2,
+        "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912"
+      }
+    ],
+    "steps": [
+      "Přečti všech deset otázek v přiloženém pracovním listu.",
+      "Odpovědi s vysvětlením jsou uvedeny níže a ve skutečném vypracovaném souboru DOCX. Výsledek je vzorové studijní řešení, nikoli odevzdání za uživatele."
+    ],
+    "subject": "chemistry",
+    "topic": "section-e50b1d9503439050a4b416599d3b6a19",
+    "version": "5598e6c41cf3c6a81968491742feaa7cbaa37cc77b3508af10137d4daa7d7e25"
+  },
   {
     "assignmentId": "df69549de7e2b1053fe7a8bf591c0dbbfd473f2237978b1c7794d0e3d0490fbb",
-    "version": "bd3182c2f790b3af6a9341e5b4bb3a7184147ca0e945ea1fd35c97dd9b2a7808",
-    "subject": "chemistry",
-    "topic": "section-7c81652c3859af6be5d57780191a659f",
-    "scope": "attachment-study-preparation",
+    "prompt": "Pokud zkusíte pokus doma, výsledek vyfoťte a vyplňte přiložený protokol. Za úkol máte 2x +",
     "reviewed": true,
-    "reviewed_on": "2026-11-16",
-    "title": "Studijní příprava k pracovnímu listu",
-    "description": "Protokol obsahuje postup, vysvětlení kontroly a podmíněná teoretická očekávání. Vlastní předpoklad, pět skutečných pozorování a závěr doplň podle svého pokusu. Úplný popis úkolu v Moodlu ještě nebyl ověřen.",
+    "reviewed_on": "2026-11-26",
     "source_refs": [
       {
         "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
-        "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+        "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr",
         "page": 1,
-        "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
-      },
-      {
-        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
-        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
-        "page": 9
-      },
-      {
-        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
-        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
-        "page": 17
-      },
-      {
-        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
-        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
-        "page": 24
+        "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c"
       }
     ],
+    "steps": [
+      "Pokud pokus zkusíš doma, podle zadání vyfoť jeho skutečný výsledek a vyplň přiložený protokol.",
+      "Vlastní předpoklad zapiš před pokusem. Doplň pět skutečných pozorování po 10 minutách a vlastní závěr podle pracovního listu.",
+      "Přiložená studijní příprava obsahuje vysvětlení a formulář; nenahrazuje tvá pozorování, vyplněný osobní protokol ani fotografii.",
+      "Údaj „2x +“ je ponechán jako původní text; jeho význam ani pravidla hodnocení zde nevykládáme."
+    ],
+    "subject": "chemistry",
+    "topic": "section-7c81652c3859af6be5d57780191a659f",
+    "version": "bd3182c2f790b3af6a9341e5b4bb3a7184147ca0e945ea1fd35c97dd9b2a7808"
+  }
+]);
+
+// Separately reviewed preparation; actual observations and photograph remain personal inputs.
+export const reviewedAssignmentPreparations = [
+  {
+    "assignmentId": "df69549de7e2b1053fe7a8bf591c0dbbfd473f2237978b1c7794d0e3d0490fbb",
+    "description": "Úplný popis úkolu je ověřen. Pokud pokus zkusíš doma, zadání vyžaduje fotografii skutečného výsledku a vyplněný protokol. Příprava obsahuje postup a teorii; vlastní předpoklad, pět pozorování, závěr a fotografii doplň podle svého pokusu.",
     "downloads": [
       {
-        "id": "denaturace-bilku-studijni-protokol",
-        "title": "Denaturace bílku — vysvětlení a protokol pro vlastní pozorování",
         "format": "docx",
+        "id": "denaturace-bilku-studijni-protokol",
         "sha256": "0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c",
         "size": 39437,
-        "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c.docx",
         "source_refs": [
           {
             "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
-            "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c",
+            "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr",
             "page": 1,
-            "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr"
+            "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c"
           },
           {
             "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
-            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
-            "page": 9
+            "page": 9,
+            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992"
           },
           {
             "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
-            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
-            "page": 17
+            "page": 17,
+            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992"
           },
           {
             "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
-            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992",
-            "page": 24
+            "page": 24,
+            "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992"
           }
-        ]
+        ],
+        "title": "Denaturace bílku — vysvětlení a protokol pro vlastní pozorování",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0121bd65d80461fb15d2b266ae37245fdabe980ade235cf3738fb2ac7b78185c.docx"
       }
-    ]
+    ],
+    "reviewed": true,
+    "reviewed_on": "2026-11-26",
+    "scope": "attachment-study-preparation",
+    "source_refs": [
+      {
+        "id": "c05414ff4aad7aa1c182c8fbbd3f8a9de13ee1b699f34b5fbc1b5e8c66401d38",
+        "locator": "pracovní list, vykreslená strana 1: předpoklad, postup, pět pozorování a závěr",
+        "page": 1,
+        "sha256": "6d227322a848f577095710039e4f8d315d3541330fd63e592ffd43ac1d6a831c"
+      },
+      {
+        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+        "page": 9,
+        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992"
+      },
+      {
+        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+        "page": 17,
+        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992"
+      },
+      {
+        "id": "08af84fbde7760324a54ab200b49a857463e57261fb83963a0a75793bf37088e",
+        "page": 24,
+        "sha256": "356c55b3d5dcf04b452f0491636f515ab5c9ea65c97b54441b1e0332fc4d1992"
+      }
+    ],
+    "subject": "chemistry",
+    "title": "Studijní příprava k pracovnímu listu",
+    "topic": "section-7c81652c3859af6be5d57780191a659f",
+    "version": "bd3182c2f790b3af6a9341e5b4bb3a7184147ca0e945ea1fd35c97dd9b2a7808"
   }
 ];

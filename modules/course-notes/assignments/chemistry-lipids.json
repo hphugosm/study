@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "assignmentId": "bde17ada3c9306f502d6b405a2f70688ea7cd7249b9594436649d7412926c5e6",
+      "prompt": "Vypracujte odpovědi na otázky přiložené v příloze.\n\nPřiložený pracovní list Lipidy — otázky 1–10:\n1) Co jsou to lipidy?\n2) Na jaké podskupiny dělíme lipidy?\n3) Co jsou to triacylglyceroly? - chemické složení.\n4) Jaký je rozdíl mezi triacylglycerolem a mastnou kyselinou?\n5) Jaké znáte funkce lipidů v organismu?\n6) Vysvětlete pojem esenciální mastné kyseliny. Jaké znáte dvě hlavní skupiny esenc. MK?\n7) Zapište vzorec kyseliny laurové.\n8) Dají se ze všech lipidů vyrobit mýdla? Dělíme je na nějaké skupiny?\n9) Zapište vzorec kyseliny stearové.\n10) Zapište chemický vzorec glycerolu.",
+      "reviewed": true,
+      "reviewed_on": "2026-11-26",
+      "solution": {
+        "paragraphs": [
+          "Vzorové studijní řešení všech deseti otázek přiloženého pracovního listu. Úplný aktuálně přečtený popis v Moodlu žádné další požadavky neobsahuje. Nejde o oficiální učitelský klíč ani o potvrzení uživatelova odevzdání.",
+          "1) Lipidy jsou chemicky rozmanitá skupina organických látek, které jsou převážně hydrofobní: ve vodě se nerozpouštějí nebo jen málo, zato se rozpouštějí v nepolárních rozpouštědlech. Nejde jen o tuky. Některé, například fosfolipidy, mají nepolární i polární část; tuto vlastnost využívají při stavbě membrán.",
+          "2) Ve školním přehledu rozlišujeme triacylglyceroly (tuky), vosky, polární lipidy (např. fosfolipidy) a isoprenoidy včetně steroidů (např. cholesterolu). Podskupiny mají různé stavby i funkce; tuky jsou jen jednou skupinou lipidů.",
+          "3) Triacylglyceroly jsou triestery glycerolu a tří mastných kyselin. Každá ze tří hydroxylových skupin glycerolu je spojena esterovou vazbou s acylovým zbytkem mastné kyseliny. Zjednodušená struktura je CH₂[O-C(=O)-R₁]-CH[O-C(=O)-R₂]-CH₂[O-C(=O)-R₃]. R₁, R₂ a R₃ označují uhlovodíkové řetězce; mohou být stejné i různé. Formální bilance vzniku: glycerol + 3 mastné kyseliny → triacylglycerol + 3 H₂O.",
+          "4) Mastná kyselina je karboxylová kyselina s uhlovodíkovým řetězcem, obecně R-COOH; má volnou karboxylovou skupinu. Triacylglycerol je naproti tomu ester obsahující glycerolovou část a tři zbytky mastných kyselin. Mastná kyselina tedy není totéž co tuk: při esterifikaci se stává součástí triacylglycerolu a její karboxyl již není volným -COOH.",
+          "5) Hlavní funkce lipidů jsou zásobní (zásobárna energie), strukturní (složky biologických membrán), ochranná (mechanická ochrana orgánů) a tepelně izolační. Různé skupiny lipidů plní různé role; nemusí všechny současně plnit tutéž funkci.",
+          "6) Esenciální mastné kyseliny si lidský organismus nedokáže vytvořit v potřebné podobě, a proto je musí získat potravou. Základními zástupci jsou kyselina linolová, 18:2 n-6 (omega-6), a kyselina alfa-linolenová, 18:3 n-3 (omega-3, ALA). Dvě požadované skupiny jsou tedy omega-6 a omega-3. Ne každá mastná kyselina z těchto řad je automaticky základní esenciální MK: další jsou odvozené; u některých se podle situace rozlišuje podmíněná esencialita. Upřesnění podkladu: tvrzení na straně 7 prezentace o 20-24 uhlících není obecným pravidlem esenciality; základní LA a ALA mají 18 uhlíků. Primární ověření: NIH Office of Dietary Supplements, Omega-3 Fatty Acids - Health Professional Fact Sheet, https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/ .",
+          "7) Kyselina laurová: CH₃-(CH₂)₁₀-COOH. Sumární vzorec je C₁₂H₂₄O₂. Kontrola uhlíků: 1 v koncovém CH₃ + 10 ve skupinách CH₂ + 1 v COOH = 12. Jde o nasycenou mastnou kyselinu.",
+          "8) Ne, mýdlo nelze tímto způsobem vyrobit ze všech lipidů. Zmýdelnitelné lipidy mají štěpitelné esterové vazby a při zásadité hydrolýze poskytují soli mastných kyselin (mýdla); patří sem triacylglyceroly, přírodní esterové vosky a fosfolipidy s esterovými vazbami. Nezmýdelnitelné lipidy takovou esterovou část nemají - příkladem je volný cholesterol a další isoprenoidy. U triacylglycerolu proběhne: triacylglycerol + 3 NaOH → glycerol + R₁COONa + R₂COONa + R₃COONa. Vznikají soli kyselin, nikoli samotné volné mastné kyseliny; to je rozdíl oproti kyselé hydrolýze.",
+          "9) Kyselina stearová: CH₃-(CH₂)₁₆-COOH. Sumární vzorec je C₁₈H₃₆O₂. Kontrola uhlíků: 1 + 16 + 1 = 18. Je to nasycená mastná kyselina; oproti laurové má o šest skupin CH₂ delší řetězec.",
+          "10) Glycerol: HO-CH₂-CH(OH)-CH₂-OH, sumární vzorec C₃H₈O₃. Má tři hydroxylové skupiny, po jedné na každém uhlíku, proto je to trojsytný alkohol (propan-1,2,3-triol). Ve schématu triacylglycerolu jsou právě tyto tři -OH skupiny esterifikované."
+        ]
+      },
+      "solutions": [
+        {
+          "format": "docx",
+          "id": "lipidy-vypracovane-otazky",
+          "sha256": "e5dd1d0551a1298ee4db8478af9bdeb9a38a4172493af926b1db03014c4c89f8",
+          "size": 37918,
+          "source_refs": [
+            {
+              "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+              "locator": "celý pracovní list, otázky 1–10",
+              "page": 1,
+              "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+            },
+            {
+              "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+              "locator": "výklad a vzorce, strany 2–8, 14–16, 21, 24 a 26",
+              "page": 2,
+              "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912"
+            }
+          ],
+          "title": "Lipidy — všech 10 odpovědí s vysvětlením",
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e5dd1d0551a1298ee4db8478af9bdeb9a38a4172493af926b1db03014c4c89f8.docx"
+        }
+      ],
+      "source_refs": [
+        {
+          "id": "0c4e78fa1e178dbc8b49f36ae06b9e23b7779bf179877de1f5e536aa7562d066",
+          "locator": "celý pracovní list, otázky 1–10",
+          "page": 1,
+          "sha256": "786db8517e1c70489e03eaff1f597a9245b8e63c7ebc23219fc300aa49295431"
+        },
+        {
+          "id": "20cedbe4740735d8350ecfd90b7474d9f703ed3d551f10ce2d4f75e787850618",
+          "locator": "výklad a vzorce, strany 2–8, 14–16, 21, 24 a 26",
+          "page": 2,
+          "sha256": "04d34b04847e8948bcf932f959eb3b14f5300e07a02d591cc45c3b5f166c4912"
+        }
+      ],
+      "steps": [
+        "Přečti všech deset otázek v přiloženém pracovním listu.",
+        "Odpovědi s vysvětlením jsou uvedeny níže a ve skutečném vypracovaném souboru DOCX. Výsledek je vzorové studijní řešení, nikoli odevzdání za uživatele."
+      ],
+      "subject": "chemistry",
+      "topic": "section-e50b1d9503439050a4b416599d3b6a19",
+      "version": "5598e6c41cf3c6a81968491742feaa7cbaa37cc77b3508af10137d4daa7d7e25"
+    }
+  ]
+}

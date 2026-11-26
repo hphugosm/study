@@ -15,7 +15,7 @@ test('build serves topic sources and derived payloads without eager offline down
    'src/subject-layout.js','src/moodle-calendar.js','src/assignments.js',
    'modules/moodle-sync/catalog.js','modules/moodle-sync/external.js',
    'modules/course-notes/index.js','modules/course-notes/interactions.js','modules/course-notes/stereometry.js',
-   'modules/course-notes/pixels.js','modules/course-notes/pixel-data.js','modules/course-notes/stereometry.css','modules/course-notes/pixels.css'];
+   'modules/course-notes/geography-climate.js','modules/course-notes/pixels.js','modules/course-notes/pixel-data.js','modules/course-notes/stereometry.css','modules/course-notes/pixels.css'];
   for(const file of runtimeFiles){await fs.mkdir(path.dirname(path.join(temp,file)),{recursive:true});await fs.copyFile(path.join(__dirname,'..',file),path.join(temp,file));}
   await fs.writeFile(path.join(temp,'package.json'),JSON.stringify({type:'module'}));
   const topic='section-'+'1'.repeat(32),unit={id:'moodle-mathematics-'+'1'.repeat(32),subjectId:'mathematics',topicId:topic,origin:'moodle',available:true,listed_current:true,title:'Fixture topic',materials:[]};
@@ -46,6 +46,9 @@ test('build serves topic sources and derived payloads without eager offline down
    await fs.access(path.join(temp,'dist',file));
    assert.equal(cached.has(file),false,`Large optional payload was eagerly cached: ${file}`);
   }
+  const climateModule='modules/course-notes/geography-climate.js';
+  await fs.access(path.join(temp,'dist',climateModule));
+  assert.ok(cached.has(climateModule),'Small climate control dependency missing from verified offline snapshot');
   assert.ok(cached.has('notifications.json'),'Generated public notifications missing from verified offline snapshot');
   for(const file of metadata)assert.ok(cached.has(file),`Small catalog index missing offline: ${file}`);
  }finally{await fs.rm(temp,{recursive:true,force:true});}

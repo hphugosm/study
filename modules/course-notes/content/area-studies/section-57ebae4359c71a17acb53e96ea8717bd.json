@@ -13,6 +13,14 @@
       "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5.docx",
       "extraction_url": "./extracted/352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5.json",
       "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5.zip"
+    },
+    {
+      "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+      "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+      "title": "Thanksgiving article questions — cleaned worksheet",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105.odt",
+      "extraction_url": "./extracted/0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105.json",
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105.zip"
     }
   ],
   "lessons": [
@@ -216,6 +224,185 @@
         }
       ],
       "summary": "The Salem reading connects public fear and belief in witchcraft with tensions in a society undergoing change."
+    },
+    {
+      "id": "thanksgiving-reading-and-discussion",
+      "title": "Thanksgiving reading and discussion",
+      "summary": "Use five comprehension questions and two discussion prompts to separate the author’s argument from your own supported view.",
+      "source_refs": [
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 2"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 3"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 4"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The worksheet has two parts. The first five questions ask about the author’s experience, the account of 1621, Indigenous assistance, changing relationships and the author’s recommendation. Keep your answers tied to the article rather than replacing its argument with a general history of the holiday.",
+          "source_refs": [
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 2"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 3"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 4"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The final two questions invite your view on classroom teaching and the importance of acknowledging historical injustice. Give a position and explain it. A model answer offers an example argument; it does not determine what you personally believe.",
+          "source_refs": [
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The downloadable document contains all seven original questions, explained model answers and attribution to Jeremy Harley’s article. Read the article yourself and adapt the discussion examples to your own supported position. The full third-party article is not reproduced in this study document.",
+          "source_refs": [
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 2"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 3"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 4"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
+            }
+          ]
+        }
+      ],
+      "solutions": [
+        {
+          "id": "thanksgiving-article-study-answers",
+          "title": "Thanksgiving article — seven explained model answers",
+          "format": "docx",
+          "sha256": "e7b2812bb98049fe25f2aadea9fb56bdb326057e1e419b9a18a6a6b384d30e9b",
+          "size": 37768,
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/e7b2812bb98049fe25f2aadea9fb56bdb326057e1e419b9a18a6a6b384d30e9b.docx",
+          "source_refs": [
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 2"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 3"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 4"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+            },
+            {
+              "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+              "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+              "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
+            }
+          ]
+        }
+      ]
     }
   ],
   "flashcards": [
@@ -264,6 +451,40 @@
           "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
           "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
           "locator": "odstavec 3"
+        }
+      ]
+    },
+    {
+      "id": "thanksgiving-two-question-types",
+      "front": "How do the two worksheet parts differ?",
+      "back": "Part 1 asks for comprehension of the article. Part 2 asks for your own reasoned discussion position.",
+      "source_refs": [
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 1"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+        }
+      ]
+    },
+    {
+      "id": "thanksgiving-meaningful-reading",
+      "front": "Does the last comprehension question ask for your opinion or the author’s recommendation?",
+      "back": "The author’s recommendation. Keep it separate from your own discussion position.",
+      "source_refs": [
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
         }
       ]
     }
@@ -338,6 +559,52 @@
           "id": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
           "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5",
           "locator": "odstavec 5"
+        }
+      ]
+    },
+    {
+      "id": "thanksgiving-author-or-reader",
+      "prompt": "What should answer 5 explain?",
+      "options": [
+        "The author’s suggestions for making Thanksgiving meaningful.",
+        "A personal opinion without reference to the author.",
+        "An invented statement from the teacher."
+      ],
+      "answer": 0,
+      "explanation": "Question 5 explicitly asks what the author suggests; the personal discussion questions follow in Part 2.",
+      "source_refs": [
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 1, question 5"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+        }
+      ]
+    },
+    {
+      "id": "thanksgiving-discussion-reasoning",
+      "prompt": "Which approach fits Part 2 of the worksheet?",
+      "options": [
+        "Treat the model position as your opinion without considering it.",
+        "State your position and explain your reasons.",
+        "Assume the discussion questions have only one possible opinion."
+      ],
+      "answer": 1,
+      "explanation": "The questions invite a view and reasoning. Model arguments support preparation rather than replacing personal judgement.",
+      "source_refs": [
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 1"
+        },
+        {
+          "id": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
+          "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105",
+          "locator": "THANKSGIVING ARTICLE QUESTIONS, Part 2, question 2"
         }
       ]
     }
