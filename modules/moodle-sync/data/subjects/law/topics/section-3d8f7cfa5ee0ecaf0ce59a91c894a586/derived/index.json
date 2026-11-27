@@ -1,6 +1,25 @@
 {
+  "artifacts": [
+    {
+      "id": "course-notes-v1",
+      "kind": "notes",
+      "path": "data/subjects/law/topics/section-3d8f7cfa5ee0ecaf0ce59a91c894a586/derived/course-notes-v1/notes.json",
+      "review_status": "approved",
+      "sha256": "f5f5008d66c9b5bc90e3f72de42703dd840946d3c679d26f4e51ed63b53d2b62",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        },
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+        }
+      ],
+      "title": "Unit 3.1 - International Law and Courts"
+    }
+  ],
   "schema": 1,
   "subject_id": "law",
-  "topic_id": "section-3d8f7cfa5ee0ecaf0ce59a91c894a586",
-  "artifacts": []
+  "topic_id": "section-3d8f7cfa5ee0ecaf0ce59a91c894a586"
 }

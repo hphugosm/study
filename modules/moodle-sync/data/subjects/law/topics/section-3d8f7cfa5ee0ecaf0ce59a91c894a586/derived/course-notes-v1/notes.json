@@ -1,0 +1,1150 @@
+{
+  "flashcards": [
+    {
+      "back": "Způsobilost mít práva a povinnosti podle mezinárodního práva.",
+      "front": "Co znamená international legal personality?",
+      "id": "card-intl-personality",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Svrchovanost; v základním modelu ji spojuj s postavením státu.",
+      "front": "Jak přeložíš sovereignty?",
+      "id": "card-intl-sovereignty",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Subjektivitu a pravomoci vymezené jejími funkcemi a právním rámcem.",
+      "front": "Co vystihuje functional personality mezinárodní organizace?",
+      "id": "card-intl-io",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Non-governmental organization, nevládní organizace.",
+      "front": "Co znamená NGO?",
+      "id": "card-intl-ngo",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Mezinárodní smlouvy, mezinárodní obyčej a obecné právní zásady.",
+      "front": "Jaké tři základní prameny rozlišuje přehled?",
+      "id": "card-intl-sources",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Obecnou praxi a její přijímání jako práva, opinio juris.",
+      "front": "Jaké dvě složky sleduješ u obyčeje?",
+      "id": "card-intl-custom",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Kodifikaci; smlouva může písemně zachytit obyčejové pravidlo.",
+      "front": "Co znamená codification?",
+      "id": "card-intl-codification",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Od kogentní normy není dovolena odchylka.",
+      "front": "Co je klíčové u jus cogens?",
+      "id": "card-intl-cogens",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Vnitrostátní začlenění mezinárodního pravidla.",
+      "front": "Co zdůrazňuje dualistický model?",
+      "id": "card-intl-dualism",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 3,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Státy; musí existovat příslušný jurisdikční základ.",
+      "front": "Kdo jsou strany sporného řízení u ICJ?",
+      "id": "card-intl-icj",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Poradní posudek; odliš jej od rozsudku zavazujícího strany konkrétního sporu.",
+      "front": "Co je advisory opinion?",
+      "id": "card-intl-advisory",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Trestní odpovědností jednotlivců.",
+      "front": "Čí trestní odpovědností se zabývá ICC?",
+      "id": "card-intl-icc",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Komplementaritu: ICC doplňuje vnitrostátní trestní soudnictví.",
+      "front": "Co znamená complementarity?",
+      "id": "card-intl-complementarity",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Ne; oba soudy sídlí v Haagu.",
+      "front": "Lze odlišit ICJ a ICC pouze podle sídla?",
+      "id": "card-intl-hague",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "back": "Na kolizi self-executing treaty a federálního zákona ve vnitrostátním právu USA; použije se pozdější norma.",
+      "front": "Na jaký druh kolize se v tomto přehledu vztahuje americké later-in-time rule?",
+      "id": "card-intl-later-in-time",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 3,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    }
+  ],
+  "intro": "Základní pojmy mezinárodního práva, jeho prameny a rozlišení ICJ a ICC s českým vysvětlením anglické slovní zásoby.",
+  "language": "cs",
+  "lessons": [
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "International law označuje mezinárodní právo. International community je mezinárodní společenství, nikoli vláda jednoho státu.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Subject of international law je subjekt, kterému mohou náležet práva a povinnosti podle mezinárodního práva. Tato způsobilost se označuje international legal personality neboli mezinárodněprávní subjektivita.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Podklad odlišuje subjects od objects: například území a přírodní zdroje jsou v tomto úvodním rozlišení předmětem práv a povinností, nikoli zaměnitelným názvem pro jejich nositele.",
+          "type": "paragraph"
+        }
+      ],
+      "id": "international-personality",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Rozlišíš subjekt práva od předmětu práv a povinností a vysvětlíš international legal personality.",
+      "title": "Mezinárodní společenství a právní subjektivita"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Prezentace pro základní model státu uvádí territory, population, government a sovereignty: území, obyvatelstvo, vládu a svrchovanost.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Sovereignty znamená svrchovanost. Rovnost států v mezinárodních vztazích je právní princip, nikoli tvrzení, že mají stejnou rozlohu nebo politický vliv.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Horizontal relations popisují vztahy mezi svrchovanými státy. Při srovnání s vertical relations uvnitř státu sleduj, kdo má vůči komu pravomoc, ne pouze velikost území.",
+          "type": "paragraph"
+        }
+      ],
+      "id": "states-sovereignty",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Propojíš území, obyvatelstvo, vládu a svrchovanost s učebním modelem státu a vztahy mezi státy.",
+      "title": "Stát a svrchovanost"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "International organization zde znamená mezivládní organizaci vytvořenou státy a upravenou mezinárodním právem. Její pravomoci se vztahují k přiděleným funkcím a zakládajícímu právnímu rámci.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Functional personality označuje funkčně vymezenou subjektivitu organizace. Nemůžeš z názvu organizace odvodit neomezenou pravomoc vytvářet pravidla pro cokoli.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Individual je jednotlivec, natural person fyzická osoba a legal person právnická osoba. Jednotlivci mohou mít mezinárodně chráněná práva i povinnosti, například ve vztahu k mezinárodním zločinům.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 1,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "NGO je non-governmental organization, tedy nevládní organizace. Odliš ji od mezivládní organizace; podobná zkratka sama neznamená stejné právní postavení.",
+          "type": "paragraph"
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Stát",
+          "Mezivládní organizace",
+          "Jednotlivec"
+        ],
+        "rows": [
+          {
+            "label": "Co sledovat",
+            "values": [
+              "Svrchovanost a postavení státu",
+              "Přidělené funkce a zakládající pravidla",
+              "Konkrétní práva a povinnosti"
+            ]
+          },
+          {
+            "label": "Anglický pojem",
+            "values": [
+              "State; sovereignty",
+              "International organization; functional personality",
+              "Individual; natural person"
+            ]
+          }
+        ]
+      },
+      "id": "organizations-persons",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Porovnáš státy, mezivládní organizace a jednotlivce podle rozsahu subjektivity a přidělených pravomocí.",
+      "title": "Organizace a jednotlivci"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Základní přehled rozlišuje international treaties, international custom a general principles of law: mezinárodní smlouvy, mezinárodní obyčej a obecné právní zásady.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Judicial decisions a writings of scholars jsou soudní rozhodnutí a odborná literatura. V přehledu slouží jako podpůrné prostředky pro zjišťování právních pravidel.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Pramen práva a prostředek, který pomáhá jeho obsah rozpoznat, nejsou dvě jména téže kategorie. Tento rozdíl si zachovej při třídění příkladů.",
+          "type": "paragraph"
+        }
+      ],
+      "id": "sources",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Odlišíš smlouvy, obyčej a obecné právní zásady od podpůrného využití rozhodnutí a odborné literatury.",
+      "title": "Prameny mezinárodního práva"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "U customary international law sleduj dvě složky: obecnou praxi a její přijímání jako práva, tedy opinio juris. Samotný opakovaný zvyk ještě nevysvětluje, proč jde o právní pravidlo.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Treaty je mezinárodní smlouva. Ve srovnání s obyčejem je důležité výslovné přijetí smluvních závazků příslušnými stranami.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Codification je kodifikace: smlouva může písemně zachytit pravidlo, které již známe z obyčeje. To neznamená, že smlouva a obyčej mají totožný způsob vzniku.",
+          "type": "paragraph"
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Obyčej",
+          "Smlouva"
+        ],
+        "rows": [
+          {
+            "label": "Jak jej rozpoznat",
+            "values": [
+              "Obecná praxe přijímaná jako právo",
+              "Výslovně přijaté smluvní závazky"
+            ]
+          },
+          {
+            "label": "Anglický pojem",
+            "values": [
+              "Custom; opinio juris",
+              "Treaty; consent"
+            ]
+          }
+        ]
+      },
+      "id": "custom-treaties",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Spojíš státní praxi s opinio juris a rozlišíš obyčejové pravidlo od výslovně přijaté smlouvy.",
+      "title": "Obyčej a smlouva"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Jus cogens označuje kogentní normy obecného mezinárodního práva, od nichž není dovoleno se odchýlit. Klíčový výraz je no derogation: nepřípustnost odchylky.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Prezentace mezi příklady uvádí zákaz mučení, otroctví a genocidy. Důležité je pravidlo, že pouhá dohoda států nečiní rozpor s takovou normou platným.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 2,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Při opakování odděl souhlas se smlouvou od otázky, zda její obsah může právně obstát.",
+          "type": "paragraph"
+        }
+      ],
+      "id": "jus-cogens",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Vysvětlíš kogentní pravidlo a proč smluvní dohoda sama neumožňuje odchylku od takové normy.",
+      "title": "Jus cogens jako mez smluvní volnosti"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 3,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "International law a domestic law mají rozdílné prameny, instituce i mechanismy prosazování. Mezinárodní právo není prostým součtem právních řádů jednotlivých států.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 3,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Monism a dualism jsou dva učební modely jejich vztahu. Monistický model zdůrazňuje propojení obou rovin; dualistický model potřebu vnitrostátního začlenění mezinárodního pravidla.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 3,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Podklad upozorňuje, že skutečné systémy mohou mít smíšené rysy. Ze zkratky monistický nebo dualistický proto nevyvozuj bez dalšího přesnou použitelnost každé konkrétní smlouvy.",
+          "type": "paragraph"
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "Monistický model",
+          "Dualistický model"
+        ],
+        "rows": [
+          {
+            "label": "Hlavní učební důraz",
+            "values": [
+              "Propojení mezinárodního a vnitrostátního práva",
+              "Vnitrostátní začlenění mezinárodního pravidla"
+            ]
+          }
+        ]
+      },
+      "id": "domestic-law",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 3,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Porovnáš monismus a dualismus jako modely vztahu mezinárodního a vnitrostátního práva.",
+      "title": "Mezinárodní a vnitrostátní právo"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 3,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "U amerických Article II treaties prezident postupuje se souhlasem nejméně dvou třetin přítomných senátorů. Tento treaty-making process nezaměňuj za běžné přijetí zákona oběma komorami Kongresu.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 3,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Later-in-time rule označuje při kolizi self-executing treaty a federálního zákona uplatnění pozdější normy ve vnitrostátním právu USA. Self-executing zde znamená ustanovení s přímým vnitrostátním účinkem; nejde automaticky o každou smlouvu.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 3,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Vnitrostátní účinek a mezinárodní závazek jsou odlišné otázky. Pravidlo pozdější normy samo nevysvětluje, zda stát splnil mezinárodní smluvní povinnost.",
+          "type": "paragraph"
+        }
+      ],
+      "id": "us-treaties",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 3,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Odlišíš souhlas Senátu se smlouvou od přijetí zákona a vysvětlíš omezený význam later-in-time rule.",
+      "title": "Smlouvy ve vnitrostátním právu USA"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "International Court of Justice, ICJ, je Mezinárodní soudní dvůr, hlavní soudní orgán OSN se sídlem v Haagu. V contentious cases, tedy sporném řízení, jsou stranami státy.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Pravomoc ve sporném řízení vyžaduje příslušný jurisdikční základ založený na souhlasu států. Souhlas může být vyjádřen různými právními způsoby; pouhé tvrzení žalobce nestačí.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Advisory opinion je poradní posudek k právní otázce na žádost oprávněného orgánu nebo organizace. Takové posudky jsou zpravidla právně nezávazné.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Rozsudek ve sporném řízení naopak zavazuje strany v daném případu. Nezaměňuj jeho účinek s obecnou charakteristikou poradních posudků.",
+          "type": "paragraph"
+        }
+      ],
+      "id": "icj",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Rozlišíš spory mezi státy a poradní posudky a spojíš pravomoc ICJ se souhlasem států.",
+      "title": "ICJ neboli Mezinárodní soudní dvůr"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "International Criminal Court, ICC, je Mezinárodní trestní soud. Zabývá se trestní odpovědností jednotlivců za zločiny vymezené Římským statutem; jeho sídlem je Haag.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Rome Statute zahrnuje genocide, crimes against humanity, war crimes a crime of aggression: genocidu, zločiny proti lidskosti, válečné zločiny a zločin agrese. U agrese platí zvláštní podmínky výkonu jurisdikce.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Complementarity znamená komplementaritu: ICC doplňuje vnitrostátní trestní soudnictví. Posuzuje se mimo jiné skutečné vnitrostátní vyšetřování nebo stíhání; zároveň musí existovat příslušná jurisdikce ICC.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "ICC není hlavním soudním orgánem OSN. Jeho smluvní rámec zahrnuje Assembly of States Parties, Shromáždění smluvních stran; nezávislost soudu neznamená neexistenci tohoto institucionálního rámce.",
+          "type": "paragraph"
+        }
+      ],
+      "id": "icc",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Propojíš trestní odpovědnost jednotlivce s jurisdikcí ICC a principem komplementarity.",
+      "title": "ICC neboli Mezinárodní trestní soud"
+    },
+    {
+      "blocks": [
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Při rozhodování nejdřív urči, kdo před soudem vystupuje a co se řeší. Mezinárodní trestní odpovědnost jednotlivce a právní spor mezi státy jsou různé typy řízení.",
+          "type": "paragraph"
+        },
+        {
+          "source_refs": [
+            {
+              "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+              "page": 4,
+              "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+            }
+          ],
+          "text": "Sídlo v Haagu není rozlišovací znak, protože jej mají oba soudy. U modelového případu se po určení typu soudu musí zvlášť posoudit jurisdikce.",
+          "type": "paragraph"
+        }
+      ],
+      "comparison": {
+        "columns": [
+          "ICJ",
+          "ICC"
+        ],
+        "rows": [
+          {
+            "label": "Celý název",
+            "values": [
+              "International Court of Justice",
+              "International Criminal Court"
+            ]
+          },
+          {
+            "label": "Základní rozlišení",
+            "values": [
+              "Sporné řízení mezi státy; také poradní posudky",
+              "Trestní odpovědnost jednotlivců"
+            ]
+          },
+          {
+            "label": "Institucionální rámec",
+            "values": [
+              "Hlavní soudní orgán OSN",
+              "Soud zřízený Římským statutem"
+            ]
+          },
+          {
+            "label": "Sídlo",
+            "values": [
+              "Haag",
+              "Haag"
+            ]
+          },
+          {
+            "label": "Co ještě ověřit",
+            "values": [
+              "Jurisdikční základ a podmínky konkrétního řízení",
+              "Jurisdikci a přípustnost včetně komplementarity"
+            ]
+          }
+        ]
+      },
+      "id": "court-comparison",
+      "solutions": [
+        {
+          "format": "docx",
+          "id": "icc-icj-explained-study-answers",
+          "sha256": "37a3bbe05ce1034a3a2aefd63af601fa37fe9486d637a4ee7b6015d266c07a1c",
+          "size": 39723,
+          "source_refs": [
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "locator": "worksheet question 1",
+              "page": 1,
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "locator": "worksheet question 2",
+              "page": 1,
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "locator": "worksheet question 3",
+              "page": 1,
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "locator": "worksheet question 4",
+              "page": 1,
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "locator": "worksheet question 5",
+              "page": 1,
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "locator": "worksheet question 6",
+              "page": 1,
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "locator": "worksheet question 7",
+              "page": 1,
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "locator": "worksheet question 8",
+              "page": 1,
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+            }
+          ],
+          "title": "ICC and ICJ — eight explained worksheet answers",
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/37a3bbe05ce1034a3a2aefd63af601fa37fe9486d637a4ee7b6015d266c07a1c.docx"
+        }
+      ],
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ],
+      "summary": "Podle stran, předmětu řízení a právního základu odlišíš oba haagské soudy v jednoduchých situacích.",
+      "title": "Jak neplést ICJ a ICC"
+    }
+  ],
+  "questions": [
+    {
+      "answer": 0,
+      "explanation": "Právní subjektivita se týká práv a povinností, nikoli rozlohy.",
+      "id": "quiz-intl-subject",
+      "options": [
+        "Způsobilost mít práva a povinnosti",
+        "Pouze velikost území",
+        "Název pro přírodní zdroje"
+      ],
+      "prompt": "Co vyjadřuje mezinárodněprávní subjektivita?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "explanation": "Functional personality souvisí s přidělenými funkcemi organizace.",
+      "id": "quiz-intl-io",
+      "options": [
+        "Jsou vždy neomezené",
+        "Vztahují se k jejím funkcím a právnímu rámci",
+        "Jsou totožné s každou NGO"
+      ],
+      "prompt": "Co nejlépe vystihuje pravomoci mezivládní organizace?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 1,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 2,
+      "explanation": "Přehled uvádí smlouvy, obyčej a obecné právní zásady.",
+      "id": "quiz-intl-sources",
+      "options": [
+        "Libovolný komentář na síti",
+        "Název soudní budovy",
+        "Mezinárodní obyčej"
+      ],
+      "prompt": "Která položka patří mezi základní prameny přehledu?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 0,
+      "explanation": "Opinio juris je přijímání praxe jako práva.",
+      "id": "quiz-intl-custom",
+      "options": [
+        "Opinio juris",
+        "Počet soudních budov",
+        "Pouze název státu"
+      ],
+      "prompt": "Co musíš u obyčeje sledovat vedle obecné praxe?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "explanation": "Kogentní normu nelze obejít pouhou dohodou smluvních stran.",
+      "id": "quiz-intl-cogens",
+      "options": [
+        "Stačí jakákoli dvoustranná dohoda",
+        "Není dovolena",
+        "Rozhoduje pouze délka textu smlouvy"
+      ],
+      "prompt": "Co platí pro odchylku od normy jus cogens?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 2,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 2,
+      "explanation": "Jde o model vztahu mezinárodní a vnitrostátní roviny.",
+      "id": "quiz-intl-dualism",
+      "options": [
+        "Totožnost všech právních řádů",
+        "Zánik vnitrostátního práva",
+        "Vnitrostátní začlenění mezinárodního pravidla"
+      ],
+      "prompt": "Co zdůrazňuje dualistický model?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 3,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 0,
+      "explanation": "ICJ má spornou jurisdikci pro právní spory mezi státy.",
+      "id": "quiz-intl-states",
+      "options": [
+        "ICJ",
+        "ICC",
+        "Libovolná NGO"
+      ],
+      "prompt": "Který soud typově rozhoduje právní spor mezi státy při existenci jurisdikčního základu?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "explanation": "Je potřeba odlišit sporné a poradní řízení.",
+      "id": "quiz-intl-binding",
+      "options": [
+        "Všechny akty ICJ jsou nezávazné",
+        "Rozsudek ve sporném řízení zavazuje strany daného případu; poradní posudek je zpravidla nezávazný",
+        "Poradní posudek vždy odsuzuje jednotlivce"
+      ],
+      "prompt": "Které rozlišení účinků je správné?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 2,
+      "explanation": "ICC je trestní soud; další podmínky jurisdikce se posuzují samostatně.",
+      "id": "quiz-intl-individual",
+      "options": [
+        "ICJ jako obecný trestní soud",
+        "Mezinárodní společenství jako jedna vláda",
+        "ICC"
+      ],
+      "prompt": "Který soud je určen pro trestní odpovědnost jednotlivců za vymezené mezinárodní zločiny?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 0,
+      "explanation": "Komplementarita není jedinou podmínkou jurisdikce a přípustnosti ICC.",
+      "id": "quiz-intl-complementarity",
+      "options": [
+        "ICC doplňuje vnitrostátní trestní soudnictví",
+        "ICC automaticky přijme každý případ kdekoli",
+        "ICJ se mění na trestní soud"
+      ],
+      "prompt": "Co nejlépe vystihuje komplementaritu?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "explanation": "Oba soudy sídlí v Haagu, ale mají odlišné funkce.",
+      "id": "quiz-intl-hague",
+      "options": [
+        "Řešení státní trestní odpovědnosti",
+        "Sídlo v Haagu",
+        "Totožná pravomoc ve všech případech"
+      ],
+      "prompt": "Která společná vlastnost sama nerozliší ICJ a ICC?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 2,
+      "explanation": "Contentious cases odlišuj od advisory proceedings.",
+      "id": "quiz-intl-terms",
+      "options": [
+        "Překlad pro členství v NGO",
+        "Trestní stíhání jednotlivce u ICC",
+        "Sporné řízení mezi státy"
+      ],
+      "prompt": "Co znamená contentious case u ICJ?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 4,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "explanation": "Treaty Clause se týká prezidenta a souhlasu Senátu, nikoli běžného legislativního hlasování obou komor.",
+      "id": "quiz-intl-treaty-consent",
+      "options": [
+        "Obě komory Kongresu jako u každého zákona",
+        "Nejméně dvě třetiny přítomných senátorů",
+        "ICJ v poradním posudku"
+      ],
+      "prompt": "Kdo dává v postupu Article II treaties ústavou požadovaný souhlas prezidentovi?",
+      "source_refs": [
+        {
+          "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+          "page": 3,
+          "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+        }
+      ]
+    }
+  ],
+  "schema": 1,
+  "sources": [
+    {
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389.zip",
+      "extraction_url": "./extracted/83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389.json",
+      "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+      "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389",
+      "title": "International Law and Courts — studijní průvodce",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389.pdf"
+    },
+    {
+      "archive_url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1.zip",
+      "extraction_url": "./extracted/0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1.json",
+      "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+      "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+      "title": "ICC and ICJ — pracovní list (studijní kopie)",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1.docx"
+    }
+  ],
+  "subject": "law",
+  "title": "Unit 3.1 - International Law and Courts",
+  "topic": "section-3d8f7cfa5ee0ecaf0ce59a91c894a586"
+}

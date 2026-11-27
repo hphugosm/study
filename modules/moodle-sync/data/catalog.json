@@ -1152,7 +1152,7 @@
           "origin": "moodle",
           "course_variant": "JU3",
           "section_order": 10,
-          "available": false,
+          "available": true,
           "listed_current": true
         },
         {
@@ -1202,7 +1202,7 @@
           "origin": "moodle",
           "course_variant": "JU3",
           "section_order": 15,
-          "available": false,
+          "available": true,
           "listed_current": true
         },
         {

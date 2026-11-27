@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "assignmentId": "a927a951628dcfe0f60ec18c6080045ad26fe9bba7cb4fdbec0ec8333f01996e",
+      "version": "c83bdbe1614181718827dfba7948aa50726384552d620c4723401b3f57785f3a",
+      "subject": "law",
+      "topic": "section-3d8f7cfa5ee0ecaf0ce59a91c894a586",
+      "reviewed": true,
+      "reviewed_on": "2026-11-27",
+      "prompt": "Please complete the reading and worksheet for our next class. You can get the paper from me or use the files in this section.\nSubmit here if you will be absent on 3.12, otherwise, bring to class.\n\nAttached worksheet\n1) What is the primary goal and purpose of the ICC and ICJ?\n2) In what ways do the ICJ and ICC contribute to maintaining peace and accountability in the world?\n3) How did the events of World War II influence the creation of both the ICJ and ICC?\n4) What is an International Criminal Tribunal? What kinds of crimes do they hear?\n5) Why do you think the ICJ’s rulings are often described as “nonbinding”? What challenges might this create in enforcing its decisions?\n6) The ICC acts only when a country is “unable or unwilling” to prosecute war crimes. What are some possible reasons a nation might be unwilling to prosecute its own citizens?\n7) What are the advantages/disadvantages of having an international court settle disputes between nations?\n8) Do you think having two separate international courts (ICJ and ICC) makes global justice more effective or more complicated? Explain your reasoning.",
+      "solution": {
+        "paragraphs": [
+          "Vzorové studijní řešení osmi otázek pracovního listu. Odpovědi jsou anglicky, vysvětlení česky. Nejde o učitelský klíč, potvrzení vlastní četby ani uživatelovo osobní stanovisko. Podmínka odevzdání závisí na nepřítomnosti 3. prosince; přítomnost neznáme a nic nebylo odevzdáno do Moodlu.",
+          "1) What is the primary goal and purpose of the ICC and ICJ?",
+          "The ICJ settles legal disputes between states under international law and gives advisory opinions requested by authorized UN bodies. It is the UN’s principal judicial organ. The ICC determines individual criminal responsibility for genocide, crimes against humanity, war crimes and, under special conditions, aggression. It complements national criminal justice systems. Neither court is a general world appeals court.",
+          "Vysvětlení: ICJ řeší odpovědnost států, ICC trestní odpovědnost jednotlivců. Oba sídlí v Haagu, ale nejsou dvě oddělení téže instituce. U ICC musí být splněny také podmínky pravomoci a přípustnosti případu.",
+          "Primární ověření: UN Charter Chapter XIV, Articles 92–96 — https://www.un.org/en/about-us/un-charter/chapter-14; ICC How the Court works, jurisdiction and cooperation — https://www.icc-cpi.int/about/how-the-court-works",
+          "2) In what ways do the ICJ and ICC contribute to maintaining peace and accountability in the world?",
+          "The ICJ offers a legal route for resolving interstate disputes instead of escalating them through force and clarifies international obligations. The ICC can investigate and try individuals where its legal requirements are met, helping reduce impunity. Their contribution depends on fair proceedings and state cooperation; neither court can guarantee peace or prevent every crime.",
+          "Vysvětlení: Jde o vysvětlení možného přínosu soudů, ne o záruku výsledku. ICC například nemá vlastní policii a při zatýkání i výkonu rozhodnutí spoléhá na spolupráci států.",
+          "Primární ověření: UN Charter Chapter XIV, Articles 92–96 — https://www.un.org/en/about-us/un-charter/chapter-14; ICC How the Court works, jurisdiction and cooperation — https://www.icc-cpi.int/about/how-the-court-works",
+          "3) How did the events of World War II influence the creation of both the ICJ and ICC?",
+          "The destruction of World War II strengthened the drive for a UN system of peaceful dispute settlement. The ICJ was established in 1945 and began work in 1946, succeeding an earlier international court. The Nuremberg and Tokyo trials demonstrated that individuals could face international criminal proceedings. They were an important historical influence, but the ICC was created much later: its Rome Statute was adopted in 1998 and entered into force in 2002. Later atrocities and the ad hoc tribunals also shaped that development.",
+          "Vysvětlení: Nezaměňuj historický podnět za datum založení. ICJ vznikl bezprostředně po válce, ICC nikoli; norimberský a tokijský tribunál nebyly ICC.",
+          "Primární ověření: UN Audiovisual Library, international courts and tribunals — https://legal.un.org/avl/jurisprudence.html; ICRC International criminal justice institutions — https://www.icrc.org/en/document/international-criminal-justice-institutions-0; ICC Rome Statute, adoption and entry into force — https://www.icc-cpi.int/publications/core-legal-texts/rome-statute-international-criminal-court",
+          "4) What is an International Criminal Tribunal? What kinds of crimes do they hear?",
+          "An international criminal tribunal is a court established through an international legal instrument to try individuals accused of specified international crimes. Its founding statute defines the offences and its geographic and time limits. For example, the former Yugoslavia and Rwanda tribunals dealt with genocide, crimes against humanity and serious violations of humanitarian law within their respective mandates. Many tribunals are temporary or situation-specific; the ICC is a permanent court.",
+          "Vysvětlení: Slovo tribunal neznamená, že soud může soudit jakýkoli trestný čin kdekoli. Rozsah se odvozuje od jeho statutu; nejde o běžný spor mezi dvěma státy.",
+          "Primární ověření: ICRC International criminal justice institutions — https://www.icrc.org/en/document/international-criminal-justice-institutions-0",
+          "5) Why do you think the ICJ’s rulings are often described as “nonbinding”? What challenges might this create in enforcing its decisions?",
+          "The premise needs a distinction: ICJ judgments in contentious cases are legally binding on the parties in that case and are final. Advisory opinions are generally nonbinding, although legally influential. Difficulty enforcing a binding judgment does not make it nonbinding. If a party fails to comply, the other party may turn to the UN Security Council under Article 94; action is discretionary and political disagreement can obstruct it. Advisory opinions normally rely on the requesting body and states to give them practical effect.",
+          "Vysvětlení: Oprava nepřesnosti pracovního listu: právní závaznost a faktické vynucení nejsou totéž. Článek 59 Statutu omezuje závaznost rozsudku na strany daného případu; neříká, že pro ně rozsudek závazný není.",
+          "Primární ověření: ICJ Statute, Articles 34,36,59,60 — https://www.un.org/en/about-us/un-charter/statute-of-the-international-court-of-justice; ICJ Frequently asked questions, judgments and advisory opinions — https://www.icj-cij.org/frequently-asked-questions; UN Charter Chapter XIV, Articles 92–96 — https://www.un.org/en/about-us/un-charter/chapter-14",
+          "6) The ICC acts only when a country is “unable or unwilling” to prosecute war crimes. What are some possible reasons a nation might be unwilling to prosecute its own citizens?",
+          "Possible reasons include shielding political or military leaders, protecting allies, fear of exposing a government’s own involvement, or pressure on judges and witnesses. A sham proceeding might be used to protect the suspect. These are hypothetical explanations, not accusations against every state. The Rome Statute distinguishes unwillingness, such as shielding or unjustified delay, from inability caused by a collapsed or unavailable justice system. Complementarity is only one requirement: ICC jurisdiction and the other admissibility conditions must also be satisfied.",
+          "Vysvětlení: Neochota není totéž co nedostatek prostředků. ICC nenahrazuje každý vnitrostátní soud automaticky, když se někomu jeho postup nelíbí; posuzuje skutečnost domácího řízení podle právních kritérií.",
+          "Primární ověření: Rome Statute, Articles 17 and 112; UN treaty text — https://legal.un.org/icc/statute/99_corr/cstatute.htm; ICC How the Court works, jurisdiction and cooperation — https://www.icc-cpi.int/about/how-the-court-works",
+          "7) What are the advantages/disadvantages of having an international court settle disputes between nations?",
+          "Advantages include an independent legal forum, reasoned decisions and a peaceful alternative to coercion. A common legal process may help states clarify rights and duties. Disadvantages include cost, delay, jurisdictional limits and dependence on compliance. States must have accepted the ICJ’s jurisdiction through an applicable legal basis; UN membership alone is not blanket consent to every dispute. A legally strong judgment may still face practical enforcement obstacles.",
+          "Vysvětlení: Vyvažuj právní přínos s praktickými omezeními. Souhlas s pravomocí může vyplývat například již ze smlouvy; nemusí se udělovat znovu teprve po vzniku každého sporu. Posouzení výhod a nevýhod je odůvodněné hodnocení.",
+          "Primární ověření: ICJ Statute, Articles 34,36,59,60 — https://www.un.org/en/about-us/un-charter/statute-of-the-international-court-of-justice; UN Charter Chapter XIV, Articles 92–96 — https://www.un.org/en/about-us/un-charter/chapter-14",
+          "8) Do you think having two separate international courts (ICJ and ICC) makes global justice more effective or more complicated? Explain your reasoning.",
+          "One defensible view is that separate courts improve specialization: the ICJ addresses state disputes, while the ICC deals with individual criminal responsibility. Different procedures suit these different tasks. The arrangement also makes the system harder to navigate and requires cooperation. I would favour keeping the separate mandates while explaining their boundaries clearly; combining them would not by itself solve consent, jurisdiction or enforcement problems.",
+          "Vysvětlení: Toto je vzor argumentu, nikoli předepsaný osobní názor. Lze obhájit i jiný závěr, pokud správně rozlišíš funkce soudů a vysvětlíš kompromisy.",
+          "Primární ověření: UN Charter Chapter XIV, Articles 92–96 — https://www.un.org/en/about-us/un-charter/chapter-14; ICC How the Court works, jurisdiction and cooperation — https://www.icc-cpi.int/about/how-the-court-works"
+        ],
+        "steps": [
+          "Read the assigned information and distinguish ICJ state disputes from ICC individual prosecutions.",
+          "Answer all eight questions; use the corrected distinction between binding judgments and generally nonbinding advisory opinions in question 5.",
+          "Review the illustrative opinion in question 8 and formulate your own supported view.",
+          "If absent on 3 December, the instruction requires Moodle submission; otherwise bring the worksheet to class. This study aid has not submitted anything."
+        ]
+      },
+      "source_refs": [
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+          "page": 1,
+          "locator": "worksheet question 1"
+        },
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+          "page": 1,
+          "locator": "worksheet question 2"
+        },
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+          "page": 1,
+          "locator": "worksheet question 3"
+        },
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+          "page": 1,
+          "locator": "worksheet question 4"
+        },
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+          "page": 1,
+          "locator": "worksheet question 5"
+        },
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+          "page": 1,
+          "locator": "worksheet question 6"
+        },
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+          "page": 1,
+          "locator": "worksheet question 7"
+        },
+        {
+          "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+          "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+          "page": 1,
+          "locator": "worksheet question 8"
+        }
+      ],
+      "solutions": [
+        {
+          "id": "icc-icj-explained-study-answers",
+          "title": "ICC and ICJ — eight explained worksheet answers",
+          "format": "docx",
+          "sha256": "37a3bbe05ce1034a3a2aefd63af601fa37fe9486d637a4ee7b6015d266c07a1c",
+          "size": 39723,
+          "url": "https://github.com/hphugosm/study/releases/download/studylo-learning-v1/37a3bbe05ce1034a3a2aefd63af601fa37fe9486d637a4ee7b6015d266c07a1c.docx",
+          "source_refs": [
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+              "page": 1,
+              "locator": "worksheet question 1"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+              "page": 1,
+              "locator": "worksheet question 2"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+              "page": 1,
+              "locator": "worksheet question 3"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+              "page": 1,
+              "locator": "worksheet question 4"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+              "page": 1,
+              "locator": "worksheet question 5"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+              "page": 1,
+              "locator": "worksheet question 6"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+              "page": 1,
+              "locator": "worksheet question 7"
+            },
+            {
+              "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+              "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+              "page": 1,
+              "locator": "worksheet question 8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

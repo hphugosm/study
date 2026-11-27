@@ -151,18 +151,18 @@ export const courseUnits = [
     "description": "How did accusations become a public crisis in Salem in 1692? Follow the reading’s account of belief, evidence and social change, then separate what people claimed from what could be checked.",
     "materials": [
       {
-        "title": "Salem Witch Trials.docx",
-        "description": "Původní schválený zdroj",
-        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5.docx",
-        "sourceId": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
-        "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5"
-      },
-      {
         "title": "Thanksgiving article questions — cleaned worksheet",
         "description": "Původní schválený zdroj",
         "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105.odt",
         "sourceId": "59198fe8b258a8ad4b2bb27a78ce52b581b6de10bf809bda5f9a2484e4366226",
         "sha256": "0f6f6b99cc019ff6da097caf99045de9d61ae7074618e480842b080e42d91105"
+      },
+      {
+        "title": "Salem Witch Trials.docx",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5.docx",
+        "sourceId": "3f9e7005f67c95480a541064cf766780e18ca538f8bda8d0a0c3e53c887c89ba",
+        "sha256": "352ecda38fe29037b88525a411c34812ccb898d083d44b8a81d7a84c227ec9c5"
       }
     ],
     "content_url": "modules/course-notes/content/area-studies/section-57ebae4359c71a17acb53e96ea8717bd.json",
@@ -2732,15 +2732,32 @@ export const courseUnits = [
     "origin": "moodle",
     "course_variant": "JU3",
     "section_order": 10,
-    "available": false,
+    "available": true,
     "listed_current": true,
     "title": "Unit 3.1 - International Law and Courts",
     "label": "JU3",
-    "sourceCount": 0,
-    "lessonCount": 0,
-    "questionCount": 0,
-    "description": "Téma nyní není zpřístupněné.",
-    "materials": []
+    "sourceCount": 2,
+    "lessonCount": 11,
+    "questionCount": 13,
+    "description": "Základní pojmy mezinárodního práva, jeho prameny a rozlišení ICJ a ICC s českým vysvětlením anglické slovní zásoby.",
+    "materials": [
+      {
+        "title": "International Law and Courts — studijní průvodce",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389.pdf",
+        "sourceId": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+        "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389"
+      },
+      {
+        "title": "ICC and ICJ — pracovní list (studijní kopie)",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1.docx",
+        "sourceId": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+        "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1"
+      }
+    ],
+    "content_url": "modules/course-notes/content/law/section-3d8f7cfa5ee0ecaf0ce59a91c894a586.json",
+    "module": "course-notes"
   },
   {
     "id": "moodle-law-7db624e2cf9490c4619c7519f3dfea0b",
@@ -2817,14 +2834,14 @@ export const courseUnits = [
     "origin": "moodle",
     "course_variant": "JU3",
     "section_order": 15,
-    "available": false,
+    "available": true,
     "listed_current": true,
     "title": "Test - Unit 1-3",
     "label": "JU3",
     "sourceCount": 0,
     "lessonCount": 0,
     "questionCount": 0,
-    "description": "Téma nyní není zpřístupněné.",
+    "description": "Téma je v kurzu; zveřejněné podklady ani výpisky zatím nejsou k dispozici.",
     "materials": []
   },
   {
@@ -4169,18 +4186,18 @@ export const courseUnits = [
     "description": "Přírodní podmínky jihozápadní Asie s úplným řešením pracovního listu, názorným srovnáním podnebí a otázkami k opakování.",
     "materials": [
       {
-        "title": "Přírodní podmínky Jihozápadní Asie – pracovní list",
-        "description": "Původní schválený zdroj",
-        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582.pdf",
-        "sourceId": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
-        "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582"
-      },
-      {
         "title": "Jihozápadní Asie - průvodce a úplné řešení pracovního listu",
         "description": "Původní schválený zdroj",
         "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e.pdf",
         "sourceId": "590acd8a38ce7302ada90e7bbb0e6573a2fbdfc4a0696adae9f37d0f63042cbc",
         "sha256": "84ef29c16e5506d604b823383d4448382506be14985dffdec42e350fce46ee9e"
+      },
+      {
+        "title": "Přírodní podmínky Jihozápadní Asie – pracovní list",
+        "description": "Původní schválený zdroj",
+        "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582.pdf",
+        "sourceId": "cb926968251da3173a7e7f5962cdb6ab44996f67890bf7cba125730e1224fb3c",
+        "sha256": "c614494274f631e59b708d10d251e0dbbd4caf5ec27f6eb78f8d4d9d0466e582"
       }
     ],
     "content_url": "modules/course-notes/content/geography/section-e8a274e93a3db6e3bbd33e4760814763.json",

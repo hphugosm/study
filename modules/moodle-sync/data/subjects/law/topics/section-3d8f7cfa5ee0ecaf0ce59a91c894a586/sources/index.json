@@ -1,6 +1,25 @@
 {
   "schema": 1,
+  "sources": [
+    {
+      "id": "fe32447048783d66847bcbe6f974d12c80ac56b5f2943e58a74350256f0a50c9",
+      "review_status": "approved",
+      "sha256": "83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389",
+      "size": 35976,
+      "source_kind": "manual",
+      "title": "International Law and Courts — studijní průvodce",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/83c89ee36f9271ed066e012acc3b94a0debc8ec0111123674b66f69e4907d389.pdf"
+    },
+    {
+      "id": "8b88da5d1768ca97ee9c7aacb3df29a8b7c75fc289a0e16ddd3e15c7f3efcd51",
+      "review_status": "approved",
+      "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+      "size": 11680,
+      "source_kind": "manual",
+      "title": "ICC and ICJ — pracovní list (studijní kopie)",
+      "url": "https://github.com/hphugosm/study/releases/download/studylo-materials-v1/0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1.docx"
+    }
+  ],
   "subject_id": "law",
-  "topic_id": "section-3d8f7cfa5ee0ecaf0ce59a91c894a586",
-  "sources": []
+  "topic_id": "section-3d8f7cfa5ee0ecaf0ce59a91c894a586"
 }

@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "sha256": "0c333c44be64d1ff2b27bbe6b667b2b9ef2f5717ca5b917d50d41575ce6f02d1",
+  "units": [
+    {
+      "kind": "paragraph",
+      "label": "paragraph 1",
+      "number": 1,
+      "text": "Name: _______________________________Date:___________"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 2",
+      "number": 2,
+      "text": "International Criminal Court (ICC) and the International Court of Justice (ICJ)"
+    },
+    {
+      "kind": "table",
+      "label": "table 3",
+      "number": 3,
+      "text": "Question\tAnswer\nWhat is the primary goal and purpose of the ICC and ICJ?\t\nIn what ways do the ICJ and ICC contribute to maintaining peace and accountability in the world?\t\nHow did the events of World War II influence the creation of both the ICJ and ICC?\t\nWhat is an International Criminal Tribunal? What kinds of crimes do they hear?\t\nWhy do you think the ICJ’s rulings are often described as “nonbinding”? What challenges might this create in enforcing its decisions?\t\nThe ICC acts only when a country is “unable or unwilling” to prosecute war crimes. What are some possible reasons a nation might be unwilling to prosecute its own citizens?\t\nWhat are the advantages/disadvantages of having an international court settle disputes between nations?\t\nDo you think having two separate international courts (ICJ and ICC) makes global justice more effective or more complicated? Explain your reasoning.\t"
+    },
+    {
+      "kind": "paragraph",
+      "label": "paragraph 4",
+      "number": 4,
+      "text": ""
+    },
+    {
+      "kind": "page",
+      "label": "page 1",
+      "number": 1,
+      "text": "Name: _______________________________ Date:___________\nInternational Criminal Court (ICC) and the International Court of Justice (ICJ)\nQuestion Answer\nWhat is the primary goal and \npurpose of the ICC and ICJ?\nIn what ways do the ICJ and ICC \ncontribute to maintaining peace \nand accountability in the world?\nHow did the events of World \nWar II influence the creation of \nboth the ICJ and ICC?\nWhat is an International \nCriminal Tribunal? What kinds \nof crimes do they hear?\nWhy do you think the ICJ’s \nrulings are often described as \n“nonbinding”? What challenges \nmight this create in enforcing its \ndecisions?\nThe ICC acts only when a \ncountry is “unable or unwilling” \nto prosecute war crimes. What \nare some possible reasons a \nnation might be unwilling to \nprosecute its own citizens?\nWhat are the \nadvantages/disadvantages of \nhaving an international court \nsettle disputes between \nnations?\nDo you think having two \nseparate international courts \n(ICJ and ICC) makes global \njustice more effective or more \ncomplicated? Explain your \nreasoning."
+    }
+  ]
+}
