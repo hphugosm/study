@@ -49,7 +49,10 @@ export const units = [
   {id:'baroque',subjectId:'history',title:'Baroko',label:'PŘÍPRAVA NA TEST',description:'8 textových kartiček k testu: poznávací znaky baroka, umělci, hudebníci a pět světských i pět náboženských staveb.',module:'baroque',materials:[
     {title:'Baroko — obrazový studijní atlas',description:'Původní podklad · 9 stran · PDF',url:'assets/history/baroko-studijni-atlas.pdf',sha256:'33f8c9662a58619c60a815c55b62fa53879f1f7a27c2202c515f20ba9a31584f'},
   ]},
-  ...courseUnits,
+  ...courseUnits.map(unit => unit.id === 'moodle-informatics-d766e37eb9c6b8208895068ef1289997' ? {
+    ...unit,
+    simulator: {title:'Mars Rover Mission',url:'modules/mars-rover-mission/simulator.html'},
+  } : unit),
 ];
 
 /** @type {StudyEvent[]} */

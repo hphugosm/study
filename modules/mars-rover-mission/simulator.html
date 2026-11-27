@@ -1,0 +1,1278 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#141720">
+<title>Mars Rover Mission</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #11141c; --panel: #191e29; --panel-deep: #141923; --line: #313b4b;
+  --ink: #f2f4f8; --muted: #a9b4c5; --accent: #ff9d6e; --cyan: #83d9ec;
+  --violet: #e3b1ff; --amber: #f8d47f; --green: #97eab2;
+  font: 16px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: radial-gradient(ellipse at 16% 0%, #231f28 0, var(--bg) 560px); color: var(--ink); }
+button, select, textarea { font: inherit; }
+button, select {
+  color: var(--ink); background: #232b3a; border: 1px solid #3d4a60; border-radius: 8px;
+  min-height: 39px; padding: 7px 12px;
+}
+button { cursor: pointer; }
+button:hover:not(:disabled), select:hover:not(:disabled) { border-color: var(--accent); }
+button:disabled, select:disabled { opacity: .47; cursor: default; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+a { color: var(--cyan); text-underline-offset: 3px; }
+h1,h2,h3,p { margin: 0; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.02; letter-spacing: -.07em; }
+h2 { font-size: 1.25rem; letter-spacing: -.025em; }
+h3 { font-size: 1rem; }
+code, .mono, output, .map, kbd { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; }
+.page { max-width: 1510px; margin: auto; padding: 32px clamp(14px, 3vw, 44px) 45px; }
+.hero { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 8px 0 25px; }
+.hero p { margin-top: 8px; color: var(--muted); }
+.study-back { display: inline-block; margin-bottom: 9px; font-size: .9rem; }
+.tutorial-button, .tutorial-next {
+  color: #201923; background: var(--accent); border-color: var(--accent);
+  font-weight: 700;
+}
+.tutorial-button:hover:not(:disabled), .tutorial-next:hover:not(:disabled) { background: #ffb58e; }
+.tutorial-button { flex: 0 0 auto; min-height: 42px; }
+.command-layout { display: grid; grid-template-columns: minmax(0, 1fr) 305px; align-items: start; gap: 15px; }
+.panel { min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+.panel-head { padding: 15px 17px; display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); }
+.panel-actions { display: flex; gap: 7px; flex-wrap: wrap; }
+.panel-actions button { font-size: .85rem; min-height: 35px; }
+.map-frame { overflow: auto; padding: 14px 14px 8px; background: var(--panel-deep); }
+.map { display: grid; grid-template-columns: 24px repeat(25, minmax(24px, 1fr)); gap: 2px; min-width: 674px; }
+.coord { display: grid; place-items: center; color: #a0acc0; font-size: .69rem; line-height: 1; }
+.tile, .wall {
+  display: grid; place-items: center; position: relative; min-width: 0; aspect-ratio: 1;
+  min-height: 0; padding: 0; border-radius: 3px; border: 1px solid transparent; line-height: 1;
+}
+.wall { background: #10141d; border-color: #212937; }
+.tile { background: #313d4d; border-color: #425165; color: var(--ink); font-size: clamp(.72rem, 1.2vw, 1.05rem); }
+.tile.next { border: 2px solid #e49066; }
+.tile.visited { background: #4a3a43; border-color: #6d514f; }
+.tile.next.visited { border-color: #e49066; }
+.tile.photo { color: var(--violet); background: #393049; }
+.tile.sample { color: var(--amber); background: #43392d; }
+.tile.charge { color: var(--cyan); background: #243b47; }
+.tile.goal { color: var(--green); background: #24513f; }
+.tile.start { color: var(--accent); }
+.tile.current { border: 2px solid var(--accent); background: #56392f; }
+.tile.current::after {
+  content: ""; width: 47%; height: 51%; background: var(--accent);
+  clip-path: polygon(50% 0, 100% 100%, 50% 75%, 0 100%);
+  transform: rotate(var(--heading)); filter: drop-shadow(0 0 2px #111);
+}
+.tile.current .tile-symbol { position: absolute; top: 2px; right: 2px; font-size: .54rem; opacity: .8; }
+.tile.done:not(.current) .tile-symbol { opacity: .75; }
+.tile.done::before { content: "✓"; position: absolute; bottom: 1px; right: 1px; color: var(--green); font-size: .57rem; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 17px; padding: 8px 16px 12px; color: var(--muted); font-size: .82rem; background: var(--panel-deep); }
+.legend b { margin-right: 4px; }
+.photo-ink { color: var(--violet); } .sample-ink { color: var(--amber); }
+.charge-ink { color: var(--cyan); } .goal-ink { color: var(--green); }
+.accent { color: var(--accent); }
+.map-footer { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; padding: 11px 16px; }
+.map-footer p { color: var(--muted); font-size: .88rem; }
+.map-footer label { display: flex; align-items: center; gap: 7px; font-size: .82rem; }
+.map-footer select { min-height: 34px; padding-block: 3px; }
+.controls { padding: 15px; }
+.controls h2 { margin-bottom: 13px; }
+.meters { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.meter { background: var(--panel-deep); border: 1px solid var(--line); border-radius: 8px; padding: 8px; }
+.meter label, .progress-label { display: block; color: var(--muted); font-size: .83rem; }
+.meter strong { font-size: 1.25rem; font-variant-numeric: tabular-nums; }
+progress { vertical-align: middle; display: block; width: 100%; height: 8px; margin-top: 3px; accent-color: var(--accent); }
+#storageBar { accent-color: var(--cyan); }
+.mission-counts { display: flex; justify-content: space-between; gap: 6px; margin: 11px 0 12px; }
+.mission-counts strong { font-variant-numeric: tabular-nums; }
+.actions { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.actions button { text-align: left; min-height: 35px; padding: 5px 7px; font-size: .81rem; white-space: nowrap; }
+.actions code { color: var(--accent); font-weight: 700; margin-right: 4px; }
+.actions .ready { border-color: #a97555; background: #3e302f; }
+.status {
+  min-height: 52px; margin-top: 11px; padding: 8px 10px; border-left: 3px solid #56687e;
+  background: var(--panel-deep); color: var(--muted); font-size: .81rem;
+}
+.status[data-kind="error"] { border-color: #f2998f; color: #ffd0cb; }
+.status[data-kind="success"] { border-color: var(--green); color: var(--green); }
+.work { margin-top: 15px; }
+.work > .panel-head { flex-wrap: wrap; }
+.work-body { padding: 14px 16px 17px; }
+.output-label { display: block; margin-bottom: 5px; color: var(--muted); font-size: .86rem; }
+.output {
+  display: block; width: 100%; min-height: 65px; resize: vertical; border: 1px solid var(--line); border-radius: 8px;
+  padding: 9px 11px; background: var(--panel-deep); color: var(--ink); font: .88rem/1.5 ui-monospace, monospace;
+}
+.output:read-only { color: #dfe5f0; }
+#worksheetFallback { margin-top: 8px; min-height: 160px; }
+.sequence-row { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: start; }
+.sequence-row button { font-size: .85rem; }
+.compression { margin-top: 15px; }
+.compression-body { display: grid; grid-template-columns: 265px minmax(0,1fr); gap: 17px; padding: 15px 16px 17px; }
+.table-wrap { min-width: 0; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 5px 7px; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-size: .83rem; font-weight: 650; }
+td { font-size: .89rem; }
+td:last-child { color: var(--cyan); }
+.tree-scroll { overflow: auto; margin: 5px 0 8px; min-height: 95px; }
+canvas { display: block; width: 100%; min-width: 450px; }
+#treeEmpty { color: var(--muted); padding: 12px 0; font-size: .9rem; }
+details { margin-top: 8px; color: var(--muted); font-size: .85rem; }
+summary { cursor: pointer; }
+ol { margin: 8px 0; padding-left: 24px; }
+.stats { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 7px; margin: 0 0 12px; }
+.stat { background: var(--panel-deep); border: 1px solid var(--line); border-radius: 8px; padding: 8px; min-width: 0; }
+.stat small { display: block; color: var(--muted); font-size: .78rem; }
+.stat strong { font-variant-numeric: tabular-nums; font-size: 1.05rem; }
+.note { color: var(--muted); font-size: .82rem; margin-top: 8px; }
+dialog { max-width: min(420px, 92vw); border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--ink); padding: 18px; }
+dialog::backdrop { background: #090b10bf; }
+dialog p { margin: 8px 0 15px; }
+dialog form { display: flex; justify-content: end; gap: 8px; }
+.tutorial {
+  width: min(640px, 94vw); max-width: none; max-height: 92vh;
+  padding: 0; overflow: auto; box-shadow: 0 16px 80px #07090eaa;
+}
+.tutorial-head, .tutorial-footer {
+  display: flex; align-items: center; gap: 10px; padding: 13px 19px;
+}
+.tutorial-head { justify-content: space-between; border-bottom: 1px solid var(--line); }
+.tutorial-head h2 { font-size: 1.06rem; }
+.tutorial-body { padding: 17px 19px; }
+.tutorial-stage { font-size: 1.38rem; }
+.tutorial-body p { margin: 7px 0 10px; color: var(--muted); }
+.tutorial-body ul { padding-left: 22px; margin-block: 9px 0; }
+.tutorial-body li + li { margin-top: 7px; }
+.tutorial-body code { color: var(--cyan); font-weight: 700; }
+.tutorial-example {
+  margin-top: 13px; padding: 12px; border: 1px solid var(--line);
+  border-radius: 9px; background: var(--panel-deep);
+}
+.tutorial-example p { margin-bottom: 0; }
+.tutorial-example h4 { margin: 0; }
+.tutorial-footer { border-top: 1px solid var(--line); flex-wrap: wrap; }
+.tutorial-footer output { color: var(--muted); font-size: .82rem; margin-right: auto; }
+.tutorial-demo { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 9px; }
+.tutorial-mini-map { display: inline-grid; grid-template-columns: repeat(2, 38px); gap: 3px; }
+.tutorial-mini-tile {
+  display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid #425165;
+  border-radius: 5px; background: #313d4d; min-height: 0; padding: 0; font-size: 1.1rem;
+}
+.tutorial-mini-tile.current { color: var(--accent); background: #56392f; border-color: var(--accent); opacity: 1; }
+.tutorial-mini-tile.next { border: 2px solid var(--accent); }
+.tutorial-demo-output { flex-basis: 100%; color: var(--cyan); font-size: .9rem; overflow-wrap: anywhere; }
+.tutorial-stats { padding-left: 22px; }
+.export-dialog {
+  width: min(690px, 95vw); color-scheme: light;
+  --ink: #182740; --muted: #43546c; --line: #dbe3ee; --panel-deep: #fff;
+  --cyan: #184fac; --amber: #795116; --green: #205a3e;
+  background: #f4f7fb;
+}
+.export-dialog:focus-visible, .export-dialog :focus-visible { outline-color: #245fc5; }
+.export-dialog .tutorial-head { background: #fff; padding: 12px 22px; }
+.export-dialog .tutorial-head h2 { font-size: 1.13rem; }
+.export-dialog .tutorial-body { padding: 16px 22px 19px; }
+.export-dialog .tutorial-body p { margin: 4px 0; }
+.export-dialog a { color: #184fac; }
+.export-dialog button, .export-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  color: #184fac; background: #fff; border: 1px solid #c5d4e8;
+  border-radius: 8px; min-height: 36px; padding: 5px 10px;
+  font-size: .875rem; font-weight: 650; text-decoration: none;
+}
+.export-dialog button:hover:not(:disabled), .export-link:hover { border-color: #245fc5; background: #eff5ff; }
+.export-dialog .export-primary {
+  color: #fff; background: #2154ae; border-color: #2154ae;
+}
+.export-dialog .export-primary:hover:not(:disabled) { color: #fff; background: #174591; }
+.export-check {
+  padding: 10px 13px; border: 1px solid #d7e3f7; background: #edf4ff;
+  border-radius: 10px; outline-offset: 2px;
+}
+.export-check[data-kind="complete"] { border-color: #cbdfd2; background: #ebf6ef; }
+.export-check h3 { font-size: 1rem; }
+.export-check p { font-size: .88rem; }
+.export-check-list { display: flex; gap: 5px 14px; flex-wrap: wrap; margin-top: 5px; }
+.export-check-list span { font-size: .83rem; font-weight: 650; }
+.export-dialog .export-steps { padding: 0; margin: 9px 0; list-style: none; counter-reset: submission; }
+.export-steps li {
+  display: grid; grid-template-columns: 24px 1fr; gap: 8px; padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.export-steps li::before {
+  counter-increment: submission; content: counter(submission);
+  display: grid; place-items: center; width: 23px; height: 23px; margin-top: 1px;
+  border-radius: 50%; color: #194999; background: #e3edfc; font-size: .78rem; font-weight: 700;
+}
+.export-steps h3 { font-size: .97rem; }
+.export-steps p { font-size: .875rem; }
+.export-toolbar { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 1px; }
+.export-more { border: 1px solid var(--line); border-radius: 9px; background: #fff; margin-top: 7px; }
+.export-more summary { padding: 7px 10px; font-weight: 650; color: var(--ink); }
+.export-more[open] summary { border-bottom: 1px solid var(--line); }
+.export-more-content { padding: 8px 10px; }
+.export-fields { display: grid; grid-template-columns: 1fr 2fr; gap: 9px; margin: 6px 0; }
+.export-fields label { display: grid; gap: 4px; font-size: .86rem; color: var(--muted); align-content: start; }
+.export-fields input { font: inherit; min-width: 0; min-height: 39px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel-deep); color: var(--ink); }
+.export-fields textarea, .export-dialog .output { color: var(--ink); }
+.export-fields textarea { min-height: 64px; }
+.export-dialog .report { margin-top: 9px; }
+.export-dialog .note { font-size: .82rem; }
+.report { border: 1px solid var(--line); border-radius: 9px; padding: 13px; }
+.report h3 { margin: 15px 0 5px; }
+.report h3:first-child { margin-top: 0; font-size: 1.2rem; }
+.report p, .report ol { margin: 6px 0; }
+.report .report-data { font: .84rem/1.45 ui-monospace, monospace; overflow-wrap: anywhere; white-space: pre-wrap; }
+.report .report-note { white-space: pre-wrap; overflow-wrap: anywhere; }
+.report .report-tree { display: block; width: 100%; height: auto; margin: 8px 0; border: 1px solid #a8b1bc; border-radius: 5px; }
+.report th, .report td { padding: 3px 7px; }
+.report th { border-bottom-width: 2px; }
+.report td:last-child { color: inherit; }
+.report .draft { color: var(--amber); font-weight: 700; }
+.report .complete { color: var(--green); font-weight: 700; }
+#printReport { display: none; }
+@media print {
+  body:has(#printReport) { background: white; color: #111; }
+  body:has(#printReport) > :not(#printReport), body:has(#printReport) dialog::backdrop { display: none !important; }
+  #printReport { display: block; border: 0; border-radius: 0; padding: 0; color: #111; font: 10pt/1.4 system-ui, sans-serif; }
+  #printReport h3 { break-after: avoid; }
+  #printReport thead { display: table-header-group; }
+  #printReport tr, #printReport .report-tree { break-inside: avoid; }
+  #printReport .report-tree { max-height: 100mm; object-fit: contain; }
+  #printReport .report-data { font-size: 9pt; }
+  #printReport th, #printReport p, #printReport .draft, #printReport .complete { color: #111; }
+  #printReport th, #printReport td { border-bottom-color: #ccc; }
+}
+@media(max-width: 1120px) {
+  .command-layout { grid-template-columns: minmax(0, 1fr); }
+  .controls { display: grid; grid-template-columns: 1fr 1fr; column-gap: 14px; align-items: start; }
+  .controls h2, .status { grid-column: 1 / -1; }
+  .readouts { grid-column: 1; }
+  .actions { grid-column: 2; }
+}
+@media(max-width: 620px) {
+  .page { padding-top: 14px; }
+  .hero { flex-wrap: wrap; }
+  .panel-head { padding-inline: 12px; }
+  .panel-actions { gap: 4px; }
+  .panel-actions button { padding-inline: 6px; }
+  .controls { grid-template-columns: minmax(0, 1fr); }
+  .actions { grid-column: 1; }
+  .compression-body { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .sequence-row { grid-template-columns: 1fr; }
+  .sequence-row button { justify-self: start; }
+  .tutorial-head, .tutorial-footer, .tutorial-body { padding-inline: 13px; }
+  .export-dialog .tutorial-head, .export-dialog .tutorial-body { padding-inline: 13px; }
+  .export-fields { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="hero">
+    <div><a class="study-back" href="../../#/units/moodle-informatics-d766e37eb9c6b8208895068ef1289997">Zpět na projekt ve Studilu</a><h1>Mars Rover Mission</h1><p>Naplánuj trasu a zakóduj její povely.</p></div>
+    <button id="openTutorial" class="tutorial-button" type="button" aria-haspopup="dialog">Otevřít tutoriál</button>
+  </header>
+  <div class="command-layout">
+    <section class="panel" aria-labelledby="mapTitle">
+      <div class="panel-head">
+        <h2 id="mapTitle">Mapa mise</h2>
+        <div class="panel-actions">
+          <button id="undo" type="button" disabled>Zpět o tah</button>
+          <button id="reset" type="button" disabled>Reset mise</button>
+        </div>
+      </div>
+      <div class="map-frame" tabindex="0" aria-label="Mapa, na malé obrazovce posouvatelná">
+        <div id="map" class="map" aria-label="Mapa Marsu, 10 řádků a 25 sloupců"></div>
+      </div>
+      <div class="legend" aria-label="Legenda mapy">
+        <span><b class="accent">▲</b> Rover</span><span><b class="photo-ink">→</b> Fotka a směr</span>
+        <span><b class="sample-ink">◆</b> Vzorek</span><span><b class="charge-ink">⚡︎</b> Nabíječka</span>
+        <span><b class="goal-ink">■</b> Cíl</span><span><b class="goal-ink">✓</b> Splněný bod</span>
+      </div>
+      <div class="map-footer">
+        <p>Klikni na sousední pole nebo použij šipky na klávesnici.</p>
+        <label>Směr na startu
+          <select id="heading" aria-label="Směr roveru na startu">
+            <option value="2">↓ Jih</option><option value="0">↑ Sever</option>
+            <option value="1">→ Východ</option><option value="3">← Západ</option>
+          </select>
+        </label>
+      </div>
+    </section>
+    <section class="panel controls" aria-labelledby="roverTitle">
+      <h2 id="roverTitle">Ovládání roveru</h2>
+      <div class="readouts">
+        <div class="meters">
+          <div class="meter"><label for="energyBar">Baterie</label><strong id="energy"></strong><progress id="energyBar" max="10" value="10"></progress></div>
+          <div class="meter"><label for="storageBar">Paměť</label><strong id="storage"></strong><progress id="storageBar" max="3" value="0"></progress></div>
+        </div>
+        <div class="mission-counts">
+          <div><span class="progress-label">Fotky</span><strong id="photos"></strong></div>
+          <div><span class="progress-label">Vzorky</span><strong id="samples"></strong></div>
+          <div><span class="progress-label">Přenosy</span><strong id="transmissions"></strong></div>
+        </div>
+      </div>
+      <div id="actions" class="actions">
+        <button type="button" data-command="F"><code>F</code> Vpřed</button>
+        <button type="button" data-command="L"><code>L</code> Vlevo</button>
+        <button type="button" data-command="R"><code>R</code> Vpravo</button>
+        <button type="button" data-command="U"><code>U</code> Otočit o 180°</button>
+        <button type="button" data-command="Ph"><code>Ph</code> Vyfotit</button>
+        <button type="button" data-command="Pi"><code>Pi</code> Vzít vzorek</button>
+        <button type="button" data-command="Ch"><code>Ch</code> Dobít</button>
+        <button type="button" data-command="T"><code>T</code> Odeslat data</button>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </section>
+  </div>
+  <section class="panel work" aria-labelledby="sequenceTitle">
+    <div class="panel-head">
+      <h2 id="sequenceTitle">Sekvence povelů <span id="commandCount" class="mono accent"></span></h2>
+      <button id="openExport" class="tutorial-button" type="button" aria-haspopup="dialog">Připravit odevzdání</button>
+    </div>
+    <div class="work-body">
+      <label for="sequence" class="output-label">Povely v pořadí</label>
+      <div class="sequence-row">
+        <textarea id="sequence" class="output" readonly placeholder="Tvoje povely se objeví tady."></textarea>
+        <button id="copySequence" type="button" disabled>Kopírovat povely</button>
+      </div>
+      <p id="copyStatus" class="note" role="status" hidden></p>
+    </div>
+  </section>
+  <section class="panel compression" aria-labelledby="huffmanTitle">
+    <div class="panel-head"><h2 id="huffmanTitle">Huffmanovo kódování</h2></div>
+    <div class="compression-body">
+      <div class="table-wrap">
+        <table><thead><tr><th scope="col">Povel</th><th scope="col">Četnost</th><th scope="col">Kód</th></tr></thead><tbody id="frequencyRows"></tbody></table>
+        <p class="note">Strom zahrnuje všech osm povelů i s nulovou četností.</p>
+      </div>
+      <div>
+        <h3>Huffmanův strom</h3>
+        <p id="treeEmpty">Přidej první povel a tady se objeví strom.</p>
+        <div id="treeScroll" class="tree-scroll" hidden>
+          <canvas id="tree" role="img" aria-label="Huffmanův strom. Kódy jsou v tabulce a postup je pod stromem."></canvas>
+        </div>
+        <details id="mergeDetails" hidden>
+          <summary>Jak se strom skládal</summary><ol id="merges"></ol>
+        </details>
+      </div>
+    </div>
+    <div class="work-body">
+      <div class="stats">
+        <div class="stat"><small>Pevný kód · bity</small><strong id="fixed">—</strong></div>
+        <div class="stat"><small>Huffman · bity</small><strong id="bits">—</strong></div>
+        <div class="stat"><small>Průměr · bit/povel</small><strong id="average">—</strong></div>
+        <div class="stat"><small>Entropie · bit/povel</small><strong id="entropy">—</strong></div>
+        <div class="stat"><small>Ušetřené bity</small><strong id="saved">—</strong></div>
+        <div class="stat"><small>Úspora · %</small><strong id="percent">—</strong></div>
+      </div>
+      <label for="encoded" class="output-label">Binární zpráva</label>
+      <div class="sequence-row">
+        <textarea id="encoded" class="output" readonly placeholder="Kód průběžně odpovídá zapsaným povelům."></textarea>
+        <button id="copyBits" type="button" disabled>Kopírovat bity</button>
+      </div>
+    </div>
+  </section>
+</main>
+<dialog id="exportDialog" class="tutorial export-dialog" aria-labelledby="exportTitle">
+  <header class="tutorial-head">
+    <h2 id="exportTitle">Odevzdání mise</h2>
+    <form method="dialog"><button type="submit">Zavřít</button></form>
+  </header>
+  <div class="tutorial-body">
+    <section id="handoffCheck" class="export-check" aria-labelledby="handoffTitle">
+      <h3 id="handoffTitle" tabindex="-1"></h3>
+      <p id="handoffHint"></p>
+      <div class="export-check-list">
+        <span id="handoffPhotos"></span>
+        <span id="handoffSamples"></span>
+        <span id="handoffStorage"></span>
+      </div>
+    </section>
+    <ol class="export-steps" aria-label="Postup odevzdání">
+      <li><div>
+        <h3>Otevři pracovní list</h3>
+        <p>Doplň jméno a třídu do souboru <strong>Zadani</strong> z AIS.</p>
+        <div class="export-toolbar"><a class="export-link" href="https://ais.gymnazium-amazon.cz/mod/resource/view.php?id=72017" target="_blank" rel="noopener noreferrer">Otevřít pracovní list</a></div>
+      </div></li>
+      <li><div>
+        <h3>Vlož svoje řešení</h3>
+        <p>Zkopíruj podklady do listu, vlož obrázek stromu a dopiš, proč jsi třeba na jednom místě dobil nebo odeslal data.</p>
+        <div class="export-toolbar">
+          <button id="copyWorksheet" class="export-primary" type="button" disabled>Zkopírovat podklady</button>
+          <button id="downloadTree" type="button" disabled>Stáhnout strom</button>
+        </div>
+        <p id="exportStatus" role="status" hidden></p>
+        <textarea id="worksheetFallback" class="output" aria-label="Podklady do pracovního listu" readonly hidden></textarea>
+      </div></li>
+      <li><div>
+        <h3>Zkontroluj pokyny v AIS</h3>
+        <p>Termín je <strong>31. 12. 2026 ve 23:59</strong>. V kurzu si ověř, kam a v jakém formátu list předat. Pokud pokyn chybí, <a href="mailto:daniel.simek@acga.cz?subject=Mars%20Rover%20Mission%20%E2%80%93%20zp%C5%AFsob%20odevzd%C3%A1n%C3%AD">zeptej se pana Šimka</a>.</p>
+        <div class="export-toolbar"><a class="export-link" href="https://ais.gymnazium-amazon.cz/course/section.php?id=30434" target="_blank" rel="noopener noreferrer">Otevřít projekt v AIS</a></div>
+      </div></li>
+    </ol>
+    <details class="export-more">
+      <summary>Jak vzniklo moje řešení</summary>
+      <div class="export-more-content">
+        <p id="exportExplanation"></p>
+        <article id="report" class="report" aria-label="Náhled podkladů v angličtině" lang="en"></article>
+      </div>
+    </details>
+    <details class="export-more">
+      <summary>Doplnit vlastní poznámku nebo uložit PDF</summary>
+      <div class="export-more-content">
+        <div class="export-fields">
+          <label>Jméno a třída (volitelné)<input id="exportAuthor" type="text" maxlength="100" autocomplete="off"></label>
+          <label>Moje vysvětlení trasy (volitelné)<textarea id="exportReason" class="output" maxlength="1200" rows="2" placeholder="Kde a proč jsem dobil nebo poslal data?"></textarea></label>
+        </div>
+        <p class="note">Poznámka se přidá do kopírovaných podkladů i do PDF.</p>
+        <div class="export-toolbar"><button id="printWorksheet" type="button" disabled>Tisk / uložit PDF</button></div>
+        <p class="note">V Safari vyber v tiskovém dialogu <strong>PDF → Uložit jako PDF</strong>. PDF použij jako přílohu, pokud ho učitel přijímá.</p>
+      </div>
+    </details>
+  </div>
+</dialog>
+<dialog id="tutorialDialog" class="tutorial" aria-labelledby="tutorialTitle">
+  <header class="tutorial-head">
+    <h2 id="tutorialTitle">Jak nástroj funguje</h2>
+    <form method="dialog"><button type="submit">Zavřít</button></form>
+  </header>
+  <div class="tutorial-body">
+    <section data-tutorial-step>
+      <h3 class="tutorial-stage" tabindex="-1">Pohyb a otáčení</h3>
+      <p>Klikni na sousední průjezdné pole nebo stiskni šipku. Šipka vybírá směr na mapě. Nástroj doplní potřebné otočení (<code>L</code>, <code>R</code> nebo <code>U</code>) a pak zapíše krok <code>F</code>.</p>
+      <p>Tlačítky <code>F</code>, <code>L</code>, <code>R</code> a <code>U</code> můžeš zadávat jednotlivé povely. <code>F</code> jede tam, kam rover právě míří. Počáteční směr můžeš změnit před prvním tahem.</p>
+      <div class="tutorial-example">
+        <h4>Zkus si krok doprava</h4>
+        <p>Rover míří nahoru. Klikni na orámované pole vpravo.</p>
+        <div class="tutorial-demo">
+          <div class="tutorial-mini-map" aria-label="Dvě ukázková pole">
+            <span id="tutorialStartTile" class="tutorial-mini-tile current" aria-label="Rover míří nahoru">↑</span>
+            <button id="tutorialMove" class="tutorial-mini-tile next" type="button" aria-label="Přejít na pole vpravo"></button>
+          </div>
+          <button id="tutorialResetMove" type="button" disabled>Zopakovat ukázku</button>
+          <output id="tutorialMoveResult" class="tutorial-demo-output" aria-live="polite">Tady uvidíš povely z ukázky.</output>
+        </div>
+      </div>
+    </section>
+    <section data-tutorial-step hidden>
+      <h3 class="tutorial-stage" tabindex="-1">Fotky, vzorky a baterie</h3>
+      <ul>
+        <li><strong>Baterie.</strong> Jen krok <code>F</code> stojí jeden dílek. Na nabíječce stiskni <code>Ch</code> a doplníš baterii na 10.</li>
+        <li><strong>Fotky a vzorky.</strong> Na poli s fotkou natoč rover podle šipky a stiskni <code>Ph</code>. Na poli se vzorkem stiskni <code>Pi</code>.</li>
+        <li><strong>Paměť.</strong> Na palubu se vejdou tři položky. <code>T</code> můžeš použít odkudkoli a odešle vše, co je v paměti.</li>
+        <li><strong>Cíl.</strong> Na zelené pole vjeď až po pořízení všech 5 fotek, odběru všech 4 vzorků a odeslání dat. Stačí platná trasa. Tlačítkem <strong>Zpět o tah</strong> vrátíš i stav roveru.</li>
+      </ul>
+    </section>
+    <section data-tutorial-step hidden>
+      <h3 class="tutorial-stage" tabindex="-1">Od povelů ke stromu</h3>
+      <p>Nástroj spočítá, kolikrát jsi použil každý povel, a vždy spojí dva uzly s nejnižší četností. Kód povelu přečteš od kořene k jeho listu sepisováním nul a jedniček z větví.</p>
+      <p>Na hlavní stránce můžeš rozbalit <strong>Jak se strom skládal</strong> a zkontrolovat všech sedm spojení. Tabulka zahrnuje všech osm povelů i s nulovou četností.</p>
+      <div class="tutorial-example">
+        <h4>Ukázková sekvence</h4>
+        <p><code id="tutorialSequence"></code></p>
+        <div class="tutorial-demo">
+          <button id="tutorialEncode" type="button" aria-expanded="false" aria-controls="tutorialEncodeResult">Zakódovat příklad</button>
+          <output id="tutorialEncodeResult" class="tutorial-demo-output" hidden></output>
+        </div>
+      </div>
+    </section>
+    <section data-tutorial-step hidden>
+      <h3 class="tutorial-stage" tabindex="-1">Jak číst a zkopírovat výsledek</h3>
+      <ul class="tutorial-stats">
+        <li><strong>Pevný kód</strong> používá 3 bity na povel. <strong>Huffman</strong> udává délku celé binární zprávy.</li>
+        <li><strong>Průměr</strong> je délka Huffmanovy zprávy dělená počtem povelů. <strong>Entropie</strong> se počítá z četností a udává teoretickou spodní hranici průměru.</li>
+        <li><strong>Úspora</strong> udává rozdíl oproti pevnému kódu v bitech i procentech.</li>
+      </ul>
+      <p>Otevři <strong>Připravit odevzdání</strong>. Najdeš tam podklady do pracovního listu, obrázek Huffmanova stromu a kroky, které tě provedou odevzdáním.</p>
+    </section>
+  </div>
+  <footer class="tutorial-footer">
+    <output id="tutorialProgress" aria-live="polite"></output>
+    <button id="tutorialBack" type="button">Zpět</button>
+    <button id="tutorialNext" class="tutorial-next" type="button">Pokračovat</button>
+  </footer>
+</dialog>
+<dialog id="resetDialog">
+  <h2>Začít novou misi?</h2>
+  <p>Smaže se aktuální trasa a její povely.</p>
+  <form method="dialog"><button value="cancel" autofocus>Zrušit</button><button value="reset">Začít znovu</button></form>
+</dialog>
+<script>
+"use strict";
+
+const MAP = [
+  "##S######################",
+  "##.###>####P..C........##",
+  "##.###.############C##.##",
+  "#..C...C...########.##.##",
+  "#.#.##.###P....C......P.#",
+  "#.#v##.#####.##########G#",
+  "#.##.C...C...##.#######.#",
+  "#.##.####.##.##C#######.#",
+  "#....####.##.^.....C...C#",
+  "####<####P#########>#####",
+];
+const COMMANDS = ["F", "L", "R", "U", "Ph", "Pi", "Ch", "T"];
+const DIRECTIONS = [[-1, 0], [0, 1], [1, 0], [0, -1]];
+const HEADINGS = ["sever", "východ", "jih", "západ"];
+const PHOTO_TYPES = "^>v<";
+const PHOTO_MARKS = ["↑", "→", "↓", "←"];
+const START = {row: 0, col: 2};
+const SAVE_KEY = "mars-rover-mission-v1";
+const DEFAULT_HEADING = 2;
+const tileAt = (row, col) => MAP[row]?.[col] ?? "#";
+const keyOf = (row, col) => row * MAP[0].length + col;
+const photoTotal = MAP.join("").split("").filter(tile => PHOTO_TYPES.includes(tile)).length;
+const sampleTotal = MAP.join("").split("P").length - 1;
+const position = ({row, col}) => String.fromCharCode(65 + row) + (col + 1);
+const element = id => document.getElementById(id);
+
+function freshMission(heading) {
+  return {
+    ...START, heading, energy: 10, storage: 0, transmissions: 0, finished: false,
+    photos: new Set(), samples: new Set(), visited: new Set([keyOf(START.row, START.col)]),
+  };
+}
+
+function blocked(mission, command) {
+  if (mission.finished) return "Mise je dokončená. Tah můžeš vrátit nebo začít znovu.";
+  const {row, col, heading} = mission;
+  const tile = tileAt(row, col);
+  if (command === "F") {
+    if (mission.energy === 0) return "Baterie je vybitá. Bez nabití rover dál nepojede.";
+    const [dy, dx] = DIRECTIONS[heading];
+    const target = tileAt(row + dy, col + dx);
+    if (target === "#") return "Tady je neprůjezdné pole.";
+    if (target === "G") {
+      if (mission.photos.size < photoTotal || mission.samples.size < sampleTotal) {
+        return "Před cílem ještě musíš dokončit všechny fotky a vzorky.";
+      }
+      if (mission.storage > 0) return "Před cílem odešli zbývající data povelem T.";
+    }
+  }
+  if (command === "Ch" && tile !== "C") return "Dobíjet můžeš jen na nabíjecí stanici.";
+  if (command === "Ph") {
+    const requiredHeading = PHOTO_TYPES.indexOf(tile);
+    if (requiredHeading < 0) return "Fotit můžeš jen na poli se šipkou.";
+    if (requiredHeading !== heading) return "Pro fotku natoč rover na " + HEADINGS[requiredHeading] + " " + PHOTO_MARKS[requiredHeading] + ".";
+  }
+  if (command === "Pi" && tile !== "P") return "Vzorek můžeš vzít jen na poli se symbolem ◆.";
+  if ((command === "Ph" || command === "Pi") && mission.storage === 3) {
+    return "Paměť je plná. Povelem T odešli data a pak pokračuj.";
+  }
+  return "";
+}
+
+function step(mission, command) {
+  const error = blocked(mission, command);
+  if (error) return error;
+  const square = keyOf(mission.row, mission.col);
+  switch (command) {
+    case "F": {
+      const [dy, dx] = DIRECTIONS[mission.heading];
+      mission.row += dy;
+      mission.col += dx;
+      mission.energy--;
+      mission.visited.add(keyOf(mission.row, mission.col));
+      mission.finished = tileAt(mission.row, mission.col) === "G";
+      break;
+    }
+    case "L": mission.heading = (mission.heading + 3) % 4; break;
+    case "R": mission.heading = (mission.heading + 1) % 4; break;
+    case "U": mission.heading = (mission.heading + 2) % 4; break;
+    case "Ph": mission.photos.add(square); mission.storage++; break;
+    case "Pi": mission.samples.add(square); mission.storage++; break;
+    case "Ch": mission.energy = 10; break;
+    case "T": mission.storage = 0; mission.transmissions++; break;
+  }
+  return "";
+}
+
+function forDirection(heading, destination) {
+  const turn = [null, "R", "U", "L"][(destination - heading + 4) % 4];
+  return turn ? [turn, "F"] : ["F"];
+}
+
+function buildHuffman(sequence) {
+  const counts = Object.fromEntries(COMMANDS.map(command => [command, 0]));
+  for (const command of sequence) counts[command]++;
+  const codes = {};
+  const merges = [];
+  if (!sequence.length) return {counts, codes, merges, encoded: "", tree: null};
+
+  const nodes = COMMANDS.map((label, order) => ({label, order, weight: counts[label], children: []}));
+  let nextOrder = nodes.length;
+  while (nodes.length > 1) {
+    nodes.sort((a, b) => a.weight - b.weight || a.order - b.order);
+    const [left, right] = nodes.splice(0, 2);
+    const parent = {weight: left.weight + right.weight, order: nextOrder++, children: [left, right]};
+    parent.label = "(" + left.label + " + " + right.label + ")";
+    nodes.push(parent);
+    merges.push([left, right, parent]);
+  }
+  const tree = nodes[0];
+  function assign(node, prefix) {
+    if (!node.children.length) {
+      codes[node.label] = prefix;
+      return;
+    }
+    node.children.forEach((child, index) => assign(child, prefix + index));
+  }
+  assign(tree, "");
+  const encoded = sequence.map(command => codes[command]).join("");
+  const entropy = Object.values(counts).reduce((sum, count) => {
+    if (!count) return sum;
+    const p = count / sequence.length;
+    return sum - p * Math.log2(p);
+  }, 0);
+  return {counts, codes, merges, encoded, entropy, tree};
+}
+
+let startHeading = DEFAULT_HEADING;
+let history = [];
+let mission = freshMission(startHeading);
+let currentHuffman;
+let currentSequence;
+
+function replay() {
+  const result = freshMission(startHeading);
+  for (const group of history) {
+    for (const command of group) {
+      if (step(result, command)) throw new Error("Neplatný uložený tah.");
+    }
+  }
+  return result;
+}
+
+try {
+  const saved = JSON.parse(localStorage.getItem(SAVE_KEY) ?? "null");
+  if (saved && [0, 1, 2, 3].includes(saved.heading) && Array.isArray(saved.history)) {
+    if (!saved.history.every(group => Array.isArray(group) && group.length &&
+        group.every(command => COMMANDS.includes(command)))) throw new Error("Neplatné povely.");
+    startHeading = saved.heading;
+    history = saved.history;
+    mission = replay();
+  }
+} catch {
+  startHeading = DEFAULT_HEADING;
+  history = [];
+  mission = freshMission(startHeading);
+}
+
+function save() {
+  try {
+    localStorage.setItem(SAVE_KEY, JSON.stringify({heading: startHeading, history}));
+  } catch {
+    // The mission remains usable when browser storage is unavailable.
+  }
+}
+
+function message(text, kind = "") {
+  element("status").textContent = text;
+  element("status").dataset.kind = kind;
+}
+
+function statusAfterMove(commands) {
+  if (mission.finished) {
+    message("Mise splněna. Všechny fotky a vzorky jsou odeslané.", "success");
+    return;
+  }
+  const last = commands.at(-1);
+  const where = position(mission) + " · " + HEADINGS[mission.heading] + ".";
+  const feedback = {
+    Ph: "Fotka pořízena. ", Pi: "Vzorek odebrán. ", Ch: "Baterie nabita. ", T: "Paměť vyprázdněna. ",
+  };
+  message((feedback[last] ?? "") + where + (mission.storage === 3 ? " Paměť je plná, další odběr vyžaduje T." : ""));
+}
+
+function keepRoverInView() {
+  const rover = element("map").querySelector(".current");
+  const frame = rover.closest(".map-frame");
+  const tileBox = rover.getBoundingClientRect();
+  const frameBox = frame.getBoundingClientRect();
+  if (tileBox.left < frameBox.left + 14 || tileBox.right > frameBox.right - 14) {
+    frame.scrollLeft += tileBox.left + tileBox.width / 2 - (frameBox.left + frameBox.width / 2);
+  }
+}
+
+function act(commands) {
+  const next = {
+    ...mission, photos: new Set(mission.photos), samples: new Set(mission.samples), visited: new Set(mission.visited),
+  };
+  for (const command of commands) {
+    const error = step(next, command);
+    if (error) {
+      message(error, "error");
+      return;
+    }
+  }
+  history.push(commands);
+  mission = next;
+  save();
+  render();
+  keepRoverInView();
+  statusAfterMove(commands);
+}
+
+function moveTo(row, col) {
+  const direction = DIRECTIONS.findIndex(([dy, dx]) => mission.row + dy === row && mission.col + dx === col);
+  if (direction < 0) {
+    message("Vyber pole o jeden krok nahoru, dolů, doleva nebo doprava.", "error");
+    return;
+  }
+  act(forDirection(mission.heading, direction));
+}
+
+function styleTile(tile) {
+  const photoHeading = PHOTO_TYPES.indexOf(tile);
+  if (photoHeading >= 0) return ["photo", PHOTO_MARKS[photoHeading], "fotka, " + HEADINGS[photoHeading]];
+  return {
+    C: ["charge", "⚡︎", "nabíječka"], P: ["sample", "◆", "vzorek"], G: ["goal", "■", "cíl"],
+    S: ["start", "·", "start"], ".": ["plain", "", "volné pole"],
+  }[tile];
+}
+
+const tileButtons = [];
+function createMap() {
+  const map = element("map");
+  for (let col = -1; col < MAP[0].length; col++) {
+    const label = document.createElement("span");
+    label.className = "coord";
+    label.textContent = col >= 0 ? col + 1 : "";
+    map.append(label);
+  }
+  MAP.forEach((line, row) => {
+    const label = document.createElement("span");
+    label.className = "coord";
+    label.textContent = String.fromCharCode(65 + row);
+    map.append(label);
+    [...line].forEach((tile, col) => {
+      if (tile === "#") {
+        const wall = document.createElement("span");
+        wall.className = "wall";
+        wall.setAttribute("aria-hidden", "true");
+        map.append(wall);
+        return;
+      }
+      const [className, mark, name] = styleTile(tile);
+      const button = document.createElement("button");
+      button.className = "tile " + className;
+      button.type = "button";
+      const symbol = document.createElement("span");
+      symbol.className = "tile-symbol";
+      symbol.setAttribute("aria-hidden", "true");
+      symbol.textContent = mark;
+      button.append(symbol);
+      button.addEventListener("click", () => moveTo(row, col));
+      tileButtons.push({button, symbol, mark, name, row, col});
+      map.append(button);
+    });
+  });
+}
+
+function renderMap() {
+  for (const {button, symbol, mark, name, row, col} of tileButtons) {
+    const square = keyOf(row, col);
+    const distance = Math.abs(row - mission.row) + Math.abs(col - mission.col);
+    const current = distance === 0;
+    const visited = mission.visited.has(square);
+    const done = mission.photos.has(square) || mission.samples.has(square);
+    button.classList.toggle("current", current);
+    button.classList.toggle("visited", visited);
+    button.classList.toggle("next", distance === 1 && !mission.finished);
+    button.classList.toggle("done", done);
+    button.style.setProperty("--heading", mission.heading * 90 + "deg");
+    button.tabIndex = distance === 1 && !mission.finished ? 0 : -1;
+    const label = position({row, col}) + " · " + name +
+      (done ? " · splněno" : "") + (current ? " · rover míří na " + HEADINGS[mission.heading] : "");
+    button.title = label;
+    button.setAttribute("aria-label", label);
+    symbol.textContent = mark || (visited && !current ? "·" : "");
+  }
+}
+
+function drawTree(tree, canvas = element("tree"), paper = false) {
+  if (!tree) return;
+  const width = paper ? 680 : Math.max(450, Math.floor(canvas.clientWidth));
+  const scale = paper ? 2 : window.devicePixelRatio || 1;
+  const ordered = [];
+  let topDepth = 0;
+  let leafIndex = 0;
+  function place(node, depth) {
+    topDepth = Math.max(topDepth, depth);
+    const point = {node, depth, children: node.children.map(child => place(child, depth + 1))};
+    point.x = point.children.length ? (point.children[0].x + point.children[1].x) / 2 : leafIndex++;
+    ordered.push(point);
+    return point;
+  }
+  place(tree, 0);
+  const height = 49 + topDepth * 49;
+  canvas.style.height = height + "px";
+  canvas.width = width * scale;
+  canvas.height = height * scale;
+  const context = canvas.getContext("2d");
+  if (!context) return;
+  context.scale(scale, scale);
+  if (paper) {
+    context.fillStyle = "#ffffff";
+    context.fillRect(0, 0, width, height);
+  }
+  const x = point => 25 + point.x * (width - 50) / (leafIndex - 1);
+  const y = point => 23 + point.depth * 49;
+  context.textAlign = "center";
+  context.textBaseline = "middle";
+  context.font = "12px ui-monospace, monospace";
+  ordered.forEach(point => point.children.forEach((child, bit) => {
+    const startX = x(point), endX = x(child), startY = y(point), endY = y(child);
+    context.strokeStyle = paper ? "#3d4651" : "#71829a";
+    context.beginPath();
+    context.moveTo(startX, startY);
+    context.lineTo(endX, endY);
+    context.stroke();
+    const midX = (startX + endX) / 2, midY = (startY + endY) / 2;
+    context.fillStyle = paper ? "#ffffff" : "#191e29";
+    context.fillRect(midX - 7, midY - 7, 14, 14);
+    context.fillStyle = paper ? "#172435" : "#e4edfb";
+    context.fillText(String(bit), midX, midY + 1);
+  }));
+  for (const point of ordered) {
+    const centerX = x(point), centerY = y(point);
+    const leaf = !point.node.children.length;
+    const label = leaf ? point.node.label + " " + point.node.weight : String(point.node.weight);
+    const halfWidth = Math.max(13, Math.ceil(context.measureText(label).width / 2) + 5);
+    context.fillStyle = paper ? "#f2f5f8" : leaf ? "#243746" : "#262f3d";
+    context.strokeStyle = paper ? "#536272" : leaf ? "#6295a5" : "#566880";
+    context.beginPath();
+    context.roundRect(centerX - halfWidth, centerY - 11, halfWidth * 2, 22, 5);
+    context.fill();
+    context.stroke();
+    context.fillStyle = paper ? "#172435" : leaf ? "#b6ebf3" : "#f0f4fa";
+    context.fillText(label, centerX, centerY + 1);
+  }
+}
+
+const decimal = value => value.toLocaleString("cs-CZ", {minimumFractionDigits: 0, maximumFractionDigits: 3});
+function measurements(sequence, huffman) {
+  const fixed = sequence.length * 3;
+  const bits = huffman.encoded.length;
+  return {fixed, bits, average: bits / sequence.length, entropy: huffman.entropy,
+    saved: fixed - bits, percent: 100 * (fixed - bits) / fixed};
+}
+
+const frequencyCells = Object.fromEntries(COMMANDS.map(command => {
+  const row = element("frequencyRows").insertRow();
+  row.insertCell().textContent = command;
+  return [command, [row.insertCell(), row.insertCell()]];
+}));
+function renderCompression(sequence, result) {
+  for (const command of COMMANDS) {
+    const [countCell, codeCell] = frequencyCells[command];
+    countCell.textContent = result.counts[command];
+    codeCell.textContent = result.codes[command] ?? "—";
+    codeCell.className = "mono";
+  }
+  const calculated = measurements(sequence, result);
+  for (const [id, value] of Object.entries(calculated)) {
+    element(id).textContent = sequence.length ? decimal(value) : "—";
+  }
+  element("encoded").value = result.encoded;
+  element("treeEmpty").hidden = !!result.tree;
+  element("treeScroll").hidden = !result.tree;
+  element("mergeDetails").hidden = !result.tree;
+  element("merges").replaceChildren(...result.merges.map(([left, right, parent]) => {
+    const item = document.createElement("li");
+    const leftLabel = left.label + " [" + left.weight + "]";
+    const rightLabel = right.label + " [" + right.weight + "]";
+    item.textContent = leftLabel + " + " + rightLabel + " → " + parent.weight;
+    return item;
+  }));
+  drawTree(result.tree);
+}
+
+function render() {
+  renderMap();
+  element("copyStatus").hidden = true;
+  currentSequence = history.flat();
+  currentHuffman = buildHuffman(currentSequence);
+  element("energy").textContent = mission.energy + " / 10";
+  element("energyBar").value = mission.energy;
+  element("storage").textContent = mission.storage + " / 3";
+  element("storageBar").value = mission.storage;
+  element("photos").textContent = mission.photos.size + " / " + photoTotal;
+  element("samples").textContent = mission.samples.size + " / " + sampleTotal;
+  element("transmissions").textContent = mission.transmissions;
+  element("heading").value = startHeading;
+  element("heading").disabled = history.length > 0;
+  element("undo").disabled = !history.length;
+  element("reset").disabled = !history.length && startHeading === DEFAULT_HEADING;
+  const actions = element("actions").querySelectorAll("button");
+  actions.forEach(button => {
+    button.disabled = mission.finished;
+    const error = blocked(mission, button.dataset.command);
+    button.title = error;
+    button.classList.toggle("ready", ["Ph", "Pi", "Ch", "T"].includes(button.dataset.command) &&
+      !error && (button.dataset.command !== "T" || mission.storage > 0));
+  });
+  element("commandCount").textContent = currentSequence.length ? "· " + currentSequence.length : "";
+  element("sequence").value = currentSequence.join(", ");
+  element("copySequence").disabled = !currentSequence.length;
+  element("copyBits").disabled = !currentSequence.length;
+  renderCompression(currentSequence, currentHuffman);
+}
+
+function summarizeRoute(sequence, heading) {
+  const state = freshMission(heading);
+  const directions = ["north", "east", "south", "west"];
+  const events = [];
+  let minEnergy = state.energy;
+  let peakStorage = state.storage;
+  let sent = 0;
+  sequence.forEach((command, index) => {
+    const previousEnergy = state.energy;
+    const previousStorage = state.storage;
+    const error = step(state, command);
+    if (error) throw new Error(error);
+    minEnergy = Math.min(minEnergy, state.energy);
+    peakStorage = Math.max(peakStorage, state.storage);
+    const event = {
+      Ph: "Photo facing " + directions[state.heading] + ". Storage " + previousStorage + " → " + state.storage,
+      Pi: "Sample collected. Storage " + previousStorage + " → " + state.storage,
+      Ch: "Battery " + previousEnergy + " → " + state.energy,
+      T: previousStorage + (previousStorage === 1 ? " item sent." : " items sent.") + " Storage " + previousStorage + " → 0",
+    }[command];
+    if (event) events.push([index + 1, position(state), command, event]);
+    if (command === "T") sent += previousStorage;
+  });
+  return {state, events, minEnergy, peakStorage, sent, startDirection: directions[heading]};
+}
+
+function createWorksheet(sequence, huffman, heading, author, reason) {
+  const {state, events, minEnergy, peakStorage, sent, startDirection} = summarizeRoute(sequence, heading);
+  const {fixed, bits, average, entropy, saved, percent} = measurements(sequence, huffman);
+  const headingBlock = value => ({tag: "h3", value});
+  const paragraph = value => ({tag: "p", value});
+  const data = value => ({tag: "p", value, style: "report-data"});
+  const table = (headers, rows) => ({tag: "table", headers, rows});
+  const blocks = [
+    headingBlock("Mars Rover Mission"),
+    {tag: "p", value: state.finished ? "Mission completed" : "Draft · mission in progress",
+      style: state.finished ? "complete" : "draft"},
+  ];
+  if (author) blocks.push({tag: "p", value: author, style: "report-note"});
+  blocks.push(
+    headingBlock("1. Mission plan and validation"),
+    paragraph("Start " + position(START) + " facing " + startDirection + ". " +
+      (state.finished ? "Destination reached at " : "Current position ") + position(state) + ". " +
+      "Forward moves " + huffman.counts.F + ". Charging actions " + huffman.counts.Ch + "."),
+    paragraph("Photos " + state.photos.size + "/" + photoTotal + ". Samples " + state.samples.size + "/" + sampleTotal +
+      ". Data items sent " + sent + " across " + state.transmissions + " transmissions. " +
+      "Lowest battery " + minEnergy + "/10. Peak storage " + peakStorage +
+      "/3. Storage at " + (state.finished ? "destination " : "current position ") + state.storage + "/3."),
+  );
+  if (reason) blocks.push({tag: "p", value: "Route explanation\n" + reason, style: "report-note"});
+  if (events.length) blocks.push(table(["Command no.", "Square", "Command", "What happened"], events));
+  const rows = COMMANDS.map(command => {
+    const code = huffman.codes[command];
+    return [command, huffman.counts[command], code, huffman.counts[command] * code.length];
+  });
+  const merges = huffman.merges.map(([left, right, parent]) =>
+    left.label + " [" + left.weight + "] + " + right.label + " [" + right.weight + "] → " + parent.weight);
+  const firstCommands = sequence.slice(0, 6);
+  const example = firstCommands.map(command => command + " → " + huffman.codes[command]).join(" · ");
+  blocks.push(
+    headingBlock("2. Complete instruction sequence"),
+    data(sequence.join(", ")),
+    headingBlock("3 and 5. Frequencies and Huffman codes"),
+    table(["Instruction", "Frequency", "Huffman code", "Bits used"], rows),
+    paragraph("Bits used for each instruction = frequency × code length."),
+    headingBlock("4. Huffman tree"),
+    paragraph("Each step joins the two nodes with the lowest remaining weights. Read a code from the root to its leaf. The left branch is 0 and the right branch is 1."),
+    {tag: "tree"},
+    {tag: "ol", rows: merges},
+    headingBlock("6. Encoded mission"),
+    paragraph("Beginning of the sequence (" + firstCommands.length + " commands)"),
+    data(example + "\n" + firstCommands.map(command => huffman.codes[command]).join("")),
+    paragraph("Complete binary message"),
+    data(huffman.encoded),
+    paragraph("Huffman size = sum of the bits used in the table = " + bits + " bits."),
+    paragraph("Average = " + bits + " ÷ " + sequence.length + " = " + average.toFixed(3) + " bits/command."),
+    paragraph("Entropy = −Σ p × log₂(p) = " + entropy.toFixed(3) + " bits/command. Here p is the instruction frequency divided by " +
+      sequence.length + ", and the sum includes the instructions used at least once."),
+    headingBlock("7. Comparison with fixed-length encoding"),
+    paragraph("Number of instructions = " + sequence.length + ". Eight possible instructions require 3 bits each with a fixed-length code."),
+    paragraph("Fixed-length size = " + sequence.length + " × 3 = " + fixed + " bits."),
+    paragraph("Bits saved = " + fixed + " − " + bits + " = " + saved + " bits."),
+    paragraph("Percentage saved = " + saved + " ÷ " + fixed + " × 100 = " + percent.toFixed(3) + "%."),
+  );
+  return blocks;
+}
+
+function reportElement(block, treeImage) {
+  if (block.tag === "tree") {
+    const graphic = document.createElement("img");
+    graphic.className = "report-tree";
+    graphic.alt = "Huffman tree with node weights and 0/1 branch labels";
+    graphic.src = treeImage;
+    return graphic;
+  }
+  const node = document.createElement(block.tag);
+  if (block.tag === "table") {
+    const header = node.createTHead().insertRow();
+    for (const label of block.headers) {
+      const cell = document.createElement("th");
+      cell.scope = "col";
+      cell.textContent = label;
+      header.append(cell);
+    }
+    const body = node.createTBody();
+    for (const row of block.rows) {
+      const line = body.insertRow();
+      for (const value of row) line.insertCell().textContent = value;
+    }
+  } else if (block.tag === "ol") {
+    for (const value of block.rows) {
+      const item = document.createElement("li");
+      item.textContent = value;
+      node.append(item);
+    }
+  } else {
+    node.textContent = block.value;
+    if (block.style) node.className = block.style;
+  }
+  return node;
+}
+
+const exportDialog = element("exportDialog");
+let worksheetBlocks = [];
+let worksheetTree = "";
+function updateWorksheet() {
+  worksheetBlocks = createWorksheet(currentSequence, currentHuffman, startHeading,
+    element("exportAuthor").value.trim(), element("exportReason").value.trim());
+  const report = element("report");
+  report.lang = "en";
+  report.replaceChildren(...worksheetBlocks.map(block => reportElement(block, worksheetTree)));
+}
+
+function openWorksheet() {
+  const ready = currentSequence.length > 0;
+  element("handoffCheck").dataset.kind = mission.finished ? "complete" : "progress";
+  element("handoffTitle").textContent = mission.finished ? "Mise je hotová" : "Mise je rozpracovaná";
+  element("handoffHint").textContent = mission.finished ? "Rover dojel do cíle. Můžeš vyplnit pracovní list."
+    : "Pořiď všechny fotky, seber vzorky, odešli data a dojeď do cíle.";
+  element("handoffPhotos").textContent = "Fotky " + mission.photos.size + "/" + photoTotal;
+  element("handoffSamples").textContent = "Vzorky " + mission.samples.size + "/" + sampleTotal;
+  element("handoffStorage").textContent = mission.finished ? "Data odeslána" : "Data v paměti " + mission.storage + "/3";
+  for (const id of ["copyWorksheet", "downloadTree", "printWorksheet"]) element(id).disabled = !ready;
+  element("exportStatus").hidden = true;
+  element("worksheetFallback").hidden = true;
+  if (ready) {
+    const {fixed, bits} = measurements(currentSequence, currentHuffman);
+    element("exportExplanation").textContent =
+      "Nástroj spočítal, kolikrát se každý povel opakuje. Časté povely díky Huffmanovu stromu obvykle dostanou kratší kód. " +
+      "Výsledek využívá " + bits + " z původních " + fixed + " bitů.";
+    const canvas = document.createElement("canvas");
+    drawTree(currentHuffman.tree, canvas, true);
+    worksheetTree = canvas.toDataURL("image/png");
+    updateWorksheet();
+  } else {
+    element("exportExplanation").textContent = "Jakmile zadáš povely, uvidíš, kolik bitů zabírají a jak vznikl jejich kód.";
+    element("report").lang = "cs";
+    element("report").textContent = "Náhled se objeví po prvním povelu.";
+  }
+  exportDialog.showModal();
+  exportDialog.scrollTop = 0;
+  element("handoffTitle").focus();
+}
+
+function worksheetText() {
+  return worksheetBlocks.map(block => {
+    if (block.tag === "table") return [block.headers, ...block.rows].map(row => row.join("\t")).join("\n");
+    if (block.tag === "ol") return block.rows.map((row, index) => (index + 1) + ". " + row).join("\n");
+    if (block.tag === "tree") return "[Insert the Huffman tree PNG here.]";
+    return block.value;
+  }).join("\n\n");
+}
+
+async function copy(text, label, noteId = "copyStatus") {
+  let ok = false;
+  try {
+    await navigator.clipboard.writeText(text);
+    ok = true;
+  } catch {
+    const field = document.createElement("textarea");
+    field.value = text;
+    field.style.cssText = "position:fixed;left:-9999px;top:0";
+    const focus = document.activeElement;
+    (exportDialog.open ? exportDialog : document.body).append(field);
+    field.select();
+    try { ok = document.execCommand("copy"); } catch {}
+    field.remove();
+    focus?.focus();
+  }
+  const note = element(noteId);
+  note.textContent = ok ? "Text je ve schránce." : "Text je označený. Zkopíruj ho klávesovou zkratkou.";
+  note.hidden = false;
+  if (!ok) {
+    const output = element(label);
+    output.value = text;
+    output.hidden = false;
+    output.focus();
+    output.select();
+  }
+}
+
+element("heading").addEventListener("change", event => {
+  if (history.length) return;
+  startHeading = Number(event.target.value);
+  mission = freshMission(startHeading);
+  save();
+  render();
+  message("Start " + position(mission) + " · rover míří na " + HEADINGS[mission.heading] + ".");
+});
+element("actions").addEventListener("click", event => {
+  const button = event.target.closest("button[data-command]");
+  if (button) act([button.dataset.command]);
+});
+element("undo").addEventListener("click", () => {
+  if (!history.length) return;
+  const removed = history.pop();
+  mission = replay();
+  save();
+  render();
+  keepRoverInView();
+  message("Vráceno " + removed.join(", ") + ". Rover je na poli " + position(mission) + ".");
+});
+element("reset").addEventListener("click", () => {
+  const dialog = element("resetDialog");
+  dialog.returnValue = "cancel";
+  dialog.showModal();
+});
+element("resetDialog").addEventListener("close", event => {
+  if (event.target.returnValue !== "reset") return;
+  history = [];
+  startHeading = DEFAULT_HEADING;
+  mission = freshMission(startHeading);
+  save();
+  render();
+  keepRoverInView();
+  message("Rover je zpět na startu " + position(mission) + ".");
+});
+element("openExport").addEventListener("click", openWorksheet);
+for (const id of ["exportAuthor", "exportReason"]) {
+  element(id).addEventListener("input", () => {
+    if (currentSequence.length) updateWorksheet();
+  });
+}
+element("copyWorksheet").addEventListener("click", () => copy(worksheetText(), "worksheetFallback", "exportStatus"));
+element("downloadTree").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = worksheetTree;
+  link.download = "Mars-Rover-Huffman-Tree.png";
+  exportDialog.append(link);
+  link.click();
+  link.remove();
+});
+element("printWorksheet").addEventListener("click", async () => {
+  if (element("printReport")) return;
+  const printable = element("report").cloneNode(true);
+  printable.id = "printReport";
+  document.body.append(printable);
+  window.addEventListener("afterprint", () => printable.remove(), {once: true});
+  await printable.querySelector("img").decode().catch(() => {});
+  window.print();
+});
+element("copySequence").addEventListener("click", () => copy(element("sequence").value, "sequence"));
+element("copyBits").addEventListener("click", () => copy(element("encoded").value, "encoded"));
+
+const tutorial = element("tutorialDialog");
+const tutorialSteps = [...tutorial.querySelectorAll("[data-tutorial-step]")];
+const exampleSequence = ["F", "F", "F", "F", "L", "T", "F", "T"];
+let tutorialIndex = 0;
+
+function showTutorialStep(index) {
+  tutorialIndex = index;
+  tutorialSteps.forEach((section, i) => { section.hidden = i !== index; });
+  element("tutorialProgress").textContent = "Krok " + (index + 1) + " ze " + tutorialSteps.length;
+  element("tutorialBack").disabled = index === 0;
+  element("tutorialNext").textContent = index === tutorialSteps.length - 1 ? "Hotovo" : "Pokračovat";
+  tutorial.scrollTop = 0;
+  tutorialSteps[index].querySelector("h3").focus();
+}
+
+function showTutorialMove(moved) {
+  const start = element("tutorialStartTile");
+  const destination = element("tutorialMove");
+  const repeat = element("tutorialResetMove");
+  start.classList.toggle("current", !moved);
+  start.textContent = moved ? "·" : "↑";
+  start.setAttribute("aria-label", moved ? "Výchozí pole" : "Rover míří nahoru");
+  destination.classList.toggle("next", !moved);
+  destination.classList.toggle("current", moved);
+  destination.textContent = moved ? "→" : "";
+  destination.setAttribute("aria-label", moved ? "Rover míří doprava" : "Přejít na pole vpravo");
+  destination.disabled = moved;
+  repeat.disabled = !moved;
+  element("tutorialMoveResult").textContent = moved
+    ? forDirection(0, 1).join(", ") + " · Otočení vpravo a krok vpřed."
+    : "Tady uvidíš povely z ukázky.";
+}
+
+element("tutorialMove").addEventListener("click", () => {
+  showTutorialMove(true);
+  element("tutorialResetMove").focus();
+});
+element("tutorialResetMove").addEventListener("click", () => {
+  showTutorialMove(false);
+  element("tutorialMove").focus();
+});
+element("tutorialSequence").textContent = exampleSequence.join(", ");
+element("tutorialEncode").addEventListener("click", event => {
+  const output = element("tutorialEncodeResult");
+  const example = buildHuffman(exampleSequence);
+  output.textContent = "F je tu pětkrát a má kód " + example.codes.F + ". Zpráva " + example.encoded +
+    " má " + example.encoded.length + " bitů. Pevný kód by zabral " + exampleSequence.length * 3 + " bitů.";
+  output.hidden = false;
+  event.currentTarget.setAttribute("aria-expanded", "true");
+});
+element("openTutorial").addEventListener("click", () => {
+  showTutorialMove(false);
+  element("tutorialEncodeResult").hidden = true;
+  element("tutorialEncode").setAttribute("aria-expanded", "false");
+  tutorial.showModal();
+  showTutorialStep(0);
+});
+element("tutorialBack").addEventListener("click", () => showTutorialStep(tutorialIndex - 1));
+element("tutorialNext").addEventListener("click", () => {
+  if (tutorialIndex === tutorialSteps.length - 1) tutorial.close();
+  else showTutorialStep(tutorialIndex + 1);
+});
+
+document.addEventListener("keydown", event => {
+  if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey ||
+      event.target.closest?.("textarea, input, select, dialog, [contenteditable]") ||
+      element("resetDialog").open || tutorial.open || exportDialog.open || mission.finished) return;
+  const direction = ["ArrowUp", "ArrowRight", "ArrowDown", "ArrowLeft"].indexOf(event.key);
+  if (direction < 0) return;
+  event.preventDefault();
+  act(forDirection(mission.heading, direction));
+});
+window.addEventListener("resize", () => drawTree(currentHuffman?.tree));
+
+createMap();
+render();
+keepRoverInView();
+if (history.length) statusAfterMove(history.at(-1));
+else message("Start " + position(mission) + " · rover míří na " + HEADINGS[mission.heading] + ".");
+</script>
+</body>
+</html>
